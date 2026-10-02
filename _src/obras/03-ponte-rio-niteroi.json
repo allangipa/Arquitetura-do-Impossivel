@@ -1,0 +1,329 @@
+{
+  "num": "03",
+  "slug": "ponte-rio-niteroi",
+  "obra": "Ponte Rio–Niterói",
+  "titulo_video": "Ponte Rio–Niterói: 13 km sobre a baía, e uma conta de mortos que nunca fechou",
+  "lugar": "Baía de Guanabara, entre Rio de Janeiro e Niterói, Brasil",
+  "regiao": "brasil",
+  "periodo": "1969–1974",
+  "estreia": "2026-10-22",
+  "impossivel": "Atravessar mais de 13 km de baía com a rocha firme a 50 metros abaixo do mar, um vão alto o bastante para os petroleiros e baixo o bastante para os aviões, com prazo político no auge da ditadura.",
+  "resumo": "Mais de 13 km sobre a baía de Guanabara, um vão de aço espremido entre navios e aviões, e uma conta de mortos que nunca fechou.",
+  "abertura": [
+    "Em 24 de março de 1970, segundo O Globo, um estrado de teste carregado com mais de 2.000 toneladas de água desabou na baía de Guanabara, no Rio de Janeiro, Brasil. A Ponte Rio–Niterói ainda não existia. O teste servia para provar que ela ia ficar de pé, e matou oito homens.",
+    "A obra que saiu dali tem mais de 13 quilômetros, um vão de aço de 300 metros a 72 metros de altura e fundações apoiadas numa rocha a 50 metros abaixo do mar. Foi medida, calculada e contada em cada tubulão e cada aduela. Só uma conta nunca fechou: quantos homens morreram para erguê-la."
+  ],
+  "numeros": [
+    {
+      "valor": "300 m",
+      "rotulo": "vão central, em viga contínua de aço",
+      "conf": "2+"
+    },
+    {
+      "valor": "72 m",
+      "rotulo": "altura no ponto mais alto, o teto imposto pelos aviões",
+      "conf": "2+"
+    },
+    {
+      "valor": "50–60 m",
+      "rotulo": "profundidade da rocha abaixo do nível do mar",
+      "conf": "2+"
+    },
+    {
+      "valor": "1.138",
+      "rotulo": "tubulões de fundação no mar",
+      "conf": "2+"
+    },
+    {
+      "valor": "560 mil m³",
+      "rotulo": "de concreto estrutural",
+      "conf": "2+"
+    },
+    {
+      "valor": "≈ 10 mil",
+      "rotulo": "operários, além de 200 engenheiros",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Nome oficial",
+      "valor": "Ponte Presidente Costa e Silva, pela Lei 5.595, de 28/07/1970, sete meses depois da morte do presidente",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "O regime militar: Costa e Silva enviou o projeto ao Congresso em agosto de 1968; o ministro dos Transportes, Mário Andreazza, conduziu a obra. A Lei 5.512, de 17/10/1968, autorizou a construção",
+      "conf": "2+"
+    },
+    {
+      "item": "Por quê",
+      "valor": "Antes dela, a travessia de carro era a barca, de até 2 horas, ou cerca de 100 km de volta pela baía",
+      "conf": "2+"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Concreto: escritório Noronha (Antonio Alves Noronha Filho e Benjamin Ernani Diaz). Vão de aço: Howard, Needles, Tammen & Bergendoff (HNTB), de Kansas City, EUA",
+      "conf": "2+"
+    },
+    {
+      "item": "Construtoras",
+      "valor": "Consórcio Construtor Rio-Niterói (contrato de 04/12/1968), desapropriado pelo Decreto 68.110, de 26/01/1971; depois, Consórcio Construtor Guanabara (Camargo Corrêa, Mendes Júnior, Rabello). Aço: Redpath Dorman Long e Cleveland Bridge, da Inglaterra, com a Montreal Engenharia",
+      "conf": "2+"
+    },
+    {
+      "item": "Operários",
+      "valor": "Cerca de 10 mil, e 200 engenheiros. Ninguém registrou quantos trabalhavam ao mesmo tempo no pico",
+      "conf": "2+",
+      "nota": "o número de pico não tem fonte"
+    },
+    {
+      "item": "Jornada",
+      "valor": "11 horas em terra (8 normais e 3 compulsórias) e turnos de 24 por 24 horas nas embarcações, segundo O Globo (2014)",
+      "conf": "1"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Prometida para março de 1971; inaugurada em 04/03/1974, cerca de três anos depois",
+      "conf": "2+",
+      "nota": "a duração da obra aparece como 4 anos e meio, 5 ou 6 anos, conforme a fonte"
+    },
+    {
+      "item": "Custo autorizado",
+      "valor": "NCr$ 255.368.800, a preços de julho de 1968 (Lei 5.512)",
+      "conf": "1",
+      "nota": "texto da lei"
+    },
+    {
+      "item": "Empréstimo inglês",
+      "valor": "£ 31 milhões (O Globo, BBC) ou £ 32,2 milhões (Campos, 2025), de bancos ingleses liderados pela N. M. Rothschild & Sons",
+      "conf": "DIV"
+    },
+    {
+      "item": "Custo final",
+      "valor": "Cerca de Cr$ 800 milhões (O Globo, 2014), US$ 400 milhões (Arquivo Nacional) ou US$ 674 milhões (BBC). Todas as contas ficam várias vezes acima do contratado",
+      "conf": "DIV",
+      "nota": "não há conversão para valores de hoje com método declarado"
+    },
+    {
+      "item": "Mortes",
+      "valor": "33 é o número oficial atribuído ao governo, sem documento publicado. O Globo contou 18 em jornais até novembro de 1972; o engenheiro Bruno Contarini diz “no máximo 30”; o engenheiro Carlos Henrique Siqueira, cerca de 40; o Arquivo Nacional, “no mínimo 40”; estimativas não oficiais chegam a 400",
+      "conf": "DIV"
+    },
+    {
+      "item": "Acidente de 1970",
+      "valor": "Teste de carga desabou em 24/03/1970 (O Globo; outras fontes dão o dia 25). 8 mortos, segundo O Globo e Contarini; 12, segundo o repórter Romildo Guerrante, de memória",
+      "conf": "DIV"
+    },
+    {
+      "item": "Extensão",
+      "valor": "13,29 km (concessionária) ou 13,2 km (Ibracon); sobre a água, entre 8,6 e 8,9 km",
+      "conf": "DIV"
+    },
+    {
+      "item": "Estrutura",
+      "valor": "Vão central de 300 m entre dois de 200 m, em vigas-caixão de aço; gabarito de navegação de 60 m; 72 m no ponto mais alto; aço do vão: 13.100 t (Upstone, 1974) ou 14.000 t (CBCA)",
+      "conf": "2+",
+      "nota": "o peso do aço diverge"
+    },
+    {
+      "item": "Depois",
+      "valor": "Administrada pelo DNER até 1995, depois concedida; hoje Ecovias Ponte, com contrato até 2045/2046. Pedágio de R$ 6,60 desde 18/03/2026",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Cem anos de baía sem ponte, e a ponte do regime",
+      "paragrafos": [
+        "Até 1974, quem quisesse ir de carro do Rio de Janeiro a Niterói tinha duas escolhas. Esperar a barca, que levava pouco mais de 50 carros e podia gastar até duas horas na travessia, ou contornar a baía de Guanabara por cerca de 100 quilômetros de estrada. A ideia de ligar as margens é antiga. Em 1875, o engenheiro inglês Hamilton Lindsay-Bucknall apresentou a D. Pedro II um túnel ferroviário sob a baía, com cerca de 6 metros de diâmetro. Não saiu, por falta de dinheiro. Em 1935, um projeto de ponte pênsil foi desenhado e hoje está no Arquivo Nacional. Vieram outros, de ponte e de túnel, um grupo de trabalho em 1963 e uma comissão executiva em 1965. A baía continuou sem nada.",
+        "Quem tirou a ponte do papel foi o regime militar. Em 23 de agosto de 1968, o projeto de lei do presidente Costa e Silva foi lido no Congresso. Em 17 de outubro, a Lei 5.512 autorizou a obra com NCr$ 255.368.800, a preços de julho daquele ano. Em 13 de dezembro, o AI-5 fechou o mesmo Congresso que a aprovara.",
+        "Entre uma data e outra, em 9 de novembro de 1968, a rainha Elizabeth II, do Reino Unido, em sua única visita ao Brasil, descerrou a placa do início das obras. O dinheiro inglês fazia parte do arranjo: um empréstimo de mais de 30 milhões de libras, de bancos liderados pela N. M. Rothschild & Sons, com a condição de que firmas inglesas fizessem o vão central.",
+        "Costa e Silva morreu em dezembro de 1969. A Lei 5.595, de julho de 1970, deu à obra o nome oficial de Ponte Presidente Costa e Silva. Quase ninguém a chama assim."
+      ]
+    },
+    {
+      "titulo": "Entre o navio e o avião",
+      "paragrafos": [
+        "O primeiro problema estava no ar. Os petroleiros que iam ao terminal da Petrobras, no fundo da baía, precisavam de 60 metros livres para passar: era a exigência da Marinha. Mas a ponte cruza a rota de aproximação do Galeão e do Santos Dumont, os dois aeroportos do Rio, e a Aeronáutica não admitia nada acima de 72 metros.",
+        "Entre o casco e a asa sobraram 12 metros para caber a pista e a estrutura que a sustenta. O vão central ficou, no ponto mais alto, com 72 metros. Para vencer a largura do canal de navegação, a HNTB projetou uma viga contínua de aço com 300 metros de vão entre dois vãos de 200. O próprio projetista, H. J. Graham, escreveu em 1976 que o vão superava em 39 metros o maior rival da época."
+      ]
+    },
+    {
+      "titulo": "A rocha lá embaixo, e o teste que caiu",
+      "paragrafos": [
+        "O segundo problema estava no fundo. Nos pilares principais, a água tem 21 a 22 metros de profundidade; embaixo dela há lama e areia, e a rocha firme só aparece a 50 ou 60 metros abaixo do nível do mar. A resposta foram 1.138 tubulões: 477 cravados e perfurados na rocha pelo método Bade-Wirth, 199 mistos com estacas de aço e 462 escavados por dentro, por homens, com o tubo cheio de ar comprimido para segurar a água do lado de fora.",
+        "Antes de confiar nos tubulões, era preciso provar que aguentavam. O teste de carga era exigência contratual do Ministério dos Transportes. Segundo o relato de O Globo, uma plataforma com 34 tubulões de 22 metros, cheios de água, somava mais de 2.000 toneladas quando, faltando encher o último, veio um estrondo e o estrado desabou. Afundaram uma chata e um guindaste.",
+        "O Globo situa o acidente na tarde de 24 de março de 1970; o repórter Romildo Guerrante, que cobriu a obra, fala em 25. O Globo, o Arquivo Nacional, a revista do Ibracon e o engenheiro Bruno Contarini, que trabalhou na obra, contam 8 mortos, três engenheiros e cinco operários. Guerrante, de memória, fala em 12. O acidente saiu nas capas dos jornais no dia seguinte. A obra parou até fevereiro de 1971."
+      ]
+    },
+    {
+      "titulo": "O governo toma a obra",
+      "paragrafos": [
+        "O primeiro consórcio, contratado em dezembro de 1968, estava atrasado muito antes do acidente. Em janeiro de 1971, o governo admitiu que só 20% da ponte estavam feitos; segundo a revista do Ibracon, o consórcio já havia consumido 70% do preço. Em 26 de janeiro de 1971, o Decreto 68.110 declarou de utilidade pública os bens do próprio Consórcio Construtor Rio-Niterói, para desapropriação urgente.",
+        "A obra passou a uma empresa pública criada para isso, a ECEX, dirigida pelo coronel João Carlos Guedes, e a um novo grupo, o Consórcio Construtor Guanabara. O MDB tentou abrir uma CPI em 1971 e a maioria da Arena a barrou. Para entregar a ponte antes do fim do governo Médici, segundo o Ibracon, Andreazza e Guedes foram morar no canteiro da Ilha do Fundão, no Rio de Janeiro.",
+        "No Fundão funcionava a fábrica do trecho em concreto. O tabuleiro sobre o mar foi feito de aduelas pré-moldadas, segmentos de cerca de 100 toneladas coladas com epóxi e protendidas por cabos de aço. Foram 3.250 aduelas. Segundo o Ibracon, quatro treliças de montagem avançavam 13 metros por dia, contra 3,2 metros se o concreto fosse moldado no lugar."
+      ]
+    },
+    {
+      "titulo": "Os homens sob pressão",
+      "paragrafos": [
+        "Trabalharam na ponte cerca de 10 mil operários e 200 engenheiros. O historiador Pedro Campos, da UFRRJ, descreve a maioria como homens jovens, negros e mulatos, muitos migrantes do Nordeste, ganhando de um a dois salários mínimos, sob um regime de disciplina e vigilância particularmente intenso. Segundo O Globo, eram 11 horas por dia em terra e turnos de 24 por 24 horas nas embarcações, com uma guarda de 400 homens e proibição de falar com estranhos. Fotos da época mostram operários de sandália e bermuda, sem capacete.",
+        "Os 462 tubulões a ar comprimido cobraram outro preço. Quem desce numa câmara pressurizada e sobe depressa demais forma bolhas de nitrogênio no sangue: dor nas articulações, paralisia e, anos depois, necrose dos ossos do ombro e do quadril. É o antigo mal dos caixões. Que ele atingiu os operários da ponte em massa, as fontes concordam. Quantos, não: os números publicados vão de 1.226 casos a cerca de 2.000 e chegam a 45 mil, e nenhum deles é verificável hoje."
+      ]
+    },
+    {
+      "titulo": "O vão que veio da Inglaterra",
+      "paragrafos": [
+        "A peça do meio foi fabricada na Inglaterra e atravessou o Atlântico de navio até o canteiro da Ilha do Caju, no Rio de Janeiro. Ali, o trecho central de 176 metros, com mais de 3.000 toneladas, foi montado no chão, levado flutuando até o vão e erguido cerca de 67 metros por macacos hidráulicos. Segundo o projetista, os vãos laterais subiram em três dias e meio do lado de Niterói e três do lado do Rio. A única data que se tem para o fechamento é uma legenda de O Globo: 1973.",
+        "Em 4 de janeiro de 1974, dois meses antes da inauguração, um cabo de aço se rompeu no pilar 21 e uma passarela caiu de 32 metros com oito homens; seis morreram, segundo O Globo. Em 4 de março de 1974, o presidente Médici atravessou a ponte com Andreazza e a inaugurou. Houve uma missa pelos mortos da obra. Segundo o Arquivo Nacional, as famílias deles não foram convidadas.",
+        "O número que ficou é 33, atribuído ao governo e repetido desde então, sem que nenhum documento oficial com essa contagem tenha sido publicado. A única contagem com método, o levantamento de O Globo nos jornais, chegou a 18 mortos em oito acidentes até novembro de 1972, e para aí: segundo um estudo da UFF, a partir de 1971 as notícias de acidentes somem das páginas. Os depoimentos vão de “no máximo 30” a “cerca de 40”; as estimativas sem documento, a 400."
+      ]
+    },
+    {
+      "titulo": "Cada chapa medida",
+      "paragrafos": [
+        "Meio século depois, a ponte é inspecionada peça por peça. Um relatório entregue à ANTT em março de 2024 mediu as camisas de aço dos tubulões de um dos eixos: numa das chapas, a corrosão já tinha consumido 90,35% da espessura. O mesmo relatório lembra que a camisa foi feita como fôrma, não como estrutura, e que ainda resta muita seção a ser consumida, mas avisa que dali em diante o avanço será bem mais rápido. O responsável técnico é Carlos Henrique Siqueira, o mesmo engenheiro que trabalhou na obra nos anos 1970.",
+        "Desde 2023, a concessionária reforça as aduelas com novos cabos de protensão em 70 eixos, cerca de 700 das 3.250, porque parte dos cabos originais perdeu tensão com o tempo. Em junho de 2026, o vídeo de um caiaqueiro mostrando corrosão no pilar 84 circulou nas redes; a Ecovias Ponte respondeu que se trata de um pilar desativado, sem função estrutural, e monitorado. A explicação técnica é só dela."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Operários foram concretados dentro dos pilares.",
+      "registro": "É relato, repetido por um professor aposentado da UFRJ e pelo repórter Romildo Guerrante. Não há nome, caso ou documento que o sustente."
+    },
+    {
+      "circula": "Morreram 400 homens na obra.",
+      "registro": "É estimativa não oficial, sem documento. O número oficial, 33, também não tem documento publicado. As contagens conhecidas vão de 18, nos jornais até 1972, a “no mínimo 40”, segundo o Arquivo Nacional."
+    },
+    {
+      "circula": "A rainha Elizabeth II inaugurou a ponte.",
+      "registro": "Ela descerrou a placa do início das obras, em 9 de novembro de 1968. Quem inaugurou foi Médici, em 4 de março de 1974."
+    },
+    {
+      "circula": "A ponte é obra dos ingleses.",
+      "registro": "Inglês é o vão central de aço, e o empréstimo. O projeto do resto é do escritório brasileiro Noronha, e a construção é brasileira."
+    },
+    {
+      "circula": "São 13 km de ponte sobre o mar.",
+      "registro": "São cerca de 13,3 km no total, dos quais perto de 8,8 km sobre a água."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Lei nº 5.512, de 17/10/1968, autoriza a construção da Ponte Rio-Niterói",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-5512-17-outubro-1968-358661-publicacaooriginal-1-pl.html"
+    },
+    {
+      "texto": "Lei nº 5.595, de 28/07/1970, denomina “Presidente Costa e Silva” a ponte",
+      "url": "https://www2.camara.leg.br/legin/fed/lei/1970-1979/lei-5595-28-julho-1970-358621-publicacaooriginal-1-pl.html"
+    },
+    {
+      "texto": "Decreto nº 68.110, de 26/01/1971, desapropriação do Consórcio Construtor Rio-Niterói",
+      "url": "https://www2.camara.leg.br/legin/fed/decret/1970-1979/decreto-68110-26-janeiro-1971-410127-publicacaooriginal-1-pe.html"
+    },
+    {
+      "texto": "Pedro Henrique Pedreira Campos, “A ponte da ditadura”, Tempo v.31 n.2, 2025",
+      "url": "https://www.scielo.br/j/tem/a/x8Drb8qbhnppZPj3MhKhwFc/?lang=pt"
+    },
+    {
+      "texto": "Pedro Henrique Pedreira Campos, verbete LMT#99, Laboratório de Estudos de História dos Mundos do Trabalho, 2021",
+      "url": "https://lehmt.org/lmt99-ponte-rio-niteroi-niteroi-rj-pedro-campos/"
+    },
+    {
+      "texto": "Fábio Luís Pedroso, “Soluções pioneiras no projeto e execução da Ponte Rio-Niterói”, Concreto & Construções n.113, Ibracon, 2024",
+      "url": "https://www.ibracon.org.br/Site_revista/Concreto_Construcoes/pdfs/edicao113/obra_ponte%20rio_niteroi.pdf"
+    },
+    {
+      "texto": "H. J. Graham (HNTB), “Design of the Rio-Niteroi Bridge”, Transportation Research Record 607, 1976",
+      "url": "https://onlinepubs.trb.org/Onlinepubs/trr/1976/607/607-008.pdf"
+    },
+    {
+      "texto": "T. J. Upstone, artigo sobre a montagem do vão de aço, Building With Steel, 1974, reproduzido pela New Steel Construction",
+      "url": "https://www.newsteelconstruction.com/wp/rio-niteroi-bridge/"
+    },
+    {
+      "texto": "T. J. Upstone e D. Reily, “Construction of the navigation spans of the Rio Niteroi bridge”, Proc. Institution of Civil Engineers v.66, 1979",
+      "url": "https://trid.trb.org/view/141091"
+    },
+    {
+      "texto": "O Globo, “Travessia: Ponte Rio-Niterói, 40 anos”, especial, 2014",
+      "url": "https://infograficos.oglobo.globo.com/pais/ponte-rio-niteroi.html"
+    },
+    {
+      "texto": "Arquivo Nacional, “Ponte Rio-Niterói: obra de sangue, silêncio e concreto”, série Que República é essa?, 2025",
+      "url": "https://querepublicaeessa.an.gov.br/index.php/que-republica-e-essa/assuntos/para-nao-esquecer/568-ponte-rio-niteroi-obra-de-sangue-silencio-e-concreto"
+    },
+    {
+      "texto": "Ana Beatriz Camarinha e Matheus Sinder (UFF), “Nas águas da Guanabara, a Ponte Rio-Niterói: o AI-5 como política econômica”, Seminário de Diamantina, 2024",
+      "url": "https://diamantina.cedeplar.ufmg.br/portal/download/diamantina-2024/D20_232.pdf"
+    },
+    {
+      "texto": "Ecoponte/ANTT, relatório de monitoração das fundações a ar comprimido, março de 2024",
+      "url": "https://www.gov.br/antt/pt-br/assuntos/rodovias/concessionarias/lista-de-concessoes/ecoponte/relatorios/relatorios-de-monitoracao/2024/rt-br0000101-321-6-334-5c7-c026002_r2_removed.pdf"
+    },
+    {
+      "texto": "Agência Brasil, “Com fluxo diário de 150 mil veículos, Ponte Rio-Niterói faz 50 anos”, 2024 (republicado pelo Clube de Engenharia)",
+      "url": "https://portalclubedeengenharia.org.br/artigo/com-fluxo-diario-de-150-mil-veiculos-ponte-rio-niteroi-faz-50-anos/"
+    },
+    {
+      "texto": "Norwil Veloso, “A saga da Ponte Rio-Niterói”, Revista M&T n.259, 2021",
+      "url": "https://www.revistamt.com.br/Materias/Exibir/a-saga-da-ponte-rio-niteroi"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "03-ponte-rio-niteroi-capa.jpg",
+      "alt": "Vista aérea da Ponte Rio–Niterói atravessando a baía de Guanabara, com a Ilha de Mocanguê e navios em primeiro plano",
+      "legenda": "A ponte sobre a baía de Guanabara, vista do lado de Niterói, com a Ilha de Mocanguê em primeiro plano.",
+      "autor": "Diego Baravelli",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ilha_de_Mocangu%C3%AA_by_Diego_Baravelli.jpg",
+      "recriacao": false,
+      "foco": "30% 60%"
+    },
+    {
+      "arquivo": "03-vao-central.jpg",
+      "alt": "O vão central de aço da Ponte Rio–Niterói visto de baixo, a partir da água, com o sol ao fundo",
+      "legenda": "O vão central de aço, de 300 metros, visto da água.",
+      "autor": "Marinelson Almeida",
+      "licenca": "CC BY 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ponte_Rio-Niter%C3%B3i_por_baixo._(14627171199).jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "03-construcao-1971.jpg",
+      "alt": "Fotografia em preto e branco de pilares da Ponte Rio–Niterói em construção no meio da baía, com guindaste",
+      "legenda": "Pilares em construção, em 10 de maio de 1971. Agência Nacional.",
+      "autor": "Agência Nacional (Arquivo Nacional, BR_RJANRIO_EH_0_FOT_EVE_07338_0012)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Constru%C3%A7%C3%A3o_da_Ponte_Rio-Niter%C3%B3i.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "03-petroleiro.jpg",
+      "alt": "Um petroleiro fundeado na baía de Guanabara, com a Ponte Rio–Niterói ao fundo",
+      "legenda": "Petroleiro na baía: os navios exigiam 60 metros livres sob o vão.",
+      "autor": "Diego Baravelli",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ponte_Rio_Niter%C3%B3i_1_by_Diego_Baravelli.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "03-pilares.jpg",
+      "alt": "Fileira de pilares de concreto da Ponte Rio–Niterói sobre a água, em perspectiva",
+      "legenda": "Os pilares do trecho em concreto, que sustentam o tabuleiro de aduelas.",
+      "autor": "Gian Cornachini",
+      "licenca": "CC BY 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ponte_Rio-Niter%C3%B3i_(35138919983).jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "ponte-do-brooklyn"
+}

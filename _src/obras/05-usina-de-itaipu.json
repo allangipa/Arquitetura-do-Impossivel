@@ -1,0 +1,336 @@
+{
+  "num": "05",
+  "slug": "usina-de-itaipu",
+  "obra": "Usina de Itaipu",
+  "titulo_video": "Itaipu: tiraram o rio do lugar, e em 14 dias uma cachoeira sumiu",
+  "lugar": "Rio Paraná, entre Foz do Iguaçu, Brasil, e Hernandarias, Paraguai",
+  "regiao": "brasil",
+  "periodo": "1975–1984",
+  "estreia": "2026-11-05",
+  "impossivel": "Tirar o rio Paraná do próprio leito para erguer, no seco, uma barragem de 196 m de altura que pertence em partes iguais a dois países.",
+  "resumo": "Como Brasil e Paraguai desviaram o rio Paraná, ergueram Itaipu e cobriram Sete Quedas em 14 dias, e por que a conta dos mortos ainda é uma estimativa.",
+  "abertura": [
+    "Em outubro de 1982, fecharam as comportas de uma barragem no rio Paraná. Em 14 dias, a água subiu até cobrir os saltos de Sete Quedas, uma das maiores cachoeiras do mundo em volume de água. Quatro anos antes, os mesmos construtores tinham feito o contrário: tirado o rio do leito para trabalhar no seco.",
+    "A Usina de Itaipu fica entre Foz do Iguaçu, no Brasil, e Hernandarias, no Paraguai, e é metade de cada país, por tratado. Esta página conta como ela foi erguida, quem ficou no caminho e o que até hoje não tem número firme."
+  ],
+  "numeros": [
+    {
+      "valor": "7.919 m",
+      "rotulo": "extensão total da barragem, somados todos os trechos",
+      "conf": "2+"
+    },
+    {
+      "valor": "196 m",
+      "rotulo": "altura máxima da barragem",
+      "conf": "2+"
+    },
+    {
+      "valor": "14.000 MW",
+      "rotulo": "potência, em 20 unidades de 700 MW",
+      "conf": "2+"
+    },
+    {
+      "valor": "1.350 km²",
+      "rotulo": "área do reservatório",
+      "conf": "2+"
+    },
+    {
+      "valor": "14 dias",
+      "rotulo": "para o lago se formar e cobrir Sete Quedas, em outubro de 1982",
+      "conf": "2+"
+    },
+    {
+      "valor": "+ de 100 mil",
+      "rotulo": "trabalhadores que passaram pela obra, com a rotatividade",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Contexto",
+      "valor": "Nos anos 1960, Brasil e Paraguai disputavam a área de Sete Quedas, na fronteira. A Ata do Iguaçu, de 22/06/1966, assinada em Foz do Iguaçu pelos chanceleres Juracy Magalhães e Raúl Sapena Pastor, encerrou a crise e previu estudar o aproveitamento do rio Paraná até a foz do Iguaçu.",
+      "conf": "2+"
+    },
+    {
+      "item": "Tratado",
+      "valor": "Tratado de Itaipu, 26/04/1973, Brasília, Brasil, assinado por Mário Gibson Barboza e Raúl Sapena Pastor. Cria uma entidade binacional com capital de US$ 100 milhões em partes iguais (Eletrobras e ANDE) e divide a energia em partes iguais.",
+      "conf": "2+",
+      "nota": "capital e divisão da energia lidos no texto do Tratado"
+    },
+    {
+      "item": "Entidade",
+      "valor": "Itaipu Binacional constituída em 17/05/1974.",
+      "conf": "2+"
+    },
+    {
+      "item": "Construtoras",
+      "valor": "Unicon (obras civis da margem brasileira), Conempa (margem paraguaia) e Itamon/CIE (montagem eletromecânica).",
+      "conf": "2+",
+      "nota": "a composição exata de cada consórcio não foi conferida"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Obras a partir de 1975; rio desviado em 20/10/1978; comportas fechadas em 13/10/1982; primeira unidade gerando em 05/05/1984; inauguração em 25/10/1984. A 18ª unidade entrou em 1991; a 19ª e a 20ª, em 2006 e 2007.",
+      "conf": "2+",
+      "nota": "o mês de início em 1975 diverge: janeiro ou outubro"
+    },
+    {
+      "item": "Operários no pico",
+      "valor": "Quase 32 mil no canteiro em 1978, segundo os registros das construtoras citados por pesquisadores e pela Agência Pública; cerca de 40 mil, segundo a Itaipu, contando canteiro e escritórios de apoio no Brasil e no Paraguai.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Operários ao todo",
+      "valor": "Mais de 100 mil passaram pela obra; entre 1978 e 1981, até 5 mil eram contratados por mês. Cerca de 70% brasileiros e 30% paraguaios.",
+      "conf": "2+",
+      "nota": "a proporção por país vem de uma fonte só"
+    },
+    {
+      "item": "Condições",
+      "valor": "Vilas separadas por cargo; vigilância sobre os trabalhadores por uma assessoria de segurança ligada aos órgãos de informação da ditadura; jornadas de até 16 horas relatadas por ex-trabalhadores, sem documento; greves com tropas no canteiro em 1987.",
+      "conf": "1"
+    },
+    {
+      "item": "Mortes de operários",
+      "valor": "106, estimativa da própria Itaipu para 1978–1984. Para 1975–1977 e 1985–1991 não há número oficial. Outras contagens: 40 em 1975–1979 (tese de Ivone Lima, 2004); 56 em 1976–1981, só na Unicon (boletim do consórcio); 138 (livro de Tão Gomes Pinto, 2009); até 800 (ex-técnico de segurança da obra); cerca de mil (fonte anônima da Itaipu à agência EFE, 2013).",
+      "conf": "DIV",
+      "nota": "o número 149, que circula em sites em inglês, não tem origem"
+    },
+    {
+      "item": "Acidentes",
+      "valor": "43.530 acidentes de trabalho entre 1978 e 1984, brasileiros e paraguaios, segundo estimativa da Itaipu. Em 17/12/1981, a queda da lança de um guindaste matou 5 operários.",
+      "conf": "1"
+    },
+    {
+      "item": "Custo",
+      "valor": "Cerca de US$ 12 bilhões (Memória da Eletricidade) ou cerca de US$ 14 bilhões (Itaipu, que fala em US$ 16 bilhões com juros e inflação do período), em dólares da época. A dívida, quitada em 28/02/2023, somou cerca de US$ 63 bilhões pagos, dos quais 27,9 bilhões em encargos: não é o custo da obra.",
+      "conf": "DIV",
+      "nota": "nenhum valor convertido para dinheiro de hoje"
+    },
+    {
+      "item": "Material",
+      "valor": "Mais de 12 milhões de m³ de concreto (a Itaipu dá 12,3, 12,6 e 12,7 milhões); 481.074 t de aço; mais de 50 milhões de m³ de terra e rocha escavados.",
+      "conf": "DIV",
+      "nota": "o aço é dado técnico da Itaipu, fonte única"
+    },
+    {
+      "item": "Máquinas",
+      "valor": "20 unidades de 700 MW: 10 em 50 Hz, a frequência do Paraguai, e 10 em 60 Hz, a do Brasil.",
+      "conf": "2+"
+    },
+    {
+      "item": "Desapropriados",
+      "valor": "No Brasil, 8.519 propriedades (6.913 rurais e 1.606 urbanas), cerca de 101 mil hectares e cerca de 42 mil pessoas; outras fontes falam em 40 mil ou 60 mil atingidos. No Paraguai, o número de desapropriados não indígenas não foi registrado nas fontes consultadas.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Avá-Guarani",
+      "valor": "Em 1977, um grupo de trabalho da Funai e do Incra reconheceu só 11 famílias, 27 pessoas. Em 2025, acordo homologado no STF prevê 3 mil hectares e R$ 240 milhões da Itaipu; em 29/10/2025, União, Funai, Incra e Itaipu publicaram pedido de desculpas.",
+      "conf": "2+",
+      "nota": "a contagem de 1977 vem do relatório da Comissão Estadual da Verdade do Paraná"
+    },
+    {
+      "item": "Depois",
+      "valor": "Recorde mundial de produção anual em 2016, com 103.098.366 MWh, superado pela chinesa Três Gargantas em 2020. A revisão do Anexo C do Tratado, prevista a partir de 2023, seguia sem acordo em setembro de 2026.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Uma fronteira em cima da cachoeira",
+      "paragrafos": [
+        "O problema começou como disputa de mapa. Nos anos 1960, Brasil e Paraguai disputavam a área dos saltos de Sete Quedas, entre Guaíra, no Paraná, Brasil, e Salto del Guairá, no Paraguai. A saída veio em 22 de junho de 1966: a Ata do Iguaçu, negociada a partir de Porto Presidente Stroessner (hoje Ciudad del Este, Paraguai) e assinada em Foz do Iguaçu, Brasil, trocou a briga pela fronteira por um projeto comum, o aproveitamento do rio Paraná.",
+        "Sete anos depois, em 26 de abril de 1973, em Brasília, os chanceleres Mário Gibson Barboza e Raúl Sapena Pastor assinaram o Tratado de Itaipu. O texto cria uma entidade com dono duplo: a Itaipu Binacional, constituída em 17 de maio de 1974, com capital de 100 milhões de dólares dividido em partes iguais e intransferíveis entre a Eletrobras e a paraguaia ANDE. A energia também seria dividida ao meio, e cada país teria direito de comprar o que o outro não usasse.",
+        "A divisão chegou às máquinas. O Paraguai usa corrente em 50 hertz; o Brasil, em 60. Por isso a usina tem 20 unidades de 700 megawatts, metade girando num ritmo e metade no outro, para um total de 14.000 megawatts."
+      ]
+    },
+    {
+      "titulo": "Tirar o rio do lugar",
+      "paragrafos": [
+        "Uma barragem não se constrói dentro da correnteza. Para trabalhar no leito do rio Paraná, os engenheiros abriram um canal de desvio na margem: cerca de 2 km de comprimento, 150 m de largura e 90 m de profundidade, segundo a Itaipu. Duas ensecadeiras, arcos de concreto, seguravam a água fora do canal enquanto ele era escavado.",
+        "Em 20 de outubro de 1978, 58 toneladas de explosivos derrubaram as duas ensecadeiras, e o rio passou a correr pelo caminho novo. Os presidentes Ernesto Geisel e Alfredo Stroessner se encontraram no meio da Ponte da Amizade e acionaram a chave juntos. Com o leito seco, começou a barragem propriamente dita.",
+        "Ao fim, a obra escavou mais de 50 milhões de metros cúbicos de terra e rocha e consumiu mais de 12 milhões de metros cúbicos de concreto. A própria Itaipu publica três números para o concreto, 12,3, 12,6 e 12,7 milhões, sem explicar a diferença. A barragem, somados os trechos de concreto, enrocamento e terra, chega a 7.919 m de extensão e 196 m de altura."
+      ]
+    },
+    {
+      "titulo": "O canteiro",
+      "paragrafos": [
+        "Quantos homens trabalharam ao mesmo tempo depende de quem conta. Os registros das construtoras, citados pelos historiadores Pedro Henrique Pedreira Campos e Valdir Sessi e pela Agência Pública, dão quase 32 mil no canteiro em 1978. A Itaipu fala em cerca de 40 mil, somando o canteiro e os escritórios de apoio nos dois países. Pela rotatividade, mais de 100 mil pessoas passaram pela obra.",
+        "A obra era também uma cidade dividida. Em Foz do Iguaçu, a Vila A abrigava técnicos e administrativos; a Vila B, a alta chefia; a Vila C, os operários de menor qualificação. Muitos não eram barrageiros de carreira, mas lavradores da região trazidos por agenciadores.",
+        "E era vigiada. Pesquisas acadêmicas documentam que a Assessoria Especial de Segurança e Informação da Itaipu, presente dos dois lados da fronteira, espionava trabalhadores e trocava informações com órgãos de informação e repressão da ditadura, como o SNI e o DOPS. A guarda da usina vestia marrom, e os operários a chamavam de Guarda Marrom. Greves só ganharam corpo depois da fundação do sindicato local, em 1986; nas de 1987 houve tropas e veículos militares no canteiro."
+      ]
+    },
+    {
+      "titulo": "A conta dos mortos",
+      "paragrafos": [
+        "Não existe um número oficial de mortos para a obra inteira. O que a Itaipu Binacional informou, por escrito, à Agência Pública em 2023 foi uma estimativa: 43.530 acidentes de trabalho entre 1978 e 1984, brasileiros e paraguaios, dos quais 106 fatais. Para 1975 a 1977 e para 1985 a 1991, quando as máquinas continuaram a ser montadas, a empresa não deu número.",
+        "Outras contagens existem, todas parciais. A tese da historiadora Ivone Lima, de 2004, chega a 40 mortes entre 1975 e 1979; um boletim interno do consórcio Unicon soma 56 entre 1976 e 1981, só na margem brasileira; o jornalista Tão Gomes Pinto fala em 138. Um ex-técnico de segurança da obra disse à Pública que a equipe dele contou até 800, num levantamento que se perdeu. Uma fonte anônima da Itaipu falou à agência EFE, em 2013, em cerca de mil, somando acidentes e doenças do trabalho.",
+        "Entre os casos com data está o de 17 de dezembro de 1981: a lança de um guindaste se rompeu e matou 5 operários. Pesquisadores registraram também relatos de vítimas levadas ao hospital para que a morte não constasse como ocorrida no canteiro, o que dificultava a indenização."
+      ]
+    },
+    {
+      "titulo": "Catorze dias",
+      "paragrafos": [
+        "Sete Quedas não eram sete saltos. Eram 18 ou 19, conforme a fonte, arrumados em sete grupos, com uma vazão citada de cerca de 13.300 m³ por segundo. O Parque Nacional que as protegia foi extinto em 4 de julho de 1981. Em 17 de janeiro de 1982, uma passarela superlotada sobre um dos saltos desabou e matou 32 turistas.",
+        "A despedida foi pública. Entre 23 e 25 de julho de 1982, entidades ambientalistas reuniram milhares de pessoas no parque, no Quarup Adeus Sete Quedas. Em 9 de setembro, Carlos Drummond de Andrade publicou no Jornal do Brasil a crônica \"Adeus a Sete Quedas\".",
+        "Em 13 de outubro de 1982, as comportas do canal de desvio foram fechadas. Ajudada por uma cheia, a água encheu o reservatório e, até 27 de outubro, cobriu as quedas. No mesmo dia do fechamento começou a operação Mymba Kuera, \"os animais\" em guarani, que até 10 de janeiro de 1983 resgatou mais de 30 mil bichos: 36 mil, segundo a Itaipu; quase 39 mil, segundo a BBC News Brasil, somando os dois lados."
+      ]
+    },
+    {
+      "titulo": "Quem estava no caminho",
+      "paragrafos": [
+        "O lago de 1.350 km² cobriu terra habitada. Do lado brasileiro, foram atingidas 8.519 propriedades, 6.913 rurais e 1.606 urbanas, cerca de 101 mil hectares. O número de pessoas varia com o método: cerca de 42 mil, 40 mil ou 60 mil atingidos, conforme a fonte. Segundo a Comissão Estadual da Verdade do Paraná, a Itaipu indenizou primeiro escolas, igrejas, hospitais e comércio, esvaziando as comunidades. Do lado paraguaio, o total de desapropriados não indígenas não aparece nas fontes consultadas.",
+        "Para os Avá-Guarani, a conta foi ainda mais curta. Em 1977, um grupo de trabalho da Funai e do Incra reconheceu apenas 11 famílias indígenas, 27 pessoas, número que a Comissão da Verdade do Paraná chama de falseamento da realidade. Os Guarani reivindicavam 1.500 hectares; receberam, em 1982, uma área registrada de 231,88 hectares. Fotos de 1981, reveladas em 2017, mostram casas Guarani em chamas diante de funcionários.",
+        "A reparação veio quatro décadas depois. Em 24 de março de 2025, o STF homologou acordo que prevê a compra de 3 mil hectares para os Avá-Guarani, com R$ 240 milhões da Itaipu. Em 29 de outubro de 2025, a União, a Funai, o Incra e a Itaipu publicaram um pedido de desculpas pelas violações de direitos humanos cometidas contra esse povo."
+      ]
+    },
+    {
+      "titulo": "A usina e a conta que ficou",
+      "paragrafos": [
+        "A primeira unidade gerou energia em 5 de maio de 1984, e a inauguração oficial, com Figueiredo e Stroessner, foi em 25 de outubro daquele ano. A 18ª unidade entrou em 1991; as duas últimas, em 2006 e 2007. Em 2016, Itaipu produziu 103.098.366 MWh, recorde mundial anual na época, superado pela chinesa Três Gargantas em 2020.",
+        "O custo da construção também tem mais de uma versão: cerca de 12 bilhões de dólares, segundo a Memória da Eletricidade, ou cerca de 14 bilhões, segundo a própria Itaipu. A dívida, quase toda financiada, foi quitada em 28 de fevereiro de 2023, depois de cerca de 63 bilhões de dólares pagos em cinquenta anos, dos quais 27,9 bilhões em juros e encargos.",
+        "Com a dívida paga, o Tratado previa rever as bases financeiras da usina, o chamado Anexo C. Em setembro de 2026, Brasil e Paraguai ainda não tinham chegado a um acordo."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Morreram 149 operários, número oficial.",
+      "registro": "O 149 aparece em sites em inglês sem nenhuma fonte. O número que a própria Itaipu deu, em 2023, é uma estimativa de 106 mortes entre 1978 e 1984; para os outros anos da obra não há número oficial."
+    },
+    {
+      "circula": "Há operários enterrados no concreto da barragem.",
+      "registro": "É uma memória persistente entre ex-trabalhadores, registrada por pesquisadores e pela Comissão Estadual da Verdade do Paraná como relato. Não há nome, caso ou documento."
+    },
+    {
+      "circula": "Itaipu custou 63 bilhões de dólares.",
+      "registro": "Esse é o total pago da dívida em cinquenta anos, com 27,9 bilhões de juros e encargos. A construção é estimada em cerca de 12 a 14 bilhões de dólares da época, conforme a fonte."
+    },
+    {
+      "circula": "Itaipu é a maior usina do mundo.",
+      "registro": "Em potência, Três Gargantas, na China, tem 22.500 MW contra 14.000; em produção anual, detém o recorde desde 2020. Itaipu teve o recorde anual em 2016."
+    },
+    {
+      "circula": "Sete Quedas era a maior cachoeira do mundo em volume.",
+      "registro": "A vazão de 13.300 m³/s repetida pelas fontes brasileiras não tem referência primária, e pela média citada outras quedas, como Boyoma, no Congo, a superam. O que se sustenta: uma das maiores do mundo em volume de água."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Tratado de Itaipu, promulgado pelo Decreto nº 72.707, de 28/08/1973",
+      "url": "http://www.planalto.gov.br/ccivil_03/decreto/antigos/d72707.htm"
+    },
+    {
+      "texto": "Pedro Henrique Pedreira Campos e Rafael Vaz da Motta Brandão, “A construção da usina hidrelétrica de Itaipu durante a ditadura”, Projeto História (PUC-SP), v. 77, 2023",
+      "url": "https://revistas.pucsp.br/index.php/revph/article/download/61481/42954/201379"
+    },
+    {
+      "texto": "Pedro Henrique Pedreira Campos, “Violações cometidas contra trabalhadores/as durante a construção da usina hidrelétrica de Itaipu: o caso dos acidentes de trabalho”, Revista NEP (UFPR), v. 9, n. 2, 2023",
+      "url": "https://revistas.ufpr.br/nep/article/view/93703"
+    },
+    {
+      "texto": "André Borges, “Itaipu na ditadura: mais de 100 operários mortos e 43 mil acidentes na construção”, Agência Pública, 19/06/2023",
+      "url": "https://apublica.org/2023/06/itaipu-na-ditadura-mais-de-100-operarios-mortos-e-43-mil-acidentes-na-construcao/"
+    },
+    {
+      "texto": "Comissão Estadual da Verdade do Paraná “Teresa Urban”, relatório, 2017 (2ª versão, 2019), vol. 1",
+      "url": "https://www.justica.pr.gov.br/sites/default/arquivos_restritos/files/documento/2019-10/comissao_da_verdade_v1_2versao.pdf"
+    },
+    {
+      "texto": "Valdir Sessi, “O povo do abismo”: trabalhadores e o aparato repressivo durante a construção da Hidrelétrica de Itaipu (1974–1987), dissertação, Unioeste, 2015",
+      "url": "https://tede.unioeste.br/handle/tede/1723"
+    },
+    {
+      "texto": "Eduardo Gonçalves Ueda, História e memória dos trabalhadores brasileiros na construção da Usina Hidrelétrica de Itaipu, TCC, UNILA, 2019",
+      "url": "https://dspace.unila.edu.br/bitstreams/bae07d22-8f72-4b54-acef-94b670faf68e/download"
+    },
+    {
+      "texto": "Paulo Brandi, “Itaipu Binacional meio século”, Memória da Eletricidade, 16/05/2024",
+      "url": "https://memoriadaeletricidade.com.br/blog/139956/itaipu-binacional-meio-seculo-o-aproveitamento-da-energia-hidraulica-dos-saltos-de-sete-quedas"
+    },
+    {
+      "texto": "IEEE Milestone, “Itaipu Hydroelectric Power Plant, 1975–1984”, Engineering and Technology History Wiki",
+      "url": "https://ethw.org/Milestones:Itaipu_Hydroelectric_Power_Plant,_1975-1984"
+    },
+    {
+      "texto": "Itaipu Binacional, “Nossa história”",
+      "url": "https://www.itaipu.gov.br/institucional/sobre-itaipu/nossa-historia"
+    },
+    {
+      "texto": "Itaipu Binacional, “Barragem”",
+      "url": "https://www.itaipu.gov.br/energia/barragem"
+    },
+    {
+      "texto": "Itaipu Binacional, “Itaipu em números”",
+      "url": "https://www.itaipu.gov.br/institucional/sobre-itaipu/itaipu-em-numeros"
+    },
+    {
+      "texto": "H2FOZ, “Explosão do Canal de Desvio de Itaipu completa 40 anos”, 19/10/2018",
+      "url": "https://www.h2foz.com.br/geral/explosao-do-canal-de-desvio-de-itaipu-completa-40-anos/"
+    },
+    {
+      "texto": "BBC News Brasil, “Mymba Kuéra: como foi o monumental resgate de mais de 30 mil animais durante a construção de Itaipu”, 19/09/2026 (republicada por O Povo)",
+      "url": "https://www.opovo.com.br/agencia/bbc/2026/09/19/mymba-kuera-como-foi-o-monumental-resgate-de-mais-de-30-mil-animais-durante-a-construcao-de-itaipu-entre-o-brasil-e-o-paraguai.html"
+    },
+    {
+      "texto": "Portal da Crônica Brasileira (IMS e Fundação Casa de Rui Barbosa), Carlos Drummond de Andrade, “Adeus a Sete Quedas”, Jornal do Brasil, 09/09/1982",
+      "url": "https://cronicabrasileira.org.br/cronicas/17410/adeus-a-sete-quedas"
+    },
+    {
+      "texto": "Gazeta do Povo, “Estado brasileiro e Itaipu pedem desculpas ao povo Avá-Guarani”, 29/10/2025",
+      "url": "https://www.gazetadopovo.com.br/parana/estado-brasileiro-itaipu-pedem-desculpas-povo-ava-guarani/"
+    },
+    {
+      "texto": "Agência Brasil, “Itaipu ultrapassa Três Gargantas e reassume liderança em produção”, dezembro de 2016",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2016-12/itaipu-ultrapassa-tres-gargantas-e-reassume-lideranca-em-producao-de"
+    },
+    {
+      "texto": "Robson Rodrigues, “Com negociação de Itaipu parada, Brasil avalia tarifa de US$ 15/kW em 2027”, CNN Brasil, 01/09/2026",
+      "url": "https://www.cnnbrasil.com.br/blogs/robson-rodrigues/infra/com-negociacao-de-itaipu-parada-brasil-mira-tarifa-de-us-15-kw-para-2027/"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "05-itaipu-aerea.jpg",
+      "alt": "Vista aérea da Usina de Itaipu: o vertedouro à esquerda, a barragem em curva e o reservatório ao fundo, com o rio Paraná em primeiro plano",
+      "legenda": "Itaipu vista do alto, com o reservatório atrás da barragem e o rio Paraná abaixo dela.",
+      "autor": "International Hydropower Association (IHA)",
+      "licenca": "CC BY 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Itaipu_Aerea.jpg",
+      "recriacao": false,
+      "foco": "45% 55%"
+    },
+    {
+      "arquivo": "05-sete-quedas-1929.jpg",
+      "alt": "Fotografia antiga em sépia do rio Paraná estrangulado entre paredões de rocha no Salto das Sete Quedas, com quedas d'água ao fundo",
+      "legenda": "O rio Paraná no Salto das Sete Quedas, fotografado em 1929–1930, mais de cinquenta anos antes de o lago cobrir as quedas.",
+      "autor": "B. Rondon (Arquivo Nacional, Fundo Ministério da Guerra)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Guayra_-_Estrangulamento_do_Rio_Paran%C3%A1_no_Salto_das_Sete_Quedas,_na_fronteira_Brasil-Paraguai_(2).jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "05-vertedouro.jpg",
+      "alt": "O vertedouro de Itaipu com parte das comportas abertas e a água descendo pelas calhas de concreto",
+      "legenda": "O vertedouro de Itaipu com comportas abertas, em 2008.",
+      "autor": "Cmasi",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Itaipu_spillway_4081_filtered.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "05-reservatorio.jpg",
+      "alt": "O reservatório de Itaipu visto da margem, com vegetação em primeiro plano e estruturas da usina ao fundo",
+      "legenda": "O reservatório de Itaipu em 2020: 1.350 km² de água onde antes corriam o rio e as quedas.",
+      "autor": "Falk2",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:J37_816_embalse_Itaip%C3%BA,_presa.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "represa-hoover"
+}

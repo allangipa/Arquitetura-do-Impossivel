@@ -1,0 +1,360 @@
+{
+  "num": "04",
+  "slug": "ponte-do-brooklyn",
+  "obra": "Ponte do Brooklyn",
+  "titulo_video": "Ponte do Brooklyn: 221 toneladas de arame falso, e ela ainda está de pé",
+  "lugar": "East River, entre Manhattan e o Brooklyn, Nova York, Estados Unidos",
+  "regiao": "mundo",
+  "periodo": "1870–1883",
+  "estreia": "2026-10-29",
+  "impossivel": "Assentar duas torres de pedra no fundo de um rio de maré, com homens cavando por baixo de caixas de ar comprimido, numa época em que ninguém sabia por que eles adoeciam ao subir.",
+  "resumo": "Como a Ponte do Brooklyn foi erguida (1870–1883): caixões de ar comprimido, o mal que saía deles, a janela de Roebling e o arame falso nos cabos.",
+  "abertura": [
+    "Em 22 de abril de 1872, John Myers, alemão de uns 40 anos, desceu ao fundo do East River, em Nova York, Estados Unidos, no primeiro dia de emprego. Subiu se sentindo bem, passou mal no caminho para a pensão e morreu na escada, no mesmo dia. O médico da obra registrou o caso com número e data.",
+    "Ele trabalhava nas fundações da Ponte do Brooklyn, a maior ponte pênsil do mundo quando foi aberta, em 1883. O projetista morreu antes da primeira escavação, o engenheiro-chefe saiu do fundo do rio doente e dirigiu o resto da obra de casa, e dentro dos cabos ficaram 221 toneladas de arame reprovado. A ponte continua de pé."
+  ],
+  "numeros": [
+    {
+      "valor": "486 m",
+      "rotulo": "vão central entre as torres (1.595 pés e 6 polegadas)",
+      "conf": "2+"
+    },
+    {
+      "valor": "23,9 m",
+      "rotulo": "profundidade do caixão de Manhattan abaixo da maré alta",
+      "conf": "2+"
+    },
+    {
+      "valor": "110",
+      "rotulo": "casos de mal dos caixões em 5 meses de 1872, com 3 mortes",
+      "conf": "2+"
+    },
+    {
+      "valor": "5.434",
+      "rotulo": "fios de aço em cada um dos 4 cabos",
+      "conf": "2+"
+    },
+    {
+      "valor": "221 t",
+      "rotulo": "de arame reprovado que ficou dentro dos cabos",
+      "conf": "2+"
+    },
+    {
+      "valor": "20 anos",
+      "rotulo": "como a maior ponte pênsil do mundo (1883–1903)",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Contexto",
+      "valor": "Ligar Nova York e Brooklyn, então duas cidades separadas pelo East River. Lei estadual de fevereiro de 1867; a New York Bridge Company foi incorporada no mesmo ano.",
+      "conf": "2+",
+      "nota": "Na época, \"New York and Brooklyn Bridge\" ou \"East River Bridge\"."
+    },
+    {
+      "item": "Projeto",
+      "valor": "John A. Roebling, engenheiro nascido em Mühlhausen, na Prússia, autor de pontes pênseis em Pittsburgh, Niágara e Cincinnati. Plano apresentado em 1867.",
+      "conf": "2+"
+    },
+    {
+      "item": "Morte do projetista",
+      "valor": "Pé esmagado por uma balsa no cais da Fulton Ferry em 28/06/1869, durante um levantamento; morreu de tétano em 22/07/1869, antes do início da obra.",
+      "conf": "2+"
+    },
+    {
+      "item": "Engenheiro-chefe",
+      "valor": "Washington A. Roebling, o filho, que assumiu aos 32 anos. A partir de 1872, doente, dirigiu a obra de casa; Emily Warren Roebling, a mulher dele, levava as ordens e tratava com a equipe.",
+      "conf": "2+",
+      "nota": "Emily nunca teve o título de engenheira-chefe."
+    },
+    {
+      "item": "Prazo",
+      "valor": "Começo de janeiro de 1870 (as fontes dão 2 ou 3 de janeiro) até a inauguração, em 24/05/1883. A estimativa original era de 5 anos.",
+      "conf": "DIV",
+      "nota": "Divergência só no dia de início; a inauguração é 2+."
+    },
+    {
+      "item": "Operários",
+      "valor": "Ninguém registrou um total. Há só retratos parciais: 3 turmas de 100 homens no caixão do Brooklyn em novembro de 1870; de 50 a 125 de dia no caixão de Manhattan em 1872; cerca de 700 na folha em agosto de 1878.",
+      "conf": "sem",
+      "nota": "Salário, pelo discurso oficial de 1883: US$ 1,75 por dia o braçal, US$ 2,50 a média."
+    },
+    {
+      "item": "Custo",
+      "valor": "Cerca de US$ 15 milhões da época, incluindo terrenos. Pelo discurso oficial de 1883, a construção propriamente dita, sem terrenos nem juros, ficou em US$ 9 milhões.",
+      "conf": "2+",
+      "nota": "Os US$ 9 milhões são de uma fonte só (Abram Hewitt, 1883). Não convertemos para valores de hoje."
+    },
+    {
+      "item": "Estimativa original",
+      "valor": "US$ 7 milhões, sem terrenos, pela conta de John A. Roebling.",
+      "conf": "2+"
+    },
+    {
+      "item": "Mortes na obra",
+      "valor": "20, no discurso oficial da inauguração (W. C. Kingsley, 1883); 27, número atribuído ao engenheiro assistente C. C. Martin, que admitiu que ninguém fez lista. Uma lista nominal montada depois também chega a 27, contando John A. Roebling.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Mal dos caixões",
+      "valor": "110 casos e 3 mortes no caixão de Manhattan entre 25/01 e 31/05/1872, contados pelo médico da obra, Andrew H. Smith.",
+      "conf": "2+",
+      "nota": "O próprio Smith achava que muitos casos lhe escaparam."
+    },
+    {
+      "item": "Fundações",
+      "valor": "Caixão do Brooklyn: 168 × 102 pés (51 × 31 m), parado a 44 pés e 6 polegadas (13,6 m) abaixo da maré alta. Caixão de Manhattan: 172 × 102 pés (52 × 31 m), parado a 78 pés e 6 polegadas (23,9 m), sobre cascalho, sem chegar à rocha.",
+      "conf": "2+"
+    },
+    {
+      "item": "Torres",
+      "valor": "Mais de 80 m acima da maré alta. As fontes dão de 268 a 278 pés.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Vão e comprimento",
+      "valor": "Vão central de 1.595 pés e 6 polegadas (486,3 m). Comprimento total de 6.016 pés (1.834 m) ou 5.989 pés (1.825 m), conforme onde se mede a rampa. Tabuleiro a 135 pés (41 m) da água no meio do vão.",
+      "conf": "DIV",
+      "nota": "O vão e a altura do tabuleiro são 2+; a divergência é no comprimento total."
+    },
+    {
+      "item": "Cabos",
+      "valor": "4 cabos de aço galvanizado, com 15¾ polegadas (40 cm) de diâmetro e 5.434 fios cada; o projeto previa 5.282.",
+      "conf": "2+"
+    },
+    {
+      "item": "Debandada",
+      "valor": "Em 30/05/1883, seis dias depois da abertura, um tumulto numa escada do lado de Nova York matou 12 pessoas. Feridos: 36 graves, segundo o guia da Library of Congress; mais de 40 pisoteados, segundo o New-York Tribune.",
+      "conf": "2+",
+      "nota": "Mortos e data, 2+; o número de feridos diverge."
+    },
+    {
+      "item": "Depois",
+      "valor": "Maior ponte pênsil do mundo de 1883 a 1903, quando foi superada pela Williamsburg. Marco histórico nacional em 1964 e municipal em 1967. Em 2024, média de 103.051 veículos, 28.845 pedestres e 5.504 ciclistas por dia.",
+      "conf": "2+",
+      "nota": "Os números de tráfego vêm de uma fonte só, a prefeitura de Nova York."
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "O projetista que não viu a obra começar",
+      "paragrafos": [
+        "John A. Roebling chegou aos Estados Unidos em 1831, vindo de Mühlhausen, na Prússia, e passou três décadas pendurando estradas em cabos: Pittsburgh, o rio Delaware, a ponte ferroviária do Niágara, Cincinnati. Em 1867, com a lei estadual aprovada e a New York Bridge Company formada, ele apresentou o plano da travessia do East River. Segundo a nomeação da ponte a marco histórico nacional, de 1975, escreveu que seria \"a maior ponte existente\" e \"a maior obra de engenharia do continente, e da época\".",
+        "Em 28 de junho de 1869, durante um levantamento no cais da Fulton Ferry, uma balsa bateu no atracadouro onde ele estava e esmagou os dedos do pé direito. Os dedos foram amputados. Ele morreu de tétano em 22 de julho, antes de qualquer escavação.",
+        "A obra passou ao filho, Washington A. Roebling, então com 32 anos. Ela começou no início de janeiro de 1870, do lado do Brooklyn. A estimativa do pai era de US$ 7 milhões, sem os terrenos, e cinco anos de trabalho. Levou mais que o dobro do tempo."
+      ]
+    },
+    {
+      "titulo": "Uma caixa de madeira emborcada no fundo do rio",
+      "paragrafos": [
+        "Para apoiar as torres era preciso chegar a chão firme debaixo do leito do rio. O método foi o caixão pneumático: uma enorme caixa de madeira sem fundo, emborcada, cheia de ar comprimido para segurar a água do lado de fora. Os homens desciam por eclusas, cavavam por baixo das bordas, e a caixa afundava sob o peso da torre que ia sendo erguida em cima dela. O caixão do Brooklyn media 168 por 102 pés (51 por 31 m).",
+        "Em 2 de dezembro de 1870, segundo a história da ponte publicada por S. W. Green em 1883, um operário deixou uma vela acesa perto de uma junta do teto. A chama foi puxada para a calafetagem de estopa e o fogo correu por dentro do madeiramento, sem fumaça visível na câmara. Depois de horas de vapor, água e gás carbônico, chamaram os bombeiros: 38 jatos d'água. O caixão foi inundado de propósito e ficou alagado dois dias e meio. O reparo atrasou a obra quase três meses. Nenhuma das fontes registra morte no incêndio.",
+        "Washington passou aquela noite dentro do caixão. Foi o primeiro ataque da doença que mais tarde o tiraria do canteiro. Em março de 1871, o caixão do Brooklyn, parado a 44 pés e 6 polegadas (13,6 m) abaixo da maré alta, onde achou solo firme, foi cheio de concreto."
+      ]
+    },
+    {
+      "titulo": "Quase 24 metros abaixo da maré",
+      "paragrafos": [
+        "O caixão de Manhattan era um pouco maior, 172 por 102 pés, e veio forrado de chapa de ferro por causa do incêndio. O chão bom estava muito mais fundo. Quanto mais o caixão descia, maior a pressão do ar lá dentro: até 34 libras por polegada quadrada acima da atmosfera, segundo Green; entre 18 e 36, nas anotações do médico da obra. Os turnos, que começaram com dois de quatro horas, encolheram no fundo para dois de duas horas.",
+        "O médico era Andrew H. Smith. Entre 25 de janeiro e 31 de maio de 1872, só naquele caixão, ele contou 110 casos de doença causada pelo ar comprimido, e 3 mortes. John Myers morreu no primeiro dia de trabalho, 22 de abril. Patrick McKay, irlandês de 50 anos, ficou meia hora a mais lá embaixo e foi achado inconsciente na eclusa em 30 de abril; Smith anotou que ele tinha uma doença renal avançada e que o ar comprimido só apressou a morte. Um homem de sobrenome Reardon, de 38 anos, entrou em 17 de maio e morreu no dia seguinte.",
+        "A doença não foi descoberta ali. O próprio Smith registra os primeiros casos numa mina de carvão na França, por volta de 1841, e o estudo dos médicos Pol e Watelle em 1845; na ponte de St. Louis, cujas fundações foram cavadas na mesma época, ela matou mais gente do que no Brooklyn. O que o Brooklyn deu foi o nome: Smith chamou aquilo de \"caisson disease\", o mal dos caixões. Os operários falavam em \"Grecian bend\", a curvatura grega. Por que os homens adoeciam ao subir, ninguém sabia explicar.",
+        "Em 18 de maio de 1872, a 78 pés e 6 polegadas (23,9 m), Washington Roebling mandou parar. O caixão ficou sobre areia e cascalho compactados, sem chegar à rocha. Ele julgou o cascalho tão firme quanto ela. A nomeação de 1975 liga a decisão à terceira morte; a escavação parou no mesmo dia em que Reardon morreu."
+      ]
+    },
+    {
+      "titulo": "A ponte vista de uma janela",
+      "paragrafos": [
+        "Na primavera de 1872, Washington teve o segundo ataque, no caixão de Manhattan, e não voltou mais ao canteiro. Em 1873 pediu licença e foi se tratar na Europa; depois morou em Trenton, Nova Jersey. No verão de 1877 voltou para o número 110 da Columbia Heights, no Brooklyn, numa casa de onde se via a ponte. A história de Green, de 1883, diz que ele acompanhava o andamento \"de uma janela dos fundos, com uma luneta\", e que até a inauguração não tinha pisado na estrutura pronta.",
+        "Quem fazia a ponte entre a casa e a obra era a mulher dele, Emily Warren Roebling. Segundo o historiador David McCullough, toda a comunicação escrita da casa para o escritório da ponte saía na letra dela. No discurso oficial da inauguração, Abram Hewitt a descreveu como aquela por cujo cérebro e dedos se mantinha a comunicação entre quem dirigia a construção e quem a executava. Green escreveu que o conhecimento dela da obra era \"minucioso e exato\".",
+        "Em 1882, a diretoria votou uma proposta para rebaixar Washington a consultor. Perdeu por 10 a 7, e ele ficou engenheiro-chefe até o fim. Segundo McCullough, Emily foi a primeira a atravessar o tabuleiro, de carruagem, no começo de maio de 1883. A família contava, anos depois, que ela levou um galo vivo como símbolo de vitória."
+      ]
+    },
+    {
+      "titulo": "O arame que não podia sair",
+      "paragrafos": [
+        "Os 4 cabos da ponte são de aço galvanizado, não de ferro, e foram fiados no próprio lugar: uma roda ia e voltava de uma ancoragem à outra, levando o arame, até formar 19 cordões por cabo. O contrato do arame foi dado em 1877 a J. Lloyd Haigh, fornecedor do sul do Brooklyn, por escolha da diretoria, contra a preferência de Roebling.",
+        "Entre junho e julho de 1878, o engenheiro assistente William Paine e seus auxiliares, vigiando a fábrica, descobriram o golpe. O arame aprovado pela inspeção recebia certificado e, no caminho até a obra, era trocado em outro galpão por arame reprovado, que seguia com o papel do bom. O arame bom voltava para ser aprovado de novo.",
+        "Quando a fraude apareceu, cerca de 221 toneladas de arame reprovado já estavam enroladas nos cabos, e não havia como tirar sem desmanchá-los. A solução foi acrescentar fio: 8 a mais em cada um dos 19 cordões, 152 por cabo, levando o total de 5.282 para 5.434. Haigh teve de fornecer o arame extra de graça. A margem de segurança ficou em cerca de cinco vezes a carga. A diretoria não tornou o caso público nem trocou o fornecedor.",
+        "Haigh acabou preso, mas por outra coisa: em agosto de 1880 confessou ter falsificado aceites bancários e pegou quatro anos de prisão. No mesmo ano da fraude, em 14 de junho de 1878, um dos cordões se soltou durante a fiação e matou dois homens."
+      ]
+    },
+    {
+      "titulo": "A conta dos mortos",
+      "paragrafos": [
+        "No dia da inauguração, o discurso oficial de W. C. Kingsley disse que \"vinte homens perderam a vida\" no trabalho direto da obra. É o número que McCullough repete, sem contar John A. Roebling; quem soma o pai chega a 21.",
+        "Contagens feitas depois chegam a 27. O número é atribuído ao engenheiro assistente C. C. Martin, em entrevista ao Brooklyn Daily Eagle de 24 de maio de 1883, na qual ele admitiu que não houve lista: se soubessem que tantos se feririam, teriam anotado. Uma lista nominal montada depois a partir de jornais e atestados de óbito também tem 27 nomes, incluindo o projetista. Por ela, a maioria morreu de queda e de acidentes com guindastes; três, do mal dos caixões.",
+        "Os relatórios oficiais não ajudam a fechar a conta. O relatório do engenheiro-chefe de 1877 diz que trechos perigosos correram sem nenhum acidente, enquanto McCullough, com base no Brooklyn Daily Eagle, registra duas quedas fatais da torre do Brooklyn em 1875. Não existe um total confiável, nem de mortos nem de operários."
+      ]
+    },
+    {
+      "titulo": "24 de maio de 1883, e o que veio depois",
+      "paragrafos": [
+        "A ponte foi aberta em 24 de maio de 1883, com o presidente Chester A. Arthur. Washington não foi; assistiu da janela. Custou cerca de US$ 15 milhões da época, contando os terrenos. Green atribui o estouro do orçamento a fundações mais fundas que o previsto, ao aço no lugar do ferro, a um tabuleiro mais largo e mais alto e às desapropriações.",
+        "Seis dias depois, em 30 de maio, um bloqueio no alto de uma escada do lado de Nova York, com milhares de pessoas na ponte, virou tumulto. Gente caiu da escada e os de trás passaram por cima. Morreram 12 pessoas. Segundo o New-York Tribune, uma hora depois dizia-se na rua 42 que a ponte tinha caído com mil pessoas.",
+        "Em 17 de maio de 1884, o circo de P. T. Barnum atravessou a ponte para o Brooklyn com 21 elefantes, entre eles o Jumbo, e 17 camelos. Segundo o The Sun, o cobrador do pedágio cobrou dos homens e dos cavalos e deixou os bichos passarem de graça. O Tribune anotou que muita gente foi atrás para ver se o Jumbo chegaria inteiro.",
+        "A ponte foi a maior ponte pênsil do mundo até 1903. Os cabos com o arame de Haigh dentro continuam no lugar, e em 2024 ela recebia em média mais de 100 mil veículos por dia."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Emily Roebling foi a verdadeira engenheira-chefe e projetou a ponte.",
+      "registro": "O projeto é de John A. Roebling e o engenheiro-chefe foi Washington até o fim, mantido por votação em 1882. Emily foi a intermediária indispensável e ganhou competência técnica real. O exagero já aparece em 1883: um editorial do Frank Leslie's escreveu que ela se tornou \"a diretora-chefe da obra\", o que nenhum documento da construção sustenta."
+    },
+    {
+      "circula": "O incêndio do caixão do Brooklyn, em 1870, matou seis homens.",
+      "registro": "Nem a história de Green, de 1883, nem McCullough registram morte no incêndio. O caixão foi inundado e reparado em quase três meses."
+    },
+    {
+      "circula": "O mal dos caixões foi descoberto na Ponte do Brooklyn.",
+      "registro": "Já tinha casos registrados na França desde cerca de 1841 e tinha matado operários na ponte de St. Louis. O Brooklyn deu o nome: \"caisson disease\", de Andrew H. Smith, o médico da obra."
+    },
+    {
+      "circula": "As fundações de Manhattan chegaram à rocha.",
+      "registro": "O caixão parou em 18 de maio de 1872, a 78 pés e 6 polegadas (23,9 m), sobre areia e cascalho compactados. Washington Roebling decidiu não descer mais."
+    },
+    {
+      "circula": "O número oficial de mortos na obra é 27.",
+      "registro": "O único número dito em cerimônia oficial foi 20, no discurso de W. C. Kingsley em 1883. O 27 vem de uma contagem posterior, atribuída ao engenheiro assistente C. C. Martin, que admitiu que ninguém fez lista."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Andrew H. Smith, The Effects of High Atmospheric Pressure, including the Caisson Disease, Brooklyn, Eagle Print, 1873",
+      "url": "https://digirepo.nlm.nih.gov/ext/dw/0026772/PDF/0026772.pdf"
+    },
+    {
+      "texto": "Opening Ceremonies of the New York and Brooklyn Bridge, May 24, 1883, Brooklyn, 1883",
+      "url": "https://archive.org/details/openingceremonie00broorich"
+    },
+    {
+      "texto": "S. W. Green (comp.), A Complete History of the New York and Brooklyn Bridge, Nova York, 1883",
+      "url": "https://archive.org/details/completehistoryo00gree"
+    },
+    {
+      "texto": "Washington A. Roebling, Report of the Chief Engineer of the New York & Brooklyn Bridge, January 1, 1877, Brooklyn, 1877",
+      "url": "https://archive.org/details/reportofchiefeng00roeb"
+    },
+    {
+      "texto": "James B. Armstrong (HAER), The Brooklyn Bridge, nomeação ao National Register / National Historic Landmark, 1975",
+      "url": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/66000523_text"
+    },
+    {
+      "texto": "NYC Landmarks Preservation Commission, designação LP-0098, 1967",
+      "url": "https://s-media.nyc.gov/agencies/lpc/lp/0098.pdf"
+    },
+    {
+      "texto": "Historic American Engineering Record, HAER NY-18, Library of Congress",
+      "url": "https://www.loc.gov/resource/hhh.ny1234.photos/?sp=13"
+    },
+    {
+      "texto": "NYC Department of Transportation, Brooklyn Bridge",
+      "url": "https://www.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml"
+    },
+    {
+      "texto": "Frank Griggs Jr., Brooklyn Bridge, Part 2, STRUCTURE magazine, 2016",
+      "url": "https://www.structuremag.org/article/brooklyn-bridge-part-2/"
+    },
+    {
+      "texto": "T. R. Witcher, New York's Brooklyn Bridge is an engineering marvel, Civil Engineering (ASCE), 2022",
+      "url": "https://www.asce.org/publications-and-news/civil-engineering-source/civil-engineering-magazine/issues/magazine-issue/article/2022/07/new-yorks-brooklyn-bridge-is-an-engineering-marvel"
+    },
+    {
+      "texto": "Frances Williams Browin, When They Built the Big Bridge, American Heritage, 1956",
+      "url": "https://www.americanheritage.com/when-they-built-big-bridge"
+    },
+    {
+      "texto": "David McCullough, The Great Bridge, 1972",
+      "url": null
+    },
+    {
+      "texto": "Linda Hall Library, Scientist of the Day: Washington A. Roebling",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/washington-a-roebling/"
+    },
+    {
+      "texto": "Richard Howe, resenha de Erica Wagner, Chief Engineer: Washington Roebling (2017), Gotham Center, 2018",
+      "url": "https://www.gothamcenter.org/blog/erica-wagners-chief-engineer-washington-roebling-the-man-who-built-the-brooklyn-bridge"
+    },
+    {
+      "texto": "New-York Tribune, Fatal panic on the Bridge, 31/05/1883",
+      "url": "https://chroniclingamerica.loc.gov/lccn/sn83030214/1883-05-31/ed-1/seq-1/"
+    },
+    {
+      "texto": "The Sun (Nova York), 18/05/1884, p. 2",
+      "url": "https://chroniclingamerica.loc.gov/lccn/sn83030272/1884-05-18/ed-1/seq-2/"
+    },
+    {
+      "texto": "Frank Leslie's Illustrated Newspaper, 09/06/1883",
+      "url": "https://archive.org/details/sim_leslies-weekly_1883-06-09_56_1446"
+    },
+    {
+      "texto": "Christopher Klein, Construction of the Brooklyn Bridge Took 14 Years—And Multiple Lives, History.com, 2019",
+      "url": null
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "04-capa.jpg",
+      "alt": "Vista aérea do East River com a Ponte do Brooklyn em diagonal no primeiro plano e a Ponte de Manhattan logo atrás",
+      "legenda": "A Ponte do Brooklyn vista do alto, com a Ponte de Manhattan ao fundo. Foto de Jet Lowe (Library of Congress).",
+      "autor": "Jet Lowe (Library of Congress)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:LOC_Brooklyn_Bridge_and_East_River_2_cropped.jpg",
+      "recriacao": false,
+      "foco": "55% 70%"
+    },
+    {
+      "arquivo": "04-torres-em-obra.jpg",
+      "alt": "Torre de pedra da ponte em construção, com arcos góticos e andaimes, e a outra torre ao fundo do outro lado do rio",
+      "legenda": "As torres em obra, numa estereoscopia de época (metade esquerda do cartão).",
+      "autor": "Autor desconhecido (Robert N. Dennis collection, NYPL)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:East_River_bridge_towers,_N.Y_(NYPL_b11708026-G91F173_023F).tiff",
+      "recriacao": false
+    },
+    {
+      "arquivo": "04-caixao-corte.jpg",
+      "alt": "Gravura em corte da fundação: a caixa de madeira emborcada no leito do rio, com a alvenaria da torre em cima e os poços de acesso",
+      "legenda": "O caixão do Brooklyn em corte, com a alvenaria por cima. Harper's Weekly, 17 de dezembro de 1870, duas semanas depois do incêndio.",
+      "autor": "Harper's Weekly, 17/12/1870",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://archive.org/details/sim_harpers-weekly_1870-12-17_14_729/page/n3",
+      "recriacao": false
+    },
+    {
+      "arquivo": "04-passarela.jpg",
+      "alt": "Passarela provisória suspensa saindo do alto de uma torre de pedra, sobre telhados do Brooklyn",
+      "legenda": "A passarela provisória da fase dos cabos, presa à torre. Estereoscopia de época (metade esquerda do cartão).",
+      "autor": "Autor desconhecido (Robert N. Dennis collection, NYPL)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Foot_bridge_and_tower_of_East_River_bridge_(NYPL_b11708026-G91F173_068F).tiff",
+      "recriacao": false
+    },
+    {
+      "arquivo": "04-cabo.jpg",
+      "alt": "Cabo principal pintado de branco visto de baixo, com a braçadeira e o pendural de fios trançados descendo até o tabuleiro",
+      "legenda": "Um dos 4 cabos principais e a ligação de um pendural, em 1982. Foto de Jet Lowe para o Historic American Engineering Record (HAER NY-18).",
+      "autor": "Jet Lowe (HAER NY-18, Library of Congress)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Detail_view_of_connection_between_suspender_and_main_cable._Jet_Lowe,_photographer,_1982._-_Brooklyn_Bridge,_Spanning_East_River_between_Park_Row,_Manhattan_and_Sands_Street,_HAER_NY,31-NEYO,90-45.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "04-fogos.jpg",
+      "alt": "Litografia colorida dos fogos de artifício explodindo sobre a ponte iluminada, com barcos no rio",
+      "legenda": "Os fogos da noite da inauguração, 24 de maio de 1883. Litografia de Currier & Ives.",
+      "autor": "Currier & Ives (Library of Congress)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:The_grand_display_of_fireworks_and_illuminations-_at_the_opening_of_the_great_suspension_bridge_between_New_York_and_Brooklyn_on_the_evening_of_May_24th,_1883_LCCN2001702100.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "usina-de-itaipu"
+}

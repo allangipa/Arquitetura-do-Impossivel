@@ -1,0 +1,602 @@
+#!/usr/bin/env python3
+"""Gera o site do Arquitetura do Impossível.
+
+    python _src/build.py        (a partir da raiz do site)
+
+Lê cada obra de `_src/obras/NN-slug.json` (esquema em `_src/obras/ESQUEMA.md`)
+e escreve, na raiz:
+
+    index.html  obras/<slug>.html  404.html  favicon.svg
+    sitemap.xml  robots.txt  assets/arquitetura.css  assets/img/og-*.jpg
+
+Nunca edite os .html gerados: o próximo build apaga a mudança.
+
+O build é porteiro, não sugestão. Ele PARA quando:
+  - um JSON não tem um campo obrigatório, ou o `proximo` aponta para obra
+    que não existe;
+  - uma imagem citada não está em assets/img;
+  - uma licença não é das aceitas (NC e "no known copyright" não entram);
+  - o texto público carrega bastidor de produção ("VERIFICACAO", "a apurar",
+    "[2+]"…) — o mesmo erro que no canal saiu em rodapé de cartela.
+"""
+import datetime as dt
+import html
+import json
+import re
+import shutil
+import sys
+from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFont, ImageOps
+
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+RAIZ = Path(__file__).resolve().parent.parent
+SRC = RAIZ / "_src"
+IMG = RAIZ / "assets" / "img"
+
+DOMINIO = "https://arquiteturadoimpossivel.com.br"
+CANAL = "https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel"
+NOME = "Arquitetura do Impossível"
+BORDAO = "Toda semana, uma obra que não deveria ter ficado de pé."
+
+# Episódios anunciados que ainda não têm página: aparecem no quadro como
+# "em apuração", sem link. Quando o JSON da obra existir, tire daqui.
+EM_APURACAO = [
+    {
+        "num": "07",
+        "obra": "Estrada de Ferro Madeira-Mamoré",
+        "lugar": "Porto Velho, Rondônia, Brasil",
+        "regiao": "brasil",
+        "impossivel": "A “ferrovia do diabo” aberta na floresta, a conta de mortos que virou lenda, e a obra que ficou pronta quando a borracha já não valia.",
+        "estreia": "2026-11-19",
+    },
+]
+
+OBRIGATORIOS = ["num", "slug", "obra", "titulo_video", "lugar", "regiao", "periodo",
+                "estreia", "impossivel", "resumo", "abertura", "numeros", "ficha",
+                "historia", "mitos", "fontes", "imagens", "proximo"]
+
+LICENCAS_OK = re.compile(r"^(dom[ií]nio p[uú]blico|public domain|cc0|cc by(-sa)? \d\.\d( [a-z]{2,3})?|pd[- ].*)$", re.I)
+
+BASTIDOR = re.compile(
+    r"VERIFICACAO|VERIFICAÇÃO\.md|\ba apurar\b|\bconferir\b|\brodada \d|\[2\+\]|\[DIV\]|\[1\]"
+    r"|\.md\b|\.tsv\b|MANIFESTO|roteiro diz|n[ãa]o usar\b|n[ãa]o afirmar", re.I)
+
+MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+
+CONF = {
+    "2+": ("conf-2", "2+ fontes", "Confirmado em duas ou mais fontes independentes."),
+    "1": ("conf-1", "1 fonte", "Uma fonte só; o texto diz qual."),
+    "DIV": ("conf-div", "diverge", "As fontes discordam; mostramos as versões e não escolhemos."),
+    "sem": ("conf-sem", "sem registro", "Ninguém registrou. Dizemos isso em vez de inventar."),
+}
+
+e = lambda s: html.escape(str(s), quote=True)
+
+
+def para(s):
+    """Texto de parágrafo: escapa e aceita *itálico* e **negrito**."""
+    t = e(s)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    t = re.sub(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])", r"<em>\1</em>", t)
+    return t
+
+
+def data_br(iso, longa=False):
+    d = dt.date.fromisoformat(iso)
+    if longa:
+        return f"{d.day} de {['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'][d.month-1]} de {d.year}"
+    return f"{d.day:02d} {MESES[d.month-1]} {d.year}"
+
+
+def falha(msg):
+    raise SystemExit("PARADO: " + msg)
+
+
+# --- marca ---------------------------------------------------------------
+def simbolo(viewbox="0 0 1020 1102.5", classe="", rotulo=NOME, agrupar=False):
+    bruto = (SRC / "marca" / "simbolo-escuro.svg").read_text(encoding="utf-8")
+    corpo = re.sub(r"^.*?<svg[^>]*>|</svg>\s*$", "", bruto, flags=re.S).strip()
+    if agrupar:
+        linhas = corpo.splitlines()
+        vigas = [l for l in linhas if "F2B705" not in l]
+        cotas = [l for l in linhas if "F2B705" in l]
+        corpo = f'<g class="vigas">{"".join(vigas)}</g><g class="cotas">{"".join(cotas)}</g>'
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{viewbox}" class="{classe}" '
+            f'role="img" aria-label="{e(rotulo)}">{corpo}</svg>')
+
+
+SIMBOLO_PEQUENO = lambda: simbolo("0 0 1020 886", rotulo="")  # sem a cota: a 34 px ela vira sujeira
+
+
+# --- carga e conferência --------------------------------------------------
+def carregar():
+    obras = []
+    for f in sorted((SRC / "obras").glob("[0-9][0-9]-*.json")):
+        try:
+            o = json.loads(f.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as ex:
+            falha(f"{f.name} não é JSON válido: {ex}")
+        falta = [c for c in OBRIGATORIOS if c not in o]
+        if falta:
+            falha(f"{f.name} sem os campos {falta}")
+        if f.name != f"{o['num']}-{o['slug']}.json":
+            falha(f"{f.name}: nome do arquivo não bate com num/slug")
+        if o["regiao"] not in ("brasil", "mundo"):
+            falha(f"{f.name}: regiao deve ser brasil ou mundo")
+        dt.date.fromisoformat(o["estreia"])
+        if not o["imagens"]:
+            falha(f"{f.name}: precisa de pelo menos uma imagem (a capa)")
+        for im in o["imagens"]:
+            for k in ("arquivo", "alt", "legenda", "autor", "licenca"):
+                if not im.get(k):
+                    falha(f"{f.name}: imagem sem '{k}': {im}")
+            if not (IMG / im["arquivo"]).exists():
+                falha(f"{f.name}: imagem inexistente assets/img/{im['arquivo']}")
+            if re.search(r"\bNC\b|no known copyright", im["licenca"], re.I) or not LICENCAS_OK.match(im["licenca"].strip()):
+                falha(f"{f.name}: licença não aceita em {im['arquivo']}: {im['licenca']!r}")
+        for n in o["numeros"] + o["ficha"]:
+            if n.get("conf") not in CONF:
+                falha(f"{f.name}: conf inválido {n.get('conf')!r} em {n}")
+        texto = json.dumps({k: v for k, v in o.items() if k not in ("imagens", "fontes")}, ensure_ascii=False)
+        texto += " ".join(i["legenda"] + " " + i["alt"] for i in o["imagens"])
+        m = BASTIDOR.search(texto)
+        if m:
+            ctx = texto[max(0, m.start() - 60):m.end() + 60]
+            falha(f"{f.name}: bastidor de produção no texto público ({m.group(0)!r}): …{ctx}…")
+        obras.append(o)
+    slugs = {o["slug"] for o in obras}
+    for o in obras:
+        if o["proximo"] and o["proximo"] not in slugs:
+            falha(f"{o['slug']}: proximo '{o['proximo']}' não existe")
+    if not obras:
+        falha("nenhuma obra em _src/obras")
+    return obras
+
+
+# --- peças comuns ----------------------------------------------------------
+def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website"):
+    return f"""<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(titulo)}</title>
+<meta name="description" content="{e(descricao)}">
+<link rel="canonical" href="{e(url)}">
+<meta name="theme-color" content="#0F2A44">
+<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
+<link rel="preload" href="{base}assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{base}assets/arquitetura.css">
+<meta property="og:type" content="{tipo}">
+<meta property="og:site_name" content="{e(NOME)}">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="{e(titulo)}">
+<meta property="og:description" content="{e(descricao)}">
+<meta property="og:url" content="{e(url)}">
+<meta property="og:image" content="{e(imagem)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+"""
+
+
+def topo(base, atual=""):
+    cur = lambda k: ' aria-current="page"' if k == atual else ""
+    return f"""<header class="topo">
+  <div class="casca">
+    <a class="marca" href="{base}index.html">{SIMBOLO_PEQUENO()}<span>Arquitetura <em>do Impossível</em></span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="{base}index.html#obras"{cur('obras')}>Obras</a>
+      <a href="{base}index.html#metodo"{cur('metodo')}>Método</a>
+      <a class="yt" href="{CANAL}" rel="noopener">YouTube</a>
+    </nav>
+  </div>
+</header>
+"""
+
+
+def rodape(base):
+    ano = dt.date.today().year
+    return f"""<footer class="rodape">
+  <div class="casca">
+    <div>
+      <h4>Arquitetura do Impossível</h4>
+      <p>Como uma obra que parecia impossível ficou de pé: o projeto, o cálculo, o canteiro, quem trabalhou e quem morreu. Aqui, número tem fonte.</p>
+      <p><a href="{CANAL}" rel="noopener">Assista no YouTube</a></p>
+    </div>
+    <div>
+      <h4>Do mesmo criador</h4>
+      <ul>
+        <li><a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a> — arqueologia e mistério</li>
+        <li>Xadrez Bélico — batalhas explicadas como partida</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Este site</h4>
+      <ul>
+        <li>Não usa cookies nem rastreamento.</li>
+        <li>Fotos de terceiros sob domínio público ou Creative Commons, com crédito em cada página.</li>
+      </ul>
+    </div>
+    <div class="linha"><span>© {ano} {NOME} · textos autorais</span><span>o impossível, medido.</span></div>
+  </div>
+</footer>
+"""
+
+
+SCRIPT = """<script>
+(function(){
+  var hoje=new Date();hoje.setHours(0,0,0,0);
+  document.querySelectorAll('[data-estreia]').forEach(function(el){
+    var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+  });
+  var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
+  fs.forEach(function(b){b.addEventListener('click',function(){
+    fs.forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+    var f=b.dataset.f;cs.forEach(function(c){c.hidden=!(f==='todas'||c.dataset.regiao===f)});
+  })});
+  var rv=document.querySelectorAll('.revela');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visto');io.unobserve(x.target)}})},{rootMargin:'0px 0px -8% 0px'});
+    rv.forEach(function(x){io.observe(x)});
+  } else rv.forEach(function(x){x.classList.add('visto')});
+  var bar=document.querySelector('.progresso'),art=document.querySelector('.texto');
+  if(bar&&art){var up=function(){var r=art.getBoundingClientRect(),t=r.height-innerHeight;bar.style.transform='scaleX('+Math.min(1,Math.max(0,-r.top/(t>0?t:1)))+')'};addEventListener('scroll',up,{passive:true});up();}
+  var links=document.querySelectorAll('.indice a');
+  if(links.length&&'IntersectionObserver' in window){
+    var io2=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){links.forEach(function(a){a.classList.toggle('ativo',a.getAttribute('href')==='#'+x.target.id)})}})},{rootMargin:'-20% 0px -70% 0px'});
+    document.querySelectorAll('.texto h2[id]').forEach(function(h){io2.observe(h)});
+  }
+  var lupa=document.querySelector('.lupa');
+  if(lupa){
+    var li=lupa.querySelector('img'),lp=lupa.querySelector('p'),lb=lupa.querySelector('button'),ant=null;
+    var fecha=function(){lupa.classList.remove('aberta');document.body.style.overflow='';if(ant)ant.focus()};
+    document.querySelectorAll('.fig button').forEach(function(b){b.addEventListener('click',function(){
+      ant=b;var im=b.querySelector('img');li.src=b.dataset.grande;li.alt=im.alt;lp.textContent=b.dataset.legenda;
+      lupa.classList.add('aberta');document.body.style.overflow='hidden';lb.focus();
+    })});
+    lb.addEventListener('click',fecha);
+    lupa.addEventListener('click',function(ev){if(ev.target===lupa)fecha()});
+    addEventListener('keydown',function(ev){if(ev.key==='Escape'&&lupa.classList.contains('aberta'))fecha()});
+  }
+})();
+</script>
+</body>
+</html>
+"""
+
+
+def conf_selo(c):
+    cls, txt, tit = CONF[c]
+    return f'<span class="conf {cls}" title="{e(tit)}">{e(txt)}</span>'
+
+
+def img_tag(arquivo, alt, base, tamanhos="100vw", carregar="lazy", classe="", foco=None):
+    nome = Path(arquivo).stem
+    menor = IMG / f"{nome}-800.jpg"
+    w, h = Image.open(IMG / arquivo).size
+    srcset = ""
+    if menor.exists():
+        srcset = f' srcset="{base}assets/img/{nome}-800.jpg 800w, {base}assets/img/{arquivo} {w}w" sizes="{tamanhos}"'
+    cl = f' class="{classe}"' if classe else ""
+    # `foco` (opcional na imagem do JSON): o ponto que não pode sair do quadro
+    # quando a foto é recortada (capa no celular, cartão da home). CSS object-position.
+    st = f' style="object-position:{e(foco)}"' if foco else ""
+    return (f'<img src="{base}assets/img/{e(arquivo)}"{srcset} width="{w}" height="{h}" '
+            f'alt="{e(alt)}" loading="{carregar}" decoding="async"{cl}{st}>')
+
+
+def credito(im):
+    lic = e(im["licenca"])
+    if im.get("licenca_url"):
+        lic = f'<a href="{e(im["licenca_url"])}" rel="license noopener">{lic}</a>'
+    autor = e(im["autor"])
+    if im.get("origem_url"):
+        autor = f'<a href="{e(im["origem_url"])}" rel="noopener">{autor}</a>'
+    return f"{autor} · {lic}"
+
+
+# --- imagem de compartilhamento --------------------------------------------
+def fonte(nome, tam):
+    return ImageFont.truetype(str(SRC / "marca" / nome), tam)
+
+
+def og_obra(o):
+    destino = IMG / f"og-{o['slug']}.jpg"
+    capa = Image.open(IMG / o["imagens"][0]["arquivo"]).convert("RGB")
+    im = ImageOps.fit(capa, (1200, 630), Image.LANCZOS, centering=(0.5, 0.45))
+    # escurece de baixo para cima, para o título ler sobre qualquer foto
+    sombra = Image.new("L", (1, 630))
+    for y in range(630):
+        sombra.putpixel((0, y), int(245 * min(1, max(0, (y - 150) / 330)) ** 1.1))
+    sombra = sombra.resize((1200, 630))
+    im = Image.composite(Image.new("RGB", im.size, (9, 27, 45)), im, sombra)
+    d = ImageDraw.Draw(im)
+    d.text((56, 372), f"OBRA {o['num']}  ·  {o['lugar'].split(',')[-1].strip().upper()}", font=fonte("IBMPlexMono-Medium.ttf", 22), fill=(242, 183, 5))
+    tam = 96
+    while tam > 50 and d.textlength(o["obra"].upper(), font=fonte("BarlowCondensed-Bold.ttf", tam)) > 1088:
+        tam -= 4
+    d.text((52, 410), o["obra"].upper(), font=fonte("BarlowCondensed-Bold.ttf", tam), fill=(233, 238, 240))
+    d.text((56, 528), "ARQUITETURA DO IMPOSSÍVEL", font=fonte("BarlowCondensed-SemiBold.ttf", 34), fill=(242, 183, 5))
+    for x in range(-40, 1240, 40):  # faixa de obra
+        d.polygon([(x, 630), (x + 20, 630), (x + 32, 612), (x + 12, 612)], fill=(242, 183, 5))
+    d.rectangle([0, 606, 1200, 611], fill=(242, 183, 5))
+    im.save(destino, "JPEG", quality=84, optimize=True, progressive=True)
+    return destino.name
+
+
+def og_home():
+    destino = IMG / "og-home.jpg"
+    b = Image.open(SRC / "marca" / "banner-2560x1440.png").convert("RGB")
+    ImageOps.fit(b, (1200, 630), Image.LANCZOS).save(destino, "JPEG", quality=86, optimize=True, progressive=True)
+    return destino.name
+
+
+# --- home ------------------------------------------------------------------
+def card(o, base):
+    capa = o["imagens"][0]
+    return f"""<li class="obra-card revela" data-regiao="{o['regiao']}">
+  <div class="foto">{img_tag(capa['arquivo'], capa['alt'], base, '(max-width:720px) 100vw, 400px', foco=capa.get('foco'))}
+    <span class="num">{e(o['num'])}</span>
+    <span class="selo selo-estreia" data-estreia="{o['estreia']}" data-no-ar="No ar">Estreia {e(data_br(o['estreia']))}</span>
+  </div>
+  <div class="corpo">
+    <h3><a href="{base}obras/{o['slug']}.html">{e(o['obra'])}</a></h3>
+    <div class="onde">{e(o['lugar'])} · {e(o['periodo'])}</div>
+    <p class="imp">{para(o['impossivel'])}</p>
+    <div class="pe"><span>{'Brasil' if o['regiao']=='brasil' else 'Mundo'}</span><span>Ler a obra →</span></div>
+  </div>
+</li>"""
+
+
+def card_apuracao(a):
+    return f"""<li class="obra-card apuracao revela" data-regiao="{a['regiao']}">
+  <div class="foto"><span class="num">{e(a['num'])}</span>
+    <span class="selo">Em apuração</span>
+  </div>
+  <div class="corpo">
+    <h3>{e(a['obra'])}</h3>
+    <div class="onde">{e(a['lugar'])}</div>
+    <p class="imp">{para(a['impossivel'])}</p>
+    <div class="pe"><span>{'Brasil' if a['regiao']=='brasil' else 'Mundo'}</span><span>Estreia {e(data_br(a['estreia']))}</span></div>
+  </div>
+</li>"""
+
+
+def home(obras, og):
+    base = ""
+    graus = "".join(f"<li>{conf_selo(k)}<p><strong>{ {'2+':'Confirmado','1':'Fonte única','DIV':'Divergência','sem':'Sem registro'}[k] }</strong>{e(v[2])}</p></li>" for k, v in CONF.items())
+    jsonld = {"@context": "https://schema.org", "@type": "WebSite", "name": NOME, "url": DOMINIO + "/",
+              "inLanguage": "pt-BR", "description": "Como grandes obras que pareciam impossíveis ficaram de pé.",
+              "publisher": {"@type": "Organization", "name": NOME, "sameAs": [CANAL]}}
+    cards = "\n".join(card(o, base) for o in obras) + "\n" + "\n".join(card_apuracao(a) for a in EM_APURACAO)
+    return (cabeca(f"{NOME} — como isto foi erguido",
+                   "Grandes construções que pareciam impossíveis: o projeto, o cálculo, o canteiro, quantos trabalharam, quanto custou e quem morreu. Número com fonte.",
+                   DOMINIO + "/", f"{DOMINIO}/assets/img/{og}", base, jsonld)
+            + topo(base) + f"""<main id="conteudo">
+<section class="abre">
+  <div class="casca">
+    <div>
+      <div class="cota"><span>o impossível, medido</span></div>
+      <h1>Como isto foi <em>erguido?</em></h1>
+      <p class="lead">Toda semana, a história de uma grande construção que parecia impossível, e de quem resolveu o problema. O projeto, o cálculo, o canteiro. Quantos operários, quanto tempo, quanto custou, quem se feriu e quem morreu.</p>
+      <div class="botoes">
+        <a class="botao cheio" href="#obras">Ver as obras</a>
+        <a class="botao" href="{CANAL}" rel="noopener">Canal no YouTube</a>
+      </div>
+    </div>
+    <div class="simbolo" aria-hidden="true">{simbolo(agrupar=True, rotulo="")}</div>
+  </div>
+</section>
+<div class="faixa" role="presentation"></div>
+
+<section class="secao" id="obras">
+  <div class="casca">
+    <header>
+      <div>
+        <span class="rotulo">Prancheta <b>{len(obras) + len(EM_APURACAO):02d}</b> obras</span>
+        <h2>As obras</h2>
+        <p>Um episódio do Brasil, um do resto do mundo, alternados. Cada página tem a ficha técnica completa e a história de como a obra ficou de pé.</p>
+      </div>
+      <div class="filtros" role="group" aria-label="Filtrar obras">
+        <button type="button" data-f="todas" aria-pressed="true">Todas</button>
+        <button type="button" data-f="brasil" aria-pressed="false">Brasil</button>
+        <button type="button" data-f="mundo" aria-pressed="false">Mundo</button>
+      </div>
+    </header>
+    <ul class="obras">
+{cards}
+    </ul>
+  </div>
+</section>
+
+<section class="secao metodo" id="metodo">
+  <div class="casca">
+    <div>
+      <span class="rotulo">Método</span>
+      <h2>Aqui, número <span class="destaque">tem fonte</span></h2>
+      <p>Toda obra grande vem com lenda: o operário enterrado no concreto, a estrutura “construída em X dias”, o número de mortos que ninguém conferiu. Cada dado deste site carrega um selo dizendo quanto se pode confiar nele.</p>
+      <p>Quando as fontes discordam, mostramos as versões e não escolhemos. Quando ninguém registrou, dizemos isso em vez de inventar.</p>
+    </div>
+    <ul class="graus">{graus}</ul>
+  </div>
+</section>
+</main>
+""" + rodape(base) + SCRIPT)
+
+
+# --- página de obra ---------------------------------------------------------
+def figura(im, n, base):
+    leg = f"{im['legenda']} — {im['autor']}, {im['licenca']}"
+    return f"""<figure class="fig revela">
+  <button type="button" class="cantos" data-grande="{base}assets/img/{e(im['arquivo'])}" data-legenda="{e(leg)}" aria-label="Ampliar imagem: {e(im['alt'])}">{img_tag(im['arquivo'], im['alt'], base, '(max-width:980px) 100vw, 720px')}</button>
+  <figcaption><span class="fn">FIG. {n:02d}</span><span>{para(im['legenda'])}</span><small>{credito(im)}</small></figcaption>
+</figure>"""
+
+
+def pagina_obra(o, obras, og):
+    base = "../"
+    url = f"{DOMINIO}/obras/{o['slug']}.html"
+    capa = o["imagens"][0]
+    resto = o["imagens"][1:]
+    secoes = []
+    for i, s in enumerate(o["historia"]):
+        sid = f"s{i+1}"
+        corpo = "".join(f"<p>{para(p)}</p>" for p in s["paragrafos"])
+        fig = ""
+        if i < len(resto):
+            fig = figura(resto[i], i + 2, base)
+        secoes.append((sid, s["titulo"], f'<h2 id="{sid}"><span class="n">{i+1:02d}</span>{e(s["titulo"])}</h2>{corpo}{fig}'))
+    # figuras que sobraram (mais imagens que seções) vão antes dos mitos
+    sobra = "".join(figura(im, len(o["historia"]) + 2 + k, base) for k, im in enumerate(resto[len(o["historia"]):]))
+
+    numeros = "".join(f'<li><span class="valor">{e(n["valor"])}</span><span class="rot">{e(n["rotulo"])}</span>{conf_selo(n["conf"])}</li>' for n in o["numeros"])
+    ficha = "".join(
+        f'<tr><th scope="row">{e(f["item"])}</th><td class="v">{para(f["valor"])}'
+        + (f'<span class="nota">{para(f["nota"])}</span>' if f.get("nota") else "")
+        + f'</td><td class="c">{conf_selo(f["conf"])}</td></tr>' for f in o["ficha"])
+    legenda_conf = "".join(f"<span>{conf_selo(k)} {e(v[2])}</span>" for k, v in CONF.items())
+    mitos = "".join(f'<li><div><span class="rotulo">O que circula</span><p>{para(m["circula"])}</p></div><div><span class="rotulo"><b>O que o registro diz</b></span><p>{para(m["registro"])}</p></div></li>' for m in o["mitos"])
+    fontes = "".join(
+        f'<li>{para(f["texto"])}' + (f' — <a href="{e(f["url"])}" rel="noopener">{e(re.sub(r"^https?://(www\.)?", "", f["url"]).split("/")[0])}</a>' if f.get("url") else "") + "</li>"
+        for f in o["fontes"])
+    creditos = "".join(f'<li>Fig. {i+1:02d} — {e(im["legenda"])}: {credito(im)}</li>' for i, im in enumerate(o["imagens"]))
+
+    indice = [("ficha", "Ficha da obra")] + [(sid, t) for sid, t, _ in secoes] + [("mitos", "Mitos e registro"), ("fontes", "Fontes")]
+    indice_html = "".join(f'<li><a href="#{a}">{e(t)}</a></li>' for a, t in indice)
+
+    i_atual = [x["slug"] for x in obras].index(o["slug"])
+    ant = obras[i_atual - 1] if i_atual > 0 else None
+    prox = next((x for x in obras if x["slug"] == o["proximo"]), None) if o["proximo"] else None
+    nav = ""
+    if ant or prox:
+        nav = '<nav class="seguinte" aria-label="Outras obras">'
+        nav += (f'<a href="{ant["slug"]}.html"><span class="rotulo">← Obra {ant["num"]}</span><strong>{e(ant["obra"])}</strong></a>' if ant else "<span></span>")
+        nav += (f'<a href="{prox["slug"]}.html"><span class="rotulo">Obra {prox["num"]} →</span><strong>{e(prox["obra"])}</strong></a>' if prox else '<a href="../index.html#obras"><span class="rotulo">Todas as obras →</span><strong>Prancheta</strong></a>')
+        nav += "</nav>"
+
+    jsonld = {
+        "@context": "https://schema.org", "@type": "Article", "headline": f"{o['obra']}: como foi erguido",
+        "description": o["resumo"], "inLanguage": "pt-BR", "url": url,
+        "image": f"{DOMINIO}/assets/img/{og}",
+        "author": {"@type": "Organization", "name": NOME}, "publisher": {"@type": "Organization", "name": NOME},
+        "about": {"@type": "LandmarksOrHistoricalBuildings", "name": o["obra"], "address": o["lugar"]},
+    }
+    return (cabeca(f"{o['obra']}: como foi erguido — {NOME}", o["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article")
+            + '<div class="progresso" aria-hidden="true"></div>' + topo(base, "obras") + f"""<main id="conteudo">
+<header class="capa">
+  {img_tag(capa['arquivo'], capa['alt'], base, '100vw', 'eager', foco=capa.get('foco'))}
+  <span class="credito-capa">{e(capa['legenda'])} — {credito(capa)}</span>
+  <div class="casca">
+    <span class="rotulo">Obra <b>{e(o['num'])}</b> · {'Brasil' if o['regiao']=='brasil' else 'Mundo'}</span>
+    <h1>{e(o['obra'])}</h1>
+    <div class="sub">{e(o['lugar'])} · {e(o['periodo'])}</div>
+    <p class="imp">{para(o['impossivel'])}</p>
+  </div>
+</header>
+<section class="cotas" aria-label="A obra em números"><ul>{numeros}</ul></section>
+<div class="casca obra-layout">
+  <article class="texto">
+    <div class="abertura">{''.join(f'<p>{para(p)}</p>' for p in o['abertura'])}</div>
+
+    <h2 id="ficha"><span class="n">FICHA</span>Ficha da obra</h2>
+    <table class="ficha">
+      <tbody>{ficha}</tbody>
+    </table>
+    <div class="legenda-conf">{legenda_conf}</div>
+
+    {''.join(h for _, _, h in secoes)}
+    {sobra}
+
+    <h2 id="mitos"><span class="n">MITOS</span>O que circula e o que o registro diz</h2>
+    <ul class="mitos">{mitos}</ul>
+
+    <section class="video">
+      <div>
+        <span class="rotulo">Episódio {e(o['num'])} · <span class="selo-estreia" data-estreia="{o['estreia']}" data-no-ar="no ar">estreia {e(data_br(o['estreia'], True))}</span></span>
+        <h3>{e(o['titulo_video'])}</h3>
+        <p>{e(BORDAO)}</p>
+      </div>
+      <a class="botao cheio" href="{CANAL}" rel="noopener">Ver no YouTube</a>
+    </section>
+
+    <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
+    <ol class="fontes">{fontes}</ol>
+    <h3 style="margin-top:2rem">Imagens</h3>
+    <ul class="creditos">{creditos}</ul>
+  </article>
+  <aside class="indice" aria-label="Nesta página">
+    <div class="lado-card">
+      <span class="rotulo">Ficha rápida</span>
+      <dl>
+        <div><dt>Onde</dt><dd>{e(o['lugar'])}</dd></div>
+        <div><dt>Obra</dt><dd>{e(o['periodo'])}</dd></div>
+        <div><dt>Episódio</dt><dd>{e(o['num'])} · {e(data_br(o['estreia']))}</dd></div>
+      </dl>
+    </div>
+    <span class="rotulo">Nesta página</span>
+    <ol>{indice_html}</ol>
+  </aside>
+</div>
+{nav}
+</main>
+<div class="lupa" role="dialog" aria-modal="true" aria-label="Imagem ampliada"><button type="button">Fechar</button><img alt=""><p></p></div>
+""" + rodape(base) + SCRIPT)
+
+
+def pagina_404():
+    base = "/"  # o 404 é servido em qualquer caminho: endereços absolutos
+    return (cabeca(f"Página não encontrada — {NOME}", "Esta página não existe.", DOMINIO + "/404.html",
+                   f"{DOMINIO}/assets/img/og-home.jpg", base, {"@context": "https://schema.org", "@type": "WebPage", "name": "404"})
+            + topo(base) + f"""<main id="conteudo" class="simples"><div class="casca">
+  <div class="cota"><span>erro 404</span></div>
+  <h1>Esta viga <span class="destaque">não fecha</span></h1>
+  <p>A página que você procurou não existe, ou mudou de endereço. Como o triângulo da nossa marca: parece que leva a algum lugar, mas não leva.</p>
+  <div class="botoes"><a class="botao cheio" href="/index.html#obras">Ver as obras</a></div>
+</div></main>
+""" + rodape(base) + SCRIPT)
+
+
+# --- main ---------------------------------------------------------------------
+def main():
+    obras = carregar()
+    (RAIZ / "obras").mkdir(exist_ok=True)
+    (RAIZ / "assets").mkdir(exist_ok=True)
+
+    css = (SRC / "arquitetura.css").read_text(encoding="utf-8").replace("url(/assets/fontes/", "url(fontes/")
+    (RAIZ / "assets" / "arquitetura.css").write_text(css, encoding="utf-8")
+    (RAIZ / "favicon.svg").write_text(simbolo("0 0 1020 886", rotulo=NOME), encoding="utf-8")
+
+    og = {o["slug"]: og_obra(o) for o in obras}
+    (RAIZ / "index.html").write_text(home(obras, og_home()), encoding="utf-8")
+    gerados = {"index.html"}
+    for o in obras:
+        (RAIZ / "obras" / f"{o['slug']}.html").write_text(pagina_obra(o, obras, og[o["slug"]]), encoding="utf-8")
+        gerados.add(f"obras/{o['slug']}.html")
+    for velho in (RAIZ / "obras").glob("*.html"):
+        if f"obras/{velho.name}" not in gerados:
+            velho.unlink()
+            print("removido (obra sem JSON):", velho.name)
+    (RAIZ / "404.html").write_text(pagina_404(), encoding="utf-8")
+
+    hoje = dt.date.today().isoformat()
+    urls = [DOMINIO + "/"] + [f"{DOMINIO}/obras/{o['slug']}.html" for o in obras]
+    (RAIZ / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "".join(f"  <url><loc>{u}</loc><lastmod>{hoje}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+    (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /_src/\n\nSitemap: {DOMINIO}/sitemap.xml\n", encoding="utf-8")
+
+    print(f"ok: {len(obras)} obras, {len(EM_APURACAO)} em apuração")
+    for o in obras:
+        print(f"  {o['num']} {o['obra']}: {len(o['ficha'])} linhas de ficha, {len(o['historia'])} seções, {len(o['imagens'])} imagens")
+
+
+if __name__ == "__main__":
+    main()
