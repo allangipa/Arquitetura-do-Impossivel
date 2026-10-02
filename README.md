@@ -93,17 +93,13 @@ estar completo, nunca só o que mudou.
 O `.htaccess` serve o `404.html` e responde 404 para `_src/`, mesmo que ele
 um dia vá parar no servidor.
 
-### GitHub (pendente)
+### GitHub
 
-O repositório git local existe (branch `main`), mas ainda não tem remoto: o
-GitHub CLI não está instalado nesta máquina. Para ligar, crie o repositório
-vazio `Arquitetura-do-Impossivel` em github.com e rode:
+Repositório: https://github.com/allangipa/Arquitetura-do-Impossivel
+(branch `main`, ligado em 02/10/2026).
 
-```bash
-git remote add origin https://github.com/allangipa/Arquitetura-do-Impossivel.git
-git push -u origin main
-```
-
-Se depois quiser deploy automático a cada push, igual ao Vestígio: painel →
-**Sites → arquiteturadoimpossivel.com.br → Avançado → Git**, branch `main`,
-diretório = raiz.
+A publicação **não** é automática: o push guarda o código, mas o site só
+muda quando o pacote é enviado de novo (passos acima). Se quiser deploy a
+cada push, igual ao Vestígio: painel → **Sites →
+arquiteturadoimpossivel.com.br → Avançado → Git**, branch `main`, diretório
+= raiz. Aí o `.htaccess` passa a ser o que impede `_src/` de ser servido.
