@@ -76,7 +76,34 @@ O símbolo (triângulo de Penrose) vai inline a partir de
 
 ## Publicar na Hostinger
 
-Mesmo fluxo do Vestígio Oculto: repositório no GitHub, e no painel
+**No ar desde 02/10/2026** em https://arquiteturadoimpossivel.com.br, com SSL
+(o http já redireciona para https, e o www funciona).
+
+A primeira publicação foi por **pacote**, pelo plugin da Hostinger no Claude
+Code, não pelo Git do painel:
+
+1. `python _src/build.py`
+2. zip só com o que é servido: `index.html`, `404.html`, `favicon.svg`,
+   `robots.txt`, `sitemap.xml`, `.htaccess`, `obras/` e `assets/` (sem `_src/`);
+3. envio do zip para `public_html` e "deploy static site archive".
+
+**O deploy apaga a pasta inteira do site antes de extrair** — o pacote tem de
+estar completo, nunca só o que mudou.
+
+O `.htaccess` serve o `404.html` e responde 404 para `_src/`, mesmo que ele
+um dia vá parar no servidor.
+
+### GitHub (pendente)
+
+O repositório git local existe (branch `main`), mas ainda não tem remoto: o
+GitHub CLI não está instalado nesta máquina. Para ligar, crie o repositório
+vazio `Arquitetura-do-Impossivel` em github.com e rode:
+
+```bash
+git remote add origin https://github.com/allangipa/Arquitetura-do-Impossivel.git
+git push -u origin main
+```
+
+Se depois quiser deploy automático a cada push, igual ao Vestígio: painel →
 **Sites → arquiteturadoimpossivel.com.br → Avançado → Git**, branch `main`,
-diretório publicado = raiz. Depois do primeiro deploy, confira o SSL e force
-HTTPS.
+diretório = raiz.
