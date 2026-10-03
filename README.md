@@ -2,10 +2,8 @@
 
 Site do canal **@ArquiteturadoImpossível**, em `arquiteturadoimpossivel.com.br`.
 Estático, sem framework e sem build no servidor — o mesmo fluxo do Vestígio
-Oculto e do viagemnalupa: gera aqui, commit no GitHub, deploy na Hostinger.
-
-Na Hostinger o site já existe (criado em 02/10/2026, pedido 1009996834, conta
-`u888898160`, pasta `domains/arquiteturadoimpossivel.com.br/public_html`).
+Oculto e do viagemnalupa: gera aqui, commit e push no GitHub, e a Hostinger
+publica sozinha.
 
 ## Como gerar
 
@@ -74,32 +72,47 @@ servidor de terceiros e não usa cookies.
 O símbolo (triângulo de Penrose) vai inline a partir de
 `_src/marca/simbolo-escuro.svg`; no cabeçalho e no favicon, sem a cota.
 
-## Publicar na Hostinger
+## Publicar
 
 **No ar desde 02/10/2026** em https://arquiteturadoimpossivel.com.br, com SSL
-(o http já redireciona para https, e o www funciona).
+(o http redireciona para https, e o www funciona).
 
-A primeira publicação foi por **pacote**, pelo plugin da Hostinger no Claude
-Code, não pelo Git do painel:
+Repositório: https://github.com/allangipa/Arquitetura-do-Impossivel, branch
+`main`. **Cada push na `main` publica o site** — o Git do painel da Hostinger
+(Sites → arquiteturadoimpossivel.com.br → Avançado → Git, diretório = raiz)
+puxa o commit e põe no ar em cerca de 15 segundos.
 
-1. `python _src/build.py`
-2. zip só com o que é servido: `index.html`, `404.html`, `favicon.svg`,
-   `robots.txt`, `sitemap.xml`, `.htaccess`, `obras/` e `assets/` (sem `_src/`);
-3. envio do zip para `public_html` e "deploy static site archive".
+```bash
+python _src/build.py
+git add -A
+git commit -m "o que mudou"
+git push
+```
 
-**O deploy apaga a pasta inteira do site antes de extrair** — o pacote tem de
-estar completo, nunca só o que mudou.
+**Rode o build antes do commit.** O servidor não gera nada: ele publica os
+`.html` que estão no repositório. Mudou um JSON e não rodou o build, o site
+continua com o texto velho — sem erro nenhum.
 
-O `.htaccess` serve o `404.html` e responde 404 para `_src/`, mesmo que ele
-um dia vá parar no servidor.
+E confira no ar, não no terminal: abra a página que mudou (ou
+`curl -s https://arquiteturadoimpossivel.com.br/obras/<slug>.html | grep "<trecho novo>"`).
+O push dar certo não prova que o deploy deu.
 
-### GitHub
+### O que o `.htaccess` segura
 
-Repositório: https://github.com/allangipa/Arquitetura-do-Impossivel
-(branch `main`, ligado em 02/10/2026).
+Com o deploy por Git o repositório **inteiro** vai para o servidor, não só o
+site. O `.htaccess` é o que impede o resto de ser servido:
 
-A publicação **não** é automática: o push guarda o código, mas o site só
-muda quando o pacote é enviado de novo (passos acima). Se quiser deploy a
-cada push, igual ao Vestígio: painel → **Sites →
-arquiteturadoimpossivel.com.br → Avançado → Git**, branch `main`, diretório
-= raiz. Aí o `.htaccess` passa a ser o que impede `_src/` de ser servido.
+- `404.html` como página de erro;
+- 404 para `_src/`, `.claude/`, `.git/`, `README.md` e `.gitignore`.
+
+Arquivo novo na raiz que não seja página (nota, script, planilha) **fica
+público** até entrar nessa lista. Na dúvida, ponha dentro de `_src/`.
+
+### Publicação por pacote (só se o Git falhar)
+
+A primeira publicação, antes de o Git ser ligado, foi por pacote, pelo plugin
+da Hostinger no Claude Code: zip só com o que é servido (`index.html`,
+`404.html`, `favicon.svg`, `robots.txt`, `sitemap.xml`, `.htaccess`, `obras/`
+e `assets/`), envio para `public_html` e "deploy static site archive".
+**Esse deploy apaga a pasta inteira do site antes de extrair**: o pacote vai
+sempre completo, nunca só o que mudou.
