@@ -6,6 +6,9 @@ DirectoryIndex index.html
 
 # o código-fonte vai no repositório, mas não é servido
 RedirectMatch 404 ^/(_src|\.claude|\.git)(/|$)
+# com o deploy por Git o repositório inteiro vai para public_html:
+# README e .gitignore são notas de trabalho, não página
+RedirectMatch 404 ^/(README\.md|\.gitignore)$
 
 <IfModule mod_expires.c>
   ExpiresActive On
