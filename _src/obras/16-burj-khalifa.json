@@ -35,8 +35,8 @@
       "conf": "2+"
     },
     {
-      "valor": "12 mil",
-      "rotulo": "operários no pico da obra, segundo a gerência do projeto e a imprensa da época",
+      "valor": "10 mil · 12 mil",
+      "rotulo": "operários no pico da obra, conforme a fonte; o total que passou pela obra não foi registrado",
       "conf": "DIV"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "item": "Quem quis",
-      "valor": "A Emaar Properties, presidida por Mohamed Alabbar, com o governo de Dubai. A torre se chamou Burj Dubai durante toda a obra.",
+      "valor": "A incorporadora Emaar Properties, presidida por Mohamed Alabbar. A torre se chamou Burj Dubai durante toda a obra.",
       "conf": "2+"
     },
     {
@@ -70,7 +70,7 @@
       "item": "Prazo",
       "valor": "Escavação em janeiro de 2004; radier concretado em cerimônia em 20/09/2004; contrato da Samsung anunciado em dezembro de 2004; prédio mais alto do mundo em 21/07/2007, com 141 andares; topo em janeiro de 2009; inauguração em 04/01/2010.",
       "conf": "2+",
-      "nota": "algumas fontes dão 21/09/2004 como início da construção"
+      "nota": "algumas fontes dão 21/09/2004 como início da construção; a cerimônia do radier, o contrato da Samsung e a data do topo aparecem cada um numa fonte só"
     },
     {
       "item": "Altura e andares",
@@ -98,7 +98,7 @@
     },
     {
       "item": "Custo",
-      "valor": "US$ 1,5 bilhão pela torre, segundo a Associated Press na inauguração; a Architectural Record falava em US$ 1,4 bilhão em 2007, com a obra em curso. O bairro inteiro em volta foi estimado em US$ 20 bilhões.",
+      "valor": "US$ 1,5 bilhão pela torre, segundo a Associated Press na inauguração; a Architectural Record falava em US$ 1,4 bilhão em 2007, com a obra em curso.",
       "conf": "DIV",
       "nota": "pelo índice de preços ao consumidor dos EUA (2010 = 218,1; 2025 = 321,9), US$ 1,5 bilhão de 2010 equivalem a cerca de US$ 2,2 bilhões de 2025"
     },
@@ -116,7 +116,7 @@
     },
     {
       "item": "Concreto",
-      "valor": "Paredes de 80 MPa até cerca de 440 m e de 60 MPa acima. Toda a concretagem vertical foi feita à noite; no verão, quase toda a água da mistura era gelo em escamas. Bombeado num só estágio a 601 m, segundo o engenheiro do concreto James Aldred, ou a 606 m, segundo a fabricante da bomba, a Putzmeister.",
+      "valor": "Paredes de concreto de 80 MPa embaixo, caindo para 60 MPa nos andares altos. Toda a concretagem vertical foi feita à noite; no verão, quase toda a água da mistura era gelo em escamas. Bombeado num só estágio a 601 m, segundo o engenheiro do concreto James Aldred, ou a 606 m, segundo a fabricante da bomba, a Putzmeister.",
       "conf": "DIV",
       "nota": "a concretagem noturna está em duas fontes; o gelo, em uma"
     },
@@ -128,7 +128,7 @@
     },
     {
       "item": "Hoje",
-      "valor": "Segue o prédio mais alto do mundo. A Jeddah Tower, na Arábia Saudita, desenhada pelo mesmo Adrian Smith, chegou a 454 m e 113 andares em setembro de 2026 e quer passar de 1.000 m em 2028.",
+      "valor": "Em outubro de 2026, seguia o prédio mais alto do mundo. A Jeddah Tower, na Arábia Saudita, desenhada pelo mesmo Adrian Smith, tinha 454 m e 113 andares em 02/09/2026, segundo a Arabian Business, e quer passar de 1.000 m em 2028.",
       "conf": "2+"
     }
   ],
@@ -136,7 +136,7 @@
     {
       "titulo": "Uma altura em segredo",
       "paragrafos": [
-        "Quando a Emaar começou a escavar o terreno, em janeiro de 2004, o prédio mais alto do mundo era o Taipei 101, em Taiwan, com 509 metros. A torre de Dubai seria o centro de um bairro inteiro, o Downtown Burj Dubai, com shopping, lago artificial e prédios de apartamentos, e tinha de passar o Taipei com folga. Quanto, ninguém dizia. Em 2008, os próprios engenheiros escreveram que a altura final era um segredo bem guardado.",
+        "Quando a Emaar começou a escavar o terreno, em janeiro de 2004, o prédio que acabava de se tornar o mais alto do mundo era o Taipei 101, em Taiwan, com 509 metros, inaugurado no fim daquele ano. A torre de Dubai seria o centro de um bairro inteiro, o Downtown Burj Dubai, com shopping, lago artificial e prédios de apartamentos, e tinha de passar o Taipei com folga. Quanto, ninguém dizia. Em 2008, os próprios engenheiros escreveram que a altura final era um segredo bem guardado.",
         "O projeto saiu do escritório Skidmore, Owings & Merrill, de Chicago. O arquiteto Adrian Smith desenhou uma planta de três braços que, segundo a SOM, se inspirava numa flor do deserto e na imagem espiral da arquitetura islâmica. A obra foi entregue a um consórcio liderado pela sul-coreana Samsung C&T, com a belga BESIX e a emiradense Arabtec, depois de onze meses de concorrência, segundo o Gulf News."
       ]
     },
@@ -157,9 +157,9 @@
     {
       "titulo": "Concreto à noite, com gelo",
       "paragrafos": [
-        "A torre é de concreto armado até cerca de 586 metros, e só acima disso vira aço. Levar concreto até lá em cima, no verão do Golfo, era o problema mais difícil, segundo os próprios engenheiros: a temperatura passa de 50 °C na sombra, e o concreto de alta resistência pode endurecer de repente dentro de um tubo com mais de dez metros cúbicos de massa. Um teste em fevereiro de 2005 bombeou concreto por 600 metros de tubo estendido no chão, para medir o atrito antes de subir.",
-        "Na obra, toda a concretagem das paredes e pilares foi feita à noite. Segundo o engenheiro James Aldred, da GHD, a temperatura máxima permitida era de 33 °C, e no verão quase toda a água da mistura era gelo em escamas. Três bombas Putzmeister, ligadas a tubos de aço de 150 milímetros, empurravam o concreto com pressão de até 250 bar. Aldred registrou 601 metros num só estágio, recorde mundial; a fabricante fala em 606 metros, até o 156º andar. O recorde anterior de bombeamento vertical, segundo Aldred, era de 532 metros, numa usina hidrelétrica italiana em 1994.",
-        "Com fôrmas que se erguiam sozinhas e armadura montada no chão em trechos de oito metros, a estrutura chegou a subir um andar a cada três dias, segundo a Architectural Record. Em 21 de julho de 2007, com 141 andares e 512,1 metros, a Emaar anunciou que o Burj Dubai passava a ser o prédio mais alto do mundo. A torre ainda subiria mais de 300 metros."
+        "A torre é de concreto armado até cerca de 586 metros, e só acima disso vira aço. Levar concreto até lá em cima, no verão do Golfo, era outro problema: a temperatura passa de 50 °C na sombra, e o concreto de alta resistência pode endurecer de repente dentro do tubo e entupi-lo. Um teste em fevereiro de 2005 bombeou concreto por 600 metros de tubo estendido no chão, para medir o atrito antes de subir.",
+        "Na obra, toda a concretagem das paredes e pilares foi feita à noite. Segundo o engenheiro James Aldred, da GHD, a temperatura máxima permitida era de 33 °C, e no verão quase toda a água da mistura era gelo em escamas. Três bombas Putzmeister, ligadas a tubos de aço de 150 milímetros, empurravam o concreto com pressão de trabalho de 250 bar, que podia chegar a 350 ou 400. Aldred registrou 601 metros num só estágio, recorde mundial; a fabricante fala em 606 metros, até o 156º andar. O recorde anterior de bombeamento vertical, segundo Aldred, era de 532 metros, numa usina hidrelétrica italiana em 1994.",
+        "Com fôrmas que se erguiam sozinhas e armadura montada no chão em trechos de oito metros, a estrutura subiu, em média, um andar a cada três dias em 2007, segundo a Architectural Record. Em 21 de julho de 2007, com 141 andares e 512,1 metros, a Emaar anunciou que o Burj Dubai passava a ser o prédio mais alto do mundo. A torre ainda subiria mais de 300 metros."
       ]
     },
     {
@@ -167,7 +167,7 @@
       "paragrafos": [
         "No pico, havia cerca de 12 mil pessoas no canteiro, segundo a Associated Press e a Turner, gerente do projeto; o Gulf News falou em 10 mil, e a Architectural Record contava 6.800 em julho de 2007. Eram, em grande parte, migrantes do sul da Ásia, da Índia, do Paquistão, de Bangladesh e do Nepal. Em 2006, segundo a agência AFP, um carpinteiro ganhava US$ 7,60 por dia e um servente, US$ 4. Um relatório da Human Rights Watch daquele ano sobre a construção civil nos Emirados descreveu operários que pagavam até US$ 3.000 a agências de recrutamento e tinham o passaporte retido pelo patrão.",
         "Em 21 de março de 2006, cerca de 2.500 operários da Al Naboodah Laing O'Rourke, que trabalhavam no canteiro do Burj e dos prédios em volta, se revoltaram no fim do turno, quebraram escritórios e destruíram carros e máquinas. No dia seguinte voltaram e cruzaram os braços. Em outubro de 2007 foi a vez dos operários da Arabtec, com salário médio de 700 dirhams por mês, num país onde greve e sindicato são proibidos.",
-        "Quantos morreram, não há registro público. A Emaar e o consórcio nunca publicaram um total. A imprensa do Golfo noticiou duas mortes durante a obra: em 15 de junho de 2007, um operário caiu da fôrma, e a Emaar confirmou a morte dizendo que não houvera violação das normas de segurança; em 20 de maio de 2008, segundo a Arabian Business, o operário Qiwen Li foi esmagado por um painel da fachada. O mesmo relatório da Human Rights Watch mostrava que, nos Emirados daquela época, a prefeitura de Dubai registrava algumas dezenas de mortes por ano na construção, enquanto uma apuração independente contou 880 mortes de migrantes no país em 2004."
+        "Quantos morreram, não há registro público. Nenhum total da Emaar ou do consórcio foi encontrado publicado. A imprensa do Golfo noticiou duas mortes durante a obra: em 15 de junho de 2007, um operário caiu da fôrma, e a Emaar confirmou a morte dizendo que não houvera violação das normas de segurança; em 20 de maio de 2008, segundo a Arabian Business, o operário Qiwen Li foi esmagado por um painel da fachada. O mesmo relatório da Human Rights Watch mostrava que, nos Emirados daquela época, a prefeitura de Dubai registrava algumas dezenas de mortes por ano na construção, enquanto uma apuração independente contou 880 mortes de migrantes no país em 2004."
       ]
     },
     {
@@ -181,14 +181,14 @@
       "titulo": "O autor contra a própria torre",
       "paragrafos": [
         "Em janeiro de 2025, depois de cerca de sete anos parada, foi retomada em Jedá, na Arábia Saudita, a obra da Jeddah Tower, que quer passar de 1.000 metros. O projeto é do escritório Adrian Smith + Gordon Gill, do mesmo Adrian Smith que desenhou o Burj Khalifa pela SOM. Segundo a Thornton Tomasetti, engenheira da obra, a torre saudita tem estrutura de concreto e um radier de 5 metros sobre 270 estacas.",
-        "Em 2 de setembro de 2026, segundo a Arabian Business, ela chegou a 454 metros e 113 andares, subindo cerca de um andar por semana, com conclusão prevista para 2028. Ainda faltam mais de 370 metros para alcançar o Burj Khalifa. Se chegar lá, o prédio mais alto do mundo perderá o título para uma obra do próprio autor."
+        "Em 2 de setembro de 2026, segundo a Arabian Business, ela chegou a 454 metros e 113 andares, subindo cerca de um andar por semana, com conclusão prevista para 2028. Naquela data, faltavam mais de 370 metros para alcançar o Burj Khalifa. Se chegar lá, o prédio mais alto do mundo perderá o título para uma obra do próprio autor."
       ]
     }
   ],
   "mitos": [
     {
       "circula": "Oficialmente, só um operário morreu na construção do Burj Khalifa.",
-      "registro": "Não existe documento público com esse total. Nem a Emaar nem o consórcio publicaram um número. A imprensa do Golfo noticiou duas mortes durante a obra, em junho de 2007 e em maio de 2008."
+      "registro": "Não existe documento público com esse total. Não se encontrou número publicado pela Emaar nem pelo consórcio. A imprensa do Golfo noticiou duas mortes durante a obra, em junho de 2007 e em maio de 2008."
     },
     {
       "circula": "O concreto do Burj Khalifa bateu o recorde de bombeamento que era do Taipei 101.",
@@ -200,7 +200,7 @@
     },
     {
       "circula": "A torre leva o nome de Khalifa porque Abu Dabi pagou a obra.",
-      "registro": "Abu Dabi socorreu o governo de Dubai e a estatal Dubai World em 2009, com US$ 10 bilhões, para pagar dívidas de outra empresa, a Nakheel. A torre é da Emaar. A ligação entre o nome e o socorro foi a leitura da imprensa na inauguração."
+      "registro": "Abu Dabi socorreu o governo de Dubai e a estatal Dubai World em 2009, com US$ 10 bilhões, para pagar dívidas da Nakheel, empresa do grupo Dubai World. A torre é da Emaar. A ligação entre o nome e o socorro foi a leitura da imprensa na inauguração."
     }
   ],
   "fontes": [

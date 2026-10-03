@@ -11,7 +11,7 @@
   "resumo": "Como Lina Bo Bardi e Figueiredo Ferraz suspenderam o MASP sobre um vão livre na Paulista, por que ele ficou vermelho e o que mudou em 2026.",
   "abertura": [
     "No meio da Avenida Paulista, em São Paulo, no Brasil, onde todos os prédios sobem, um deles fica deitado no ar. O Museu de Arte de São Paulo Assis Chateaubriand, o MASP, é uma caixa de concreto e vidro de dois andares, erguida oito metros acima do chão, sobre quatro pilares. Embaixo dela, onde caberiam colunas, há uma praça aberta à cidade.",
-    "O desenho é da arquiteta Lina Bo Bardi; o cálculo, do engenheiro José Carlos de Figueiredo Ferraz. Para vencer um vão de 70 ou 74 metros, conforme a medição, ele usou concreto de alta resistência criado durante a própria obra e um sistema de protensão de sua invenção. O prédio foi inaugurado em 7 de novembro de 1968 pela rainha Elizabeth II, e ainda hoje as vigas são medidas de seis em seis meses para ver quanto cederam."
+    "O desenho é da arquiteta Lina Bo Bardi; o cálculo, do engenheiro José Carlos de Figueiredo Ferraz. Para vencer um vão de 70 ou 74 metros, conforme a medição, ele usou concreto de alta resistência criado durante a própria obra e um sistema de protensão de sua invenção. O prédio foi inaugurado em 7 de novembro de 1968 pela rainha Elizabeth II, e o plano de conservação de 2018 manda medir as vigas de seis em seis meses, sem prazo para acabar, para ver quanto cederam."
   ],
   "numeros": [
     {
@@ -114,7 +114,8 @@
     {
       "item": "O vermelho",
       "valor": "Até 1990 a estrutura era de concreto aparente. Para conter infiltrações que desciam pelos pilares e vigas até a Pinacoteca, pilares e vigas externos foram pintados com tinta impermeabilizante vermelha, solução aprovada com Lina Bo Bardi.",
-      "conf": "2+"
+      "conf": "2+",
+      "nota": "a aprovação de Lina consta só do plano de conservação do museu (2018)"
     },
     {
       "item": "Tombamento",
@@ -163,14 +164,14 @@
       "titulo": "As vigas que cederam e o vermelho",
       "paragrafos": [
         "Quando o escoramento foi retirado, em 1968, as vigas superiores desceram mais do que o previsto. O plano de conservação atribui isso a um desempenho parcial da protensão original. A deformação fazia a água empoçar no teto, e uma vistoria de 1987 achou concreto deteriorado nas vigas e nos pilares. A cobertura foi refeita, mas a água continuava entrando: atravessava o concreto poroso das vigas e pilares externos, juntava-se no vazio dentro deles e descia até a Pinacoteca.",
-        "Em 1990, com aprovação de Lina Bo Bardi, a estrutura externa foi pintada com tinta impermeabilizante vermelha. Um dos argumentos foi a existência de croquis da arquiteta com a estrutura em vermelho, argumento que o próprio plano de conservação considera discutível. O vermelho, de todo modo, virou a imagem do prédio.",
+        "Em 1990, a estrutura externa foi pintada com tinta impermeabilizante vermelha, solução que, segundo o plano de conservação, foi aprovada com Lina Bo Bardi. Um dos argumentos foi a existência de croquis da arquiteta com a estrutura em vermelho, argumento que o próprio plano de conservação considera discutível. O vermelho, de todo modo, virou a imagem do prédio.",
         "Em 1999, o escritório que sucedeu Figueiredo Ferraz fez uma segunda protensão nas vigas da cobertura, com quatro cabos novos dentro de cada viga-caixa. Ao abrir as vigas, os técnicos encontraram o interior deteriorado e fôrmas de madeira com cupins, deixadas lá dentro desde a construção. Os cavaletes de cristal saíram da Pinacoteca em 1996 e voltaram em 2015."
       ]
     },
     {
       "titulo": "Cinza, vermelho e um túnel",
       "paragrafos": [
-        "Em abril de 2024 começou o restauro dos pórticos que o museu descreveu como o primeiro feito com critérios de preservação. A tinta foi retirada, as armaduras oxidadas foram tratadas, e por algumas semanas a Paulista viu o MASP cinza. O vermelho voltou a partir de junho, numa tinta da AkzoNobel batizada de Vermelho MASP, e o restauro foi entregue em abril de 2025.",
+        "Em abril de 2024 começou o restauro dos pórticos, que o museu descreveu como o primeiro significativo desde a inauguração. A tinta foi retirada, as armaduras oxidadas foram tratadas, e por meses a Paulista viu os pórticos do MASP cinza. O vermelho voltou a partir de junho, numa tinta da AkzoNobel batizada de Vermelho MASP, e o restauro foi entregue em abril de 2025.",
         "Em novembro de 2024, a Prefeitura, dona do prédio e do terreno, concedeu o vão livre ao museu por 20 anos. Em 28 de março de 2025 abriu o Edifício Pietro Maria Bardi, um prédio vizinho dos anos 1950 transformado pelo escritório METRO Arquitetos em anexo de 14 andares, pago com R$ 250 milhões em doações de pessoas físicas. O prédio de Lina passou a levar o nome dela.",
         "Em 11 de setembro de 2026, o museu abriu a passagem subterrânea que liga os dois edifícios. Nas paredes, Beatriz Milhazes fez Pietrolina, uma obra de 98 metros, com uma pintura de 60 metros e elementos refletores numa parede de 38. O prédio que Lina levantou do chão para deixar a cidade passar por baixo ganhou, 58 anos depois, um caminho por baixo da terra, e o vão continua livre."
       ]
@@ -183,7 +184,7 @@
     },
     {
       "circula": "O MASP sempre foi vermelho.",
-      "registro": "De 1968 a 1990 a estrutura era de concreto aparente. O vermelho entrou em 1990 como tinta impermeabilizante, para conter infiltrações, com aprovação de Lina Bo Bardi."
+      "registro": "De 1968 a 1990 a estrutura era de concreto aparente. O vermelho entrou em 1990 como tinta impermeabilizante, para conter infiltrações, com aprovação de Lina Bo Bardi, segundo o plano de conservação."
     },
     {
       "circula": "Era o maior vão livre do mundo quando foi inaugurado.",

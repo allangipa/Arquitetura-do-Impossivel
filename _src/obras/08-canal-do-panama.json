@@ -10,7 +10,7 @@
   "impossivel": "Cortar uma cordilheira que desmoronava de volta para dentro do corte, num istmo onde a febre amarela e a malária já tinham derrotado os franceses, e subir navios 26 metros até um lago feito de chuva.",
   "resumo": "Como o Canal do Panamá venceu a montanha que desabava, o mosquito e a água, e por que a conta dos mortos depende de quem conta.",
   "abertura": [
-    "No istmo do Panamá, na América Central, uns 80 km de terra separam o Atlântico do Pacífico. Os franceses de Ferdinand de Lesseps, o homem do Canal de Suez, tentaram cortá-los ao nível do mar entre 1881 e 1889, gastaram US$ 287 milhões e pararam com o trabalho pela metade. As estimativas de mortos daquela década ficam em torno de vinte mil.",
+    "No istmo do Panamá, na América Central, uns 80 km de terra separam o Atlântico do Pacífico. Os franceses de Ferdinand de Lesseps, o homem do Canal de Suez, tentaram cortá-los ao nível do mar entre 1881 e 1889, gastaram US$ 287 milhões e pararam com o canal inacabado. As estimativas de mortos daquela década ficam em torno de vinte mil.",
     "Os Estados Unidos assumiram em 1904 e terminaram em 1914, com outro projeto: em vez de rasgar o istmo até o nível do mar, represaram um rio, criaram um lago 26 metros acima do mar e subiram os navios até ele por eclusas. No caminho, tiraram quase 239 milhões de jardas cúbicas de terra e rocha, enfrentaram uma encosta que não parava de desabar e um mosquito que ninguém, até pouco antes, sabia ser o culpado."
   ],
   "numeros": [
@@ -76,7 +76,8 @@
     {
       "item": "Prazo",
       "valor": "Posse americana em 04/05/1904; obra das eclusas a partir de 24/08/1909; fundo do Corte Culebra alcançado em 20/05/1913; primeira travessia completa em 07/01/1914, pelo guindaste flutuante Alexandre La Valley; inauguração em 15/08/1914, com o vapor Ancon.",
-      "conf": "2+"
+      "conf": "2+",
+      "nota": "os dias da posse e do início das eclusas vêm da Autoridade do Canal"
     },
     {
       "item": "Operários",
@@ -102,13 +103,13 @@
     },
     {
       "item": "Mortes, obra americana",
-      "valor": "5.609 de doença e acidente nos registros hospitalares de 1904 a 1914. Pelo historiador David McCullough, uns 350 eram americanos brancos e uns 4.500, trabalhadores negros, quase todos antilhanos. Historiadores como Caroline Lieffers acham o número real várias vezes maior.",
+      "valor": "5.609 de doença e acidente nos registros hospitalares de 1904 a 1914. Pelo historiador David McCullough, uns 350 eram americanos brancos e uns 4.500, trabalhadores negros, quase todos antilhanos. Segundo a historiadora Caroline Lieffers, muitos historiadores acham o número real várias vezes maior.",
       "conf": "2+",
       "nota": "o total tem duas fontes; a divisão por cor vem de McCullough"
     },
     {
       "item": "Mortes, tentativa francesa",
-      "valor": "Cerca de 22.000 na conta de McCullough; 20.000 em outras. A Autoridade do Canal fala em uns 25.000 somando as duas épocas. É estimativa: os registros franceses são parciais.",
+      "valor": "Cerca de 22.000 na conta de McCullough; 20.000 na da PBS. A Autoridade do Canal fala em uns 25.000 somando as duas épocas. É estimativa: os registros franceses são parciais.",
       "conf": "DIV"
     },
     {
@@ -129,8 +130,8 @@
       "conf": "2+"
     },
     {
-      "item": "Hoje",
-      "valor": "Na seca de 2026, com o El Niño, a Autoridade do Canal cortou em degraus o calado máximo das eclusas Neopanamax, de 50 para 48 pés, e as vagas diárias, para 9 Neopanamax e 23 Panamax. Em 28/09/2026, com chuva perto da média, subiu o calado para 49 pés e anunciou a volta da 10ª vaga Neopanamax a partir de 15/10, avisando que a bacia continuava em déficit de água.",
+      "item": "A seca de 2026",
+      "valor": "Na seca de 2026, com o El Niño, a Autoridade do Canal cortou em degraus o calado máximo das eclusas Neopanamax, de 50 para 48 pés, e as vagas diárias, para 9 Neopanamax e 23 Panamax. Em 28/09/2026, com chuva perto da média, subiu o calado para 49 pés e anunciou a volta da 10ª vaga Neopanamax a partir de 15/10/2026, avisando que a bacia continuava em déficit de água.",
       "conf": "2+"
     }
   ],
@@ -140,7 +141,7 @@
       "paragrafos": [
         "Em 1879, um congresso internacional em Paris aprovou a ideia de Ferdinand de Lesseps, que dez anos antes tinha aberto o Canal de Suez: um canal no istmo do Panamá, então parte da Colômbia, cortado ao nível do mar, sem eclusas, como Suez. Os primeiros homens da Compagnie Universelle chegaram a Colón no fim de janeiro de 1881.",
         "Suez atravessava areia. O Panamá tinha uma cordilheira no meio, um rio, o Chagres, que enchia de repente na estação das chuvas, e uma doença que matava sem que ninguém soubesse como. A primeira morte por febre amarela entre os empregados veio em junho de 1881, com as chuvas. Pelos números da Autoridade do Canal, morreram de doença cerca de 60 em 1881, o dobro em 1882 e 420 em 1883. Jules Dingler, o diretor-geral que chegou em 1883, perdeu a filha, o filho, o noivo da filha e a esposa para a febre amarela.",
-        "Em 1888 a companhia desistiu do nível do mar e passou a trabalhar num canal de eclusas, com a empresa de Gustave Eiffel contratada para elas. Era tarde. Em 15 de maio de 1889, toda a atividade parou. Os franceses tinham gastado US$ 287 milhões. As estimativas de mortos da década ficam em torno de vinte mil: 22 mil na conta do historiador David McCullough, 20 mil em outras. O escândalo da quebra chegou aos tribunais: Eiffel foi condenado em 1893, e a condenação foi anulada em recurso."
+        "Em 1888 a companhia desistiu do nível do mar e passou a trabalhar num canal de eclusas, com a empresa de Gustave Eiffel contratada para elas. Era tarde. Em 15 de maio de 1889, toda a atividade parou. Os franceses tinham gastado US$ 287 milhões. As estimativas de mortos da década ficam em torno de vinte mil: 22 mil na conta do historiador David McCullough, 20 mil na da PBS. O escândalo da quebra chegou aos tribunais: Eiffel foi condenado em 1893, e a condenação foi anulada em recurso."
       ]
     },
     {
@@ -154,7 +155,7 @@
       "titulo": "Primeiro, o mosquito",
       "paragrafos": [
         "O primeiro engenheiro-chefe, John F. Wallace, ficou cerca de um ano. Quem o substituiu, em 1905, John F. Stevens, fez algo que parecia recuo: parou a escavação. Reconstruiu a velha ferrovia do Panamá, montou o sistema de trens que levaria o entulho para fora do corte. E defendeu um canal de eclusas, contra a ideia de repetir o nível do mar. Em junho de 1906, o Senado aprovou as eclusas por 36 votos a 31, e a Câmara confirmou.",
-        "Ao mesmo tempo, o médico William C. Gorgas aplicava no istmo o que se tinha aprendido pouco antes: que a febre amarela e a malária vinham do mosquito. Telas de cobre nas casas, mais de 100 milhas quadradas de pântano drenadas, faixas de mato cortado em volta das vilas. O último caso de febre amarela é dado em 11 de novembro de 1905 por algumas fontes e em dezembro de 1906 por outras; de todo modo, a doença que tinha derrotado os franceses acabou antes da obra. A malária resistiu mais: em 1906 ainda atingia 82% da força de trabalho, segundo um levantamento sobre os relatórios de Gorgas, e a mortalidade por ela só caiu de 7,45 para 0,30 por mil empregados entre 1906 e 1913.",
+        "Ao mesmo tempo, o médico William C. Gorgas aplicava no istmo o que se tinha aprendido pouco antes: que a febre amarela e a malária vinham do mosquito. Telas de cobre nas casas, mais de 100 milhas quadradas de pântano drenadas, faixas de mato cortado em volta das vilas. O último caso de febre amarela é dado em 11 de novembro de 1905 por algumas fontes e em dezembro de 1906 por outras; de todo modo, a doença que tinha derrotado os franceses acabou nos dois primeiros anos da obra americana. A malária resistiu mais: em 1906 ainda atingia 82% da força de trabalho, segundo um levantamento sobre os relatórios de Gorgas, e a mortalidade por ela só caiu de 7,45 para 0,30 por mil empregados entre 1906 e 1913.",
         "Em novembro de 1906, Roosevelt foi ver a obra, na primeira viagem de um presidente americano em exercício ao exterior, e se deixou fotografar na cabine de uma escavadeira a vapor. Stevens deixou o cargo no início de 1907. Em seu lugar entrou um coronel do Exército, George W. Goethals, que ficou até o fim."
       ]
     },
@@ -179,14 +180,14 @@
       "paragrafos": [
         "Quem cavou o canal veio, na maior parte, das Antilhas. Foram contratados 31.071 afro-antilhanos, cerca de 20 mil só de Barbados, onde a Comissão do Canal mantinha um recrutador-chefe. No auge, a força de trabalho passou de 40 mil homens ao mesmo tempo: 44.733 em março de 1913, pela Autoridade do Canal. Os americanos eram, em média, pouco mais de 5 mil.",
         "O pagamento separava todos em duas folhas. O gold roll, de brancos, sobretudo americanos, era pago em moeda de ouro dos Estados Unidos. O silver roll, de antilhanos e também de espanhóis, italianos e gregos, era pago em moeda de prata: dez centavos por hora, dez horas por dia, seis dias por semana. A Biblioteca Linda Hall resume que a divisão, pensada para separar trabalho qualificado e não qualificado, virou rapidamente um sistema de segregação, com moradia, refeitório e entradas de prédio separados. Os espanhóis do silver roll ganhavam o dobro dos antilhanos.",
-        "A mesma divisão aparece nas mortes. Os registros hospitalares contam 5.609 mortos de doença e acidente de 1904 a 1914. Pela conta de McCullough, uns 350 eram americanos brancos e uns 4.500, trabalhadores negros. Em 1906, segundo os dados de Gorgas, a taxa de morte entre não brancos foi de 59 por mil, contra 17 entre brancos. E há historiadores, como Caroline Lieffers, para quem o número real foi várias vezes maior."
+        "A mesma divisão aparece nas mortes. Os registros hospitalares contam 5.609 mortos de doença e acidente de 1904 a 1914. Pela conta de McCullough, uns 350 eram americanos brancos e uns 4.500, trabalhadores negros. No primeiro semestre de 1906, segundo um levantamento sobre os dados de Gorgas, não brancos morriam várias vezes mais que brancos: 59 por mil contra 17. McCullough fala em dez vezes; as medidas e os recortes não são os mesmos. E, segundo a historiadora Caroline Lieffers, muitos historiadores acham que o número real foi várias vezes maior."
       ]
     },
     {
       "titulo": "A água agora",
       "paragrafos": [
         "Os tratados Torrijos-Carter, assinados em 7 de setembro de 1977, acabaram com a Zona do Canal em 1979 e entregaram o canal ao Panamá em 31 de dezembro de 1999. Em 26 de junho de 2016, um terceiro conjunto de eclusas, para navios maiores, foi inaugurado com a passagem do Cosco Shipping Panama, ao custo de US$ 5,25 bilhões.",
-        "O que o canal não deixou de precisar é chuva. Em 2026, com o El Niño, choveu menos que a média na bacia, e o lago Gatún baixou. A Autoridade do Canal cortou em degraus o calado máximo das eclusas novas, de 50 para 48 pés entre julho e setembro, e reduziu as vagas diárias, a partir de 3 de setembro, para 9 navios Neopanamax e depois 23 Panamax. Em 28 de setembro, com a chuva de volta perto da média e o lago subindo de 84,04 para 84,74 pés no mês, ela recuou: calado de 49 pés e a décima vaga Neopanamax de volta a partir de 15 de outubro, com o aviso de que a bacia continuava em déficit de água. Para os anos seguintes, o canal prepara uma represa nova, no rio Indio, para mandar mais água ao lago."
+        "O que o canal não deixou de precisar é chuva. Em 2026, com o El Niño, choveu menos que a média na bacia, e o lago Gatún baixou. A Autoridade do Canal cortou em degraus o calado máximo das eclusas novas, de 50 para 48 pés entre julho e setembro, e reduziu as vagas diárias: a partir de 3 de setembro, 9 navios Neopanamax e 25 Panamax; a partir de 15 de setembro, 23 Panamax. Em 28 de setembro, com a chuva de volta perto da média e o lago subindo de 84,04 para 84,74 pés no mês, ela recuou: calado de 49 pés e a décima vaga Neopanamax de volta a partir de 15 de outubro, com o aviso de que a bacia continuava em déficit de água. Para os anos seguintes, o canal prepara uma represa nova, no rio Indio, para mandar mais água ao lago."
       ]
     }
   ],

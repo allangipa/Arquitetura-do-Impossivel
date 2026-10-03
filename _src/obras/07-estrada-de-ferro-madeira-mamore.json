@@ -11,7 +11,7 @@
   "resumo": "Como a Madeira-Mamoré atravessou pântano, corredeira e malária na Amazônia, e por que a conta dos mortos vai de menos de 2 mil a 6 mil ou mais.",
   "abertura": [
     "Entre Porto Velho e Guajará-Mirim, em Rondônia, no Brasil, os rios Madeira e Mamoré descem por uma sequência de cachoeiras e corredeiras que nenhum barco carregado vencia. Para tirar a borracha da Bolívia e do alto Madeira, era preciso contornar esse trecho por terra: uma ferrovia de 364 a 366 km aberta na floresta, sobre pântanos que a cheia cobria, num lugar onde a malária pegava quase todo mundo.",
-    "Duas empresas tentaram no século XIX e desistiram. A terceira, a Madeira-Mamoré Railway Co., de Percival Farquhar, terminou a obra em 1912, depois de contratar 21.817 homens. Quantos deles morreram é a pergunta que ninguém fecha: os registros da época ficam abaixo de dois mil, e as estimativas mais citadas falam em cerca de seis mil."
+    "Duas empresas tentaram no século XIX e desistiram. Na terceira tentativa, a Madeira-Mamoré Railway Co., de Percival Farquhar, terminou a obra em 1912, depois de contratar 21.817 homens. Quantos deles morreram é a pergunta que ninguém fecha: os registros da época ficam abaixo de dois mil, e as estimativas mais citadas falam em cerca de seis mil."
   ],
   "numeros": [
     {
@@ -74,7 +74,7 @@
     },
     {
       "item": "Operários",
-      "valor": "21.817 contratados e trazidos de fora entre 1907 e 1912, pela tabela da companhia; o ano de mais chegadas foi 1910, com 6.024. Um trabalhador ficava, em média, menos de três meses. A tabela não conta quem já vivia na região nem os indígenas.",
+      "valor": "21.817 contratados e trazidos de fora entre 1907 e 1912, pela tabela da companhia; o ano de mais chegadas foi 1910, com 6.024 (6.090 numa variante da mesma tabela). Um trabalhador ficava, em média, menos de três meses. A tabela não conta quem já vivia na região nem os indígenas.",
       "conf": "2+"
     },
     {
@@ -95,8 +95,8 @@
     },
     {
       "item": "Doença",
-      "valor": "Malária acima de tudo: mais de 90% dos trabalhadores doentes, pelo relatório de Oswaldo Cruz de 1910. Quinino diário e obrigatório desde 01/08/1910.",
-      "conf": "2+",
+      "valor": "Malária acima de tudo: quase todos adoeciam. O relatório de Oswaldo Cruz, de 1910, fala em mais de 90% dos trabalhadores doentes; outra leitura do mesmo relatório, em 80 a 90%. Quinino diário e obrigatório desde 01/08/1910.",
+      "conf": "DIV",
       "nota": "o percentual exato vem de uma fonte; que quase todos adoeciam, de várias"
     },
     {
@@ -122,8 +122,8 @@
       "nota": "as datas do tombamento divergem entre 2005 e 2008"
     },
     {
-      "item": "Hoje",
-      "valor": "Em 28/10/2025, o Ministério Público Federal processou Rondônia, a União e o IPHAN pelo abandono da linha, pedindo o tombamento dos 366 km e R$ 6 milhões de dano moral coletivo. A Prefeitura de Porto Velho anunciou para o começo de outubro de 2026 a volta do passeio de trem até Santo Antônio, depois de quase três décadas.",
+      "item": "Em 2025–2026",
+      "valor": "Em 28/10/2025, o Ministério Público Federal processou Rondônia, a União e o IPHAN pelo abandono da linha, pedindo o tombamento dos 366 km e R$ 6 milhões de dano moral coletivo. Em setembro de 2026, a Prefeitura de Porto Velho anunciou para o começo de outubro a volta do passeio de trem até Santo Antônio; segundo o prefeito, o acervo estava parado havia quase três décadas.",
       "conf": "2+",
       "nota": "data e locomotiva do primeiro passeio divergem entre os jornais"
     }
@@ -143,7 +143,7 @@
         "Em 1872, o coronel americano George Earl Church levantou em Londres um empréstimo boliviano de £ 1.700.000 nominais, vendidos a 68%, e contratou a inglesa Public Works Construction Co. por £ 600.000. Os engenheiros chegaram a Santo Antônio em 6 de julho de 1872. Um ano depois, segundo o engenheiro Neville B. Craig, tinham três milhas e meia de levantamento, cerca de 5,6 km, e nem um pé de trilho assentado.",
         "Em 9 de julho de 1873, um ano e três dias depois de chegar, a Public Works abandonou o contrato e foi à Justiça em Londres. Na petição, citada por Craig, a empresa descreveu a região como um ossuário, com os homens morrendo como moscas, e disse que, com todo o capital do mundo e metade da sua população, seria impossível construir a ferrovia.",
         "Em 1878 veio a P. & T. Collins, de Filadélfia. O vapor *Mercedita* partiu em 3 de janeiro com 220 pessoas. O segundo navio, o *Metropolis*, com trilhos e trabalhadores, encalhou e se partiu na praia de Currituck, na Carolina do Norte, em 31 de janeiro de 1878, antes de deixar os Estados Unidos. Craig conta 80 empregados da ferrovia mortos; o marcador histórico da Carolina do Norte fala em 85 mortos no total; outras contas chegam a 102.",
-        "Dos 941 americanos que a Collins mandou, 719 chegaram a Santo Antônio, e pelo menos 23,6% dos 941 morreram, pela tabela de Craig, que compara: os soldados da União na Guerra Civil morreram em proporção menor. Da mortalidade dos cerca de 400 cearenses e 200 indígenas bolivianos contratados na região, ainda segundo Craig, nenhum registro foi mantido. Em 1879 a obra parou. Craig lista o que ficou: cerca de 3,5 km de trilho permanente e 6,3 km por onde rodava o trem de construção; os 7 km de linha que costumam ser citados dependem do que se mede. Ficou também uma locomotiva Baldwin em Santo Antônio."
+        "Das 941 pessoas que a Collins mandou dos Estados Unidos, 719 chegaram a Santo Antônio, e pelo menos 23,6% delas morreram, pela tabela de Craig, que compara: os soldados da União na Guerra Civil morreram em proporção menor. Da mortalidade dos cerca de 400 cearenses e 200 indígenas bolivianos contratados na região, ainda segundo Craig, nenhum registro foi mantido. Em 1879 a obra parou. Craig lista o que ficou: cerca de 3,5 km de trilho permanente e 6,3 km por onde rodava o trem de construção; os 7 km de linha que costumam ser citados dependem do que se mede. Ficou também uma locomotiva Baldwin em Santo Antônio."
       ]
     },
     {
@@ -182,7 +182,7 @@
       "titulo": "Os trilhos agora",
       "paragrafos": [
         "Nos anos 2000, o IPHAN tombou parte do que restou: um pedaço do pátio de Porto Velho, os trilhos até Santo Antônio, as três caixas d'água e o cemitério da Candelária. O resto da linha ficou de fora. Em 28 de outubro de 2025, o Ministério Público Federal processou Rondônia, a União e o IPHAN, pedindo o tombamento definitivo dos 366 km e R$ 6 milhões de dano moral coletivo, por causa de trilhos furtados, pontes metálicas desmontadas, dormentes arrancados e locomotivas abandonadas.",
-        "Em agosto de 2026, segundo o News Rondônia, a Prefeitura de Porto Velho fechou acordo com a Associação Brasileira de Preservação Ferroviária para recuperar a estrutura e mandou ao IPHAN uma carta de intenção sobre uma candidatura a Patrimônio Mundial da UNESCO, ainda em fase inicial. E anunciou para o começo de outubro a volta do passeio de trem pelos trilhos da Madeira-Mamoré até a igreja de Santo Antônio, parado, nas palavras do prefeito Léo Moraes, durante quase três décadas."
+        "Em agosto de 2026, segundo o News Rondônia, a Prefeitura de Porto Velho fechou acordo com a Associação Brasileira de Preservação Ferroviária para recuperar a estrutura e mandou ao IPHAN uma carta de intenção sobre uma candidatura a Patrimônio Mundial da UNESCO, ainda em fase inicial. Em setembro, a Prefeitura anunciou para o começo de outubro a volta do passeio de trem pelos trilhos da Madeira-Mamoré até a igreja de Santo Antônio; segundo o prefeito Léo Moraes, o acervo estava parado havia quase três décadas."
       ]
     }
   ],
@@ -314,7 +314,7 @@
     },
     {
       "arquivo": "07-mosquitos.jpg",
-      "alt": "Três homens de botas na varanda de madeira de um vagão, com a cabeça coberta por capuzes de tela",
+      "alt": "Três homens de botas numa varanda coberta de madeira, com a cabeça coberta por capuzes de tela",
       "legenda": "Trabalhadores com capuzes de proteção contra mosquitos.",
       "autor": "Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)",
       "licenca": "Domínio público",

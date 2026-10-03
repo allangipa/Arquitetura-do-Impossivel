@@ -44,7 +44,8 @@
     {
       "item": "Por quê",
       "valor": "Dar a Sydney uma grande casa de ópera e concertos. O governo de Nova Gales do Sul, sob o premier Joseph Cahill, abriu um concurso internacional e escolheu Bennelong Point, a ponta de terra no porto onde ficava um depósito de bondes.",
-      "conf": "2+"
+      "conf": "2+",
+      "nota": "o depósito de bondes vem de uma fonte só (Dictionary of Sydney)"
     },
     {
       "item": "O concurso",
@@ -66,7 +67,7 @@
     },
     {
       "item": "A solução",
-      "valor": "Depois de 12 esquemas, com parábolas e elipsoides, todas as conchas foram tiradas da superfície de uma mesma esfera, em 1961. A curvatura igual permitiu fabricar as nervuras em série no canteiro. O raio aparece como 75,2 metros na maioria das descrições; a Arup fala em 75 metros de diâmetro.",
+      "valor": "Depois de 12 esquemas, com parábolas e elipsoides, todas as conchas foram tiradas da superfície de uma mesma esfera, em 1961. A curvatura igual permitiu fabricar as nervuras em série no canteiro. O raio aparece como 75,2 metros na Wikipédia; a Arup fala em 75 metros de diâmetro.",
       "conf": "2+",
       "nota": "o Opera House atribui a ideia a Utzon; o relato de Jack Zunz descreve uma chegada conjunta"
     },
@@ -77,7 +78,7 @@
     },
     {
       "item": "Prazo",
-      "valor": "Início em 02/03/1959; pódio pronto em fevereiro de 1963; conchas de 1963 a meados dos anos 1960; inauguração em 20/10/1973 pela rainha Elizabeth II. Previsão inicial: 4 anos e entrega em 1963.",
+      "valor": "Início em 02/03/1959; pódio pronto em fevereiro de 1963; conchas de 1963 a 1966 ou 1967; inauguração em 20/10/1973 pela rainha Elizabeth II. Previsão inicial: 4 anos e entrega em 1963.",
       "conf": "2+"
     },
     {
@@ -92,7 +93,7 @@
     },
     {
       "item": "Custo",
-      "valor": "Orçamento de £3,5 milhões em 1957, o mesmo que AU$ 7 milhões depois da troca de moeda de 1966. Custo final de AU$ 102 milhões, 14,6 vezes mais, ou 1.357% acima do previsto, em valores nominais.",
+      "valor": "Orçamento de £3,5 milhões em 1957, o mesmo que AU$ 7 milhões depois da troca de moeda de 1966. Custo final de AU$ 102 milhões, 14,6 vezes o orçamento, ou 1.357% acima do previsto, em valores nominais.",
       "conf": "2+",
       "nota": "o total é soma nominal de 14 anos de gastos; sem a série anual, não há conversão confiável para valores de hoje"
     },
@@ -120,7 +121,7 @@
     },
     {
       "item": "Reformas",
-      "valor": "A Sala de Concertos ficou cerca de dois anos fechada e reabriu em julho de 2022 com nova acústica, última obra de um programa de renovação de AU$ 275 milhões ou AU$ 300 milhões, conforme a fonte.",
+      "valor": "A Sala de Concertos ficou cerca de dois anos fechada e reabriu em julho de 2022 com nova acústica, dentro de um programa de renovação de AU$ 275 milhões ou AU$ 300 milhões, conforme a fonte.",
       "conf": "DIV"
     },
     {
@@ -140,22 +141,22 @@
     {
       "titulo": "Começar sem telhado",
       "paragrafos": [
-        "O premier Joseph Cahill tinha pressa. A obra começou em 2 de março de 1959, com a construtora Civil & Civic fazendo o pódio, enquanto a cobertura ainda não tinha solução. Cahill morreu sete meses depois. O orçamento do concurso era de £3,5 milhões, e a entrega estava prevista para 1963.",
-        "Em Londres, os engenheiros da Ove Arup & Partners tentaram dar forma às conchas. Primeiro, seções de parábolas; depois, de elipsoides. A própria Arup conta 12 esquemas antes de chegar à solução. A ideia inicial de uma casca fina de concreto deu lugar a nervuras, e cada nova geometria esbarrava no mesmo problema: as conchas tinham curvaturas diferentes em cada ponto, e cada peça teria de ser única. O pódio ficou pronto em fevereiro de 1963, com quase um ano de atraso, ainda sem saber exatamente o que sustentaria."
+        "O premier Joseph Cahill, segundo os relatos da época, queria começar logo, para que um governo seguinte não pudesse cancelar a obra. A obra começou em 2 de março de 1959, com a construtora Civil & Civic fazendo o pódio, enquanto a cobertura ainda não tinha solução. Cahill morreu sete meses depois. O orçamento do concurso era de £3,5 milhões, e a entrega estava prevista para 1963.",
+        "Em Londres, os engenheiros da Ove Arup & Partners tentaram dar forma às conchas. Primeiro, seções de parábolas; depois, de elipsoides. A própria Arup conta 12 esquemas antes de chegar à solução. A ideia inicial de uma casca fina de concreto deu lugar a nervuras, e cada nova geometria esbarrava no mesmo problema: as conchas tinham curvaturas diferentes em cada ponto, e cada peça teria de ser única. O pódio, começado antes de a cobertura ter forma, só ficou pronto em fevereiro de 1963."
       ]
     },
     {
       "titulo": "Fatias de uma esfera",
       "paragrafos": [
         "A saída, em 1961, foi abandonar as formas livres e tirar todas as conchas da superfície de uma mesma esfera. Numa esfera, a curvatura é igual em toda parte. Assim, as nervuras podiam ser divididas em segmentos que se repetiam, moldados em série no próprio canteiro, e a cobertura inteira virava um problema de fabricação, não de escultura. A solução foi formalizada no chamado Yellow Book, entregue em janeiro de 1962, com plantas, cortes e os detalhes das nervuras e dos azulejos.",
-        "Quem teve a ideia é questão de versão. O Sydney Opera House conta que Utzon a teve sozinho, numa noite, no escritório de Hellebæk, na Dinamarca, ao ver que os modelos das conchas se encaixavam uns nos outros, e diz que a história de que ele descascou uma laranja é mito. O relato do engenheiro Jack Zunz, que assumiu o problema na Arup em agosto de 1961, descreve uma chegada conjunta: os engenheiros explicaram que só formas esféricas davam a repetição de que a obra precisava, e a escolha veio cerca de um mês depois.",
+        "Quem teve a ideia é questão de versão. O Sydney Opera House conta que Utzon a teve sozinho, numa noite, no escritório de Hellebæk, na Dinamarca, ao ver que os modelos das conchas se encaixavam uns nos outros, e diz que a história de que ele descascou uma laranja é mito. O relato do engenheiro Jack Zunz, que assumiu o problema na Arup em agosto de 1961, descreve uma chegada conjunta: os engenheiros explicaram que só formas esféricas ou toroidais davam a repetição de que a obra precisava, e a escolha veio cerca de um mês depois.",
         "Calcular as conchas exigiu um dos primeiros usos de computador em análise estrutural. Segundo a revista Civil Engineering, da sociedade americana de engenheiros civis, foram cerca de 2.000 horas de computador até março de 1967."
       ]
     },
     {
       "titulo": "Montar no ar",
       "paragrafos": [
-        "A construtora M. R. Hornibrook assumiu as conchas em 1963. Ao todo, 2.194 peças pré-moldadas de concreto, de até 15 toneladas cada, foram fabricadas no local, içadas por guindastes e unidas umas às outras com resina epóxi, presas por cabos de aço protendido. Para posicioná-las, o engenheiro Joe Bertony, nascido na Córsega, desenhou um arco de montagem de aço que se deslocava sobre o pódio. Ele fez os cálculos à mão; conferidos depois no único computador australiano capaz de processá-los, em Woomera, não tinham erro.",
+        "A construtora M. R. Hornibrook assumiu as conchas em 1963. Ao todo, 2.194 peças pré-moldadas de concreto, de até 15 toneladas cada, foram fabricadas no local, içadas por guindastes e unidas umas às outras com resina epóxi, presas por cabos de aço protendido. Para posicioná-las, o engenheiro Joe Bertony, nascido na Córsega, desenhou um arco de montagem de aço que se deslocava sobre o pódio. Ele fez os cálculos à mão; conferidos depois num computador IBM 7090, em Woomera, não tinham erro.",
         "Em Sydney, o engenheiro residente da Arup era Peter Rice, que tinha trabalhado na geometria das conchas em Londres e escreveu um programa para locar cada peça no espaço. Depois vinham os azulejos. A empresa sueca Höganäs passou três anos desenvolvendo o que ficou conhecido como Sydney Tile: 120 milímetros, argila com um pouco de pedra moída, em branco brilhante e creme fosco. São 1.056.006 azulejos, assentados em 4.228 painéis em forma de divisa, fabricados sob a escadaria monumental."
       ]
     },
@@ -163,13 +164,13 @@
       "titulo": "O arquiteto que foi embora",
       "paragrafos": [
         "Em 1965, o governo mudou. O novo premier, Robert Askin, tinha criticado o projeto, e o ministro de Obras Públicas, Davis Hughes, passou a controlar pagamentos e decisões. Com honorários retidos, Utzon renunciou em 28 de fevereiro de 1966. Deixou a Austrália em abril e nunca voltou para ver o edifício pronto.",
-        "O arquiteto Peter Hall, formado em Sydney, assumiu os interiores com Lionel Todd e David Littlemore. Em dezembro de 1966, decidiu que a sala maior, que Utzon desenhava para ópera e concerto, seria só de concertos, e a ópera foi para uma sala menor; a maquinaria de palco já instalada foi desmontada. Numa entrevista de 1973, Hall disse que o auditório em que Utzon trabalhava tinha assentos e corredores fora das normas de evacuação. A obra seguiu até 1973, com uma pausa diferente em 1972, quando os operários expulsaram a gerência e trabalharam por cerca de cinco semanas sob controle próprio."
+        "O arquiteto Peter Hall, formado em Sydney, assumiu os interiores com Lionel Todd e David Littlemore. Em dezembro de 1966, decidiu que a sala maior, que Utzon desenhava para ópera e concerto, seria só de concertos, e a ópera foi para uma sala menor; a maquinaria de palco já instalada foi desmontada. Numa entrevista de 1973, Hall disse que o auditório em que Utzon trabalhava tinha assentos e corredores fora das normas de evacuação. A obra seguiu até 1973, com um episódio único em 1972, quando os operários expulsaram a gerência e trabalharam por cerca de cinco semanas sob controle próprio."
       ]
     },
     {
       "titulo": "A conta da loteria",
       "paragrafos": [
-        "O orçamento de 1957, £3,5 milhões, virou AU$ 7 milhões quando a Austrália trocou a libra pelo dólar, em 1966. O custo final foi de AU$ 102 milhões, 14,6 vezes mais, ou 1.357% acima do previsto, somando valores de catorze anos sem correção. Em vez de quatro anos, foram catorze, e a entrega atrasou dez.",
+        "O orçamento de 1957, £3,5 milhões, virou AU$ 7 milhões quando a Austrália trocou a libra pelo dólar, em 1966. O custo final foi de AU$ 102 milhões, 14,6 vezes o orçamento, ou 1.357% acima do previsto, somando valores de catorze anos sem correção. Em vez de quatro anos, foram catorze, e a entrega atrasou dez.",
         "Quem pagou foi o jogo. Segundo o Tesouro de Nova Gales do Sul, a Opera House Lottery fez 496 sorteios e vendeu cerca de 86,7 milhões de bilhetes, a £5 cada, com prêmio máximo de £100.000, e arrecadou AU$ 102 milhões até 1986. A rainha Elizabeth II inaugurou o edifício em 20 de outubro de 1973. Utzon não foi."
       ]
     },
@@ -177,7 +178,7 @@
       "titulo": "Cinquenta anos de mar",
       "paragrafos": [
         "A reconciliação veio tarde. Em 1999, Utzon foi chamado para definir os princípios de projeto do edifício; em 2003 recebeu o Prêmio Pritzker; em 2004, uma sala refeita segundo seu desenho ganhou o nome dele. Em 28 de junho de 2007, a Ópera entrou na Lista do Patrimônio Mundial da UNESCO, por unanimidade, na terceira tentativa. Utzon morreu em novembro de 2008. A Sala de Concertos ficou cerca de dois anos fechada e reabriu em julho de 2022 com nova acústica.",
-        "Em 4 de agosto de 2026, o governo do estado anunciou AU$ 120 milhões para manutenção e modernização. Além de trocar maquinaria de palco de até 50 anos, o pacote inclui reforçar a estrutura sob o Northern Boardwalk, a plataforma à beira d'água, depois de mais de meio século de ambiente marinho. A obra que só ficou de pé porque suas peças se repetiam agora precisa proteger a base sobre a qual está apoiada."
+        "Em 4 de agosto de 2026, o governo do estado anunciou AU$ 120 milhões para manutenção e modernização. Além de trocar maquinaria de palco de até 50 anos, o pacote inclui reforçar a estrutura sob o Northern Boardwalk, a plataforma sobre a água, depois de mais de meio século de ambiente marinho. A obra que só ficou de pé porque suas peças se repetiam agora precisa proteger a base sobre a qual está apoiada."
       ]
     }
   ],
@@ -188,7 +189,7 @@
     },
     {
       "circula": "As conchas de concreto não paravam em pé.",
-      "registro": "O que faltava era geometria. As curvas do croqui de 1957 não correspondiam a nenhuma forma calculável, e por isso não havia como dimensioná-las nem fabricá-las. Foram 12 esquemas, com parábolas e elipsoides, antes da solução esférica."
+      "registro": "O que faltava, antes de tudo, era geometria. As curvas do croqui de 1957 não correspondiam a nenhuma forma calculável, e por isso não havia como dimensioná-las nem fabricá-las. A casca fina imaginada no início também não resistia às cargas de vento, o que levou às nervuras. Foram 12 esquemas, com parábolas e elipsoides, antes da solução esférica."
     },
     {
       "circula": "Eero Saarinen tirou o projeto de Utzon da pilha dos rejeitados.",

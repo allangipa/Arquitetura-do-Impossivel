@@ -61,7 +61,7 @@
       "item": "Cálculo estrutural",
       "valor": "Joaquim Cardozo (1897–1978), com Samuel Rawet na equipe. O projeto de estruturas foi de novembro de 1957 a outubro de 1959 e ficou no Rio de Janeiro.",
       "conf": "2+",
-      "nota": "Rawet e o local do cálculo aparecem numa fonte cada"
+      "nota": "Rawet, o local do cálculo e as datas do projeto de estruturas aparecem numa fonte cada"
     },
     {
       "item": "Quem construiu",
@@ -78,7 +78,8 @@
     {
       "item": "O que faltava em 1960",
       "valor": "As torres foram inauguradas sem vidro nas esquadrias e sem acabamento por dentro. Projeto, obra e pagamentos à construtora seguiram até 1964.",
-      "conf": "2+"
+      "conf": "2+",
+      "nota": "o estado inacabado tem duas fontes; o ano de 1964 vem de uma (Carvalho, 2024)"
     },
     {
       "item": "Cúpula da Câmara",
@@ -118,7 +119,7 @@
       "item": "Custo",
       "valor": "Não registrado nas fontes consultadas. O que se sabe é que o aço das torres e dos ministérios foi comprado com um crédito inicial de US$ 10 milhões do Eximbank, o banco de exportação dos Estados Unidos.",
       "conf": "sem",
-      "nota": "as estimativas de custo de Brasília inteira variam de US$ 40 bilhões a US$ 155 bilhões e não declaram método"
+      "nota": "as estimativas que circulam para o custo de Brasília inteira não têm método publicado e não foram usadas"
     },
     {
       "item": "Tombamento",
@@ -142,7 +143,7 @@
     {
       "titulo": "A laje que segura tudo",
       "paragrafos": [
-        "Antes das cúpulas há a plataforma: 200 metros de comprimento por 87 de largura, cerca de 14.500 m² de cobertura, segundo um levantamento técnico do Senado feito em 2017. É uma laje dupla, com nervuras que formam caixões vazios por dentro, apoiada numa malha de pilares de 10 por 15 metros. Nas bordas tem 70 centímetros de espessura; no centro, 3 metros. Era a solução que Joaquim Cardozo usava em todos os palácios de Brasília: uma laje tão fina quanto possível, distribuindo o peso das cúpulas pelo andar de baixo.",
+        "Antes das cúpulas há a plataforma: 200 metros de comprimento por 87 de largura, cerca de 14.500 m² de cobertura, segundo um levantamento técnico do Senado feito em 2017. É uma laje dupla, com nervuras que formam caixões vazios por dentro, apoiada numa malha de pilares de 10 por 15 metros. Nas bordas tem 70 centímetros de espessura; no centro, 3 metros.",
         "O desenho dessa laje mudou no meio do caminho. No anteprojeto, o corredor que leva o público às galerias passava por cima dela e criava uma lombada de 1,70 metro que cortava a vista entre as cúpulas. Entre janeiro e setembro de 1958 o corredor desceu para dentro da plataforma. As plantas publicadas em 1958 mostravam a versão abandonada, e foram copiadas em livros e trabalhos acadêmicos por mais de cinquenta anos, como mostraram Elcio Gomes da Silva e José Manoel Morales Sánchez ao comparar os desenhos com as pranchas originais guardadas na Câmara."
       ]
     },
@@ -150,7 +151,7 @@
       "titulo": "A tigela que não podia encostar",
       "paragrafos": [
         "A cúpula do Senado tinha solução conhecida: um paraboloide de revolução, com casca de 10 centímetros no topo e 35 na base, e um anel de concreto em volta para segurar o empurrão lateral. O problema era a outra. Niemeyer queria a cúpula da Câmara virada para cima, com 62 metros de diâmetro, parecendo apenas pousada sobre a laje, tocando-a com uma curva suave.",
-        "Cardozo tentou primeiro uma forma única, um paraboloide com curva do quinto grau, e ela criou dificuldades de cálculo e de execução. A saída, descrita pelo próprio engenheiro, foi trocar uma casca por três: embaixo, uma faixa de elipsoide, onde se apoia a arquibancada das galerias; em cima, um tronco de cone; e, no encontro das duas, uma calota esférica muito achatada, de 52 metros de diâmetro e apenas 14 centímetros de espessura, que segura o forro do plenário e a cobertura plana. Tudo isso descansa num anel de concreto de 2,70 por 1,73 metro preso à malha de vigas da plataforma.",
+        "Cardozo tentou primeiro uma forma única, um paraboloide com curva do quinto grau, e ela criou dificuldades de cálculo e de execução. A saída, descrita pelo próprio engenheiro, foi trocar uma casca por três: uma faixa de elipsoide, onde se apoia a arquibancada das galerias, um tronco de cone e uma calota esférica muito achatada, de 52 metros de diâmetro e apenas 14 centímetros de espessura, que segura o forro do plenário e a cobertura plana. Tudo isso descansa num anel de concreto de 2,70 por 1,73 metro.",
         "Para que a tigela aguentasse a tração em volta da base, a armadura foi mudada durante a obra. No primeiro metro, barras de aço comum soldadas em pares; nos dois metros seguintes, barras mais finas de um aço novo, o Torstahl, que tinha o dobro da resistência e acabara de chegar ao Brasil. Na parte mais densa, perto da base, o aço chega a cerca de 10% da seção de concreto. Cardozo calculou tudo no Rio de Janeiro: segundo um depoimento registrado por Silva e Sánchez, ele \"tinha muita idade\" e não pôde se mudar para Brasília. Tinha 60 anos em 1957."
       ]
     },
@@ -158,7 +159,7 @@
       "titulo": "Aço escondido nas torres",
       "paragrafos": [
         "As torres parecem concreto e não são. Por dentro, cada uma é um esqueleto de pilares e vigas de aço, unidos por rebites e depois envolvidos em concreto, a mesma solução dos ministérios da Esplanada. O aço veio dos Estados Unidos, fabricado pela Bethlehem Steel, por um contrato que a NOVACAP assinou em julho de 1957 com a americana Raymond Concrete Pile, como contrapartida de um empréstimo do Eximbank, o banco de exportação americano.",
-        "A montagem não andou no ritmo de Brasília. Segundo a pesquisa de Elcio Gomes da Silva e Danilo Matoso Macedo, os americanos trabalhavam em turnos regulares e com regras de segurança, e, nas palavras dos depoimentos da época, construía-se muito devagar. Em 2 de maio de 1959 a NOVACAP assumiu a montagem dos prédios que faltavam, incluindo as torres do Congresso, e entregou o trabalho a operários que nunca tinham montado estrutura de aço. O arquiteto Hermano Montenegro lembrou, num depoimento de 1989, nordestinos recém-chegados que aprenderam a rebitar \"com a maior rapidez do mundo para se cumprir o prazo\".",
+        "A montagem não andou no ritmo de Brasília. Segundo a pesquisa de Elcio Gomes da Silva e Danilo Matoso Macedo, os americanos trabalhavam em turnos regulares e com regras de segurança, e, nas palavras dos depoimentos da época, construía-se muito devagar. Em 2 de maio de 1959 a NOVACAP assumiu a montagem dos prédios que faltavam, incluindo as torres do Congresso, e entregou o trabalho a operários que nunca tinham montado estrutura de aço. O arquiteto Hermano Montenegro lembrou, num depoimento de 1989, operários nordestinos sem experiência nenhuma que, em pouco tempo, passaram a montar estruturas metálicas difíceis e a rebitar \"com a maior rapidez do mundo\".",
         "A passarela que liga as duas torres no meio da altura não estava no projeto original. Segundo Nauro Esteves, coordenador técnico da obra, ela foi feita para travar a estrutura metálica, por causa da altura dos prédios."
       ]
     },
@@ -166,7 +167,7 @@
       "titulo": "Os homens do 28",
       "paragrafos": [
         "Ninguém registrou quantos homens trabalharam no Congresso. Brasília inteira tinha 64.314 habitantes no censo de 17 de maio de 1959, quase dois homens para cada mulher, e a maioria estava na construção. A jornada ia das 6h ao meio-dia e das 13h às 18h, e muitos faziam viradas de dia e noite, porque o pagamento era por hora. Os acidentados atendidos pelo hospital do IAPI passaram de 1.974 em 1958 para 10.927 em 1959, segundo o historiador Hermes Aquino Teixeira.",
-        "Também não há número de mortos na obra do Congresso, nem oficial, nem contestado. Os operários chamavam o prédio de \"o 28\", pelos andares das torres, e o temiam. Num depoimento ao Arquivo Público do Distrito Federal, em 1990, Natalino Cavalcante de Melo falou de operários que caíam das torres ao soldar e eram cobertos com lona. Num subsolo do Congresso ficou o recado de um deles, José Silva Guerra, do Ceará, escrito em 22/04/1959: \"Que os homens de amanhã que aqui vierem tenham compaixão dos nossos filhos e que a lei se cumpra.\"",
+        "Também não há número de mortos na obra do Congresso, nem oficial, nem contestado. Os operários chamavam o prédio de \"o 28\", pelos andares das torres, e o temiam. Num depoimento ao Arquivo Público do Distrito Federal, em 1990, Natalino Cavalcante de Melo falou de operários que caíam das torres ao soldar e eram cobertos com lona. Num subsolo do Congresso ficou o recado de um operário, José Silva Guerra, do Ceará, escrito em 22/04/1959: \"Que os homens de amanhã que aqui vierem tenham compaixão dos nossos filhos e que a lei se cumpra.\"",
         "Em 8 de fevereiro de 1959, num domingo de carnaval, a Guarda Especial de Brasília invadiu à noite o acampamento da construtora Pacheco Fernandes Dantas, que erguia o Palácio do Planalto, depois de uma briga por causa de comida estragada. O inquérito registrou um morto, Evaristo Soares Brandão, e 48 feridos. Um telegrama da associação dos operários falou em nove mortos, e candangos ouvidos décadas depois falaram em dezenas. Nenhum outro corpo foi encontrado. Não foi na obra do Congresso, mas foi na mesma corrida contra a mesma data."
       ]
     },
@@ -325,7 +326,7 @@
     {
       "arquivo": "11-congresso-hoje.jpg",
       "alt": "O Congresso Nacional ao entardecer, com as duas torres altas à esquerda, a cúpula convexa do Senado no canto, a grande cúpula côncava da Câmara à direita e o conjunto refletido no espelho d'água",
-      "legenda": "O Congresso em 2015, com as torres e as duas cúpulas refletidas no espelho d'água.",
+      "legenda": "O Congresso em 2015: as torres, a cúpula do Senado no canto e a cúpula da Câmara refletida no espelho d'água.",
       "autor": "Donatas Dabravolskas",
       "licenca": "CC BY-SA 4.0",
       "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",

@@ -107,7 +107,7 @@
     },
     {
       "item": "Custo",
-      "valor": "Cerca de £3 milhões, segundo a Network Rail; uma conta de 1913 divide em £1,7 milhão para a ponte, £0,8 milhão para instalações e despesas e £0,5 milhão para as ferrovias de ligação. Outra soma chega a £3,2 milhões, contando £250 mil gastos na ponte de Bouch. O contrato de 1882 era de £1,6 milhão.",
+      "valor": "Cerca de £3 milhões, segundo a Network Rail; uma conta de 1913 divide em £1,7 milhão para a ponte, £0,8 milhão para instalações e despesas e £0,5 milhão para as ferrovias de ligação. Outra soma chega a £3,2 milhões, contando £250 mil gastos na ponte de Bouch. O valor do contrato de 1882 não foi confirmado em fonte primária; o engenheiro da obra registra só que ele foi ultrapassado.",
       "conf": "DIV",
       "nota": "sem conversão para valores de hoje: não há índice confiável para obra de 1890"
     },
@@ -123,15 +123,21 @@
     },
     {
       "item": "Hoje",
-      "valor": "Mais de 200 trens por dia. Patrimônio Mundial da UNESCO desde 05/07/2015. Em agosto de 2026, o Conselho de Fife ouviu que só cerca de 5% das luzes da ponte funcionam e que a Network Rail não pretende tratar disso antes de 2030.",
+      "valor": "Mais de 200 trens por dia. Patrimônio Mundial da UNESCO desde 05/07/2015.",
       "conf": "2+"
+    },
+    {
+      "item": "Agora",
+      "valor": "Em agosto de 2026, o Conselho de Fife ouviu que só cerca de 5% das luzes da ponte funcionam e que a Network Rail não pretende tratar disso antes de 2030.",
+      "conf": "1",
+      "nota": "noticiado por vários jornais, provavelmente a partir de um mesmo texto"
     }
   ],
   "historia": [
     {
       "titulo": "Uma noite no Tay",
       "paragrafos": [
-        "Até 1890, quem ia de trem de Edimburgo para o norte da Escócia esbarrava em dois estuários: o do Forth, logo ao norte da capital, e o do Tay, junto a Dundee. O engenheiro Thomas Bouch tinha uma solução para os dois. A ponte do Tay já levava trens. Para o Forth, ele desenhou uma ponte pênsil com dois vãos de 1.600 pés; em 1873 formou-se a companhia, a lei foi aprovada e o contrato foi assinado com o construtor William Arrol, de Glasgow. Em Inchgarvie, a ilhota no meio do estuário, chegou a subir um pilar de tijolo, depois de uma pedra fundamental lançada com cerimônia.",
+        "Até 1890, quem ia de trem de Edimburgo para o norte da Escócia esbarrava em dois estuários: o do Forth, logo ao norte da capital, e o do Tay, junto a Dundee. O engenheiro Thomas Bouch tinha uma solução para os dois: a ponte do Tay, que chegou a ser aberta aos trens, e, para o Forth, uma ponte pênsil com dois vãos de 1.600 pés; em 1873 formou-se a companhia, a lei foi aprovada e o contrato foi assinado com o construtor William Arrol, de Glasgow. Em Inchgarvie, a ilhota no meio do estuário, chegou a subir um pilar de tijolo, depois de uma pedra fundamental lançada com cerimônia.",
         "Em 28 de dezembro de 1879, por volta das sete e quinze da noite, durante um vendaval, os vãos centrais da ponte do Tay caíram com o trem que a atravessava. Ninguém sobreviveu. Quantos morreram nunca se fechou: os memoriais inaugurados em 2013 dos dois lados do rio têm 59 nomes, os conhecidos; a estimativa de 75 vem da época. O inquérito concluiu que o contraventamento e as fixações eram insuficientes para resistir à força do vendaval, e o relatório do comissário Henry Rothery apontou Bouch como o principal culpado, por defeitos de projeto, de construção e de manutenção. Bouch tinha considerado o vento, mas com 10 libras por pé quadrado. Morreu em 1880."
       ]
     },
@@ -152,8 +158,8 @@
     {
       "titulo": "Sete anos sobre o estuário",
       "paragrafos": [
-        "O contrato foi assinado em 21 de dezembro de 1882 com a Tancred, Arrol & Co., e William Arrol reaproveitou as oficinas que tinha erguido para a ponte de Bouch. As fundações começaram em fevereiro de 1883. Em Queensferry, seis caixões de ar comprimido desceram até 89 pés abaixo da maré alta; em Inchgarvie, as bases foram assentadas sobre a ilhota. A superestrutura começou a subir em 1886, e em 1887 as três torres já estavam de pé, ainda sem os braços, como mostram as fotos que Philip Phillips fez do canteiro.",
-        "No pico, segundo Westhofen, trabalhavam ali 4.600 pessoas, de quase 100 pés abaixo da água a mais de 300 pés acima dela. Os rebitadores trabalhavam por empreitada, em equipes de quatro, com um menino aquecendo os rebites; os meninos conseguiram um mínimo de 20 a 24 xelins por semana. A conta de rebites, que começou em 5 milhões, chegou a 6,5 milhões, e Westhofen escreveu que duvidava que mesmo isso cobrisse o total: só em Inchgarvie foram contados quase 2,7 milhões.",
+        "O contrato foi assinado em 21 de dezembro de 1882 com a Tancred, Arrol & Co., e William Arrol reaproveitou as oficinas que tinha erguido para a ponte de Bouch. As fundações começaram em fevereiro de 1883. Seis caixões de ar comprimido foram afundados, quatro em Queensferry e dois em Inchgarvie, a até 89 pés abaixo da maré alta. A superestrutura começou a subir em 1886, e em 1887 as três torres já estavam de pé, ainda sem os braços, como mostram as fotos que Philip Phillips fez do canteiro.",
+        "No pico, segundo Westhofen, trabalhavam ali 4.600 pessoas; ao longo da obra, houve gente a quase 90 pés abaixo da maré alta, nos caixões, e a mais de 300 pés acima dela, nas torres. Os rebitadores trabalhavam por empreitada, em equipes de quatro, com um menino aquecendo os rebites; os meninos conseguiram um mínimo de 20 a 24 xelins por semana. A conta de rebites, que começou em 5 milhões, chegou a 6,5 milhões, e Westhofen escreveu que duvidava que mesmo isso cobrisse o total: só em Inchgarvie foram contados quase 2,7 milhões.",
         "A obra foi concluída no fim de 1889. Em 21 de janeiro de 1890, dois trens com três locomotivas cada, puxando vagões de carvão, testaram a ponte com cerca de 1.880 toneladas. Em 4 de março de 1890, o Príncipe de Gales, futuro Eduardo VII, fixou um rebite dourado e declarou a ponte aberta, num discurso encurtado pelo vento. Tanto o valor do contrato quanto o prazo tinham sido ultrapassados. O custo final aparece como cerca de £3 milhões, ou £3,2 milhões quando se soma o que foi gasto na ponte de Bouch."
       ]
     },
@@ -161,7 +167,7 @@
       "titulo": "Cinquenta e sete, setenta e três",
       "paragrafos": [
         "O número oficial de mortos está no mesmo relato de Westhofen, publicado quatro dias antes da inauguração. Entre julho de 1883 e o Natal de 1889, quando o clube de acidentes do empreiteiro deixou de existir, houve 57 acidentes fatais, 106 casos levados à enfermaria de Edimburgo e 518 acidentes menores. O pior ano foi o da subida das torres centrais, com 17 mortes. Westhofen atribuiu três quartos dos acidentes graves a causas evitáveis e culpou a indiferença dos próprios operários, que jogavam ferramentas dos andaimes; ele também afirmou que nenhuma morte podia ser atribuída ao ar comprimido dos caixões.",
-        "Mais de um século depois, a partir de 2005, um grupo de historiadores locais de Queensferry procurou certidões de óbito e jornais para dar nome aos mortos. Chegou a 73: os 16 a mais vêm da pintura inicial, em 1890, e das obras de acesso feitas por subempreiteiros, que o clube não contava. Entre eles há um morto por doença dos caixões, e o primeiro foi Thomas Joseph Harris, almoxarife de 16 anos, em novembro de 1883. Em 2012, dois monumentos de bronze, um em cada ponta da ponte, foram inaugurados com nome, idade e ofício de cada um. Outras cifras circularam, como 78 e 98, mas os nomes confirmados são 73."
+        "Mais de um século depois, a partir de 2005, um grupo de historiadores locais de Queensferry procurou certidões de óbito e jornais para dar nome aos mortos. Chegou a 73: os 16 a mais vêm da pintura inicial, em 1890, e das obras de acesso feitas por subempreiteiros, que o clube não contava. O primeiro da lista foi Thomas Joseph Harris, almoxarife de 16 anos, em novembro de 1883. Em 2012, dois monumentos de bronze, um em cada ponta da ponte, foram inaugurados com nome, idade e ofício de cada um. Outras cifras circularam, como 78 e 98, mas os nomes confirmados são 73."
       ]
     },
     {
@@ -187,7 +193,7 @@
     },
     {
       "circula": "Foi a primeira estrutura de aço do mundo.",
-      "registro": "A formulação mais segura é a primeira grande estrutura da Grã-Bretanha construída em aço, e não em ferro. O órgão de patrimônio da Escócia fala em primeira grande estrutura de aço do mundo; outras fontes oficiais limitam ao Reino Unido."
+      "registro": "A formulação mais segura é a primeira grande estrutura da Grã-Bretanha construída em aço, e não em ferro. O órgão de patrimônio da Escócia fala em primeira grande estrutura de aço do mundo; outras fontes oficiais limitam ao Reino Unido, e nos Estados Unidos a Ponte Eads, de 1874, já tinha o aço como metal principal."
     }
   ],
   "fontes": [
@@ -301,7 +307,7 @@
     {
       "arquivo": "22-cantilever-humano.jpg",
       "alt": "Fotografia antiga em preto e branco: dois homens de chapéu sentados em cadeiras estendem os braços apoiados em varas, sustentando entre eles um terceiro homem sentado numa tábua suspensa; pilhas de tijolos nas pontas e o desenho da ponte na parede de madeira atrás",
-      "legenda": "O modelo vivo do cantiléver: Kaichi Watanabe suspenso entre John Fowler e Benjamin Baker. A foto é atribuída a 1887.",
+      "legenda": "O modelo vivo do cantiléver: Kaichi Watanabe suspenso entre dois homens identificados como John Fowler e Benjamin Baker. A foto é atribuída a 1887.",
       "autor": "Fotógrafo não identificado, para Benjamin Baker",
       "licenca": "Domínio público",
       "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",

@@ -8,10 +8,10 @@
   "periodo": "2014–2021",
   "estreia": "2027-05-20",
   "impossivel": "Erguer 435 metros de apartamentos sobre uma planta de uns 18 metros de largura, num terreno espremido entre vizinhos e colado a um prédio tombado de 1925, sem que a torre balançasse a ponto de quem mora lá em cima sentir.",
-  "resumo": "Como Nova York ergueu o arranha-céu mais esbelto do mundo, com 435 m sobre 18 m de largura, e a crise financeira que quase parou a obra.",
+  "resumo": "Como Nova York ergueu o arranha-céu mais esbelto do mundo, com 435 m sobre 18 m de largura, e a crise financeira que parou a obra no 20º andar.",
   "abertura": [
     "Na West 57th Street, em Manhattan, Nova York, nos Estados Unidos, o trecho junto ao Central Park ganhou nos anos 2010 o apelido de Billionaires' Row: uma fila de torres residenciais muito altas e muito finas, vendidas pela vista do parque. A 111 West 57th Street, também chamada Steinway Tower, é a mais extrema delas. Tem 435,3 metros de altura e cerca de 18 metros de largura.",
-    "Uma torre assim não cai; ela balança, e o problema é fazer com que ninguém sinta. A solução do escritório SHoP Architects e da engenharia da WSP foi pôr duas paredes de concreto de altura inteira nas laterais, travá-las entre si em andares técnicos e pendurar no topo um pêndulo de centenas de toneladas. No pé da torre ficou o Steinway Hall, a casa dos pianos Steinway desde 1925, que emprestou o terreno e o direito de subir."
+    "Uma torre assim não cai; ela balança, e o problema é fazer com que ninguém sinta. A solução do escritório SHoP Architects e da engenharia da WSP foi pôr duas paredes de concreto de altura inteira nas laterais, travá-las entre si em andares técnicos e pendurar no topo um pêndulo de centenas de toneladas. No pé da torre ficou o Steinway Hall, que foi a casa dos pianos Steinway de 1925 até a venda de 2013, e cujo lote e direitos de construir permitiram a torre subir."
   ],
   "numeros": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "valor": "800 t",
-      "rotulo": "o peso do amortecedor de massa no topo, em toneladas americanas (cerca de 725 t métricas)",
+      "rotulo": "o peso do amortecedor de massa no topo, em 'tons' americanas (cerca de 725 t métricas)",
       "conf": "1"
     },
     {
@@ -65,7 +65,7 @@
       "item": "Estrutura",
       "valor": "WSP. Duas paredes de cisalhamento de concreto correm a altura inteira nas fachadas leste e oeste e são ligadas entre si e ao núcleo por paredes de travamento em pavimentos técnicos. No topo, acima do último andar ocupado, um amortecedor de massa sintonizado reduz o balanço.",
       "conf": "2+",
-      "nota": "o número de pavimentos de travamento aparece numa fonte só"
+      "nota": "os pavimentos de travamento aparecem numa fonte só, o The Builders Report"
     },
     {
       "item": "As paredes laterais",
@@ -94,8 +94,8 @@
     },
     {
       "item": "Mortes e acidentes",
-      "valor": "Nenhuma morte registrada nas fontes consultadas. O Departamento de Edificações de Nova York anotou quatro ferimentos leves no endereço em abril e maio de 2015. Em janeiro de 2020, um bloco de terracota caiu e furou o teto de um táxi; em 29/10/2020, com vento forte, o guindaste girou, um cabo bateu na fachada e vidro e alumínio caíram na rua. Ninguém se feriu nos dois casos, e a prefeitura parou a obra.",
-      "conf": "2+",
+      "valor": "Nenhuma morte registrada nas fontes consultadas. O Departamento de Edificações de Nova York anotou quatro ferimentos leves no endereço em abril e maio de 2015. Em janeiro de 2020, um bloco de terracota caiu e furou o teto de um táxi; em 29/10/2020, com vento forte, o guindaste girou, um cabo bateu na fachada e vidro e alumínio caíram na rua. Ninguém se feriu nos dois casos; depois do segundo, a prefeitura parou a obra.",
+      "conf": "sem",
       "nota": "a ausência de mortes vale para as fontes consultadas; os ferimentos de 2015 podem ser da reforma do Steinway Hall"
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "item": "Hoje",
-      "valor": "Terceiro prédio mais alto de Nova York. Em 09/02/2026 a casa de leilões Bonhams abriu sua sede americana no Steinway Hall, reabrindo a rotunda ao público. Em 28/05/2026 a mais alta corte do estado de Nova York decidiu, por 4 a 3, que a ação da AmBase contra a Apollo deve seguir.",
+      "valor": "Terceiro prédio mais alto de Nova York em 2026. Em 09/02/2026 a casa de leilões Bonhams abriu sua sede americana no Steinway Hall, reabrindo a rotunda ao público. Em 28/05/2026 a mais alta corte do estado de Nova York decidiu, por 4 a 3, que a ação da AmBase contra a Apollo deve seguir.",
       "conf": "2+"
     }
   ],
@@ -125,16 +125,16 @@
     {
       "titulo": "A rua dos bilionários",
       "paragrafos": [
-        "A West 57th Street corta Manhattan, em Nova York, nos Estados Unidos, a um quarteirão do Central Park. Nos anos 2010, esse trecho virou o endereço de uma nova espécie de arranha-céu: torres residenciais estreitas, que subiam o bastante para olhar o parque por cima dos prédios do quarteirão de baixo. A imprensa chamou a rua de Billionaires' Row. A One57, a Central Park Tower e, a poucas quadras, a 432 Park Avenue são vizinhas desta.",
+        "A West 57th Street corta Manhattan, em Nova York, nos Estados Unidos, a dois quarteirões do Central Park. Nos anos 2010, esse trecho virou o endereço de uma nova espécie de arranha-céu: torres residenciais estreitas, que subiam o bastante para olhar o parque por cima dos prédios do quarteirão de baixo. A imprensa chamou a rua de Billionaires' Row. A One57, a Central Park Tower e, a poucas quadras, a 432 Park Avenue são vizinhas desta.",
         "Em Manhattan, subir é uma questão de terreno e de papel. O terreno é pequeno, e a altura que se pode construir depende da área do lote e dos direitos de construir que se compram dos vizinhos. Em março de 2013, a JDS Development Group, de Michael Stern, e a Property Markets Group, de Kevin Maloney, com o investidor Arthur P. Becker, compraram por US$ 46 milhões o Steinway Hall, na mesma rua. Segundo a Bloomberg, os investidores planejavam uma torre de uns 700 pés, cerca de 213 metros, e contavam com os direitos do Steinway para ir mais alto."
       ]
     },
     {
-      "titulo": "Um lote do tamanho de uma quadra",
+      "titulo": "Uma torre da largura de uma quadra de vôlei",
       "paragrafos": [
         "O que sobrou para a torre foi uma faixa: um lote vazio voltado para a 58th Street e parte do lote do próprio Steinway Hall. A planta da torre mede cerca de 59 pés, uns 18 metros, na direção mais estreita, e entre 75 e 78 pés na outra, conforme a fonte. É mais ou menos o comprimento de uma quadra de vôlei. Sobre isso, o escritório SHoP Architects desenhou 84 andares e 435,3 metros de altura, segundo o Council on Tall Buildings and Urban Habitat.",
         "A conta da esbeltez é simples e é o que torna a obra famosa: a torre é umas 24 vezes mais alta do que larga. O Architectural Record dá a relação de 1 para 24 e a chama de arranha-céu mais fino do mundo; o Skyscraper Museum, de Nova York, dá 1 para 23. Para comparar, a 432 Park Avenue, a recordista anterior na mesma vizinhança, fica em 1 para 15, segundo o Architectural Record.",
-        "Antes de desenhar a torre, era preciso passar pela Comissão de Preservação de Marcos de Nova York. A fachada do Steinway Hall estava tombada desde 2001, e em setembro de 2013 a comissão tombou também a rotunda e o saguão do térreo, justamente a parte que a nova obra encostava. O projeto foi a audiência em outubro de 2013 e só foi aprovado depois de revisto."
+        "Antes de desenhar a torre, era preciso passar pela Comissão de Preservação de Marcos de Nova York. A fachada do Steinway Hall estava tombada desde 2001, e em setembro de 2013 a comissão tombou também a rotunda e o saguão do térreo. O projeto foi à audiência em outubro de 2013 e só foi aprovado depois de revisto."
       ]
     },
     {
@@ -142,8 +142,8 @@
       "paragrafos": [
         "Um prédio alto não precisa de muita coisa para ficar de pé contra o próprio peso. O inimigo é o vento, que empurra de lado, e numa torre tão fina o efeito aparece menos como risco de queda e mais como balanço: o prédio oscila, e lá no alto as pessoas sentem. A engenharia, da WSP, resolveu isso de três maneiras somadas.",
         "A primeira são duas paredes de cisalhamento de concreto armado que correm a altura inteira nas fachadas leste e oeste, as faces estreitas da torre. Elas funcionam como a espinha do prédio e ditaram a arquitetura: leste e oeste ficaram mais fechadas, revestidas de terracota, enquanto norte e sul, de frente para o parque e para a cidade, ficaram de vidro. A espessura dessas paredes aparece como até 30 polegadas, cerca de 76 centímetros, numa fonte, e como 30 a 36 polegadas nos andares de baixo, afinando para 16 no alto, em outra.",
-        "A segunda são andares técnicos em que paredes de travamento ligam as duas paredes laterais entre si e ao núcleo, para que trabalhem juntas em vez de cada uma por conta própria. A terceira fica no topo, acima do último andar ocupado: um amortecedor de massa sintonizado, um grande peso que se move em sentido contrário ao balanço do prédio e o amortece. Os incorporadores dão 800 toneladas, em toneladas americanas, o que dá cerca de 725 toneladas métricas.",
-        "O concreto das partes mais carregadas chega a 14.000 psi, cerca de 96,5 MPa segundo os incorporadores. Na base, segundo a publicação The Builders Report, cerca de 200 tirantes ancorados na rocha de Manhattan impedem que a torre seja arrancada do chão nos ventos mais fortes."
+        "A segunda, segundo o The Builders Report, são andares técnicos em que paredes de travamento ligam as duas paredes laterais entre si e ao núcleo, para que trabalhem juntas em vez de cada uma por conta própria. A terceira fica no topo, acima do último andar ocupado: um amortecedor de massa sintonizado, um grande peso que se move em sentido contrário ao balanço do prédio e o amortece. Os incorporadores dão 800 'tons', unidade que nas fontes americanas costuma ser a tonelada curta: cerca de 725 toneladas métricas.",
+        "O concreto chega a 14.000 psi, cerca de 96,5 MPa, segundo os incorporadores. Na base, segundo a publicação The Builders Report, cerca de 200 tirantes ancorados na rocha de Manhattan impedem que a torre seja arrancada do chão nos ventos mais fortes."
       ]
     },
     {
@@ -151,7 +151,7 @@
       "paragrafos": [
         "A escavação começou em 2014. Em 2015, a obra tinha um financiamento de US$ 725 milhões: US$ 400 milhões de hipoteca da seguradora AIG e US$ 325 milhões de empréstimo mezanino, mais caro e subordinado, da gestora Apollo. Entre os sócios estava a AmBase Corporation, que tinha posto no projeto entre US$ 56 e 70 milhões, conforme a fonte.",
         "O custo subiu. Segundo a decisão de 2026 da mais alta corte de Nova York, um estouro de cerca de US$ 57 milhões desequilibrou o empréstimo, e em fevereiro de 2017 a Apollo exigiu US$ 56 milhões que ninguém pôs. Em março, a Apollo partiu o empréstimo em duas parcelas, de US$ 300 milhões e de US$ 25 milhões; em 28 de junho cedeu a menor à Spruce Capital, pelo valor de face; e em 7 de julho a Spruce executou a garantia, ficando com a participação que era da AmBase. O advogado da AmBase disse à imprensa que o orçamento tinha esquecido itens caros como os guindastes.",
-        "Naquele julho de 2017, segundo o site 6sqft, a torre estava parada com 20 andares de concreto. A Justiça liberou a execução em agosto, e a obra voltou. A AmBase passou os anos seguintes nos tribunais."
+        "Naquele julho de 2017, segundo o site 6sqft, a torre estava parada com 20 andares de concreto. A Justiça liberou a execução em agosto, e a torre seguiu até ser coroada, em 2019. A AmBase passou os anos seguintes nos tribunais."
       ]
     },
     {
@@ -165,7 +165,7 @@
     {
       "titulo": "A casa dos pianos",
       "paragrafos": [
-        "O Steinway Hall foi projetado pelo escritório Warren & Wetmore e construído em 1924 e 1925 para a Steinway & Sons, que acompanhou a mudança da vida musical de Nova York para a 57th Street depois da abertura do Carnegie Hall, em 1891, segundo a placa de tombamento. É um prédio neoclássico de 16 andares, com a frente em calcário de Indiana e uma torre com telhado piramidal. No térreo, uma rotunda com cúpula servia de salão de vendas e de concertos.",
+        "O Steinway Hall foi projetado pelo escritório Warren & Wetmore e construído em 1924 e 1925 para a Steinway & Sons, que acompanhou a mudança da vida musical de Nova York para a 57th Street depois da abertura do Carnegie Hall, em 1891, segundo a Comissão de Preservação de Marcos. É um prédio neoclássico de 16 andares, com a frente em calcário de Indiana e uma torre com telhado piramidal. No térreo, uma rotunda com cúpula servia de salão de vendas.",
         "Na venda de 2013, a fabricante teve até 18 meses para sair. A rotunda e o saguão foram restaurados, e os andares de cima do prédio antigo viraram apartamentos do mesmo condomínio da torre. Em 9 de fevereiro de 2026, a casa de leilões Bonhams abriu ali sua sede americana, em 42 mil pés quadrados, e reabriu a rotunda ao público depois de uma década fechada.",
         "No mesmo ano, a briga do dinheiro mudou de patamar. Em 28 de maio de 2026, o Court of Appeals, a mais alta corte do estado de Nova York, decidiu por 4 a 3 que um credor com critério exclusivo para ceder um empréstimo continua obrigado à boa-fé, e mandou de volta à primeira instância a acusação da AmBase de que a Apollo cedeu a parcela à Spruce para lhe tirar o investimento. A torre, que passou anos com mais da metade dos apartamentos encalhada, chegou a abril de 2026 com 58 de 59 unidades vendidas, segundo o The Real Deal."
       ]
@@ -174,11 +174,11 @@
   "mitos": [
     {
       "circula": "É o prédio mais alto de Nova York.",
-      "registro": "É o terceiro mais alto da cidade e o quarto da América do Norte, segundo o Council on Tall Buildings and Urban Habitat. O recorde dele é de esbeltez, não de altura."
+      "registro": "Em 2026, era o terceiro mais alto da cidade e o quarto da América do Norte, segundo o Council on Tall Buildings and Urban Habitat. O recorde dele é de esbeltez, não de altura."
     },
     {
       "circula": "Tem o amortecedor mais pesado do mundo, maior que o do Taipei 101.",
-      "registro": "A comparação mistura unidades. As 800 toneladas da torre são toneladas americanas, cerca de 725 toneladas métricas; o pêndulo do Taipei 101 tem 660 toneladas métricas, e o da Shanghai Tower, na China, cerca de mil."
+      "registro": "A comparação mistura unidades. As 800 'tons' da torre, se forem toneladas americanas, como é o uso nos EUA, dão cerca de 725 toneladas métricas; o pêndulo do Taipei 101 tem 660 toneladas métricas, e o da Shanghai Tower, na China, cerca de mil."
     },
     {
       "circula": "As fachadas leste e oeste são paredes cegas, sem nenhuma janela.",

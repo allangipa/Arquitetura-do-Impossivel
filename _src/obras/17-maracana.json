@@ -10,7 +10,7 @@
   "impossivel": "Erguer em menos de dois anos, para uma Copa do Mundo com data marcada, um anel de concreto para mais de 150 mil pessoas coberto por uma marquise em balanço sem um único pilar por baixo.",
   "resumo": "Como o Rio ergueu em menos de dois anos o maior estádio de sua época para a Copa de 1950, e por que a marquise sem pilares foi demolida em 2011.",
   "abertura": [
-    "Em 1946, o Brasil foi escolhido para sediar a Copa do Mundo, e o Rio de Janeiro, então capital do país, não tinha onde pôr a final. A prefeitura do Distrito Federal decidiu construir, no terreno de um antigo hipódromo no bairro do Maracanã, na Zona Norte do Rio de Janeiro, no Brasil, um estádio projetado para 155.250 pessoas.",
+    "Em 1946, o Brasil foi escolhido para sediar a Copa do Mundo, e o Rio de Janeiro, então capital do país, não tinha onde pôr a final. A prefeitura do Distrito Federal decidiu construir, no terreno de um antigo hipódromo no bairro do Maracanã, na Zona Norte da cidade, um estádio projetado para 155.250 pessoas.",
     "A obra começou em agosto de 1948 e o estádio foi inaugurado em 16 de junho de 1950, oito dias antes da abertura da Copa. Não estava pronto: a grande marquise de concreto armado, um anel em balanço sem colunas por baixo, ainda estava apoiada em andaimes quando a bola rolou."
   ],
   "numeros": [
@@ -55,7 +55,7 @@
       "item": "Quem quis",
       "valor": "A prefeitura do Distrito Federal, na gestão de Ângelo Mendes de Moraes, empurrada pela campanha do jornalista Mário Filho. O vereador Ary Barroso defendeu o terreno do Derby Club, no Maracanã; Carlos Lacerda preferia Jacarepaguá.",
       "conf": "2+",
-      "nota": "a disputa do terreno é contada em fontes de história do futebol; o estádio leva o nome de Mário Filho desde 1966"
+      "nota": "a defesa de Ary Barroso é registrada por várias fontes; a de Carlos Lacerda por Jacarepaguá, por uma só; o estádio leva o nome de Mário Filho desde 1966"
     },
     {
       "item": "Projeto",
@@ -87,7 +87,7 @@
     },
     {
       "item": "Custo",
-      "valor": "Circulam estimativas de 200 milhões e de 250 milhões de cruzeiros, nenhuma com documento de origem. Parte do dinheiro veio da venda antecipada de 30 mil cadeiras cativas.",
+      "valor": "Circulam estimativas de 200 milhões e de 250 milhões de cruzeiros, nenhuma com documento de origem. Segundo uma das fontes, parte do dinheiro veio da venda antecipada de 30 mil cadeiras cativas.",
       "conf": "DIV",
       "nota": "sem fonte primária, o valor não é convertido para hoje"
     },
@@ -124,7 +124,7 @@
       "conf": "DIV"
     },
     {
-      "item": "Hoje",
+      "item": "Concessão e venda",
       "valor": "Administrado por Flamengo e Fluminense, por contrato de 20 anos assinado em setembro de 2024. Em outubro de 2025, a comissão de Constituição e Justiça da Assembleia do Rio pôs o Complexo do Maracanã na lista de imóveis que o Estado pode vender; a votação em plenário foi adiada para 2026.",
       "conf": "2+"
     }
@@ -134,13 +134,13 @@
       "titulo": "Uma Copa sem estádio",
       "paragrafos": [
         "Quando a FIFA confirmou o Brasil como sede da Copa do Mundo, em 1946, o Rio de Janeiro era a capital do país e não tinha um estádio à altura de uma final de Mundial. O jornalista Mário Filho, do Jornal dos Sports, fez do novo estádio uma campanha, e a prefeitura do Distrito Federal assumiu a obra.",
-        "A briga seguinte foi pelo lugar. O vereador e compositor Ary Barroso defendia o terreno do Derby Club, onde havia corridas de cavalo, no bairro do Maracanã; Carlos Lacerda queria o estádio em Jacarepaguá. Ganhou o Derby. A construção foi aprovada em novembro de 1947, e a pedra fundamental foi lançada em 20 de janeiro de 1948."
+        "A briga seguinte foi pelo lugar. O vereador e compositor Ary Barroso defendia o terreno do Derby Club, onde havia corridas de cavalo, no bairro do Maracanã; Segundo uma pesquisa de história do futebol, Carlos Lacerda queria o estádio em Jacarepaguá. Ganhou o Derby. A construção foi aprovada em novembro de 1947, e a pedra fundamental foi lançada em 20 de janeiro de 1948."
       ]
     },
     {
       "titulo": "Um anel para 155 mil",
       "paragrafos": [
-        "O projeto, de um grupo de arquitetos brasileiros que inclui Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro e Miguel Feldman, previa 155.250 lugares: 93 mil assentos, 31 mil lugares em pé, 30 mil cadeiras cativas, 500 lugares na tribuna de honra e 250 camarotes. As cativas foram vendidas antes da obra e ajudaram a pagá-la.",
+        "O projeto, de um grupo de arquitetos brasileiros que inclui Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro e Miguel Feldman, previa 155.250 lugares: 93 mil assentos, 31 mil lugares em pé, 30 mil cadeiras cativas, 500 lugares na tribuna de honra e 250 camarotes. As cativas foram vendidas de antemão e, segundo uma das fontes, ajudaram a pagar a obra.",
         "A forma era uma elipse de 317 por 279 metros e 32 metros de altura, toda em concreto armado, com dois anéis de arquibancada. Sobre o anel de cima, o desenho pedia uma marquise contínua presa só pela parte de trás, em balanço, sem nenhuma coluna que atrapalhasse a vista do campo. Fontes de engenharia estrangeiras dão a essa marquise cerca de 30 metros de balanço. Segundo a família do engenheiro Antônio Alves de Noronha, que integrou a equipe do estádio, foi ele quem fez o cálculo estrutural dela."
       ]
     },
@@ -148,7 +148,7 @@
       "titulo": "Vinte e dois meses de concreto",
       "paragrafos": [
         "O canteiro começou em agosto de 1948. Pelo Arquivo Nacional, no primeiro recrutamento, em 11 de junho daquele ano, apareceram 200 candidatos no Derby; depois, a obra chegou a 3.500 trabalhadores por dia e 5 mil no auge, num total estimado de 11 mil ao fim. Outras fontes falam em números menores, de 2.800 ou de 1.500 com mais 2.000 nos meses finais. Quantos se feriram ou morreram, as fontes consultadas não registram.",
-        "Foram 500 mil sacos de cimento, 80 mil metros cúbicos de concreto e cerca de 10 mil toneladas de ferro. A marquise só começou a ganhar forma em fevereiro de 1950. Segundo a revista Grandes Construções, o responsável pela obra, coronel Herculano Gomes, mandou pôr no concreto uma resina para acelerar a secagem. Pela lembrança da família de Noronha, operários e engenheiros tinham receio de ficar sob aquele teto sem pilares.",
+        "Foram 500 mil sacos de cimento, 80 mil metros cúbicos de concreto e cerca de 10 mil toneladas de ferro. A marquise só começou a ganhar forma em fevereiro de 1950. Segundo a revista Grandes Construções, o responsável pela obra, coronel Herculano Gomes, teria mandado pôr no concreto uma resina para acelerar a secagem. Pela lembrança da família de Noronha, operários e engenheiros tinham receio de ficar sob aquele teto sem pilares.",
         "O estádio foi inaugurado em 16 de junho de 1950, com o presidente Eurico Gaspar Dutra e o prefeito Mendes de Moraes. O primeiro jogo, no dia seguinte, foi entre seleções de jovens do Rio e de São Paulo. A Copa começou em 24 de junho. A marquise continuava apoiada em andaimes."
       ]
     },
@@ -162,8 +162,8 @@
     {
       "titulo": "A grade de 1992",
       "paragrafos": [
-        "Em 19 de julho de 1992, cerca de 20 minutos antes da final do Campeonato Brasileiro entre Flamengo e Botafogo, a grade de proteção do primeiro degrau da arquibancada do setor norte, onde estava a torcida do Flamengo, cedeu num trecho de uns 13 metros. Dezenas de torcedores caíram sobre as cadeiras de baixo. Morreram Frederico Castilho de Oliveira, de 16 anos, Cláudio José Rocha Galda, de 17, e Sérgio de Souza Marques, de 25; 82 pessoas ficaram feridas.",
-        "A perícia apontou grades mal instaladas, peças corroídas pela oxidação e superlotação. O estádio foi interditado e só voltou a receber jogos meses depois. Vieram reformas em série: assentos nas arquibancadas para o Mundial de Clubes de 2000; o fim da geral, trocada por cadeiras, para os Jogos Pan-Americanos de 2007. Em 2000, o Iphan tombou o Maracanã pelo seu valor etnográfico."
+        "Em 19 de julho de 1992, cerca de 20 minutos antes da final do Campeonato Brasileiro entre Flamengo e Botafogo, a grade de proteção do primeiro degrau da arquibancada do setor norte, onde estava a torcida do Flamengo, cedeu num trecho de uns 13 metros. Torcedores despencaram para o setor de baixo. Morreram Frederico Castilho de Oliveira, de 16 anos, Cláudio José Rocha Galda, de 17, e Sérgio de Souza Marques, de 25; 82 pessoas ficaram feridas.",
+        "A perícia apontou grades mal instaladas, peças corroídas pela oxidação e superlotação. O estádio foi interditado e só voltou a receber jogos meses depois. Vieram reformas em série: assentos nas arquibancadas para o Mundial de Clubes de 2000, ano em que o Iphan tombou o estádio, segundo a revista Vitruvius pelo valor etnográfico; e o fim da geral, trocada por cadeiras em 2005, na preparação para os Jogos Pan-Americanos de 2007."
       ]
     },
     {
@@ -176,8 +176,8 @@
     {
       "titulo": "À venda?",
       "paragrafos": [
-        "Desde setembro de 2024, o Maracanã e o Maracanãzinho são administrados por Flamengo e Fluminense, num contrato de concessão de 20 anos. Em 22 de outubro de 2025, a comissão de Constituição e Justiça da Assembleia Legislativa do Rio incluiu o Complexo do Maracanã na lista de imóveis que o governo do Estado pode vender para enfrentar a dívida com a União; deputados estimaram o valor em cerca de R$ 2 bilhões. Em novembro, a votação em plenário foi adiada para 2026.",
-        "Enquanto isso, o campo também muda. Em setembro de 2026, o consórcio dos dois clubes anunciou que, depois do fim do Brasileiro, a grama natural dará lugar a um gramado híbrido, com fibras sintéticas, para aguentar a sequência de jogos e as chuvas. O estádio que ficou pronto com a cobertura ainda escorada chega aos 76 anos sem a cobertura original, e com o próprio futuro em votação."
+        "Flamengo e Fluminense administram o Maracanã desde 2019, primeiro de forma provisória; em setembro de 2024, assinaram com o Estado um contrato de concessão de 20 anos, que inclui o Maracanãzinho. Em 22 de outubro de 2025, a comissão de Constituição e Justiça da Assembleia Legislativa do Rio incluiu o Complexo do Maracanã na lista de imóveis que o governo do Estado pode vender para enfrentar a dívida com a União; deputados estimaram o valor em cerca de R$ 2 bilhões. Em novembro, a votação em plenário foi adiada para 2026.",
+        "Enquanto isso, o campo também muda. Em setembro de 2026, o consórcio dos dois clubes anunciou que, depois do fim do Brasileiro, a grama natural dará lugar a um gramado híbrido, com fibras sintéticas, para aguentar a sequência de jogos e as chuvas. O estádio que ficou pronto com a cobertura ainda escorada perdeu a cobertura original em 2011 e, em 2025, entrou na lista de imóveis que o Estado pode vender."
       ]
     }
   ],

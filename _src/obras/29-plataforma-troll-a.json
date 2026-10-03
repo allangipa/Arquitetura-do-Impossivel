@@ -7,11 +7,11 @@
   "regiao": "mundo",
   "periodo": "1991–1996",
   "estreia": "2027-04-22",
-  "impossivel": "Erguer num fiorde uma torre de concreto de 472 metros, fazê-la flutuar de pé até o alto-mar e assentá-la sobre 303 metros de água, meses depois de outra base da mesma construtora ter afundado por um erro de cálculo.",
+  "impossivel": "Começar, meses depois de outra base da mesma construtora afundar por um erro de cálculo, uma torre de concreto de 472 metros, erguê-la num fiorde, fazê-la flutuar de pé até o alto-mar e assentá-la sobre 303 metros de água.",
   "resumo": "Como a Noruega fez flutuar 472 metros de concreto até o mar do Norte em 1995, e por que a obra começou à sombra do naufrágio da Sleipner A.",
   "abertura": [
     "A Troll A é uma plataforma de gás que não está presa ao fundo do mar por estacas nem por âncoras. Fica de pé pelo próprio peso: uma base de células de concreto assentada a 303 metros de profundidade, no mar do Norte, a noroeste de Bergen, na Noruega, e quatro colunas que sobem até o convés. Da base ao topo são 472 metros.",
-    "Ela não foi construída onde está. Nasceu numa doca seca em Stavanger, cresceu flutuando num fiorde e, em maio de 1995, foi rebocada por sete dias até o campo de Troll, de pé, com a maior parte do corpo debaixo d'água. É a estrutura mais alta que o ser humano já tirou do lugar. E começou a ser feita poucas semanas depois de a mesma construtora ver outra base de plataforma desaparecer no fundo de um fiorde em cerca de dezoito minutos."
+    "Ela não foi construída onde está. Nasceu numa doca seca em Stavanger, cresceu flutuando num fiorde e, em maio de 1995, foi rebocada por sete dias até o campo de Troll, de pé, com mais de 200 metros de concreto debaixo d'água. É a estrutura mais alta que o ser humano já tirou do lugar. E começou a ser feita em 1991, nos mesmos meses em que a mesma construtora viu outra base de plataforma desaparecer no fundo de um fiorde em cerca de dezoito minutos."
   ],
   "numeros": [
     {
@@ -48,14 +48,15 @@
   "ficha": [
     {
       "item": "Por quê",
-      "valor": "Pôr em produção o campo de Troll, descoberto em 1979, o maior campo de gás do mar do Norte. Em 1986, a Noruega fechou contratos de venda do gás de Troll a compradores europeus avaliados em 800 bilhões de coroas, o que exigia uma plataforma em 303 metros de água.",
+      "valor": "Pôr em produção o campo de Troll, descoberto em 1979, que guarda cerca de 40% a 60% das reservas de gás da plataforma continental norueguesa, conforme a fonte e a data da estimativa. Em 1986, a Noruega fechou contratos de venda do gás de Troll a compradores europeus avaliados em 800 bilhões de coroas, o que exigia uma plataforma em 303 metros de água.",
       "conf": "2+",
       "nota": "o valor dos contratos aparece numa fonte só, o Museu do Petróleo da Noruega"
     },
     {
       "item": "Quem quis",
       "valor": "A Norske Shell, operadora do desenvolvimento do campo, que contratou a base de concreto em março de 1991. A Statoil, hoje Equinor, assumiu a operação da produção em 1996.",
-      "conf": "2+"
+      "conf": "2+",
+      "nota": "o ano em que a Statoil assumiu a operação aparece numa enciclopédia e numa manchete de época"
     },
     {
       "item": "Tipo",
@@ -93,7 +94,7 @@
       "item": "Custo",
       "valor": "4,15 bilhões de coroas norueguesas pelo contrato da base de concreto, em 1991, cerca de US$ 650 milhões ao câmbio da época. O convés e os equipamentos somaram mais 3,5 bilhões de coroas.",
       "conf": "2+",
-      "nota": "pelo índice de preços ao consumidor dos EUA (1991 = 136,2; 2025 = 321,9), os US$ 650 milhões da base equivalem a cerca de US$ 1,5 bilhão de 2025; o custo do convés vem de uma fonte só"
+      "nota": "o câmbio de US$ 650 milhões vem de uma fonte só; por ele e pelo índice de preços ao consumidor dos EUA (1991 = 136,2; 2025 = 321,9), a base equivale a cerca de US$ 1,5 bilhão de 2025; o custo do convés também vem de uma fonte só"
     },
     {
       "item": "Medidas",
@@ -127,7 +128,7 @@
     {
       "titulo": "Um campo de gás em 303 metros de água",
       "paragrafos": [
-        "O campo de Troll foi descoberto em 1979, no setor norueguês do mar do Norte, a noroeste de Bergen. Era gás em quantidade suficiente para abastecer uma parte da Europa por décadas: segundo a Equinor, ainda hoje Troll atende cerca de 10% da demanda europeia. O problema era a água. No ponto escolhido para a plataforma havia 303 metros de mar, mais fundo do que qualquer plataforma fixa de concreto tinha enfrentado até então.",
+        "O campo de Troll foi descoberto em 1979, no setor norueguês do mar do Norte, a noroeste de Bergen. Era gás em quantidade suficiente para abastecer uma parte da Europa por décadas: segundo a Equinor, em 2026 Troll ainda atendia cerca de 10% da demanda europeia. O problema era a água. No ponto escolhido para a plataforma havia 303 metros de mar, mais fundo do que qualquer plataforma fixa de concreto tinha enfrentado até então.",
         "A Noruega tinha uma resposta testada para o mar do Norte: as plataformas Condeep, da Norwegian Contractors. Desde 1975 a empresa erguia em fiordes bases de concreto formadas por grandes células cilíndricas, das quais subiam colunas ocas até o convés. A estrutura era levada flutuando até o campo e lá afundada de propósito, enchendo as células de água, até pousar no leito. Não precisava de estacas: o peso a mantinha no lugar. A Troll A seria a última e a mais alta delas."
       ]
     },
@@ -135,13 +136,13 @@
       "titulo": "Dezoito minutos no Gandsfjorden",
       "paragrafos": [
         "Em março de 1991, a Norske Shell assinou com a Norwegian Contractors o contrato da base da Troll A: 4,15 bilhões de coroas. Em 23 de agosto do mesmo ano, de madrugada, outra base da mesma construtora, a da plataforma Sleipner A, fazia um teste de lastro no Gandsfjorden, junto a Stavanger. A estrutura descia na água de forma controlada quando uma parede de concreto se rompeu. Entraram quase mil toneladas de água por minuto. Em cerca de dezoito minutos a base estava no fundo do fiorde, a quase 200 metros. As 22 pessoas a bordo saíram sem ferimentos.",
-        "As investigações da Statoil, dona da Sleipner, e da própria construtora chegaram à mesma causa: a ligação entre as células, uma peça triangular chamada tricélula, tinha sido subdimensionada por erros na análise de elementos finitos, o cálculo por computador que divide a estrutura em pequenos pedaços. A pressão da água venceu uma parede mais fina do que deveria. O prejuízo aparece como 1,8 bilhão de coroas, segundo o Museu do Petróleo da Noruega, ou US$ 700 milhões, em outras fontes. A Shell, que tinha outra base em obra com a mesma empresa, a da plataforma Draugen, mandou parar a obra e refazer a verificação dos cálculos; a construção só foi retomada três meses depois."
+        "As investigações, com assessoria técnica do instituto SINTEF, chegaram à causa: a ligação entre as células, uma peça triangular chamada tricélula, tinha sido subdimensionada por erros na análise de elementos finitos, o cálculo por computador que divide a estrutura em pequenos pedaços. A pressão da água venceu uma parede mais fina do que deveria. O prejuízo aparece como 1,8 bilhão de coroas, segundo o Museu do Petróleo da Noruega, ou US$ 700 milhões, em outras fontes. A Shell, que tinha outra base em obra com a mesma empresa, a da plataforma Draugen, mandou parar a obra e refazer a verificação dos cálculos; a construção só foi retomada três meses depois."
       ]
     },
     {
       "titulo": "Uma torre que cresce flutuando",
       "paragrafos": [
-        "Foi nesse ambiente que a base da Troll A começou a ser feita, no verão ou em setembro de 1991, conforme a fonte, numa doca seca em Hinnavågen, em Stavanger. Quando a parte de baixo ficou pronta, a estrutura saiu flutuando. O resto subiu já no fiorde, junto a Vats, no norte de Rogaland, com o concreto lançado em fôrmas que se movem para cima sem parar, até as colunas atingirem a altura final.",
+        "A base da Troll A começou a ser feita no mesmo ano, no verão ou em setembro de 1991, conforme a fonte, numa doca seca em Hinnavågen, em Stavanger. Quando a parte de baixo ficou pronta, a estrutura saiu flutuando. O resto subiu já no fiorde, junto a Vats, no norte de Rogaland, com o concreto lançado em fôrmas que se movem para cima sem parar, até as colunas atingirem a altura final.",
         "O conjunto consumiu 245 mil ou 250 mil metros cúbicos de concreto, conforme a fonte, e 100 mil toneladas de aço de armadura; o Museu do Petróleo da Noruega compara a armadura ao peso de treze Torres Eiffel. Segundo a fornecedora do cimento, mais de 2 mil pessoas trabalharam na construção. Quantas no pico, em que turnos e com que salários, as fontes consultadas não dizem. Também não registram mortes nem acidentes graves na obra.",
         "Havia ainda um risco que apareceu no meio do caminho. No começo dos anos 1990, ensaios com modelos de outras plataformas norueguesas mostraram que ondas íngremes podiam fazer colunas verticais vibrar de repente, num efeito batizado de ringing, como um sino de igreja depois da batida. Um artigo apresentado em 1994 na Offshore Technology Conference, em Houston, nos Estados Unidos, relata que os ensaios de modelo da Troll mostraram respostas maiores do que a prática de projeto previa, e descreve o trabalho feito para verificar a integridade da base."
       ]
@@ -164,7 +165,7 @@
       "titulo": "Trinta anos depois",
       "paragrafos": [
         "Com o tempo, o reservatório perdeu pressão, e o gás passou a precisar de ajuda para subir. Em 2005, a Troll A tornou-se a primeira plataforma do mundo alimentada por energia de terra em corrente contínua de alta tensão, por cabos de cerca de 70 quilômetros vindos de Kollsnes, para acionar compressores. Em 2015 entraram em operação mais dois, de 50 MW cada. Em 2006, a cantora Katie Melua fez um show dentro de uma das colunas, a 303 metros abaixo do nível do mar.",
-        "Em 2026, a plataforma completou 30 anos de produção. Em 22 de agosto, entrou em operação o Troll Fase 3, etapa 2, um projeto submarino que leva à Troll A o gás de outra parte do campo: 55 bilhões de metros cúbicos, quase dois anos de consumo da França, segundo a Equinor, que o concluiu antes do prazo e abaixo do orçamento de 12,3 bilhões de coroas. Em junho, os sócios já tinham aprovado mais um, o TWIN, de 4 bilhões de coroas, com produção prevista para 2028. O gás novo continua subindo pelas mesmas colunas de concreto que atravessaram o mar em maio de 1995."
+        "Em 2026, a plataforma completou 30 anos de produção. Em 22 de agosto, entrou em operação o Troll Fase 3, etapa 2, um projeto submarino que leva à Troll A o gás de outra parte do campo e antecipa a produção de 55 bilhões de metros cúbicos, quase dois anos de consumo da França, segundo a Equinor, que o concluiu antes do prazo e abaixo do orçamento de 12,3 bilhões de coroas. Em junho, os sócios já tinham aprovado mais um, o TWIN, de 4 bilhões de coroas, com produção prevista para 2028. O gás novo continua subindo pelas mesmas colunas de concreto que atravessaram o mar em maio de 1995."
       ]
     }
   ],

@@ -10,7 +10,7 @@
   "impossivel": "Erguer a barragem mais alta do mundo no fundo de um cânion do deserto, com o rio Colorado desviado por dentro da montanha e um concreto que, despejado de uma vez, levaria 125 anos para esfriar.",
   "resumo": "Como a Represa Hoover tirou o rio Colorado do cânion e venceu o calor do próprio concreto, e por que a conta dos mortos vai de 96 a 213.",
   "abertura": [
-    "No Black Canyon do rio Colorado, na divisa entre Nevada e o Arizona, nos Estados Unidos, a uns 48 km a sudeste de Las Vegas, o governo americano mandou erguer, entre 1931 e 1935, a barragem mais alta do mundo da época: 221 metros de concreto, da rocha da fundação à crista. Para isso foi preciso tirar um rio inteiro do leito, fazê-lo passar por quatro túneis abertos na rocha e resfriar o concreto com água gelada, bloco por bloco.",
+    "No Black Canyon do rio Colorado, na divisa entre Nevada e o Arizona, nos Estados Unidos, a uns 48 km a sudeste de Las Vegas, o governo americano mandou erguer, entre 1931 e 1936, a barragem mais alta do mundo da época: 221 metros de concreto, da rocha da fundação à crista. Para isso foi preciso tirar um rio inteiro do leito, fazê-lo passar por quatro túneis abertos na rocha e resfriar o concreto com água gelada, bloco por bloco.",
     "A obra terminou uns dois anos antes do prazo, em plena Grande Depressão. O preço em vidas é outra história, e depende de quem conta: a placa memorial fala em 96 mortos; as tabelas do próprio governo, somando todas as causas, chegam a 213 até o fim de 1935."
   ],
   "numeros": [
@@ -80,8 +80,9 @@
     },
     {
       "item": "Operários",
-      "valor": "21.000 no total, média de 3.500 por dia. Pico de 5.251 num dia (20/07/1934); a média mensal mais alta foi 5.218, em junho de 1934.",
-      "conf": "2+"
+      "valor": "21.000 no total e média de 3.500 por dia, segundo o Bureau of Reclamation. Pico de 5.251 num dia (20/07/1934); a média mensal mais alta foi 5.218, em junho de 1934.",
+      "conf": "2+",
+      "nota": "o total e a média vêm de uma fonte só; o pico, de duas"
     },
     {
       "item": "Salário",
@@ -126,7 +127,7 @@
     },
     {
       "item": "Depois",
-      "valor": "Barragem mais alta do mundo quando ficou pronta e maior usina hidrelétrica do mundo por cerca de dez anos, até Grand Coulee. Hoje, cerca de 2.000 MW. Em 06/08/2026 o lago Mead bateu seu recorde de baixa, e a geração já caiu cerca de 30%.",
+      "valor": "Barragem mais alta do mundo quando ficou pronta e maior usina hidrelétrica do mundo por cerca de dez anos, até Grand Coulee. Potência instalada de cerca de 2.000 MW. Em 06/08/2026 o lago Mead bateu seu recorde de baixa, e o Bureau of Reclamation informa que a geração já caiu cerca de 30%.",
       "conf": "2+"
     }
   ],
@@ -135,7 +136,7 @@
       "titulo": "Um rio, uma lei e seis empresas",
       "paragrafos": [
         "Em 21 de dezembro de 1928, o presidente Calvin Coolidge assinou o Boulder Canyon Project Act, que autorizava US$ 165 milhões para domar o rio Colorado: uma barragem com reservatório, uma usina, o Canal All-American e os juros da construção. A barragem deveria guardar o fluxo médio do rio de dois anos inteiros.",
-        "O lugar escolhido foi o Black Canyon, e não o Boulder Canyon que deu nome ao projeto, na divisa entre Nevada e o Arizona. Segundo a revista Invention & Technology, a licitação exigia uma caução de US$ 5 milhões, e foi isso que obrigou as construtoras a se juntarem. Seis firmas se juntaram na Six Companies, Inc., e a proposta delas, de US$ 48.890.995, foi a mais baixa. O contrato saiu em 11 de março de 1931, e o trabalho começou em abril.",
+        "O lugar escolhido foi o Black Canyon, e não o Boulder Canyon que deu nome ao projeto, na divisa entre Nevada e o Arizona. Segundo a revista Invention & Technology, a licitação exigia uma caução de US$ 5 milhões, e foi isso que obrigou as construtoras a se associar. Seis firmas formaram a Six Companies, Inc., e a proposta delas, de US$ 48.890.995, foi a mais baixa. O contrato saiu em 11 de março de 1931, e o trabalho começou em abril.",
         "O dono da obra era o Bureau of Reclamation, do Departamento do Interior. No canteiro, o superintendente da Six Companies era Frank Crowe; pelo governo, o engenheiro de construção Walker R. Young."
       ]
     },
@@ -143,7 +144,7 @@
       "titulo": "A cidade do governo e o verão de 1931",
       "paragrafos": [
         "Para abrigar os operários, o governo ergueu Boulder City em terra federal, com portão, passe e rangers federais no lugar de polícia. O administrador, Sims Ely, nomeado no outono de 1931, podia expulsar morador da reserva. Num aviso de 28 de dezembro de 1932, ele lembrava que a embriaguez custava a expulsão e o emprego. Negros, que nunca passaram de 50 entre os mais de 20 mil homens da obra, não podiam morar lá dentro.",
-        "Antes de a cidade ficar pronta, muita gente acampava em barracos na beira do rio. O verão de 1931 passou dos 46 °C à sombra, pelo registro do Bureau of Reclamation, e chegou a 60 °C dentro dos túneis. Entre 25 de junho e 26 de julho, 16 pessoas morreram de calor, nome a nome nas tabelas do governo. Sete trabalhavam para a Six Companies, as outras para fornecedoras, e duas eram mulheres que moravam na área sem trabalhar na obra.",
+        "Antes de a cidade ficar pronta, muita gente acampava em barracos na beira do rio. O verão de 1931 passou dos 46 °C à sombra, pelo registro do Bureau of Reclamation, e chegou a 60 °C dentro dos túneis. Entre 25 de junho e 26 de julho, 16 pessoas morreram de calor, nome a nome nas tabelas do governo. Sete trabalhavam para a Six Companies, sete para outras empresas, entre elas a fornecedora do refeitório e dos alojamentos, e duas eram mulheres que moravam na área sem trabalhar na obra.",
         "Em 7 de agosto de 1931, operários dos túneis cruzaram os braços. O estopim foi um corte de salário: os muckers, que carregavam o entulho, passariam de US$ 5 para US$ 4 por dia. Pediam água limpa e gelada, privada com descarga, jornada de oito horas e respeito às leis de mineração de Nevada e do Arizona. A Six Companies demitiu todo mundo e voltou a contratar em 13 de agosto. A greve durou cerca de uma semana; o corte ficou, e vieram água, luz e pressa para terminar Boulder City."
       ]
     },
@@ -159,7 +160,7 @@
       "titulo": "Pneumonia ou gás",
       "paragrafos": [
         "Nos túneis rodavam caminhões a gasolina. Em 7 de novembro de 1931, o inspetor de minas de Nevada, A. J. Stinson, mandou a Six Companies parar de usá-los. A empresa foi à Justiça federal, e o próprio governo federal entrou no caso ao lado dela. Na decisão de 28 de abril de 1932, o tribunal registrou que todas as partes admitiam que o monóxido de carbono no ar podia causar doença ou morte. Mesmo assim, deu razão à empresa, e em 15 de fevereiro de 1933 decidiu de vez: a proibição de gasolina era de uma lei de 1911 feita para minas, e um túnel de obra não era mina.",
-        "As tabelas do governo registram 42 mortes por pneumonia, todas fora da conta de acidentes. Quinze delas caem entre o fim de novembro de 1932 e março de 1933, um inverno em que o próprio relatório anual registra uma epidemia de gripe, com centenas de doentes e a escola fechada por uma semana. A explicação oficial da época, num aviso de Sims Ely, culpava a resistência baixa de quem bebia bebida clandestina.",
+        "As tabelas do governo registram 42 mortes por pneumonia, todas fora da conta de acidentes. Quinze delas caem entre o fim de novembro de 1932 e março de 1933, um inverno em que o próprio relatório anual registra uma epidemia de gripe, com centenas de doentes e a escola fechada por uma semana. A explicação oficial da época, num aviso de Sims Ely, culpava a resistência baixa de quem tomava bebida clandestina.",
         "Os operários diziam outra coisa: que era o gás dos caminhões. Processaram a Six Companies, e os casos terminaram num acordo com valor nunca divulgado, depois de denúncias de manipulação de júri. Nenhum documento prova que as pneumonias foram monóxido de carbono, e nenhum prova que não foram."
       ]
     },
@@ -183,8 +184,8 @@
       "titulo": "Hoover ou Boulder, e o anel branco",
       "paragrafos": [
         "Em setembro de 1930, o secretário do Interior Ray Lyman Wilbur anunciou o nome Hoover Dam, e cinco leis do Congresso entre 1931 e 1933 usaram esse nome. Em 8 de maio de 1933, Harold Ickes, secretário do Interior de Franklin D. Roosevelt, mandou chamá-la de Boulder Dam. Roosevelt a dedicou em 30 de setembro de 1935 sem dizer o nome de Hoover nenhuma vez. Em 30 de abril de 1947, Harry Truman sancionou a lei que mandou voltar ao nome Hoover.",
-        "Quando ficou pronta, era a barragem mais alta do mundo. O primeiro gerador entrou em operação em 26 de outubro de 1936, e a usina foi a maior hidrelétrica do mundo por cerca de dez anos, até ser superada por Grand Coulee. Hoje tem 17 turbinas principais e cerca de 2.000 MW.",
-        "O lago que ela represa, o Mead, está secando. Em 6 de agosto de 2026, a água desceu a 1.040,50 pés (cerca de 317,1 m), abaixo do recorde de 2022 e no ponto mais baixo desde que o lago foi enchido. Em 30 de setembro de 2026, o boletim do Bureau marcava 1.037,80 pés. Nas paredes do cânion, a rocha que a água deixou forma um anel branco.",
+        "Quando ficou pronta, era a barragem mais alta do mundo. O primeiro gerador entrou em operação em 26 de outubro de 1936, e a usina foi a maior hidrelétrica do mundo por cerca de dez anos, até ser superada por Grand Coulee. Tem 17 turbinas principais e cerca de 2.000 MW de potência instalada, que o lago baixo já não deixa usar inteira.",
+        "O lago que ela represa, o Mead, está secando. Em 6 de agosto de 2026, a água desceu a 1.040,50 pés (cerca de 317,1 m), abaixo do recorde de 2022 e no ponto mais baixo desde que o lago foi enchido. Em 30 de setembro de 2026, o boletim do Bureau marcava 1.037,80 pés (cerca de 316,3 m). Nas paredes do cânion, a rocha que a água deixou forma um anel branco.",
         "O governo americano informa que a geração já caiu cerca de 30%, e que na cota de 1.035 pés (cerca de 315,5 m) a capacidade da usina pode cair de 1.302 para 382 MW. Em maio de 2026 anunciou US$ 52 milhões para trocar até três turbinas antigas por modelos que funcionam com o lago mais baixo."
       ]
     }
@@ -192,7 +193,7 @@
   "mitos": [
     {
       "circula": "Há homens enterrados no concreto da barragem.",
-      "registro": "O Bureau of Reclamation diz que não há nenhum. A barragem subiu em blocos, camadas de 1,5 metro; cada balde elevava o nível só alguns centímetros, e cinco ou seis homens pisavam e vibravam o concreto em cada bloco. Nas tabelas de mortes, ninguém consta como soterrado no concreto."
+      "registro": "O Bureau of Reclamation diz que não há nenhum. A barragem subiu em blocos, camadas de 1,5 metro; cada balde elevava o nível só alguns centímetros, e cinco ou seis homens pisavam e vibravam o concreto em cada bloco."
     },
     {
       "circula": "O concreto ainda está curando e levará mais de cem anos para esfriar.",
@@ -204,7 +205,7 @@
     },
     {
       "circula": "Pai e filho Tierney foram o primeiro e o último morto da obra, no mesmo dia, 14 anos depois.",
-      "registro": "J. G. Tierney morreu no rio num levantamento feito antes de a obra ser autorizada, e não está entre os 96. O ano da morte dele diverge: 1922 na tabela do governo, 1921 num jornal de janeiro de 1922. O filho, Patrick, caiu de uma torre de tomada d'água em 20/12/1935 e é a última morte em acidente nas listas do governo, que terminam em 1935."
+      "registro": "J. G. Tierney morreu no rio num levantamento feito antes de a obra ser autorizada, e não está entre os 96. O ano da morte dele diverge: 1922 na tabela do governo, 1921 num jornal de janeiro de 1922. O filho, Patrick, caiu de uma torre de tomada d'água em 20/12/1935 e é a última morte em acidente nas listas nominais do governo; a lista de 1936 não traz nenhum acidente, embora um relatório do mesmo ano fale em duas mortes industriais, sem nome. E, pela tabela do governo, outro homem do Bureau, Harold Connelly, já tinha morrido no rio em maio de 1921."
     },
     {
       "circula": "Roosevelt inaugurou a Hoover Dam, no Boulder Canyon.",
@@ -307,6 +308,14 @@
     {
       "texto": "ABC News, recorde de baixa do lago Mead, 07/08/2026",
       "url": "https://abcnews.com/US/lake-mead-nations-largest-reservoir-reaches-lowest-water/story?id=135455720"
+    },
+    {
+      "texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1933 (NARA)",
+      "url": "https://catalog.archives.gov/id/218518044"
+    },
+    {
+      "texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1934 (NARA)",
+      "url": "https://catalog.archives.gov/id/218518045"
     }
   ],
   "imagens": [

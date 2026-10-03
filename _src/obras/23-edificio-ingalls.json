@@ -7,7 +7,7 @@
   "regiao": "mundo",
   "periodo": "1902–1904",
   "estreia": "2027-03-11",
-  "impossivel": "Erguer 64 metros de escritórios sem nenhuma viga de aço, só com concreto e barras torcidas por dentro, quando nenhum prédio de concreto passava de seis andares e engenheiros respeitados juravam que ele racharia antes de chegar ao telhado.",
+  "impossivel": "Erguer 64 metros de escritórios sem nenhuma viga de aço, só com concreto e barras torcidas por dentro, quando, segundo as fontes, nenhum prédio de concreto passava de seis andares e engenheiros respeitados juravam que ele nunca chegaria ao telhado.",
   "resumo": "Como Cincinnati ergueu, de 1902 a 1904, o primeiro arranha-céu de concreto armado do mundo, sob a desconfiança de engenheiros, e o que restou da prova.",
   "abertura": [
     "Em 1902, na esquina das ruas Fourth e Vine, no centro de Cincinnati, em Ohio, nos Estados Unidos, começou a subir um prédio de escritórios de 64 metros. Até então, segundo as fontes que registram a história da obra, nenhum edifício de concreto no mundo tinha passado de seis andares. Este teria dezesseis, contando o ático, e nenhuma viga de aço.",
@@ -41,7 +41,7 @@
     },
     {
       "valor": "6 andares",
-      "rotulo": "o prédio de concreto mais alto que existia antes dele",
+      "rotulo": "a altura do prédio de concreto mais alto antes dele, segundo as fontes, que não dizem qual era",
       "conf": "2+"
     }
   ],
@@ -121,7 +121,7 @@
     },
     {
       "item": "Hoje",
-      "valor": "Depois de anos vazio, foi vendido em 2013 e convertido em hotel: o Courtyard by Marriott Cincinnati Downtown, da SREE Hotels, aberto em julho de 2021. A academia fica dentro do antigo cofre do banco.",
+      "valor": "Vendido em 2013, depois de anos de abandono foi convertido em hotel: o Courtyard by Marriott Cincinnati Downtown, da SREE Hotels, aberto em julho de 2021. A academia fica dentro do antigo cofre do banco.",
       "conf": "2+"
     }
   ],
@@ -151,7 +151,7 @@
     {
       "titulo": "Três jogos de fôrmas",
       "paragrafos": [
-        "A obra começou no outono de 1902. Para a fundação, a construtora W. H. Ellis & Co. abriu uma cava de 7,6 metros e, segundo a Biblioteca Pública de Cincinnati, encontrou sob o porão antigo sete poços, abóbadas e cisternas do começo do século XIX. O concreto era misturado ali mesmo, em betoneiras a motor. Quantos homens trabalharam, e se algum se feriu, nenhuma fonte consultada registra.",
+        "A obra começou no outono de 1902. Para a fundação, abriu-se uma cava de 7,6 metros e, segundo a Biblioteca Pública de Cincinnati, os operários encontraram sob o porão antigo sete poços, abóbadas e cisternas do começo do século XIX. O concreto era misturado ali mesmo, em betoneiras a motor. Quantos homens trabalharam, e se algum se feriu, nenhuma fonte consultada registra.",
         "O Skyscraper Museum, de Nova York, conta que a obra usou três jogos de fôrmas de madeira, desmontados e remontados de baixo para cima, e que se conseguia concretar uma laje a cada doze dias. Era mais lento que o aço: segundo o museu, um esqueleto de aço subia, em geral, mais de duas vezes mais rápido. Elzner rebateu que o primeiro arranha-céu de concreto tinha levado “só alguns meses a mais” que o prédio de aço mais recente da época."
       ]
     },
@@ -167,7 +167,7 @@
       "titulo": "De escritório a hotel",
       "paragrafos": [
         "O prédio deu certo, e o concreto entrou nos edifícios altos dos Estados Unidos, devagar: segundo o professor Mir M. Ali, da Universidade de Illinois, até por volta de 1960 raramente um prédio de concreto passou de vinte andares. Em 1973 ou 1974, conforme a fonte, a American Society of Civil Engineers declarou o Edifício Ingalls marco histórico nacional da engenharia civil; em 1975, ele entrou no National Register of Historic Places.",
-        "No século XXI, o prédio esvaziou. Foi vendido em 2013 e, depois de cerca de sete anos vazio, segundo a emissora WCPO, de Cincinnati, ganhou um projeto de hotel. Em julho de 2021 abriu como Courtyard by Marriott Cincinnati Downtown, da SREE Hotels, com reforma da HGC Construction. A porta blindada do antigo cofre continua lá. A sala que em 1904 servia de prova de que uma laje de concreto aguentava cem toneladas hoje é a academia do hotel."
+        "No século XXI, o prédio esvaziou. Foi vendido em 2013 e, quando o projeto de hotel foi anunciado, estava vazio havia cerca de sete anos, segundo a emissora WCPO, de Cincinnati. Em julho de 2021 abriu como Courtyard by Marriott Cincinnati Downtown, da SREE Hotels, com reforma da HGC Construction. A porta blindada do antigo cofre continua lá. A sala que em 1904 servia de prova de que uma laje de concreto aguentava quase cem toneladas hoje é a academia do hotel."
       ]
     }
   ],

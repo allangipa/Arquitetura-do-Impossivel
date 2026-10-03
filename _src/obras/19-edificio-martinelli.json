@@ -8,10 +8,10 @@
   "periodo": "1924–1934",
   "estreia": "2027-02-11",
   "impossivel": "Levantar 30 andares de concreto armado numa cidade onde quase nenhum prédio passava de cinco, enquanto a Prefeitura embargava a obra, a imprensa falava em desabamento e o público mudava de calçada para não passar embaixo.",
-  "resumo": "Como um imigrante italiano subiu o Martinelli de 12 ou 14 para 30 andares, enfrentou embargo e desconfiança, morou no topo e perdeu o prédio na crise de 1929.",
+  "resumo": "Como um imigrante italiano subiu o Martinelli de 12 ou 14 para 30 andares, enfrentou embargo e desconfiança, morou no topo e perdeu o prédio para as dívidas.",
   "abertura": [
     "Em 1924, quando Giuseppe Martinelli começou a obra no triângulo entre a Rua São Bento, a Avenida São João e a Rua Líbero Badaró, no centro de São Paulo, quase nenhum prédio da cidade passava de cinco andares. O dele foi projetado para 12 ou 14, conforme a fonte. Chegou a 30.",
-    "No caminho, a Prefeitura embargou a obra, a briga foi parar na Justiça, os jornais falaram em risco de desabamento e uma comissão técnica teve de dizer se aquilo ficava de pé. O dono respondeu construindo a própria casa, de cinco andares, no alto do prédio, e se mudando para lá com a família em 1929."
+    "No caminho, a Prefeitura embargou a obra, a briga foi parar na Justiça, os jornais falaram em risco de desabamento e uma comissão técnica teve de dizer se aquilo ficava de pé. No alto, o dono construiu a própria casa, de cinco andares, e se mudou para lá com a família em 1929."
   ],
   "numeros": [
     {
@@ -31,8 +31,8 @@
     },
     {
       "valor": "1924–1934",
-      "rotulo": "da primeira obra à conclusão; o prédio abriu, ainda inacabado, em 1929",
-      "conf": "2+"
+      "rotulo": "da primeira obra à conclusão, segundo a maioria das fontes; o prédio abriu, ainda inacabado, em 1929",
+      "conf": "DIV"
     },
     {
       "valor": "103",
@@ -125,7 +125,7 @@
     },
     {
       "item": "Hoje",
-      "valor": "Os quatro últimos andares e o terraço do 26º foram concedidos em 2023, por 15 anos, ao Grupo Tokyo, para um mirante com museu, bares e restaurante. Em julho de 2026 o terraço voltou a receber visitas guiadas gratuitas às terças, durante as obras, que continuavam.",
+      "valor": "Os andares 25 a 28, com o terraço do 26º, foram concedidos em 2023, por 15 anos, ao Grupo Tokyo, para um mirante com museu, bares e restaurante. Em julho de 2026 o terraço voltou a receber visitas guiadas gratuitas às terças, durante as obras, que continuavam.",
       "conf": "2+"
     }
   ],
@@ -134,8 +134,8 @@
       "titulo": "Uma cidade de cinco andares",
       "paragrafos": [
         "Na São Paulo do começo dos anos 1920, a cidade crescia com o dinheiro do café, mas crescia para os lados. Eram raros os prédios com mais de cinco andares. O mais alto, o Sampaio Moreira, inaugurado em 1924 na Rua Líbero Badaró, tinha uns 12. Foi na mesma região, no triângulo formado pela Rua São Bento, pela Avenida São João e pela própria Líbero Badaró, que Giuseppe Martinelli decidiu erguer o seu prédio.",
-        "Martinelli nasceu em 1870 na região de Lucca, na Itália, numa família de pedreiros, e chegou ao Brasil no fim do século XIX. Começou como açougueiro e mascate, montou uma casa de despachos em Santos e, durante a Primeira Guerra, quando faltavam navios, formou uma frota própria. Nos anos 1920 era um dos homens mais ricos do país e queria deixar uma marca que não fosse só uma empresa: o prédio mais alto da América do Sul.",
-        "O projeto foi encomendado ao arquiteto húngaro William Fillinger, formado em Viena. A fachada coube aos irmãos Lacombe. O material veio quase todo de fora: cimento da Suécia e da Noruega, trazido pela própria importadora de Martinelli, mármore de Carrara, portas de pinho-de-riga, elevadores suíços."
+        "Martinelli nasceu em 1870 na região de Lucca, na Itália, numa família de pedreiros, e chegou ao Brasil no fim do século XIX. Começou como açougueiro e mascate, montou uma casa de despachos em Santos e, e fez fortuna com a atividade portuária durante a Primeira Guerra. Nos anos 1920, queria deixar uma marca que não fosse só uma empresa: o prédio mais alto da América do Sul.",
+        "O projeto foi encomendado ao arquiteto húngaro William Fillinger, formado em Viena. A fachada coube aos irmãos Lacombe. O material veio quase todo de fora: cimento da Suécia e da Noruega, trazido pela própria importadora de Martinelli, mármore de Carrara, pinho-de-riga, elevadores suíços."
       ]
     },
     {
@@ -150,37 +150,37 @@
       "titulo": "O embargo de 1928",
       "paragrafos": [
         "Quando a estrutura chegava aos 24 andares, em 1928, a Prefeitura embargou a obra. A acusação, segundo o condomínio, era de falta de licença e de desrespeito às leis municipais; segundo a Itaú Cultural e a Biblioteca Nacional, havia denúncias de que o prédio podia ruir. Um artigo do Instituto São Paulo Antiga acrescenta que arquitetos afastados da obra foram aos jornais dizer que as fundações tinham sido feitas para 14 andares, e não para 24.",
-        "A cidade acreditou no pior. Registros da época contam que pedestres mudavam de calçada para não passar embaixo da construção. O caso foi parar na Justiça e virou assunto político, usado pela oposição contra Martinelli e contra a Prefeitura. Os jornais do Rio de Janeiro e de São Paulo acompanharam a disputa entre maio e outubro de 1928.",
+        "A cidade acreditou no pior. Registros da época contam que pedestres mudavam de calçada para não passar embaixo da construção. O caso foi parar na Justiça e virou assunto político, usado pela oposição contra Martinelli e contra a Prefeitura. Até jornais do Rio de Janeiro acompanharam a disputa, entre maio e outubro de 1928.",
         "A saída, segundo o condomínio do prédio, foi uma comissão técnica, que examinou a obra, atestou que ela era segura e autorizou até 25 andares. Quem eram os membros dessa comissão e o que dizia o laudo não aparece nas fontes consultadas. Em abril de 1929, o jornal O Paiz já contava 25 andares construídos."
       ]
     },
     {
       "titulo": "A casa no último andar",
       "paragrafos": [
-        "Martinelli não parou nos 25. Nos cinco andares de cima construiu um palacete para a própria família, que ficou conhecido como Casa do Comendador. Mudou-se para lá em 1929. O primeiro morador do prédio, porém, tinha sido outro italiano, o professor de dança Arturo Patrizi, instalado no quarto andar desde 1928, com a obra ainda em andamento.",
+        "Martinelli não parou nos 25. Nos cinco andares de cima construiu um palacete para a própria família, que ficou conhecido como Casa do Comendador. Segundo a Biblioteca Nacional e a Prefeitura, mudou-se para lá em 1929. O primeiro morador do prédio, porém, tinha sido o professor de dança Arturo Patrizi, instalado no quarto andar desde 1928, com a obra ainda em andamento.",
         "A explicação mais repetida é que Martinelli foi morar no topo para provar que o prédio não cairia. Ela aparece na Itaú Cultural, na Prefeitura e em quase todo texto sobre o edifício, mas nenhuma das fontes consultadas traz uma frase dele dizendo isso. O condomínio do prédio conta outra versão: a casa de cinco andares foi a forma de passar do limite de 25 andares fixado pela comissão e chegar aos 30, como Gustave Eiffel, que tinha um apartamento no alto da sua torre.",
-        "Em 1929 o Martinelli abriu as portas, ainda inacabado. O Cine Rosário, o cinema de luxo do térreo, foi inaugurado em 02/09/1929, e a revista O Cruzeiro o chamou de a maior obra de cimento armado do mundo, título que o Edifício A Noite, no Rio de Janeiro, disputava ao mesmo tempo. A altura publicada era de 105,65 metros. Em 24/11/1929, um curto-circuito no 26º andar, onde ficavam os motores dos elevadores e ainda havia muita madeira de obra, provocou um incêndio que as mangueiras dos bombeiros não alcançavam. O fogo foi combatido com baldes passados de mão em mão e não deixou mortos."
+        "Em 1929 o Martinelli abriu as portas, ainda inacabado. O Cine Rosário, o cinema do prédio, foi inaugurado em 02/09/1929, e a revista O Cruzeiro o chamou de a maior obra de cimento armado do mundo, título que o Edifício A Noite, no Rio de Janeiro, disputava ao mesmo tempo. A altura publicada era de 105,65 metros. Em 24/11/1929, um curto-circuito no 26º andar, onde ficavam os motores dos elevadores e ainda havia muita madeira de obra, provocou um incêndio que as mangueiras dos bombeiros não alcançavam. O fogo foi combatido com baldes passados de mão em mão e não deixou mortos."
       ]
     },
     {
       "titulo": "A crise, a guerra e o leilão",
       "paragrafos": [
         "O ano da inauguração foi também o da quebra da Bolsa de Nova York. A crise atingiu a empresa de navegação de Martinelli, e os apartamentos e salas não foram vendidos como ele esperava. Com as dívidas da obra, ele vendeu o prédio, em 1933 ou 1934, conforme a fonte, ao Istituto Nazionale di Credito per il Lavoro Italiano all'Estero, uma instituição do governo italiano. A obra foi dada como concluída em 1934.",
-        "Nos anos seguintes o Martinelli foi o endereço da alta sociedade paulistana, com o Hotel São Bento, salões de baile, partidos políticos e clubes de futebol. Em 1943, quando o Brasil entrou na guerra contra o Eixo, a União confiscou os bens italianos, e o prédio, rebatizado Edifício América, foi leiloado em 1944. Pouco depois, já tinha 103 donos."
+        "Nos anos seguintes, o prédio abrigou também sedes de agremiações políticas, como o Club Republicano Paulista. Em 1943, com o Brasil em guerra contra o Eixo desde o ano anterior, a União confiscou os bens italianos, e o prédio, rebatizado Edifício América, foi leiloado em 1944. Pouco depois, já tinha 103 donos."
       ]
     },
     {
       "titulo": "Do cortiço à reforma",
       "paragrafos": [
-        "Sem administração que desse conta de tantos proprietários, o edifício virou um cortiço vertical a partir dos anos 1950. Elevadores pararam, o lixo se acumulou nos poços, e o prédio passou das colunas sociais para as páginas policiais, com crimes que nunca foram esclarecidos.",
-        "Em 1975, o prefeito Olavo Setúbal desapropriou o Martinelli e retirou os moradores. A reforma trocou as instalações elétricas e hidráulicas, instalou elevadores novos e um sistema contra incêndio e limpou a fachada; as pinturas internas originais se perderam. O prédio foi reinaugurado em 04/05/1979 como sede de secretarias municipais, uso que mantém. A partir dos anos 1980, a volumetria e as fachadas foram tombadas pelo Conpresp e pelo Condephaat."
+        "Dividido entre mais de cem donos, o edifício virou um cortiço vertical a partir dos anos 1950 ou 1960, conforme a fonte. Elevadores pararam, o lixo se acumulou nos poços, e o prédio passou das colunas sociais para as páginas policiais, com crimes que nunca foram esclarecidos.",
+        "Em 1975, o prefeito Olavo Setúbal desapropriou o Martinelli e retirou os moradores. A reforma trocou as instalações elétricas e hidráulicas, instalou elevadores novos e um sistema contra incêndio e limpou a fachada; as pinturas internas originais se perderam. O prédio foi reinaugurado em 04/05/1979 como sede de secretarias municipais, uso que mantém. Segundo a SP Urbanismo, a volumetria e as fachadas foram tombadas a partir dos anos 1980 pelo Conpresp e pelo Condephaat."
       ]
     },
     {
-      "titulo": "O topo, cem anos depois",
+      "titulo": "O topo que a Prefeitura quis barrar",
       "paragrafos": [
         "A cobertura foi restaurada a partir de 2008 e o terraço do 26º andar ficou aberto a visitas de 2010 ao começo de 2017. Em 2023, a Prefeitura concedeu os andares 25 a 28, o terraço, uma loja do térreo e o subsolo ao Grupo Tokyo, por 15 anos, para um mirante com museu, bares e restaurante. Em 2024, ano do centenário do início da obra, o prédio recebeu mais de 100 mil visitantes, segundo a concessionária.",
-        "Em julho de 2026, as visitas guiadas gratuitas ao terraço voltaram, às terças-feiras, durante as obras de modernização, que continuavam. Quase cem anos depois do embargo, o topo que a Prefeitura tentou barrar é o lugar para onde a Prefeitura leva os turistas."
+        "Em julho de 2026, as visitas guiadas gratuitas ao terraço voltaram, às terças-feiras, durante as obras de modernização, que continuavam. Desde 2010, o topo que a Prefeitura tentou barrar em 1928 é o lugar para onde a Prefeitura leva os turistas."
       ]
     }
   ],
@@ -191,7 +191,7 @@
     },
     {
       "circula": "O Martinelli foi o primeiro arranha-céu do Brasil.",
-      "registro": "Depende do que se chama de arranha-céu. Antes dele, São Paulo já tinha o Sampaio Moreira, de 1924, e o Edifício A Noite, no Rio de Janeiro, foi erguido ao mesmo tempo, entre 1928 e 1929. O Martinelli foi o prédio que levou São Paulo para o alto e o mais alto do país por mais de uma década."
+      "registro": "Depende do que se chama de arranha-céu. Antes dele, São Paulo já tinha o Sampaio Moreira, de 1924, e o Edifício A Noite, no Rio de Janeiro, foi erguido ao mesmo tempo, entre 1928 e 1929. O Martinelli foi o prédio que levou São Paulo para o alto, e o mais alto da cidade até a chegada do Edifício Altino Arantes, nos anos 1940."
     },
     {
       "circula": "O prédio abriu em 1929 com só 12 andares.",

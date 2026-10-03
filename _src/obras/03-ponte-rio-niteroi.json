@@ -7,8 +7,8 @@
   "regiao": "brasil",
   "periodo": "1969–1974",
   "estreia": "2026-10-22",
-  "impossivel": "Atravessar mais de 13 km de baía com a rocha firme a 50 metros abaixo do mar, um vão alto o bastante para os petroleiros e baixo o bastante para os aviões, com prazo político no auge da ditadura.",
-  "resumo": "Mais de 13 km sobre a baía de Guanabara, um vão de aço espremido entre navios e aviões, e uma conta de mortos que nunca fechou.",
+  "impossivel": "Atravessar a baía com mais de 13 km de ponte, quase 9 deles sobre a água, com a rocha firme a 50 metros abaixo do mar, um vão alto o bastante para os petroleiros e baixo o bastante para os aviões, com prazo político no auge da ditadura.",
+  "resumo": "Mais de 13 km de ponte cruzando a baía de Guanabara, um vão de aço espremido entre navios e aviões, e uma conta de mortos que nunca fechou.",
   "abertura": [
     "Em 24 de março de 1970, segundo O Globo, um estrado de teste carregado com mais de 2.000 toneladas de água desabou na baía de Guanabara, no Rio de Janeiro, Brasil. A Ponte Rio–Niterói ainda não existia. O teste servia para provar que ela ia ficar de pé, e matou oito homens.",
     "A obra que saiu dali tem mais de 13 quilômetros, um vão de aço de 300 metros a 72 metros de altura e fundações apoiadas numa rocha a 50 metros abaixo do mar. Foi medida, calculada e contada em cada tubulão e cada aduela. Só uma conta nunca fechou: quantos homens morreram para erguê-la."
@@ -58,7 +58,7 @@
     },
     {
       "item": "Por quê",
-      "valor": "Antes dela, a travessia de carro era a barca, de até 2 horas, ou cerca de 100 km de volta pela baía",
+      "valor": "Antes dela, a travessia de carro era a barca, de até 2 horas",
       "conf": "2+"
     },
     {
@@ -128,7 +128,7 @@
     },
     {
       "item": "Depois",
-      "valor": "Administrada pelo DNER até 1995, depois concedida; hoje Ecovias Ponte, com contrato até 2045/2046. Pedágio de R$ 6,60 desde 18/03/2026",
+      "valor": "Administrada pelo DNER até 1995, depois concedida; concessionária Ecovias Ponte (nome em 2026), com contrato até 2045/2046. Pedágio de R$ 6,60 a partir de 18/03/2026",
       "conf": "2+"
     }
   ],
@@ -160,7 +160,7 @@
     {
       "titulo": "O governo toma a obra",
       "paragrafos": [
-        "O primeiro consórcio, contratado em dezembro de 1968, estava atrasado muito antes do acidente. Em janeiro de 1971, o governo admitiu que só 20% da ponte estavam feitos; segundo a revista do Ibracon, o consórcio já havia consumido 70% do preço. Em 26 de janeiro de 1971, o Decreto 68.110 declarou de utilidade pública os bens do próprio Consórcio Construtor Rio-Niterói, para desapropriação urgente.",
+        "O primeiro consórcio tinha sido contratado em dezembro de 1968. Em janeiro de 1971, o governo admitiu que só 20% da ponte estavam feitos; segundo a revista do Ibracon, o consórcio já havia consumido 70% do preço. Em 26 de janeiro de 1971, o Decreto 68.110 declarou de utilidade pública os bens do próprio Consórcio Construtor Rio-Niterói, para desapropriação urgente.",
         "A obra passou a uma empresa pública criada para isso, a ECEX, dirigida pelo coronel João Carlos Guedes, e a um novo grupo, o Consórcio Construtor Guanabara. O MDB tentou abrir uma CPI em 1971 e a maioria da Arena a barrou. Para entregar a ponte antes do fim do governo Médici, segundo o Ibracon, Andreazza e Guedes foram morar no canteiro da Ilha do Fundão, no Rio de Janeiro.",
         "No Fundão funcionava a fábrica do trecho em concreto. O tabuleiro sobre o mar foi feito de aduelas pré-moldadas, segmentos de cerca de 100 toneladas coladas com epóxi e protendidas por cabos de aço. Foram 3.250 aduelas. Segundo o Ibracon, quatro treliças de montagem avançavam 13 metros por dia, contra 3,2 metros se o concreto fosse moldado no lugar."
       ]
@@ -168,7 +168,7 @@
     {
       "titulo": "Os homens sob pressão",
       "paragrafos": [
-        "Trabalharam na ponte cerca de 10 mil operários e 200 engenheiros. O historiador Pedro Campos, da UFRRJ, descreve a maioria como homens jovens, negros e mulatos, muitos migrantes do Nordeste, ganhando de um a dois salários mínimos, sob um regime de disciplina e vigilância particularmente intenso. Segundo O Globo, eram 11 horas por dia em terra e turnos de 24 por 24 horas nas embarcações, com uma guarda de 400 homens e proibição de falar com estranhos. Fotos da época mostram operários de sandália e bermuda, sem capacete.",
+        "Trabalharam na ponte cerca de 10 mil operários e 200 engenheiros. O historiador Pedro Campos, da UFRRJ, descreve a maioria como homens jovens, negros e mulatos, muitos migrantes do Nordeste; os menos qualificados ganhavam de um a dois salários mínimos. Todos trabalhavam sob um regime de disciplina e vigilância particularmente intenso. Segundo O Globo, eram 11 horas por dia em terra e turnos de 24 por 24 horas nas embarcações, com uma guarda de 400 homens e proibição de falar com estranhos. Fotos da época mostram operários de sandália e bermuda, sem capacete.",
         "Os 462 tubulões a ar comprimido cobraram outro preço. Quem desce numa câmara pressurizada e sobe depressa demais forma bolhas de nitrogênio no sangue: dor nas articulações, paralisia e, anos depois, necrose dos ossos do ombro e do quadril. É o antigo mal dos caixões. Que ele atingiu os operários da ponte em massa, as fontes concordam. Quantos, não: os números publicados vão de 1.226 casos a cerca de 2.000 e chegam a 45 mil, e nenhum deles é verificável hoje."
       ]
     },
@@ -184,7 +184,7 @@
       "titulo": "Cada chapa medida",
       "paragrafos": [
         "Meio século depois, a ponte é inspecionada peça por peça. Um relatório entregue à ANTT em março de 2024 mediu as camisas de aço dos tubulões de um dos eixos: numa das chapas, a corrosão já tinha consumido 90,35% da espessura. O mesmo relatório lembra que a camisa foi feita como fôrma, não como estrutura, e que ainda resta muita seção a ser consumida, mas avisa que dali em diante o avanço será bem mais rápido. O responsável técnico é Carlos Henrique Siqueira, o mesmo engenheiro que trabalhou na obra nos anos 1970.",
-        "Desde 2023, a concessionária reforça as aduelas com novos cabos de protensão em 70 eixos, cerca de 700 das 3.250, porque parte dos cabos originais perdeu tensão com o tempo. Em junho de 2026, o vídeo de um caiaqueiro mostrando corrosão no pilar 84 circulou nas redes; a Ecovias Ponte respondeu que se trata de um pilar desativado, sem função estrutural, e monitorado. A explicação técnica é só dela."
+        "Em 2023, a concessionária começou a reforçar as aduelas com novos cabos de protensão em 70 eixos, cerca de 700 das 3.250, porque parte dos cabos originais perdeu tensão com o tempo; em junho de 2025, a obra ainda estava em andamento. Em junho de 2026, o vídeo de um caiaqueiro mostrando corrosão no pilar 84 circulou nas redes; a Ecovias Ponte respondeu que se trata de um pilar desativado, sem função estrutural, e monitorado. A explicação técnica é só dela."
       ]
     }
   ],

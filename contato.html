@@ -77,15 +77,15 @@
     <div>
       <h4>Do mesmo criador</h4>
       <ul>
-        <li><a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a> — arqueologia e mistério</li>
-        <li>Xadrez Bélico — batalhas explicadas como partida</li>
+        <li><a href="https://vestigiooculto.com.br" target="_blank" rel="noopener">Vestígio Oculto</a> — arqueologia e mistério</li>
+        <li><a href="https://xadrezbelico.com.br/" target="_blank" rel="noopener">Xadrez Bélico</a> — batalhas explicadas como partida</li>
       </ul>
     </div>
     <div>
       <h4>Este site</h4>
       <ul>
         <li><a href="sobre.html">Sobre</a> · <a href="contato.html">Contato</a></li>
-        <li>Exibe anúncios do Google AdSense. <a href="privacidade.html">Política de privacidade</a>.</li>
+        <li>Exibe anúncios do Google AdSense. <a href="privacidade.html">Política de privacidade</a>. <a href="#" role="button" data-rever-cookies>Rever escolha de cookies</a>.</li>
         <li>Fotos de terceiros sob domínio público ou Creative Commons, com crédito em cada página.</li>
       </ul>
     </div>
@@ -94,7 +94,7 @@
 </footer>
 <div class="consentimento" id="consentimento" role="dialog" aria-live="polite" aria-label="Aviso de cookies" hidden>
   <div class="casca">
-    <p>Este site usa cookies do Google AdSense para exibir anúncios e medir audiência. Não pedimos cadastro nem e-mail. Detalhes na <a href="privacidade.html">política de privacidade</a>.</p>
+    <p>Este site usa cookies do Google AdSense para exibir e medir anúncios. Não pedimos cadastro nem e-mail. Detalhes na <a href="privacidade.html">política de privacidade</a>.</p>
     <div class="botoes">
       <button type="button" data-consent="recusar">Recusar anúncios</button>
       <button type="button" data-consent="aceitar" class="principal">Entendi</button>
@@ -112,6 +112,15 @@
     s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-'+PUB;
     document.head.appendChild(s);
   }
+  // "Rever escolha de cookies", no rodapé: apaga a escolha salva e recarrega,
+  // e a faixa volta a aparecer.
+  document.querySelectorAll('[data-rever-cookies]').forEach(function(a){
+    a.addEventListener('click',function(ev){
+      ev.preventDefault();
+      try{localStorage.removeItem(CHAVE)}catch(e){}
+      location.reload();
+    });
+  });
   var escolha=ler();
   if(escolha==='aceitar'||(escolha===null&&!BLOQUEIA))carrega();
   var caixa=document.getElementById('consentimento');

@@ -10,8 +10,8 @@
   "impossivel": "Fincar uma torre de aço em mar aberto, na boca de uma baía com correntes de maré e neblina, e pendurar dela o maior vão pênsil do mundo, com cabos fiados fio a fio no próprio local.",
   "resumo": "Como São Francisco ergueu a Golden Gate entre 1933 e 1937: a torre sul no mar aberto, os cabos fiados no local, os 11 mortos e quem de fato fez o cálculo.",
   "abertura": [
-    "A Golden Gate não atravessa um rio. Atravessa a única abertura da baía de São Francisco, na Califórnia, nos Estados Unidos, para o oceano Pacífico: um estreito escavado na rocha, com mais de 100 metros de fundo no ponto mais profundo, maré que entra e sai com força e neblina que chega do mar sem aviso. Foi ali que, em plena Grande Depressão, com um em cada quatro americanos sem emprego, se decidiu pendurar uma estrada de 1.280 metros de vão.",
-    "É a terceira ponte pênsil deste quadro, depois do Brooklyn e da Hercílio Luz, e a mais ousada das três no tamanho. Mas a história dela tem dois problemas que não estão no desenho: uma torre que precisou nascer dentro do mar aberto, protegida por uma banheira de concreto, e um engenheiro que fez a conta da ponte e só teve o nome reconhecido setenta anos depois."
+    "A Golden Gate não atravessa um rio. Atravessa a única abertura da baía de São Francisco, na Califórnia, nos Estados Unidos, para o oceano Pacífico: um estreito escavado na rocha, com mais de 100 metros de fundo no ponto mais profundo, maré que entra e sai com força e neblina que chega do mar sem aviso. Foi ali que, em plena Grande Depressão, com um em cada quatro trabalhadores americanos sem emprego, se decidiu pendurar uma estrada de 1.280 metros de vão.",
+    "É a terceira ponte pênsil desta série, depois do Brooklyn e da Hercílio Luz, e a mais ousada das três no tamanho. Mas a história dela tem dois problemas que não estão no desenho: uma torre que precisou nascer dentro do mar aberto, protegida por uma banheira de concreto, e um engenheiro que fez a conta da ponte e só teve o nome reconhecido setenta anos depois."
   ],
   "numeros": [
     {
@@ -49,7 +49,8 @@
     {
       "item": "Por quê",
       "valor": "Ligar São Francisco ao condado de Marin, ao norte, sem depender das balsas que faziam a travessia desde o século XIX. A ideia ganhou corpo com um estudo de viabilidade iniciado em 1919 pelo engenheiro da cidade, Michael O'Shaughnessy.",
-      "conf": "2+"
+      "conf": "2+",
+      "nota": "o estudo de 1919 vem só dos dados do distrito"
     },
     {
       "item": "Quem quis e pagou",
@@ -75,7 +76,8 @@
     {
       "item": "Quem construiu",
       "valor": "Dez empreiteiras principais. A superestrutura de aço foi da McClintic-Marshall, do grupo Bethlehem Steel; os cabos, da John A. Roebling's Sons Company, de Trenton, Nova Jersey; os pilares das torres, da Pacific Bridge Company.",
-      "conf": "2+"
+      "conf": "2+",
+      "nota": "o número de empreiteiras e o contrato da Pacific Bridge vêm só dos dados do distrito"
     },
     {
       "item": "Prazo",
@@ -119,7 +121,7 @@
     },
     {
       "item": "Hoje",
-      "valor": "Em outubro de 2025 o distrito contratou a fase final do reforço sísmico, com obra iniciada em 2026 nas torres, nos vãos laterais e no pilar da torre sul. Em 2024 foi concluída uma rede de aço sob as calçadas contra o suicídio.",
+      "valor": "Em outubro de 2025 o distrito aprovou o primeiro contrato da fase final do reforço sísmico, que cobre as torres, os vãos laterais e o pilar da torre sul; a montagem dos canteiros começou em maio de 2026. Em 2024 foi concluída uma rede de aço sob as calçadas contra o suicídio.",
       "conf": "2+"
     }
   ],
@@ -127,7 +129,7 @@
     {
       "titulo": "A boca da baía",
       "paragrafos": [
-        "O nome Golden Gate é mais velho que a ponte e que a corrida do ouro: segundo o distrito que administra a obra, foi dado ao estreito pelo explorador John C. Frémont em 1846. É a passagem por onde toda a água da baía de São Francisco entra e sai do Pacífico duas vezes por dia. O levantamento geológico americano mede ali um canal escavado na rocha com até 113 metros de fundo; a neblina de verão cobre a boca da baía com frequência; e o mar aberto bate direto contra as margens.",
+        "O nome Golden Gate é mais velho que a ponte e que a corrida do ouro: segundo o distrito que administra a obra, foi dado ao estreito pelo explorador John C. Frémont em 1846. É a passagem por onde a maré enche e esvazia a baía de São Francisco, com correntes fortes. O levantamento geológico americano mede ali um canal escavado na rocha com até 113 metros de fundo; a neblina de verão cobre a boca da baía com frequência; e o mar aberto bate direto contra as margens.",
         "Por isso a travessia era de balsa, e ponte ali era assunto de visionário. O engenheiro da cidade, Michael O'Shaughnessy, iniciou um estudo em 1919. Em 1921, Joseph B. Strauss, construtor de pontes basculantes, apresentou um desenho: um híbrido de dois braços em balanço com um trecho pênsil no meio, orçado em cerca de 17 milhões de dólares. A imprensa o achou feio. Seriam precisos mais oito anos, uma lei estadual, a criação de um distrito com seis condados e a licença do Departamento de Guerra, dono das duas margens, para Strauss ser nomeado engenheiro-chefe, em 1929."
       ]
     },
@@ -143,7 +145,7 @@
       "titulo": "Uma banheira no mar aberto",
       "paragrafos": [
         "A torre norte assentou em águas rasas, junto à costa de Marin, e em junho de 1934 já estava de pé. A torre sul era outro problema: o lugar dela ficava em mar aberto, a cerca de 335 metros da praia de São Francisco. Para chegar até lá, os construtores fizeram uma passarela de madeira sobre estacas. Em agosto de 1933, um cargueiro que saía da baía em neblina densa entrou por ela e destruiu um trecho; dois meses depois de reparada, segundo o distrito, mais da metade da estrutura desabou num temporal.",
-        "A solução foi cercar o lugar do pilar com uma defensa, um anel oval de concreto lançado debaixo d'água por tubos em formas de madeira, que os operários apelidaram de banheira. Fechado o anel, a água de dentro foi bombeada para fora, cerca de 9,4 milhões de galões pela conta do distrito, e o pilar foi construído a seco, com mergulhadores trabalhando até 110 pés de profundidade. Sobre ele, a torre sul de aço subiu em seis meses e ficou pronta em junho de 1935. A defensa continua lá, protegendo a base da torre contra choque de navio."
+        "A solução foi cercar o lugar do pilar com uma defensa, um anel oval de concreto lançado debaixo d'água por tubos em formas de madeira, que os operários apelidaram de banheira. Fechado o anel, a água de dentro foi bombeada para fora, cerca de 9,4 milhões de galões pela conta do distrito, e o pilar foi construído a seco. Antes disso, mergulhadores haviam trabalhado até 110 pés de profundidade. Sobre ele, a torre sul de aço subiu em seis meses e ficou pronta em junho de 1935. A defensa continua lá, protegendo a base da torre contra choque de navio."
       ]
     },
     {
@@ -170,8 +172,8 @@
     {
       "titulo": "Noventa e três anos depois, de volta à torre sul",
       "paragrafos": [
-        "Em 24/10/2025, o distrito contratou a fase final do reforço sísmico da ponte, com a empreiteira Halmar International, de Nova York, por 863,9 milhões de dólares. A ordem de serviço teve efeito em 05/01/2026, 93 anos depois do dia em que a obra original começou, e o trabalho de campo, com a montagem dos canteiros, começou em maio de 2026. O contrato prevê reforçar as duas torres, as treliças, os vãos laterais e o pilar da torre sul, com conclusão prevista para 2031; a fase inteira vai até 2036.",
-        "Pelo índice de preços ao consumidor americano, os 35 milhões de dólares de 1933 equivalem a cerca de 870 milhões de hoje, quase exatamente o valor desse contrato, que reforça uma ponte já pronta. Enquanto isso, o pedágio subiu 50 centavos em 01/07/2026 e passou a 10,25 dólares no FasTrak, cobrado só no sentido sul. Sob as calçadas, desde 2024, corre outra rede de aço, instalada contra o suicídio, a segunda rede da história desta ponte."
+        "Em 24/10/2025, o distrito aprovou o primeiro contrato da fase final do reforço sísmico da ponte, com a empreiteira Halmar International, de Nova York, por 863,9 milhões de dólares. A ordem de serviço teve efeito em 05/01/2026, 93 anos depois do dia em que a obra original começou, e o trabalho de campo, com a montagem dos canteiros, começou em maio de 2026. O contrato prevê reforçar as duas torres, as treliças, os vãos laterais e o pilar da torre sul, com conclusão prevista para 2031; a fase inteira vai até 2036.",
+        "Corrigidos só pelo índice de preços ao consumidor americano, que mede preço ao consumidor e não custo de obra, os 35 milhões de dólares de 1933 equivalem a cerca de 870 milhões de dólares de 2025: por coincidência, quase o valor desse contrato, que reforça uma ponte já pronta. Enquanto isso, o pedágio subiu 50 centavos em 01/07/2026 e passou a 10,25 dólares no FasTrak, cobrado só no sentido sul. Sob as calçadas, desde 2024, corre outra rede de aço, instalada contra o suicídio, a segunda rede da história desta ponte."
       ]
     }
   ],

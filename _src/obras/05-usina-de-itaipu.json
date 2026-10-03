@@ -54,7 +54,7 @@
     {
       "item": "Tratado",
       "valor": "Tratado de Itaipu, 26/04/1973, Brasília, Brasil, assinado por Mário Gibson Barboza e Raúl Sapena Pastor. Cria uma entidade binacional com capital de US$ 100 milhões em partes iguais (Eletrobras e ANDE) e divide a energia em partes iguais.",
-      "conf": "2+",
+      "conf": "1",
       "nota": "capital e divisão da energia lidos no texto do Tratado"
     },
     {
@@ -83,7 +83,7 @@
       "item": "Operários ao todo",
       "valor": "Mais de 100 mil passaram pela obra; entre 1978 e 1981, até 5 mil eram contratados por mês. Cerca de 70% brasileiros e 30% paraguaios.",
       "conf": "2+",
-      "nota": "a proporção por país vem de uma fonte só"
+      "nota": "a proporção por país e as 5 mil contratações por mês vêm, cada uma, de uma fonte só"
     },
     {
       "item": "Condições",
@@ -98,7 +98,7 @@
     },
     {
       "item": "Acidentes",
-      "valor": "43.530 acidentes de trabalho entre 1978 e 1984, brasileiros e paraguaios, segundo estimativa da Itaipu. Em 17/12/1981, a queda da lança de um guindaste matou 5 operários.",
+      "valor": "43.530 acidentes de trabalho entre 1978 e 1984, brasileiros e paraguaios, segundo estimativa da Itaipu. Em 17/12/1981, um acidente com um guindaste Peiner, durante manutenção da lança, matou 5 operários.",
       "conf": "1"
     },
     {
@@ -126,7 +126,7 @@
     {
       "item": "Avá-Guarani",
       "valor": "Em 1977, um grupo de trabalho da Funai e do Incra reconheceu só 11 famílias, 27 pessoas. Em 2025, acordo homologado no STF prevê 3 mil hectares e R$ 240 milhões da Itaipu; em 29/10/2025, União, Funai, Incra e Itaipu publicaram pedido de desculpas.",
-      "conf": "2+",
+      "conf": "1",
       "nota": "a contagem de 1977 vem do relatório da Comissão Estadual da Verdade do Paraná"
     },
     {
@@ -165,14 +165,14 @@
       "paragrafos": [
         "Não existe um número oficial de mortos para a obra inteira. O que a Itaipu Binacional informou, por escrito, à Agência Pública em 2023 foi uma estimativa: 43.530 acidentes de trabalho entre 1978 e 1984, brasileiros e paraguaios, dos quais 106 fatais. Para 1975 a 1977 e para 1985 a 1991, quando as máquinas continuaram a ser montadas, a empresa não deu número.",
         "Outras contagens existem, todas parciais. A tese da historiadora Ivone Lima, de 2004, chega a 40 mortes entre 1975 e 1979; um boletim interno do consórcio Unicon soma 56 entre 1976 e 1981, só na margem brasileira; o jornalista Tão Gomes Pinto fala em 138. Um ex-técnico de segurança da obra disse à Pública que a equipe dele contou até 800, num levantamento que se perdeu. Uma fonte anônima da Itaipu falou à agência EFE, em 2013, em cerca de mil, somando acidentes e doenças do trabalho.",
-        "Entre os casos com data está o de 17 de dezembro de 1981: a lança de um guindaste se rompeu e matou 5 operários. Pesquisadores registraram também relatos de vítimas levadas ao hospital para que a morte não constasse como ocorrida no canteiro, o que dificultava a indenização."
+        "Entre os casos com data está o de 17 de dezembro de 1981: um acidente com um guindaste Peiner, durante manutenção da lança, matou 5 operários. Pesquisadores registraram também relatos de vítimas levadas ao hospital para que a morte não constasse como ocorrida no canteiro, o que dificultava a indenização."
       ]
     },
     {
       "titulo": "Catorze dias",
       "paragrafos": [
         "Sete Quedas não eram sete saltos. Eram 18 ou 19, conforme a fonte, arrumados em sete grupos, com uma vazão citada de cerca de 13.300 m³ por segundo. O Parque Nacional que as protegia foi extinto em 4 de julho de 1981. Em 17 de janeiro de 1982, uma passarela superlotada sobre um dos saltos desabou e matou 32 turistas.",
-        "A despedida foi pública. Entre 23 e 25 de julho de 1982, entidades ambientalistas reuniram milhares de pessoas no parque, no Quarup Adeus Sete Quedas. Em 9 de setembro, Carlos Drummond de Andrade publicou no Jornal do Brasil a crônica \"Adeus a Sete Quedas\".",
+        "A despedida foi pública. Em julho de 1982, segundo a imprensa paranaense, entidades ambientalistas reuniram milhares de pessoas no parque, no Quarup Adeus Sete Quedas. Em 9 de setembro, Carlos Drummond de Andrade publicou no Jornal do Brasil a crônica \"Adeus a Sete Quedas\".",
         "Em 13 de outubro de 1982, as comportas do canal de desvio foram fechadas. Ajudada por uma cheia, a água encheu o reservatório e, até 27 de outubro, cobriu as quedas. No mesmo dia do fechamento começou a operação Mymba Kuera, \"os animais\" em guarani, que até 10 de janeiro de 1983 resgatou mais de 30 mil bichos: 36 mil, segundo a Itaipu; quase 39 mil, segundo a BBC News Brasil, somando os dois lados."
       ]
     },
@@ -188,8 +188,8 @@
       "titulo": "A usina e a conta que ficou",
       "paragrafos": [
         "A primeira unidade gerou energia em 5 de maio de 1984, e a inauguração oficial, com Figueiredo e Stroessner, foi em 25 de outubro daquele ano. A 18ª unidade entrou em 1991; as duas últimas, em 2006 e 2007. Em 2016, Itaipu produziu 103.098.366 MWh, recorde mundial anual na época, superado pela chinesa Três Gargantas em 2020.",
-        "O custo da construção também tem mais de uma versão: cerca de 12 bilhões de dólares, segundo a Memória da Eletricidade, ou cerca de 14 bilhões, segundo a própria Itaipu. A dívida, quase toda financiada, foi quitada em 28 de fevereiro de 2023, depois de cerca de 63 bilhões de dólares pagos em cinquenta anos, dos quais 27,9 bilhões em juros e encargos.",
-        "Com a dívida paga, o Tratado previa rever as bases financeiras da usina, o chamado Anexo C. Em setembro de 2026, Brasil e Paraguai ainda não tinham chegado a um acordo."
+        "O custo da construção também tem mais de uma versão: cerca de 12 bilhões de dólares, segundo a Memória da Eletricidade, ou cerca de 14 bilhões, segundo a própria Itaipu. A obra foi quase toda financiada, e a dívida foi quitada em 28 de fevereiro de 2023, depois de cerca de 63 bilhões de dólares pagos em cinquenta anos, dos quais 27,9 bilhões em juros e encargos.",
+        "Cinquenta anos depois de o Tratado entrar em vigor, em 2023, ele previa rever as bases financeiras da usina, o chamado Anexo C. Em setembro de 2026, Brasil e Paraguai ainda não tinham chegado a um acordo."
       ]
     }
   ],

@@ -7,11 +7,11 @@
   "regiao": "mundo",
   "periodo": "1938–1940",
   "estreia": "2027-03-18",
-  "impossivel": "Pendurar 853 metros de pista sobre um estreito de ventos fortes com uma viga de apenas 2,4 metros de altura, num tempo em que a engenharia calculava o empurrão do vento, mas não sabia que o vento também podia torcer uma ponte até parti-la.",
+  "impossivel": "Pendurar 853 metros de pista sobre um estreito de ventos fortes com uma viga de apenas 2,4 metros de altura, num tempo em que a engenharia calculava o empurrão do vento, mas não sabia calcular o vento torcendo uma ponte até parti-la.",
   "resumo": "A ponte pênsil que abriu em julho de 1940 e caiu quatro meses depois, num vento de 68 km/h, e por que a explicação por ressonância não se sustenta.",
   "abertura": [
     "Em 1º de julho de 1940, o estado de Washington, nos Estados Unidos, abriu a terceira ponte pênsil de maior vão do mundo, sobre o estreito de Tacoma Narrows, entre a cidade de Tacoma e a península de Kitsap. Era fina e elegante como nenhuma outra. Desde a obra, balançava tanto que os operários a apelidaram de Galloping Gertie, a Gertie Galopante.",
-    "Em 7 de novembro de 1940, quatro meses depois, um vento de cerca de 68 km/h a fez torcer até o tabuleiro se partir e cair no mar. Não morreu ninguém, só um cachorro. O desastre foi filmado, e o filme virou a aula mais vista da história da engenharia: a prova de que uma ponte calculada para resistir ao vento podia ser destruída por ele de um jeito que ninguém tinha previsto."
+    "Em 7 de novembro de 1940, quatro meses depois, um vento de cerca de 68 km/h a fez torcer até o tabuleiro se partir e cair no mar. Na queda, nenhuma pessoa morreu, só um cachorro. O desastre foi filmado, e o filme virou material de aula em escolas de engenharia do mundo inteiro: a prova de que uma ponte calculada para resistir ao vento podia ser destruída por ele de um jeito que os cálculos da época não previam."
   ],
   "numeros": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "valor": "68 km/h",
-      "rotulo": "de vento na manhã da queda; a ponte fora calculada para 193 km/h",
+      "rotulo": "de vento na manhã da queda, forte, mas comum no estreito",
       "conf": "2+"
     },
     {
@@ -138,8 +138,8 @@
       "titulo": "Uma ponte fina demais",
       "paragrafos": [
         "O estreito de Tacoma Narrows é um braço do Puget Sound, no estado de Washington, no noroeste dos Estados Unidos. De um lado fica Tacoma; do outro, a península de Kitsap. Até 1940, a travessia era de balsa. Uma autoridade estadual de pedágio, criada em 1937, ficou encarregada de fazer a ponte, e o dinheiro veio da Public Works Administration, a agência de obras do New Deal.",
-        "O primeiro projeto foi do engenheiro de pontes do estado, Clark Eldridge: uma ponte pênsil com uma treliça de aço de 7,6 m de altura debaixo da pista, para dar rigidez ao tabuleiro. Custaria US$ 11 milhões. A verba federal, segundo o departamento de transportes do estado, veio com a exigência de contratar consultores de fora. O consultor da superestrutura foi Leon Moisseiff, de Nova York, um dos engenheiros de pontes pênseis mais respeitados do país, autor da teoria da deflexão e consultor da Golden Gate, em São Francisco.",
-        "A teoria de Moisseiff dizia que, numa ponte pênsil longa, o próprio peso dos cabos e do tabuleiro absorve boa parte das cargas, e por isso a viga pode ser mais leve e mais flexível. Ele trocou a treliça de 7,6 m por uma viga de chapa de aço de alma cheia, de 2,4 m, alongou o vão para 853 m e baixou a estimativa para cerca de US$ 7 milhões. A relação entre a altura da viga e o vão ficou em 1 para 350, sem precedente na época. A largura, de 11,9 m entre os cabos, era 1/72 do vão. A ponte foi calculada para aguentar o empurrão lateral de um vento de 193 km/h."
+        "O primeiro projeto foi do engenheiro de pontes do estado, Clark Eldridge: uma ponte pênsil com uma treliça de aço de 7,6 m de altura debaixo da pista, para dar rigidez ao tabuleiro. Custaria US$ 11 milhões. A verba federal, segundo o departamento de transportes do estado, veio com a exigência de contratar consultores de fora. O consultor da superestrutura foi Leon Moisseiff, de Nova York, um dos engenheiros de pontes pênseis mais respeitados do país, principal defensor, nos Estados Unidos, da teoria da deflexão, e consultor da Golden Gate, em São Francisco.",
+        "A teoria da deflexão, que Moisseiff aplicava, dizia que, numa ponte pênsil longa, o próprio peso dos cabos e do tabuleiro absorve boa parte das cargas, e por isso a viga pode ser mais leve e mais flexível. Ele trocou a treliça de 7,6 m por uma viga de chapa de aço de alma cheia, de 2,4 m, alongou o vão para 853 m e baixou a estimativa para cerca de US$ 7 milhões. A relação entre a altura da viga e o vão ficou em 1 para 350, sem precedente na época. A largura, de 11,9 m entre os cabos, era 1/72 do vão. Segundo o departamento de transportes do estado, a ponte foi calculada para aguentar o empurrão lateral de um vento de 193 km/h."
       ]
     },
     {
@@ -162,7 +162,7 @@
       "paragrafos": [
         "Na manhã de 7 de novembro de 1940, o vento no estreito passava de 60 km/h e chegou a 68 km/h. Pela cronologia do departamento de transportes do estado, por volta das 10h o tabuleiro deixou de subir e descer e passou a torcer: as duas metades do vão central giravam em sentidos opostos, como se a pista fosse uma fita, com até 8,5 m de diferença de altura entre uma borda e outra e inclinações de até 45 graus. Uma volta completa levava cerca de cinco segundos.",
         "O jornalista Leonard Coatsworth, do Tacoma News Tribune, estava na ponte com o carro e o cão da família, Tubby. Abandonou o carro e saiu rastejando, de quatro a maior parte do tempo, por cerca de 450 m. O professor Farquharson, que filmava a ponte, tentou tirar o cachorro do carro e não conseguiu. Por volta das 11h, um trecho de 183 m do vão central se soltou e caiu de quase 60 m no estreito, levando o carro e Tubby. Nenhuma pessoa morreu.",
-        "Barney Elliott, de uma loja de fotografia de Tacoma, filmou de cima da própria ponte enquanto ela torcia. As imagens correram o mundo; os filmes feitos naquela manhã, inclusive o de Farquharson, são até hoje material de aula em escolas de engenharia."
+        "Barney Elliott, de uma loja de fotografia de Tacoma, filmou a ponte de perto enquanto ela torcia. As imagens correram o mundo; os filmes feitos naquela manhã, inclusive o de Farquharson, são até hoje material de aula em escolas de engenharia."
       ]
     },
     {
@@ -183,8 +183,8 @@
     {
       "titulo": "Oitenta e cinco anos depois",
       "paragrafos": [
-        "A queda completou 85 anos em 7 de novembro de 2025. Agora quem dá trabalho é a ponte que substituiu a Gertie. Em 22 de abril de 2026, o departamento de transportes de Washington fechou duas faixas da ponte de 1950 para um reparo de emergência numa junta de dilatação, as peças que deixam o tabuleiro encolher e esticar com a temperatura.",
-        "Em setembro de 2026, o próprio departamento informou que três das quatro juntas grandes perto das torres chegaram ao fim da vida útil: desde 2024 foram dez reparos de emergência na ponte, oito deles nessas juntas. Uma substituição parcial ficou marcada para outubro de 2026, e a troca completa, para 2027, dentro de um programa de mais de US$ 300 milhões em preservação até 2031. A ponte feita para não balançar, aos 76 anos, precisa de joelhos novos."
+        "A queda completou 85 anos em 7 de novembro de 2025. Em 2026, quem dá trabalho é a ponte que substituiu a Gertie. Em 22 de abril de 2026, o departamento de transportes de Washington fechou duas faixas da ponte de 1950 para um reparo de emergência numa junta de dilatação, as peças que deixam o tabuleiro encolher e esticar com a temperatura.",
+        "Em setembro de 2026, o próprio departamento informou que três das quatro juntas grandes perto das torres chegaram ao fim da vida útil: desde 2024 foram dez reparos de emergência na ponte, oito deles nessas juntas. Uma substituição parcial ficou marcada para outubro de 2026, e a troca completa, para 2027, dentro de um programa de mais de US$ 300 milhões em preservação até 2031. A ponte de 1950, feita para não balançar, precisa de joelhos novos."
       ]
     }
   ],
@@ -228,7 +228,11 @@
       "url": "https://www.wsdot.wa.gov/TNBHistory/aftermath.htm"
     },
     {
-      "texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: The 1940 Narrows Bridge\" e \"Weird facts\"",
+      "texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: The 1940 Narrows Bridge\"",
+      "url": "https://www.wsdot.wa.gov/TNBHistory/stories-1940-bridge.htm"
+    },
+    {
+      "texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Weird facts\"",
       "url": "https://www.wsdot.wa.gov/TNBhistory/weird-facts.htm"
     },
     {
@@ -287,7 +291,7 @@
   "imagens": [
     {
       "arquivo": "24-capa.jpg",
-      "alt": "Fotograma antigo em preto e branco: a pista da ponte inclinada e torcida, com um carro parado e tombado de lado no meio, postes de luz tortos e os pendurais verticais dos dois lados",
+      "alt": "Fotograma antigo em preto e branco: a pista da ponte inclinada e torcida, com um carro parado e inclinado no meio, postes de luz tortos e os pendurais verticais dos dois lados",
       "legenda": "O tabuleiro torcendo na manhã de 7 de novembro de 1940, visto da torre leste, num quadro do filme de 16 mm do professor F. Bert Farquharson, da Universidade de Washington.",
       "autor": "F. B. Farquharson, Universidade de Washington (reprodução: Historic American Engineering Record, Library of Congress)",
       "licenca": "Domínio público",
@@ -309,7 +313,7 @@
     {
       "arquivo": "24-ondas.jpg",
       "alt": "Fotograma antigo em preto e branco: a pista da ponte arqueada como uma onda escura, vista de perto da torre, com o cabo principal descendo em curva e a outra torre ao fundo",
-      "legenda": "A pista em onda no dia da queda, vista de perto da torre leste, em outro quadro do filme de Farquharson.",
+      "legenda": "A pista em onda no dia da queda, vista de perto de uma das torres, em outro quadro do filme de Farquharson.",
       "autor": "F. B. Farquharson, Universidade de Washington (reprodução: Historic American Engineering Record, Library of Congress)",
       "licenca": "Domínio público",
       "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",

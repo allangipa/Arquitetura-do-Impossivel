@@ -48,7 +48,7 @@
   "ficha": [
     {
       "item": "Contexto",
-      "valor": "Ligar Nova York e Brooklyn, então duas cidades separadas pelo East River. Lei estadual de fevereiro de 1867; a New York Bridge Company foi incorporada no mesmo ano.",
+      "valor": "Ligar Nova York e Brooklyn, então duas cidades separadas pelo East River. Projeto de lei aprovado no Senado estadual em fevereiro de 1867; a New York Bridge Company foi incorporada no mesmo ano.",
       "conf": "2+",
       "nota": "Na época, \"New York and Brooklyn Bridge\" ou \"East River Bridge\"."
     },
@@ -140,7 +140,7 @@
     {
       "titulo": "O projetista que não viu a obra começar",
       "paragrafos": [
-        "John A. Roebling chegou aos Estados Unidos em 1831, vindo de Mühlhausen, na Prússia, e passou três décadas pendurando estradas em cabos: Pittsburgh, o rio Delaware, a ponte ferroviária do Niágara, Cincinnati. Em 1867, com a lei estadual aprovada e a New York Bridge Company formada, ele apresentou o plano da travessia do East River. Segundo a nomeação da ponte a marco histórico nacional, de 1975, escreveu que seria \"a maior ponte existente\" e \"a maior obra de engenharia do continente, e da época\".",
+        "John A. Roebling chegou aos Estados Unidos em 1831, vindo de Mühlhausen, na Prússia, e passou mais de duas décadas pendurando pontes em cabos: Pittsburgh, o rio Delaware, a ponte ferroviária do Niágara, Cincinnati. Em 1867, com a lei estadual aprovada e a New York Bridge Company formada, ele apresentou o plano da travessia do East River. Segundo a nomeação da ponte a marco histórico nacional, de 1975, escreveu que seria \"a maior ponte existente\" e \"a maior obra de engenharia do continente, e da época\".",
         "Em 28 de junho de 1869, durante um levantamento no cais da Fulton Ferry, uma balsa bateu no atracadouro onde ele estava e esmagou os dedos do pé direito. Os dedos foram amputados. Ele morreu de tétano em 22 de julho, antes de qualquer escavação.",
         "A obra passou ao filho, Washington A. Roebling, então com 32 anos. Ela começou no início de janeiro de 1870, do lado do Brooklyn. A estimativa do pai era de US$ 7 milhões, sem os terrenos, e cinco anos de trabalho. Levou mais que o dobro do tempo."
       ]
@@ -183,7 +183,7 @@
       "titulo": "A conta dos mortos",
       "paragrafos": [
         "No dia da inauguração, o discurso oficial de W. C. Kingsley disse que \"vinte homens perderam a vida\" no trabalho direto da obra. É o número que McCullough repete, sem contar John A. Roebling; quem soma o pai chega a 21.",
-        "Contagens feitas depois chegam a 27. O número é atribuído ao engenheiro assistente C. C. Martin, em entrevista ao Brooklyn Daily Eagle de 24 de maio de 1883, na qual ele admitiu que não houve lista: se soubessem que tantos se feririam, teriam anotado. Uma lista nominal montada depois a partir de jornais e atestados de óbito também tem 27 nomes, incluindo o projetista. Por ela, a maioria morreu de queda e de acidentes com guindastes; três, do mal dos caixões.",
+        "Outras contagens chegam a 27. O número é atribuído ao engenheiro assistente C. C. Martin, em entrevista ao Brooklyn Daily Eagle do mesmo 24 de maio de 1883, na qual ele admitiu que não houve lista: se soubessem que tantos se feririam, teriam anotado. Uma lista nominal montada depois a partir de jornais e atestados de óbito também tem 27 nomes, incluindo o projetista. Por ela, a maioria morreu de queda e de acidentes com guindastes; três, do mal dos caixões.",
         "Os relatórios oficiais não ajudam a fechar a conta. O relatório do engenheiro-chefe de 1877 diz que trechos perigosos correram sem nenhum acidente, enquanto McCullough, com base no Brooklyn Daily Eagle, registra duas quedas fatais da torre do Brooklyn em 1875. Não existe um total confiável, nem de mortos nem de operários."
       ]
     },
@@ -216,7 +216,7 @@
     },
     {
       "circula": "O número oficial de mortos na obra é 27.",
-      "registro": "O único número dito em cerimônia oficial foi 20, no discurso de W. C. Kingsley em 1883. O 27 vem de uma contagem posterior, atribuída ao engenheiro assistente C. C. Martin, que admitiu que ninguém fez lista."
+      "registro": "O único número dito em cerimônia oficial foi 20, no discurso de W. C. Kingsley em 1883. O 27 vem de outra contagem, atribuída ao engenheiro assistente C. C. Martin no mesmo dia da inauguração, e ele próprio admitiu que ninguém fez lista."
     }
   ],
   "fontes": [
@@ -307,8 +307,8 @@
     },
     {
       "arquivo": "04-torres-em-obra.jpg",
-      "alt": "Torre de pedra da ponte em construção, com arcos góticos e andaimes, e a outra torre ao fundo do outro lado do rio",
-      "legenda": "As torres em obra, numa estereoscopia de época (metade esquerda do cartão).",
+      "alt": "Torre de pedra da ponte já erguida, com arcos góticos e as primeiras cordas dos cabos, e a outra torre ao fundo do outro lado do rio",
+      "legenda": "As torres já erguidas, com as primeiras cordas da fase dos cabos, numa estereoscopia de época (metade esquerda do cartão).",
       "autor": "Autor desconhecido (Robert N. Dennis collection, NYPL)",
       "licenca": "Domínio público",
       "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",

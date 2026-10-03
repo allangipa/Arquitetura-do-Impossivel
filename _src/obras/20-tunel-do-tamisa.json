@@ -8,7 +8,7 @@
   "periodo": "1825–1843",
   "estreia": "2027-02-18",
   "impossivel": "Abrir um corredor de tijolo debaixo de um rio cheio de navios, num leito de lodo e areia encharcada de esgoto, quando a única tentativa anterior no mesmo lugar tinha sido engolida pela água.",
-  "resumo": "Como Marc Brunel cavou o primeiro túnel terminado sob um rio navegável, com uma gaiola de ferro de 36 células, e por que levou 18 anos.",
+  "resumo": "Como Marc Brunel cavou o primeiro túnel que se sabe ter sido terminado sob um rio navegável, com uma gaiola de ferro de 36 células, e por que levou 18 anos.",
   "abertura": [
     "No começo do século XIX, o porto de Londres crescia rio abaixo, e entre as docas das duas margens do Tâmisa não havia ponte: uma ponte baixa fecharia o rio aos navios. A saída era passar por baixo. Entre 1805 e 1808, mineiros da Cornualha tentaram, entre Rotherhithe e Wapping, e a galeria inundou quando faltavam poucas centenas de pés.",
     "O engenheiro Marc Isambard Brunel, francês radicado na Inglaterra, apostou numa invenção sua, patenteada em 1818: uma gaiola de ferro dividida em 36 células, cada uma com um mineiro, que avançava rente à frente da escavação enquanto pedreiros revestiam de tijolo o trecho recém-aberto. A obra começou em 1825 e só foi inaugurada em 25 de março de 1843. No meio, o rio entrou várias vezes, seis homens morreram numa só manhã e o túnel ficou anos emparedado."
@@ -41,7 +41,7 @@
     },
     {
       "valor": "1869",
-      "rotulo": "o ano em que passou o primeiro trem; hoje é parte do London Overground",
+      "rotulo": "o ano em que passou o primeiro trem; desde 2024 é o trecho sob o rio da linha Windrush, do London Overground",
       "conf": "2+"
     }
   ],
@@ -97,7 +97,7 @@
     },
     {
       "item": "Medidas",
-      "valor": "Duas galerias paralelas de tijolo em cimento romano, ligadas por arcos. Comprimento de 1.200 pés (366 m) ou 1.300 pés (396 m), conforme a fonte; seção de 35 × 20 pés ou 38 × 22 pés. Cerca de 23 m abaixo da superfície do rio na maré alta.",
+      "valor": "Duas galerias paralelas de tijolo em cimento romano, ligadas por arcos. Comprimento de 1.200 pés (366 m) ou 1.300 pés (396 m), conforme a fonte; seção de 35 × 20 pés ou 38 × 22 pés. A profundidade costuma ser dada como cerca de 23 m abaixo da superfície do rio na maré alta, número que remonta a uma única origem.",
       "conf": "DIV"
     },
     {
@@ -108,7 +108,7 @@
     {
       "item": "A ferrovia",
       "valor": "Vendido à East London Railway, companhia criada em 1865, por £200.000 segundo a TfL (outra fonte diz £800.000). Primeiro trem em 07/12/1869. Eletrificado em 1913, ligado ao metrô em 1933, no London Overground desde 2010; desde novembro de 2024 é a linha Windrush.",
-      "conf": "2+",
+      "conf": "DIV",
       "nota": "o preço da venda diverge"
     },
     {
@@ -140,16 +140,16 @@
     {
       "titulo": "Debaixo do esgoto de Londres",
       "paragrafos": [
-        "A Thames Tunnel Company, com investidores como o Duque de Wellington, obteve autorização do Parlamento em junho de 1824. Em março de 1825 começou, em Rotherhithe, a margem sul, o poço de entrada: um anel de alvenaria de 50 pés de diâmetro, erguido na superfície e afundado aos poucos à medida que se escavava por dentro. No fim daquele ano o escudo começou a avançar na horizontal, rumo ao norte.",
+        "A Thames Tunnel Company, com investidores como o Duque de Wellington, obteve autorização do Parlamento em junho de 1824. Em março de 1825 começou, em Rotherhithe, a margem sul, o poço de entrada: um cilindro de tijolo de 50 pés de diâmetro, erguido sobre um aro de ferro na superfície e afundado aos poucos à medida que se escavava por dentro. No fim daquele ano o escudo começou a avançar na horizontal, rumo ao norte.",
         "O avanço era de poucos pés por dia, quando havia avanço. A água do rio, que recebia o esgoto de Londres, vazava pela frente da escavação; o ar era fétido, e o metano que saía do lodo pegava fogo nas lamparinas. Operários adoeciam com tontura, dores e infecções. Isambard Kingdom Brunel, o filho de Marc, assumiu na prática a direção do canteiro em 1826 e foi confirmado como engenheiro residente em 1827.",
-        "Em maio de 1827, com 549 pés escavados, o leito cedeu e o rio entrou. Para tapar o buraco, Isambard desceu num sino de mergulho e mandou lançar sacos de argila sobre o leito. O túnel foi esvaziado, e, em novembro daquele ano, ele ofereceu um banquete lá dentro."
+        "Em maio de 1827, com 549 pés escavados, o leito cedeu e o rio entrou. Para tapar o buraco, Isambard desceu num sino de mergulho e mandou lançar sacos de argila sobre o leito. O túnel foi esvaziado, e, em novembro daquele ano, a companhia ofereceu um banquete lá dentro, organizado por ele."
       ]
     },
     {
       "titulo": "A manhã de 12 de janeiro de 1828",
       "paragrafos": [
         "Pouco antes das seis da manhã de 12 de janeiro de 1828, a frente do túnel cedeu de novo. Seis homens morreram: Thomas Ball, J. Long, Thomas Collins, Jeptha Cook, que deixou seis filhos, George Evans e um recém-contratado chamado Lincoln. Isambard, que estava na frente da escavação, foi arrastado pela água até o poço de Rotherhithe, tirado de lá inconsciente e reanimado. Com ferimentos internos graves, passou meses se recuperando, primeiro em Brighton e depois em Clifton, perto de Bristol.",
-        "O dinheiro acabou antes do conserto. Uma nova emissão de ações fracassou, e em agosto de 1828 a frente do túnel foi fechada com uma parede de tijolo. A obra que deveria provar que se podia cavar sob um rio virou, por anos, um corredor emparedado debaixo do Tâmisa."
+        "O dinheiro acabou antes do conserto, e em agosto de 1828 a frente do túnel foi fechada com uma parede de tijolo. A obra que deveria provar que se podia cavar sob um rio virou, por anos, um corredor emparedado debaixo do Tâmisa."
       ]
     },
     {
@@ -308,7 +308,7 @@
     {
       "arquivo": "20-trilhos.jpg",
       "alt": "Interior de um túnel em arco com trilhos de trem que seguem até uma luz forte ao fundo; à esquerda, as colunas e arcos originais de tijolo pintado",
-      "legenda": "A galeria norte em 2007, já como túnel ferroviário, com os arcos originais de Brunel à esquerda.",
+      "legenda": "A galeria dos trens no sentido norte, em 2007, já como túnel ferroviário, com os arcos originais de Brunel à esquerda.",
       "autor": "Steve McSherry",
       "licenca": "CC BY-SA 3.0",
       "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",

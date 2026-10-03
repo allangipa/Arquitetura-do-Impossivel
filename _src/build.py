@@ -173,7 +173,7 @@ def consentimento(base):
         return ""
     return f"""<div class="consentimento" id="consentimento" role="dialog" aria-live="polite" aria-label="Aviso de cookies" hidden>
   <div class="casca">
-    <p>Este site usa cookies do Google AdSense para exibir anúncios e medir audiência. Não pedimos cadastro nem e-mail. Detalhes na <a href="{base}privacidade.html">política de privacidade</a>.</p>
+    <p>Este site usa cookies do Google AdSense para exibir e medir anúncios. Não pedimos cadastro nem e-mail. Detalhes na <a href="{base}privacidade.html">política de privacidade</a>.</p>
     <div class="botoes">
       <button type="button" data-consent="recusar">Recusar anúncios</button>
       <button type="button" data-consent="aceitar" class="principal">Entendi</button>
@@ -191,6 +191,15 @@ def consentimento(base):
     s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-'+PUB;
     document.head.appendChild(s);
   }}
+  // "Rever escolha de cookies", no rodapé: apaga a escolha salva e recarrega,
+  // e a faixa volta a aparecer.
+  document.querySelectorAll('[data-rever-cookies]').forEach(function(a){{
+    a.addEventListener('click',function(ev){{
+      ev.preventDefault();
+      try{{localStorage.removeItem(CHAVE)}}catch(e){{}}
+      location.reload();
+    }});
+  }});
   var escolha=ler();
   if(escolha==='aceitar'||(escolha===null&&!BLOQUEIA))carrega();
   var caixa=document.getElementById('consentimento');
@@ -266,6 +275,7 @@ def topo(base, atual=""):
 
 def rodape(base):
     ano = dt.date.today().year
+    rever = ' <a href="#" role="button" data-rever-cookies>Rever escolha de cookies</a>.' if ADSENSE_LIGADO else ""
     return f"""<footer class="rodape">
   <div class="casca">
     <div>
@@ -276,15 +286,15 @@ def rodape(base):
     <div>
       <h4>Do mesmo criador</h4>
       <ul>
-        <li><a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a> — arqueologia e mistério</li>
-        <li>Xadrez Bélico — batalhas explicadas como partida</li>
+        <li><a href="https://vestigiooculto.com.br" target="_blank" rel="noopener">Vestígio Oculto</a> — arqueologia e mistério</li>
+        <li><a href="https://xadrezbelico.com.br/" target="_blank" rel="noopener">Xadrez Bélico</a> — batalhas explicadas como partida</li>
       </ul>
     </div>
     <div>
       <h4>Este site</h4>
       <ul>
         <li><a href="{base}sobre.html">Sobre</a> · <a href="{base}contato.html">Contato</a></li>
-        <li>Exibe anúncios do Google AdSense. <a href="{base}privacidade.html">Política de privacidade</a>.</li>
+        <li>Exibe anúncios do Google AdSense. <a href="{base}privacidade.html">Política de privacidade</a>.{rever}</li>
         <li>Fotos de terceiros sob domínio público ou Creative Commons, com crédito em cada página.</li>
       </ul>
     </div>
@@ -467,7 +477,7 @@ def home(obras, og):
       <div>
         <span class="rotulo">Prancheta <b>{len(obras) + len(EM_APURACAO):02d}</b> obras</span>
         <h2>As obras</h2>
-        <p>Um episódio do Brasil, um do resto do mundo, alternados. Cada página tem a ficha técnica completa e a história de como a obra ficou de pé.</p>
+        <p>Obras do Brasil e do resto do mundo, uma por semana. Cada página tem a ficha técnica completa e a história de como a obra ficou de pé.</p>
       </div>
       <div class="filtros" role="group" aria-label="Filtrar obras">
         <button type="button" data-f="todas" aria-pressed="true">Todas</button>
@@ -531,7 +541,7 @@ def pagina_obra(o, obras, og):
     fontes = "".join(
         f'<li>{para(f["texto"])}' + (f' — <a href="{e(f["url"])}" rel="noopener">{e(re.sub(r"^https?://(www\.)?", "", f["url"]).split("/")[0])}</a>' if f.get("url") else "") + "</li>"
         for f in o["fontes"])
-    creditos = "".join(f'<li>Fig. {i+1:02d} — {e(im["legenda"])}: {credito(im)}</li>' for i, im in enumerate(o["imagens"]))
+    creditos = "".join(f'<li>Fig. {i+1:02d} — {e(im["legenda"].rstrip("."))}: {credito(im)}</li>' for i, im in enumerate(o["imagens"]))
 
     indice = [("ficha", "Ficha da obra")] + [(sid, t) for sid, t, _ in secoes] + [("mitos", "Mitos e registro"), ("fontes", "Fontes")]
     indice_html = "".join(f'<li><a href="#{a}">{e(t)}</a></li>' for a, t in indice)
@@ -665,10 +675,10 @@ PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
   <h1>Política de privacidade</h1>
   <p class="lead">Um site que cobra fonte dos outros deve ser claro sobre si mesmo. Aqui está o que o {{NOME}} coleta, o que não coleta, quem mais está envolvido e o que você pode exigir.</p>
 
-  <div class="resumo"><strong>O resumo, em três linhas.</strong> Não pedimos cadastro, não temos formulário e não guardamos seu e-mail. O que existe são cookies de publicidade do Google, usados para exibir anúncios. Você pode recusá-los na faixa que aparece na primeira visita, ou desligá-los a qualquer momento nas configurações do Google.</div>
+  <div class="resumo"><strong>O resumo.</strong> Não pedimos cadastro, não temos formulário e não mantemos lista de e-mails: se você nos escrever, o seu e-mail fica só na nossa caixa de entrada, para a resposta. O que existe são cookies de publicidade do Google, usados para exibir anúncios, que carregam desde a primeira página. Se você recusar na faixa, o script de anúncios é retirado e deixa de carregar a partir da página seguinte; o que ele já tiver lido ou gravado na página em que você estava não é desfeito. A escolha pode ser revista a qualquer momento pelo link “Rever escolha de cookies”, no rodapé, e a publicidade personalizada pode ser desligada nas configurações do Google.</div>
 
   <h2>1. Quem é o responsável</h2>
-  <p>O <strong>{{NOME}}</strong> é um projeto editorial independente, publicado em arquiteturadoimpossivel.com.br, {{CANAL_FRASE}}. Para qualquer assunto desta política — inclusive pedidos de exclusão ou de informação —, o contato é o e-mail divulgado no canal.</p>
+  <p>O <strong>{{NOME}}</strong> é um projeto editorial independente, publicado em arquiteturadoimpossivel.com.br, {{CANAL_FRASE}}. Para qualquer assunto desta política — inclusive pedidos de exclusão ou de informação —, o contato é o e-mail informado na página de <a href="contato.html">contato</a>.</p>
 
   <h2>2. O que coletamos, e o que não</h2>
   <p>Não há cadastro, login, comentários, newsletter nem formulário de contato. Nenhuma página pede seu nome, e-mail, telefone ou documento. Não montamos perfil de leitor e não vendemos nem compartilhamos lista de ninguém, porque lista não existe.</p>
@@ -678,7 +688,7 @@ PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
   <p>Este site exibe anúncios por meio do <strong>Google AdSense</strong>. Para isso, o Google e seus parceiros usam cookies — pequenos arquivos gravados no seu navegador — para selecionar e medir os anúncios.</p>
   <ul>
     <li>O Google, como fornecedor terceirizado, utiliza cookies para exibir anúncios neste site.</li>
-    <li>O <strong>cookie DART</strong> permite que o Google veicule anúncios com base nas visitas do usuário a este e a outros sites da internet.</li>
+    <li>Os cookies de publicidade do Google permitem que ele e seus parceiros veiculem anúncios com base nas visitas do usuário a este e a outros sites da internet.</li>
     <li>Parceiros e redes de terceiros também podem usar cookies, identificadores de dispositivo ou tecnologia semelhante para medir e personalizar os anúncios.</li>
     <li>Nenhum desses dados passa por nós: o site não recebe, não armazena e não tem acesso ao que essas redes coletam.</li>
   </ul>
@@ -686,15 +696,15 @@ PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
   <p>Todo navegador também permite bloquear ou apagar cookies. Fazer isso não impede a leitura de nada: o conteúdo deste site não depende de cookie para funcionar.</p>
 
   <h2>4. O que guardamos no seu navegador</h2>
-  <p>Uma única coisa, e ela não sai do seu aparelho: quando você responde à faixa de cookies, a escolha fica registrada no armazenamento local do navegador, sob a chave <code>{{CHAVE}}</code>. Serve só para não perguntar de novo a cada página. Não é cookie, não é enviada a servidor nenhum e some quando você limpa os dados do site.</p>
+  <p>Uma única coisa, e ela não sai do seu aparelho: quando você responde à faixa de cookies, a escolha fica registrada no armazenamento local do navegador, sob a chave <code>{{CHAVE}}</code>. Serve só para não perguntar de novo a cada página. Não é cookie, não é enviada a servidor nenhum e some quando você limpa os dados do site ou clica em “Rever escolha de cookies”, no rodapé de qualquer página: a escolha salva é apagada e a faixa volta a aparecer.</p>
 
   <h2>5. Conteúdo de terceiros</h2>
-  <p>Um único serviço externo participa da exibição destas páginas: o <strong>Google AdSense</strong>, que entrega os anúncios. Se você recusar na faixa, o script de anúncios é retirado e deixa de ser carregado nas próximas páginas.</p>
+  <p>Um único serviço externo participa da exibição destas páginas: o <strong>Google AdSense</strong>, que entrega os anúncios. O script de anúncios carrega desde a primeira página, antes de qualquer resposta. Se você recusar na faixa, ele é retirado e deixa de ser carregado a partir da página seguinte; o que ele já tiver exibido, lido ou gravado na página em que você estava não é desfeito, e cookies que o Google já tenha gravado ficam no navegador até você apagá-los.</p>
   <p>O <strong>YouTube</strong> só entra em cena se você clicar num link para o canal: nenhum vídeo é incorporado nestas páginas. Todo o resto — as imagens das fichas de obra e as fontes tipográficas — vem deste mesmo domínio.</p>
 
   <h2>6. Seus direitos sob a LGPD</h2>
   <p>A Lei nº 13.709/2018 garante a você o direito de confirmar se há tratamento de dados seus, de acessá-los, de corrigi-los, de pedir anonimização ou eliminação, de solicitar portabilidade, de saber com quem foram compartilhados e de revogar consentimento a qualquer momento.</p>
-  <p>Aqui o exercício desses direitos é curto, porque a base de dados que poderíamos entregar é praticamente vazia. Ainda assim, qualquer pedido feito pelo contato do canal será respondido. Para os dados que o Google coleta através dos anúncios, o pedido precisa ser feito ao próprio Google — nós exibimos o espaço, mas é ele quem trata esses dados.</p>
+  <p>Aqui o exercício desses direitos é curto, porque a base de dados que poderíamos entregar é praticamente vazia. Ainda assim, qualquer pedido feito pela página de <a href="contato.html">contato</a> será respondido. Para revogar a escolha feita na faixa de cookies, use o link “Rever escolha de cookies”, no rodapé de qualquer página. Para os dados que o Google coleta através dos anúncios, o pedido precisa ser feito ao próprio Google — nós exibimos o espaço, mas é ele quem trata esses dados.</p>
 
   <h2>7. Crianças e adolescentes</h2>
   <p>O conteúdo deste site não se dirige a menores de 13 anos, e não coletamos conscientemente dados de crianças. Se você é responsável por uma criança e acredita que algum dado dela chegou até aqui, entre em contato para que seja eliminado.</p>
@@ -732,8 +742,8 @@ def pagina_sobre():
   <h1>Sobre o {NOME}</h1>
 
   <h2>1. O que é</h2>
-  <p>O <strong>Arquitetura do Impossível</strong> é um projeto editorial independente, feito no Brasil, sobre grandes construções: como uma obra que parecia impossível ficou de pé. Cada página deste site acompanha um episódio do canal no YouTube, {canal}, e vai além dele: traz a ficha técnica completa, as fontes, as imagens com crédito e as divergências que não cabem num vídeo.</p>
-  <p>A pergunta é sempre a mesma: <em>o que tornava esta obra impossível, e quem resolveu</em> — com que conta, com que material, com que improviso. O protagonista é o problema de engenharia; as pessoas entram como quem o enfrentou. Um episódio do Brasil, um do resto do mundo, alternados.</p>
+  <p>O <strong>Arquitetura do Impossível</strong> é um projeto editorial independente, feito no Brasil, sobre grandes construções: como uma obra que parecia impossível ficou de pé. Cada página deste site acompanha um episódio do canal no YouTube, {canal}, e é publicada antes da estreia, quando o episódio ainda está para sair. Vai além do vídeo: traz a ficha técnica completa, as fontes, as imagens com crédito e as divergências que não cabem num vídeo.</p>
+  <p>A pergunta é sempre a mesma: <em>o que tornava esta obra impossível, e quem resolveu</em> — com que conta, com que material, com que improviso. O protagonista é o problema de engenharia; as pessoas entram como quem o enfrentou. Obras do Brasil e do resto do mundo, uma por semana.</p>
 
   <h2>2. Como uma página é feita</h2>
   <ul>

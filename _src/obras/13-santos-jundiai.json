@@ -11,7 +11,7 @@
   "resumo": "Como a São Paulo Railway venceu a Serra do Mar em 1867 com quatro rampas, cabo de aço e máquinas a vapor, e por que a ideia voltou à mesa em 2026.",
   "abertura": [
     "Em meados do século XIX, o café do interior de São Paulo descia ao porto de Santos, no litoral paulista, em lombo de mula. No caminho havia a Serra do Mar, uma escarpa que sobe quase de uma vez a perto de 800 metros, coberta de Mata Atlântica. Uma companhia inglesa, a São Paulo Railway, recebeu a missão de pôr uma ferrovia ali com um capital fixado em 2 milhões de libras, sem garantia para um centavo a mais.",
-    "Uma linha comum de locomotiva teria de serpentear por mais de 40 quilômetros só para vencer a serra. A solução foi outra: cortar a encosta em quatro rampas retas de cerca de 10% e içar os trens por cabo de aço, com máquinas a vapor fixas no alto de cada rampa, um trem subindo enquanto outro descia na outra ponta do mesmo cabo. A linha abriu em 16 de fevereiro de 1867, dez meses antes do prazo."
+    "Uma linha comum de locomotiva teria de serpentear por mais de 40 quilômetros só para vencer a serra. A solução foi outra: cortar a encosta em quatro rampas de cerca de 10% e içar os trens por cabo de aço, com máquinas a vapor fixas no alto de cada rampa, um trem subindo enquanto outro descia na outra ponta do mesmo cabo. A linha abriu em 16 de fevereiro de 1867, dez meses antes do prazo."
   ],
   "numeros": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "valor": "4 planos",
-      "rotulo": "inclinados de cerca de 10%, somando uns 8 km, com uma máquina a vapor fixa no alto de cada um",
+      "rotulo": "inclinados de cerca de 10%, somando uns 8 km, com uma casa de máquinas a vapor no alto de cada um",
       "conf": "2+"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "item": "Quem quis",
-      "valor": "O Barão de Mauá, o Marquês de Monte Alegre e o conselheiro José Antônio Pimenta Bueno, que receberam a concessão do Império em abril de 1856, com juros de 7% garantidos por 90 anos sobre um capital máximo de £ 2 milhões. A companhia foi formada em Londres em dezembro de 1859.",
+      "valor": "O Barão de Mauá, o Marquês de Monte Alegre e o conselheiro José Antônio Pimenta Bueno, que receberam a concessão do Império em abril de 1856, com juros de 7% garantidos sobre um capital máximo de £ 2 milhões; um decreto de outubro de 1859 estendeu a garantia a 90 anos. A companhia foi formada em Londres em dezembro de 1859.",
       "conf": "2+",
       "nota": "o dia do decreto aparece como 20 ou 26 de abril, conforme a fonte"
     },
@@ -70,7 +70,7 @@
     },
     {
       "item": "O sistema da serra",
-      "valor": "Quatro planos de rampa 1 em 9,75, perto de 10%, com uma máquina a vapor fixa no alto de cada um. No chamado sistema tail-end, um trem subia preso a uma ponta do cabo enquanto outro descia na outra. Cada viagem levava, em 1869, até 40 toneladas, em cerca de 15 minutos por plano.",
+      "valor": "Quatro planos de rampa 1 em 9,75, perto de 10%, com uma casa de máquinas a vapor fixas no alto de cada um. No chamado sistema tail-end, um trem subia preso a uma ponta do cabo enquanto outro descia na outra. Cada viagem levava, em 1869, até 40 toneladas, em cerca de 15 minutos por plano.",
       "conf": "2+",
       "nota": "a carga e o tempo por plano vêm da descrição de Fox; mais tarde a carga passou a 60 toneladas"
     },
@@ -82,7 +82,7 @@
     },
     {
       "item": "Operários",
-      "valor": "Cerca de 3.500 no pico, \"de todas as nacionalidades e cores\", segundo o engenheiro residente Daniel Fox: portugueses e açorianos em maior número, alemães, brasileiros, encarregados ingleses. O total de trabalhadores não foi registrado. A concessão proibia o uso de escravizados, mas documentos de 1863 mostram que eles trabalharam na obra.",
+      "valor": "Cerca de 3.500 no pico, \"de todas as nacionalidades e cores\", segundo o engenheiro residente Daniel Fox: portugueses e ilhéus dos Açores e da Madeira em maior número, alemães, brasileiros, encarregados ingleses. O total de trabalhadores não foi registrado. A concessão proibia o uso de escravizados, mas documentos de 1863 mostram que eles trabalharam na obra.",
       "conf": "1"
     },
     {
@@ -99,7 +99,7 @@
       "item": "Custo",
       "valor": "Contrato de £ 1.745.000; com os extras, £ 1.817.917 pagos às empreiteiras, mais um bônus de £ 43.750 do governo pela entrega antecipada. Fox calculou £ 31.570 por milha com os juros pagos durante a obra, o que dá por volta de £ 2,7 milhões; um estudo publicado na revista Arquitextos fala em £ 2,75 milhões.",
       "conf": "DIV",
-      "nota": "corrigido só pela inflação britânica (índice de preços do ONS, fator de cerca de 145 entre 1867 e 2026), o contrato equivale a uns £ 254 milhões de hoje"
+      "nota": "corrigido só pela inflação britânica (índice de preços do ONS, fator de cerca de 145 entre 1867 e 2026), o contrato equivale a uns £ 254 milhões de 2026"
     },
     {
       "item": "Medidas",
@@ -108,7 +108,7 @@
     },
     {
       "item": "Serra Nova",
-      "valor": "Na virada para o século XX, a companhia duplicou a linha e abriu um segundo funicular, de cinco planos de 8%, com máquinas de 1.000 cavalos e cabo sem fim, puxado por pequenas locomotivas com uma tenaz para agarrar o cabo, os locobreques.",
+      "valor": "Na virada para o século XX, a companhia duplicou a linha e abriu um segundo funicular, de cinco planos de 8%, com máquinas fixas de 1.000 cavalos movendo um cabo sem fim, ao qual se prendiam, por uma tenaz, pequenas locomotivas que levavam os vagões, os locobreques.",
       "conf": "2+",
       "nota": "o início das obras e a inauguração aparecem como 1895 ou 1896 e 1900 ou 1901, conforme a fonte"
     },
@@ -124,7 +124,7 @@
     },
     {
       "item": "Paranapiacaba",
-      "valor": "O canteiro do Alto da Serra, de 1861, virou a vila ferroviária hoje chamada Paranapiacaba, em Santo André, com a Vila Martin Smith, planejada pela companhia em 1897. Tombada pelo Condephaat em 1987 e pelo Iphan, e comprada pela Prefeitura de Santo André em 2002. Está na Lista Indicativa do Brasil à UNESCO desde 2014.",
+      "valor": "O canteiro do Alto da Serra, de 1861, virou a vila ferroviária hoje chamada Paranapiacaba, em Santo André, com a Vila Martin Smith, aberta pela companhia em 1897. Tombada pelo Condephaat em 1987 e pelo Iphan, e comprada pela Prefeitura de Santo André em 2002. Está na Lista Indicativa do Brasil à UNESCO desde 2014.",
       "conf": "2+",
       "nota": "o tombamento do Iphan aparece como 2002 ou 2008, conforme a fonte"
     },
@@ -145,8 +145,8 @@
     {
       "titulo": "Uma conta que não fechava",
       "paragrafos": [
-        "A concessão garantia juros de 7% por 90 anos sobre um capital máximo de 2 milhões de libras esterlinas, e Fox registra que ficou \"distintamente entendido\" que não haveria garantia para capital adicional. Ninguém tinha estudado como atravessar a serra. Mauá entregou o projeto ao engenheiro escocês James Brunlees, que mandou Fox, de 26 anos, para o Brasil no começo de 1856.",
-        "A ordem de Londres era traçar uma linha comum de locomotiva. Fox conta que bastou ver o terreno para concluir que isso não caberia no dinheiro. A comparação que ele fez é com a Estrada de Ferro Dom Pedro II, que subia a serra perto do Rio de Janeiro, onde a montanha é mais baixa: no mesmo padrão, a subida paulista exigiria pelo menos 26 milhas, uns 42 quilômetros de rampa contínua, e custaria só na serra £ 1,5 milhão. Brunlees decidiu pelo atalho: planos inclinados retos, com rampa de 1 em 10, puxados por máquinas fixas.",
+        "A concessão garantia juros de 7%, prazo depois estendido a 90 anos, sobre um capital máximo de 2 milhões de libras esterlinas, e Fox registra que ficou \"distintamente entendido\" que não haveria garantia para capital adicional. Mauá entregou o projeto ao engenheiro escocês James Brunlees, que mandou Fox, de 26 anos, para o Brasil no começo de 1856.",
+        "A ordem de Londres era traçar uma linha comum de locomotiva. Fox conta que bastou ver o terreno para concluir que isso não caberia no dinheiro. A comparação que ele fez é com a Estrada de Ferro Dom Pedro II, que subia a serra perto do Rio de Janeiro, onde a montanha é mais baixa: no mesmo padrão, a subida paulista exigiria pelo menos 26 milhas, uns 42 quilômetros de rampa contínua, e custaria só na serra £ 1,5 milhão. Brunlees decidiu pelo atalho: planos inclinados, com rampa de 1 em 10, puxados por máquinas fixas.",
         "O levantamento levou uns quinze meses. Segundo Fox, a equipe passava três semanas seguidas dentro da mata, em cabanas cobertas de folha de palmito, e saía de lá \"desbotada pela falta de sol\"."
       ]
     },
@@ -170,7 +170,7 @@
       "paragrafos": [
         "Fox estimou que o maior número de homens na obra ao mesmo tempo foi \"provavelmente cerca de 3.500, de todas as nacionalidades e cores\". Os mais numerosos, segundo ele, eram portugueses e ilhéus dos Açores e da Madeira; havia alemães, brasileiros que trocavam a roça pelo salário e voltavam no plantio, e ingleses como encarregados e maquinistas. O salário ia de 4 xelins e 6 pence a 6 xelins por dia. O total de trabalhadores não foi registrado.",
         "Fox também escreveu que, embora o Brasil fosse escravista, a concessão obrigava a usar trabalho livre. Os documentos contam outra história. Num ofício de julho de 1863 ao presidente da província, o superintendente da companhia, J. J. Aubertin, admitiu que a obra usava escravizados havia mais de três anos, \"não sem alguma permissão tácita\" do governo. Os mapas de acidentes do engenheiro fiscal Wallace da Gama Cochrane, de 1861 a 1863, citam dez trabalhadores escravizados pelo nome. O historiador Paulo Rodrigues de Andrade, que levantou esses papéis, conclui que a presença de escravos na obra foi a regra, não a exceção.",
-        "Ninguém publicou quantos morreram. O que existe são nomes: João, afogado ao atravessar um rio em janeiro de 1861; Benedicto Cotovi, queimado por pólvora em setembro do mesmo ano; dois escravizados mortos em 1862, um esmagado por uma pedra, outro afogado; o português José Fernandes, que morreu dois dias depois de uma explosão numa mina da serra, em outubro de 1862."
+        "Ninguém publicou quantos morreram. O que existe são nomes: João, afogado em janeiro de 1861; Benedicto Cotovi, queimado por pólvora em setembro do mesmo ano; dois escravizados mortos em 1862, um esmagado por uma pedra, outro afogado; o português José Fernandes, que morreu dois dias depois de uma explosão numa mina da serra, em outubro de 1862."
       ]
     },
     {
@@ -185,7 +185,7 @@
       "titulo": "A vila no alto e a volta do funicular",
       "paragrafos": [
         "No alto da serra, o canteiro de obras de 1861 virou vila. A companhia precisava manter ali quem operava as máquinas, e em 1897 abriu a Vila Martin Smith, planejada em xadrez, com casas de madeira distribuídas pela hierarquia da empresa. O Alto da Serra é hoje Paranapiacaba, distrito de Santo André. Foi tombado pelo Condephaat em 1987 e pelo Iphan, comprado pela prefeitura em 2002 e posto pelo Brasil na Lista Indicativa da UNESCO em 2014. Em julho de 2026 começou a restauração da passarela metálica que liga as duas partes da vila, orçada em R$ 18 milhões.",
-        "Em 31/03/2026, o governador Tarcísio de Freitas falou do trem de passageiros que o estado estuda entre São Paulo e Santos: \"Por incrível que pareça, o que está parecendo mais viável é restaurar o funicular que está abandonado há muito tempo\". O estudo continua aberto, com audiência pública prevista para 2027, e não há traçado definido. A solução que os ingleses escolheram por falta de dinheiro voltou à mesa um século e meio depois."
+        "Em 31/03/2026, o governador Tarcísio de Freitas falou do trem de passageiros que o estado estuda entre São Paulo e Santos: \"Por incrível que pareça, o que está parecendo mais viável é restaurar o funicular que está abandonado há muito tempo\". O estudo continua aberto, com audiência pública prevista para 2027, e não há traçado definido. A ideia de puxar trens serra acima por cabo, que os ingleses escolheram por falta de dinheiro, voltou à mesa um século e meio depois."
       ]
     }
   ],

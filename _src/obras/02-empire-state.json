@@ -10,7 +10,7 @@
   "impossivel": "Montar 86 andares de aço e pedra em 410 dias, no meio de Manhattan, com a obra começando poucos meses depois da quebra da Bolsa de 1929.",
   "resumo": "Como o Empire State subiu 4,5 andares por semana em 1930, quanto custou, quantos morreram e por que ninguém anotou o nome de quem o ergueu.",
   "abertura": [
-    "Em 14 de agosto de 1930, segundo o diário da construtora, 3.439 homens trabalhavam no mesmo quarteirão de Manhattan, em Nova York, Estados Unidos. A obra do Empire State Building é uma das mais bem documentadas do século 20: toneladas de aço por semana, datas de cada coluna, fotografias numeradas.",
+    "Em 14 de agosto de 1930, segundo o diário da construtora, 3.439 homens trabalhavam no mesmo quarteirão de Manhattan, em Nova York, Estados Unidos. A obra do Empire State Building é uma das mais bem documentadas do século 20: toneladas de aço montadas, datas das etapas, fotografias numeradas.",
     "E, mesmo assim, ninguém compilou a lista dos homens que a levantaram. Esta página reconstrói a obra pelo que as fontes registraram, mostra onde elas discordam, e diz com todas as letras o que ninguém anotou."
   ],
   "numeros": [
@@ -26,8 +26,8 @@
     },
     {
       "valor": "3.439",
-      "rotulo": "homens na obra num único dia, 14/8/1930 (diário da construtora)",
-      "conf": "2+"
+      "rotulo": "homens num único dia, 14/8/1930, segundo o diário da construtora; outras fontes dão de 3.000 a 5.000",
+      "conf": "DIV"
     },
     {
       "valor": "US$ 40.948.900",
@@ -42,7 +42,7 @@
     {
       "valor": "5",
       "rotulo": "mortes registradas pela construtora em outubro de 1930",
-      "conf": "2+"
+      "conf": "DIV"
     }
   ],
   "ficha": [
@@ -103,7 +103,7 @@
     },
     {
       "item": "Custo",
-      "valor": "US$ 40.948.900, com a demolição do Waldorf. Orçamento: US$ 50 milhões × US$ 60 milhões. Em dinheiro de hoje: cerca de US$ 867 milhões de 2025 pelo índice de preços ao consumidor dos EUA (média de 1931 a média de 2025), ou US$ 678 milhões de 2024 pelo deflator do PIB.",
+      "valor": "US$ 40.948.900, com a demolição do Waldorf. Orçamento: US$ 50 milhões × US$ 60 milhões. Corrigido pela inflação: cerca de US$ 867 milhões de 2025 pelo índice de preços ao consumidor dos EUA (média de 1931 a média de 2025), ou US$ 678 milhões de 2024 pelo deflator do PIB.",
       "conf": "2+",
       "nota": "o orçamento diverge entre as fontes"
     },
@@ -133,7 +133,7 @@
     {
       "item": "Depois",
       "valor": "23% alugado no primeiro ano; o observatório ajudou a evitar a falência. Primeiro lucro: anos 1940 × início dos anos 1950. Em 28/7/1945, um B-25 bateu entre o 79º e o 80º andar: 14 mortos.",
-      "conf": "2+",
+      "conf": "DIV",
       "nota": "o ano do primeiro lucro diverge"
     }
   ],
@@ -175,8 +175,8 @@
     {
       "titulo": "Cinco mortes, e quem fez a conta",
       "paragrafos": [
-        "O número oficial é cinco, e ele tem data e autor. Em 22 de outubro de 1930, a Starrett Brothers & Eken, negando boatos de mortes demais na obra, anunciou ao New York Times que cinco mortes tinham sido registradas: uma na demolição do Waldorf-Astoria, uma na escavação e três na construção do prédio novo. A conta é da construtora, sete meses antes da inauguração.",
-        "Tauranac descreve as circunstâncias: um operário foi atingido por um caminhão enquanto serrava uma tábua; outro entrou numa área de detonação; outro pisou fora de um andaime; outro caiu no poço do elevador; o último foi atingido por um guincho. Nenhum deles caiu da estrutura de aço.",
+        "O número oficial é cinco, e ele tem data e autor. Em 22 de outubro de 1930, a Starrett Brothers & Eken, negando boatos de mortes demais na obra, anunciou ao New York Times que cinco mortes tinham sido registradas: uma na demolição do Waldorf-Astoria, uma na escavação e três na construção do prédio novo. A conta é da construtora, pouco mais de seis meses antes da inauguração.",
+        "O historiador John Tauranac descreve cinco circunstâncias: um operário foi atingido por um caminhão enquanto serrava uma tábua; outro entrou numa área de detonação; outro pisou fora de um andaime; outro caiu no poço do elevador; o último foi atingido por um guincho. Pela lista dele, nenhum caiu da estrutura de aço. Como essa lista se encaixa na divisão da construtora (demolição, escavação, torre), as fontes não dizem.",
         "Outros números circularam. O New York Daily News falou em 14 mortos. A revista New Masses chegou a \"até 42\", número que os historiadores tratam como boato. E o nome de nenhum dos cinco aparece nas fontes disponíveis."
       ]
     },
@@ -204,11 +204,11 @@
     },
     {
       "circula": "Dirigíveis atracavam no mastro do Empire State.",
-      "registro": "O mastro funcionou como publicidade. Em setembro de 1931 houve um contato de minutos com um pequeno dirigível da Marinha e uma tentativa de entrega de correio que falhou. A foto famosa do dirigível atracado é montagem."
+      "registro": "O mastro funcionou como publicidade. Em setembro de 1931 houve um contato de minutos com um pequeno dirigível da Marinha e voos de um dirigível da Goodyear para passar correio e encomendas por corda, registrados ora como fracasso, ora como entrega bem-sucedida. A foto famosa do dirigível atracado é montagem."
     },
     {
       "circula": "Morreram centenas de operários, e há homens enterrados no concreto.",
-      "registro": "A construtora registrou 5 mortes até outubro de 1930, com circunstâncias descritas por John Tauranac; nenhuma no concreto e nenhuma por queda da estrutura de aço. O Daily News falou em 14; os 42 da New Masses são tratados como boato."
+      "registro": "A construtora registrou 5 mortes até outubro de 1930, com circunstâncias descritas por John Tauranac; nenhuma das circunstâncias descritas envolve concreto ou queda da estrutura de aço. O Daily News falou em 14; os 42 da New Masses são tratados como boato."
     },
     {
       "circula": "Os operários ganhavam US$ 1,25 por hora, em turnos de 12 horas, sete dias por semana.",

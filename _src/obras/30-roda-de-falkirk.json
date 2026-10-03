@@ -7,7 +7,7 @@
   "regiao": "mundo",
   "periodo": "2000–2002",
   "estreia": "2027-04-29",
-  "impossivel": "Ligar dois canais separados por 35 metros de desnível, onde antes havia onze eclusas, com uma máquina de mais de mil toneladas que gira inteira levando barcos e água sem que a água se mova dentro delas.",
+  "impossivel": "Ligar dois canais separados por 35 metros de desnível, onde antes havia onze eclusas, com uma máquina de mais de mil toneladas que gira inteira levando barcos e água em duas gôndolas que ficam sempre na horizontal.",
   "resumo": "Como a Escócia trocou onze eclusas por um elevador de barcos giratório em 2002, por que ele gasta tão pouco e o que a sabotagem de abril fez com ele.",
   "abertura": [
     "Em Falkirk, na Escócia, no Reino Unido, dois canais abertos entre os séculos XVIII e XIX se encontram com 35 metros de diferença de altura. Até 1933 uma escada de onze eclusas vencia esse desnível; depois ela foi desmontada, e nos anos 1960 os dois canais fecharam. Quando a British Waterways decidiu reabri-los de costa a costa, no projeto chamado Millennium Link, faltava justamente o nó do meio.",
@@ -35,13 +35,13 @@
       "conf": "2+"
     },
     {
-      "valor": "1.500 a 1.800 t",
-      "rotulo": "de peso total, conforme a fonte",
+      "valor": "1.300 a 1.900 t",
+      "rotulo": "de peso total, conforme a fonte e se a roda está vazia ou cheia",
       "conf": "DIV"
     },
     {
       "valor": "24/05/2002",
-      "rotulo": "inauguração pela rainha Elizabeth II, um mês depois do previsto",
+      "rotulo": "inauguração pela rainha Elizabeth II, cerca de um mês depois do previsto",
       "conf": "2+"
     }
   ],
@@ -80,6 +80,11 @@
       "item": "Prazo",
       "valor": "Obras civis desde 2000; peças fabricadas e montadas em teste na fábrica no primeiro semestre de 2001, levadas a Falkirk em 35 carretas e içadas em agosto de 2001; inauguração em 24/05/2002.",
       "conf": "2+"
+    },
+    {
+      "item": "Desnível",
+      "valor": "35 metros segundo a Scottish Canals e a história local: 24 da roda e cerca de 11 de duas eclusas. Reportagens de época dão 34 m ou 25 m.",
+      "conf": "DIV"
     },
     {
       "item": "Custo da roda",
@@ -129,15 +134,15 @@
     {
       "titulo": "Onze degraus desmontados",
       "paragrafos": [
-        "O Forth & Clyde Canal abriu em 1790 e atravessava a Escócia de Grangemouth, no estuário do Forth, até o rio Clyde. Em 1822 chegou a Falkirk o Union Canal, que vinha de Edimburgo seguindo uma curva de nível, sem eclusas. No encontro dos dois, uma escada de onze eclusas, espalhadas por quase uma milha, vencia os 35 metros de diferença.",
+        "O Forth & Clyde Canal abriu em 1790 e atravessava a Escócia de Grangemouth, no estuário do Forth, até o rio Clyde. Em 1822 chegou a Falkirk o Union Canal, que vinha de Edimburgo. No encontro dos dois, uma escada de onze eclusas, espalhadas por quase uma milha, vencia os 35 metros de diferença.",
         "A ferrovia tirou o movimento dos canais. As eclusas de Falkirk foram desmontadas em 1933. O Forth & Clyde fechou à navegação em 1º de janeiro de 1963, e o Union em 1965. Trechos foram aterrados, cortados por estradas e conjuntos habitacionais. Quando o Millennium Link começou, em 1999, a ideia era refazer mais de 120 estruturas, entre eclusas, pontes e trechos enterrados, e reabrir 110 km de canal entre Glasgow e Edimburgo. Em 2001 os canais já voltavam a ter barcos. Faltava Falkirk."
       ]
     },
     {
-      "titulo": "A licitação que ninguém queria ganhar",
+      "titulo": "Uma licitação que nem o cliente queria",
       "paragrafos": [
-        "O edital, de projeto e construção, sugeria uma roda-gigante de estilo vitoriano, com quatro gôndolas penduradas, e todos os concorrentes orçaram isso. Segundo a revista Construction News, em maio de 2001, nem o cliente gostava. O engenheiro-chefe da British Waterways na Escócia, George Ballinger, admitiu à revista que esperava projetos mais ousados, mas que não deu aos concorrentes tempo nem incentivo para isso.",
-        "A equipe escolhida, liderada pela Butterley Engineering com a joint venture Morrison–Bachy Soletanche, foi chamada para uma reunião e orientada a deixar os desenhos para trás. Seguiram-se sessões de brainstorming de cerca de um mês, com umas duas dezenas de pessoas, em que apareceram rodas horizontais, guindastes, um funicular e até um balão cheio de água que tombava. O que saiu foi a forma de hoje, conduzida pelo arquiteto Tony Kettle, do RMJM. Em 2001 ele descrevia a roda como um navio viking com hélice ou a caixa torácica de um peixe; outras descrições falam em machado celta e em costelas de baleia."
+        "O edital, de projeto e construção, sugeria uma roda-gigante de estilo vitoriano, com quatro gôndolas penduradas, e todos os concorrentes orçaram isso. Segundo a revista Construction News, em maio de 2001, nem o cliente gostava. O engenheiro-chefe da British Waterways na Escócia, George Ballinger, admitiu à revista que esperava projetos mais ousados, mas que não deu aos concorrentes tempo nem incentivo suficientes para isso.",
+        "A equipe escolhida, a joint venture Morrison–Bachy Soletanche com a Butterley Engineering, foi chamada para uma reunião e orientada a deixar os desenhos para trás. Seguiram-se sessões de brainstorming de cerca de um mês, com umas duas dezenas de pessoas, em que apareceram rodas horizontais, guindastes, um funicular e até um balão cheio de água que tombava. O que saiu foi a forma de hoje, conduzida pelo arquiteto Tony Kettle, do RMJM. Em 2001 ele descrevia a roda como um navio viking com hélice ou a caixa torácica de um peixe; outras descrições falam em machado celta e em costelas de baleia."
       ]
     },
     {
@@ -151,22 +156,22 @@
     {
       "titulo": "Parafusos, não solda",
       "paragrafos": [
-        "A cada meia volta, partes dos braços passam de tração total a compressão total. Essa inversão completa e repetida de esforço é o que mais cansa o aço, e a Butterley respondeu parafusando as juntas em vez de soldá-las, porque a ligação parafusada resiste melhor à fadiga. A conta da New Civil Engineer: 15 mil parafusos e 45 mil furos, o equivalente a 7,5 toneladas de aço perfurado.",
+        "A cada volta, partes dos braços passam de tração total a compressão total. Essa inversão completa e repetida de esforço é o que mais cansa o aço, e a Butterley respondeu parafusando as juntas em vez de soldá-las, porque a ligação parafusada resiste melhor à fadiga. A conta da New Civil Engineer: 15 mil parafusos e 45 mil furos, o equivalente a 7,5 toneladas de aço perfurado.",
         "Os parafusos tinham outra vantagem: a roda podia ser montada inteira na fábrica da Butterley, em Ripley, no Derbyshire, Inglaterra, conferida e desmontada. As peças foram levadas a Falkirk em 35 carretas, entre junho e julho de 2001, remontadas no chão em cinco grandes conjuntos e içadas em agosto por um guindaste de mil toneladas, com precisão de dez milímetros. Por fazer dois içamentos de gôndola no mesmo dia, a empresa economizou dez horas de guindaste e £10 mil, contou o gerente de contratos Paul Hudson à revista."
       ]
     },
     {
       "titulo": "A noite da inundação",
       "paragrafos": [
-        "A obra não registra mortos nas fontes consultadas. O desastre veio com a roda pronta. No fim de abril de 2002, segundo a New Civil Engineer, alguém arrombou comportas trancadas com cadeado e soltou mais de 80 milhões de litros de água do canal sobre o poço seco da roda. A inundação durou quatro horas sem ser notada e cobriu uma das gôndolas com três metros de água. O fluido hidráulico foi contaminado, bombas se perderam e a eletrônica teve de secar.",
-        "A polícia tratou o caso como crime premeditado, com pelo menos duas pessoas e conhecimento do local. A estimativa do dano em maio de 2002 era de £200 mil; outra fonte fala em £350 mil. A abertura atrasou cerca de um mês, e a rainha Elizabeth II inaugurou a roda em 24 de maio de 2002, no ano do seu Jubileu de Ouro."
+        "Nenhuma das fontes consultadas registra um morto na obra. O desastre veio com a roda pronta. No fim de abril de 2002, segundo a New Civil Engineer, alguém arrombou comportas trancadas com cadeado e soltou mais de 80 milhões de litros de água do canal sobre o poço seco da roda. A inundação durou quatro horas sem ser notada e cobriu uma das gôndolas com três metros de água. O fluido hidráulico foi contaminado, bombas se perderam e a eletrônica teve de secar.",
+        "A polícia tratou o caso como dano intencional, obra de pelo menos duas pessoas que conheciam o local. A estimativa do dano em maio de 2002 era de £200 mil; outra fonte fala em £350 mil. A abertura atrasou cerca de um mês, e a rainha Elizabeth II inaugurou a roda em 24 de maio de 2002, no ano do seu Jubileu de Ouro."
       ]
     },
     {
       "titulo": "Vinte e cinco anos depois, as eclusas de novo",
       "paragrafos": [
         "A roda passou pela maior reforma da sua história entre novembro de 2023 e março de 2024: £2,7 milhões em hidráulica, painéis de controle, sensores, cabos e vedações novos, com 17 semanas de parada, segundo o jornal The Scotsman. O sistema passou a desligar entre um movimento e outro.",
-        "Em 2026, a Scottish Canals, dona dos canais, comemorou os 25 anos do Millennium Link, e a roda virou palco de um espetáculo de luz e água em setembro. Mas a notícia maior está logo abaixo dela. As comportas de carvalho instaladas na reabertura duram em média 25 anos, e todas as da escada de eclusas do Forth & Clyde em Falkirk são daquela época. Desde fevereiro de 2025, um trecho de quatro quilômetros está drenado para trocá-las. Em julho de 2026 a obra foi estendida até o início da temporada de 2027, com investimento acima de £8 milhões, o maior nos canais escoceses desde o próprio Millennium Link. A máquina feita para substituir eclusas segue girando; a maior obra dos canais, um quarto de século depois, é consertar eclusas."
+        "Em 2026, a Scottish Canals, dona dos canais, comemorou os 25 anos do Millennium Link e anunciou para o fim de setembro um espetáculo de luz e água na bacia da roda. Mas a notícia maior está logo abaixo dela. As comportas de carvalho instaladas na reabertura duram em média 25 anos, e todas as da escada de eclusas do Forth & Clyde em Falkirk são daquela época. Desde fevereiro de 2025, um trecho de quatro quilômetros está drenado para trocá-las. Em julho de 2026 a obra foi estendida até o início da temporada de 2027, com investimento acima de £8 milhões, o maior nos canais escoceses desde o próprio Millennium Link, segundo a Scottish Canals. A máquina feita para substituir eclusas segue girando; a maior obra dos canais, um quarto de século depois, é consertar eclusas."
       ]
     }
   ],

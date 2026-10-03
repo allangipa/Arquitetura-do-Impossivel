@@ -55,8 +55,8 @@
   <h1>Sobre o Arquitetura do Impossível</h1>
 
   <h2>1. O que é</h2>
-  <p>O <strong>Arquitetura do Impossível</strong> é um projeto editorial independente, feito no Brasil, sobre grandes construções: como uma obra que parecia impossível ficou de pé. Cada página deste site acompanha um episódio do canal no YouTube, <a href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>, e vai além dele: traz a ficha técnica completa, as fontes, as imagens com crédito e as divergências que não cabem num vídeo.</p>
-  <p>A pergunta é sempre a mesma: <em>o que tornava esta obra impossível, e quem resolveu</em> — com que conta, com que material, com que improviso. O protagonista é o problema de engenharia; as pessoas entram como quem o enfrentou. Um episódio do Brasil, um do resto do mundo, alternados.</p>
+  <p>O <strong>Arquitetura do Impossível</strong> é um projeto editorial independente, feito no Brasil, sobre grandes construções: como uma obra que parecia impossível ficou de pé. Cada página deste site acompanha um episódio do canal no YouTube, <a href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>, e é publicada antes da estreia, quando o episódio ainda está para sair. Vai além do vídeo: traz a ficha técnica completa, as fontes, as imagens com crédito e as divergências que não cabem num vídeo.</p>
+  <p>A pergunta é sempre a mesma: <em>o que tornava esta obra impossível, e quem resolveu</em> — com que conta, com que material, com que improviso. O protagonista é o problema de engenharia; as pessoas entram como quem o enfrentou. Obras do Brasil e do resto do mundo, uma por semana.</p>
 
   <h2>2. Como uma página é feita</h2>
   <ul>
@@ -87,15 +87,15 @@
     <div>
       <h4>Do mesmo criador</h4>
       <ul>
-        <li><a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a> — arqueologia e mistério</li>
-        <li>Xadrez Bélico — batalhas explicadas como partida</li>
+        <li><a href="https://vestigiooculto.com.br" target="_blank" rel="noopener">Vestígio Oculto</a> — arqueologia e mistério</li>
+        <li><a href="https://xadrezbelico.com.br/" target="_blank" rel="noopener">Xadrez Bélico</a> — batalhas explicadas como partida</li>
       </ul>
     </div>
     <div>
       <h4>Este site</h4>
       <ul>
         <li><a href="sobre.html">Sobre</a> · <a href="contato.html">Contato</a></li>
-        <li>Exibe anúncios do Google AdSense. <a href="privacidade.html">Política de privacidade</a>.</li>
+        <li>Exibe anúncios do Google AdSense. <a href="privacidade.html">Política de privacidade</a>. <a href="#" role="button" data-rever-cookies>Rever escolha de cookies</a>.</li>
         <li>Fotos de terceiros sob domínio público ou Creative Commons, com crédito em cada página.</li>
       </ul>
     </div>
@@ -104,7 +104,7 @@
 </footer>
 <div class="consentimento" id="consentimento" role="dialog" aria-live="polite" aria-label="Aviso de cookies" hidden>
   <div class="casca">
-    <p>Este site usa cookies do Google AdSense para exibir anúncios e medir audiência. Não pedimos cadastro nem e-mail. Detalhes na <a href="privacidade.html">política de privacidade</a>.</p>
+    <p>Este site usa cookies do Google AdSense para exibir e medir anúncios. Não pedimos cadastro nem e-mail. Detalhes na <a href="privacidade.html">política de privacidade</a>.</p>
     <div class="botoes">
       <button type="button" data-consent="recusar">Recusar anúncios</button>
       <button type="button" data-consent="aceitar" class="principal">Entendi</button>
@@ -122,6 +122,15 @@
     s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-'+PUB;
     document.head.appendChild(s);
   }
+  // "Rever escolha de cookies", no rodapé: apaga a escolha salva e recarrega,
+  // e a faixa volta a aparecer.
+  document.querySelectorAll('[data-rever-cookies]').forEach(function(a){
+    a.addEventListener('click',function(ev){
+      ev.preventDefault();
+      try{localStorage.removeItem(CHAVE)}catch(e){}
+      location.reload();
+    });
+  });
   var escolha=ler();
   if(escolha==='aceitar'||(escolha===null&&!BLOQUEIA))carrega();
   var caixa=document.getElementById('consentimento');

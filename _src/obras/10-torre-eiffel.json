@@ -10,7 +10,7 @@
   "impossivel": "Erguer 300 metros de ferro, quase o dobro da construção mais alta do mundo, em pouco mais de dois anos, com a forma ditada pela conta do vento, e abrir a obra a tempo da Exposição Universal de 1889.",
   "resumo": "Quem desenhou a Torre Eiffel, como o vento definiu a curva, quanto custou, quem morreu na obra e por que ela não foi demolida em 1909.",
   "abertura": [
-    "Em 1889, a construção mais alta do mundo era o Monumento a Washington, com 169 metros. Para a Exposição Universal daquele ano, no Champ-de-Mars, em Paris, na França, a empresa de Gustave Eiffel prometeu uma torre de ferro de 300 metros, montada em pouco mais de dois anos e paga em sua maior parte por ela mesma.",
+    "Até 1889, a construção mais alta do mundo era o Monumento a Washington, com cerca de 169 metros. Para a Exposição Universal daquele ano, no Champ-de-Mars, em Paris, na França, a empresa de Gustave Eiffel prometeu uma torre de ferro de 300 metros, montada em pouco mais de dois anos e paga em sua maior parte por Eiffel e por uma sociedade formada com bancos.",
     "O desenho não era de Eiffel. Saiu, em junho de 1884, das mãos de dois engenheiros da empresa, Maurice Koechlin e Émile Nouguier, e ganhou a forma final com o arquiteto Stephen Sauvestre. Eiffel comprou a patente, assumiu o risco e deu o nome. A curva dos quatro pés, ele mesmo explicou em 1887, foi a que o cálculo da resistência ao vento lhe forneceu."
   ],
   "numeros": [
@@ -64,14 +64,15 @@
     },
     {
       "item": "Prazo",
-      "valor": "Fundações a partir do fim de janeiro de 1887, em cinco meses; montagem do ferro a partir de 01/07/1887; vigas do primeiro andar unidas em 07/12/1887; segundo andar em agosto de 1888; topo em 31/03/1889. Aberta ao público em 15/05/1889, ainda sem elevadores.",
+      "valor": "Fundações a partir do fim de janeiro de 1887, em cinco meses; montagem do ferro a partir de 01/07/1887; vigas do primeiro andar unidas em 07/12/1887; segundo andar no meio de 1888 (julho ou agosto, conforme a fonte); topo em 31/03/1889. Aberta ao público em 15/05/1889, ainda sem elevadores.",
       "conf": "2+",
       "nota": "o primeiro dia de obra aparece como 26 ou 28 de janeiro de 1887"
     },
     {
       "item": "Como foi montada",
       "valor": "As peças foram desenhadas uma a uma, furadas e pré-montadas em trechos de cerca de 5 metros na fábrica da empresa em Levallois-Perret, a 4 km do canteiro, e unidas no local por rebites postos a quente. O primeiro andar foi apoiado em andaimes de madeira de 30 e 45 metros, com caixas de areia e macacos hidráulicos para acertar a inclinação dos pés.",
-      "conf": "2+"
+      "conf": "2+",
+      "nota": "a pré-montagem e o acerto com caixas de areia e macacos são descritos pela empresa que explora a torre"
     },
     {
       "item": "Peças e rebites",
@@ -105,7 +106,8 @@
     {
       "item": "Medidas",
       "valor": "300 metros sem a bandeira em 1889, cerca de 312 com o mastro; 330 metros com as antenas desde março de 2022. Primeiro andar a 57,6 m e segundo a 115,7 m do chão.",
-      "conf": "2+"
+      "conf": "2+",
+      "nota": "as alturas dos andares vêm de uma fonte só"
     },
     {
       "item": "Protesto",
@@ -118,8 +120,8 @@
       "conf": "2+"
     },
     {
-      "item": "Hoje",
-      "valor": "A 20ª campanha de pintura, iniciada em 2019 e prevista para terminar em 2026, custa mais de 80 milhões de euros. Em 07/09/2026, uma greve do pessoal fechou a torre por um dia.",
+      "item": "Em 2026",
+      "valor": "A 20ª campanha de pintura, iniciada em 2019 e, em setembro de 2026, prevista para terminar naquele ano, custa mais de 80 milhões de euros. Em 07/09/2026, uma greve do pessoal fechou a torre por um dia.",
       "conf": "2+"
     }
   ],
@@ -128,7 +130,7 @@
       "titulo": "Um pilar de ponte esticado até 300 metros",
       "paragrafos": [
         "A empresa de Gustave Eiffel, em Levallois-Perret, nos arredores de Paris, vivia de pontes e viadutos de ferro. Em junho de 1884, com a Exposição Universal de 1889 no horizonte, dois engenheiros da casa, Maurice Koechlin, chefe do escritório de estudos, e Émile Nouguier, tiveram a ideia de esticar até 300 metros o tipo de pilar treliçado que a empresa já sabia fazer. O croqui, assinado pelos dois e datado de 6 de junho de 1884, mostra quatro vigas em treliça que se afastam na base e se juntam no topo, com Notre-Dame, a Estátua da Liberdade e o Arco do Triunfo empilhados ao lado, para dar a escala.",
-        "Para tornar a ideia aceitável ao público, os dois chamaram o arquiteto da empresa, Stephen Sauvestre. Ele pôs uma base de alvenaria, ligou os quatro pés ao primeiro andar com grandes arcos, desenhou salas envidraçadas e um topo em bulbo. Muito disso foi simplificado depois; os arcos ficaram. Em 18 de setembro de 1884, Eiffel registrou a patente nos três nomes. No fim daquele ano, comprou os direitos de Koechlin e Nouguier. Segundo a família Koechlin, a troca foi 1% do que Eiffel recebesse pela obra para cada um e a promessa de citar seus nomes. A torre ficou com o dele."
+        "Segundo a empresa que explora a torre, os dois chamaram então o arquiteto da casa, Stephen Sauvestre. Ele pôs uma base de alvenaria, ligou os quatro pés ao primeiro andar com grandes arcos, desenhou salas envidraçadas e um topo em bulbo. Muito disso foi simplificado depois; os arcos ficaram. Em 18 de setembro de 1884, Eiffel registrou a patente nos três nomes. No fim daquele ano, comprou os direitos de Koechlin e Nouguier. Segundo a família Koechlin, a troca foi 1% do que Eiffel recebesse pela obra para cada um e a promessa de citar seus nomes. A torre ficou com o dele."
       ]
     },
     {
@@ -141,15 +143,15 @@
     {
       "titulo": "Dezoito mil peças, cada uma com seu desenho",
       "paragrafos": [
-        "A convenção de 8 de janeiro de 1887, assinada pelo ministro Édouard Lockroy, pelo prefeito do Sena, Eugène Poubelle, e por Eiffel, deu pouco mais de dois anos para a obra. As fundações começaram no fim daquele mês. Em cinco meses foram feitos os maciços de alvenaria que recebem cada aresta; do lado do Sena, abaixo do lençol de água, os operários cavaram dentro de caixões metálicos com ar comprimido. Em 1º de julho de 1887 começou a montagem do ferro.",
-        "O segredo da velocidade estava longe do Champ-de-Mars. Na fábrica de Levallois-Perret, cerca de 50 engenheiros e desenhistas produziram milhares de desenhos para as 18.038 peças de ferro pudlado vindas das forjas de Pompey, na Lorena. Cada peça era traçada, cortada e furada ali, e pré-montada em trechos de uns 5 metros. No canteiro, entre 150 e 300 homens, segundo a empresa que explora a torre, levantavam os trechos com pequenas gruas a vapor que subiam pelos trilhos dos futuros elevadores, aparafusavam provisoriamente e trocavam os parafusos por rebites postos a quente. Cada rebite pedia quatro homens: um aquecia, um segurava, um formava a cabeça, um batia com a marreta.",
-        "O momento mais delicado foi o primeiro andar. Os quatro pés subiam inclinados, apoiados em andaimes de madeira de 30 e depois de 45 metros, e as grandes vigas do andar tinham de encontrá-los no lugar exato. A inclinação de cada pé foi acertada com caixas de areia, esvaziadas aos poucos, e macacos hidráulicos na base. A junção foi feita em 7 de dezembro de 1887. Daí em diante, a torre serviu de canteiro para si mesma: segundo andar em agosto de 1888, topo no fim de março de 1889."
+        "A convenção de 8 de janeiro de 1887, assinada pelo ministro Édouard Lockroy, pelo prefeito do Sena, Eugène Poubelle, e por Eiffel. Até a abertura da Exposição, em maio de 1889, havia pouco mais de dois anos. As fundações começaram no fim daquele mês. Em cinco meses foram feitos os maciços de alvenaria que recebem cada aresta; do lado do Sena, abaixo do lençol de água, os operários cavaram dentro de caixões metálicos com ar comprimido. Em 1º de julho de 1887 começou a montagem do ferro.",
+        "O segredo da velocidade estava longe do Champ-de-Mars. Na fábrica de Levallois-Perret, cerca de 50 engenheiros e desenhistas produziram milhares de desenhos para as 18.038 peças de ferro pudlado vindas das forjas de Pompey, na Lorena. Cada peça era traçada, cortada e furada ali, e pré-montada em trechos de uns 5 metros. No canteiro, entre 150 e 300 homens, segundo a empresa que explora a torre, levantavam os trechos com pequenas gruas a vapor que subiam pelos trilhos dos futuros elevadores, aparafusavam provisoriamente e trocavam os parafusos por rebites postos a quente. Segundo a empresa que explora a torre, cada rebite pedia quatro homens: um aquecia, um segurava, um formava a cabeça, um batia com a marreta.",
+        "O momento mais delicado foi o primeiro andar. Os quatro pés subiam inclinados, apoiados em andaimes de madeira de 30 e depois de 45 metros, e as grandes vigas do andar tinham de encontrá-los no lugar exato. A inclinação de cada pé foi acertada com caixas de areia, esvaziadas aos poucos, e macacos hidráulicos na base. A junção foi feita em 7 de dezembro de 1887. Daí em diante, a torre serviu de canteiro para si mesma: segundo andar no meio de 1888 (julho ou agosto, conforme a fonte), topo no fim de março de 1889."
       ]
     },
     {
       "titulo": "Cinco cêntimos por hora",
       "paragrafos": [
-        "Em 19 de setembro de 1888, com o segundo andar pronto, os operários pararam. Segundo um levantamento da CGT nos arquivos da Prefeitura de Polícia de Paris, só 27 dos cerca de 140 habituais apareceram naquele dia. Um rebitador ganhava 0,70 franco por hora; um carpinteiro, 0,80. Eiffel cedeu um aumento de cinco cêntimos por hora e uma gratificação aos mais antigos quando a torre chegasse à plataforma da lanterna, mas recusou pagar mais pela altura. Em dezembro, com o frio, houve nova ameaça de greve; as fontes divergem sobre se Eiffel negociou ou não.",
+        "Em 19 de setembro de 1888, com o segundo andar pronto, os operários pararam. Segundo um levantamento da CGT nos arquivos da Prefeitura de Polícia de Paris, só 27 dos cerca de 140 habituais apareceram naquele dia. Um rebitador ganhava 0,70 franco por hora; um carpinteiro, 0,80. Eiffel cedeu um aumento de cinco cêntimos por hora e uma gratificação aos mais antigos quando a torre chegasse à plataforma da lanterna, mas recusou pagar mais pela altura. Em dezembro houve nova greve; as fontes divergem sobre se Eiffel negociou ou não.",
         "Ninguém registrou quantos homens passaram pela obra. A empresa que explora a torre diz que nenhum morreu em serviço, num trabalho feito em pequenas plataformas, sem proteção, no frio e no vento, e que um operário italiano morreu fora do horário, com a viúva indenizada discretamente por Eiffel. Os documentos desse contrato de indenização, guardados no Musée d'Orsay, dão nome e data: Angelo Scagliotti, morto num acidente em 24 de maio de 1889 no canteiro da torre. Foi uma sexta-feira, nove dias depois da abertura ao público. Segundo a pesquisa da família, que reproduz a certidão de óbito e o contrato, ele foi esmagado pela cabine durante a instalação do primeiro elevador, e o contrato diz que morreu trabalhando no canteiro por conta de Eiffel."
       ]
     },
@@ -157,21 +159,21 @@
       "titulo": "O protesto, o custo e a festa",
       "paragrafos": [
         "A obra mal começara quando o Le Temps publicou, em 14 de fevereiro de 1887, a carta de dezenas de artistas ao diretor dos trabalhos da Exposição, Adolphe Alphand: Charles Garnier, o arquiteto da Ópera, o compositor Charles Gounod, Guy de Maupassant, Leconte de Lisle, entre outros. Chamavam a torre de inútil e monstruosa e protestavam, sobretudo, contra mantê-la de pé por vinte anos. Eiffel respondeu no mesmo número: ninguém tinha visto a torre ainda, só um desenho, e o colossal tinha um encanto próprio, como as pirâmides.",
-        "A conta final ficou em 7.799.401,31 francos, mais de 1,3 milhão acima dos 6,5 milhões estimados e mais do que o dobro do primeiro orçamento de Eiffel. O Estado pagou 1,5 milhão, em três parcelas atreladas ao primeiro andar, ao segundo e à conclusão; o resto foi de Eiffel e de uma sociedade com três bancos. Em 31 de março de 1889 a bandeira subiu no topo e Eiffel recebeu ali a Legião de Honra. Durante a Exposição, cerca de 2 milhões de pessoas subiram na torre."
+        "A conta final ficou em 7.799.401,31 francos, cerca de 1,3 milhão acima dos 6,5 milhões estimados e mais do que o dobro do primeiro orçamento de Eiffel. O Estado pagou 1,5 milhão, em três parcelas atreladas ao primeiro andar, ao segundo e à conclusão; o resto foi de Eiffel e de uma sociedade com três bancos. Em 31 de março de 1889 a bandeira subiu no topo e Eiffel recebeu ali a Legião de Honra. Durante a Exposição, cerca de 2 milhões de pessoas subiram na torre."
       ]
     },
     {
       "titulo": "Salva pela antena",
       "paragrafos": [
-        "Passada a Exposição, o público sumiu. A convenção dava a Eiffel a exploração por 20 anos a partir de 1º de janeiro de 1890; depois disso, a torre, que já pertencia à Cidade de Paris, voltava inteira para ela, e ninguém garantia que a Cidade a quisesse. Em 1906, Paris decidiu demolir a Galeria das Máquinas, outro gigante de 1889, por falta de uso.",
-        "Eiffel buscou uma utilidade científica. Em 1898, Eugène Ducretet fez da torre uma ligação de telegrafia sem fio com o Panthéon, a 4 km. A partir de 1903, Eiffel pagou a antena para as experiências do capitão Gustave Ferrié, do Exército. Em poucos anos a torre falava com fortes a centenas de quilômetros, e em 1909 ganhou uma estação permanente sob o Champ-de-Mars. A concessão foi prorrogada por 70 anos a partir de 1º de janeiro de 1910. Na Primeira Guerra, a torre interceptou mensagens alemãs. Eiffel já tinha deixado os negócios: condenado em 1893 no escândalo do canal francês do Panamá, cujas eclusas sua empresa contratara em 1887, teve a condenação anulada pela Corte de Cassação no mesmo ano, por prescrição."
+        "Passada a Exposição, o público minguou. A convenção dava a Eiffel a exploração por 20 anos a partir de 1º de janeiro de 1890; depois disso, a torre, que já pertencia à Cidade de Paris, voltava inteira para ela, e ninguém garantia que a Cidade a quisesse. Em 1906, Paris decidiu demolir a Galeria das Máquinas, outro gigante de 1889, por falta de uso.",
+        "Eiffel buscou uma utilidade científica. Em 1898, Eugène Ducretet fez da torre uma ligação de telegrafia sem fio com o Panthéon, a 4 km. A partir de 1903, Eiffel pagou a antena para as experiências do capitão Gustave Ferrié, do Exército. No ano seguinte, segundo a empresa que explora a torre, o alcance chegava a 400 km, e em 1908 a 6.000 km; em 1909 ela ganhou uma estação permanente sob o Champ-de-Mars. A concessão foi prorrogada por 70 anos a partir de 1º de janeiro de 1910. Na Primeira Guerra, a torre interceptou mensagens alemãs. Eiffel já tinha deixado os negócios: condenado em 1893 no escândalo do canal francês do Panamá, cujas eclusas sua empresa contratara em 1887, teve a condenação anulada pela Corte de Cassação no mesmo ano, por prescrição."
       ]
     },
     {
       "titulo": "Ferro que precisa de tinta",
       "paragrafos": [
-        "Eiffel desenhou a torre para que cada parte pudesse ser alcançada e examinada em busca do primeiro sinal de ferrugem. O ferro de 1889 só está de pé porque é repintado inteiro de tempos em tempos, com cerca de 60 toneladas de tinta a cada campanha. A 20ª campanha começou em 2019, custa mais de 80 milhões de euros, enfrentou o chumbo das tintas antigas e devolve à torre o marrom-amarelado que Eiffel escolheu em 1907; a conclusão está prevista para 2026, com a face interna.",
-        "Em setembro de 2026, a torre parou por outro motivo. Num sábado, 5 de setembro, a direção afastou funcionárias de seus postos durante a visita privada de uma delegação religiosa, a pedido dos visitantes. Na segunda-feira, 7, o pessoal entrou em greve e a torre ficou fechada o dia inteiro, reabrindo no dia seguinte. A empresa que a explora reconheceu que não devia ter aceitado o pedido, e em 29 de setembro o diretor-geral anunciou que deixará o cargo no fim do ano."
+        "Eiffel escreveu, numa frase muito citada, que a torre fora feita para que cada parte pudesse ser alcançada e examinada em busca do primeiro sinal de ferrugem. O ferro de 1889 só está de pé porque é repintado inteiro de tempos em tempos, com cerca de 60 toneladas de tinta a cada campanha. A 20ª campanha começou em 2019, custa mais de 80 milhões de euros, enfrentou o chumbo das tintas antigas e devolve à torre o marrom-amarelado que Eiffel escolheu em 1907; em setembro de 2026, a conclusão estava prevista para aquele ano, com a face interna.",
+        "Em setembro de 2026, a torre parou por outro motivo. Num sábado, 5 de setembro, a direção afastou funcionárias de seus postos durante a visita privada de uma delegação religiosa, a pedido dos visitantes. Na segunda-feira, 7, o pessoal entrou em greve e a torre ficou fechada o dia inteiro, reabrindo no dia seguinte. A empresa que a explora reconheceu que não devia ter aceitado o pedido, e em 29 de setembro o diretor-geral anunciou que deixaria o cargo no fim de 2026."
       ]
     }
   ],
