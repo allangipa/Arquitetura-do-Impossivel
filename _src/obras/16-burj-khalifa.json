@@ -310,6 +310,16 @@
       "foco": "34% 50%"
     },
     {
+      "arquivo": "16-2005.jpg",
+      "alt": "A base da torre em obra, com o núcleo de concreto e gruas no topo, em dezembro de 2005",
+      "legenda": "Dezembro de 2005, primeiro ano da estrutura: o núcleo e as alas sobem juntos, com as gruas montadas no topo.",
+      "autor": "Soonadracula",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_2005-12-16.jpg",
+      "recriacao": false
+    },
+    {
       "arquivo": "16-2007.jpg",
       "alt": "A torre vista do chão contra o céu azul, com painéis de vidro prateado só na parte de baixo, o concreto aparente acima e gruas no topo; uma placa de trânsito e um viaduto em primeiro plano",
       "legenda": "Dezembro de 2007: a fachada de vidro subia andares abaixo do concreto, que seguia à frente com as gruas.",
@@ -347,16 +357,6 @@
       "licenca": "CC BY 2.0",
       "licenca_url": "https://creativecommons.org/licenses/by/2.0/",
       "origem_url": "https://commons.wikimedia.org/wiki/File:Burj-dubai-with-camels_(428481841).jpg",
-      "recriacao": false
-    },
-    {
-      "arquivo": "16-2009.jpg",
-      "alt": "Paisagem de areia com um caminhão-pipa azul em primeiro plano e, ao fundo, uma fileira de prédios na neblina com a torre muito mais alta que todos",
-      "legenda": "Abril de 2009, depois do topo: a torre domina a fileira de prédios da Sheikh Zayed Road, vista de um antigo hipódromo de camelos que virara canteiro.",
-      "autor": "Lars Plougmann",
-      "licenca": "CC BY-SA 2.0",
-      "licenca_url": "https://creativecommons.org/licenses/by-sa/2.0/",
-      "origem_url": "https://commons.wikimedia.org/wiki/File:Dubai_towers_(3445738758).jpg",
       "recriacao": false
     }
   ],
