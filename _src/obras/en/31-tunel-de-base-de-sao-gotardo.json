@@ -1,0 +1,155 @@
+{
+  "_nota": "Tradução fiel de ../31-tunel-de-base-de-sao-gotardo.json. Campos fixos vêm do original.",
+  "obra": "Gotthard Base Tunnel",
+  "titulo_seo": "Gotthard Base Tunnel: How It Was Built (1999–2016)",
+  "titulo_video": null,
+  "lugar": "Beneath the Gotthard massif, between Erstfeld (canton of Uri) and Bodio (canton of Ticino), Alps, Switzerland",
+  "periodo": "1999–2016",
+  "impossivel": "Crossing the Alps almost in a straight line from underneath, with up to 2,300 meters of mountain overhead, rock close to 50 °C and a stretch where the rock itself closed the hole as it was being dug.",
+  "resumo": "How Switzerland dug the Gotthard Base Tunnel, 57 km under the Alps, letting the mountain squeeze in on purpose in one stretch, for CHF 12.2 bn and 9 lives.",
+  "abertura": [
+    "Since 1882 trains have crossed the Gotthard massif, in the Swiss Alps, through a 15-kilometer tunnel dug high up the mountain, at the end of ramps and curves that force freight trains to take an extra locomotive. The idea of going through the base of the mountain, almost on the level, appears in drawings from 1947. It only got off the drawing board after two popular votes, in 1992 and 1998, which gave Switzerland the project and the money.",
+    "The result is two single-track tubes, each 57 kilometers long, from Erstfeld, in the canton of Uri, to Bodio, in Ticino: the longest railway tunnel in the world, opened on June 1, 2016. To get there, the engineers faced hot rock, the threat of water under pressure and a stretch of just over a kilometer where the solution was to let the mountain squeeze the tunnel."
+  ],
+  "numeros": [
+    {"valor": "57 km", "rotulo": "of tunnel, in two single-track tubes: the longest railway tunnel in the world"},
+    {"valor": "2,300 m", "rotulo": "of rock above the tunnel at its deepest point"},
+    {"valor": "8 cm", "rotulo": "of horizontal deviation (and 1 cm vertical) at the main breakthrough, on October 15, 2010"},
+    {"valor": "CHF 12.2 bn", "rotulo": "actual cost of the work, paid for by a federal fund"},
+    {"valor": "9", "rotulo": "workers killed during construction, between 2002 and 2012, according to the project owner"},
+    {"valor": "45 · 50 °C", "rotulo": "maximum rock temperature, depending on the source"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To take freight off the Alpine roads and put it on the train. With no ramps, the tunnel allows longer, heavier trains with fewer locomotives: up to 260 freight trains a day, against a maximum of 180 on the 1882 mountain line.", "nota": "figures from the Swiss Confederation's 2015 brochure"},
+    {"item": "Who wanted it", "valor": "The Swiss Confederation, after two popular votes: approval of the New Rail Link through the Alps (NEAT) in 1992 and, in November 1998, the fund that secured the money. The first drawings of a base tunnel between Amsteg and Bodio date from 1947."},
+    {"item": "Who built it", "valor": "AlpTransit Gotthard AG, a subsidiary of SBB created for the project, acting as the Confederation's commissioned builder. The four tunnel boring machines were made by the German firm Herrenknecht. The tunnel is operated by SBB, the Swiss Federal Railways."},
+    {"item": "How it was dug", "valor": "In five sections at the same time: from the Erstfeld and Bodio portals, through access tunnels at Amsteg and Faido and through two vertical shafts of about 800 meters at Sedrun. Tunnel boring machines dug most of the main tubes; the rest was done by blasting.", "nota": "the share bored by machines is 80% according to the Confederation and about 75% according to the manufacturer"},
+    {"item": "Tunnel boring machines", "valor": "Four Herrenknecht gripper machines, with cutterheads of 9.43 and 9.58 meters and more than 400 meters long. The workers called them Sissi and Heidi (the southern ones) and Gabi 1 and Gabi 2 (the northern ones)."},
+    {"item": "Timeline", "valor": "Preparatory work at Sedrun from 1996; main works from 1999; main breakthrough on October 15, 2010 and last one on March 23, 2011; opening on June 1, 2016 and commercial trains from December 11, 2016. That is 17 years of main works, not counting the geological exploration (1993–1996) or the preparation at Sedrun."},
+    {"item": "Workers", "valor": "About 2,400 people at the peak, working 24 hours a day in three shifts, according to the Confederation. The total number of workers who passed through the project was not recorded in the sources consulted."},
+    {"item": "Deaths", "valor": "Nine workers died between 2002 and 2012: four Germans, three Italians, one South African and one Austrian, at the Amsteg (1), Sedrun (2), Faido (3) and Bodio (3) sites. Their names are on a bronze plaque at the north portal, in Erstfeld, unveiled the day before the opening.", "nota": "figure from AlpTransit itself; no source consulted disputes it"},
+    {"item": "Cost", "valor": "CHF 12.2 billion in actual terms. The figure of CHF 9.7 billion, also official, is at 1998 prices, without the increase in value-added tax and without the interest on the project."},
+    {"item": "Who paid", "valor": "A federal fund created in 1998, fed 60% by a charge on heavy trucks, 30% by value-added tax and 10% by the mineral oil tax."},
+    {"item": "The rock", "valor": "From hard granite to crumbling sedimentary rock. Maximum overburden of 2,300 meters. A temperature of 45 °C measured on site, according to the Swiss press, or of up to 50 °C, according to the Confederation, against a working limit of 28 °C."},
+    {"item": "Material removed", "valor": "28.2 million tonnes of rock, from 152 kilometers of tunnels counting tubes, access tunnels, shafts and cross passages."},
+    {"item": "The 2023 accident", "valor": "On August 10, 2023, a broken wheel on a car made 16 cars of a freight train derail inside the tunnel, near Faido. One of the tubes stayed closed until September 2, 2024. SBB has put the damage at about CHF 150 million or at CHF 100 to 130 million, depending on the occasion.", "nota": "the event and the dates are confirmed; the amount of damage varies"},
+    {"item": "Today", "valor": "In ten years, 169,000 passenger trains and 276,000 freight trains went through. In 2025, 16,400 passengers a day and 24.2 million tonnes of freight. Since May 2026, derailment detectors have watched over the entrances."}
+  ],
+  "historia": [
+    {
+      "titulo": "A mountain that had already charged a high price",
+      "paragrafos": [
+        "The first Gotthard tunnel, between Göschenen, in the canton of Uri, and Airolo, in Ticino, was dug from 1872 to 1882. It cost a number of lives on which not even the sources agree: 171 on the list of victims cited by the Swiss National Museum, 177 or 199 in other counts. Dynamite, dust, malnutrition, typhoid and worm infections were all part of the toll. The engineer and contractor Louis Favre died of a heart attack inside the tunnel in 1879, before the two sides met.",
+        "That tunnel sits high up. To reach it, the line climbs on ramps and spirals, and freight trains need an extra locomotive. The idea of a base tunnel, dug at the root of the mountain and almost level, appears in drawings from 1947. It became a project when the Swiss approved the New Rail Link through the Alps, in 1992, and it became money in November 1998, with a fund paid mostly by a charge on heavy trucks. The road itself began paying for the train that would take freight off it."
+      ]
+    },
+    {
+      "titulo": "Five fronts at once",
+      "paragrafos": [
+        "Digging 57 kilometers from the two ends alone would take far too long. AlpTransit Gotthard split the work into five sections and attacked them all at once: from the Erstfeld and Bodio portals, through access tunnels at Amsteg and Faido and, in the middle of the mountain, through two vertical shafts of about 800 meters at Sedrun, in the canton of Graubünden. Shaft 1 began to be sunk in August 1998.",
+        "Four Herrenknecht tunnel boring machines, machines more than 400 meters long with cutterheads of 9.4 to 9.6 meters, dug most of the tubes. In 2009, Gabi 2 advanced 56 meters in 24 hours, a record for a machine of that size in hard rock, according to the manufacturer. Where the rock was too soft for a machine that braces itself against the walls, the tunnel was opened by blasting."
+      ]
+    },
+    {
+      "titulo": "The water that might be there",
+      "paragrafos": [
+        "For decades, geologists argued about the Piora syncline, a band of dolomite in the tunnel's path. Some experts were convinced that crossing it would be practically impossible. Between 1993 and 1996, the exploration cost about CHF 100 million, according to AlpTransit's own engineers.",
+        "In March 1996, a borehole drilled from a gallery some 350 meters above the future tunnel struck crumbling dolomite under high water pressure. The mixture flooded the gallery and, within a few hours, the road in front of it. Nineteen boreholes later, totaling 7,000 meters, the answer came: at tunnel level, the rock was solid and dry. The tunnel boring machines crossed the Piora without trouble, the one in the east tube in October 2008 and the one in the west tube in January 2009."
+      ]
+    },
+    {
+      "titulo": "Letting the mountain squeeze",
+      "paragrafos": [
+        "The most feared stretch lay north of Sedrun, in the Tavetsch intermediate massif. There the tunnel had to cross just over a kilometer of rock crushed by geological faults, the so-called kakirites, under 800 meters or more of mountain. In laboratory tests, this rock proved highly ductile and took up much more volume as it fractured. It does not collapse like stone: it creeps slowly into the hole, like a paste under pressure. A similar problem had already appeared in the Gotthard road tunnel, in the 1970s.",
+        "A rigid support would have been crushed. The solution, developed by the design engineers together with AlpTransit, combined two practices that had never been used in those conditions: yielding steel rings, borrowed from mining, and full-face excavation with a heavily reinforced face, in the Italian manner. The tunnel was dug bigger than it needed to be, up to about 13 meters in diameter, and fitted with two concentric steel rings with sliding joints. The mountain squeezed, the rings gave way, and the hole closed on purpose, with a planned convergence of up to about 70 centimeters, before receiving its final concrete lining, up to 120 centimeters thick.",
+        "The principle, in the engineers' words, is that the more the ring yields, the less force is needed to hold back the mountain. Before applying it, the team tested the rings at full scale in a side gallery at Sedrun, simulating the rock pressure with water-filled cushions, and found that the behavior predicted in theory was not repeated in practice. Measured afterwards, the deformation averaged 25 centimeters and reached 85 at asymmetric points, according to a survey by the Swiss Geotechnical Society. The stretch was conquered between 2004 and 2007, more than half a year ahead of schedule."
+      ]
+    },
+    {
+      "titulo": "Eight centimeters",
+      "paragrafos": [
+        "On October 15, 2010, the tunnel boring machine Sissi broke through the last wall of rock in the east tube, between Sedrun and Faido. The two sides, dug toward each other for years inside the mountain, met with a deviation of 8 centimeters horizontally and 1 centimeter vertically. The tolerance was 25 centimeters. In the west tube, the last breakthrough came on March 23, 2011.",
+        "Five years of track, overhead lines, ventilation and safety systems followed. On May 31, 2016, the day before the celebrations, about 50 people gathered at the north portal to unveil a bronze plaque bearing the names of the nine workers who died on the project, between 2002 and 2012. The next day, the tunnel was opened in front of heads of government from neighboring countries. Commercial trains began running on December 11."
+      ]
+    },
+    {
+      "titulo": "One car, one wheel, one year",
+      "paragrafos": [
+        "On August 10, 2023, part of a wheel on the 11th car of a freight train running from Chiasso to Basel came loose just after the south entrance. Kilometers further on, the axle destroyed a switch at the Faido multifunction station, and 16 cars derailed. The tunnel was completely closed for two weeks; then one tube went back into service, and the other was only reopened on September 2, 2024. The final report of the Swiss accident investigation body, from June 2025, pointed to fatigue in the wheel disc after overheating, probably caused by a stuck brake.",
+        "In May 2026, an opinion from the Ticino prosecutor's office, reported by the Swiss press, argued that SBB's operations center could have prevented the worst; SBB rejected the accusation. Around the same time, the company switched on derailment detectors at about ten points before the tunnel entrances. On June 1, 2026, the tunnel turned ten: the number of passengers per day had almost doubled since 2015, and freight carried reached 24.2 million tonnes in 2025."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "It is the longest tunnel in the world.",
+      "registro": "It is the longest railway tunnel in the world, at 57 kilometers. The title applies to rail tunnels."
+    },
+    {
+      "circula": "It cost twice what was planned.",
+      "registro": "The official CHF 9.7 billion is at 1998 prices, without the tax increase and without the interest on the project; the CHF 12.2 billion is the actual cost. The two figures do not measure the same thing."
+    },
+    {
+      "circula": "The two sides met with an error of millimeters.",
+      "registro": "At the main breakthrough, in 2010, the deviation was 8 centimeters horizontally and 1 vertically. The millimeters (4 and 8) belong to the Amsteg breakthrough, in 2009, according to the maker of the tunnel boring machines."
+    },
+    {
+      "circula": "A modern project like this killed no one.",
+      "registro": "Nine workers died, according to AlpTransit Gotthard itself, which dedicated a plaque to them at the north portal in 2016."
+    }
+  ],
+  "perguntas": [
+    {"p": "How long is the Gotthard Base Tunnel?", "r": "It is 57 km long, in two single-track tubes, from Erstfeld, in the canton of Uri, to Bodio, in Ticino. It is the longest railway tunnel in the world, with up to 2,300 meters of rock above it at the deepest point."},
+    {"p": "When did the Gotthard Base Tunnel open?", "r": "On June 1, 2016, and commercial trains began running on December 11, 2016. The main works began in 1999, and the main breakthrough between the two sides came on October 15, 2010."},
+    {"p": "How much did the Gotthard Base Tunnel cost?", "r": "The actual cost was CHF 12.2 billion, paid by a federal fund fed mainly by a charge on heavy trucks. The figure of CHF 9.7 billion, also official, is at 1998 prices, without the tax increase and without the interest on the project."},
+    {"p": "How many people died building the Gotthard Base Tunnel?", "r": "Nine workers died between 2002 and 2012, according to AlpTransit Gotthard, at the Amsteg, Sedrun, Faido and Bodio sites. Their names are on a bronze plaque at the north portal, in Erstfeld, unveiled the day before the opening."},
+    {"p": "How was the Gotthard Base Tunnel built?", "r": "On five fronts at once: from the two portals, through access tunnels at Amsteg and Faido and through two shafts of about 800 meters at Sedrun. Four Herrenknecht tunnel boring machines dug most of the tubes and the rest was blasted; in a stretch of rock that kept closing in, yielding steel rings let the mountain squeeze the tunnel on purpose."}
+  ],
+  "fontes": [
+    {"texto": "Swiss Confederation (Bundesamt für Verkehr / gottardo2016.ch), \"The Gotthard Base Tunnel\", brochure, 2015"},
+    {"texto": "Rupert Lieb and Heinz Ehrbar (AlpTransit Gotthard), \"Gotthard Base Tunnel: Risk Management for the World's Longest Railway Tunnel\", World Tunnel Congress, 2011"},
+    {"texto": "Swiss Geotechnical Society, \"Gotthard Base Tunnel\", ISSMGE Heritage Time Capsule, 2024"},
+    {"texto": "Herrenknecht AG, \"Gotthard Base Tunnel\" reference"},
+    {"texto": "tunnel magazine, \"Gotthard Base Tunnel: High-accuracy at final breakthrough\", 2010"},
+    {"texto": "Tunnels & Tunnelling, \"Sedrun – Gotthard's toughest challenge\", 2004"},
+    {"texto": "AlpTransit Gotthard AG, press release on the memorial ceremony for the workers who died, 31/05/2016"},
+    {"texto": "SRF, \"Gotthard – Die Schattenseite des Jahrhundertbauwerks\", 2016"},
+    {"texto": "Luigi Jorio, \"Engineers meet challenge of Gotthard tunnel\", swissinfo.ch, 2014"},
+    {"texto": "swissinfo.ch, \"Broken wheel caused Gotthard Base Tunnel derailment, report confirms\", 2023"},
+    {"texto": "Keystone-SDA, \"SBB installiert Entgleisungsdetektoren vor dem Gotthard-Basistunnel\", nau.ch, 12/05/2026"},
+    {"texto": "Luigi Jorio, \"The Gotthard Base Tunnel ten years on\", swissinfo.ch, 2026"},
+    {"texto": "Swiss National Museum, \"Vincenzo Vela's Victims of Labour memorial\", 2023"}
+  ],
+  "imagens": [
+    {
+      "alt": "Inside a rock tunnel coated in shotcrete, the huge rust-colored circular cutterhead of a tunnel boring machine, full of openings; a worker in a helmet and coveralls stands beside it, reaching about a quarter of the way up the disc",
+      "legenda": "The cutterhead of tunnel boring machine S-210, Sissi, at Faido, days after arriving through the east tube, in September 2006. The same machine made the main breakthrough four years later.",
+      "autor": "Cooper.ch"
+    },
+    {
+      "alt": "Interior of a dark rock tunnel under construction, with temporary rails, a small white service locomotive with its headlights on, a concrete car on the left and lights along the curved wall into the distance",
+      "legenda": "The east tube at the Amsteg site, in August 2004, with the rock still exposed. The tunnel boring machine was already kilometers ahead.",
+      "autor": "Daniel Schwen"
+    },
+    {
+      "alt": "View from above of a snow-covered construction site in a valley of pine trees, with sheds, a tall gray building, stacks of pipes and a long yellow conveyor belt crossing the scene",
+      "legenda": "The Sedrun site, in October 2010, eleven days after the main breakthrough. From here, two shafts of about 800 meters went down to the tunnel.",
+      "autor": "Markus Giger"
+    },
+    {
+      "alt": "Large arched concrete cavern, with two tunnel mouths side by side at the back, each closed by a yellow gate, rails on the floor and construction materials stacked in the middle",
+      "legenda": "The Faido multifunction station under construction, in November 2014, with the two tubes and the temporary gates against the air draft. It was at this station that the train that derailed in 2023 destroyed a switch.",
+      "autor": "Hannes Ortlieb"
+    },
+    {
+      "alt": "White pointed-nose train coming out of one of two smooth concrete tunnel mouths, beneath a rocky embankment; in the foreground, rails and the roof of a red shed",
+      "legenda": "A EuroCity at the north portal, in Erstfeld, in November 2016, weeks before commercial trains began running.",
+      "autor": "Zacharie Grossen"
+    },
+    {
+      "alt": "Blurred crowd in the foreground at an open-air station, a double-deck train standing on the left and, in the background, between overhead-line masts and green mountains, the tunnel mouth with a train coming out",
+      "legenda": "Crowds during the opening days, in June 2016, by the south portal, when the first passenger trains went through the tunnel.",
+      "autor": "Zacharie Grossen"
+    }
+  ]
+}

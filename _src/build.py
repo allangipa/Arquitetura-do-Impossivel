@@ -984,11 +984,31 @@ def seo_fixas():
         "privacidade.html": (f"Política de privacidade · {NOME}",
                              f"Como o {NOME} trata dados, cookies e anúncios do Google AdSense, como rever a escolha de "
                              "cookies e seus direitos sob a LGPD."),
+        **FIXAS_SEO.get(L, {}),
     }
 
 
-# Sobre, contato e privacidade ainda só existem em português (o texto mora
-# aqui no build): nos outros idiomas, os links para elas caem no português.
+# Sobre, contato e privacidade em outros idiomas (desde 03/10/2026): o texto
+# mora aqui no build, como o português. Idioma que não está em FIXAS_IDIOMAS
+# continua caindo nas páginas em português.
+FIXAS_IDIOMAS = {"en"}
+FIXAS_SEO = {
+    "en": {
+        "sobre.html": (f"About {NOME}: how each page is researched",
+                       f"What {NOME} is, an independent project on great structures: how pages are researched, "
+                       "the confidence seal, the images and who makes it."),
+        "contato.html": (f"Contact · {NOME}",
+                         f"How to reach {NOME} by e-mail: corrections with a source, image credits and removals, "
+                         "requests about your data (LGPD) and story ideas."),
+        "privacidade.html": (f"Privacy policy · {NOME}",
+                             f"How {NOME} handles data, cookies and Google AdSense ads, how to review your cookie "
+                             "choice, and your rights under Brazil's LGPD."),
+    },
+}
+
+
+# Sobre, contato e privacidade: português e os idiomas de FIXAS_IDIOMAS; nos
+# outros, os links para elas caem no português.
 
 
 def titulo_seo(o):
@@ -1459,29 +1479,143 @@ PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
 """
 
 
+PRIVACY_EN = """<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">Document · updated October 3, 2026</span>
+  <h1>Privacy policy</h1>
+  <p class="lead">A site that demands sources from others should be clear about itself. Here is what {{NOME}} collects, what it does not collect, who else is involved and what you can demand.</p>
+
+  <div class="resumo"><strong>In short.</strong> We do not ask you to sign up, we have no forms and we keep no e-mail list: if you write to us, your e-mail stays only in our inbox, for the reply. What does exist are Google advertising cookies, used to show ads, which load from the first page on. If you decline in the banner, the ad script is removed and stops loading from the next page on; whatever it has already read or stored on the page you were on is not undone. You can review your choice at any time through the “Review cookie choice” link in the footer, and personalized advertising can be turned off in Google’s settings.</div>
+
+  <h2>1. Who is responsible</h2>
+  <p><strong>{{NOME}}</strong> is an independent editorial project, published at {{DOMINIO_NU}}, {{CANAL_FRASE}}. For any matter concerning this policy — including requests for deletion or for information — the contact is the e-mail address given on the <a href="contato.html">contact</a> page.</p>
+
+  <h2>2. What we collect, and what we do not</h2>
+  <p>There is no sign-up, login, comments, newsletter or contact form. No page asks for your name, e-mail, phone number or ID. We do not build reader profiles and we do not sell or share anyone’s list, because no list exists.</p>
+  <p>What exists is what any site receives simply by being visited: the server that hosts these pages logs the IP address, the date and time, the page requested and the browser used. These logs serve security and fault diagnosis, and are not used to identify people.</p>
+
+  <h2>3. Cookies and advertising</h2>
+  <p>This site shows ads through <strong>Google AdSense</strong>. To do so, Google and its partners use cookies — small files stored in your browser — to select and measure the ads.</p>
+  <ul>
+    <li>Google, as a third-party vendor, uses cookies to serve ads on this site.</li>
+    <li>Google’s advertising cookies enable it and its partners to serve ads based on the user’s visits to this and other sites on the internet.</li>
+    <li>Third-party partners and networks may also use cookies, device identifiers or similar technology to measure and personalize ads.</li>
+    <li>None of this data passes through us: the site does not receive, store or have access to what these networks collect.</li>
+  </ul>
+  <p>You can turn off personalized advertising — across all sites in Google’s network, not just this one — at <a href="https://adssettings.google.com" rel="noopener">adssettings.google.com</a>. Google’s full rules are at <a href="https://policies.google.com/technologies/ads?hl=en" rel="noopener">policies.google.com/technologies/ads</a>, and to opt out of behavioral advertising from several networks at once there is <a href="https://www.aboutads.info/choices/" rel="noopener">aboutads.info/choices</a>.</p>
+  <p>Every browser also lets you block or delete cookies. Doing so does not prevent you from reading anything: the content of this site does not depend on cookies to work.</p>
+
+  <h2>4. What we store in your browser</h2>
+  <p>A single thing, and it never leaves your device: when you answer the cookie banner, your choice is recorded in the browser’s local storage, under the key <code>{{CHAVE}}</code>. It serves only so that you are not asked again on every page. It is not a cookie, it is not sent to any server, and it disappears when you clear the site’s data or click “Review cookie choice” in the footer of any page: the saved choice is erased and the banner appears again.</p>
+
+  <h2>5. Third-party content</h2>
+  <p>A single external service takes part in displaying these pages: <strong>Google AdSense</strong>, which delivers the ads. The ad script loads from the first page on, before any answer. If you decline in the banner, it is removed and stops being loaded from the next page on; whatever it has already displayed, read or stored on the page you were on is not undone, and cookies Google has already stored remain in the browser until you delete them.</p>
+  <p><strong>YouTube</strong> only comes in if you click a link to the channel: no video is embedded in these pages. Everything else — the images on the structure pages and the typefaces — comes from this same domain.</p>
+
+  <h2>6. Your rights under the LGPD</h2>
+  <p>Brazil’s General Data Protection Law (LGPD, Law No. 13,709/2018) guarantees you the right to confirm whether any data of yours is being processed, to access it, to correct it, to request its anonymization or deletion, to request portability, to know with whom it was shared and to withdraw consent at any time.</p>
+  <p>Here, exercising these rights is quick, because the database we could hand over is practically empty. Even so, any request made through the <a href="contato.html">contact</a> page will be answered. To withdraw the choice made in the cookie banner, use the “Review cookie choice” link in the footer of any page. For the data Google collects through the ads, the request must be made to Google itself — we display the space, but Google is the one that processes that data.</p>
+
+  <h2>7. Children and teenagers</h2>
+  <p>The content of this site is not directed at children under 13, and we do not knowingly collect data from children. If you are responsible for a child and believe any of their data has reached us, get in touch so that it can be deleted.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>If anything changes — a new ad network, a measurement tool, a comments section — this page changes with it, and the date at the top is updated.</p>
+
+  <div class="botoes" style="margin-top:2.5rem"><a class="botao cheio" href="index.html#obras">See the structures</a></div>
+</div></main>
+"""
+
+ABOUT_EN = """<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">About</span>
+  <h1>About {{NOME}}</h1>
+
+  <h2>1. What it is</h2>
+  <p><strong>Arquitetura do Impossível</strong> (Impossible Architecture) is an independent editorial project, made in Brazil, about great structures: how a work that seemed impossible came to stand. Each page of this site accompanies an episode of the YouTube channel, {{CANAL}}, in Portuguese, and is published before the premiere, while the episode is still to come. It goes beyond the video: it has the full fact sheet, the sources, the credited images and the disagreements that do not fit in a video.</p>
+  <p>The question is always the same: <em>what made this structure impossible, and who solved it</em> — with what math, what material, what improvisation. The protagonist is the engineering problem; people come in as those who faced it. Structures from Brazil and the rest of the world, one a week.</p>
+
+  <h2>2. How a page is made</h2>
+  <ul>
+    <li><strong>Every fact sheet covers what is usually missing:</strong> how many workers, how long, how much it cost, who was injured and who died — every line with a source.</li>
+    <li><strong>Every number carries a confidence seal:</strong> confirmed in two or more sources, single source (the text says which), disagreement (we show the versions and do not pick one) or no record (we say nobody recorded it, instead of making it up).</li>
+    <li><strong>The debunked myth is part of the story:</strong> the worker buried in the concrete, the structure "built in X days", the death toll nobody checked.</li>
+    <li><strong>Today’s value only with a stated method.</strong> Converting old money without saying how is making numbers up.</li>
+    <li><strong>Entirely original writing.</strong> The sources are listed at the end of each page.</li>
+  </ul>
+
+  <h2>3. Images</h2>
+  <p>Only real photographs, plans and documents are used, from collections in the public domain or under a Creative Commons license that allows commercial use, with author and license credited on every page. AI-generated images are not used on this site.</p>
+
+  <h2>4. Corrections</h2>
+  <p>Got a date, a name or a number wrong? Write through the <a href="contato.html">contact</a> page, preferably with the source. A confirmed error is corrected here, and the correction also applies to whatever comes next on the channel.</p>
+
+  <h2>5. Who makes it</h2>
+  <p>{{NOME}} is written, researched and maintained independently, with no ties to any university, company or government body. It comes from the same creator as two other projects with the same care for sources: <a href="{{VO}}" rel="noopener">Vestígio Oculto</a>, on archaeology and mystery, and <a href="{{XB}}" rel="noopener">Xadrez Bélico</a>, on battles explained as a chess game (both in Portuguese).</p>
+  <p>The site is supported by Google AdSense ads, described in the <a href="privacidade.html">privacy policy</a>. No ad interferes with what is written.</p>
+</div></main>
+"""
+
+CONTACT_EN = """<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">Contact</span>
+  <h1>Contact {{NOME}}</h1>
+  <p class="lead">A correction, an image credit, a request about your data or anything else: there is just one way in.</p>
+  <div class="resumo"><strong>E-mail:</strong> <a href="mailto:allangipa@gmail.com">allangipa@gmail.com</a></div>
+
+  <h2>What to write about</h2>
+  <ul>
+    <li><strong>Corrections.</strong> A wrong date, name or number. Send the source along: that is what makes a quick fix possible.</li>
+    <li><strong>Images and credits.</strong> If you are the author of an image used here and the credit is incomplete, or you want it removed, write to us.</li>
+    <li><strong>Your data.</strong> Requests under the LGPD, as set out in the <a href="privacidade.html">privacy policy</a>.</li>
+    <li><strong>Story ideas, press and partnerships.</strong> Topic suggestions are welcome too.</li>
+  </ul>
+
+  <h2>How we reply</h2>
+  <p>There is no form and no sign-up: the conversation happens by e-mail, and your address is not used for anything other than replying. A confirmed correction goes into the page.</p>
+</div></main>
+"""
+
+
 def pagina_privacidade():
     """Escrita para ESTE site, não copiada de modelo: diz só o que ele faz.
-    Adaptada da política do Vestígio Oculto, que tem o mesmo desenho."""
-    base = ""
-    if CANAL:
-        canal = f'com canal correspondente no YouTube, <a href="{CANAL}" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>'
+    Adaptada da política do Vestígio Oculto, que tem o mesmo desenho. A versão
+    em inglês diz exatamente o mesmo: mudou uma, muda a outra."""
+    base = "" if L == BASE_IDIOMA else "../"
+    yt = f'<a href="{CANAL}" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>'
+    if L == "en":
+        canal = f"with a matching YouTube channel, {yt}" if CANAL else "with a matching YouTube channel"
+        modelo = PRIVACY_EN
     else:
-        canal = "com canal correspondente no YouTube"
-    corpo = (PRIVACIDADE.replace("{{NOME}}", NOME).replace("{{CANAL_FRASE}}", canal)
+        canal = f"com canal correspondente no YouTube, {yt}" if CANAL else "com canal correspondente no YouTube"
+        modelo = PRIVACIDADE
+    corpo = (modelo.replace("{{NOME}}", NOME).replace("{{CANAL_FRASE}}", canal)
              .replace("{{CHAVE}}", CHAVE_CONSENTIMENTO).replace("{{DOMINIO_NU}}", DOMINIO.split("//")[1]))
-    u = DOMINIO + "/privacidade.html"
+    u = url_de(L, "privacidade.html")
     TITULO_PRIV, DESC_PRIV = seo_fixas()["privacidade.html"]
     return (cabeca(TITULO_PRIV, DESC_PRIV, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
                    [{"@context": "https://schema.org", "@type": "WebPage", "name": TITULO_PRIV, "description": DESC_PRIV,
-                     "url": u, "inLanguage": "pt-BR"},
-                    migalhas((NOME, DOMINIO + "/"), ("Política de privacidade", u))])
+                     "url": u, "inLanguage": cfg("hreflang")},
+                    migalhas((NOME, url_de(L, "index.html")), (tr("Política de privacidade"), u))])
             + topo(base) + corpo + rodape(base) + consentimento(base) + SCRIPT)
 
 
 def pagina_sobre():
-    base = ""
-    canal = f'<a href="{CANAL}" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>' if CANAL else "no YouTube"
-    corpo = f"""<main id="conteudo"><div class="casca privacidade">
+    base = "" if L == BASE_IDIOMA else "../"
+    canal = f'<a href="{CANAL}" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>' if CANAL else ("on YouTube" if L == "en" else "no YouTube")
+    if L == "en":
+        corpo = ABOUT_EN.replace("{{CANAL}}", canal).replace("{{NOME}}", NOME) \
+            .replace("{{VO}}", SITE_IRMAO_VO).replace("{{XB}}", SITE_IRMAO_XB)
+    else:
+        corpo = SOBRE_PT(canal)
+    u = url_de(L, "sobre.html")
+    TITULO_SOBRE, DESC_SOBRE = seo_fixas()["sobre.html"]
+    return (cabeca(TITULO_SOBRE, DESC_SOBRE, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   [{"@context": "https://schema.org", "@type": "AboutPage", "name": TITULO_SOBRE, "description": DESC_SOBRE,
+                     "url": u, "inLanguage": cfg("hreflang")},
+                    migalhas((NOME, url_de(L, "index.html")), (tr("Sobre"), u))])
+            + topo(base, "sobre") + corpo + rodape(base) + consentimento(base) + SCRIPT)
+
+
+def SOBRE_PT(canal):
+    return f"""<main id="conteudo"><div class="casca privacidade">
   <span class="rotulo">Sobre</span>
   <h1>Sobre o {NOME}</h1>
 
@@ -1509,18 +1643,22 @@ def pagina_sobre():
   <p>O site se mantém com anúncios do Google AdSense, descritos na <a href="privacidade.html">política de privacidade</a>. Nenhum anúncio interfere no que é escrito.</p>
 </div></main>
 """
-    u = DOMINIO + "/sobre.html"
-    TITULO_SOBRE, DESC_SOBRE = seo_fixas()["sobre.html"]
-    return (cabeca(TITULO_SOBRE, DESC_SOBRE, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
-                   [{"@context": "https://schema.org", "@type": "AboutPage", "name": TITULO_SOBRE, "description": DESC_SOBRE,
-                     "url": u, "inLanguage": "pt-BR"},
-                    migalhas((NOME, DOMINIO + "/"), ("Sobre", u))])
-            + topo(base, "sobre") + corpo + rodape(base) + consentimento(base) + SCRIPT)
 
 
 def pagina_contato():
-    base = ""
-    corpo = f"""<main id="conteudo"><div class="casca privacidade">
+    base = "" if L == BASE_IDIOMA else "../"
+    corpo = CONTACT_EN.replace("{{NOME}}", NOME) if L == "en" else CONTATO_PT()
+    u = url_de(L, "contato.html")
+    TITULO_CONTATO, DESC_CONTATO = seo_fixas()["contato.html"]
+    return (cabeca(TITULO_CONTATO, DESC_CONTATO, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   [{"@context": "https://schema.org", "@type": "ContactPage", "name": TITULO_CONTATO, "description": DESC_CONTATO,
+                     "url": u, "inLanguage": cfg("hreflang")},
+                    migalhas((NOME, url_de(L, "index.html")), (tr("Contato"), u))])
+            + topo(base, "contato") + corpo + rodape(base) + consentimento(base) + SCRIPT)
+
+
+def CONTATO_PT():
+    return f"""<main id="conteudo"><div class="casca privacidade">
   <span class="rotulo">Contato</span>
   <h1>Fale com o {NOME}</h1>
   <p class="lead">Correção, crédito de imagem, pedido sobre seus dados ou qualquer outro assunto: o caminho é um só.</p>
@@ -1538,13 +1676,6 @@ def pagina_contato():
   <p>Não há formulário nem cadastro: a conversa é por e-mail, e o seu endereço não é usado para mais nada além de responder. Correção confirmada entra na página.</p>
 </div></main>
 """
-    u = DOMINIO + "/contato.html"
-    TITULO_CONTATO, DESC_CONTATO = seo_fixas()["contato.html"]
-    return (cabeca(TITULO_CONTATO, DESC_CONTATO, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
-                   [{"@context": "https://schema.org", "@type": "ContactPage", "name": TITULO_CONTATO, "description": DESC_CONTATO,
-                     "url": u, "inLanguage": "pt-BR"},
-                    migalhas((NOME, DOMINIO + "/"), ("Contato", u))])
-            + topo(base, "contato") + corpo + rodape(base) + consentimento(base) + SCRIPT)
 
 def sitemap_xml(entradas):
     """Um sitemap só, com as versões de cada página em xhtml:link (hreflang)."""
@@ -1578,7 +1709,8 @@ def main():
                            | {f"obras/{o['slug']}.html" for o in obras} | {f"temas/{t['slug']}.html" for t in temas_pt})
     for lg in ATIVOS[1:]:
         EXISTE[lg] = ({"index.html"} | {f"obras/{s}.html" for s in trads[lg]}
-                      | {f"temas/{t['slug']}.html" for t in temas_por[lg]})
+                      | {f"temas/{t['slug']}.html" for t in temas_por[lg]}
+                      | ({"sobre.html", "contato.html", "privacidade.html"} if lg in FIXAS_IDIOMAS else set()))
 
     def lista_de(lg):
         """Todas as obras, na versão do idioma quando existe (para links e "Leia também")."""
@@ -1627,12 +1759,13 @@ def main():
             datas[(lg, PAGINA)] = max([d_temas, fixas_data] + [datas[(lg, f"obras/{s}.html")] for s in t[CHAVE_MEMBROS]])
         PAGINA = "index.html"
         saida[pre + PAGINA] = home(delas, og_casa, total=len(obras))
-        if lg == BASE_IDIOMA:
+        if lg == BASE_IDIOMA or lg in FIXAS_IDIOMAS:
             for chave, fn in (("privacidade.html", pagina_privacidade), ("sobre.html", pagina_sobre),
                               ("contato.html", pagina_contato)):
                 PAGINA = chave
-                saida[chave] = fn()
+                saida[pre + chave] = fn()
                 datas[(lg, chave)] = fixas_data
+        if lg == BASE_IDIOMA:
             PAGINA = "404.html"
             saida["404.html"] = pagina_404()
         datas[(lg, "index.html")] = max([fixas_data] + [d for (l2, _), d in datas.items() if l2 == lg])
@@ -1683,7 +1816,7 @@ def main():
     ordem = []
     for lg in ATIVOS:
         chaves = (["index.html"] + [f"obras/{o['slug']}.html" for o in obras]
-                  + (["sobre.html", "contato.html", "privacidade.html"] if lg == BASE_IDIOMA else [])
+                  + (["sobre.html", "contato.html", "privacidade.html"] if lg == BASE_IDIOMA or lg in FIXAS_IDIOMAS else [])
                   + [f"temas/{t['slug']}.html" for t in temas_por[lg]])
         ordem += [(lg, c, datas[(lg, c)]) for c in chaves if (lg, c) in datas]
     (RAIZ / "sitemap.xml").write_text(sitemap_xml(ordem), encoding="utf-8")

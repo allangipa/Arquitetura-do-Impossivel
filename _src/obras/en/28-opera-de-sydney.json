@@ -1,0 +1,157 @@
+{
+  "_nota": "Tradução fiel de ../28-opera-de-sydney.json. Campos fixos vêm do original.",
+  "obra": "Sydney Opera House",
+  "titulo_seo": "How the Sydney Opera House Was Built (1959–1973)",
+  "titulo_video": null,
+  "lugar": "Bennelong Point, Sydney, New South Wales, Australia",
+  "periodo": "1959–1973",
+  "impossivel": "To turn into concrete a sketch of shells drawn freehand, which matched no known geometric form and which, for years, nobody managed to describe in numbers, calculate or fabricate.",
+  "resumo": "How the Sydney Opera House shells went years without a geometry until they became slices of a single sphere, and why a job budgeted at 7 million cost 102.",
+  "abertura": [
+    "In January 1957, a 38-year-old Danish architect, Jørn Utzon, won the competition for Sydney's opera house, in Australia, with drawings that were little more than a sketch: white, curved, free-flowing shells, opening over the harbor at Bennelong Point. The jury went with the drawing. Nobody yet knew how to build it.",
+    "Construction began in 1959 with the roof still unsolved. The engineers at Ove Arup & Partners spent years trying to turn those curves into parabolas and ellipses that could be calculated and fabricated. The answer, in 1961, was to cut all the shells from the surface of a single sphere. The rest of the story, with the architect's departure, a budget multiplied by 14 and a lottery that paid the bill, ran until 1973."
+  ],
+  "numeros": [
+    {"valor": "AU$ 7M → 102M", "rotulo": "from the 1957 budget to the final cost, paid almost entirely by a lottery"},
+    {"valor": "14 years", "rotulo": "of construction, from March 2, 1959, to the opening on October 20, 1973; the forecast was 4"},
+    {"valor": "2,194", "rotulo": "precast concrete pieces in the ribs of the shells"},
+    {"valor": "1,056,006", "rotulo": "Swedish tiles, in two finishes, covering the shells"},
+    {"valor": "12", "rotulo": "roof schemes studied before the spherical solution"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To give Sydney a great house for opera and concerts. The New South Wales government, under Premier Joseph Cahill, launched an international competition and chose Bennelong Point, the spit of land in the harbor where a tram depot stood.", "nota": "the tram depot comes from a single source (Dictionary of Sydney)"},
+    {"item": "The competition", "valor": "Won by Jørn Utzon, announced on January 29, 1957. The jury included the Finnish-American architect Eero Saarinen. The number of entries received is given as 220, 223 or 233, from 28 or 32 countries.", "nota": "the winner and the date are not in doubt; the count of entries varies even between pages of the Opera House itself"},
+    {"item": "Design", "valor": "Jørn Utzon, until his resignation on February 28, 1966. After that, Peter Hall, with Lionel Todd and David Littlemore, under the Government Architect E. H. Farmer, designed the interiors and changed the program of the halls.", "nota": "Hall's appointment is dated March 28 or April 19, 1966"},
+    {"item": "Engineering", "valor": "Ove Arup & Partners, of London, from start to finish. Jack Zunz took over the roof problem in 1961; the young engineer Peter Rice handled the setting out of the shell pieces in Sydney.", "nota": "Arup says it was appointed in 1957; New Civil Engineer says November 1958"},
+    {"item": "The solution", "valor": "After 12 schemes, with parabolas and ellipsoids, all the shells were cut from the surface of a single sphere, in 1961. The uniform curvature made it possible to mass-produce the ribs on site. The radius is given as 75.2 meters on Wikipedia; Arup speaks of a diameter of 75 meters.", "nota": "the Opera House credits the idea to Utzon; Jack Zunz's account describes a joint arrival"},
+    {"item": "Who built it", "valor": "Civil & Civic, the podium (1959–1963); M. R. Hornibrook, the shells, from 1963, assembled with a movable steel arch calculated by hand by engineer Joe Bertony; then, the interiors."},
+    {"item": "Timeline", "valor": "Start on March 2, 1959; podium finished in February 1963; shells from 1963 to 1966 or 1967; opened on October 20, 1973, by Queen Elizabeth II. Initial forecast: 4 years, with completion in 1963."},
+    {"item": "Workers", "valor": "About 10,000 over the course of construction, according to the Sydney Opera House. Peak workforce, hours and wages do not appear in the sources consulted. In 1972 the workers occupied the site for about five weeks and worked under their own control."},
+    {"item": "Deaths and accidents", "valor": "No institutional source consulted publishes a number of dead or injured on the job. The versions in circulation, of no deaths or of one, come from websites with no primary source."},
+    {"item": "Cost", "valor": "A budget of £3.5 million in 1957, the same as AU$ 7 million after the 1966 currency changeover. Final cost of AU$ 102 million, 14.6 times the budget, or 1,357% over the estimate, in nominal terms.", "nota": "the total is a nominal sum of 14 years of spending; without the annual series, there is no reliable conversion to today's values"},
+    {"item": "Who paid", "valor": "The Opera House Lottery, run by the New South Wales government: 496 draws and about 86.7 million tickets, which raised AU$ 102 million by 1986, according to the state Treasury.", "nota": "the first draw is dated 1957 or 1958"},
+    {"item": "Shells and tiles", "valor": "2,194 precast rib pieces, of up to 15 or 15.5 tonnes each. 1,056,006 tiles of 120 mm made by the Swedish firm Höganäs, glossy white and matte cream, laid in 4,228 chevron-shaped panels.", "nota": "the number of panels comes only from the Opera House"},
+    {"item": "Utzon's departure", "valor": "After the 1965 election, Minister for Public Works Davis Hughes withheld fee payments. Utzon resigned on February 28, 1966, left Australia in April and never returned to see the finished building."},
+    {"item": "Heritage", "valor": "Inscribed on the UNESCO World Heritage List on June 28, 2007, by unanimous decision, on the third attempt."},
+    {"item": "Renovations", "valor": "The Concert Hall was closed for about two years and reopened in July 2022 with new acoustics, as part of a renewal program of AU$ 275 million or AU$ 300 million, depending on the source."},
+    {"item": "Today", "valor": "On August 4, 2026, the state government announced AU$ 120 million for maintenance and upgrades, including strengthening the structure under the Northern Boardwalk, the platform over the water, after more than 50 years in a marine environment."}
+  ],
+  "historia": [
+    {
+      "titulo": "A sketch without geometry",
+      "paragrafos": [
+        "In 1956 the New South Wales government launched an international competition for an opera house at Bennelong Point, the spit of land in Sydney Harbour next to the Harbour Bridge. More than two hundred designs arrived. The winner, announced on January 29, 1957, was entry number 218, by the Dane Jørn Utzon: a stone podium and, on top of it, white shells opening toward the sea.",
+        "It was a drawing, not a design. The curves had been drawn freehand and matched no shape that could be written as an equation. Without an equation, there was no way to calculate the stresses at each point or to fabricate the pieces. Legend has it that Eero Saarinen, a member of the jury, pulled Utzon's design out of the pile of rejects; another juror, Henry Ashworth, denied the story, and there is no precise record of how the choice was made."
+      ]
+    },
+    {
+      "titulo": "Starting without a roof",
+      "paragrafos": [
+        "Premier Joseph Cahill, according to accounts from the time, wanted to start quickly so that a later government could not cancel the project. Construction began on March 2, 1959, with the builder Civil & Civic doing the podium, while the roof still had no solution. Cahill died seven months later. The competition budget was £3.5 million, and completion was planned for 1963.",
+        "In London, the engineers at Ove Arup & Partners tried to give the shells a shape. First, sections of parabolas; then, of ellipsoids. Arup itself counts 12 schemes before reaching the solution. The initial idea of a thin concrete shell gave way to ribs, and every new geometry ran into the same problem: the shells had different curvatures at every point, and every piece would have to be unique. The podium, begun before the roof had a shape, was not finished until February 1963."
+      ]
+    },
+    {
+      "titulo": "Slices of a sphere",
+      "paragrafos": [
+        "The way out, in 1961, was to abandon the free forms and cut all the shells from the surface of a single sphere. On a sphere, the curvature is the same everywhere. So the ribs could be divided into repeating segments, cast in series on the site itself, and the whole roof became a problem of manufacturing, not of sculpture. The solution was formalized in the so-called Yellow Book, delivered in January 1962, with plans, sections and the details of the ribs and tiles.",
+        "Who had the idea depends on whose version you hear. The Sydney Opera House says Utzon had it alone, one night, in his office in Hellebæk, Denmark, on seeing that the models of the shells nested inside one another, and says the story that he peeled an orange is a myth. The account of engineer Jack Zunz, who took over the problem at Arup in August 1961, describes a joint arrival: the engineers explained that only spherical or toroidal forms gave the repetition the job needed, and the choice came about a month later.",
+        "Calculating the shells required one of the first uses of computers in structural analysis. According to Civil Engineering magazine, of the American Society of Civil Engineers, it took about 2,000 hours of computer time up to March 1967."
+      ]
+    },
+    {
+      "titulo": "Assembling in the air",
+      "paragrafos": [
+        "The builder M. R. Hornibrook took over the shells in 1963. In all, 2,194 precast concrete pieces, of up to 15 tonnes each, were made on site, lifted by cranes and joined to one another with epoxy resin, held together by post-tensioned steel cables. To position them, engineer Joe Bertony, born in Corsica, designed a steel erection arch that moved along the podium. He did the calculations by hand; run again later on an IBM 7090 computer at Woomera, they had no errors.",
+        "In Sydney, Arup's resident engineer was Peter Rice, who had worked on the geometry of the shells in London and wrote a program to set out each piece in space. Then came the tiles. The Swedish company Höganäs spent three years developing what became known as the Sydney Tile: 120 millimeters, clay with a little crushed stone, in glossy white and matte cream. There are 1,056,006 tiles, laid in 4,228 chevron-shaped panels, made beneath the monumental staircase."
+      ]
+    },
+    {
+      "titulo": "The architect who walked away",
+      "paragrafos": [
+        "In 1965 the government changed. The new premier, Robert Askin, had criticized the project, and the Minister for Public Works, Davis Hughes, took control of payments and decisions. With his fees withheld, Utzon resigned on February 28, 1966. He left Australia in April and never returned to see the finished building.",
+        "The architect Peter Hall, trained in Sydney, took over the interiors with Lionel Todd and David Littlemore. In December 1966 he decided that the larger hall, which Utzon was designing for both opera and concerts, would be for concerts only, and opera went to a smaller hall; the stage machinery already installed was dismantled. In a 1973 interview, Hall said the auditorium Utzon was working on had seats and aisles that did not meet evacuation rules. The work went on until 1973, with a unique episode in 1972, when the workers threw out the management and worked for about five weeks under their own control."
+      ]
+    },
+    {
+      "titulo": "The lottery's bill",
+      "paragrafos": [
+        "The 1957 budget, £3.5 million, became AU$ 7 million when Australia swapped the pound for the dollar in 1966. The final cost was AU$ 102 million, 14.6 times the budget, or 1,357% over the estimate, adding up fourteen years of spending with no adjustment for inflation. Instead of four years, it took fourteen, and completion came ten years late.",
+        "The bill was paid by gambling. According to the New South Wales Treasury, the Opera House Lottery held 496 draws and sold about 86.7 million tickets, at £5 each, with a top prize of £100,000, and raised AU$ 102 million by 1986. Queen Elizabeth II opened the building on October 20, 1973. Utzon was not there."
+      ]
+    },
+    {
+      "titulo": "Fifty years of sea",
+      "paragrafos": [
+        "Reconciliation came late. In 1999 Utzon was asked to set out the design principles for the building; in 2003 he received the Pritzker Prize; in 2004 a room redone to his design was named after him. On June 28, 2007, the Opera House was inscribed on the UNESCO World Heritage List, unanimously, on the third attempt. Utzon died in November 2008. The Concert Hall was closed for about two years and reopened in July 2022 with new acoustics.",
+        "On August 4, 2026, the state government announced AU$ 120 million for maintenance and upgrades. Besides replacing stage machinery up to 50 years old, the package includes strengthening the structure under the Northern Boardwalk, the platform over the water, after more than half a century in a marine environment. The building that only stood up because its pieces repeated now has to protect the base it rests on."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "Utzon peeled an orange and discovered the shells could come from a sphere.", "registro": "The Sydney Opera House itself says the orange story is a myth. The official version is that Utzon saw, one night in 1961, that the models of the shells nested inside one another. The account of engineer Jack Zunz, of Arup, describes reaching the sphere as joint work between architect and engineers."},
+    {"circula": "The concrete shells would not stand up.", "registro": "What was missing, above all, was geometry. The curves of the 1957 sketch matched no calculable shape, so there was no way to size or fabricate them. The thin shell imagined at the start also could not withstand the wind loads, which led to the ribs. There were 12 schemes, with parabolas and ellipsoids, before the spherical solution."},
+    {"circula": "Eero Saarinen pulled Utzon's design out of the pile of rejects.", "registro": "It is the most repeated anecdote about the competition, but there is no precise record of how the jury decided. Juror Henry Ashworth denied the story and said that Leslie Martin, another jury member, had already been impressed by the design before Saarinen arrived."},
+    {"circula": "Nobody died building the Sydney Opera House.", "registro": "No institutional source consulted publishes a death toll for the construction. The claim appears on websites with no source, as does the opposite version, of one death. What exists is an absence of records."}
+  ],
+  "perguntas": [
+    {"p": "How was the Sydney Opera House built?", "r": "The shells in Utzon's sketch had no calculable geometry; after 12 schemes, in 1961 all of them came to be cut from the surface of a single sphere. That way, 2,194 precast concrete pieces were mass-produced on site, lifted and joined with epoxy resin and post-tensioned steel cables."},
+    {"p": "When was the Sydney Opera House built and how long did it take?", "r": "Construction began on March 2, 1959, and the Opera House was opened by Queen Elizabeth II on October 20, 1973. It took 14 years, against a forecast of 4 years and completion in 1963."},
+    {"p": "Who was the architect of the Sydney Opera House?", "r": "The Dane Jørn Utzon, who won the competition in 1957. He resigned on February 28, 1966, and never returned to see the finished building; the interiors were designed by Peter Hall, with Lionel Todd and David Littlemore. The engineering was by Ove Arup & Partners from start to finish."},
+    {"p": "How much did the Sydney Opera House cost to build?", "r": "The final cost was AU$ 102 million, 14.6 times the 1957 budget of £3.5 million, the same as AU$ 7 million. It was paid for by the Opera House Lottery, run by the New South Wales government, which raised AU$ 102 million by 1986."},
+    {"p": "How many people died building the Sydney Opera House?", "r": "There is no record. No institutional source consulted publishes a number of dead or injured on the job, and the versions in circulation, of no deaths or of one, come from websites with no primary source. About 10,000 workers passed through the job, according to the Sydney Opera House."}
+  ],
+  "fontes": [
+    {"texto": "Sydney Opera House, \"The spherical solution\""},
+    {"texto": "Sydney Opera House, \"Interesting facts about Sydney Opera House\""},
+    {"texto": "Sydney Opera House, \"Jørn Utzon AC\""},
+    {"texto": "NSW Treasury, \"The House the Lotteries Built\""},
+    {"texto": "Arup, \"Sydney Opera House\""},
+    {"texto": "Laila Ellmoos, \"Sydney Opera House\", Dictionary of Sydney, 2008"},
+    {"texto": "Civil Engineering (ASCE), \"Australia's Sydney Opera House hits all the right notes\", September 2022"},
+    {"texto": "New Civil Engineer, \"No.30 Sydney Opera House\", 25 October 2012"},
+    {"texto": "create (Engineers Australia), \"The engineering that turned the Sydney Opera House from an idea into an icon\""},
+    {"texto": "Andrew Botros, \"Jack Zunz's Opera House\""},
+    {"texto": "ArchitectureAU, \"Fifty years of Sydney Opera House in 50 facts\", 2023"},
+    {"texto": "ABC News, \"The man who fixed the 'plain illegal' Sydney Opera House\", 1 February 2016"},
+    {"texto": "ABC News, \"Opera House makes World Heritage list\", 28 June 2007"},
+    {"texto": "ABC News, reopening of the Sydney Opera House Concert Hall, 14 July 2022"},
+    {"texto": "Commons Library, \"The 1972 Sydney Opera House Work-In\""},
+    {"texto": "Government of New South Wales, \"Securing the future of live performance at the Sydney Opera House\", 4 August 2026"},
+    {"texto": "The Urban Developer, \"Sydney Opera House Lines Up $120m Program of Renewal, Upgrades\", 2026"},
+    {"texto": "Sydney Opera House, \"Sydney Opera House CEO Louise Herron to step down after 14 years\", 1 July 2026"},
+    {"texto": "Wikipedia, \"Sydney Opera House\" (starting point)"}
+  ],
+  "imagens": [
+    {
+      "alt": "The Sydney Opera House seen from above by day: white shells on a sand-colored podium at the water's edge, blue water all around, a red boat leaving a trail of foam and the city in the background",
+      "legenda": "The Opera House in 2015, seen from the Harbour Bridge, at Bennelong Point.",
+      "autor": "Bernard Gagnon"
+    },
+    {
+      "alt": "Color aerial photograph of the building site: shells under construction with their ribs exposed, red cranes and hundreds of concrete pieces stockpiled on the podium",
+      "legenda": "The shells being assembled in 1965, seen from above, with the precast rib pieces stockpiled on the podium.",
+      "autor": "Len Stone photograph collection, City of Sydney Archives"
+    },
+    {
+      "alt": "The ribbed shells still without cladding, with three red cranes, seen from water level, and the steel arch of the Harbour Bridge behind",
+      "legenda": "Around 1965: the shells rise rib by rib, with the Harbour Bridge in the background.",
+      "autor": "Len Stone photograph collection, City of Sydney Archives"
+    },
+    {
+      "alt": "The shells already closed, in light gray concrete, with the ribbed underside exposed and two metal gantries on the podium, under a cloudy sky",
+      "legenda": "In 1968 the shells are closed, while the interiors, under the new architect Peter Hall, are still to be built.",
+      "autor": "Phillip Capper"
+    },
+    {
+      "alt": "Black-and-white photograph: a crowded steam ferry and dozens of boats in the harbor, in front of the Opera House shells, with bunting in the foreground",
+      "legenda": "The ferry Baragoola in the harbor during the opening, on October 20, 1973.",
+      "autor": "Graeme Andrews, City of Sydney Archives"
+    },
+    {
+      "alt": "The tip of a shell against the blue sky: the concrete ribs on the underside, a greenish glass panel and the surface covered in tiles in a chevron pattern",
+      "legenda": "Ribs, glass and tiles: the tip of one of the shells in 2019.",
+      "autor": "Dietmar Rabich"
+    }
+  ]
+}

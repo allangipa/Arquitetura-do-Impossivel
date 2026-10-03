@@ -198,9 +198,11 @@ Marca no inglês: **"Arquitetura do Impossível — Impossible Architecture"**
 "Arquitectura de lo Imposible". O `<title>` continua com o nome em português no fim, para caber
 em 60.
 
-Sobre, contato e privacidade **ainda só existem em português** (o texto mora
-no build); nos outros idiomas os links para elas caem no português, e a faixa
-de cookies diz "(in Portuguese)". O 404 é um só, em português.
+Sobre, contato e privacidade existem em português e em inglês (o texto mora
+no build: `PRIVACIDADE`/`PRIVACY_EN`, `SOBRE_PT`/`ABOUT_EN`, `CONTATO_PT`/`CONTACT_EN`,
+e o título/description em `FIXAS_SEO`). Idioma fora de `FIXAS_IDIOMAS` cai nas
+páginas em português. **A privacidade em inglês diz exatamente o que a portuguesa
+diz**: mudou uma, mude a outra. O 404 é um só, em português.
 
 ### Traduzir uma obra (o fluxo)
 

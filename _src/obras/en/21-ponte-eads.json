@@ -1,0 +1,127 @@
+{
+  "_nota": "Tradução fiel de ../21-ponte-eads.json. Campos fixos vêm do original.",
+  "obra": "Eads Bridge",
+  "titulo_seo": "How the Eads Bridge Was Built in St. Louis (1867–1874)",
+  "titulo_video": null,
+  "lugar": "Mississippi River, between St. Louis, Missouri, and East St. Louis, Illinois, United States",
+  "periodo": "1867–1874",
+  "impossivel": "Resting on bedrock, beneath some 25 meters of sand that the Mississippi kept shifting, three arches of more than 150 meters each made of a metal that had never been the main one in a large structure, with no falsework in the river and without stopping the steamboats.",
+  "resumo": "How a man with no engineering degree built the steel-arched Eads Bridge over the Mississippi in 1874, and the cost of digging to bedrock in compressed air.",
+  "abertura": [
+    "In 1867, St. Louis, Missouri, in the United States, saw the Mississippi River as a barrier. Trains reached the riverbank and the freight went down onto ferries, while Chicago, farther north, was already establishing itself as the nation's railroad hub. The rivermen demanded that any bridge let the steamboats pass underneath and not block the river during construction.",
+    "The man who set out to build it was James Buchanan Eads, who had never studied engineering or designed a bridge. What he had was something else: years on the bottom of that same river, inside a diving bell, salvaging cargo from sunken steamboats. He knew the sand of the riverbed moved, and he decided the bridge would stand only if it went all the way down to bedrock."
+  ],
+  "numeros": [
+    {"valor": "502 + 520 + 502 ft", "rotulo": "the three arches, about 153, 158 and 153 meters"},
+    {"valor": "1867–1874", "rotulo": "from the first cofferdam, on 21 August 1867, to the opening on 4 July 1874"},
+    {"valor": "123 to 136 ft", "rotulo": "the deepest foundation, on the Illinois side, depending on each source's reference level"},
+    {"valor": "13 to 16", "rotulo": "dead on the job, almost all from caisson disease; the most cited count is 14"},
+    {"valor": "2,390 t", "rotulo": "of steel, alongside 3,156 t of wrought iron"},
+    {"valor": "14", "rotulo": "locomotives in the load test of 2 July 1874, two days before the opening"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To link by rail the railroads arriving at East St. Louis, Illinois, with those leaving from St. Louis, Missouri. Without a bridge, train freight crossed the Mississippi on ferries, which made the route more expensive and pushed trade toward Chicago."},
+    {"item": "Who designed it", "valor": "James Buchanan Eads (1820–1887), chief engineer of the bridge company. He had no engineering training: he had been a store clerk, the owner of a shipwreck salvage business and a builder of ironclad gunboats in the Civil War. It was the first bridge he designed and the only one he built."},
+    {"item": "Type", "valor": "Three deck arches, each with four ribs made of pairs of steel tubes braced with wrought iron. Two decks: railroad below, roadway above. The arches were erected by cantilevering out from the piers, held by cables to temporary towers, with no falsework in the river."},
+    {"item": "Who built it", "valor": "The superstructure was by Andrew Carnegie's Keystone Bridge Company, of Pittsburgh. The steel, specified rigorously by Eads, passed from the Butcher Steel Works, of Philadelphia, to the Chrome Steel Works, of New York.", "nota": "the change of steel supplier comes from a single source (American Heritage, 1969)"},
+    {"item": "Foundations", "valor": "Two piers in the river and the abutment on the Illinois side were sunk in pneumatic caissons: bottomless chambers, filled with compressed air to hold back the water, where men dug the sand down to bedrock. They were the largest caissons ever made and the deepest compressed-air work in the world at the time."},
+    {"item": "Depth", "valor": "The east pier reached bedrock on 28 February 1870, at 93 or 95 feet below the river surface. The east abutment was the deepest: 127 feet according to C. M. Woodward's table, 136 feet below high water according to the National Park Service, 123 feet according to the ASCE."},
+    {"item": "Workers", "valor": "The total was not recorded in the sources consulted. In April 1870 there were 80 men in the chambers of the east pier, in gangs of 8 to 10, Americans, Irish and Germans in nearly equal parts, according to the job's physician. In the caisson men earned 4 dollars a day, double the pay on the surface, according to the National Park Service."},
+    {"item": "Deaths", "valor": "14 dead and 119 sick from caisson disease, according to the 1975 National Park Service record and Woodward's table; 15 dead, 2 disabled and 77 serious cases, according to the same service in 2001; 13 dead at the piers, according to American Heritage; 16, according to the Missouri Historical Society, with no explanation of the difference. A tornado in March 1871 killed one more worker."},
+    {"item": "Timeline", "valor": "West abutment cofferdam on 21 August 1867; east pier caisson sunk in October 1869; bedrock reached on 28 February 1870; first arch ribs closed in September 1873; pedestrians in May 1874; elephant on 14 June 1874; 14 locomotives on 2 July; opening on 4 July 1874.", "nota": "the day the arch was closed and the day it opened to pedestrians vary by a day or two between sources"},
+    {"item": "Cost", "valor": "US$6,536,729.99 final cost according to American Heritage; US$6.5 million according to the Missouri Historical Society; US$7 million according to the ASCE; US$10 million according to the National Park Service record and the Missouri Encyclopedia.", "nota": "by the US consumer price index (1874 = 34; 2025 = 967.5; base 1967 = 100), 6.54 million equals about US$186 million in 2025 dollars and 10 million about US$285 million"},
+    {"item": "Materials", "valor": "2,390 tons of steel, 3,156 of wrought iron, 806 of timber, 4,556 cubic yards of concrete and 97,571 of stone masonry."},
+    {"item": "Dimensions", "valor": "Arches of 502, 520 and 502 feet. Total length, with the approaches, of 6,442 feet, about 1.96 km. Clearance of 50 feet above high water, the rivermen's demand."},
+    {"item": "Aftermath", "valor": "Boycotted by the railroads, the company went into receivership in less than a year. The bridge was auctioned in 1878 and sold for US$2 million; it was leased to Jay Gould in 1881 and to the Terminal Railroad Association in 1889. The tracks came out in 1974, according to the National Park Service."},
+    {"item": "Today", "valor": "Roadway closed from 1991 to 2003; MetroLink trains on the lower deck since 1993, about 300 a day. Restoration from 2012 to 2016, for US$48 million, for another 75 years of service. One worker died on the job, in July 2015, when a towboat struck the bridge."},
+    {"item": "Now", "valor": "In August 2026, after a fatal crash on the road deck, the City of St. Louis said it had spent US$200,000 on lighting repairs because of copper wire theft and vandalism.", "nota": "according to FOX 2 St. Louis"}
+  ],
+  "historia": [
+    {
+      "titulo": "The man who walked on the river bottom",
+      "paragrafos": [
+        "James Buchanan Eads was born in 1820, in Lawrenceburg, Indiana, and arrived in St. Louis at 13, penniless. He worked as a store clerk and, according to the National Park Service, read in his employer's library. The Mississippi of that era was a graveyard of steamboats: sunken logs, sandbars and exploding boilers sent boats down with their entire cargo.",
+        "At 22, Eads fitted out a double-hulled salvage boat and a diving bell improvised from a 40-gallon whiskey barrel, with a hose through which air was pumped from the surface. He went down to the riverbed and walked in the mud, against the current, to tie up the cargo from wrecks. He made a fortune from it and, in the Civil War, built ironclad gunboats for the Union on the western rivers. When the St. Louis bridge came back onto the agenda after the war, nobody knew that river bottom as he did."
+      ]
+    },
+    {
+      "titulo": "A bridge the engineers rejected",
+      "paragrafos": [
+        "The problem was bigger than the width of the river. The rivermen wanted a wide central span, a clearance of 50 feet above high water and no scaffolding getting in the way of navigation during construction. According to the National Park Service, a Chicago builder, Lucius Boomer, had obtained from Illinois the exclusive right to build the bridge with no intention of building it, only to hold St. Louis back.",
+        "Eads presented a design that broke with what was being done: instead of a truss or a suspension bridge, three arches of more than 150 meters, with steel ribs, a metal that until then had not been the main one in any large structure. According to American Heritage magazine, the engineer J. H. Linville, of Philadelphia, called in to assess the design, refused to sign off on it and called it unsafe and impracticable. Eads kept the design and was appointed chief engineer in 1867."
+      ]
+    },
+    {
+      "titulo": "Down to bedrock, in compressed air",
+      "paragrafos": [
+        "Eads believed the foundation was the critical part and that it had to rest on bedrock, below some 80 feet of sand that the current churned up. On the St. Louis side, the abutment was built in a cofferdam, at 47 feet. For the piers in mid-river, he adopted what he had seen on a trip to Europe: the pneumatic caisson, an enormous bottomless box, filled with compressed air to keep the water out, on top of which the pier was raised while men dug underneath.",
+        "The east pier caisson measured 82 by 60 feet, had seven air locks and a working chamber 9 feet high. The sand came out through a pump that Eads himself invented, driven by air. Inside, says the National Park Service, by lamplight, the air hissed nonstop and voices came out thin. On 28 February 1870 the caisson reached bedrock, at 93 or 95 feet below the river surface, depending on the source. The abutment on the Illinois side went down even farther, to nearly 40 meters, and was the deepest compressed-air work done up to that time."
+      ]
+    },
+    {
+      "titulo": "The illness nobody understood",
+      "paragrafos": [
+        "The deeper they went, the greater the pressure, and the men began coming out of the chambers with pain in the belly, in the joints and, later, paralyzed. On 19 March 1870 the first ones died: James Riley dropped dead fifteen minutes after a two-hour shift, and James Moran, a 35-year-old Irishman, died in the hospital the same day. On 21 March, two days later, the physician counted twenty sick men taken to the hospital and five dead. Nobody knew that compressed air dissolved gas into the blood and that a fast ascent released it as bubbles.",
+        "Eads called in his physician, Alphonse Jaminet. On 28 February 1870, the day the east pier reached bedrock, Jaminet had gone down to observe the men and, coming up, stopped four times on the ladder; at home, 45 minutes later, he was paralyzed, and it took him a week to recover. He tells his own case in the report he published in 1871. On taking charge, on 31 March 1870, he shortened the shifts according to the pressure, ordered slower decompression and set up a hospital boat. According to a 2004 review in the journal Undersea and Hyperbaric Medicine, there were 11 deaths in the five months before him and 3 in the fourteen months that followed.",
+        "How many died in all, the sources do not agree: 14 according to the National Park Service record and the table by engineer C. M. Woodward, from 1881; 15 according to the same service in a 2001 publication; 13 according to American Heritage. The most cited count of the sick is 119. At almost the same time, the Brooklyn Bridge, in New York, was using the same method, and went less deep."
+      ]
+    },
+    {
+      "titulo": "The steel, and the arch that would not close",
+      "paragrafos": [
+        "Steel was the other risk. Eads specified strength and elasticity with a rigor the suppliers were not used to meeting; in the design drawings, he records the modulus of elasticity he adopted for cast steel, 27 million pounds per square inch, and how much the member would expand with heat. According to American Heritage, Andrew Carnegie, whose Keystone Bridge Company was erecting the superstructure, complained that nothing that satisfied the engineers was good enough for that job. The first steelworks gave up, and the second charged more.",
+        "Erection began in 1873, with the arches growing out as cantilevers from each pier, held by cables tied to temporary towers, with nothing resting in the river. In September, when it was time to join the halves of the first arch, the heat had expanded the steel and the pieces would not fit. According to American Heritage, the crew even packed the tubes in ice before resorting to a threaded joint that Eads had foreseen. In the end, the bridge took 2,390 tons of steel and 3,156 of wrought iron: it was the first large structure with steel as its main metal, but not all steel."
+      ]
+    },
+    {
+      "titulo": "An elephant and fourteen locomotives",
+      "paragrafos": [
+        "St. Louis needed to believe in the bridge. On 14 June 1874, an elephant crossed the deck: it was said the animal would not step onto an unsafe structure. The engineering proof came on 2 July 1874, when 14 locomotives, totaling about 550 tons, ran back and forth over the arches for five hours. On 4 July 1874 the bridge was opened with a cannon salute, a parade and fireworks; according to the National Park Service, 150,000 people watched.",
+        "Engineering success did not pay the bill. The railroads boycotted the bridge, the company went into receivership in less than a year and, in 1878, the bridge went to auction for US$2 million, a fraction of what it had cost. Eads moved on to the jetties at the mouth of the Mississippi and, in 1884, received the Albert Medal in London. He died in 1887, in Nassau, in the Bahamas."
+      ]
+    },
+    {
+      "titulo": "A hundred and fifty years later",
+      "paragrafos": [
+        "The bridge lost its tracks in 1974 and the roadway closed in 1991. In 1993 MetroLink trains returned to the lower deck, and in 2003 cars returned to the upper one. From 2012 to 2016, a US$48 million restoration stripped off the old layers of paint, replaced reinforcing steel and readied the bridge for another 75 years. Today about 300 trains a day cross it.",
+        "In 2024 it turned 150, and the Missouri History Museum ran an exhibition on its construction until November 2025. The most recent news is smaller and more prosaic: in August 2026, after a woman driver died in a crash on the deck, FOX 2 St. Louis showed stretches left in the dark, and the city said it had spent US$200,000 fixing lights whose copper wires had been stolen."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "It was the world's first steel bridge.", "registro": "It was the first large structure with steel as its main metal, according to the National Park Service. But it contains more wrought iron than steel: 3,156 against 2,390 tons. The first all-steel bridge dates from 1879, in Glasgow, in Missouri itself."},
+    {"circula": "It was the first project to use pneumatic caissons.", "registro": "No. Compressed air was already being used for foundations in France and England from the 1840s and 1850s. What the Eads Bridge had were the largest caissons ever made and the deepest compressed-air work in the world at the time."},
+    {"circula": "Caisson disease was discovered at the Brooklyn Bridge.", "registro": "It had already been described in France, and it killed in St. Louis before Brooklyn. The Eads Bridge physician, Alphonse Jaminet, published his report in 1871, including on his own case; the Brooklyn one dates from 1873."},
+    {"circula": "The elephant proved the bridge could hold.", "registro": "The elephant crossed on 14 June 1874 as a demonstration for the public, resting on a popular belief. The load test was the one of 2 July 1874, with 14 locomotives for five hours."}
+  ],
+  "perguntas": [
+    {"p": "Who built the Eads Bridge?", "r": "The design is by James Buchanan Eads, chief engineer of the bridge company, who had no engineering training and made a fortune salvaging cargo from steamboats sunk in the Mississippi. The superstructure was erected by Andrew Carnegie's Keystone Bridge Company."},
+    {"p": "When was the Eads Bridge built?", "r": "Between 1867 and 1874: the first cofferdam dates from 21 August 1867 and the opening from 4 July 1874, two days after the load test with 14 locomotives."},
+    {"p": "How was the Eads Bridge built?", "r": "The piers went down to bedrock in pneumatic caissons, chambers filled with compressed air where men dug out the sand of the riverbed. The three steel arches were erected by cantilevering out from the piers, held by cables to temporary towers, with no falsework at all in the river."},
+    {"p": "How many people died building the Eads Bridge?", "r": "Sources differ: from 13 to 16 dead, almost all from caisson disease, caused by working in compressed air. The most cited count is 14 dead and 119 sick."},
+    {"p": "Was the Eads Bridge the first steel bridge in the world?", "r": "Not exactly. It was the first large structure with steel as its main metal, but it contains more wrought iron than steel: 3,156 against 2,390 tons. The first all-steel bridge dates from 1879."}
+  ],
+  "fontes": [
+    {"texto": "National Park Service, National Register of Historic Places Inventory, Nomination Form: Eads Bridge, 1975"},
+    {"texto": "National Park Service, Jefferson National Expansion Memorial, \"James B. Eads and His Amazing Bridge at St. Louis\", Museum Gazette, 2001"},
+    {"texto": "Alphonse Jaminet, Physical Effects of Compressed Air… Illinois and St. Louis Bridge, St. Louis, 1871"},
+    {"texto": "James B. Eads, Illinois and St. Louis Bridge (plates), c. 1880, Smithsonian Libraries"},
+    {"texto": "W. P. Butler, \"Caisson disease during the construction of the Eads and Brooklyn Bridges: A review\", Undersea and Hyperbaric Medicine 31(4), 2004"},
+    {"texto": "American Society of Civil Engineers, \"Eads Bridge\", Historic Civil Engineering Landmark"},
+    {"texto": "\"Mr. Eads Spans the Mississippi\", American Heritage, vol. 20, no. 5, August 1969"},
+    {"texto": "David P. Billington and J. Wayman Williams, \"James Buchanan Eads (1820–1887)\", Missouri Encyclopedia"},
+    {"texto": "PBS American Experience, \"James Eads Timeline\" and \"St. Louis Bridge Opening and Disasters\""},
+    {"texto": "Linda Hall Library, Centuries of Civil Engineering, \"Missouri Bridges\""},
+    {"texto": "Bi-State Development, \"Region Celebrates Completion of the Rehabilitation of the Historic Eads Bridge\", 2016"},
+    {"texto": "The Waterways Journal, \"Eads Bridge Remains An Engineering Marvel\", 2024"},
+    {"texto": "FOX 2 St. Louis, \"Drivers question Eads Bridge safety after fatal accident\", August 2026"},
+    {"texto": "Federal Reserve Bank of Minneapolis, Consumer Price Index, 1800–"}
+  ],
+  "imagens": [
+    {"alt": "Bridge of three dark steel arches over a wide river, with stone piers, a blue train crossing on the lower deck, a clear sky and a snow-covered bank in the foreground", "legenda": "The bridge in February 2025, seen from the St. Louis bank, with a MetroLink train on the lower deck and ice on the Mississippi.", "autor": "Antony-22"},
+    {"alt": "Old black-and-white photograph: a masonry block rising from the water among wooden work boats, under large slanting timber frames with pulleys, smokestacks and men on the stones", "legenda": "The east pier in 1870, rising on top of the pneumatic caisson that carried it down to bedrock, among the boats and derricks of the works.", "autor": "Autor não identificado (Missouri History Museum)"},
+    {"alt": "Old photograph: on the left, a stone pier with scaffolding and a half arch reaching out over the river; in the background, another pier with two cantilevered half arches and temporary towers", "legenda": "September 1873: the arches grow out as cantilevers from the piers, with no falsework at all in the river.", "autor": "Autor não identificado (Missouri History Museum)"},
+    {"alt": "Old photograph: on the cobbled bank, a steel half arch springs from the masonry abutment, held by cables to a tower; in the river, a pier with two half arches and a moored steamboat", "legenda": "The west arch under erection, held by cables to temporary towers, in a plate from C. M. Woodward's 1881 book.", "autor": "C. M. Woodward, A History of the St. Louis Bridge (1881) / Library of Congress"},
+    {"alt": "Old sepia photograph: the three-arch bridge seen from a sandy beach with loose planks, the arcaded stone abutment on the left and the city of St. Louis in the background", "legenda": "The finished bridge, seen from the Illinois side in July 1874, the month of its opening.", "autor": "Robert Benecke (Missouri History Museum)"}
+  ]
+}

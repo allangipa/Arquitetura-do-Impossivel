@@ -1,0 +1,169 @@
+{
+  "_nota": "Tradução fiel de ../24-ponte-de-tacoma-narrows.json. Campos fixos vêm do original.",
+  "obra": "Tacoma Narrows Bridge",
+  "titulo_seo": "Tacoma Narrows Bridge Collapse: Why It Fell (Not Resonance)",
+  "titulo_video": null,
+  "lugar": "The Tacoma Narrows strait, between Tacoma and the Kitsap Peninsula, Washington, United States",
+  "periodo": "1938–1940",
+  "impossivel": "Hanging 853 meters of roadway over a windy strait on a girder only 2.4 meters deep, at a time when engineering could calculate the push of the wind, but did not know how to calculate the wind twisting a bridge until it broke.",
+  "resumo": "The Tacoma Narrows Bridge opened in July 1940 and fell four months later in a 68 km/h wind. Why the resonance explanation does not hold up.",
+  "abertura": [
+    "On July 1, 1940, the state of Washington, in the United States, opened the suspension bridge with the third-longest span in the world, over the Tacoma Narrows strait, between the city of Tacoma and the Kitsap Peninsula. It was slender and elegant like no other. Ever since construction, it had swayed so much that the workers nicknamed it Galloping Gertie.",
+    "On November 7, 1940, four months later, a wind of about 68 km/h set it twisting until the deck broke apart and fell into the water. No person died in the collapse, only a dog. The disaster was filmed, and the film became teaching material in engineering schools all over the world: proof that a bridge designed to withstand the wind could be destroyed by it in a way the calculations of the time did not foresee."
+  ],
+  "numeros": [
+    {"valor": "853 m", "rotulo": "of main span, the third-longest suspension span in the world in 1940"},
+    {"valor": "2.4 m", "rotulo": "depth of the girder that stiffened the deck; the earlier design called for a 7.6 m truss"},
+    {"valor": "19 months", "rotulo": "of construction, from November 23, 1938, to June 30, 1940"},
+    {"valor": "4 months", "rotulo": "of life, from the opening on July 1, 1940, to the collapse on November 7, 1940"},
+    {"valor": "68 km/h", "rotulo": "of wind on the morning of the collapse, strong, but common in the strait"},
+    {"valor": "US$6.4M", "rotulo": "final cost, with federal New Deal funding"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To link Tacoma with the Kitsap Peninsula, which depended on a ferry: in 1939, the ferry carried 205,842 vehicles, an average of 564 a day. A railroad crossing had been considered as early as 1889, and the Tacoma Chamber of Commerce had been funding studies since the 1920s.", "nota": "the ferry figures come from the Washington State Department of Transportation"},
+    {"item": "Who wanted it", "valor": "The Washington State Toll Bridge Authority, created by the state Legislature in January 1937 to build bridges paid for by tolls. The money came from the Public Works Administration, the New Deal public works agency, approved on June 23, 1938."},
+    {"item": "Design", "valor": "The state bridge engineer, Clark Eldridge, drew up a bridge with a stiffening truss 7.6 m deep, estimated at US$11 million. The federal funding required outside consultants, and Leon Moisseiff, of New York, replaced the truss with a 2.4 m solid-web plate girder, lengthened the span and brought the estimate down to about US$7 million."},
+    {"item": "Who built it", "valor": "The Pacific Bridge Company, of San Francisco, with the General Construction Company, of Seattle, and the Columbia Construction Company. The steel for the superstructure came from Bethlehem Steel; the cable wire, from John A. Roebling's Sons."},
+    {"item": "Timeline", "valor": "Work began on November 23, 1938, and was completed on June 30, 1940, in 19 months. Opened on July 1, 1940, before 7,000 or 10,000 people, depending on the source.", "nota": "the size of the opening crowd varies"},
+    {"item": "Workers", "valor": "More than 200 men as a typical crew and about 225 in the final months, according to the state Department of Transportation, earning an average of US$1.35 an hour. There was one woman, Marie Guske. The total number of workers who passed through the job was not recorded."},
+    {"item": "Deaths during construction", "valor": "One, according to the Washington State Department of Transportation: the carpenter Fred Wilde, who tripped and fell 3.7 m on June 27, 1940, four days before the opening. The next day, the painter Pete Kreller fell 58 m into the strait and survived."},
+    {"item": "Cost", "valor": "US$6.4 million. The split between federal grant and loan varies between sources: 45% as a grant, according to the state; US$2.8 million in grant and US$3.3 million in loan, according to a history published by ASCE. The toll was 75 cents per car each way.", "nota": "by the US consumer price index (1940 = 14.0; 2025 = 321.9), US$6.4 million is equivalent to about US$147 million in 2025 dollars"},
+    {"item": "Dimensions", "valor": "Main span of 853 m and 1,810 m in length including the approaches. Width of 11.9 m between the cables, with a two-lane roadway. Towers 129.5 m above the piers. A ratio of girder depth to span of 1 to 350, unprecedented at the time."},
+    {"item": "The collapse", "valor": "On November 7, 1940, with a wind of 68 km/h, the deck began to twist, with up to 8.5 m of difference in height between its edges. At around 11 a.m., a 183 m section of the main span broke loose and fell almost 60 m into the strait.", "nota": "the height of the fall appears as 59 or 58 m"},
+    {"item": "Victims of the collapse", "valor": "No people. Tubby died, the dog of the family of the journalist Leonard Coatsworth, left in the car abandoned in the middle of the bridge."},
+    {"item": "Cause", "valor": "Torsional flutter: a self-excited vibration, in which the twisting of the bridge changed the air around it and the wind began pushing the twist in the same direction. The federal board of investigation, made up of Othmar Ammann, Theodore von Kármán and Glenn Woodruff, pointed in 1941 to excessive flexibility."},
+    {"item": "The loss", "valor": "A US$4 million settlement with the insurers in August 1941. Salvaging the steel, through May 1943, ran at a loss of US$350,933.", "nota": "the insurance figure comes from the state Department of Transportation; the salvage loss appears in more than one source"},
+    {"item": "The new bridge", "valor": "Opened on October 14, 1950, on the piers and anchorages of 1940, with a deep, open truss, tested beforehand in a wind tunnel. It cost US$14,011,384.28. Three or four workers died during construction, depending on the source.", "nota": "the date is confirmed; the cost comes from a single source; the deaths vary"},
+    {"item": "The second, parallel bridge", "valor": "Opened to traffic on July 16, 2007, beside the 1950 bridge. It cost US$849 million and carries traffic toward Tacoma, with a toll; the 1950 bridge carries traffic in the opposite direction, free."},
+    {"item": "Today", "valor": "The wreckage of 1940 lies on the bottom of the strait and was listed on the US National Register of Historic Places in 1992. The 1950 bridge needed an emergency repair to a joint on April 22, 2026; the state plans to replace the large joints in 2027."}
+  ],
+  "historia": [
+    {
+      "titulo": "A bridge too slender",
+      "paragrafos": [
+        "The Tacoma Narrows is an arm of Puget Sound, in the state of Washington, in the northwestern United States. On one side lies Tacoma; on the other, the Kitsap Peninsula. Until 1940, the crossing was by ferry. A state toll authority, created in 1937, was put in charge of building the bridge, and the money came from the Public Works Administration, the New Deal public works agency.",
+        "The first design was by the state bridge engineer, Clark Eldridge: a suspension bridge with a steel truss 7.6 m deep beneath the roadway, to give the deck rigidity. It would have cost US$11 million. The federal funding, according to the state Department of Transportation, came with a requirement to hire outside consultants. The consultant for the superstructure was Leon Moisseiff, of New York, one of the most respected suspension bridge engineers in the country, the leading advocate in the United States of deflection theory, and a consultant on the Golden Gate Bridge, in San Francisco.",
+        "Deflection theory, which Moisseiff applied, held that in a long suspension bridge the very weight of the cables and the deck absorbs a good part of the loads, so the girder can be lighter and more flexible. He replaced the 7.6 m truss with a solid-web steel plate girder 2.4 m deep, lengthened the span to 853 m and brought the estimate down to about US$7 million. The ratio of girder depth to span came to 1 to 350, unprecedented at the time. The width, 11.9 m between the cables, was 1/72 of the span. According to the state Department of Transportation, the bridge was designed to withstand the lateral push of a 193 km/h wind."
+      ]
+    },
+    {
+      "titulo": "Nineteen months of construction",
+      "paragrafos": [
+        "Work began on November 23, 1938, led by the Pacific Bridge Company, of San Francisco. The caisson for the east pier went down 32 m below the bottom of the strait, and the two piers were positioned with concrete anchors of 570 tons each. On November 13, 1939, a magnitude 6.2 earthquake shook the region without damaging the towers. Spinning of the cables, with wire from Roebling's Sons, began in January 1940.",
+        "According to the state Department of Transportation, the crew went above 200 men and reached about 225 in the final months, most of them itinerant bridge erectors, at an average wage of US$1.35 an hour. How many passed through the job in all, nobody recorded. On June 27, 1940, four days before the opening, the carpenter Fred Wilde tripped, fell 3.7 m and died, the only death on the job in the state's record. The next day, the painter Pete Kreller, aged 26, fell 58 m into the strait and survived with minor injuries.",
+        "The bridge was finished on June 30, 1940, in 19 months, for US$6.4 million, and was opened the following day by Governor Clarence Martin. The toll was 75 cents per car each way."
+      ]
+    },
+    {
+      "titulo": "Galloping Gertie",
+      "paragrafos": [
+        "The deck was already rippling before the opening. According to the Department of Transportation, it was in early May 1940, while the roadway was being concreted, that the workers began calling the bridge Galloping Gertie. In a moderate wind, waves ran up and down the roadway; drivers saw the car ahead disappear and reappear. Some people crossed just to feel it.",
+        "The engineers tried to hold the bridge down. They tied the side spans to 50-ton concrete blocks with steel cables, which snapped; they added diagonal stays at midspan and hydraulic dampers between the towers and the deck. Professor F. Bert Farquharson, of the University of Washington, studied the bridge with scale models and proposed drilling holes in the girders, to let the wind through, or covering them with curved steel fairings. His study was delivered in early November 1940. There was not enough time."
+      ]
+    },
+    {
+      "titulo": "The morning of November 7",
+      "paragrafos": [
+        "On the morning of November 7, 1940, the wind in the strait was above 60 km/h and reached 68 km/h. According to the state Department of Transportation's timeline, at around 10 a.m. the deck stopped moving up and down and began to twist: the two halves of the main span rotated in opposite directions, as if the roadway were a ribbon, with up to 8.5 m of difference in height between one edge and the other and tilts of up to 45 degrees. A full cycle took about five seconds.",
+        "The journalist Leonard Coatsworth, of the Tacoma News Tribune, was on the bridge with his car and the family dog, Tubby. He abandoned the car and crawled off, on hands and knees most of the way, for about 450 m. Professor Farquharson, who was filming the bridge, tried to get the dog out of the car and could not. At around 11 a.m., a 183 m section of the main span broke loose and fell almost 60 m into the strait, taking the car and Tubby with it. No person died.",
+        "Barney Elliott, of a Tacoma camera shop, filmed the bridge up close as it twisted. The footage went around the world; the films shot that morning, including Farquharson's, are still teaching material in engineering schools today."
+      ]
+    },
+    {
+      "titulo": "It was not resonance",
+      "paragrafos": [
+        "The explanation that spread through physics textbooks is resonance: the wind supposedly beat in time with the bridge's natural frequency, like pushing a swing at just the right moment. In 1991, the engineers K. Yusuf Billah and Robert Scanlan published an article in the American Journal of Physics showing that this version does not hold up. Turbulent wind has no fixed rhythm. And the eddies shed behind the girder, the vortices, which Theodore von Kármán himself first had in mind, formed in that morning's wind at a rate of about once per second, while the twisting that brought the bridge down took five seconds per cycle.",
+        "What brought the bridge down, by the explanation accepted today, was torsional flutter: as the deck twisted, it changed the angle at which the wind struck it, and the force of the wind began pushing the twist in the same direction it was already going. The bridge, in motion, fed its own motion, until the steel gave way. The vortices may have contributed to the vertical waves of the previous months, but they do not explain the final twisting. The technical debate over the details continues, but simple resonance has been ruled out.",
+        "The board appointed by the federal government, with Othmar Ammann, Theodore von Kármán and Glenn Woodruff, concluded in 1941 that the main cause had been the bridge's excessive flexibility. Structural engineers later judged that Eldridge's original design, with its deep, open truss, would have withstood that wind. The lesson became a rule: ever since, suspension bridges undergo wind-tunnel model testing before they are built."
+      ]
+    },
+    {
+      "titulo": "Two bridges in place of one",
+      "paragrafos": [
+        "The state received US$4 million from the insurers in 1941 and recovered 7,000 tons of scrap steel by 1943, at a loss. Moisseiff, whose services were no longer sought, died in 1943. Eldridge went to work for the Navy on Guam and spent three and a half years as a prisoner of war of the Japanese.",
+        "The new bridge, on the same piers and anchorages, opened on October 14, 1950, after 29 months of construction and wind-tunnel tests at the University of Washington. It has a deep, open truss, slots in the deck to let the air through and hydraulic dampers. It cost US$14 million, and the work killed three or four workers, depending on the source. It earned the nickname Sturdy Gertie. In 2007, a second suspension bridge, costing US$849 million, opened beside it. The wreckage of the first still lies on the bottom of the strait and, since 1992, has been protected as a historic place."
+      ]
+    },
+    {
+      "titulo": "Eighty-five years later",
+      "paragrafos": [
+        "The collapse turned 85 on November 7, 2025. In 2026, the troublemaker is the bridge that replaced Gertie. On April 22, 2026, the Washington State Department of Transportation closed two lanes of the 1950 bridge for an emergency repair to an expansion joint, the pieces that let the deck shrink and stretch with temperature.",
+        "In September 2026, the department itself reported that three of the four large joints near the towers had reached the end of their service life: since 2024 there have been ten emergency repairs on the bridge, eight of them on those joints. A partial replacement was scheduled for October 2026, and the full replacement for 2027, within a program of more than US$300 million in preservation through 2031. The 1950 bridge, built not to sway, needs new knees."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "The bridge fell from resonance: the wind beat in time with its natural frequency.",
+      "registro": "The technical literature rejects this version. Turbulent wind has no fixed rhythm, and the vortices shed by the girder had a frequency about five times higher than that of the twisting that brought the bridge down. The accepted explanation is torsional flutter, a self-excited vibration, as Billah and Scanlan showed in 1991."
+    },
+    {
+      "circula": "It fell in a hurricane.",
+      "registro": "The wind that morning was about 68 km/h, strong, but common in the strait. The bridge had been designed for the push of a 193 km/h wind. What the calculations did not foresee was the effect of the wind on a deck that was twisting."
+    },
+    {
+      "circula": "Nobody died because of the bridge, only a dog.",
+      "registro": "In the collapse, indeed, no person died, and the dog Tubby died in the abandoned car. But the state Department of Transportation records one death during construction: the carpenter Fred Wilde, on June 27, 1940."
+    },
+    {
+      "circula": "The designer was an amateur.",
+      "registro": "Leon Moisseiff was one of the most respected suspension bridge engineers in the United States and was a consultant on the Golden Gate Bridge. The trend toward ever lighter and more flexible bridges belonged to the whole profession, which had forgotten the bridges brought down by wind in the nineteenth century."
+    }
+  ],
+  "perguntas": [
+    {"p": "Why did the Tacoma Narrows Bridge collapse?", "r": "Because of torsional flutter: as it twisted, the deck changed the angle at which the wind struck it, and the wind began pushing the twist in the same direction, until the steel gave way. The federal board of investigation pointed in 1941 to the bridge's excessive flexibility; its girder was only 2.4 m deep."},
+    {"p": "Did the Tacoma Narrows Bridge collapse because of resonance?", "r": "No, by the explanation accepted today. Turbulent wind has no fixed rhythm, and the vortices shed by the girder had a frequency about five times higher than that of the twisting that brought the bridge down, as Billah and Scanlan showed in 1991."},
+    {"p": "What year did the Tacoma Narrows Bridge collapse?", "r": "On November 7, 1940, four months after the opening, in a wind of about 68 km/h, strong, but common in the strait. At around 11 a.m., a 183 m section of the main span broke loose and fell into the strait."},
+    {"p": "Did the Tacoma Narrows Bridge collapse kill anyone?", "r": "No people. Tubby died, the dog of the journalist Leonard Coatsworth, left in the car abandoned on the bridge. During construction, the state records one death: the carpenter Fred Wilde, on June 27, 1940."},
+    {"p": "What is the Tacoma Narrows Bridge like today?", "r": "A new bridge, with a deep, open truss and tested in a wind tunnel, opened on October 14, 1950, on the same piers, and another, parallel one in 2007. The 1940 wreckage still lies on the bottom of the strait, protected as a historic place since 1992."}
+  ],
+  "fontes": [
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: The machine\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Creating the Narrows\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Collapse\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Lessons from failure\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Aftermath\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: The 1940 Narrows Bridge\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Weird facts\""},
+    {"texto": "K. Y. Billah and R. H. Scanlan, \"Resonance, Tacoma Narrows bridge failure, and undergraduate physics textbooks\", American Journal of Physics, vol. 59, 1991"},
+    {"texto": "Tom Irvine, \"The Tacoma Narrows Bridge Failure\", 2009"},
+    {"texto": "Frank Griggs Jr., \"Tacoma Narrows Bridge Failure 1940\", Structure Magazine, 2022"},
+    {"texto": "American Society of Civil Engineers, \"Tacoma Narrows Bridges\" (Historic Civil Engineering Landmarks)"},
+    {"texto": "Priscilla Long, \"Tacoma Narrows Bridge collapses on November 7, 1940\", HistoryLink.org, 2003"},
+    {"texto": "Priscilla Long, \"Tacoma Narrows Bridge is dedicated on July 1, 1940\", HistoryLink.org, 2004"},
+    {"texto": "Priscilla Long, \"New Tacoma Narrows Bridge is dedicated on July 15, 2007\", HistoryLink.org, 2007"},
+    {"texto": "FOX 13 Seattle, \"Tacoma Narrows Bridge: 'Galloping Gertie' collapsed 85 years ago\", November 7, 2025"},
+    {"texto": "April Leigh and Cara Mitchell, \"Aging bridge joints: Sturdy Gertie in Tacoma needs a total knee replacement\", The WSDOT Blog, September 28, 2026"},
+    {"texto": "PNW Daily, \"Tacoma Narrows Bridge Lane Closures Ahead for Emergency Repairs\", April 23, 2026"},
+    {"texto": "Washington State Transportation Commission, \"2026 Annual Tolling Report & Tacoma Narrows Bridge Loan Update\", 2026"},
+    {"texto": "U.S. Bureau of Labor Statistics, consumer price index (CPI-U), annual averages for 1940 and 2025"},
+    {"texto": "Wikipedia, \"Tacoma Narrows Bridge (1940)\" (starting point)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Old black-and-white film frame: the bridge roadway tilted and twisted, with a car stopped and tilted in the middle, bent lampposts and the vertical suspenders on both sides",
+      "legenda": "The deck twisting on the morning of November 7, 1940, seen from the east tower, in a frame from the 16 mm film by Professor F. Bert Farquharson, of the University of Washington.",
+      "autor": "F. B. Farquharson, Universidade de Washington (reprodução: Historic American Engineering Record, Library of Congress)"
+    },
+    {
+      "alt": "Old photograph: a toll plaza with four booths under a canopy bearing the words Stop, Pay, Toll, a few cars from the 1940s stopped and the bridge's slender tower in the background, in the mist",
+      "legenda": "The toll plaza and the bridge tower on August 29, 1940, two months after the opening.",
+      "autor": "Relatório final de projeto e construção da ponte, de Clark H. Eldridge, 1941 (reprodução: Historic American Engineering Record, Library of Congress)"
+    },
+    {
+      "alt": "Old black-and-white film frame: the bridge roadway arched like a dark wave, seen from near the tower, with the main cable curving down and the other tower in the background",
+      "legenda": "The roadway in waves on the day of the collapse, seen from near one of the towers, in another frame from Farquharson's film.",
+      "autor": "F. B. Farquharson, Universidade de Washington (reprodução: Historic American Engineering Record, Library of Congress)"
+    },
+    {
+      "alt": "Black-and-white photograph of a long suspension bridge over calm water, with a lattice tower on the left in the foreground, the roadway resting on a deep truss and the second tower far off on the right",
+      "legenda": "The 1950 bridge, built on the piers of the earlier one, photographed in 1993: in place of the slender girder, a deep, open truss.",
+      "autor": "Jet Lowe, Historic American Engineering Record"
+    },
+    {
+      "alt": "Two parallel suspension bridges over a strait of blue water, under a sky with white clouds, seen from a beach with vegetation; the nearer one has light concrete towers and the one behind, green steel towers",
+      "legenda": "The two bridges today, in 2024: the 2007 bridge in front, and the 1950 bridge behind.",
+      "autor": "Bmzuckerman"
+    }
+  ]
+}

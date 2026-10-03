@@ -1,0 +1,169 @@
+{
+  "_nota": "Tradução fiel de ../05-usina-de-itaipu.json. Campos fixos vêm do original.",
+  "obra": "Itaipu Dam",
+  "titulo_seo": "How the Itaipu Dam Was Built (1975–1984)",
+  "titulo_video": "Itaipu: they moved the river, and in 14 days a waterfall vanished",
+  "lugar": "Paraná River, between Foz do Iguaçu, Brazil, and Hernandarias, Paraguay",
+  "periodo": "1975–1984",
+  "impossivel": "Taking the Paraná River out of its own bed to raise, on dry ground, a 196 m high dam owned in equal shares by two countries.",
+  "resumo": "How Brazil and Paraguay diverted the Paraná River, built Itaipu and drowned Sete Quedas in 14 days, and why the death toll is still only an estimate.",
+  "abertura": [
+    "In October 1982, the gates of a dam on the Paraná River were closed. In 14 days, the water rose until it covered the falls of Sete Quedas, one of the largest waterfalls in the world by volume of water. Four years earlier, the same builders had done the opposite: taken the river out of its bed so they could work in the dry.",
+    "The Itaipu Dam stands between Foz do Iguaçu, in Brazil, and Hernandarias, in Paraguay, and by treaty it belongs half to each country. This page tells how it was raised, who stood in its way and what still has no firm number today."
+  ],
+  "numeros": [
+    {"valor": "7,919 m", "rotulo": "total length of the dam, adding up all its sections"},
+    {"valor": "196 m", "rotulo": "maximum height of the dam"},
+    {"valor": "14,000 MW", "rotulo": "installed capacity, in 20 units of 700 MW"},
+    {"valor": "1,350 km²", "rotulo": "area of the reservoir"},
+    {"valor": "14 days", "rotulo": "for the lake to form and cover Sete Quedas, in October 1982"},
+    {"valor": "100,000+", "rotulo": "workers who passed through the job, counting turnover"}
+  ],
+  "ficha": [
+    {"item": "Context", "valor": "In the 1960s, Brazil and Paraguay were disputing the Sete Quedas area, on the border. The Act of Iguaçu, of 22 June 1966, signed in Foz do Iguaçu by the foreign ministers Juracy Magalhães and Raúl Sapena Pastor, ended the crisis and provided for a study of harnessing the Paraná River down to the mouth of the Iguaçu."},
+    {"item": "Treaty", "valor": "Treaty of Itaipu, 26 April 1973, Brasília, Brazil, signed by Mário Gibson Barboza and Raúl Sapena Pastor. It creates a binational entity with capital of $100 million in equal shares (Eletrobras and ANDE) and splits the energy in equal shares.", "nota": "capital and energy split as read in the text of the Treaty"},
+    {"item": "Entity", "valor": "Itaipu Binacional incorporated on 17 May 1974."},
+    {"item": "Builders", "valor": "Unicon (civil works on the Brazilian bank), Conempa (Paraguayan bank) and Itamon/CIE (electromechanical installation).", "nota": "the exact makeup of each consortium is not established here"},
+    {"item": "Timeline", "valor": "Work from 1975; river diverted on 20 October 1978; gates closed on 13 October 1982; first unit generating on 5 May 1984; inauguration on 25 October 1984. The 18th unit came online in 1991; the 19th and 20th, in 2006 and 2007.", "nota": "the starting month in 1975 varies: January or October"},
+    {"item": "Workers at the peak", "valor": "Almost 32,000 on the site in 1978, according to the builders' records cited by researchers and by Agência Pública; about 40,000, according to Itaipu, counting the site and the support offices in Brazil and Paraguay."},
+    {"item": "Workers in all", "valor": "More than 100,000 passed through the job; between 1978 and 1981, up to 5,000 were hired a month. About 70% Brazilian and 30% Paraguayan.", "nota": "the share by country and the 5,000 hires a month each come from a single source"},
+    {"item": "Conditions", "valor": "Housing villages separated by job rank; surveillance of the workers by a security office linked to the dictatorship's intelligence agencies; workdays of up to 16 hours reported by former workers, without documents; strikes with troops on the site in 1987."},
+    {"item": "Worker deaths", "valor": "106, Itaipu's own estimate for 1978–1984. For 1975–1977 and 1985–1991 there is no official number. Other counts: 40 in 1975–1979 (Ivone Lima's thesis, 2004); 56 in 1976–1981, at Unicon alone (the consortium's bulletin); 138 (book by Tão Gomes Pinto, 2009); up to 800 (a former safety technician on the job); about a thousand (an anonymous Itaipu source to the EFE news agency, 2013).", "nota": "the number 149, which circulates on English-language websites, has no traceable origin"},
+    {"item": "Accidents", "valor": "43,530 workplace accidents between 1978 and 1984, Brazilian and Paraguayan, according to an Itaipu estimate. On 17 December 1981, an accident with a Peiner crane, during maintenance of its boom, killed 5 workers."},
+    {"item": "Cost", "valor": "About $12 billion (Memória da Eletricidade) or about $14 billion (Itaipu, which speaks of $16 billion with the interest and inflation of the period), in dollars of the time. The debt, paid off on 28 February 2023, came to about $63 billion paid, of which 27.9 billion in charges: that is not the cost of the construction.", "nota": "no figure converted to today's money"},
+    {"item": "Materials", "valor": "More than 12 million m³ of concrete (Itaipu gives 12.3, 12.6 or 12.7 million); 481,074 t of steel; more than 50 million m³ of earth and rock excavated.", "nota": "the steel is a technical figure from Itaipu, a single source"},
+    {"item": "Machines", "valor": "20 units of 700 MW: 10 at 50 Hz, Paraguay's frequency, and 10 at 60 Hz, Brazil's."},
+    {"item": "Expropriated", "valor": "In Brazil, 8,519 properties (6,913 rural and 1,606 urban), about 101,000 hectares and about 42,000 people; other sources speak of 40,000 or 60,000 people affected. In Paraguay, the number of non-Indigenous people expropriated was not recorded in the sources consulted."},
+    {"item": "Avá-Guarani", "valor": "In 1977, a working group from Funai and Incra recognized only 11 families, 27 people. In 2025, a settlement approved by the Supreme Federal Court (STF) provides for 3,000 hectares and R$240 million from Itaipu; on 29 October 2025, the Brazilian federal government, Funai, Incra and Itaipu published an apology.", "nota": "the 1977 count comes from the report of the Paraná State Truth Commission"},
+    {"item": "Afterwards", "valor": "World record for annual output in 2016, with 103,098,366 MWh, surpassed by China's Three Gorges in 2020. The revision of Annex C of the Treaty, due from 2023, was still without agreement in September 2026."}
+  ],
+  "historia": [
+    {
+      "titulo": "A border on top of a waterfall",
+      "paragrafos": [
+        "The problem began as a dispute over a map. In the 1960s, Brazil and Paraguay were disputing the area of the Sete Quedas falls, between Guaíra, in Paraná, Brazil, and Salto del Guairá, in Paraguay. The way out came on 22 June 1966: the Act of Iguaçu, negotiated from Porto Presidente Stroessner (today Ciudad del Este, Paraguay) and signed in Foz do Iguaçu, Brazil, traded the border quarrel for a joint project, harnessing the Paraná River.",
+        "Seven years later, on 26 April 1973, in Brasília, the foreign ministers Mário Gibson Barboza and Raúl Sapena Pastor signed the Treaty of Itaipu. The text creates an entity with two owners: Itaipu Binacional, incorporated on 17 May 1974, with capital of 100 million dollars divided into equal, non-transferable shares between Eletrobras and Paraguay's ANDE. The energy would also be split down the middle, and each country would have the right to buy whatever the other did not use.",
+        "The split reached the machines. Paraguay uses 50-hertz current; Brazil, 60. That is why the plant has 20 units of 700 megawatts, half turning at one rate and half at the other, for a total of 14,000 megawatts."
+      ]
+    },
+    {
+      "titulo": "Moving the river",
+      "paragrafos": [
+        "A dam is not built inside the current. To work on the bed of the Paraná River, the engineers opened a diversion channel on the bank: about 2 km long, 150 m wide and 90 m deep, according to Itaipu. Two cofferdams, concrete arches, held the water out of the channel while it was being dug.",
+        "On 20 October 1978, 58 tons of explosives brought down the two cofferdams, and the river began to run along the new path. Presidents Ernesto Geisel and Alfredo Stroessner met in the middle of the Friendship Bridge and threw the switch together. With the bed dry, work on the dam proper began.",
+        "In the end, the job excavated more than 50 million cubic meters of earth and rock and used more than 12 million cubic meters of concrete. Itaipu itself publishes three figures for the concrete, 12.3, 12.6 or 12.7 million, without explaining the difference. The dam, adding up its concrete, rockfill and earth sections, reaches 7,919 m in length and 196 m in height."
+      ]
+    },
+    {
+      "titulo": "The building site",
+      "paragrafos": [
+        "How many men worked at the same time depends on who is counting. The builders' records, cited by the historians Pedro Henrique Pedreira Campos and Valdir Sessi and by Agência Pública, give almost 32,000 on the site in 1978. Itaipu speaks of about 40,000, adding the site and the support offices in both countries. With turnover, more than 100,000 people passed through the job.",
+        "The project was also a divided city. In Foz do Iguaçu, Vila A housed technicians and administrative staff; Vila B, senior management; Vila C, the least skilled workers. Many were not career dam builders, but farmhands from the region brought in by recruiters.",
+        "And it was watched. Academic research documents that Itaipu's Special Security and Information Office, present on both sides of the border, spied on workers and exchanged information with the dictatorship's intelligence and repression agencies, such as the SNI and the DOPS. The plant's guards wore brown, and the workers called them the Brown Guard. Strikes only gained strength after the local union was founded, in 1986; in those of 1987 there were troops and military vehicles on the site."
+      ]
+    },
+    {
+      "titulo": "Counting the dead",
+      "paragrafos": [
+        "There is no official death toll for the whole job. What Itaipu Binacional reported, in writing, to Agência Pública in 2023 was an estimate: 43,530 workplace accidents between 1978 and 1984, Brazilian and Paraguayan, of which 106 were fatal. For 1975 to 1977 and for 1985 to 1991, when the machines were still being installed, the company gave no number.",
+        "Other counts exist, all partial. The 2004 thesis by the historian Ivone Lima reaches 40 deaths between 1975 and 1979; an internal bulletin of the Unicon consortium totals 56 between 1976 and 1981, on the Brazilian bank alone; the journalist Tão Gomes Pinto speaks of 138. A former safety technician on the job told Pública that his team counted up to 800, in a survey that was lost. An anonymous Itaipu source told the EFE news agency, in 2013, of about a thousand, adding accidents and occupational illnesses.",
+        "Among the cases with a date is that of 17 December 1981: an accident with a Peiner crane, during maintenance of its boom, killed 5 workers. Researchers also recorded accounts of victims taken to the hospital so that the death would not be listed as having occurred on the site, which made compensation harder."
+      ]
+    },
+    {
+      "titulo": "Fourteen days",
+      "paragrafos": [
+        "Sete Quedas — \"Seven Falls\" — were not seven falls. There were 18 or 19, depending on the source, arranged in seven groups, with a cited flow of about 13,300 m³ per second. The National Park that protected them was abolished on 4 July 1981. On 17 January 1982, an overcrowded footbridge over one of the falls collapsed and killed 32 tourists.",
+        "The farewell was public. In July 1982, according to the Paraná press, environmental groups gathered thousands of people in the park, at the Quarup Adeus Sete Quedas. On 9 September, Carlos Drummond de Andrade published the column \"Adeus a Sete Quedas\" (Farewell to Sete Quedas) in the Jornal do Brasil.",
+        "On 13 October 1982, the gates of the diversion channel were closed. Helped by a flood, the water filled the reservoir and, by 27 October, had covered the falls. On the same day as the closing, Operation Mymba Kuera began — Guarani for \"the animals\" — which by 10 January 1983 had rescued more than 30,000 animals: 36,000, according to Itaipu; almost 39,000, according to BBC News Brasil, adding both sides."
+      ]
+    },
+    {
+      "titulo": "Who stood in the way",
+      "paragrafos": [
+        "The 1,350 km² lake covered inhabited land. On the Brazilian side, 8,519 properties were affected, 6,913 rural and 1,606 urban, about 101,000 hectares. The number of people varies with the method: about 42,000, 40,000 or 60,000 affected, depending on the source. According to the Paraná State Truth Commission, Itaipu compensated schools, churches, hospitals and businesses first, emptying out the communities. On the Paraguayan side, the total of non-Indigenous people expropriated does not appear in the sources consulted.",
+        "For the Avá-Guarani, the count was even shorter. In 1977, a working group from Funai and Incra recognized only 11 Indigenous families, 27 people, a figure the Paraná Truth Commission calls a falsification of reality. The Guarani claimed 1,500 hectares; in 1982 they received a registered area of 231.88 hectares. Photos from 1981, revealed in 2017, show Guarani houses in flames in front of officials.",
+        "Redress came four decades later. On 24 March 2025, the STF, Brazil's Supreme Federal Court, approved a settlement providing for the purchase of 3,000 hectares for the Avá-Guarani, with R$240 million from Itaipu. On 29 October 2025, the Brazilian federal government, Funai, Incra and Itaipu published an apology for the human rights violations committed against this people."
+      ]
+    },
+    {
+      "titulo": "The plant and the bill that remained",
+      "paragrafos": [
+        "The first unit generated power on 5 May 1984, and the official inauguration, with Figueiredo and Stroessner, was on 25 October of that year. The 18th unit came online in 1991; the last two, in 2006 and 2007. In 2016, Itaipu produced 103,098,366 MWh, the annual world record at the time, surpassed by China's Three Gorges in 2020.",
+        "The cost of construction also has more than one version: about 12 billion dollars, according to Memória da Eletricidade, or about 14 billion, according to Itaipu itself. The job was almost entirely financed with loans, and the debt was paid off on 28 February 2023, after about 63 billion dollars paid over fifty years, of which 27.9 billion in interest and charges.",
+        "Fifty years after the Treaty came into force, in 2023, it called for a revision of the plant's financial terms, the so-called Annex C. In September 2026, Brazil and Paraguay had still not reached an agreement."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "149 workers died, the official number.",
+      "registro": "The 149 appears on English-language websites without any source. The number Itaipu itself gave, in 2023, is an estimate of 106 deaths between 1978 and 1984; for the other years of construction there is no official number."
+    },
+    {
+      "circula": "There are workers buried in the dam's concrete.",
+      "registro": "It is a persistent memory among former workers, recorded by researchers and by the Paraná State Truth Commission as an account. There is no name, case or document."
+    },
+    {
+      "circula": "Itaipu cost 63 billion dollars.",
+      "registro": "That is the total paid on the debt over fifty years, with 27.9 billion in interest and charges. Construction is estimated at about 12 to 14 billion dollars of the time, depending on the source."
+    },
+    {
+      "circula": "Itaipu is the largest power plant in the world.",
+      "registro": "In installed capacity, Three Gorges, in China, has 22,500 MW against 14,000; in annual output, it has held the record since 2020. Itaipu held the annual record in 2016."
+    },
+    {
+      "circula": "Sete Quedas was the largest waterfall in the world by volume.",
+      "registro": "The flow of 13,300 m³/s repeated by Brazilian sources has no primary reference, and by the average cited, other falls, such as Boyoma, in the Congo, exceed it. What holds up: one of the largest in the world by volume of water."
+    }
+  ],
+  "perguntas": [
+    {"p": "When was the Itaipu Dam built?", "r": "Work began in 1975, the river was diverted on 20 October 1978 and the gates were closed on 13 October 1982. The first unit generated power on 5 May 1984, and the inauguration was on 25 October 1984; the last two units came online in 2006 and 2007."},
+    {"p": "How was the Itaipu Dam built?", "r": "First they took the Paraná River out of its bed: a diversion channel about 2 km long was opened on the bank, and on 20 October 1978, 58 tons of explosives brought down the cofferdams. With the bed dry, the dam was raised, with more than 12 million m³ of concrete."},
+    {"p": "How many people died building the Itaipu Dam?", "r": "There is no official number for the whole job. Itaipu itself estimates 106 deaths between 1978 and 1984; other, partial counts range from 40 to 138, and undocumented accounts speak of up to 800 or about a thousand."},
+    {"p": "Is Itaipu the largest hydroelectric plant in the world?", "r": "No. In installed capacity, Three Gorges, in China, has 22,500 MW against Itaipu's 14,000, and it has held the record for annual output since 2020. Itaipu held that record in 2016."},
+    {"p": "How much did the Itaipu Dam cost?", "r": "The sources disagree: about 12 billion dollars of the time, according to Memória da Eletricidade, or about 14 billion, according to Itaipu. The 63 billion that circulates is the total paid on the debt over fifty years, with 27.9 billion in interest and charges."}
+  ],
+  "fontes": [
+    {"texto": "Treaty of Itaipu, promulgated by Decree No. 72,707 of 28 August 1973"},
+    {"texto": "Pedro Henrique Pedreira Campos and Rafael Vaz da Motta Brandão, “A construção da usina hidrelétrica de Itaipu durante a ditadura”, Projeto História (PUC-SP), v. 77, 2023"},
+    {"texto": "Pedro Henrique Pedreira Campos, “Violações cometidas contra trabalhadores/as durante a construção da usina hidrelétrica de Itaipu: o caso dos acidentes de trabalho”, Revista NEP (UFPR), v. 9, n. 2, 2023"},
+    {"texto": "André Borges, “Itaipu na ditadura: mais de 100 operários mortos e 43 mil acidentes na construção”, Agência Pública, 19 June 2023"},
+    {"texto": "Paraná State Truth Commission “Teresa Urban”, report, 2017 (2nd version, 2019), vol. 1"},
+    {"texto": "Valdir Sessi, “O povo do abismo”: trabalhadores e o aparato repressivo durante a construção da Hidrelétrica de Itaipu (1974–1987), master's thesis, Unioeste, 2015"},
+    {"texto": "Eduardo Gonçalves Ueda, História e memória dos trabalhadores brasileiros na construção da Usina Hidrelétrica de Itaipu, undergraduate thesis, UNILA, 2019"},
+    {"texto": "Paulo Brandi, “Itaipu Binacional meio século”, Memória da Eletricidade, 16 May 2024"},
+    {"texto": "IEEE Milestone, “Itaipu Hydroelectric Power Plant, 1975–1984”, Engineering and Technology History Wiki"},
+    {"texto": "Itaipu Binacional, “Nossa história” (Our history)"},
+    {"texto": "Itaipu Binacional, “Barragem” (Dam)"},
+    {"texto": "Itaipu Binacional, “Itaipu em números” (Itaipu in numbers)"},
+    {"texto": "H2FOZ, “Explosão do Canal de Desvio de Itaipu completa 40 anos”, 19 October 2018"},
+    {"texto": "BBC News Brasil, “Mymba Kuéra: como foi o monumental resgate de mais de 30 mil animais durante a construção de Itaipu”, 19 September 2026 (republished by O Povo)"},
+    {"texto": "Portal da Crônica Brasileira (IMS and Fundação Casa de Rui Barbosa), Carlos Drummond de Andrade, “Adeus a Sete Quedas”, Jornal do Brasil, 9 September 1982"},
+    {"texto": "Gazeta do Povo, “Estado brasileiro e Itaipu pedem desculpas ao povo Avá-Guarani”, 29 October 2025"},
+    {"texto": "Agência Brasil, “Itaipu ultrapassa Três Gargantas e reassume liderança em produção”, December 2016"},
+    {"texto": "Robson Rodrigues, “Com negociação de Itaipu parada, Brasil avalia tarifa de US$ 15/kW em 2027”, CNN Brasil, 1 September 2026"}
+  ],
+  "imagens": [
+    {
+      "alt": "Aerial view of the Itaipu Dam: the spillway on the left, the curving dam and the reservoir behind, with the Paraná River in the foreground",
+      "legenda": "Itaipu seen from above, with the reservoir behind the dam and the Paraná River below it.",
+      "autor": "International Hydropower Association (IHA)"
+    },
+    {
+      "alt": "Old sepia photograph of the Paraná River squeezed between rock walls at the Sete Quedas falls, with waterfalls in the background",
+      "legenda": "The Paraná River at the Sete Quedas falls, photographed in 1929–1930, more than fifty years before the lake covered them.",
+      "autor": "B. Rondon (Arquivo Nacional, Fundo Ministério da Guerra)"
+    },
+    {
+      "alt": "The Itaipu spillway with some of its gates open and water rushing down the concrete chutes",
+      "legenda": "The Itaipu spillway with its gates open, in 2008.",
+      "autor": "Cmasi"
+    },
+    {
+      "alt": "The Itaipu reservoir seen from the shore, with vegetation in the foreground and parts of the plant in the background",
+      "legenda": "The Itaipu reservoir in 2020: 1,350 km² of water where the river and the falls once ran.",
+      "autor": "Falk2"
+    }
+  ]
+}

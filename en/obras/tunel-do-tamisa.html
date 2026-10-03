@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Brunel Built the Thames Tunnel (1825–1843)</title>
+<meta name="description" content="How Marc Brunel dug the Thames Tunnel, the first known to be finished under a navigable river, using a 36-cell shield, and why it took 18 years.">
+<link rel="canonical" href="https://arquiteturadoimpossivel.com/en/obras/tunel-do-tamisa.html">
+<meta name="robots" content="max-image-preview:large">
+<link rel="alternate" hreflang="pt-BR" href="https://arquiteturadoimpossivel.com/obras/tunel-do-tamisa.html">
+<link rel="alternate" hreflang="en" href="https://arquiteturadoimpossivel.com/en/obras/tunel-do-tamisa.html">
+<link rel="alternate" hreflang="x-default" href="https://arquiteturadoimpossivel.com/en/obras/tunel-do-tamisa.html">
+<meta name="theme-color" content="#0F2A44">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="preload" href="../../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../../assets/img/20-capa-800.webp 800w, ../../assets/img/20-capa.webp 1600w" imagesizes="100vw" fetchpriority="high">
+<meta name="google-adsense-account" content="ca-pub-4401770243539507">
+<link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+.marca-sub{display:block;margin-top:.3em;font:500 .62rem/1.15 var(--f-mono);letter-spacing:.12em;color:var(--concreto)}
+.idiomas{display:flex;gap:.1rem}
+.nav .idiomas a.idioma{display:inline-flex;align-items:center;justify-content:center;min-width:2.3rem;min-height:2.75rem;padding:0 .3em;font:500 .8rem/1 var(--f-mono);letter-spacing:.08em;color:var(--giz-2);border-bottom:2px solid transparent}
+.nav .idiomas a.idioma:hover{color:var(--obra)}
+.nav .idiomas a.idioma[aria-current]{color:var(--obra);border-bottom-color:var(--obra)}
+.nav .idiomas a.idioma:focus-visible{outline:2px solid var(--obra);outline-offset:2px}
+@media (max-width:720px){.nav{gap:.6rem}.nav .yt{padding:.5em .6em}}
+@media (max-width:420px){.marca-sub{display:none}}
+.em-portugues{margin:2rem 0 0;font:500 .85rem/1.4 var(--f-mono);letter-spacing:.06em}
+.em-portugues a{color:var(--obra)}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}
+.perguntas{border-top:1px solid var(--viga);margin:1.2rem 0 0}
+.perguntas h3{font-size:1.25rem;line-height:1.15;margin:1.4rem 0 .5rem;color:var(--giz)}
+.perguntas p{margin:0 0 1.2rem;padding-bottom:1.2rem;border-bottom:1px dashed var(--viga)}
+.temas-link{margin:1rem 0 0;font-size:.95rem;color:var(--giz-2)}
+.temas-link .rotulo{margin-right:.4rem}
+.temas-link a{color:var(--obra)}
+.temas-lista{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:.8rem}
+.temas-lista a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1.1rem 1.2rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.temas-lista a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.temas-lista strong{font:700 1.4rem/1.1 var(--f-titulo);text-transform:uppercase}
+.temas-lista a:hover strong{color:var(--obra)}
+.tema-abre{padding:clamp(2.5rem,7vw,5rem) 0 clamp(2rem,5vw,3.5rem)}
+.tema-abre h1{font-size:clamp(2.4rem,6.4vw,4.6rem);margin:.6rem 0 1.4rem}
+.tema-abre .intro{max-width:var(--texto)}
+.tema-abre .intro p{color:var(--giz-2);font-size:1.05rem;margin:0 0 1.1em}
+.migalhas{font:500 .74rem/1.4 var(--f-mono);letter-spacing:.08em;color:var(--concreto);margin-bottom:1.4rem}
+.migalhas a{color:var(--concreto)}
+.migalhas span{color:var(--giz-2)}</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Arquitetura do Impossível — Impossible Architecture">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:title" content="How Brunel Built the Thames Tunnel (1825–1843)">
+<meta property="og:description" content="How Marc Brunel dug the Thames Tunnel, the first known to be finished under a navigable river, using a 36-cell shield, and why it took 18 years.">
+<meta property="og:url" content="https://arquiteturadoimpossivel.com/en/obras/tunel-do-tamisa.html">
+<meta property="og:image" content="https://arquiteturadoimpossivel.com/assets/img/og-en-tunel-do-tamisa.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Thames Tunnel (1825–1843): how it came to stand", "description": "How Marc Brunel dug the Thames Tunnel, the first known to be finished under a navigable river, using a 36-cell shield, and why it took 18 years.", "inLanguage": "en", "url": "https://arquiteturadoimpossivel.com/en/obras/tunel-do-tamisa.html", "image": {"@type": "ImageObject", "url": "https://arquiteturadoimpossivel.com/assets/img/og-en-tunel-do-tamisa.jpg", "width": 1200, "height": 630}, "datePublished": "2026-10-03", "dateModified": "2026-10-03", "author": {"@type": "Organization", "name": "Arquitetura do Impossível", "url": "https://arquiteturadoimpossivel.com/"}, "publisher": {"@type": "Organization", "name": "Arquitetura do Impossível", "url": "https://arquiteturadoimpossivel.com/", "logo": {"@type": "ImageObject", "url": "https://arquiteturadoimpossivel.com/assets/marca/logo-512.png", "width": 512, "height": 512}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arquiteturadoimpossivel.com/en/obras/tunel-do-tamisa.html"}, "about": {"@type": "LandmarksOrHistoricalBuildings", "name": "Thames Tunnel", "address": "Under the River Thames, between Rotherhithe and Wapping, London, England, United Kingdom"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Arquitetura do Impossível", "item": "https://arquiteturadoimpossivel.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Structures", "item": "https://arquiteturadoimpossivel.com/en/#obras"}, {"@type": "ListItem", "position": 3, "name": "Thames Tunnel", "item": "https://arquiteturadoimpossivel.com/en/obras/tunel-do-tamisa.html"}]}</script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Skip to content</a>
+<div class="progresso" aria-hidden="true"></div><header class="topo">
+  <div class="casca">
+    <a class="marca" href="../../en/index.html" lang="pt-BR"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 886" class="" role="img" aria-label=""><polygon points="926.67,587.35 1010.00,731.69 176.67,731.69 93.33,587.35" fill="#8E9AA3" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="926.67,876.03 1010.00,731.69 176.67,731.69 93.33,876.03" fill="#2B5C87" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="10.00,731.69 93.33,587.35 176.67,731.69 93.33,876.03" fill="#E9EEF0" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="593.33,10.00 1010.00,731.69 843.33,731.69 426.67,10.00" fill="#8E9AA3" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="926.67,876.03 1010.00,731.69 843.33,731.69 760.00,876.03" fill="#2B5C87" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="343.33,154.34 426.67,10.00 843.33,731.69 760.00,876.03" fill="#E9EEF0" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="593.33,10.00 676.67,154.34 510.00,154.34 426.67,10.00" fill="#8E9AA3" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="260.00,876.03 676.67,154.34 510.00,154.34 93.33,876.03" fill="#2B5C87" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="10.00,731.69 426.67,10.00 510.00,154.34 93.33,876.03" fill="#E9EEF0" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<line x1="10.0" y1="908.5" x2="10.0" y2="1038.9" stroke="#F2B705" stroke-width="6.0"/>
+<line x1="1010.0" y1="908.5" x2="1010.0" y2="1038.9" stroke="#F2B705" stroke-width="6.0"/>
+<line x1="10.0" y1="995.1" x2="1010.0" y2="995.1" stroke="#F2B705" stroke-width="12.0"/>
+<polygon points="10.0,995.1 87.9,968.3 87.9,1021.9" fill="#F2B705"/>
+<polygon points="1010.0,995.1 932.1,968.3 932.1,1021.9" fill="#F2B705"/></svg><span>Arquitetura <em>do Impossível</em><small class="marca-sub" lang="en">Impossible Architecture</small></span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="../../en/index.html#obras" aria-current="page">Structures</a>
+      <a href="../../en/index.html#metodo">Method</a>
+      <a href="../../en/sobre.html">About</a>
+      <a class="yt" href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">YouTube</a><div class="idiomas" role="group" aria-label="Language"><a class="idioma" href="../../obras/tunel-do-tamisa.html" hreflang="pt-BR" lang="pt-BR" aria-label="Português" title="Português">PT</a><a class="idioma" href="../../en/obras/tunel-do-tamisa.html" hreflang="en" lang="en" aria-label="English" title="English" aria-current="true">EN</a></div>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
+<header class="capa">
+  <picture><source type="image/webp" srcset="../../assets/img/20-capa-800.webp 800w, ../../assets/img/20-capa.webp 1600w" sizes="100vw"><img src="../../assets/img/20-capa.jpg" srcset="../../assets/img/20-capa-800.jpg 800w, ../../assets/img/20-capa.jpg 1600w" sizes="100vw" width="1600" height="1077" alt="Old black-and-white engraving: an arched brick gallery receding into the distance, with side archways lit by lamps, pedestrians in top hats and two men pulling a cart on the stone floor" loading="eager" fetchpriority="high" decoding="async"></picture>
+  <span class="credito-capa">The tunnel as a pedestrian attraction, in an engraving published in Germany in 1839, four years before the opening. — <a href="https://commons.wikimedia.org/wiki/File:Meyers_Universum_Band_06_35.jpg" rel="noopener">Bibliographisches Institut, Hildburghausen (Meyer&#x27;s Universum, vol. 6)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Public domain</a></span>
+  <div class="casca">
+    <span class="rotulo">Structure <b>20</b> · World</span>
+    <h1>Thames Tunnel</h1>
+    <div class="sub">Under the River Thames, between Rotherhithe and Wapping, London, England, United Kingdom · 1825–1843</div>
+    <p class="imp">Driving a brick passage under a river crowded with ships, through a bed of mud and sand soaked in sewage, when the only earlier attempt at the same spot had been swallowed by the water.</p>
+  </div>
+</header>
+<section class="cotas" aria-label="The structure in numbers"><ul><li><span class="valor">36</span><span class="rot">cells in the iron shield, one for each miner</span><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><span class="valor">1825–1843</span><span class="rot">18 years from the start of the shaft to the opening, on 25 March 1843</span><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><span class="valor">366 · 396 m</span><span class="rot">long: 1,200 or 1,300 feet, depending on the source</span><span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li><li><span class="valor">6</span><span class="rot">dead in the flood of 12 January 1828; nobody added up the total for the whole job</span><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><span class="valor">£634,000</span><span class="rot">total cost, including the fitting-out</span><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><span class="valor">1869</span><span class="rot">the year the first train ran through; since 2024 it has been the under-river section of London Overground&#x27;s Windrush line</span><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></section>
+<div class="casca obra-layout">
+  <article class="texto">
+    <div class="abertura"><p>At the start of the nineteenth century, the Port of London was spreading downriver, and there was no bridge between the docks on the two banks of the Thames: a low bridge would have closed the river to ships. The way out was to go under. Between 1805 and 1808, Cornish miners tried it, between Rotherhithe and Wapping, and the heading flooded when only a few hundred feet were left to go.</p><p>The engineer Marc Isambard Brunel, a Frenchman settled in England, staked everything on an invention of his own, patented in 1818: an iron cage divided into 36 cells, each holding one miner, which advanced tight against the face of the excavation while bricklayers lined the newly opened stretch with brick. Work began in 1825 and the tunnel opened only on 25 March 1843. In between, the river broke in several times, six men died in a single morning and the tunnel stood walled up for years.</p></div>
+
+    <h2 id="ficha"><span class="n">FACTS</span>Fact sheet</h2>
+    <table class="ficha">
+      <tbody><tr><th scope="row">Why</th><td class="v">To link the docks on both banks of the Thames, in east London, without closing the river to ships. The tunnel was designed for freight carts and pedestrians.</td><td class="c"><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></td></tr><tr><th scope="row">Who wanted it</th><td class="v">The Thames Tunnel Company, made up of private investors, among them the Duke of Wellington. The Act of Parliament authorizing the work dates from June 1824.</td><td class="c"><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></td></tr><tr><th scope="row">Design</th><td class="v">Marc Isambard Brunel, chief engineer, inventor of the tunneling shield patented in January 1818. His son, Isambard Kingdom Brunel, was resident engineer from 1826–1827.</td><td class="c"><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></td></tr><tr><th scope="row">The shield</th><td class="v">Twelve iron frames side by side, each with three cells stacked in tiers: 36 miners protected at the same time. Each one dug a few inches of earth from the face, shored it up with boards, and the frame was pushed forward by jacks bearing on the brickwork already laid. The first shield was replaced by a new one in 1835–1836.<span class="nota">the weight is given as about 7 tons per frame or 80 tons in all</span></td><td class="c"><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></td></tr><tr><th scope="row">Timeline</th><td class="v">Rotherhithe shaft begun in March 1825; first flood in May 1827; second on 12 January 1828; tunnel walled up in August 1828; work resumed with Treasury money from December 1834; excavation finished in 1841; opening on 25 March 1843.<span class="nota">the stoppage is counted as 6, 7 or 8 years, depending on which restart date is used</span></td><td class="c"><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></td></tr><tr><th scope="row">Workers</th><td class="v">36 in the shield on each shift. About 500 working at once in the tunnel, among miners, bricklayers, smiths and carpenters, according to the book Iron Men, by David Waller. Many came from the Cornish mines. The total was not recorded.</td><td class="c"><span class="conf conf-1" title="A single source; the text says which.">1 source</span></td></tr><tr><th scope="row">Conditions</th><td class="v">River water, loaded with sewage, seeped in at the working face; methane caught fire in the lamps. Workers, and Isambard himself, fell ill.</td><td class="c"><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></td></tr><tr><th scope="row">Deaths</th><td class="v">Six men died in the flood of 12 January 1828: Thomas Ball, J. Long, Thomas Collins, Jeptha Cook, George Evans and a laborer named Lincoln. There is a record of one more miner killed in the flood of November 1837 and of an engineer who died of fever. The total for the 18 years of work does not appear in any source consulted.<span class="nota">the six of 1828 are backed by several sources; the other cases come from one source each</span></td><td class="c"><span class="conf conf-sem" title="Nobody recorded it. We say so instead of making it up.">no record</span></td></tr><tr><th scope="row">Cost</th><td class="v">£634,000, adding £454,000 for the excavation and £180,000 for the fitting-out. The government lent the company £270,000, according to the TfL archive; other sources speak of £247,000.<span class="nota">there is no conversion into today&#x27;s money with a published method</span></td><td class="c"><span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></td></tr><tr><th scope="row">Dimensions</th><td class="v">Two parallel brick galleries set in Roman cement, linked by arches. Length of 1,200 feet (366 m) or 1,300 feet (396 m), depending on the source; cross-section of 35 × 20 feet or 38 × 22 feet. The depth is usually given as about 23 m below the river surface at high tide, a figure that goes back to a single origin.</td><td class="c"><span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></td></tr><tr><th scope="row">Visitors</th><td class="v">A toll of 1 penny. At the opening, 10,000 people paid in the first 24 hours, according to the TfL archive, or 50,000, according to other sources. A million visitors within a few months; Queen Victoria came in July 1843.</td><td class="c"><span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></td></tr><tr><th scope="row">The railway</th><td class="v">Sold to the East London Railway, a company formed in 1865, for £200,000 according to TfL (another source says £800,000). First train on 7 December 1869. Electrified in 1913, joined to the Underground in 1933, part of London Overground since 2010; since November 2024 it has been the Windrush line.<span class="nota">the sale price is disputed</span></td><td class="c"><span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></td></tr><tr><th scope="row">Listing</th><td class="v">Grade II* listed by Historic England since 24 March 1995. International Historic Civil Engineering Landmark of the ASCE since 1991.</td><td class="c"><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></td></tr><tr><th scope="row">Today</th><td class="v">The Rotherhithe entrance shaft and the pump engine house form the Brunel Museum. The museum&#x27;s renovation, with £2.1 million from the National Lottery Heritage Fund, was called off in December 2025. In September 2026, the tunnel collection received Designated Status from Arts Council England.</td><td class="c"><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></td></tr></tbody>
+    </table>
+    <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span> Confirmed in two or more independent sources.</span><span><span class="conf conf-1" title="A single source; the text says which.">1 source</span> A single source; the text says which.</span><span><span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span> The sources disagree; we show the versions and do not pick one.</span><span><span class="conf conf-sem" title="Nobody recorded it. We say so instead of making it up.">no record</span> Nobody recorded it. We say so instead of making it up.</span></div>
+
+    <h2 id="s1"><span class="n">01</span>A river that would not take a bridge</h2><p>At the turn of the nineteenth century, the traffic of the Port of London was moving down the Thames beyond London Bridge, toward the new docks. Anyone who needed to cross from one bank to the other along that stretch took a boat. A low bridge would block the tall ships coming up the river; a high bridge, with the technology of the day, was not feasible. That left going underneath.</p><p>Others had tried. In 1798–1799, Ralph Dodd wanted to drive a tunnel further downriver, between Gravesend and Tilbury, and gave up. Between 1805 and 1808, the Thames Archway Company brought in Cornish miners, with the engineer Richard Trevithick, to dig a narrow heading precisely between Rotherhithe and Wapping. They got to about 1,000 of the planned 1,200 feet before the water came in. The conclusion of many engineers was that the bed of the Thames, of mud and loose sand, could not be dug through.</p><figure class="fig revela">
+  <button type="button" class="cantos" data-grande="../../assets/img/20-escudo.jpg" data-legenda="The shield seen from the front, with its 36 cells in three tiers, in a popular English magazine from November 1832. — Autor não identificado (The Penny Magazine), Public domain" aria-label="Enlarge image: Old woodcut of a rectangular grid of wood and iron frames in three tiers and twelve columns, with boards across the front of each cell and a few miners working inside; two arches drawn over it mark the outline of the galleries"><picture><source type="image/webp" srcset="../../assets/img/20-escudo-800.webp 800w, ../../assets/img/20-escudo.webp 1372w" sizes="(max-width:980px) 100vw, 720px"><img src="../../assets/img/20-escudo.jpg" srcset="../../assets/img/20-escudo-800.jpg 800w, ../../assets/img/20-escudo.jpg 1372w" sizes="(max-width:980px) 100vw, 720px" width="1372" height="823" alt="Old woodcut of a rectangular grid of wood and iron frames in three tiers and twelve columns, with boards across the front of each cell and a few miners working inside; two arches drawn over it mark the outline of the galleries" loading="lazy" decoding="async"></picture></button>
+  <figcaption><span class="fn">FIG. 02</span><span>The shield seen from the front, with its 36 cells in three tiers, in a popular English magazine from November 1832.</span><small><a href="https://commons.wikimedia.org/wiki/File:Penny_Magazine_1832_341_Shield_used_in_the_Excavation_of_the_Thames_Tunnel.jpg" rel="noopener">Autor não identificado (The Penny Magazine)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Public domain</a></small></figcaption>
+</figure><h2 id="s2"><span class="n">02</span>The worm and the cage</h2><p>Marc Isambard Brunel, an engineer born in France in 1769, told how he got the idea. In a letter to his granddaughter, from March 1842, now held in the archive of Royal Museums Greenwich, he recalls that around 1812, while working at the Chatham dockyard, he saw a piece of condemned ship&#x27;s timber bored through by the shipworm, the mollusk that eats away at hulls. If those creatures could make small protected tunnels, he wrote, men could too, with equivalent protection. It is Brunel&#x27;s own account, given thirty years later; the Brunel Museum treats it as the version usually told.</p><p>In January 1818 he patented a method for driving tunnels underground. The centerpiece was the shield: twelve iron frames set side by side, each divided into three tiers, for a total of 36 cells. In each cell, a miner removed a few inches of earth behind boards that held up the face, one board at a time. When they had all advanced, the frame was pushed forward by jacks bearing on the finished lining, and the bricklayers laid brick right behind it. The ground was never left unsupported for more than a few hand-spans. The work would be divided into two parallel arched galleries, linked by openings, in a block of brick and Roman cement.</p><figure class="fig revela">
+  <button type="button" class="cantos" data-grande="../../assets/img/20-galeria.jpg" data-legenda="Visitors in one of the galleries, in a nineteenth-century lithograph that gives the tunnel a length of 1,300 feet, a width of 38 and a height of 22. — Autor não identificado (Library of Congress, Popular Graphic Arts), Public domain" aria-label="Enlarge image: Lithograph of a bright gallery of successive arches, with a woman in a white dress and a boy on the left and gentlemen in top hats by the archways and lamps on the right"><picture><source type="image/webp" srcset="../../assets/img/20-galeria-800.webp 800w, ../../assets/img/20-galeria.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../../assets/img/20-galeria.jpg" srcset="../../assets/img/20-galeria-800.jpg 800w, ../../assets/img/20-galeria.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1332" alt="Lithograph of a bright gallery of successive arches, with a woman in a white dress and a boy on the left and gentlemen in top hats by the archways and lamps on the right" loading="lazy" decoding="async"></picture></button>
+  <figcaption><span class="fn">FIG. 03</span><span>Visitors in one of the galleries, in a nineteenth-century lithograph that gives the tunnel a length of 1,300 feet, a width of 38 and a height of 22.</span><small><a href="https://commons.wikimedia.org/wiki/File:The_Thames_Tunnel_LCCN98507755.jpg" rel="noopener">Autor não identificado (Library of Congress, Popular Graphic Arts)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Public domain</a></small></figcaption>
+</figure><h2 id="s3"><span class="n">03</span>Beneath London&#x27;s sewage</h2><p>The Thames Tunnel Company, with investors such as the Duke of Wellington, won authorization from Parliament in June 1824. In March 1825 work began at Rotherhithe, on the south bank, on the entrance shaft: a brick cylinder 50 feet across, built on an iron ring at the surface and sunk little by little as the earth was dug out from inside. At the end of that year the shield began to advance horizontally, heading north.</p><p>Progress was a few feet a day, when there was progress at all. River water, which carried London&#x27;s sewage, leaked in through the working face; the air was foul, and methane coming out of the mud caught fire in the lamps. Workers fell sick with dizziness, pains and infections. Isambard Kingdom Brunel, Marc&#x27;s son, took over the running of the site in practice in 1826 and was confirmed as resident engineer in 1827.</p><p>In May 1827, with 549 feet dug, the riverbed gave way and the river poured in. To plug the hole, Isambard went down in a diving bell and had bags of clay dropped onto the riverbed. The tunnel was pumped out and, in November of that year, the company held a banquet inside it, organized by him.</p><figure class="fig revela">
+  <button type="button" class="cantos" data-grande="../../assets/img/20-trilhos.jpg" data-legenda="The northbound train gallery in 2007, already a railway tunnel, with Brunel&#x27;s original arches on the left. — Steve McSherry, CC BY-SA 3.0" aria-label="Enlarge image: Inside an arched tunnel with train tracks running toward a bright light in the distance; on the left, the original columns and arches of painted brick"><picture><source type="image/webp" srcset="../../assets/img/20-trilhos-800.webp 800w, ../../assets/img/20-trilhos.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../../assets/img/20-trilhos.jpg" srcset="../../assets/img/20-trilhos-800.jpg 800w, ../../assets/img/20-trilhos.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1200" alt="Inside an arched tunnel with train tracks running toward a bright light in the distance; on the left, the original columns and arches of painted brick" loading="lazy" decoding="async"></picture></button>
+  <figcaption><span class="fn">FIG. 04</span><span>The northbound train gallery in 2007, already a railway tunnel, with Brunel&#x27;s original arches on the left.</span><small><a href="https://commons.wikimedia.org/wiki/File:Thames_Tunnel_(ELL).jpg" rel="noopener">Steve McSherry</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener">CC BY-SA 3.0</a></small></figcaption>
+</figure><h2 id="s4"><span class="n">04</span>The morning of 12 January 1828</h2><p>Shortly before six in the morning on 12 January 1828, the face of the tunnel gave way again. Six men died: Thomas Ball, J. Long, Thomas Collins, Jeptha Cook, who left six children, George Evans and a newly hired man named Lincoln. Isambard, who was at the working face, was swept by the water to the Rotherhithe shaft, pulled out unconscious and revived. With serious internal injuries, he spent months recovering, first in Brighton and then in Clifton, near Bristol.</p><p>The money ran out before the repairs, and in August 1828 the face of the tunnel was sealed with a brick wall. The work that was supposed to prove one could dig under a river became, for years, a walled-up passage beneath the Thames.</p><figure class="fig revela">
+  <button type="button" class="cantos" data-grande="../../assets/img/20-visita.jpg" data-legenda="The two galleries, side by side, on a walking tour with the line closed, in May 2014. — Martyn Pattison, CC BY-SA 2.0" aria-label="Enlarge image: People walking on the tracks at the dark entrance of two tunnel galleries side by side, lit in the distance"><picture><source type="image/webp" srcset="../../assets/img/20-visita-800.webp 800w, ../../assets/img/20-visita.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../../assets/img/20-visita.jpg" srcset="../../assets/img/20-visita-800.jpg 800w, ../../assets/img/20-visita.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1200" alt="People walking on the tracks at the dark entrance of two tunnel galleries side by side, lit in the distance" loading="lazy" decoding="async"></picture></button>
+  <figcaption><span class="fn">FIG. 05</span><span>The two galleries, side by side, on a walking tour with the line closed, in May 2014.</span><small><a href="https://commons.wikimedia.org/wiki/File:Northbound_and_Southbound_tracks_in_the_Thames_Tunnel_-_geograph.org.uk_-_6487327.jpg" rel="noopener">Martyn Pattison</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="license noopener">CC BY-SA 2.0</a></small></figcaption>
+</figure><h2 id="s5"><span class="n">05</span>The government pays for the rest</h2><p>The restart came with public money. In December 1834 the first installment arrived of a Treasury loan, of £270,000 according to the Transport for London archive, or part of £247,000 raised, according to other sources. The old shield, worn and warped, was dismantled in 1835, and a new, sturdier one went to work in March 1836. The stoppage lasted six, seven or eight years, depending on which date is taken as the restart.</p><p>The river kept coming in: there were floods in August and November 1837, in March 1838 and in April 1840. According to a survey based on the biography written by L. T. C. Rolt, the flood of November 1837 killed one more miner. There is also a record of an engineer who died of a fever blamed on the tunnel water. How many died in all over the eighteen years of work, no source consulted adds up. In 1839 the shield reached the Wapping bank, Marc Brunel was knighted in 1841, and the excavation reached the north shaft in November 1841.</p><figure class="fig revela">
+  <button type="button" class="cantos" data-grande="../../assets/img/20-poco.jpg" data-legenda="The Rotherhithe entrance shaft, begun in 1825, now part of the Brunel Museum, with the staircase installed in 2016. — Z22, CC BY-SA 4.0" aria-label="Enlarge image: Dark interior of a circular shaft of blackened brick, with a zigzag metal staircase outlined in red light and chairs on the floor"><picture><source type="image/webp" srcset="../../assets/img/20-poco-800.webp 800w, ../../assets/img/20-poco.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../../assets/img/20-poco.jpg" srcset="../../assets/img/20-poco-800.jpg 800w, ../../assets/img/20-poco.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="2134" alt="Dark interior of a circular shaft of blackened brick, with a zigzag metal staircase outlined in red light and chairs on the floor" loading="lazy" decoding="async"></picture></button>
+  <figcaption><span class="fn">FIG. 06</span><span>The Rotherhithe entrance shaft, begun in 1825, now part of the Brunel Museum, with the staircase installed in 2016.</span><small><a href="https://commons.wikimedia.org/wiki/File:Thames_Tunnel_Shaft_interior.jpg" rel="noopener">Z22</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a></small></figcaption>
+</figure><h2 id="s6"><span class="n">06</span>The penny attraction</h2><p>The tunnel opened to the public on 25 March 1843, with a ceremony and a procession. It cost £634,000 including the fitting-out. The spiral ramps that were to bring carts down to the bottom were never built for lack of money, and the freight passage became a pedestrian passage, via long stairways inside the shafts, at 1 penny per person. In the first 24 hours, 10,000 people paid to get in, according to the TfL archive; other sources speak of 50,000. Within a few months it passed a million visitors, and Queen Victoria visited it in July 1843. The archways between the galleries filled with souvenir stalls, and there was a yearly fair with musicians and tightrope walkers.</p><p>The novelty wore off. By the late 1850s the tunnel had a reputation as a seedy place. In 1865 the newly formed East London Railway bought it, for £200,000 according to TfL, and on 7 December 1869 the first train ran through. Marc Brunel died in 1849, and Isambard ten years later.</p><h2 id="s7"><span class="n">07</span>A tunnel that still carries trains</h2><p>Brunel&#x27;s tunnel has never gone out of use. It was electrified in 1913, absorbed into the London Underground in 1933, closed for refurbishment in 1995, when a proposal to cover the brick with sprayed concrete caused protests and led to its listing, and reopened in 1998. Since 2010 it has been part of London Overground, and since November 2024 it has been the under-river section of the Windrush line. The idea of the shield moved on: from 1869, Peter W. Barlow and James Henry Greathead redesigned it as a cylinder, the design from which today&#x27;s tunnel boring machines descend, at a distance.</p><p>The Rotherhithe shaft and the drainage pump house form the Brunel Museum. The museum had £2.1 million from the National Lottery Heritage Fund to restore the two buildings and build an entrance pavilion in time for the 200 years since the start of the work. Studies of the Windrush line tunnel, just below, delayed everything, TfL raised objections to the pavilion&#x27;s site, and in December 2025 the fund decided not to go ahead with the works. Two hundred years after Brunel, disturbing the ground above that tunnel is still an engineering problem. In September 2026, the museum&#x27;s collection on the tunnel received Designated Status from Arts Council England, reserved for collections of outstanding importance.</p>
+    
+
+    <h2 id="mitos"><span class="n">MYTHS</span>What people say and what the record shows</h2>
+    <ul class="mitos"><li><div><span class="rotulo">What people say</span><p>It was the first tunnel ever built under a river.</p></div><div><span class="rotulo"><b>What the record shows</b></span><p>The sources put it more carefully: the first known to have been successfully completed under a navigable river. The 1805–1808 attempt, at the same spot, got to about 1,000 feet before flooding, and there is an ancient account, of uncertain proof, of a tunnel under the Euphrates, in Babylon.</p></div></li><li><div><span class="rotulo">What people say</span><p>Brunel&#x27;s shield is the basis of every modern subway.</p></div><div><span class="rotulo"><b>What the record shows</b></span><p>The concept, a protective shell that advances while the lining is built just behind it, is the basis of tunneling today, as the TfL archive notes. But Brunel&#x27;s shield was rectangular; today&#x27;s machines descend from the cylindrical shield of Barlow and Greathead, used from 1869.</p></div></li><li><div><span class="rotulo">What people say</span><p>Brunel invented the shield after watching a worm.</p></div><div><span class="rotulo"><b>What the record shows</b></span><p>That is Brunel&#x27;s own version, in an 1842 letter about something he said he saw around 1812 at the Chatham dockyard. The shipworm, by the way, is a mollusk, not a worm. The Brunel Museum presents the story as the one usually told.</p></div></li><li><div><span class="rotulo">What people say</span><p>The tunnel was built for carriages.</p></div><div><span class="rotulo"><b>What the record shows</b></span><p>It was designed for freight carts, but the spiral access ramps were never built for lack of money. From 1843 to 1869, it was a pedestrian passage, with stairways in the shafts and a toll of 1 penny.</p></div></li></ul>
+
+    <h2 id="perguntas"><span class="n">QUESTIONS</span>Frequently asked questions</h2><div class="perguntas"><h3>How was the Thames Tunnel built?</h3><p>With the shield patented by Marc Isambard Brunel in 1818: an iron cage of 36 cells, each holding one miner, which advanced tight against the face of the excavation while the bricklayers lined the newly opened stretch with brick right behind it.</p><h3>Who built the Thames Tunnel?</h3><p>The chief engineer was Marc Isambard Brunel, a Frenchman settled in England. His son, Isambard Kingdom Brunel, was resident engineer from 1826–1827. The project belonged to the Thames Tunnel Company, made up of private investors, among them the Duke of Wellington.</p><h3>How long did it take to build the Thames Tunnel?</h3><p>18 years: the Rotherhithe shaft was begun in March 1825 and the tunnel opened on 25 March 1843. In between, the river flooded the works several times, and the tunnel stood walled up from August 1828 until work resumed with Treasury money, from December 1834.</p><h3>How many people died building the Thames Tunnel?</h3><p>The total was never added up. Six men died in the flood of 12 January 1828, and there is a record of one more miner killed in the flood of November 1837 and of an engineer who died of fever.</p><h3>How long is the Thames Tunnel?</h3><p>Sources differ: 1,200 feet (366 m) or 1,300 feet (396 m). It consists of two parallel brick galleries, linked by arches, that have carried trains since 1869.</p></div>
+
+    <section class="video">
+      <div>
+        <span class="rotulo">Episode 20 · <span class="selo-estreia" data-estreia="2027-02-18" data-no-ar="out now">premieres February 18, 2027</span></span>
+        <h3>Episode in production</h3>
+        <p>Every week, a structure that should never have stayed standing.</p>
+      </div>
+      <a class="botao cheio" href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">Watch on YouTube</a>
+    </section>
+
+    <a class="proximo-ep" href="../../en/obras/ponte-eads.html">
+      <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/21-capa-800.webp 800w, ../../assets/img/21-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../../assets/img/21-capa.jpg" srcset="../../assets/img/21-capa-800.jpg 800w, ../../assets/img/21-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="853" alt="Bridge of three dark steel arches over a wide river, with stone piers, a blue train crossing on the lower deck, a clear sky and a snow-covered bank in the foreground" loading="lazy" decoding="async" style="object-position:45% 45%"></picture></div>
+      <div class="txt">
+        <span class="rotulo">Next episode · Structure <b>21</b> · <span class="selo-estreia" data-estreia="2027-02-25" data-no-ar="out now">premieres Feb 25, 2027</span></span>
+        <h3>Eads Bridge</h3>
+        <span class="onde">Mississippi River, between St. Louis, Missouri, and East St. Louis, Illinois, United States · 1867–1874</span>
+        <p>Resting on bedrock, beneath some 25 meters of sand that the Mississippi kept shifting, three arches of more than 150 meters each made of a metal that had never been the main one in a large structure, with no falsework in the river and without stopping the steamboats.</p>
+        <span class="ir">Read the story →</span>
+      </div>
+    </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MORE</span>Read next</h2><ul><li><a href="../../en/obras/eurotunel.html"><span class="rotulo">Structure <b>14</b> · France</span><strong>Channel Tunnel</strong><span class="onde">1987–1994</span></a></li><li><a href="../../en/obras/tunel-de-base-de-sao-gotardo.html"><span class="rotulo">Structure <b>31</b> · Switzerland</span><strong>Gotthard Base Tunnel</strong><span class="onde">1999–2016</span></a></li><li><a href="../../en/obras/farol-de-bell-rock.html"><span class="rotulo">Structure <b>18</b> · United Kingdom</span><strong>Bell Rock Lighthouse</strong><span class="onde">1807–1811</span></a></li></ul><p class="temas-link"><span class="rotulo">Topic</span> <a href="../../en/temas/tuneis-e-ferrovias.html">Tunnels and railroads</a></p></section>
+
+    <h2 id="fontes"><span class="n">SOURCES</span>Sources</h2>
+    <ol class="fontes"><li>TfL Corporate Archives, Research Guide No 25: The Thames Tunnel, 2024 — <a href="https://content.tfl.gov.uk/research-guide-25-the-thames-tunnel.pdf" rel="noopener">content.tfl.gov.uk</a></li><li>Historic England, Thames Tunnel, list entry 1242119 (Grade II*), 1995 — <a href="https://historicengland.org.uk/listing/the-list/list-entry/1242119" rel="noopener">historicengland.org.uk</a></li><li>American Society of Civil Engineers, &quot;Thames Tunnel&quot;, International Historic Civil Engineering Landmark — <a href="https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/thames-tunnel" rel="noopener">asce.org</a></li><li>London Museum, &quot;The Thames Tunnel: Marc Brunel&#x27;s engineering marvel&quot; — <a href="https://www.londonmuseum.org.uk/collections/london-stories/thames-tunnel-marc-brunels-engineering-marvel/" rel="noopener">londonmuseum.org.uk</a></li><li>Royal Museums Greenwich, &quot;Musing on a mollusc: Brunel&#x27;s inspiration for the Thames Tunnel&quot; (letter from Marc Brunel, 10 March 1842) — <a href="https://www.rmg.co.uk/stories/art-culture/library-archive/musing-on-mollusc-brunels-inspiration-thames-tunnel" rel="noopener">rmg.co.uk</a></li><li>Brunel Museum, &quot;1828 Tunnel Flood&quot; — <a href="https://thebrunelmuseum.com/1828-tunnel-flood/" rel="noopener">thebrunelmuseum.com</a></li><li>Brunel Museum, &quot;Tunnel Shaft&quot; — <a href="https://thebrunelmuseum.com/visiting-us/tunnel-shaft/" rel="noopener">thebrunelmuseum.com</a></li><li>Brunel Museum, &quot;Working at the Face – Inspiration&quot; — <a href="https://thebrunelmuseum.com/working-at-the-face-inspiration/" rel="noopener">thebrunelmuseum.com</a></li><li>Brunel Museum, &quot;New Insights into the Thames Tunnel Designs&quot; — <a href="https://thebrunelmuseum.com/new-insights-into-the-thames-tunnel-designs/" rel="noopener">thebrunelmuseum.com</a></li><li>Brunel Museum, news from 2026 — <a href="https://thebrunelmuseum.com/news/" rel="noopener">thebrunelmuseum.com</a></li><li>Linda Hall Library, &quot;Scientist of the Day: Marc Isambard Brunel&quot; — <a href="https://www.lindahall.org/about/news/scientist-of-the-day/marc-isambard-brunel-2/" rel="noopener">lindahall.org</a></li><li>National Transport Trust, &quot;Thames Tunnel&quot; — <a href="https://www.nationaltransporttrust.org.uk/heritage-sites/heritage-detail/thames-tunnel" rel="noopener">nationaltransporttrust.org.uk</a></li><li>Guinness World Records, &quot;First tunnel under a navigable waterway&quot; — <a href="https://www.guinnessworldrecords.com/world-records/113231-first-tunnel-under-a-navigable-waterway" rel="noopener">guinnessworldrecords.com</a></li><li>PBS, Building Big, &quot;Thames Tunnel&quot; — <a href="https://www.pbs.org/wgbh/buildingbig/wonder/structure/thames.html" rel="noopener">pbs.org</a></li><li>Mark Cartwright, &quot;Thames Tunnel&quot;, World History Encyclopedia, 2023 — <a href="https://www.worldhistory.org/Thames_Tunnel/" rel="noopener">worldhistory.org</a></li><li>Andie Byrnes, &quot;Marc Brunel in Rotherhithe: the construction of the Thames Tunnel 1825–1843&quot;, A Rotherhithe Blog, 2015 — <a href="http://russiadock.blogspot.com/2015/09/marc-brunel-in-rotherhithe-construction.html" rel="noopener">russiadock.blogspot.com</a></li><li>ianVisits, &quot;Brunel Museum&#x27;s expansion put on hold after railway tunnel complications&quot;, 29 May 2026 — <a href="https://www.ianvisits.co.uk/articles/brunel-museums-expansion-put-on-hold-after-railway-tunnel-complications-90065/" rel="noopener">ianvisits.co.uk</a></li><li>Tom de Castella, &quot;Tate + Co&#x27;s expansion of Brunel Museum runs out of steam&quot;, Architects&#x27; Journal, 14 July 2026 — <a href="https://www.architectsjournal.co.uk/news/tate-cos-expansion-of-brunel-museum-runs-out-of-steam" rel="noopener">architectsjournal.co.uk</a></li><li>Evie Flynn, &quot;Rotherhithe museum for first underwater tunnel gains Designated Status&quot;, Southwark News, 17 September 2026 — <a href="https://southwarknews.co.uk/area/rotherhithe/rotherhithe-museum-for-first-underwater-tunnel-gains-designated-status/" rel="noopener">southwarknews.co.uk</a></li><li>Wikipedia, &quot;Thames Tunnel&quot; and &quot;Tunnelling shield&quot; (starting point) — <a href="https://en.wikipedia.org/wiki/Thames_Tunnel" rel="noopener">en.wikipedia.org</a></li></ol>
+    <h3 style="margin-top:2rem">Images</h3>
+    <ul class="creditos"><li>Fig. 01 — The tunnel as a pedestrian attraction, in an engraving published in Germany in 1839, four years before the opening: <a href="https://commons.wikimedia.org/wiki/File:Meyers_Universum_Band_06_35.jpg" rel="noopener">Bibliographisches Institut, Hildburghausen (Meyer&#x27;s Universum, vol. 6)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Public domain</a></li><li>Fig. 02 — The shield seen from the front, with its 36 cells in three tiers, in a popular English magazine from November 1832: <a href="https://commons.wikimedia.org/wiki/File:Penny_Magazine_1832_341_Shield_used_in_the_Excavation_of_the_Thames_Tunnel.jpg" rel="noopener">Autor não identificado (The Penny Magazine)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Public domain</a></li><li>Fig. 03 — Visitors in one of the galleries, in a nineteenth-century lithograph that gives the tunnel a length of 1,300 feet, a width of 38 and a height of 22: <a href="https://commons.wikimedia.org/wiki/File:The_Thames_Tunnel_LCCN98507755.jpg" rel="noopener">Autor não identificado (Library of Congress, Popular Graphic Arts)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Public domain</a></li><li>Fig. 04 — The northbound train gallery in 2007, already a railway tunnel, with Brunel&#x27;s original arches on the left: <a href="https://commons.wikimedia.org/wiki/File:Thames_Tunnel_(ELL).jpg" rel="noopener">Steve McSherry</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener">CC BY-SA 3.0</a></li><li>Fig. 05 — The two galleries, side by side, on a walking tour with the line closed, in May 2014: <a href="https://commons.wikimedia.org/wiki/File:Northbound_and_Southbound_tracks_in_the_Thames_Tunnel_-_geograph.org.uk_-_6487327.jpg" rel="noopener">Martyn Pattison</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="license noopener">CC BY-SA 2.0</a></li><li>Fig. 06 — The Rotherhithe entrance shaft, begun in 1825, now part of the Brunel Museum, with the staircase installed in 2016: <a href="https://commons.wikimedia.org/wiki/File:Thames_Tunnel_Shaft_interior.jpg" rel="noopener">Z22</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a></li></ul>
+  </article>
+  <aside class="indice" aria-label="On this page">
+    <div class="lado-card">
+      <span class="rotulo">Quick facts</span>
+      <dl>
+        <div><dt>Where</dt><dd>Under the River Thames, between Rotherhithe and Wapping, London, England, United Kingdom</dd></div>
+        <div><dt>Structure</dt><dd>1825–1843</dd></div>
+        <div><dt>Episode</dt><dd>20 · Feb 18, 2027</dd></div>
+      </dl>
+    </div>
+    <span class="rotulo">On this page</span>
+    <ol><li><a href="#ficha">Fact sheet</a></li><li><a href="#s1">A river that would not take a bridge</a></li><li><a href="#s2">The worm and the cage</a></li><li><a href="#s3">Beneath London&#x27;s sewage</a></li><li><a href="#s4">The morning of 12 January 1828</a></li><li><a href="#s5">The government pays for the rest</a></li><li><a href="#s6">The penny attraction</a></li><li><a href="#s7">A tunnel that still carries trains</a></li><li><a href="#mitos">Myths and the record</a></li><li><a href="#perguntas">Frequently asked questions</a></li><li><a href="#fontes">Sources</a></li></ol>
+  </aside>
+</div>
+<nav class="seguinte" aria-label="Other structures"><a href="../../en/obras/edificio-martinelli.html"><span class="rotulo">← Structure 19</span><strong>Martinelli Building</strong></a><a href="../../en/obras/ponte-eads.html"><span class="rotulo">Structure 21 →</span><strong>Eads Bridge</strong></a></nav>
+</main>
+<div class="lupa" role="dialog" aria-modal="true" aria-label="Enlarged image"><button type="button">Close</button><img alt=""><p></p></div>
+<footer class="rodape">
+  <div class="casca">
+    <div>
+      <h2>Arquitetura do Impossível — Impossible Architecture</h2>
+      <p>How a structure that seemed impossible came to stand: the design, the calculations, the building site, who worked and who died. Here, every number has a source.</p>
+      <p><a href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">Watch on YouTube (in Portuguese)</a></p>
+    </div>
+    <div>
+      <h2>From the same creator</h2>
+      <ul>
+        <li><a href="https://vestigiooculto.com.br" target="_blank" rel="noopener">Vestígio Oculto</a> — archaeology and mystery (in Portuguese)</li>
+        <li><a href="https://xadrezbelico.com/" target="_blank" rel="noopener">Xadrez Bélico</a> — battles explained as a chess game</li>
+      </ul>
+    </div>
+    <div>
+      <h2>This site</h2>
+      <ul>
+        <li><a href="../../en/sobre.html">About</a> · <a href="../../en/contato.html">Contact</a></li>
+        <li>Shows Google AdSense ads. <a href="../../en/privacidade.html">Privacy policy</a>. <a href="#" role="button" data-rever-cookies>Review cookie choice</a>.</li>
+        <li>Third-party photos in the public domain or under Creative Commons, credited on every page.</li>
+      </ul>
+    </div>
+    <div class="linha"><span>© 2026 Arquitetura do Impossível · original writing</span><span>the impossible, measured.</span></div>
+  </div>
+</footer>
+<div class="consentimento" id="consentimento" role="dialog" aria-live="polite" aria-label="Cookie notice" hidden>
+  <div class="casca">
+    <p>This site uses Google AdSense cookies to show and measure ads. We do not ask you to sign up or give an e-mail. Details in our <a href="../../en/privacidade.html">privacy policy</a>.</p>
+    <div class="botoes">
+      <button type="button" data-consent="recusar">Decline ads</button>
+      <button type="button" data-consent="aceitar" class="principal">Got it</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var CHAVE='ai-consentimento', PUB='pub-4401770243539507', BLOQUEIA=false;
+  function ler(){try{return localStorage.getItem(CHAVE)}catch(e){return null}}
+  function gravar(v){try{localStorage.setItem(CHAVE,v)}catch(e){}}
+  function carrega(){
+    if(!PUB||document.getElementById('ads-google'))return;
+    var s=document.createElement('script');s.id='ads-google';s.async=true;s.crossOrigin='anonymous';
+    s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-'+PUB;
+    document.head.appendChild(s);
+  }
+  // "Rever escolha de cookies", no rodapé: apaga a escolha salva e recarrega,
+  // e a faixa volta a aparecer.
+  document.querySelectorAll('[data-rever-cookies]').forEach(function(a){
+    a.addEventListener('click',function(ev){
+      ev.preventDefault();
+      try{localStorage.removeItem(CHAVE)}catch(e){}
+      location.reload();
+    });
+  });
+  var escolha=ler();
+  if(escolha==='aceitar'||(escolha===null&&!BLOQUEIA))carrega();
+  var caixa=document.getElementById('consentimento');
+  if(escolha===null&&caixa){
+    caixa.hidden=false;
+    caixa.addEventListener('click',function(ev){
+      var b=ev.target.closest('[data-consent]');if(!b)return;
+      var v=b.dataset.consent;gravar(v);caixa.hidden=true;
+      if(v==='aceitar')carrega();else{var x=document.getElementById('ads-google');if(x)x.remove();}
+    });
+  }
+  // Europa, Reino Unido, Suíça: quem pergunta é a mensagem do Google (a
+  // plataforma certificada que o AdSense exige lá). Se ela diz que o GDPR se
+  // aplica, esta faixa sai da frente. Sem a mensagem publicada, não dispara.
+  if(escolha===null&&caixa){
+    var n=0,t=setInterval(function(){
+      if(typeof window.__tcfapi==='function'){
+        clearInterval(t);
+        window.__tcfapi('addEventListener',2,function(tc,ok){if(ok&&tc&&tc.gdprApplies)caixa.hidden=true;});
+      }else if(++n>40)clearInterval(t);
+    },250);
+  }
+})();
+</script>
+<script>
+(function(){
+  var hoje=new Date();hoje.setHours(0,0,0,0);
+  document.querySelectorAll('[data-estreia]').forEach(function(el){
+    var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+  });
+  var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
+  fs.forEach(function(b){b.addEventListener('click',function(){
+    fs.forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+    var f=b.dataset.f;cs.forEach(function(c){c.hidden=!(f==='todas'||c.dataset.regiao===f)});
+  })});
+  var rv=document.querySelectorAll('.revela');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visto');io.unobserve(x.target)}})},{rootMargin:'0px 0px -8% 0px'});
+    rv.forEach(function(x){io.observe(x)});
+  } else rv.forEach(function(x){x.classList.add('visto')});
+  var bar=document.querySelector('.progresso'),art=document.querySelector('.texto');
+  if(bar&&art){var up=function(){var r=art.getBoundingClientRect(),t=r.height-innerHeight;bar.style.transform='scaleX('+Math.min(1,Math.max(0,-r.top/(t>0?t:1)))+')'};addEventListener('scroll',up,{passive:true});up();}
+  var links=document.querySelectorAll('.indice a');
+  if(links.length&&'IntersectionObserver' in window){
+    var io2=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){links.forEach(function(a){a.classList.toggle('ativo',a.getAttribute('href')==='#'+x.target.id)})}})},{rootMargin:'-20% 0px -70% 0px'});
+    document.querySelectorAll('.texto h2[id]').forEach(function(h){io2.observe(h)});
+  }
+  var lupa=document.querySelector('.lupa');
+  if(lupa){
+    var li=lupa.querySelector('img'),lp=lupa.querySelector('p'),lb=lupa.querySelector('button'),ant=null;
+    var fecha=function(){lupa.classList.remove('aberta');document.body.style.overflow='';if(ant)ant.focus()};
+    document.querySelectorAll('.fig button').forEach(function(b){b.addEventListener('click',function(){
+      ant=b;var im=b.querySelector('img');li.src=b.dataset.grande;li.alt=im.alt;lp.textContent=b.dataset.legenda;
+      lupa.classList.add('aberta');document.body.style.overflow='hidden';lb.focus();
+    })});
+    lb.addEventListener('click',fecha);
+    lupa.addEventListener('click',function(ev){if(ev.target===lupa)fecha()});
+    addEventListener('keydown',function(ev){if(ev.key==='Escape'&&lupa.classList.contains('aberta'))fecha()});
+  }
+})();
+</script>
+</body>
+</html>

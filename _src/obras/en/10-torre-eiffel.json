@@ -1,0 +1,179 @@
+{
+  "_nota": "Tradução fiel de ../10-torre-eiffel.json. Campos fixos vêm do original.",
+  "obra": "Eiffel Tower",
+  "titulo_seo": "How the Eiffel Tower Was Built (1887–1889)",
+  "titulo_video": null,
+  "lugar": "Champ-de-Mars, Paris, Île-de-France, France",
+  "periodo": "1887–1889",
+  "impossivel": "Raising 300 meters of iron, nearly twice the height of the tallest structure in the world, in just over two years, with its shape dictated by the wind calculations, and opening it in time for the Universal Exposition of 1889.",
+  "resumo": "Who designed the Eiffel Tower, how the wind shaped its curve, what it cost, who died building it and why it was not torn down in 1909.",
+  "abertura": [
+    "Until 1889, the tallest structure in the world was the Washington Monument, at about 169 meters. For that year's Universal Exposition, on the Champ-de-Mars in Paris, France, Gustave Eiffel's company promised a 300-meter iron tower, assembled in just over two years and paid for mostly by Eiffel and by a company formed with banks.",
+    "The design was not Eiffel's. It came, in June 1884, from two engineers at the firm, Maurice Koechlin and Émile Nouguier, and took its final form with the architect Stephen Sauvestre. Eiffel bought the patent, took on the risk and gave it his name. The curve of the four legs, he himself explained in 1887, was the one that the calculation of wind resistance had given him."
+  ],
+  "numeros": [
+    {"valor": "300 m", "rotulo": "tall in 1889; 330 m with the antennas since 2022"},
+    {"valor": "2 years, 2 months and 5 days", "rotulo": "from the start of the foundations, in January 1887, to the top, on 31 March 1889"},
+    {"valor": "7,300 t", "rotulo": "of puddled iron in the metal structure"},
+    {"valor": "2.5 million", "rotulo": "hot-driven rivets"},
+    {"valor": "7,799,401 F", "rotulo": "final cost in 1889 francs, against an estimated 6.5 million"}
+  ],
+  "ficha": [
+    {"item": "What for", "valor": "To be the great attraction of the Universal Exposition of 1889, which marked the centenary of the French Revolution. The competition brief, opened on 1 May 1886, called for an iron tower on a square base, 125 meters on a side and 300 meters tall."},
+    {"item": "Who designed it", "valor": "Émile Nouguier and Maurice Koechlin, engineers at the Eiffel company, in the sketch dated 6 June 1884. The architect Stephen Sauvestre redrew the whole: a masonry base, the great arches between the legs and the first floor, fewer platforms."},
+    {"item": "The patent", "valor": "Filed on 18 September 1884 in the names of Eiffel, Nouguier and Koechlin, for metal piers and pylons more than 300 meters tall. At the end of 1884, Eiffel bought out the two engineers' rights.", "nota": "in exchange, according to the Koechlin family, 1% of what Eiffel received for the work for each of them, and the mention of their names"},
+    {"item": "The contract", "valor": "Agreement of 8 January 1887 between minister Édouard Lockroy, for the State, prefect Eugène Poubelle, for the City of Paris, and Eiffel. A subsidy of 1.5 million francs in three installments, and the right to operate the tower during the Exposition and for 20 years from 1 January 1890; after that, operation reverted to the City, which owned the tower."},
+    {"item": "Timeline", "valor": "Foundations from late January 1887, in five months; ironwork assembly from 1 July 1887; first-floor girders joined on 7 December 1887; second floor in mid-1888 (July or August, depending on the source); top reached on 31 March 1889. Opened to the public on 15 May 1889, still without elevators.", "nota": "the first day of work appears as 26 or 28 January 1887"},
+    {"item": "How it was assembled", "valor": "The pieces were drawn one by one, drilled and pre-assembled in sections of about 5 meters at the company's factory in Levallois-Perret, 4 km from the site, and joined on site with hot-driven rivets. The first floor rested on wooden scaffolds 30 and 45 meters tall, with sandboxes and hydraulic jacks to adjust the angle of the legs.", "nota": "the pre-assembly and the adjustment with sandboxes and jacks are described by the company that operates the tower"},
+    {"item": "Pieces and rivets", "valor": "18,038 iron pieces and 2.5 million rivets. How many rivets were driven on site varies: about one third according to the company that operates the tower, 800,000 according to Scientific American in 1889.", "nota": "Scientific American in 1889 speaks of 12,000 pieces"},
+    {"item": "Workers", "valor": "About 150 at the factory and between 150 and 300 on site, according to the company that operates the tower; on the day of the strike of 19 September 1888, the usual attendance was about 140. A riveter earned 0.70 francs an hour. Nobody recorded the total number of workers.", "nota": "the wages and attendance come from a CGT survey of Paris police archives"},
+    {"item": "Deaths", "valor": "The version of the company that operates the tower: no deaths on the job, and one Italian worker who died outside working hours. The documents of the compensation agreement held at the Musée d'Orsay speak of Angelo Scagliotti, killed in an accident on 24 May 1889 on the tower site, a Friday, while the elevators were still being installed.", "nota": "the claim that more than 300 workers died is false"},
+    {"item": "Cost", "valor": "7,799,401.31 francs, against 6.5 million estimated at the time of the agreement and 3.155 million in Eiffel's first budget, of 1885. The State put in 1.5 million; the rest came from Eiffel and from a company formed with three banks.", "nota": "at the value of the 1889 franc (0.2903 g of fine gold), the final cost corresponds to about 2.26 tonnes of gold; the 1885 budget comes from a single source"},
+    {"item": "Material", "valor": "7,300 tonnes of puddled iron from the Dupont et Fould forges, in Pompey, Lorraine; about 10,100 tonnes in all, according to the National Library of France. 60 tonnes of paint for each painting campaign."},
+    {"item": "Measurements", "valor": "300 meters without the flag in 1889, about 312 with the flagpole; 330 meters with the antennas since March 2022. First floor at 57.6 m and second floor at 115.7 m above the ground.", "nota": "the floor heights come from a single source"},
+    {"item": "Protest", "valor": "On 14 February 1887, the newspaper Le Temps published a letter from writers, painters, sculptors and architects, among them Charles Garnier, Gounod, Maupassant and Leconte de Lisle, against the \"inutile et monstrueuse tour Eiffel\" (the useless and monstrous Eiffel Tower) and, above all, against keeping it standing for twenty years."},
+    {"item": "Afterwards", "valor": "About 2 million people went up the tower in 1889. With the end of the concession set for 1909, Eiffel bet on science: from 1903 he paid for the antenna for Captain Gustave Ferrié's wireless telegraphy experiments. The concession was extended for 70 years from 1 January 1910."},
+    {"item": "In 2026", "valor": "The 20th painting campaign, begun in 2019 and, as of September 2026, scheduled to end that year, costs more than 80 million euros. On 7 September 2026, a staff strike closed the tower for a day."}
+  ],
+  "historia": [
+    {
+      "titulo": "A bridge pier stretched to 300 meters",
+      "paragrafos": [
+        "Gustave Eiffel's company, in Levallois-Perret, on the outskirts of Paris, made its living from iron bridges and viaducts. In June 1884, with the Universal Exposition of 1889 on the horizon, two of the firm's engineers, Maurice Koechlin, head of the design office, and Émile Nouguier, had the idea of stretching to 300 meters the kind of lattice pier the company already knew how to build. The sketch, signed by both and dated 6 June 1884, shows four lattice girders that spread apart at the base and meet at the top, with Notre-Dame, the Statue of Liberty and the Arc de Triomphe stacked alongside for scale.",
+        "According to the company that operates the tower, the two then called in the firm's architect, Stephen Sauvestre. He added a masonry base, linked the four legs to the first floor with great arches, and drew glazed halls and a bulb-shaped top. Much of that was later simplified; the arches stayed. On 18 September 1884, Eiffel filed the patent in all three names. At the end of that year, he bought out Koechlin's and Nouguier's rights. According to the Koechlin family, the deal was 1% of what Eiffel received for the work for each of them and a promise to mention their names. The tower got his."
+      ]
+    },
+    {
+      "titulo": "The shape the wind drew",
+      "paragrafos": [
+        "A 300-meter tower does not fall because of its weight: it falls because of the wind. The weight, spread over the four legs, put a pressure of only a few kilograms per square centimeter on the ground. The problem was the sideways push, which grows with height and tries to topple the tower like a lever. The answer was to give the four legs a curve calculated so that, at every height, the force of the wind would run inside the edges themselves, without any need for diagonals crossing the gap between them. And to leave everything open: an open lattice offers little surface for the wind to push against.",
+        "Eiffel said so in public on 14 February 1887, in the newspaper Le Temps, replying to the artists who were attacking the tower: the condition he had had to deal with above all was resistance to the wind, and the curves of the four edges, just as the calculation had produced them, would give an impression of beauty. In a text quoted today by the company that operates the tower, he wrote that the legs seemed to spring from the ground and to have been molded by the action of the wind."
+      ]
+    },
+    {
+      "titulo": "Eighteen thousand pieces, each with its own drawing",
+      "paragrafos": [
+        "The agreement of 8 January 1887 was signed by minister Édouard Lockroy, by the prefect of the Seine, Eugène Poubelle, and by Eiffel. Until the Exposition opened, in May 1889, there were just over two years. The foundations began at the end of that month. In five months the masonry blocks that receive each edge were built; on the Seine side, below the water table, the workers dug inside compressed-air metal caissons. On 1 July 1887 the ironwork assembly began.",
+        "The secret of the speed lay far from the Champ-de-Mars. At the Levallois-Perret factory, about 50 engineers and draftsmen produced thousands of drawings for the 18,038 pieces of puddled iron that came from the Pompey forges, in Lorraine. Each piece was marked out, cut and drilled there, and pre-assembled in sections of some 5 meters. On site, between 150 and 300 men, according to the company that operates the tower, hoisted the sections with small steam cranes that climbed along the rails of the future elevators, bolted them temporarily and replaced the bolts with hot-driven rivets. According to the company that operates the tower, each rivet took four men: one heated it, one held it, one formed the head and one struck it with the sledgehammer.",
+        "The most delicate moment was the first floor. The four legs rose at an angle, resting on wooden scaffolds of 30 and then 45 meters, and the great girders of the floor had to meet them in exactly the right place. The angle of each leg was adjusted with sandboxes, emptied little by little, and hydraulic jacks at the base. The junction was made on 7 December 1887. From then on, the tower served as its own building site: second floor in mid-1888 (July or August, depending on the source), top at the end of March 1889."
+      ]
+    },
+    {
+      "titulo": "Five centimes an hour",
+      "paragrafos": [
+        "On 19 September 1888, with the second floor finished, the workers stopped. According to a CGT survey of the archives of the Paris Prefecture of Police, only 27 of the usual 140 or so turned up that day. A riveter earned 0.70 francs an hour; a carpenter, 0.80. Eiffel granted a raise of five centimes an hour and a bonus for the longest-serving men when the tower reached the lantern platform, but refused to pay more for height. In December there was another strike; the sources disagree on whether or not Eiffel negotiated.",
+        "Nobody recorded how many men passed through the job. The company that operates the tower says that none died on the job, in work done on small platforms, without protection, in the cold and the wind, and that an Italian worker died outside working hours, his widow discreetly compensated by Eiffel. The documents of that compensation agreement, held at the Musée d'Orsay, give a name and a date: Angelo Scagliotti, killed in an accident on 24 May 1889 on the tower site. It was a Friday, nine days after the opening to the public. According to the family's research, which reproduces the death certificate and the agreement, he was crushed by the car during the installation of the first elevator, and the agreement says he died working on the site on Eiffel's account."
+      ]
+    },
+    {
+      "titulo": "The protest, the cost and the celebration",
+      "paragrafos": [
+        "The work had barely begun when Le Temps published, on 14 February 1887, the letter from dozens of artists to the director of works of the Exposition, Adolphe Alphand: Charles Garnier, the architect of the Opéra, the composer Charles Gounod, Guy de Maupassant, Leconte de Lisle, among others. They called the tower useless and monstrous and protested, above all, against keeping it standing for twenty years. Eiffel replied in the same issue: nobody had seen the tower yet, only a drawing, and the colossal had a charm of its own, like the pyramids.",
+        "The final bill came to 7,799,401.31 francs, about 1.3 million more than the estimated 6.5 million and more than double Eiffel's first budget. The State paid 1.5 million, in three installments tied to the first floor, the second floor and completion; the rest came from Eiffel and from a company formed with three banks. On 31 March 1889 the flag was raised at the top and Eiffel received the Legion of Honor up there. During the Exposition, about 2 million people went up the tower."
+      ]
+    },
+    {
+      "titulo": "Saved by the antenna",
+      "paragrafos": [
+        "Once the Exposition was over, the crowds dwindled. The agreement gave Eiffel the right to operate the tower for 20 years from 1 January 1890; after that, the tower, which already belonged to the City of Paris, would revert to it entirely, and nobody could promise the City would want it. In 1906, Paris decided to demolish the Galerie des Machines, another giant of 1889, for lack of use.",
+        "Eiffel looked for a scientific use. In 1898, Eugène Ducretet made the tower one end of a wireless telegraphy link with the Panthéon, 4 km away. From 1903, Eiffel paid for the antenna for the experiments of Captain Gustave Ferrié, of the Army. The following year, according to the company that operates the tower, the range reached 400 km, and in 1908 6,000 km; in 1909 it gained a permanent station under the Champ-de-Mars. The concession was extended for 70 years from 1 January 1910. In the First World War, the tower intercepted German messages. Eiffel had already left business: convicted in 1893 in the scandal of the French Panama canal, whose locks his company had contracted to build in 1887, he had the conviction overturned by the Court of Cassation the same year, on the statute of limitations."
+      ]
+    },
+    {
+      "titulo": "Iron that needs paint",
+      "paragrafos": [
+        "Eiffel wrote, in a much-quoted line, that the tower had been made so that every part could be reached and examined for the first sign of rust. The iron of 1889 is still standing only because it is repainted in full from time to time, with about 60 tonnes of paint per campaign. The 20th campaign began in 2019, costs more than 80 million euros, has had to deal with the lead in the old paints and is giving the tower back the yellowish brown that Eiffel chose in 1907; as of September 2026, it was scheduled to be completed that year, with the inner face.",
+        "In September 2026, the tower stopped for another reason. On a Saturday, 5 September, management removed female employees from their posts during the private visit of a religious delegation, at the visitors' request. On Monday the 7th, the staff went on strike and the tower stayed closed all day, reopening the next day. The company that operates it acknowledged that it should not have accepted the request, and on 29 September the managing director announced that he would leave the post at the end of 2026."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Gustave Eiffel designed the tower.",
+      "registro": "The idea and the first drawing, of 6 June 1884, belong to the engineers Émile Nouguier and Maurice Koechlin; the architectural form is Stephen Sauvestre's. Eiffel filed the patent in all three names, bought out the two engineers' rights at the end of 1884, and financed, built and operated the tower."
+    },
+    {
+      "circula": "The contract required the tower to be dismantled after 20 years.",
+      "registro": "The agreement of 8 January 1887 says nothing about dismantling. It says that the City of Paris becomes the owner of the tower after the Exposition and that, once Eiffel's 20 years of operation, counted from 1 January 1890, are over, operation reverts to the City. Demolition was a real risk, not a clause."
+    },
+    {
+      "circula": "Nobody died during construction. Or, at the opposite extreme, more than 300 workers died.",
+      "registro": "The 300 deaths are false, as an AFP fact-check showed in 2022. The version of the company that operates the tower is no deaths on the job. The documents held at the Musée d'Orsay record the death of Angelo Scagliotti in an accident on the site, on 24 May 1889, while the elevators were being installed."
+    },
+    {
+      "circula": "Émile Zola signed the artists' protest against the tower.",
+      "registro": "Zola's name is not among the signatures published by Le Temps on 14 February 1887. Those of Charles Garnier, Gounod, Maupassant, Leconte de Lisle, Sully Prudhomme, Victorien Sardou, Meissonier and others are."
+    },
+    {
+      "circula": "The tower is made of cast iron.",
+      "registro": "It is made of puddled iron, a wrought iron, produced by the Dupont et Fould forges, in Pompey, Lorraine."
+    }
+  ],
+  "perguntas": [
+    {"p": "Who designed the Eiffel Tower?", "r": "The first drawing, of 6 June 1884, is by two engineers at Gustave Eiffel's company, Maurice Koechlin and Émile Nouguier; the architect Stephen Sauvestre gave it its final form, with the great arches at the base. Eiffel filed the patent in all three names, bought out the two engineers' rights, and financed and built the tower."},
+    {"p": "When was the Eiffel Tower built?", "r": "Between 1887 and 1889, for the Paris Universal Exposition. The foundations began at the end of January 1887, the ironwork assembly on 1 July 1887, and the top was reached on 31 March 1889: 2 years, 2 months and 5 days. The tower opened to the public on 15 May 1889."},
+    {"p": "How was the Eiffel Tower built?", "r": "The 18,038 pieces of puddled iron were drawn, drilled and pre-assembled in sections of about 5 meters at the Levallois-Perret factory and joined on site with hot-driven rivets. The first floor rested on wooden scaffolds, and the angle of the legs was adjusted with sandboxes and hydraulic jacks."},
+    {"p": "How many people died building the Eiffel Tower?", "r": "The accounts differ. The company that operates the tower speaks of no deaths on the job; documents held at the Musée d'Orsay record the death of Angelo Scagliotti in an accident on the site, on 24 May 1889, during the installation of the elevators. The story of more than 300 workers killed is false."},
+    {"p": "How much did the Eiffel Tower cost to build?", "r": "7,799,401.31 francs of 1889, against 6.5 million estimated at the time of the agreement. The State put in 1.5 million; the rest came from Eiffel and from a company formed with three banks."}
+  ],
+  "fontes": [
+    {"texto": "Agreement of 8 January 1887 between the State, the City of Paris and Gustave Eiffel for the construction and operation of the 300-meter tower (full text)"},
+    {"texto": "\"Les artistes contre la tour Eiffel\", Le Temps, 14 February 1887 (full text and signatures)"},
+    {"texto": "Gustave Eiffel's reply to the artists' protest, interview with Paul Bourde, Le Temps, 14 February 1887"},
+    {"texto": "\"The Eiffel Tower\", Scientific American, 15 June 1889"},
+    {"texto": "Société d'exploitation de la tour Eiffel, \"Histoire\" and key figures"},
+    {"texto": "Société d'exploitation de la tour Eiffel, \"The Construction of the Eiffel Tower\", Google Arts & Culture"},
+    {"texto": "Bertrand Lemoine, \"La construction de la Tour Eiffel : un chantier exemplaire !\", official tower website, 4 November 2019"},
+    {"texto": "Bertrand Lemoine, \"Comment la radio a sauvé la Tour Eiffel ?\", official tower website, 3 February 2020"},
+    {"texto": "National Library of France, Passerelles, \"La construction de la tour Eiffel\""},
+    {"texto": "National Library of France, Passerelles, \"La Tour en chiffres\""},
+    {"texto": "BNP Paribas, history, \"The Eiffel Tower: a 19th-century industrial feat partly financed by the banking forerunners of BNP Paribas\""},
+    {"texto": "Musée d'Orsay, \"Documents concernant le contrat d'indemnité signé par Mme Scagliotti, veuve d'Angelo Scagliotti mort dans un accident intervenu le 24 mai 1889 sur le chantier de la Tour\""},
+    {"texto": "\"Angelo Scagliotti (1849-1889), le seul ouvrier mort à la Tour Eiffel\", family research with the death certificate and the compensation agreement"},
+    {"texto": "AFP Factuel, \"« 300 ouvriers » tués sur le chantier de la Tour Eiffel ? C'est faux\", 5 August 2022"},
+    {"texto": "FTM-CGT, \"Tour Eiffel, histoire sociale et syndicale : premières pistes\""},
+    {"texto": "Koechlin family, \"Maurice Koechlin\""},
+    {"texto": "P. Weidman and I. Pinelis, \"Model equations for the Eiffel Tower profile: historical perspective and new results\", Comptes Rendus Mécanique, 2004"},
+    {"texto": "American Society of Civil Engineers, \"Eiffel Tower\" (historic civil engineering landmark)"},
+    {"texto": "Encyclopædia Universalis, \"Gustave Eiffel: le scandale de Panamá\""},
+    {"texto": "Bibliothèques des Hauts-de-Seine, \"Le canal de Panama et son scandale\""},
+    {"texto": "City of Paris, \"Une nouvelle antenne pour la tour Eiffel… qui a grandi de 6 mètres en 2022\""},
+    {"texto": "franceinfo, \"La vaste campagne de travaux de la tour Eiffel touche à sa fin\", 2025"},
+    {"texto": "franceinfo, \"Tour Eiffel : le personnel en grève après une visite privée polémique\", 2026"},
+    {"texto": "RTS, \"Tour Eiffel : grève après l'éviction de femmes du personnel\", 2026"},
+    {"texto": "CNews, \"Mise à l'écart de femmes à la tour Eiffel : le directeur annonce son départ\", 29 September 2026"},
+    {"texto": "Wikipedia (French), \"Tour Eiffel\" (starting point)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Old black-and-white photograph: the four sloping legs of the tower, already joined by the first-floor structure, resting on a forest of wooden scaffolding, behind the Seine quay wall and leafless trees",
+      "legenda": "The tower on 10 February 1888, seen from across the Seine, two months after the first-floor girders were joined.",
+      "autor": "Hippolyte Blancard (Musée Carnavalet)"
+    },
+    {
+      "alt": "Pencil and ink drawing on yellowed paper: a tall lattice pylon with four legs spreading apart at the base, next to smaller drawings of Notre-Dame, the Statue of Liberty and the Arc de Triomphe stacked up to compare the height",
+      "legenda": "The sketch by Émile Nouguier and Maurice Koechlin, dated 6 June 1884: a 300-meter pylon for the 1889 Exposition, still without Sauvestre's arches.",
+      "autor": "Maurice Koechlin e Émile Nouguier"
+    },
+    {
+      "alt": "Old sepia photograph of a deep excavation with earth walls, where workers in hats raise rectangular blocks of stone masonry; a wheelbarrow and a wooden post in the foreground",
+      "legenda": "The masonry foundation blocks on 14 March 1887, a little over a month after work began.",
+      "autor": "Fotógrafo não identificado (Musée Carnavalet)"
+    },
+    {
+      "alt": "Old sepia photograph: the tower up to a little above the second floor, with the base arch and the first floor complete and cranes on the unfinished top, over the Champ-de-Mars under construction and the city behind in the haze",
+      "legenda": "September 1888: the second floor finished and assembly continuing upward, with the cranes attached to the tower itself.",
+      "autor": "Théophile Féau (Musée Carnavalet)"
+    },
+    {
+      "alt": "Old sepia photograph of the Seine with barges moored at the quay, piles of sand and carts in the foreground, and the completed tower in the background on the right, slender against the pale sky",
+      "legenda": "The finished tower, in 1889, seen from the port of Grenelle, on the Seine.",
+      "autor": "Théophile Féau (Musée Carnavalet)"
+    },
+    {
+      "alt": "The tower seen head-on, by day, against a blue sky, with the Champ-de-Mars lawn in the foreground and trees on both sides",
+      "legenda": "The tower seen from the Champ-de-Mars in 2009.",
+      "autor": "Benh LIEU SONG"
+    }
+  ]
+}

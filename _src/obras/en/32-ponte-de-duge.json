@@ -1,0 +1,156 @@
+{
+  "_nota": "Tradução fiel de ../32-ponte-de-duge.json. Campos fixos vêm do original.",
+  "obra": "Duge Bridge",
+  "titulo_seo": "Duge Bridge, the World's Highest Bridge for Nine Years",
+  "titulo_video": null,
+  "lugar": "Border between Duge, in Shuicheng District, Liupanshui, Guizhou Province, and Puli, in Xuanwei, Yunnan Province, China",
+  "periodo": "2013–2016",
+  "impossivel": "Stretching a road across a 720-meter clear span, 565 meters above a river, between two cave-riddled limestone walls where there was no way to raise a pier from the bottom nor, according to the Economic Daily, a safe place to anchor the cables of a suspension bridge.",
+  "resumo": "How China set the Duge Bridge 565 meters above a river on the Guizhou–Yunnan border, and why the world's highest bridge for nine years is cable-stayed.",
+  "abertura": [
+    "On the border between the provinces of Guizhou and Yunnan, in southwest China, the G56 expressway, which runs from Hangzhou, in the east, to Ruili, on the border with Myanmar, had to cross a gorge with walls up to 500 meters high. By car, anyone going from Xuanwei to Liupanshui had to go around the mountain and took four to five hours, depending on the source.",
+    "The answer, opened to traffic on December 29, 2016, was a cable-stayed bridge with a 720-meter main span, its deck 565 meters above the water. From 2016 to 2025 it was the highest bridge in the world. And the detail almost nobody mentions is what the engineers turned down to get there: the suspension bridge, because, according to the Economic Daily, there was no reliable rock in which to anchor the cables."
+  ],
+  "numeros": [
+    {"valor": "565 m", "rotulo": "from the deck to the water, officially the equivalent of 200 stories"},
+    {"valor": "720 m", "rotulo": "main span, with no support at all over the gorge"},
+    {"valor": "269 m", "rotulo": "height of the tower on the Guizhou side"},
+    {"valor": "112 pairs", "rotulo": "of stay cables, all attached to the towers and the girder, none to the rock"},
+    {"valor": "264", "rotulo": "foundation piles, dug by hand into cave-riddled limestone"},
+    {"valor": "2016–2025", "rotulo": "the period in which it was the highest bridge in the world"}
+  ],
+  "ficha": [
+    {"item": "Name", "valor": "In Chinese, First Beipan River Bridge (北盘江第一桥), or Beipan Bridge. Outside China, Duge Bridge, after the village on the Guizhou side. During construction, Yunnan argued for calling it the Nizhu River Bridge, after the watercourse it crosses, in the Beipan basin.", "nota": "the naming dispute only appears on Chinese Wikipedia, with no primary source read"},
+    {"item": "Why", "valor": "To complete the Bijie–Duge section of the G56 Hangzhou–Ruili expressway and link Xuanwei, in Yunnan, to Liupanshui, in Guizhou. The trip dropped to just over an hour.", "nota": "the travel time before the bridge appears as more than 4 hours or as 5 hours, depending on the source"},
+    {"item": "Type", "valor": "Cable-stayed bridge with a continuous steel truss girder, in seven spans of 80, 88, 88, 720, 88, 88 and 80 meters. H-shaped concrete towers."},
+    {"item": "Design", "valor": "CCCC Highway Consultants, of the state-owned China Communications Construction group, with a team led by Peng Yundong. The firm received the assignment in 2009, according to the Economic Daily.", "nota": "the year 2009 appears in only one source"},
+    {"item": "Who built it", "valor": "CCCC Second Harbor Engineering, which ran the work on the Guizhou side; the Guizhou Expressway Group appears as the project owner. The two provinces paid jointly.", "nota": "the project owner appears in only one source"},
+    {"item": "Timeline", "valor": "Start at the end of 2012 or in 2013, depending on the source; main span closed on September 10, 2016; opened to traffic on December 29, 2016, at 9 a.m.", "nota": "the Economic Daily gives December 27, 2012; the People's Daily and others, 2013; some cite 2011"},
+    {"item": "Height", "valor": "565 meters from the deck to the water, or 565.4 meters in the most recent official sources. The sources do not measure from the same point: the Economic Daily measures to the water in the dry season, the Guizhou government speaks of the valley floor, and Guinness of the average flood level.", "nota": "the figure of 565 is confirmed; the reference point varies"},
+    {"item": "Dimensions", "valor": "1,341.4 meters long with a 720-meter main span. Tower of 269 meters on the Guizhou side and of 247 meters on the Yunnan side; their tops stand about 740 meters above the river.", "nota": "the Yunnan tower also appears as 246.5 and 248 meters"},
+    {"item": "Materials", "valor": "More than 24,000 tonnes of steel and about 180,000 cubic meters of concrete, according to the People's Daily; 112 pairs of fan-arranged stay cables; 850,000 sets of high-strength bolts, according to Jiemian."},
+    {"item": "Foundations", "valor": "264 piles, dug by hand because the drilling rig could not work in the karst. Almost all of them went through caves, and where there was seepage and running sand, grout had to be injected while digging. Piles of 40 meters, according to the Guizhou government."},
+    {"item": "Workers", "valor": "No source consulted publishes the total number of workers. The only figure is more than a thousand engineers and technicians.", "nota": "the figure for engineers and technicians comes from a single source"},
+    {"item": "Deaths during construction", "valor": "No source consulted records deaths or injuries on the project, and none states that there were no accidents."},
+    {"item": "Cost", "valor": "About 1.03 billion yuan, or 1.028 billion, according to the Chinese press; there is also a record of 778.86 million yuan. No source explains the difference, which may be the whole project versus the bridge alone.", "nota": "with no single nominal cost, there is no conversion into today's values"},
+    {"item": "Recognition", "valor": "The Gustav Lindenthal Medal from the International Bridge Conference, in the United States, in May 2018, and a Guinness certificate as the highest bridge in the world in September 2018."},
+    {"item": "Afterwards", "valor": "It lost the title on September 28, 2025 to the Huajiang Grand Canyon Bridge, also in Guizhou, at 625 meters. Since then, it has been the second-highest bridge in the world."}
+  ],
+  "historia": [
+    {
+      "titulo": "A gorge on the border",
+      "paragrafos": [
+        "Southwest China is karst: limestone dissolved by water over millions of years, with sheer walls, caves and rivers sunk at the bottom of canyons. In Guizhou, a road that wanted to run straight would have to leap from one wall to the other. The G56, which links Hangzhou, in the east, to Ruili, on the border with Myanmar, reached the Yunnan border there, facing a gorge with walls up to 500 meters high.",
+        "The bridge would be the controlling work of the Bijie–Duge section, the one that sets the schedule for everything else. The site stood at about 1,500 meters of altitude, in a region where frost, fog, storms and snow are frequent, according to the Economic Daily. Before settling on the location, a team spent almost two years measuring the wind, the People's Daily reports, and the Guizhou government records a measuring tower, a weather station and wind tunnel tests. The geological survey took half a year, according to the Xinhua news agency.",
+        "Guizhou and Yunnan split the bill. According to records from the time gathered in the Chinese encyclopedia, Yunnan went as far as pushing for the name Nizhu River Bridge, after the watercourse it crosses, while Guizhou kept First Beipan Bridge."
+      ]
+    },
+    {
+      "titulo": "The suspension bridge that stayed on paper",
+      "paragrafos": [
+        "To cross 720 meters in one go, there were two ways. A suspension bridge hangs the deck from two main cables that pass over the towers and end anchored in anchorage blocks, concrete masses dug into the ground on each bank. A cable-stayed bridge does without those blocks: each cable, the stay, runs from the tower straight to the girder, and the forces close within the structure itself.",
+        "The design team considered the suspension option, the Economic Daily reports, and dropped it. The large excavation for the anchorage would affect the stability and safety of the slopes, on a bank of 500-meter walls. And the bedrock was soluble carbonate, cut by solution fissures: it would be hard to find a spot where the anchorage could rely on the rock. For spans of 500 to 800 meters in mountains, they concluded, the cable-stayed design with a steel truss also came out cheaper.",
+        "That is why the picture that circulates, of cables plunging tens of meters into the rock, describes precisely the bridge that was not built. On the Duge Bridge, the 112 pairs of stay cables run from two concrete towers, one of 269 meters on the Guizhou side and another of about 247 meters on the Yunnan side, and end attached to the truss. None of them touches the ground."
+      ]
+    },
+    {
+      "titulo": "Digging by hand above caves",
+      "paragrafos": [
+        "What really went tens of meters down into the rock were the foundations. According to the People's Daily, the bridge has 264 piles, and the drilling rig could not work in the karst: the caves were so many and so unpredictable that the only way was to dig by hand. Almost all the piles went through caves. The worst case was hitting seepage with running sand, and then grout had to be injected to consolidate the ground while digging. The piles were 40 meters long, according to the Guizhou government.",
+        "Before that there was the mountain to climb. The site opened about 23 kilometers of access roads and a power line of almost a hundred poles, in a job that took more than three months. A transformer weighing more than a tonne was carried up the hill by 32 workers, over almost a month, according to the Economic Daily. The site's deputy manager, Yu Wenhao, wore out three pairs of shoes walking up and down while the access roads were being opened, the People's Daily reports.",
+        "The towers were raised with high-performance self-compacting concrete, pumped up to a height of 269 meters. Above 230 meters, the concrete mix had to be adjusted almost every 20 meters of climb, the People's Daily reports."
+      ]
+    },
+    {
+      "titulo": "Two arms over the void",
+      "paragrafos": [
+        "With no way to rest anything on the bottom of the gorge, the girder could only grow from the edges. The side sections, over solid ground, were pushed into position, a method the Guizhou government describes as applied for the first time on a cable-stayed bridge. The main span grew as a cantilever from the two towers, segment by segment, each one hung from its pair of stay cables before the next one moved forward.",
+        "To erect these segments, CCCC Second Harbor Engineering used a method in which each piece was carried along the already finished girder and lifted at the tip. Each standard segment took four days, half the cycle with a conventional deck crane, and the project gained three months, according to the Guizhou government and the profile of chief engineer Liao Wanhui, then 30 years old. Photos from July 2016 show the two red truss arms advancing toward each other over the canyon, still apart.",
+        "They met on September 10, 2016. The precision required at the expansion joint gives a measure of the care involved: the difference in height between the central girders and the edge girders had to stay within half a millimeter, either way, or a quarter of the thickness of a coin, in the words of the Economic Daily. The bridge opened to traffic on December 29, 2016."
+      ]
+    },
+    {
+      "titulo": "What was not recorded",
+      "paragrafos": [
+        "The project's accounts do not add up to a single number. The Chinese press speaks of about 1.03 billion yuan of total investment, and another record gives 778.86 million. No source consulted explains the difference, which may be that of the whole project versus that of the bridge alone. Without a reliable nominal figure, there is no way to bring it into today's money.",
+        "There is also no total for the workers. The only figure published is that of more than a thousand engineers and technicians, according to Jiemian, which does not count the laborers. And there is no record of deaths or injuries on the project in any source consulted, whether official or disputed, nor the opposite claim that there were no accidents. For a project from 2016, the silence says more about what gets published than about what happened."
+      ]
+    },
+    {
+      "titulo": "Nine years of a record",
+      "paragrafos": [
+        "At the opening, the Chinese press announced that the bridge beat the 560 meters of the Sidu River Bridge, in Hubei. The comparison depends on where you measure from: the American researcher Eric Sakowski, who maintains the main catalog of high bridges, measures the Sidu at 496 meters to the water, and by that yardstick the Duge Bridge was the first crossing in the world to pass 500 meters. In 2018 came the Guinness certificate and the Gustav Lindenthal Medal, one of the main international bridge awards.",
+        "The record lasted nine years. On September 28, 2025, the Huajiang Grand Canyon Bridge, also in Guizhou, opened with 625 meters from deck to water and a 1,420-meter span. It is a suspension bridge, precisely the type the Duge Bridge turned down. A year later, in September 2026, Xinhua counted more than 3 million visits to the tourist complex set up around the new record holder.",
+        "Guizhou has almost half of the hundred highest bridges in the world, according to the Xinhua news agency in 2025. The Duge Bridge, second on the list since 2025, still carries the G56 over the same gorge, and the village of Duge has become a lookout point, with guesthouses opened by residents; one of them told Xinhua that he used to need four hours to get to town."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "The bridge's cables plunge tens of meters into the rock.",
+      "registro": "The Duge Bridge is cable-stayed: its 112 pairs of stay cables end at the towers and the girder, none in the rock. Anchorage in rock belongs to suspension bridges, and the suspension design was dropped precisely because excavating the anchorage would threaten the stability of the fissured limestone walls, according to the Economic Daily. What went down into the rock were the 264 foundation piles, dug by hand."
+    },
+    {
+      "circula": "The canyon is 565 meters deep.",
+      "registro": "The 565 meters run from the deck to the water. The top of the canyon walls lies below the deck, and the tops of the towers reach about 740 meters above the river."
+    },
+    {
+      "circula": "It is the highest bridge in the world.",
+      "registro": "It was, from December 29, 2016 to September 28, 2025. Since then it has been the second, behind the Huajiang Grand Canyon Bridge, at 625 meters, also in Guizhou."
+    },
+    {
+      "circula": "It beat the previous record by only five meters.",
+      "registro": "The 560 meters attributed to the Sidu River Bridge, in China, come from the Chinese press. Measured to the water, the Sidu is 496 meters high, according to the HighestBridges catalog; other sources give 500 or 550 meters, without saying where they measure from."
+    }
+  ],
+  "perguntas": [
+    {"p": "How high is the Duge Bridge?", "r": "The deck stands 565 meters above the water, or 565.4 meters in the most recent official sources; the sources do not measure from the same reference point. The tops of the towers reach about 740 meters above the river."},
+    {"p": "Is the Duge Bridge still the highest bridge in the world?", "r": "No. It was the highest from December 29, 2016 to September 28, 2025, when it lost the title to the Huajiang Grand Canyon Bridge, also in Guizhou, at 625 meters. Since then it has been the second-highest bridge in the world."},
+    {"p": "Where is the Duge Bridge located?", "r": "On the border between the provinces of Guizhou and Yunnan, in southwest China, between Duge, in Liupanshui, and Puli, in Xuanwei. It carries the G56 expressway over a gorge and, in Chinese, it is called the First Beipan River Bridge."},
+    {"p": "How was the Duge Bridge built?", "r": "It is a cable-stayed bridge: the 720-meter main span grew as a cantilever from the two towers, segment by segment, until the two arms met on September 10, 2016. The 264 foundation piles were dug by hand, because the drilling rig could not work in the cave-riddled limestone."},
+    {"p": "How much did the Duge Bridge cost?", "r": "Sources differ: about 1.03 billion yuan, according to the Chinese press, or 778.86 million yuan, in another record. No source explains the difference, which may be that of the whole project versus that of the bridge alone."}
+  ],
+  "fontes": [
+    {"texto": "Guizhou Provincial Department of Transportation, \"杭瑞高速贵州段北盘江大桥建成通车\", 30/12/2016"},
+    {"texto": "Guizhou Provincial Department of Transportation, interview on the bridge's construction technology, 09/10/2016"},
+    {"texto": "Zhao Hao, \"世界第一高桥'炼'成记\", People's Daily, overseas edition, 01/12/2023"},
+    {"texto": "Wu Bingze and Wang Xinwei, \"世界第一高桥见证中国质量\", Economic Daily, 08/05/2019"},
+    {"texto": "Xinhua, \"北盘江大桥：让天堑变通途的'世界高度'\", 23/09/2022"},
+    {"texto": "China Daily, \"Beipanjiang set Guinness record as highest bridge\", 20/09/2018"},
+    {"texto": "Guinness World Records, \"Highest cable-stayed bridge\""},
+    {"texto": "Jiemian, \"这架连接云贵两省的全球第一高桥\", 2017"},
+    {"texto": "Sina, profile of chief engineer Liao Wanhui, 10/01/2017"},
+    {"texto": "Daily Economic News, via 21jingji, on the investment and the joint project, 02/01/2017"},
+    {"texto": "Eric Sakowski, HighestBridges.com, \"Beipanjiang Bridge Duge\""},
+    {"texto": "Xinhua, \"World's tallest bridge opens to traffic in southwest China's Guizhou\", 28/09/2025"},
+    {"texto": "Xinhua, \"世界第一高桥通车一年 变身热门文旅打卡地\", 28/09/2026"},
+    {"texto": "Wikimedia Commons, \"Copyright rules by territory/China\" (freedom of panorama)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Aerial view of a cable-stayed bridge with a red truss girder between two white towers, passing far above a green gorge, with a narrow river at the bottom",
+      "legenda": "The Duge Bridge seen from a drone, with the river hundreds of meters below the deck.",
+      "autor": "Glabb"
+    },
+    {
+      "alt": "Forested gorge with two white towers on its edges and, coming out of each, an arm of red truss reaching out over the void, not yet joined",
+      "legenda": "July 2016: the two arms of the main span advance as cantilevers from the towers, two months before meeting.",
+      "autor": "Eric Sakowski (HighestBridges)"
+    },
+    {
+      "alt": "Vertical photo of a deep valley with a muddy river at the bottom and, high above, the two towers and the truss arms of the bridge under construction",
+      "legenda": "From the valley slope, in July 2016: the river far below and the bridge still open high above.",
+      "autor": "Eric Sakowski (HighestBridges)"
+    },
+    {
+      "alt": "Close aerial view of an H-shaped concrete tower with fans of white cables attached to the orange truss girder, next to a rock wall",
+      "legenda": "One of the towers and the fan-arranged stay cables attached to the truss girder, at the edge of the cliff.",
+      "autor": "Glabb"
+    },
+    {
+      "alt": "Cable-stayed bridge with white towers and a red girder lit by the low sun, with bluish mountains in the background and houses on the slope in the foreground",
+      "legenda": "The bridge at sunset, in December 2018.",
+      "autor": "ShakyIsles"
+    }
+  ]
+}

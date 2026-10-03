@@ -1,0 +1,172 @@
+{
+  "_nota": "Tradução fiel de ../12-golden-gate.json. Campos fixos vêm do original.",
+  "obra": "Golden Gate Bridge",
+  "titulo_seo": "How the Golden Gate Bridge Was Built (1933–1937)",
+  "titulo_video": null,
+  "lugar": "Golden Gate strait, between San Francisco and Marin County, California, United States",
+  "periodo": "1933–1937",
+  "impossivel": "Planting a steel tower in the open sea, at the mouth of a bay swept by tidal currents and fog, and hanging from it the longest suspension span in the world, with cables spun wire by wire on site.",
+  "resumo": "How San Francisco built the Golden Gate between 1933 and 1937: the south tower in open sea, cables spun on site, the 11 dead and who really did the math.",
+  "abertura": [
+    "The Golden Gate Bridge does not cross a river. It crosses the only opening from San Francisco Bay, in California, in the United States, to the Pacific Ocean: a strait carved into the rock, more than 100 meters deep at its deepest point, with tides that rush in and out and fog that rolls in from the sea without warning. It was there, in the depths of the Great Depression, with one in four American workers unemployed, that it was decided to hang a roadway with a 1,280-meter span.",
+    "It is the third suspension bridge in this series, after the Brooklyn and the Hercílio Luz, and the boldest of the three in size. But its story has two problems that are not in the drawing: a tower that had to be born in the open sea, protected by a concrete bathtub, and an engineer who did the bridge's math and only had his name recognized seventy years later."
+  ],
+  "numeros": [
+    {"valor": "1,280 m", "rotulo": "main span, the longest suspension span in the world from 1937 to 1964"},
+    {"valor": "1933–1937", "rotulo": "from the start of work on 5 January 1933 to the opening on 27 and 28 May 1937"},
+    {"valor": "27,572", "rotulo": "steel wires in each of the two main cables, spun on site"},
+    {"valor": "US$35M", "rotulo": "in bonds approved by voters in 1930 and paid off by tolls alone by 1971"},
+    {"valor": "11", "rotulo": "workers killed, ten of them in a single accident in February 1937"},
+    {"valor": "19", "rotulo": "men who fell into the safety net and survived"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To link San Francisco to Marin County, to the north, without depending on the ferries that had made the crossing since the nineteenth century. The idea took shape with a feasibility study begun in 1919 by the city engineer, Michael O'Shaughnessy.", "nota": "the 1919 study comes only from the district's data"},
+    {"item": "Who wanted it and paid", "valor": "The Golden Gate Bridge and Highway District, created by state law in 1923 and incorporated in 1928, bringing together San Francisco and five counties of Northern California. The War Department, which owned both shores, had to authorize the work."},
+    {"item": "Chief engineer", "valor": "Joseph B. Strauss, appointed in 1929. In 1921 he had proposed a cantilever and suspension hybrid, later abandoned."},
+    {"item": "Calculations and structural design", "valor": "Charles A. Ellis, on the design from 1922 to 1931, in constant exchange with Leon S. Moisseiff, author of the deflection theory that made a lighter deck possible. The board of engineers also included O. H. Ammann and Charles Derleth Jr. Strauss removed Ellis in 1931 and put Clifford Paine in his place.", "nota": "the date of the dismissal appears as August, November or December 1931, depending on the source"},
+    {"item": "Architecture and color", "valor": "Irving F. Morrow, consulting architect, drew the Art Deco details and chose the orange called International Orange, inspired by the reddish primer that protected the steel. The Navy wanted the bridge painted with black and yellow stripes."},
+    {"item": "Who built it", "valor": "Ten main contractors. The steel superstructure was by McClintic-Marshall, of the Bethlehem Steel group; the cables, by John A. Roebling's Sons Company, of Trenton, New Jersey; the tower piers, by Pacific Bridge Company.", "nota": "the number of contractors and the Pacific Bridge contract come only from the district's data"},
+    {"item": "Timeline", "valor": "Work began on 5 January 1933; north tower finished in 1934 and south tower in 1935; cables spun from October 1935 to May 1936; main span joined in November 1936; opened to pedestrians on 27 May 1937 and to vehicles on 28 May 1937.", "nota": "the day the main span was joined appears as 18 or 20 November 1936, and the end of the spinning as 20 or 22 May 1936"},
+    {"item": "Workers", "valor": "The total was not recorded: the district itself states that exact employment figures are not available. According to PBS, pay ranged from $4 to $11 a day in 1933, and the climb up to the work station was not paid."},
+    {"item": "Deaths", "valor": "Eleven. Kermit Moore died on 21 October 1936, struck when a crane fell. The other ten died when a moving scaffold broke loose and tore through the safety net, in February 1937. The net saved another 19 men.", "nota": "the district dates the collective accident to 17 February 1937 and PBS to 16 February 1937; the weight of the scaffold appears as two or five tons"},
+    {"item": "Cost", "valor": "US$35 million in bonds, of which about US$27.1 million went to the construction proper, according to the district; the work ended with a surplus of about US$1.3 million. The safety net cost US$130,000.", "nota": "by the US consumer price index (1933 = 13.0; 2025 = 321.9), the US$35 million are equivalent to about US$870 million in 2025 dollars; the index measures consumer prices, not construction costs"},
+    {"item": "Financing", "valor": "Bonds approved in a vote on 4 November 1930, with homes, farms and businesses in the district's counties as collateral. In 1932, Bank of America bought US$3 million of them. The debt was paid off in 1971: 35 million in principal and almost 39 million in interest, paid by tolls alone."},
+    {"item": "Measurements", "valor": "Main span of 4,200 feet (1,280 m); total length of 8,981 feet (about 2,737 m); towers 746 feet (227 m) above the water; roadway 220 feet (67 m) above the water; cables 92 cm in diameter, with 129,000 kilometers of wire in all.", "nota": "the total length and the clearance appear only in the district's data"},
+    {"item": "South tower foundation", "valor": "In the open sea, about 335 meters from the beach, with the pier set 110 feet (33.5 m) below mean low water, inside a concrete ring from which 9.4 million gallons of water were pumped out.", "nota": "figures from the district, which owns the bridge"},
+    {"item": "Today", "valor": "In October 2025 the district approved the first contract of the final phase of the seismic retrofit, which covers the towers, the side spans and the south tower pier; mobilization of the work sites began in May 2026. In 2024 a steel net was completed beneath the sidewalks to prevent suicides."}
+  ],
+  "historia": [
+    {
+      "titulo": "The mouth of the bay",
+      "paragrafos": [
+        "The name Golden Gate is older than the bridge and older than the gold rush: according to the district that manages the bridge, it was given to the strait by the explorer John C. Frémont in 1846. It is the passage through which the tide fills and empties San Francisco Bay, with strong currents. The US Geological Survey measures there a channel carved into the rock up to 113 meters deep; summer fog often covers the mouth of the bay; and the open sea beats straight against the shores.",
+        "That is why the crossing was made by ferry, and a bridge there was a matter for visionaries. The city engineer, Michael O'Shaughnessy, began a study in 1919. In 1921, Joseph B. Strauss, a builder of bascule bridges, presented a design: a hybrid of two cantilever arms with a suspended section in the middle, estimated at about $17 million. The press found it ugly. It would take another eight years, a state law, the creation of a district with six counties and the permission of the War Department, owner of both shores, for Strauss to be appointed chief engineer, in 1929."
+      ]
+    },
+    {
+      "titulo": "The name on the plaque and the name behind the math",
+      "paragrafos": [
+        "The bridge that exists is not the 1921 design. Leon S. Moisseiff, a New York engineer, persuaded Strauss to drop the hybrid for a pure suspension bridge, and brought in deflection theory, which calculates how cable and deck deform together and allows a lighter, more slender deck. The man who turned this into numbers was Charles A. Ellis, a former engineering professor at the University of Illinois, hired by Strauss in 1922. In 1930, in four months of work, Ellis completed the design and the estimates; PBS, citing the historian Kevin Starr, speaks of ten and a half volumes of calculations done by hand.",
+        "In 1931, before construction began, Strauss removed Ellis, accusing him of wasting time and money, and handed the final design to his assistant Clifford Paine. According to PBS, Ellis's name disappeared from the bridge's official material for more than 50 years, and the one who got the statue by the toll plaza was Strauss. Only in 2007, on the 70th anniversary of the opening, did the district itself acknowledge in a report that the main role in the design had been Ellis's; in 2012, on the 75th anniversary, a plaque on the south tower began to say so.",
+        "The visible design has a third author. The architect Irving F. Morrow drew the lampposts, the railing and the vertical ribbing of the towers, and chose the color. According to the district, he was inspired by the reddish red-lead primer on the steel as it arrived from Bethlehem Steel, seen from the ferry he took to the site, and he rejected black, gray and aluminum. The Navy wanted the bridge striped in black and yellow, so that ships could see it in the fog. The orange stayed."
+      ]
+    },
+    {
+      "titulo": "A bathtub in the open sea",
+      "paragrafos": [
+        "The north tower was set in shallow water, close to the Marin shore, and by June 1934 it was already standing. The south tower was another problem: its site was in the open sea, about 335 meters from the San Francisco beach. To get there, the builders made a wooden trestle on piles. In August 1933, a freighter leaving the bay in thick fog ran into it and destroyed a section; two months after it was repaired, according to the district, more than half of the structure collapsed in a storm.",
+        "The solution was to enclose the pier site with a fender, an oval ring of concrete placed underwater through pipes into wooden forms, which the workers nicknamed the bathtub. Once the ring was closed, the water inside was pumped out, about 9.4 million gallons by the district's count, and the pier was built in the dry. Before that, divers had worked at depths of up to 110 feet. On top of it, the steel south tower rose in six months and was finished in June 1935. The fender is still there, protecting the base of the tower against ship collisions."
+      ]
+    },
+    {
+      "titulo": "Wire by wire across the strait",
+      "paragrafos": [
+        "The cables did not arrive ready-made. They were spun in place by John A. Roebling's Sons Company, the Trenton, New Jersey, firm founded by John A. Roebling, the same engineer who designed the Brooklyn Bridge. On the Hercílio Luz, in Florianópolis, the bridge hung from chains of steel eyebars; here, the technique was the Brooklyn's taken to the limit: spinning wheels traveled back and forth over temporary catwalks, from shore to shore, pulling, wire after wire, strands about five millimeters thick.",
+        "Each of the two main cables ended up with 27,572 wires, grouped into 61 strands and compacted into a cylinder 92 centimeters in diameter. All together, the wire adds up to 80,000 miles, about 129,000 kilometers. The spinning began in October 1935 and ended in May 1936, ahead of schedule. In November of that year, the two halves of the deck met in the middle of the span. A Navy photograph of 12 November 1936 shows three aircraft carriers passing beneath the still-open bridge."
+      ]
+    },
+    {
+      "titulo": "The net and the eleven",
+      "paragrafos": [
+        "Strauss imposed rules that were not common on bridge jobs: hard hats, glare-proof goggles, cream against the wind, a diet against dizziness. And he had a safety net strung, at a cost of $130,000, under the entire work, wider and longer than the deck itself. It caught 19 men who fell. They began calling themselves the Halfway to Hell Club, the club of those who fell only halfway to hell.",
+        "Until February 1937 there had been one death, and it was not a fall: on 21 October 1936, the ironworker Kermit Moore was struck when a crane toppled. Then, three months before the opening, a moving scaffold that ran beneath the deck broke loose with the men working on it and plunged onto the net, which was not made for that weight and gave way. Ten died; two survived, according to PBS. The district dates the accident to 17 February 1937; PBS, to the 16th. No official figure records how many men worked on the job in all."
+      ]
+    },
+    {
+      "titulo": "A debt paid with tolls",
+      "paragrafos": [
+        "The bridge was paid for by the people of the region, and at their own risk. On 4 November 1930, voters in six counties approved $35 million in bonds, pledging homes, farms and businesses in the district as collateral. The bonds sat unsold through the Depression and lawsuits until 1932, when A. P. Giannini's Bank of America bought 3 million of them and unblocked the sale. The work ended with a surplus of about $1.3 million.",
+        "The bill went to the toll: 50 cents per car in 1937, according to PBS. On 27 May 1937, Pedestrian Day, the bridge opened only to those on foot; the next day, at noon, President Franklin Roosevelt pressed a telegraph key in Washington and the cars crossed. The last bond was redeemed in 1971: $35 million in principal and almost 39 million in interest, all paid by those who crossed."
+      ]
+    },
+    {
+      "titulo": "Ninety-three years later, back at the south tower",
+      "paragrafos": [
+        "On 24 October 2025, the district approved the first contract of the final phase of the bridge's seismic retrofit, with the contractor Halmar International, of New York, for $863.9 million. The notice to proceed took effect on 5 January 2026, 93 years after the day the original work began, and the field work, with the mobilization of the work sites, began in May 2026. The contract calls for strengthening the two towers, the trusses, the side spans and the south tower pier, with completion expected in 2031; the whole phase runs until 2036.",
+        "Adjusted only by the US consumer price index, which measures consumer prices and not construction costs, the $35 million of 1933 are equivalent to about $870 million in 2025 dollars: by coincidence, almost the value of this contract, which strengthens a bridge that is already built. Meanwhile, the toll went up 50 cents on 1 July 2026 and reached $10.25 with FasTrak, charged southbound only. Beneath the sidewalks, since 2024, runs another steel net, installed to prevent suicides, the second net in the history of this bridge."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Joseph Strauss designed the Golden Gate Bridge.",
+      "registro": "Strauss was the chief engineer and the promoter of the project. His 1921 design was an abandoned hybrid. The calculations for the bridge that exists are by Charles Ellis, with Leon Moisseiff's theory, and the district itself acknowledged Ellis's main role in 2007; the plaque came in 2012."
+    },
+    {
+      "circula": "The orange color was chosen so ships could see the bridge.",
+      "registro": "The one that wanted a signal color was the Navy, which asked for black and yellow stripes. International Orange came out of a study by the architect Irving Morrow, inspired by the reddish primer on the steel, because it blended with the hills and contrasted with the sea and the sky."
+    },
+    {
+      "circula": "The bridge is painted from end to end every year, and when the painters finish they start over.",
+      "registro": "No. According to the district, painting is continuous maintenance, done section by section by a permanent crew of painters, and not a complete pass every year."
+    },
+    {
+      "circula": "The safety net prevented deaths on the job.",
+      "registro": "It saved 19 men who fell. But it was precisely through the net that the ten men killed in February 1937 fell: the scaffold that broke loose tore it apart. In all, 11 workers died."
+    },
+    {
+      "circula": "The name Golden Gate comes from the color of the bridge or from the gold rush.",
+      "registro": "According to the district, the strait was named by John C. Frémont in 1846, before the gold rush and almost a century before the bridge."
+    }
+  ],
+  "perguntas": [
+    {"p": "When was the Golden Gate Bridge built?", "r": "Between 1933 and 1937. Work began on 5 January 1933, the main span was joined in November 1936, and the bridge opened to pedestrians on 27 May 1937 and to vehicles on 28 May 1937."},
+    {"p": "Who designed the Golden Gate Bridge?", "r": "Joseph Strauss was the chief engineer, but the calculations for the bridge that exists are by Charles Ellis, with Leon Moisseiff's deflection theory; the architect Irving Morrow drew the Art Deco details and chose the color. Ellis's main role was only acknowledged by the district in 2007."},
+    {"p": "How long is the Golden Gate Bridge?", "r": "The main span is 1,280 m, the longest suspension span in the world from 1937 to 1964. The total length is about 2,737 m, the towers rise 227 m above the water and the roadway sits 67 m above the water."},
+    {"p": "How many workers died building the Golden Gate Bridge?", "r": "Eleven workers. Kermit Moore died on 21 October 1936, struck when a crane fell; the other ten died in February 1937, when a moving scaffold broke loose and tore through the safety net. The same net saved another 19 men who fell."},
+    {"p": "How much did the Golden Gate Bridge cost to build?", "r": "US$35 million in bonds approved by voters in 1930, of which about US$27.1 million went to the construction proper. The debt was paid off in 1971 by tolls alone: 35 million in principal and almost 39 million in interest."}
+  ],
+  "fontes": [
+    {"texto": "Golden Gate Bridge, Highway and Transportation District, \"Construction\""},
+    {"texto": "Golden Gate Bridge, Highway and Transportation District, \"Design & Construction Stats\""},
+    {"texto": "Golden Gate Bridge, Highway and Transportation District, \"FAQs\" and \"Key Dates\""},
+    {"texto": "Golden Gate Bridge, Highway and Transportation District, \"Joseph Strauss\""},
+    {"texto": "Golden Gate Bridge, Highway and Transportation District, \"Bond Measure Passes\""},
+    {"texto": "Golden Gate Bridge, Highway and Transportation District, \"Color & Art Deco Styling\" and \"Painting the Bridge\""},
+    {"texto": "Golden Gate Bridge, Highway and Transportation District, \"A Bathtub for the South Tower\" (exhibit)"},
+    {"texto": "Golden Gate Bridge, Highway and Transportation District, Engineering reports to the building committee, April and July 2026"},
+    {"texto": "Federal Highway Administration, \"Golden Gate Bridge 1937\", Contributions & Crossroads series"},
+    {"texto": "PBS, American Experience, \"Men Who Built the Bridge\""},
+    {"texto": "PBS, American Experience, \"Opposition to the Bridge and Facts\""},
+    {"texto": "PBS NewsHour, \"As Golden Gate Bridge Turns 75, History Revised to Honor Engineer\", 2012"},
+    {"texto": "Frank Griggs Jr., \"Golden Gate Bridge\", STRUCTURE Magazine, 2017"},
+    {"texto": "Edward Tenner, \"Steel into Gold\", Humanities (NEH), 2012"},
+    {"texto": "Linda Hall Library, \"Charles Alton Ellis\""},
+    {"texto": "NJ Spotlight News, \"Golden Gate Bridge: A Roebling Legacy Turns 75\", 2012"},
+    {"texto": "The Press Democrat, \"Golden Gate Bridge district approves $1B in seismic retrofit work\", 24 October 2025"},
+    {"texto": "Bay Area FasTrak, \"Golden Gate Bridge Tolls Increasing July 1, 2026\""},
+    {"texto": "KTVU, \"Golden Gate Bridge suicide prevention net a success two years in\", 20 January 2026"}
+  ],
+  "imagens": [
+    {
+      "alt": "Orange suspension bridge under a blue sky, with a tall tower on a concrete base in the sea, the cables curving down to the second tower in the background, green and brown hills behind and a brick fort in the foreground",
+      "legenda": "The bridge in 2017, seen from San Francisco: the south tower rises from the sea on its concrete fender; on the left, Fort Point, from the nineteenth century.",
+      "autor": "Frank Schulenburg"
+    },
+    {
+      "alt": "Old black-and-white aerial photograph: in the background, a lone steel tower by a cliff on the far side of the strait; in the foreground, a narrow trestle runs from the beach out to sea toward cranes and concrete blocks",
+      "legenda": "July 1934: the north tower already standing on the Marin side and, in the foreground, the trestle that led from the San Francisco side to the south tower site, in the open sea.",
+      "autor": "Chas. M. Hiller (Associated Oil Company; Library of Congress)"
+    },
+    {
+      "alt": "Black-and-white aerial photograph: two steel towers over the strait linked by two curving cables, with no deck between them, hills in the background and houses in the foreground",
+      "legenda": "May 1936, in the days when the spinning was ending: the two cables already cross the strait, still without the deck.",
+      "autor": "Exército dos EUA, Army Air Forces (National Archives)"
+    },
+    {
+      "alt": "Black-and-white aerial photograph: warships in line passing under a suspension bridge whose deck still has a gap in the middle; a tower on the right",
+      "legenda": "12 November 1936: aircraft carriers and other Navy ships pass under the bridge, with the deck still to be closed.",
+      "autor": "Marinha dos EUA (Naval History and Heritage Command)"
+    },
+    {
+      "alt": "Black-and-white photograph of a large metal cylinder displayed in a garden, with a plaque on it giving the cable data; the bridge and its two towers in the background",
+      "legenda": "A section of cable on display near the bridge, in 1984: the plaque gives 27,572 wires in each cable.",
+      "autor": "Jet Lowe (Historic American Engineering Record, Library of Congress)"
+    },
+    {
+      "alt": "Black-and-white photograph: three seaplanes in formation over a completed suspension bridge, with one tower, the full deck and the coastline in the background",
+      "legenda": "May 1937, the month of the opening: Navy seaplanes fly over the finished bridge.",
+      "autor": "Marinha dos EUA (Naval History and Heritage Command)"
+    }
+  ]
+}

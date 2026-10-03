@@ -1,0 +1,141 @@
+{
+  "_nota": "Tradução fiel de ../07-estrada-de-ferro-madeira-mamore.json. Campos fixos vêm do original.",
+  "obra": "Madeira-Mamoré Railroad",
+  "titulo_seo": "Madeira-Mamoré Railroad, the Devil's Railroad (1907–1912)",
+  "titulo_video": null,
+  "lugar": "From Porto Velho to Guajará-Mirim, Rondônia, Brazil",
+  "periodo": "1907–1912",
+  "impossivel": "Laying track across more than 360 km of forest, swamp and rapids in the Amazon, where two companies had already given up and where almost every worker came down with malaria.",
+  "resumo": "How the Madeira-Mamoré Railroad got through swamp, rapids and malaria in the Amazon, and why its death toll runs from under 2,000 to 6,000 or more.",
+  "abertura": [
+    "Between Porto Velho and Guajará-Mirim, in Rondônia, Brazil, the Madeira and Mamoré rivers run down a chain of waterfalls and rapids that no loaded boat could get past. To ship out the rubber of Bolivia and the upper Madeira, that stretch had to be bypassed overland: a railroad of 364 to 366 km cut through the forest, over swamps that the floods covered, in a place where malaria struck almost everyone.",
+    "Two companies tried in the nineteenth century and gave up. On the third attempt, Percival Farquhar's Madeira-Mamoré Railway Co. finished the line in 1912, after hiring 21,817 men. How many of them died is the question nobody settles: the records of the time stay under two thousand, and the most cited estimates speak of about six thousand."
+  ],
+  "numeros": [
+    {"valor": "364–366 km", "rotulo": "from Porto Velho to Guajará-Mirim; 366 with the 1923 realignment"},
+    {"valor": "21,817", "rotulo": "workers hired and brought in from outside, 1907–1912"},
+    {"valor": "2", "rotulo": "failed attempts before, in 1872–1873 and 1878–1879"},
+    {"valor": "90%+", "rotulo": "of the workers sick, according to Oswaldo Cruz's report, 1910"},
+    {"valor": "1,522 · 1,552 · 1,693", "rotulo": "recorded deaths, depending on the source"},
+    {"valor": "~6,000", "rotulo": "dead in the most cited estimate; some speak of many more"}
+  ],
+  "ficha": [
+    {"item": "Who wanted it", "valor": "Brazil, through the Treaty of Petrópolis, signed with Bolivia on November 17, 1903. In Article VII, Brazil commits to building a railroad from the port of Santo Antônio, on the Madeira River, to Guajará-Mirim, on the Mamoré, with a branch to Vila Bela, in Bolivia, and says it \"will endeavor\" to complete it in four years.", "nota": "text of the treaty, promulgated by Decree 5,161 of March 10, 1904"},
+    {"item": "Why", "valor": "To bypass the waterfalls and rapids of the Madeira and the Mamoré in order to ship out the rubber of Bolivia and that of the upper Madeira and Mato Grosso."},
+    {"item": "Earlier attempts", "valor": "1872–1873: the British firm Public Works Construction Co., hired by the company of the American colonel George Earl Church, abandoned the job one year and three days after arriving. 1878–1879: P. & T. Collins, of Philadelphia, stopped after laying only a few kilometers of line."},
+    {"item": "Who built it", "valor": "The Madeira-Mamoré Railway Co., founded in 1907 by the American Percival Farquhar, who bought the concession won by Joaquim Catramby (formal transfer by Decree 6,838 of June 30, 1908). Contractor: May, Jekyll & Randolph."},
+    {"item": "Timeline", "valor": "Symbolic start on July 4, 1907, in Porto Velho; first section, about 90 km to Jaci-Paraná, on May 31, 1910; last crosstie on April 30, 1912. The inauguration date varies: April 30, July 15, August 1 or September 7, 1912, depending on the source."},
+    {"item": "Workers", "valor": "21,817 hired and brought in from outside between 1907 and 1912, according to the company's table; the year with the most arrivals was 1910, with 6,024 (6,090 in a variant of the same table). A worker stayed, on average, less than three months. The table does not count people who already lived in the region, nor Indigenous people."},
+    {"item": "Nationalities", "valor": "\"More than forty countries,\" according to Francisco Foot Hardman; other works speak of more than 50."},
+    {"item": "Cost", "valor": "Contract for 47,682:058$402; the government paid 40,474:872$622 through 1912; the company claimed to have spent 81,675:731$612, according to historian Abnael Machado de Lima. Manoel Rodrigues Ferreira speaks of more than 62,000 contos paid by the government. A 1910 contract amendment paid £2,750 per km of ballast and temporary bridges.", "nota": "réis and pounds of the time, not converted"},
+    {"item": "What is not the cost", "valor": "The £2,000,000 of the Treaty of Petrópolis is the compensation Brazil paid Bolivia, not the price of the railroad."},
+    {"item": "Disease", "valor": "Malaria above all: almost everyone fell ill. Oswaldo Cruz's 1910 report speaks of more than 90% of the workers sick; another reading of the same report, of 80 to 90%. Daily, compulsory quinine from August 1, 1910.", "nota": "the exact percentage comes from one source; that almost everyone fell ill, from several"},
+    {"item": "Hospital", "valor": "Candelária Hospital, between Santo Antônio and Porto Velho, run by the company from 1908; 11 doctors, some with experience on the Panama Canal; 120 to 150 patients a day in 1911.", "nota": "daily patient load according to historian André Vasques Vital"},
+    {"item": "Recorded deaths", "valor": "1,552 deaths in the company's table from 1907 to 1912, the most repeated figure; 1,522 in another version; 1,693 in another, attributed to Ferreira and Hardman. All under two thousand."},
+    {"item": "Estimated deaths", "valor": "About 6,000 in the most cited estimate, including by the Brazilian government; 6,208 in Hiram Reis e Silva's count; 7,000 to 10,000 in novelist Errol Lincoln Uys; more than 30,000 in Fiorelo Picoli. Ricardo Leite maintains they did not exceed 2,000. Nobody recorded who died outside the hospital."},
+    {"item": "Afterwards", "valor": "Deactivated by Decree 58,501 of May 25, 1966; the last train ran in 1972 (May 10 or July 10, depending on the source). Listed as national heritage in the 2000s: part of the rail yard, the stretch from Porto Velho to Santo Antônio, the three water tanks and the Candelária cemetery, not the whole line.", "nota": "the dates of the heritage listing vary between 2005 and 2008"},
+    {"item": "In 2025–2026", "valor": "On October 28, 2025, the Federal Public Prosecutor's Office sued Rondônia, the federal government and IPHAN over the abandonment of the line, seeking heritage protection for all 366 km and R$6 million in collective moral damages. In September 2026, the Porto Velho city government announced the return of the train ride to Santo Antônio for early October; according to the mayor, the rolling stock had sat idle for almost three decades.", "nota": "the date and locomotive of the first ride differ among newspapers"}
+  ],
+  "historia": [
+    {
+      "titulo": "A railroad in the Acre treaty",
+      "paragrafos": [
+        "On November 17, 1903, in Petrópolis, in the state of Rio de Janeiro, Brazil and Bolivia signed the treaty that gave Acre to Brazil. Under Article III, Brazil would pay £2,000,000 to Bolivia, in two installments, \"since there is no equivalence in the areas.\" Under Article VII, it took on another obligation: to build a railroad from the port of Santo Antônio, on the Madeira River, to Guajará-Mirim, on the Mamoré, for both countries to use at the same rates.",
+        "The reason was the river. Between Santo Antônio and Guajará-Mirim, the Madeira and the Mamoré come down a staircase of waterfalls and rapids that no loaded boat could pass. The rubber of Bolivia and the upper Madeira needed an overland detour. The treaty gave four years, but chose its words carefully: Brazil \"will endeavor\" to finish within that time.",
+        "The railroad ended up starting from Porto Velho, some 7 km downriver from Santo Antônio, and it never entered Bolivia: it ends at Guajará-Mirim, on the Brazilian side of the Mamoré, across from Guayaramerín. And it was not the first time someone had tried to build it."
+      ]
+    },
+    {
+      "titulo": "Not with all the capital in the world",
+      "paragrafos": [
+        "In 1872, the American colonel George Earl Church raised in London a Bolivian loan of £1,700,000 nominal, sold at 68%, and hired the British firm Public Works Construction Co. for £600,000. The engineers reached Santo Antônio on July 6, 1872. A year later, according to engineer Neville B. Craig, they had three and a half miles of survey, about 5.6 km, and not a foot of track laid.",
+        "On July 9, 1873, one year and three days after arriving, Public Works abandoned the contract and went to court in London. In its petition, quoted by Craig, the company described the region as a charnel house, with men dying like flies, and said that with all the capital in the world and half its population it would be impossible to build the railroad.",
+        "In 1878 came P. & T. Collins, of Philadelphia. The steamer *Mercedita* sailed on January 3 with 220 people. The second ship, the *Metropolis*, carrying rails and workers, ran aground and broke apart off Currituck Beach, North Carolina, on January 31, 1878, before ever leaving the United States. Craig counts 80 railroad employees dead; the North Carolina historical marker speaks of 85 dead in all; other counts reach 102.",
+        "Of the 941 people Collins sent from the United States, 719 reached Santo Antônio, and at least 23.6% of them died, according to Craig's table, which draws a comparison: Union soldiers in the Civil War died at a lower rate. Of the mortality among the roughly 400 men from Ceará and 200 Bolivian Indigenous workers hired in the region, again according to Craig, no record was kept. In 1879 the work stopped. Craig lists what was left: about 3.5 km of permanent track and 6.3 km over which the construction train ran; the 7 km of line usually cited depend on what is being measured. A Baldwin locomotive was also left behind at Santo Antônio."
+      ]
+    },
+    {
+      "titulo": "Track laid on branches",
+      "paragrafos": [
+        "The concession was won by Joaquim Catramby, who signed a contract on November 14, 1906. The man who got it moving was the American Percival Farquhar, who bought the concession and founded the Madeira-Mamoré Railway Co. in 1907; the formal transfer came through Decree 6,838 of June 30, 1908. The contractor was May, Jekyll & Randolph. According to historian Abnael Machado de Lima, the first crew left Belém on June 9, 1907, with 140 people, and the symbolic start of work was on July 4, in Porto Velho.",
+        "The route was the problem. The photographs the American Dana B. Merrill took of the work, between 1909 and 1912, show what their captions describe: in the swampy stretch along the Abunã River, track laid on corduroy beds of brushwood and palm trunks so the ballast train could run over the water; temporary wooden bridges over the forest streams; rock blasted open with dynamite; embankments washed out by rain; derailed cars. In one of them, the caption notes that in flood season the Madeira rose 14 meters above its low-water level.",
+        "The first section, about 90 km to Jaci-Paraná, was handed over on May 31, 1910. In November of that year, a contract amendment began paying £2,750 per kilometer of ballast and temporary bridges. The Federal Audit Court refused to register it, and only Legislative Decree 2,579 of June 7, 1912, validated the expense, according to an opinion on the contracts published by Conjur."
+      ]
+    },
+    {
+      "titulo": "The demon of the Amazon",
+      "paragrafos": [
+        "The greatest enemy was not in the route. From 1908 the company ran Candelária Hospital, between Santo Antônio and Porto Velho. In 1910 and 1911 it had eleven doctors, some with experience on the Panama Canal, and the service was headed by the American Carl Lovelace. According to the survey by historian André Vasques Vital, the hospital took in 120 to 150 patients a day in 1911, and 60 in 1912.",
+        "In 1910, the company itself hired Oswaldo Cruz. He traveled with Belisário Penna from June 16 to August 29 and observed the work from July 9 to August 7. According to historians Júlio César Schweickardt and Nísia Trindade Lima, Cruz called malaria the demon of the Amazon and recorded more than 90% of the workers as sick; another reading of the same report speaks of 80 to 90%. A worker stayed on the job, on average, less than three months.",
+        "The response was to make medicine a work rule. From August 1, 1910, quinine became a daily, compulsory dose, and using the anti-mosquito measures became \"a work obligation.\" Merrill photographed men wearing mesh hoods over their heads. And malaria was not the only disease: a report by Lovelace, cited in an article about the region, counts 963 cases of beriberi at Candelária from 1908 to 1911."
+      ]
+    },
+    {
+      "titulo": "The count nobody settles",
+      "paragrafos": [
+        "The company's table, reproduced by the writer Hiram Reis e Silva, adds up to 21,817 workers brought in from outside and 1,552 deaths between 1907 and 1912, with more than 400 deaths a year from 1909 to 1911. It is the most repeated figure. But there is a variant of the same table whose totals do not add up, a version that gives 1,522 and another, attributed to Manoel Rodrigues Ferreira and Francisco Foot Hardman, that gives 1,693. All of them stay under two thousand.",
+        "The record counts what the hospital saw. It does not count those who died along the way, on the trip to Manaus or Belém, or after going home sick. That is why the estimates climb: about 6,000 in the most cited count, which also appears attributed to the Brazilian government; 6,208 in the count by Hiram Reis e Silva, who multiplies the recorded deaths by four; 7,000 to 10,000 in novelist Errol Lincoln Uys; more than 30,000 in Fiorelo Picoli. At the other end, Ricardo Leite, in his 2020 book *1912 – Vitória na Selva*, says that even adding 20% for unrecorded deaths the total stays under two thousand, and calls the counts of 6,000 to 20,000 speculation.",
+        "The archive that could break the tie no longer exists: the railroad's papers were burned when it was shut down. Of Merrill's plates, 189 negatives survive, now at the Museu Paulista of the University of São Paulo. One of them shows the Candelária cemetery, in a clearing behind the hospital. Craig had already written, in 1907, about the Collins men who died after going home: there was no way of knowing how many."
+      ]
+    },
+    {
+      "titulo": "Finished too late",
+      "paragrafos": [
+        "The last crosstie was laid on April 30, 1912, and the inauguration appears under different dates depending on the source, between April and September of that year. The market that justified the project had already turned. Between 1910 and 1911, the top price of fine rubber fell by nearly half; the Amazon's share of world supply went from 44% to 35% between 1910 and 1912; and over that decade the plantations of Asia overtook Brazilian production, according to a study published in the journal *Almanack*.",
+        "The railroad stayed, and with it a city: Porto Velho was born of the railroad. Between 1910 and 1912, Chicago Bridge & Iron Works put up three water tanks there of 200,000 liters each, which supplied the city and the railroad until the 1950s and today appear on the municipal flag. The Baldwin locomotive that Collins left at Santo Antônio in 1879 was restored, named Coronel Church, and stands in the railroad museum in Porto Velho.",
+        "Decree 58,501 of May 25, 1966, shut down the line and handed it to the Ministry of War; the last train ran in 1972. The nickname that stuck, the Devil's Railroad, is the title of Manoel Rodrigues Ferreira's 1959 book. Before it, Ferreira published newspaper reports with photos printed from Merrill's negatives, which he received in 1956."
+      ]
+    },
+    {
+      "titulo": "The tracks today",
+      "paragrafos": [
+        "In the 2000s, IPHAN listed part of what remained as heritage: a piece of the Porto Velho rail yard, the tracks to Santo Antônio, the three water tanks and the Candelária cemetery. The rest of the line was left out. On October 28, 2025, the Federal Public Prosecutor's Office sued Rondônia, the federal government and IPHAN, seeking permanent heritage protection for all 366 km and R$6 million in collective moral damages, over stolen rails, dismantled steel bridges, ripped-out crossties and abandoned locomotives.",
+        "In August 2026, according to News Rondônia, the Porto Velho city government reached an agreement with the Brazilian Railway Preservation Association to restore the structure and sent IPHAN a letter of intent about a bid for UNESCO World Heritage status, still at an early stage. In September, the city government announced for early October the return of the train ride along the Madeira-Mamoré tracks to the church of Santo Antônio; according to Mayor Léo Moraes, the rolling stock had sat idle for almost three decades."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "One man died for every crosstie on the railroad.", "registro": "It is a catchphrase, not a count. It appears in print in 1942 and spread in the following decades, even in versions of twenty dead per crosstie. The line has from 170,000 to about 549,000 crossties, depending on the calculation, far above any estimate of the dead."},
+    {"circula": "30,000 men died building it.", "registro": "The number appears in one author, Fiorelo Picoli. The records of the time count fewer than two thousand dead, and the most cited estimates, about six thousand. \"About 30,000\" also circulates as the number of workers, not of dead, and the confusion probably starts there."},
+    {"circula": "The railroad was built by slaves.", "registro": "None of the sources consulted says so. Slavery had ended in Brazil in 1888, and the company's table counts 21,817 men hired and brought in from outside; Merrill photographed workers receiving their pay beside a track car. What life was really like for those who worked there, far from everything and sick, is another question."},
+    {"circula": "The nickname Devil's Railroad dates from the construction years.", "registro": "It was popularized by the book *A Ferrovia do Diabo*, by Manoel Rodrigues Ferreira, published in 1959. No earlier use has been found."},
+    {"circula": "The Madeira-Mamoré was shut down in 1966.", "registro": "1966 is the year of the decree that deactivated it. The last train ran in 1972."}
+  ],
+  "perguntas": [
+    {"p": "How many people died building the Madeira-Mamoré Railroad?", "r": "Nobody settles the count. The records of the time give 1,552, 1,522 or 1,693 deaths, all under two thousand; the most cited estimate speaks of about 6,000, and some authors go from 7,000 to 10,000 or to more than 30,000, because nobody recorded who died outside the hospital."},
+    {"p": "When was the Madeira-Mamoré Railroad built?", "r": "Between 1907 and 1912. The symbolic start was on July 4, 1907, in Porto Velho, and the last crosstie was laid on April 30, 1912; the inauguration date varies among sources, between April and September of that year."},
+    {"p": "Why was the Madeira-Mamoré Railroad built?", "r": "To bypass the waterfalls and rapids of the Madeira and Mamoré rivers, which no loaded boat could get past, and to ship out the rubber of Bolivia and the upper Madeira. Brazil took on the obligation in the Treaty of Petrópolis, signed with Bolivia in 1903."},
+    {"p": "Who built the Madeira-Mamoré Railroad?", "r": "The Madeira-Mamoré Railway Co., founded in 1907 by the American Percival Farquhar, with the contractor May, Jekyll & Randolph, which hired 21,817 workers brought in from outside. It was the third attempt: two companies had already given up, in 1873 and in 1879."},
+    {"p": "Does the Madeira-Mamoré Railroad still run?", "r": "The line was shut down by decree in 1966, and the last train ran in 1972. In September 2026, the Porto Velho city government announced the return of the train ride to Santo Antônio for early October."}
+  ],
+  "fontes": [
+    {"texto": "Decree 5,161 of March 10, 1904, promulgating the Treaty of Petrópolis (Chamber of Deputies)"},
+    {"texto": "Neville B. Craig, Recollections of an Ill-Fated Expedition to the Headwaters of the Madeira River in Brazil, Lippincott, 1907 (Internet Archive)"},
+    {"texto": "Abnael Machado de Lima, \"Cem anos do reinício da construção da EFMM 1907/2007\", Gente de Opinião"},
+    {"texto": "Hiram Reis e Silva, \"A Terceira Margem — parte XCVIII — Madeira-Mamoré, Ferrovia do Diabo XIX\", Gente de Opinião"},
+    {"texto": "Anísio Gorayeb, \"A lendária Madeira Mamoré\", Gente de Opinião"},
+    {"texto": "Manoel Rodrigues Ferreira, A Ferrovia do Diabo, Melhoramentos, 1959"},
+    {"texto": "Francisco Foot Hardman, Trem-fantasma: a ferrovia Madeira-Mamoré e a modernidade na selva, Companhia das Letras, 2005"},
+    {"texto": "Júlio César Schweickardt and Nísia Trindade Lima, \"Os cientistas brasileiros visitam a Amazônia\", História, Ciências, Saúde – Manguinhos, 2007"},
+    {"texto": "André Vasques Vital, \"Visões do Alto Madeira: Comissão Rondon, malária e política em Santo Antônio do Madeira (1910-1915)\", SBHC"},
+    {"texto": "\"Hospital da Candelária: um lugar de cura e morte nos campos da selva madeirense\", Revista FT"},
+    {"texto": "Sílvia Maria do Espírito Santo and Pedro Ribeiro, catalog of the exhibition Ferrovia Madeira-Mamoré: Trilhos e Sonhos (BNDES / Museu Paulista da USP)"},
+    {"texto": "\"Cronologia da EFMM\", Centro-Oeste magazine No. 81, 1993"},
+    {"texto": "\"Contratos de construção da estrada de ferro Madeira-Mamoré\", Conjur, July 3, 2014"},
+    {"texto": "\"O que levou a Madeira-Mamoré a ser conhecida como Ferrovia do Diabo\", Revista Ferroviária, November 3, 2025"},
+    {"texto": "\"'Indústria maldita' ou 'árvore de ouro'? O debate econômico nos tempos do ciclo da borracha, 1850-1914\", Almanack"},
+    {"texto": "North Carolina Department of Natural and Cultural Resources, \"Wreck of the Metropolis (A-33)\", 2023"},
+    {"texto": "\"MPF pede na Justiça que estado tombe Estrada de Ferro Madeira-Mamoré\", Portal O Fato, November 6, 2025"},
+    {"texto": "News Rondônia, agreement between the Porto Velho city government and ABPF, August 4, 2026"},
+    {"texto": "\"Passeio histórico pelos trilhos da Madeira-Mamoré até Santo Antônio é retomado\", Rondônia Dinâmica, September 17, 2026"},
+    {"texto": "\"Prefeitura retoma passeio de trem na Madeira-Mamoré neste sábado\", Diário RO, September 29, 2026"}
+  ],
+  "imagens": [
+    {"alt": "Straight track across a flooded swamp, with palm trunks under the line, men and horses in the background and low forest on both sides", "legenda": "In the swampy stretch along the Abunã River, a corduroy bed of palm trunks carries the line over the water so the ballast train can pass.", "autor": "Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)"},
+    {"alt": "Riverbed covered with large blocks of dark rock, with a man standing among the stones and forest on the far bank", "legenda": "One of the waterfalls of the Madeira River at Santo Antônio, the obstacle the railroad existed to get around.", "autor": "Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)"},
+    {"alt": "Three men in boots on a covered wooden porch, their heads wrapped in mesh hoods", "legenda": "Workers wearing hoods for protection against mosquitoes.", "autor": "Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)"},
+    {"alt": "Clearing cut into the forest with rows of small white crosses among stumps and fallen trunks", "legenda": "The Candelária cemetery, behind the company hospital, between Santo Antônio and Porto Velho.", "autor": "Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)"},
+    {"alt": "Hundreds of rubber balls lined up on the ground in front of thatched sheds and a freight car marked EFMM", "legenda": "Balls of raw rubber wait to be loaded beside an EFMM freight car.", "autor": "Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)"},
+    {"alt": "Black steam locomotive with pale-rimmed wheels and the name Coronel Church on the cab, inside a shed", "legenda": "The Baldwin that P. & T. Collins left at Santo Antônio in 1879, restored and named Coronel Church, in Porto Velho, in 2006.", "autor": "Freyah"}
+  ]
+}

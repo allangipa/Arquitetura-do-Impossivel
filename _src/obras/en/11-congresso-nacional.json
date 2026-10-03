@@ -1,0 +1,168 @@
+{
+  "_nota": "Tradução fiel de ../11-congresso-nacional.json. Campos fixos vêm do original.",
+  "obra": "National Congress of Brazil",
+  "titulo_seo": "National Congress of Brazil: How It Was Built (1957–1960)",
+  "titulo_video": null,
+  "lugar": "Three Powers Plaza, Brasília, Federal District, Brazil",
+  "periodo": "1957–1960",
+  "impossivel": "Raising, in just over two years of work and against a fixed date, a 62-meter concrete dome that seems to rest lightly on the slab, another one turned upside down and two 28-story towers, in a city that did not yet exist.",
+  "resumo": "How Niemeyer and structural engineer Joaquim Cardozo made the domes and towers of Brazil's Congress for 21 April 1960, and what was still missing that day.",
+  "abertura": [
+    "On the Three Powers Plaza, in Brasília, in the Federal District, a 200-meter slab carries two domes: a convex one, the Senate's, and a concave one, the Chamber of Deputies', which looks like a bowl set down on the concrete. Behind them stand two 28-story towers linked by a walkway. The design is by Oscar Niemeyer. The calculations are by Joaquim Cardozo, an engineer from Pernambuco who was also a poet and who did the structural math in Rio de Janeiro.",
+    "The building had a date by which it had to stand: 21 April 1960, the day the new capital was inaugurated. It stood, but it was not finished. The towers, which inside are a skeleton of American steel hidden in concrete, were inaugurated without glass in the windows, and the work was only truly finished in 1964."
+  ],
+  "numeros": [
+    {"valor": "62 m", "rotulo": "diameter of the Chamber's dome, the one that seems to rest on the slab"},
+    {"valor": "28", "rotulo": "stories in each of the two towers"},
+    {"valor": "200 m", "rotulo": "length of the platform that supports the domes"},
+    {"valor": "21 April 1960", "rotulo": "inaugurated together with Brasília, still unfinished"},
+    {"valor": "92 · 95 · 100 m", "rotulo": "height of the towers, depending on the source"},
+    {"valor": "1964", "rotulo": "the year the work and the payments to the builder ended"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To house the Senate and the Chamber of Deputies in the new capital and to mark, on the day Brasília was inaugurated, the transfer of the Legislative Branch, which had been sitting in Rio de Janeiro."},
+    {"item": "Architecture", "valor": "Oscar Niemeyer, with Nauro Esteves as technical coordinator and a team that included Sabino Barroso and Hermano Montenegro. The composition of a platform, two domes and two towers was settled between March and July 1957, after more than thirty studies.", "nota": "the number of studies comes from a single piece of research"},
+    {"item": "Structural design", "valor": "Joaquim Cardozo (1897–1978), with Samuel Rawet on the team. The structural design ran from November 1957 to October 1959 and was done in Rio de Janeiro.", "nota": "Rawet, the place where the calculations were done and the dates of the structural design each appear in one source"},
+    {"item": "Who built it", "valor": "Companhia Construtora Nacional did the concrete of the horizontal block and, later, of the towers. The steel for the towers was made by Bethlehem Steel, of the United States, under a contract between NOVACAP and the American firm Raymond Concrete Pile; in May 1959 NOVACAP took the erection away from the Americans and began running it itself.", "nota": "according to research by Elcio Gomes da Silva and Danilo Matoso Macedo on the contracts and the 1959 Official Gazette"},
+    {"item": "Timeline", "valor": "Work began in November 1957 or on 16 March 1958, depending on the source; the design was only approved by the committees of the Chamber and the Senate in November 1959, with construction well advanced; inauguration on 21 April 1960, with the first session the same day.", "nota": "the start date varies; the inauguration date does not"},
+    {"item": "What was missing in 1960", "valor": "The towers were inaugurated without glass in the window frames and without interior finishes. Design, construction and payments to the builder went on until 1964.", "nota": "the unfinished state has two sources; the year 1964 comes from one (Carvalho, 2024)"},
+    {"item": "Chamber dome", "valor": "Concave, 62 m in diameter at the top and about 10 m high. Instead of a single shell, three: a zone of an ellipsoid 60 to 86 cm thick, a truncated cone and a spherical cap 52 m in diameter and only 14 cm thick, which holds up the ceiling and the roof.", "nota": "measurements from the original drawings, surveyed in Elcio Gomes da Silva's thesis (UnB, 2012)"},
+    {"item": "Senate dome", "valor": "Convex, a paraboloid of revolution, about 10 m high, with a shell from 10 cm at the top to 35 cm at the base. The diameter appears as 38 m or 39 m."},
+    {"item": "Platform", "valor": "200 m by 87 m, about 14,500 m² including the ramp. A double ribbed slab with enclosed hollow cells, on a grid of 10 by 15 m, with a thickness ranging from 0.70 m at the edges to 3 m at the center.", "nota": "the length has two sources; the other measurements come from a 2017 Senate technical document"},
+    {"item": "Towers", "valor": "28 stories, 45 m long, a skeleton of riveted steel columns and beams later encased in concrete. The walkway between them was added to brace the steel structure. Height of 92, 95 or 100 m, depending on the source.", "nota": "the 28 stories are agreed on; the height is not"},
+    {"item": "Workers", "valor": "Nobody recorded how many worked on the Congress, in total or at the peak. All of Brasília had 64,314 inhabitants in the census of 17 May 1959, most of them men who had come for the construction. The workday ran from 6:00 to 18:00, with an hour for lunch, and there were shifts running through day and night.", "nota": "the census and the working hours have two sources; the number of workers on the Congress does not exist in the sources consulted"},
+    {"item": "Deaths on the job", "valor": "There is no number, neither official nor disputed. Workers remember falls from the towers, which they called \"the 28\"; one of them, Natalino Cavalcante de Melo, told the Public Archive of the Federal District in 1990 that those who fell were covered with a tarp."},
+    {"item": "Cost", "valor": "Not recorded in the sources consulted. What is known is that the steel for the towers and for the ministries was bought with an initial credit of US$10 million from the Eximbank, the export bank of the United States.", "nota": "the estimates that circulate for the cost of all of Brasília have no published method and were not used"},
+    {"item": "Heritage listing", "valor": "Brasília was inscribed as a World Heritage Site by UNESCO in 1987; IPHAN listed the Congress as heritage in 2007, together with other works by Niemeyer."},
+    {"item": "Today", "valor": "On 6 May 2026 the Congress celebrated the 200 years since the installation of the Chamber and the Senate, on 6 May 1826, with a solemn session in the chamber under the concave dome and images projected onto the domes and the towers."}
+  ],
+  "historia": [
+    {
+      "titulo": "A building with a deadline",
+      "paragrafos": [
+        "When Lúcio Costa won the competition for the Pilot Plan, in March 1957, his design for the new capital already provided, on the Three Powers Plaza, for a vertical building for the Congress. Brasília had to be inaugurated on 21 April 1960, and the Congress was the piece that gave the date its meaning: it was there that the Legislative Branch, until then in Rio de Janeiro, would begin to sit.",
+        "Oscar Niemeyer settled the composition between March and July 1957: a long horizontal platform, two domes on top of it and two narrow 28-story towers behind. The work began before the design was ready. According to Juliano Loureiro de Carvalho, a researcher at the Senate, the structural design was started together with construction, in November 1957, and was only finished in October 1959; the committee of deputies and senators only approved the design in November 1959, with the building already well advanced. Another source, from the Senate itself, gives the start of construction as 16 March 1958."
+      ]
+    },
+    {
+      "titulo": "The slab that holds everything up",
+      "paragrafos": [
+        "Before the domes comes the platform: 200 meters long by 87 wide, about 14,500 m² of roof, according to a technical survey by the Senate carried out in 2017. It is a double slab, with ribs that form hollow cells inside, resting on a grid of columns 10 by 15 meters apart. At the edges it is 70 centimeters thick; at the center, 3 meters.",
+        "The design of this slab changed along the way. In the preliminary design, the corridor that takes the public to the galleries ran over the top of it and created a 1.70-meter hump that cut off the view between the domes. Between January and September 1958 the corridor was lowered into the platform. The plans published in 1958 showed the abandoned version, and they were copied in books and academic papers for more than fifty years, as Elcio Gomes da Silva and José Manoel Morales Sánchez showed by comparing the drawings with the original sheets kept at the Chamber."
+      ]
+    },
+    {
+      "titulo": "The bowl that could not touch down",
+      "paragrafos": [
+        "The Senate dome had a known solution: a paraboloid of revolution, with a shell 10 centimeters thick at the top and 35 at the base, and a concrete ring around it to take the sideways thrust. The problem was the other one. Niemeyer wanted the Chamber's dome turned upward, 62 meters in diameter, looking as if it were merely set down on the slab, touching it with a gentle curve.",
+        "Cardozo first tried a single form, a paraboloid with a fifth-degree curve, and it created difficulties both in the calculations and in construction. The way out, described by the engineer himself, was to replace one shell with three: a band of an ellipsoid, on which the gallery seating rests, a truncated cone and a very flat spherical cap, 52 meters in diameter and only 14 centimeters thick, which holds up the ceiling of the chamber and the flat roof. All of this rests on a concrete ring 2.70 by 1.73 meters.",
+        "So that the bowl could withstand the tension around its base, the reinforcement was changed during construction. In the first meter, ordinary steel bars welded in pairs; in the next two meters, thinner bars of a new steel, Torstahl, which had twice the strength and had just arrived in Brazil. In the densest part, near the base, the steel reaches about 10% of the concrete cross-section. Cardozo did all the calculations in Rio de Janeiro: according to a testimony recorded by Silva and Sánchez, he \"was very old\" and could not move to Brasília. He was 60 in 1957."
+      ]
+    },
+    {
+      "titulo": "Steel hidden in the towers",
+      "paragrafos": [
+        "The towers look like concrete and are not. Inside, each one is a skeleton of steel columns and beams, joined by rivets and then wrapped in concrete, the same solution used for the ministries on the Esplanade. The steel came from the United States, made by Bethlehem Steel, under a contract that NOVACAP signed in July 1957 with the American firm Raymond Concrete Pile, as the counterpart to a loan from the Eximbank, the American export bank.",
+        "The erection did not keep up with Brasília's pace. According to research by Elcio Gomes da Silva and Danilo Matoso Macedo, the Americans worked in regular shifts and with safety rules, and, in the words of testimonies from the time, building went very slowly. On 2 May 1959 NOVACAP took over the erection of the remaining buildings, including the Congress towers, and handed the job to workers who had never erected a steel structure. The architect Hermano Montenegro recalled, in a 1989 testimony, workers from the Northeast with no experience at all who, in a short time, were erecting difficult steel structures and riveting \"faster than anyone in the world\".",
+        "The walkway that links the two towers halfway up was not in the original design. According to Nauro Esteves, technical coordinator of the work, it was built to brace the steel structure, because of the height of the buildings."
+      ]
+    },
+    {
+      "titulo": "The men of the 28",
+      "paragrafos": [
+        "Nobody recorded how many men worked on the Congress. All of Brasília had 64,314 inhabitants in the census of 17 May 1959, almost two men for every woman, and most of them were in construction. The workday ran from 6:00 to noon and from 13:00 to 18:00, and many worked through day and night, because pay was by the hour. The injured treated by the IAPI hospital rose from 1,974 in 1958 to 10,927 in 1959, according to the historian Hermes Aquino Teixeira.",
+        "Nor is there a number of deaths on the Congress job, neither official nor disputed. The workers called the building \"the 28\", after the stories of the towers, and they feared it. In a testimony to the Public Archive of the Federal District, in 1990, Natalino Cavalcante de Melo spoke of workers who fell from the towers while welding and were covered with a tarp. In a basement of the Congress a worker, José Silva Guerra, from Ceará, left a message written on 22 April 1959: \"May the men of tomorrow who come here have compassion for our children, and may the law be upheld.\"",
+        "On 8 February 1959, a Carnival Sunday, the Special Guard of Brasília raided at night the camp of the builder Pacheco Fernandes Dantas, which was raising the Planalto Palace, after a fight over spoiled food. The official inquiry recorded one death, Evaristo Soares Brandão, and 48 injured. A telegram from the workers' association spoke of nine dead, and candangos, the workers who built the city, interviewed decades later spoke of dozens. No other body was found. It was not on the Congress job, but it was in the same race against the same date."
+      ]
+    },
+    {
+      "titulo": "Inaugurated half-finished",
+      "paragrafos": [
+        "Six months before the inauguration, the Congress and the Planalto Palace were still skeletons, according to a report by the Correio Braziliense. A photograph of 31 March 1960, from the archive of the newspaper Correio da Manhã, shows the towers with scaffolding platforms and a crane alongside, three weeks before the celebration. On 21 April 1960 the Congress held its first session in Brasília. The towers had no glass in the window frames and no interior finishes; design, construction and payments to the builder continued until 1964.",
+        "The building kept changing. The platform was enlarged in 1970 and 1971, to a design by Niemeyer himself, and Carvalho counted a hundred alterations to the main building between 1960 and 2020. The waterproofing of the slab is a mosaic of eras: in 2017, nearly half of it was still the original, made on site with layers of asphalt, aluminum, felt and lead. Joaquim Cardozo stopped doing structural calculations after 1971, when the Gameleira Pavilion, another of his works with Niemeyer, collapsed in Belo Horizonte, killing 69 workers; convicted at first instance, he was acquitted on appeal, and the expert investigation pointed to an error in execution, not in the calculations."
+      ]
+    },
+    {
+      "titulo": "Two hundred years later",
+      "paragrafos": [
+        "On 6 May 2026, the Congress celebrated the 200 years since the installation of the Chamber of Deputies and the Senate, which met for the first time on 6 May 1826. The solemn session was held in the Ulysses Guimarães Chamber, beneath the concave dome, and at night images were projected onto the domes and the towers. The building rushed up to be the symbol of a Legislature that was changing cities became the screen for the two-century celebration of that same Legislature."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "The massacre of the candangos happened on the Congress building site.",
+      "registro": "No. It happened on 8 February 1959, in the camp of the builder Pacheco Fernandes Dantas, which was building the Planalto Palace. The concrete of the Congress was done by Companhia Construtora Nacional. The death toll remains disputed: one in the inquiry, nine in the workers' telegram, dozens in the memory of those who were there."
+    },
+    {
+      "circula": "The Congress was finished in less than three years.",
+      "registro": "It was inaugurated on 21 April 1960, but unfinished: the towers had no glass and no interior finishes, and the work and the payments to the builder went on until 1964."
+    },
+    {
+      "circula": "It is all reinforced concrete.",
+      "registro": "The domes and the platform are. The towers are a steel skeleton made in the United States, riveted in Brasília and only then encased in concrete."
+    },
+    {
+      "circula": "There are workers buried in the concrete of the Congress.",
+      "registro": "It is a story that circulates without confirmation; no source records a body being found. What exists are testimonies about falls from the towers and no death toll, neither official nor disputed."
+    },
+    {
+      "circula": "The towers are 100 meters tall.",
+      "registro": "That is one of the measurements. A study of the original drawings gives 95 m of facade, and the international skyscraper database records 92 m."
+    }
+  ],
+  "perguntas": [
+    {"p": "When was the National Congress of Brazil built?", "r": "Between 1957 and 1960. The start date varies with the source: November 1957 or 16 March 1958. The building was inaugurated together with Brasília on 21 April 1960, still unfinished, and the work and the payments to the builder only ended in 1964."},
+    {"p": "Who designed the Brazilian National Congress building?", "r": "The architect Oscar Niemeyer, who settled the composition of a platform, two domes and two towers between March and July 1957. The structural design is by the engineer and poet from Pernambuco Joaquim Cardozo, done in Rio de Janeiro."},
+    {"p": "How was the National Congress building in Brasília built?", "r": "The domes and the 200 m platform are reinforced concrete; the concave dome of the Chamber, 62 m in diameter, was made with three shells instead of one. The 28-story towers look like concrete, but inside they are a steel skeleton made in the United States, riveted in Brasília and encased in concrete."},
+    {"p": "How tall are the towers of the National Congress of Brazil?", "r": "The sources differ: 92, 95 or 100 m. A study of the original drawings gives 95 m of facade, and the international skyscraper database records 92 m. The only real consensus is on the 28 stories of each tower."},
+    {"p": "How many people died building the National Congress of Brazil?", "r": "There is no number, neither official nor disputed. Workers remember falls from the towers, which they called “the 28”, but nobody recorded the deaths or how many men worked on the building. The 1959 massacre of the candangos was not at the Congress, but at the camp of the builder of the Planalto Palace."}
+  ],
+  "fontes": [
+    {"texto": "Elcio Gomes da Silva and José Manoel Morales Sánchez, \"Documentação estrutural do Palácio do Congresso Nacional em Brasília\", Paranoá, n. 15, 2015"},
+    {"texto": "Elcio Gomes da Silva and Danilo Matoso Macedo, \"Estruturas metálicas no concreto de Brasília\", Thésis, v. 5, 2018"},
+    {"texto": "Elcio Gomes da Silva and José Manoel Morales Sánchez, \"Congresso Nacional: da documentação técnica à obra construída\", mdc, 2009"},
+    {"texto": "Elcio Gomes da Silva, Os palácios originais de Brasília, doctoral thesis, University of Brasília, 2012"},
+    {"texto": "Dayane Torres Matos and Thamires de Souza Fernandes, \"As cúpulas do Palácio do Congresso Nacional\", Cadernos de Graduação — Ciências Exatas e Tecnológicas, v. 5, n. 2, 2019"},
+    {"texto": "Juliano Loureiro de Carvalho, \"Palácio do Congresso Nacional — valor cultural de alterações em edifícios modernos\", Anais do Museu Paulista, v. 32, 2024"},
+    {"texto": "Federal Senate, \"Caracterização construtiva — Plataforma do Edifício Principal\", public consultation on waterproofing, 2017"},
+    {"texto": "Lucas Ferreira Santos, Cotidiano operário durante a construção de Brasília e o Massacre da Pacheco Fernandes em 1959, undergraduate history thesis, University of Brasília, 2023"},
+    {"texto": "Mariana Machado, \"Massacre da Pacheco Fernandes completa 60 anos e continua sendo mistério\", Correio Braziliense, 8 February 2019"},
+    {"texto": "Renato Alves, \"1959, o ano em que Brasília não parou\", Correio Braziliense, 19 October 2009"},
+    {"texto": "Agência Senado, \"Brasília 60 anos — Candangos na construção da capital\", 2020"},
+    {"texto": "Renato Alves, \"Na construção de Brasília, operários temiam o '28', onde quedas seriam comuns\", O Tempo, 21 April 2024"},
+    {"texto": "Agência Brasil, \"Censo populacional de 1959 revela quem eram os candangos que construíram Brasília\", 2010"},
+    {"texto": "Chamber of Deputies, \"Joaquim Cardozo, o poeta dos cálculos\", Plenarinho, 2020"},
+    {"texto": "Chamber of Deputies, \"Congresso Nacional recebe projeção pelos 200 anos da Câmara dos Deputados e do Senado Federal\", 5 May 2026"},
+    {"texto": "Agência Senado, \"'Representação do povo' é destaque em sessão pelo bicentenário da Câmara\", 6 May 2026"},
+    {"texto": "National Congress, \"Arquitetura — Visite o Congresso\""},
+    {"texto": "Council on Tall Buildings and Urban Habitat, Skyscraper Center, \"Palacio do Congresso Nacional Anexo I\""}
+  ],
+  "imagens": [
+    {
+      "alt": "Old black-and-white photograph: the concave dome of the Chamber covered in tubular scaffolding, on the platform slab supported by pilotis with a glass facade; behind it, the skeleton of one of the towers under construction",
+      "legenda": "The Chamber dome under construction, in 1959, on the platform already with its pilotis and facade; behind it, the skeleton of the towers.",
+      "autor": "Agência Nacional (Arquivo Nacional)"
+    },
+    {
+      "alt": "Old black-and-white photograph: the skeleton of columns and beams of the two Congress towers, still without walls, with cranes at the top, and a group of visitors in suits and dresses on the site in the foreground",
+      "legenda": "The steel skeleton of the towers in 1959, during a visit by engineers to the site.",
+      "autor": "Agência Nacional (Arquivo Nacional)"
+    },
+    {
+      "alt": "Old black-and-white photograph: the two towers seen from below, already clad at the ends, with scaffolding platforms hanging on several floors, windows without glass and a crane tower alongside on the right",
+      "legenda": "The towers on 31 March 1960, three weeks before the inauguration, still with scaffolding and no glass in the windows.",
+      "autor": "Autor não identificado (Arquivo Nacional, fundo Correio da Manhã)"
+    },
+    {
+      "alt": "Old black-and-white photograph of the complex seen from a distance, across a lawn: the convex dome on the left, the two towers in the center, the concave dome on the right and the ramp rising to the platform",
+      "legenda": "The Congress in 1960, with the two domes and the towers finished on the outside.",
+      "autor": "Agência Nacional (Arquivo Nacional)"
+    },
+    {
+      "alt": "The National Congress at dusk, with the two tall towers on the left, the convex Senate dome at the edge, the large concave Chamber dome on the right and the whole complex reflected in the reflecting pool",
+      "legenda": "The Congress in 2015: the towers, the Senate dome at the edge and the Chamber dome reflected in the pool.",
+      "autor": "Donatas Dabravolskas"
+    }
+  ]
+}

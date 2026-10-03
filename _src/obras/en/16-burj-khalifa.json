@@ -1,0 +1,229 @@
+{
+  "_nota": "Tradução fiel de ../16-burj-khalifa.json. Campos fixos vêm do original.",
+  "obra": "Burj Khalifa",
+  "titulo_seo": "How the Burj Khalifa Was Built (2004–2010)",
+  "titulo_video": null,
+  "lugar": "Downtown Dubai, Dubai, United Arab Emirates",
+  "periodo": "2004–2010",
+  "impossivel": "Raise 828 meters of concrete and steel on weak rock and groundwater saltier than the sea, in a 50 °C desert, against a wind that, at that height, would set swaying any shape that repeated itself floor after floor.",
+  "resumo": "How Dubai raised the Burj Khalifa, the world's tallest tower: a Y-shaped plan against the wind, concrete at 600 m and workers the press barely counted.",
+  "abertura": [
+    "In January 2004, on a plot of sand beside Sheikh Zayed Road, in Dubai, in the United Arab Emirates, excavation began for a building whose final height the developer, Emaar, kept secret. Six years later, on 4 January 2010, it opened at 828 meters and with a name nobody expected: Burj Khalifa.",
+    "The problem was not just going up. It was making such a slender tower stand up to the wind, setting it on weak bedrock soaked in salt water, and getting concrete, in the Gulf summer, to more than 600 meters up before it hardened inside the pipe. The answer came from Chicago, from the firm SOM, and from thousands of South Asian workers whose exact death toll no one has published."
+  ],
+  "numeros": [
+    {"valor": "828 m", "rotulo": "architectural height, the tallest in the world since 2010"},
+    {"valor": "2004–2010", "rotulo": "from excavation, in January 2004, to the opening, on 4 January 2010"},
+    {"valor": "601 · 606 m", "rotulo": "the height to which concrete was pumped, a world record, depending on the source"},
+    {"valor": "3.7 m", "rotulo": "thickness of the concrete raft that carries the tower on piles"},
+    {"valor": "10,000 · 12,000", "rotulo": "workers at the peak of construction, depending on the source; the total who passed through the site was not recorded"},
+    {"valor": "US$1.5 bn", "rotulo": "cost of the tower announced at the opening"}
+  ],
+  "ficha": [
+    {
+      "item": "Why",
+      "valor": "To be the tallest building in the world and the centerpiece of Downtown Burj Dubai, an entire district built by the developer Emaar, at a time when Dubai was betting on construction to become a business and tourism hub. The final height was kept secret until the opening."
+    },
+    {
+      "item": "Who wanted it",
+      "valor": "The developer Emaar Properties, chaired by Mohamed Alabbar. The tower was called Burj Dubai throughout construction."
+    },
+    {
+      "item": "Design",
+      "valor": "Skidmore, Owings & Merrill (SOM), of Chicago: architect Adrian Smith and structural engineer William F. Baker. A Y-shaped plan, with a hexagonal core buttressed by three wings, and setbacks in a spiral. Hyder Consulting was the engineer of record; the wind tests were carried out by RWDI, in Canada."
+    },
+    {
+      "item": "Who built it",
+      "valor": "A consortium led by South Korea's Samsung C&T, with Belgium's BESIX and the Emirati firm Arabtec. Project management by the American company Turner."
+    },
+    {
+      "item": "Timeline",
+      "valor": "Excavation in January 2004; raft poured in a ceremony on 20 September 2004; Samsung contract announced in December 2004; tallest building in the world on 21 July 2007, with 141 floors; topped out in January 2009; opened on 4 January 2010.",
+      "nota": "some sources give 21 September 2004 as the start of construction; the raft ceremony, the Samsung contract and the topping-out date each appear in only one source"
+    },
+    {
+      "item": "Height and floors",
+      "valor": "828 m of architectural height and 829.8 m to the tip, according to the Council on Tall Buildings and Urban Habitat. There are 163 floors according to the same council, 162 according to SOM and Turner.",
+      "nota": "the height is agreed on; the number of floors is not"
+    },
+    {
+      "item": "Workers",
+      "valor": "At the peak, 12,000 according to the Associated Press and more than 12,000, from more than 100 countries, according to Turner; Gulf News spoke of 10,000, from 59 companies; in July 2007, Architectural Record counted 6,800. They were mostly migrants from South Asia: India, Pakistan, Bangladesh and Nepal. The total number of people who passed through the site was not recorded.",
+      "nota": "the figures are from different dates; Turner, the project manager, speaks of 22 million man-hours"
+    },
+    {
+      "item": "Wages and strikes",
+      "valor": "In 2006, according to AFP, carpenters earned US$7.60 a day and laborers US$4. On 21 March 2006, about 2,500 workers rioted at the site. In 2007, Arabtec workers, earning an average of 700 dirhams (US$190) a month, went on strike for a raise. Strikes and unions are banned in the Emirates.",
+      "nota": "the wage figures come from a single news agency in each case"
+    },
+    {
+      "item": "Deaths during construction",
+      "valor": "There is no public record of an official total. The Gulf press reported two deaths during construction: a worker who fell from the formwork on 15 June 2007, confirmed by Emaar, and the worker Qiwen Li, crushed by a facade panel on 20 May 2008.",
+      "nota": "the 2008 death appears in only one source; the figure of one official death that circulates online has no document behind it"
+    },
+    {
+      "item": "Cost",
+      "valor": "US$1.5 billion for the tower, according to the Associated Press at the opening; Architectural Record spoke of US$1.4 billion in 2007, with construction under way.",
+      "nota": "by the US consumer price index (2010 = 218.1; 2025 = 321.9), US$1.5 billion in 2010 is equivalent to about US$2.2 billion in 2025"
+    },
+    {
+      "item": "Foundation",
+      "valor": "A concrete raft 3.7 m thick on bored piles 1.5 m in diameter and about 43 m long, which work by friction in weak rock. There are 194 piles according to the SOM engineers and 192 in other sources.",
+      "nota": "thickness, diameter and length agree; the number of piles does not"
+    },
+    {
+      "item": "Groundwater",
+      "valor": "With up to 4.5% chlorides and 0.6% sulfates, more aggressive than seawater, according to SOM. The foundation received special waterproofing, a corrosion inhibitor in the concrete and cathodic protection with a titanium mesh and an electric current.",
+      "nota": "according to the SOM engineers' paper at the 2008 CTBUH congress"
+    },
+    {
+      "item": "Concrete",
+      "valor": "Concrete walls of 80 MPa at the bottom, dropping to 60 MPa on the upper floors. All vertical concrete pours were done at night; in summer, almost all the water in the mix was flaked ice. Pumped in a single stage to 601 m, according to concrete engineer James Aldred, or to 606 m, according to the pump manufacturer, Putzmeister.",
+      "nota": "the night pours are in two sources; the ice, in one"
+    },
+    {
+      "item": "The crisis and the name",
+      "valor": "On 14 December 2009, Abu Dhabi gave Dubai US$10 billion so that the state-owned Dubai World could pay its debts. At the opening, the tower changed its name to honor Sheikh Khalifa bin Zayed Al Nahyan, ruler of Abu Dhabi and president of the Emirates.",
+      "nota": "the Associated Press speaks of US$25 billion from Abu Dhabi over the previous year, adding up more than one operation"
+    },
+    {
+      "item": "Today",
+      "valor": "As of October 2026, it was still the tallest building in the world. The Jeddah Tower, in Saudi Arabia, designed by the same Adrian Smith, stood at 454 m and 113 floors on 2 September 2026, according to Arabian Business, and aims to pass 1,000 m in 2028."
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "A height kept secret",
+      "paragrafos": [
+        "When Emaar began excavating the site, in January 2004, the building about to become the tallest in the world was Taipei 101, in Taiwan, at 509 meters, opened at the end of that year. The Dubai tower would be the centerpiece of an entire district, Downtown Burj Dubai, with a mall, an artificial lake and apartment buildings, and it had to beat Taipei by a wide margin. By how much, nobody would say. In 2008, the engineers themselves wrote that the final height was a closely guarded secret.",
+        "The design came out of the Chicago firm Skidmore, Owings & Merrill. Architect Adrian Smith drew a three-armed plan which, according to SOM, was inspired by a desert flower and by the spiral imagery of Islamic architecture. The construction was awarded to a consortium led by South Korea's Samsung C&T, with Belgium's BESIX and the Emirati firm Arabtec, after eleven months of bidding, according to Gulf News."
+      ]
+    },
+    {
+      "titulo": "Confusing the wind",
+      "paragrafos": [
+        "Above 500 meters, a building's enemy is not weight, it is wind. When air flows around a tower, it forms vortices that shed first from one side, then from the other, and push the building sideways in a regular rhythm. If that rhythm repeats from the ground to the top, the tower sways. Engineer William F. Baker, of SOM, answered with a structure he called a buttressed core: a hexagonal concrete core at the center and three wings, each with its own walls and columns, bracing one another like the legs of a tripod.",
+        "The wings do not rise evenly. They step back in a clockwise spiral, and the width of the tower changes at each setback. In the words of Baker and his colleagues, the advantage of the shape is that it confuses the wind: the vortices never get organized, because at each level the wind meets a different building. The tests were carried out in RWDI's wind tunnel, in Guelph, Canada, with models almost all at a scale of 1 to 500. After each round of tests, according to the engineers, the data were analyzed and the building was redesigned; they changed the number of setbacks, the spacing between them and the shape of the wings."
+      ]
+    },
+    {
+      "titulo": "Weak rock and water saltier than the sea",
+      "paragrafos": [
+        "Beneath Dubai's sand there is no solid rock at shallow depth, only weak sandstone and siltstone. The site investigation went as deep as a 140-meter borehole. The solution was a raft, a reinforced-concrete slab 3.7 meters thick, poured in four stages of at least 24 hours each, on bored piles 1.5 meters in diameter and about 43 meters long. They do not reach hard rock: they hold the tower up by friction with the surrounding ground. The SOM engineers speak of 194 piles; other sources, of 192.",
+        "The worst of it was the water. According to SOM, the groundwater had up to 4.5% chlorides and 0.6% sulfates, concentrations higher than those of seawater, which corrode the steel reinforcement and break down ordinary concrete. The foundation was given special waterproofing, thicker concrete cover over the reinforcement, a corrosion inhibitor in the mix and a cathodic protection system: a titanium mesh under the raft, connected to an electric current that keeps the structure's metal from being the side that rusts."
+      ]
+    },
+    {
+      "titulo": "Concrete at night, with ice",
+      "paragrafos": [
+        "The tower is reinforced concrete up to about 586 meters, and only above that does it turn to steel. Getting concrete all the way up there, in the Gulf summer, was another problem: the temperature tops 50 °C in the shade, and high-strength concrete can set suddenly inside the pipe and clog it. A test in February 2005 pumped concrete through 600 meters of pipe laid out on the ground, to measure the friction before going up.",
+        "On site, all the concrete for the walls and columns was poured at night. According to engineer James Aldred, of GHD, the maximum temperature allowed was 33 °C, and in summer almost all the water in the mix was flaked ice. Three Putzmeister pumps, connected to 150-millimeter steel pipes, pushed the concrete at a working pressure of 250 bar, which could reach 350 or 400. Aldred recorded 601 meters in a single stage, a world record; the manufacturer speaks of 606 meters, up to the 156th floor. The previous vertical pumping record, according to Aldred, was 532 meters, at an Italian hydroelectric plant in 1994.",
+        "With self-climbing formwork and reinforcement assembled on the ground in eight-meter sections, the structure rose, on average, one floor every three days in 2007, according to Architectural Record. On 21 July 2007, at 141 floors and 512.1 meters, Emaar announced that Burj Dubai had become the tallest building in the world. The tower would still rise more than 300 meters."
+      ]
+    },
+    {
+      "titulo": "Who raised the tower",
+      "paragrafos": [
+        "At the peak, there were about 12,000 people on site, according to the Associated Press and Turner, the project manager; Gulf News spoke of 10,000, and Architectural Record counted 6,800 in July 2007. They were, for the most part, migrants from South Asia, from India, Pakistan, Bangladesh and Nepal. In 2006, according to the AFP news agency, a carpenter earned US$7.60 a day and a laborer US$4. A Human Rights Watch report that year on the construction industry in the Emirates described workers who paid up to US$3,000 to recruitment agencies and had their passports held by their employer.",
+        "On 21 March 2006, about 2,500 workers of Al Naboodah Laing O'Rourke, who worked on the site of the Burj and the buildings around it, rioted at the end of their shift, smashed offices and destroyed cars and machinery. The next day they came back and refused to work. In October 2007 it was the turn of Arabtec's workers, with an average wage of 700 dirhams a month, in a country where strikes and unions are banned.",
+        "How many died, there is no public record. No total from Emaar or the consortium was found published. The Gulf press reported two deaths during construction: on 15 June 2007, a worker fell from the formwork, and Emaar confirmed the death, saying there had been no breach of safety rules; on 20 May 2008, according to Arabian Business, the worker Qiwen Li was crushed by a facade panel. The same Human Rights Watch report showed that, in the Emirates of that period, Dubai Municipality recorded a few dozen construction deaths a year, while an independent count found 880 migrant deaths in the country in 2004."
+      ]
+    },
+    {
+      "titulo": "The crisis and the name",
+      "paragrafos": [
+        "In January 2009 the tower topped out. But Dubai was in crisis. In November 2009 the state-owned Dubai World asked for a debt standstill, and on 14 December the neighboring emirate of Abu Dhabi handed over US$10 billion so that it could pay US$4.1 billion in bonds maturing that day.",
+        "Three weeks later, on 4 January 2010, Sheikh Mohammed bin Rashid Al Maktoum opened the tower and announced its name: Burj Khalifa, in honor of Sheikh Khalifa bin Zayed Al Nahyan, ruler of Abu Dhabi and president of the Emirates. The press read the change as gratitude for the bailout. Only then was the height revealed: 828 meters. The tower cost US$1.5 billion, according to the Associated Press."
+      ]
+    },
+    {
+      "titulo": "The architect against his own tower",
+      "paragrafos": [
+        "In January 2025, after about seven years at a standstill, construction resumed in Jeddah, Saudi Arabia, on the Jeddah Tower, which aims to pass 1,000 meters. The design is by the firm Adrian Smith + Gordon Gill, of the same Adrian Smith who designed the Burj Khalifa at SOM. According to Thornton Tomasetti, the project's engineer, the Saudi tower has a concrete structure and a 5-meter raft on 270 piles.",
+        "On 2 September 2026, according to Arabian Business, it reached 454 meters and 113 floors, rising about one floor a week, with completion expected in 2028. On that date, it was still more than 370 meters short of the Burj Khalifa. If it gets there, the tallest building in the world will lose the title to a work by its own architect."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Officially, only one worker died building the Burj Khalifa.",
+      "registro": "There is no public document with that total. No figure published by Emaar or by the consortium was found. The Gulf press reported two deaths during construction, in June 2007 and in May 2008."
+    },
+    {
+      "circula": "The Burj Khalifa's concrete broke the pumping record held by Taipei 101.",
+      "registro": "According to the project's concrete engineer, James Aldred, the vertical pumping record before the Burj was 532 meters, at an Italian hydroelectric plant in 1994. Taipei 101 had pumped concrete to more than 470 meters. The Burj took the record to 601 or 606 meters, depending on the source."
+    },
+    {
+      "circula": "The height of 828 meters was set and announced from the start.",
+      "registro": "The final height was Emaar's secret during construction; in 2008 the SOM engineers called it a closely guarded secret. It was only revealed at the opening, in January 2010."
+    },
+    {
+      "circula": "The tower bears Khalifa's name because Abu Dhabi paid for it.",
+      "registro": "Abu Dhabi bailed out the government of Dubai and the state-owned Dubai World in 2009, with US$10 billion, to pay debts of Nakheel, a company of the Dubai World group. The tower belongs to Emaar. The link between the name and the bailout was the press's reading at the opening."
+    }
+  ],
+  "perguntas": [
+    {"p": "When was the Burj Khalifa built?", "r": "Between 2004 and 2010. Excavation began in January 2004, the tower topped out in January 2009 and it opened on 4 January 2010; throughout construction it was called Burj Dubai."},
+    {"p": "How tall is the Burj Khalifa and how many floors does it have?", "r": "828 m of architectural height, the tallest in the world since 2010, and 829.8 m to the tip. The number of floors varies: 163 according to the Council on Tall Buildings and Urban Habitat, 162 according to SOM and Turner."},
+    {"p": "How was the Burj Khalifa built on sand?", "r": "On a 3.7 m concrete raft resting on piles that work by friction in weak rock, with a Y-shaped plan and spiral setbacks to confuse the wind. The concrete for the walls was poured at night, with ice in the mix in summer, and pumped to 601 or 606 m, depending on the source."},
+    {"p": "How much did the Burj Khalifa cost to build?", "r": "US$1.5 billion for the tower, according to the Associated Press at the opening. In 2007, with construction under way, Architectural Record spoke of US$1.4 billion."},
+    {"p": "How many workers died building the Burj Khalifa?", "r": "There is no public record of a total, from either Emaar or the consortium. The Gulf press reported two deaths during construction: a worker who fell from the formwork on 15 June 2007 and the worker Qiwen Li, crushed by a facade panel on 20 May 2008."}
+  ],
+  "fontes": [
+    {"texto": "William F. Baker, D. Stanton Korista and Lawrence C. Novak (SOM), \"Engineering the World's Tallest — Burj Dubai\", CTBUH 8th World Congress, Dubai, 2008"},
+    {"texto": "James Aldred (GHD), \"Pumping concrete to 601 metres in a single lift\", 2008"},
+    {"texto": "Lawrence C. Novak, \"A Tall Adventure: The Burj Khalifa, the World's Tallest Structure\", Building Safety Journal, International Code Council"},
+    {"texto": "Council on Tall Buildings and Urban Habitat, The Skyscraper Center, \"Burj Khalifa\""},
+    {"texto": "Skidmore, Owings & Merrill, \"Burj Khalifa\""},
+    {"texto": "Turner Construction, \"Burj Khalifa\""},
+    {"texto": "Putzmeister, \"Concrete Pumps Reach Record-Breaking Heights at Burj Khalifa\", Pumps & Systems, 2015"},
+    {"texto": "Associated Press, \"World's tallest building opens in Dubai\", January 2010"},
+    {"texto": "David Sadighian, \"Burj Dubai Breaks Record... and Keeps Going\", Architectural Record, 24 July 2007"},
+    {"texto": "Gulf News, \"Samsung gets Burj Dubai contract\", 9 December 2004"},
+    {"texto": "Gulf News, Aya Lowe, \"Keeping the Burj Dubai site safe for workers\""},
+    {"texto": "Gulf News, \"Burj Dubai renamed as Burj Khalifa\", 4 January 2010"},
+    {"texto": "Al Jazeera and AFP, \"Asian workers riot in Dubai\", 23 March 2006"},
+    {"texto": "Al Jazeera, \"Burj Dubai owners say strike over\", 12 November 2007"},
+    {"texto": "Human Rights Watch, \"Building Towers, Cheating Workers: Exploitation of Migrant Construction Workers in the United Arab Emirates\", 2006"},
+    {"texto": "Construction Week, \"Worker dies after fall on Burj Dubai\", June 2007"},
+    {"texto": "Arabian Business, \"Burj worker crushed to death\", May 2008"},
+    {"texto": "CNN, \"Abu Dhabi gives Dubai $10 billion bailout\", 14 December 2009"},
+    {"texto": "Arabian Business, \"Jeddah Tower set to become world's tallest building as construction advances towards 2028 completion\", September 2026"},
+    {"texto": "Adam Williams, \"Future world's tallest skyscraper surpasses 100 floors in Saudi Arabia\", New Atlas, 4 June 2026"},
+    {"texto": "TechEBlog, \"Jeddah Tower Crosses 430 Meters and Presses On Toward the One-Kilometer Mark\", 5 August 2026"},
+    {"texto": "U.S. Bureau of Labor Statistics, consumer price index (CPI-U), annual averages for 2010 and 2025"},
+    {"texto": "Wikipedia, \"Burj Khalifa\" (starting point)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Aerial view of a very tall tower under construction, still without cladding at the top, casting a long shadow over a district of new buildings, building sites and the desert beyond",
+      "legenda": "The tower under construction seen from a plane, in March 2008, when it was already the tallest building in the world and its final height was still a secret.",
+      "autor": "Aheilner"
+    },
+    {
+      "alt": "The base of the tower under construction, with the concrete core and cranes on top, in December 2005",
+      "legenda": "December 2005, the first year of the structure: the core and the wings rise together, with the cranes mounted on top.",
+      "autor": "Soonadracula"
+    },
+    {
+      "alt": "The tower seen from the ground against a blue sky, with silver glass panels only on the lower part, bare concrete above and cranes at the top; a road sign and an overpass in the foreground",
+      "legenda": "December 2007: the glass facade climbed floors below the concrete, which kept ahead along with the cranes.",
+      "autor": "Joi Ito"
+    },
+    {
+      "alt": "The concrete top of the tower, still under construction, with two tall cranes and scaffolding, over a desert plain and roads seen from above",
+      "legenda": "The concrete top in March 2008, with the cranes that climbed along with the structure.",
+      "autor": "Aheilner"
+    },
+    {
+      "alt": "Workers in orange and red coveralls sitting on the floor of a high terrace, in the shade of a low wall, with the tower under construction in the haze behind them",
+      "legenda": "Dubai construction workers on their lunch break, in June 2008, with the tower in the background.",
+      "autor": "Piotr Zarobkiewicz"
+    },
+    {
+      "alt": "Camels running on a sand track in the foreground, with power pylons and buildings behind and the tower under construction, cranes at the top, standing out in the haze",
+      "legenda": "Camel racing at the Nad Al Sheba track, in March 2007, with the tower under construction behind.",
+      "autor": "Ryan Lackey"
+    }
+  ]
+}

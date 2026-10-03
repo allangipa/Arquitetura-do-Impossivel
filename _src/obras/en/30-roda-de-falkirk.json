@@ -1,0 +1,157 @@
+{
+  "_nota": "Tradução fiel de ../30-roda-de-falkirk.json. Campos fixos vêm do original.",
+  "obra": "Falkirk Wheel",
+  "titulo_seo": "How the Falkirk Wheel Works: Scotland's Rotating Boat Lift",
+  "titulo_video": null,
+  "lugar": "Tamfourhill, Falkirk, Scotland, United Kingdom",
+  "periodo": "2000–2002",
+  "impossivel": "Linking two canals separated by a 35-meter drop, where eleven locks once stood, with a machine weighing more than a thousand tonnes that turns as a whole, carrying boats and water in two gondolas that always stay level.",
+  "resumo": "How Scotland replaced eleven locks with the Falkirk Wheel, a rotating boat lift, in 2002, why it uses so little power and what the April sabotage did.",
+  "abertura": [
+    "In Falkirk, Scotland, in the United Kingdom, two canals dug between the eighteenth and nineteenth centuries meet with a 35-meter difference in height. Until 1933 a flight of eleven locks climbed that drop; then it was dismantled, and in the 1960s both canals closed. When British Waterways decided to reopen them coast to coast, in the project called the Millennium Link, the missing piece was precisely the knot in the middle.",
+    "The answer was the Falkirk Wheel: two propeller-shaped steel arms fixed to an axle, which turn half a revolution in about five minutes carrying two gondolas full of water, one going up and the other coming down. The trick is an old one. By Archimedes' principle, a boat entering the gondola displaces exactly its own weight in water, so both ends always weigh the same, and the whole machine stays in balance."
+  ],
+  "numeros": [
+    {"valor": "24 m", "rotulo": "that the wheel lifts the boats; two locks handle the rest of the 35 m between the canals"},
+    {"valor": "1.5 kWh", "rotulo": "of energy per half turn"},
+    {"valor": "250 t", "rotulo": "of water in each of the two gondolas"},
+    {"valor": "35 m", "rotulo": "diameter of the wheel"},
+    {"valor": "1,300 to 1,900 t", "rotulo": "total weight, depending on the source and on whether the wheel is empty or full"},
+    {"valor": "24 May 2002", "rotulo": "opened by Queen Elizabeth II, about a month later than planned"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To reconnect the Forth & Clyde Canal (1790) and the Union Canal (1822), cut off from each other since the eleven Falkirk locks were dismantled in 1933. The Forth & Clyde closed in 1963 and the Union in 1965."},
+    {"item": "Who wanted it", "valor": "British Waterways, as part of the Millennium Link, the end-to-end restoration of both canals, 110 km between Glasgow and Edinburgh, with work starting in 1999."},
+    {"item": "Architecture", "valor": "Tony Kettle, of the RMJM practice."},
+    {"item": "Design and fabrication", "valor": "Butterley Engineering, of Ripley, Derbyshire, England, which designed, fabricated and erected the wheel; Arup as structural consultant; Tony Gee & Partners and Bennetts on the structure and the mechanics."},
+    {"item": "Main contractor", "valor": "The Morrison–Bachy Soletanche joint venture."},
+    {"item": "Workers", "valor": "About a thousand people according to one source; more than five hundred according to another. No record from the time gives the number."},
+    {"item": "Timeline", "valor": "Civil works from 2000; parts fabricated and trial-assembled at the factory in the first half of 2001, taken to Falkirk on 35 trucks and lifted into place in August 2001; opening on 24 May 2002."},
+    {"item": "Drop", "valor": "35 meters according to Scottish Canals and local history: 24 from the wheel and about 11 from two locks. Press reports from the time give 34 m or 25 m."},
+    {"item": "Cost of the wheel", "valor": "£17 million, £17.5 million or £20 million, depending on the source.", "nota": "the difference may lie in what each figure includes (basin and approaches)"},
+    {"item": "Cost of the Millennium Link", "valor": "£78 million in the budget announced in 2001; the canals' owner now speaks of £83.5 million, and another source of £84.5 million. The National Lottery, through the Millennium Commission, put in £32 million."},
+    {"item": "Deaths and accidents", "valor": "No death recorded in the sources consulted. In April 2002, an act of sabotage released more than 80 million liters of water into the wheel's pit and damaged the hydraulics and the electronics.", "nota": "the damage was estimated at £200,000 in May 2002; another source gives £350,000"},
+    {"item": "Balance", "valor": "The two gondolas always weigh the same, with or without a boat, by Archimedes' principle."},
+    {"item": "Energy", "valor": "1.5 kWh per half turn. The owner compares it to boiling eight kettles; an engineer from the Institution of Civil Engineers wrote three or four.", "nota": "the kettle comparison varies; the kWh does not"},
+    {"item": "Motors", "valor": "Ten hydraulic motors according to most sources; twelve according to a 2001 press report."},
+    {"item": "Parts", "valor": "About 15,000 bolts and 45,000 holes: the joints are bolted, not welded, to withstand the fatigue of an arm that goes from tension to compression on every turn."},
+    {"item": "Visitors", "valor": "About 400,000 to 500,000 visitors a year, depending on the source."}
+  ],
+  "historia": [
+    {
+      "titulo": "Eleven steps taken apart",
+      "paragrafos": [
+        "The Forth & Clyde Canal opened in 1790 and crossed Scotland from Grangemouth, on the Firth of Forth, to the River Clyde. In 1822 the Union Canal, coming from Edinburgh, reached Falkirk. Where the two met, a flight of eleven locks, spread over almost a mile, climbed the 35-meter difference.",
+        "The railway took the traffic away from the canals. The Falkirk locks were dismantled in 1933. The Forth & Clyde closed to navigation on January 1, 1963, and the Union in 1965. Stretches were filled in, cut by roads and housing estates. When the Millennium Link began, in 1999, the idea was to rebuild more than 120 structures, among locks, bridges and buried sections, and to reopen 110 km of canal between Glasgow and Edinburgh. By 2001 boats were already back on the canals. Falkirk was still missing."
+      ]
+    },
+    {
+      "titulo": "A tender not even the client wanted",
+      "paragrafos": [
+        "The design-and-build tender suggested a Victorian-style Ferris wheel with four hanging gondolas, and every bidder priced exactly that. According to the magazine Construction News, in May 2001, not even the client liked it. British Waterways' chief engineer in Scotland, George Ballinger, admitted to the magazine that he had hoped for bolder designs, but had not given the bidders enough time or incentive for them.",
+        "The chosen team, the Morrison–Bachy Soletanche joint venture with Butterley Engineering, was called to a meeting and told to leave the drawings behind. About a month of brainstorming sessions followed, with some two dozen people, in which horizontal wheels, cranes, a funicular and even a tipping water-filled balloon came up. What emerged was today's shape, led by the architect Tony Kettle, of RMJM. In 2001 he described the wheel as a Viking ship with a propeller or the ribcage of a fish; other descriptions speak of a Celtic axe and of whale ribs."
+      ]
+    },
+    {
+      "titulo": "Archimedes does the work",
+      "paragrafos": [
+        "Each arm has a circular opening at each end, and the two gondolas sit in those openings: steel troughs holding about 250 tonnes of water, with room for four boats each. As the wheel turns, a system of gears makes the gondolas rotate in the opposite direction at the same speed, so that the water and the boats always stay level.",
+        "The balance comes from a rule more than two thousand years old. A boat entering the gondola displaces its own weight in water, which flows out through the gate. That is why both ends weigh the same, with a boat or without. The machine does not need to lift weight, only to overcome friction and inertia: half a turn takes about five minutes and uses 1.5 kWh. For that, the gondolas have to hold exactly the right water level. According to New Civil Engineer, in 2001, the tolerance was 37.5 millimeters; outside it, the computer will not let the wheel turn.",
+        "The wheel lifts the boats 24 meters. The rest of the drop is handled by two new locks on the Union Canal. On the way to the wheel, the boats also cross a 100-meter aqueduct and a tunnel, the Rough Castle, which passes under a road, under the Edinburgh–Glasgow railway and under the Antonine Wall, the Roman frontier of the second century."
+      ]
+    },
+    {
+      "titulo": "Bolts, not welds",
+      "paragrafos": [
+        "On every turn, parts of the arms go from full tension to full compression. This complete, repeated reversal of stress is what tires steel the most, and Butterley's answer was to bolt the joints instead of welding them, because a bolted connection resists fatigue better. New Civil Engineer's tally: 15,000 bolts and 45,000 holes, the equivalent of 7.5 tonnes of drilled-out steel.",
+        "The bolts had another advantage: the wheel could be fully assembled at Butterley's factory in Ripley, Derbyshire, England, inspected and taken apart. The parts were taken to Falkirk on 35 trucks, between June and July 2001, reassembled on the ground into five large units and lifted in August by a thousand-tonne crane, to an accuracy of ten millimeters. By doing two gondola lifts on the same day, the company saved ten hours of crane time and £10,000, contracts manager Paul Hudson told the magazine."
+      ]
+    },
+    {
+      "titulo": "The night of the flood",
+      "paragrafos": [
+        "None of the sources consulted records a death during construction. Disaster came once the wheel was finished. At the end of April 2002, according to New Civil Engineer, someone broke open padlocked gates and released more than 80 million liters of canal water into the wheel's dry pit. The flooding went unnoticed for four hours and covered one of the gondolas under three meters of water. The hydraulic fluid was contaminated, pumps were lost and the electronics had to be dried out.",
+        "Police treated the case as deliberate damage, the work of at least two people who knew the site. The damage estimate in May 2002 was £200,000; another source speaks of £350,000. The opening was delayed by about a month, and Queen Elizabeth II opened the wheel on May 24, 2002, the year of her Golden Jubilee."
+      ]
+    },
+    {
+      "titulo": "Twenty-five years on, locks again",
+      "paragrafos": [
+        "The wheel went through the biggest overhaul in its history between November 2023 and March 2024: £2.7 million in new hydraulics, control panels, sensors, cables and seals, with 17 weeks out of service, according to the newspaper The Scotsman. The system now shuts down between one movement and the next.",
+        "In 2026, Scottish Canals, the canals' owner, celebrated 25 years of the Millennium Link and announced a light and water show in the wheel's basin for the end of September. But the bigger news lies just below it. The oak gates installed at the reopening last 25 years on average, and all of those on the Forth & Clyde lock flight in Falkirk date from that time. Since February 2025, a four-kilometer stretch has been drained to replace them. In July 2026 the work was extended until the start of the 2027 season, with an investment of more than £8 million, the largest on Scotland's canals since the Millennium Link itself, according to Scottish Canals. The machine built to replace locks keeps turning; the biggest job on the canals, a quarter of a century later, is repairing locks."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "The wheel turns on the energy of ten kettles.",
+      "registro": "No source found says ten. Scottish Canals compares it to eight kettles; an engineer from the Institution of Civil Engineers wrote three or four. The firm figure is 1.5 kWh per half turn."
+    },
+    {
+      "circula": "The wheel lifts boats 35 meters.",
+      "registro": "The 35 meters are the total drop between the canals. The wheel does 24 meters; an aqueduct, two locks and a tunnel complete the route to the Union Canal."
+    },
+    {
+      "circula": "Each gondola weighs 500 tonnes.",
+      "registro": "What the sources confirm is the water, about 250 tonnes per gondola, and the weight of an empty gondola varies between them. The fact that matters is something else: the two always weigh the same, with or without a boat, because of Archimedes' principle."
+    },
+    {
+      "circula": "The shape was the original brief.",
+      "registro": "The tender suggested a Victorian-style Ferris wheel. Today's shape was born after the team was chosen, in a month of brainstorming, according to 2001 reports in Construction News and New Civil Engineer."
+    }
+  ],
+  "perguntas": [
+    {"p": "How does the Falkirk Wheel work?", "r": "Two steel arms fixed to an axle turn half a revolution in about five minutes, carrying two gondolas full of water, one going up and the other coming down, always level. By Archimedes' principle, a boat displaces its own weight in water, so both ends always weigh the same and half a turn uses only 1.5 kWh."},
+    {"p": "How high does the Falkirk Wheel lift boats?", "r": "The wheel lifts boats 24 meters. The total drop between the Forth & Clyde Canal and the Union Canal is 35 meters, and two locks handle the rest, after an aqueduct and a tunnel."},
+    {"p": "When was the Falkirk Wheel built?", "r": "Civil works began in 2000; the parts were fabricated and trial-assembled in England in 2001 and lifted into place at Falkirk in August of that year. Queen Elizabeth II opened the wheel on May 24, 2002, about a month later than planned, because of sabotage in April."},
+    {"p": "How much did the Falkirk Wheel cost?", "r": "Sources differ: £17 million, £17.5 million or £20 million, possibly because of what each figure includes. The whole Millennium Link, the restoration of both canals, appears as £78 million in the 2001 budget and today as £83.5 million or £84.5 million."},
+    {"p": "Why was the Falkirk Wheel built?", "r": "To reconnect the Forth & Clyde Canal and the Union Canal, cut off from each other since the eleven Falkirk locks were dismantled in 1933. It was the missing middle link of the Millennium Link, which reopened 110 km of canal between Glasgow and Edinburgh."}
+  ],
+  "fontes": [
+    {"texto": "David Hayward, \"The wheel thing\", New Civil Engineer, 13/09/2001"},
+    {"texto": "\"Police close to catching Falkirk Wheel vandals\", New Civil Engineer, 02/05/2002"},
+    {"texto": "David Hayward, \"The wheel of fortune\", Construction News, 17/05/2001"},
+    {"texto": "Engineering Timelines, \"Falkirk Wheel\" (based on the Bachy Soletanche technical data sheet)"},
+    {"texto": "John Laverick, \"The Falkirk Wheel: building a waterway wonder\", The History Press, 2018"},
+    {"texto": "John Kosowatz, \"Symbol of the Millennium: The Falkirk Wheel\", ASME, 2011"},
+    {"texto": "William B. Ashworth Jr., \"The Falkirk Wheel\", Linda Hall Library"},
+    {"texto": "Scottish Canals, \"The Falkirk Wheel\""},
+    {"texto": "Scottish Canals, \"Scottish Canals Mark 25 Years of the Millennium Link Transformation\", 12/05/2026"},
+    {"texto": "Scottish Canals, \"Scottish Canals extends major engineering programme on the Forth & Clyde Canal in Falkirk\", 29/07/2026"},
+    {"texto": "The Scotsman, \"Falkirk Wheel: behind-the-scenes tours to follow unique canal boat lift's biggest overhaul\", 28/02/2024"},
+    {"texto": "Falkirk Local History Society, \"Falkirk Wheel\""},
+    {"texto": "Forth & Clyde Canal Society, \"Canal history\""}
+  ],
+  "imagens": [
+    {
+      "alt": "Large light-gray steel structure with two curved arms turning beside a concrete aqueduct carried on ring-shaped piers; a gondola with a boat is halfway up, with a sloping-roofed building on the right and people watching from a lawn",
+      "legenda": "The wheel mid-turn, in 2015: on the left, the aqueduct coming from the Union Canal; in the center, one of the gondolas on its way to the top.",
+      "autor": "Colin"
+    },
+    {
+      "alt": "Construction site seen from above: a long bed of excavated earth between concrete walls, two lattice cranes and workers in yellow vests, with fields and mountains in the background",
+      "legenda": "May 2001: the new stretch of the Union Canal under construction, on the route that would bring boats to the wheel.",
+      "autor": "Sarah Charlesworth"
+    },
+    {
+      "alt": "Basin of muddy water with an excavator on a barge; in the background, a concrete pier wrapped in scaffolding, a crane and the curved glazed shell of a building under construction",
+      "legenda": "The lower basin under construction, with one of the wheel's piers in scaffolding and the visitor center's frame behind it, in 2001.",
+      "autor": "Sarah Charlesworth"
+    },
+    {
+      "alt": "Panorama of a concrete aqueduct on piers with circular openings, ending at a large steel wheel at the edge of a water basin, with lawn and blue sky",
+      "legenda": "August 2002, three months after the opening: the aqueduct arrives high up and ends at the wheel, above the Forth & Clyde basin.",
+      "autor": "KlausFoehl"
+    },
+    {
+      "alt": "Close-up of large toothed steel gears around a ring, next to the end of a gondola and a paneled wall",
+      "legenda": "The gears that turn the gondola against the wheel's rotation, so that the water and the boats always stay level (2003).",
+      "autor": "Sarah Charlesworth"
+    },
+    {
+      "alt": "Aerial view: a canal emerges from a tunnel among trees and runs along an aqueduct on piers to the wheel, which descends to a circular basin with boats; beside it, the visitor center and a parking lot",
+      "legenda": "The whole complex seen from the air in 2006: from the tunnel at the top, to the aqueduct, the wheel and the Forth & Clyde basin.",
+      "autor": "Ranald McIntyre"
+    }
+  ]
+}

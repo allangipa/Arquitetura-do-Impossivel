@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "pontes",
+    "nome": "Great bridges",
+    "titulo": "Great Bridges: How They Were Built, from Brooklyn to Duge",
+    "resumo": "How eight bridges that seemed impossible were raised: Brooklyn, Golden Gate, Hercílio Luz, Rio–Niterói, Forth, Eads, Duge and the fall of Tacoma Narrows.",
+    "intro": [
+      "Every great bridge solves the same problem in a different way: crossing a gap where nothing can be propped up in the middle. Suspension bridges hang the deck from cables. The Brooklyn Bridge (1870–1883) set its towers down with men digging inside compressed-air caissons; the Golden Gate (1933–1937) spun on site the cables of the longest suspension span in the world, 1,280 m; the Hercílio Luz, in Florianópolis, hung its span over the sea from chains of steel eyebars.",
+      "Tacoma Narrows shows the other side: it opened in July 1940 with a girder only 2.4 m deep and fell four months later, in a wind of 68 km/h. The Forth Bridge (1882–1890) was born right after another Scottish bridge collapsed in a storm, and answered with steel cantilevers. The Eads Bridge, over the Mississippi, gambled on arches made of a metal that had never been the main material of a large structure.",
+      "In Brazil, the Rio–Niterói Bridge crossed Guanabara Bay with more than 13 km of bridge and a central steel span of 300 m. In China, Duge set its deck 565 m above a river and was the highest bridge in the world from 2016 to 2025. Each page has the structure's fact sheet, with the confidence level of every number."
+    ]
+  },
+  {
+    "slug": "arranha-ceus",
+    "nome": "Skyscrapers",
+    "titulo": "Skyscrapers: How They Were Built, from Ingalls to Burj",
+    "resumo": "How the Ingalls Building, the Martinelli, the Empire State, the Burj Khalifa and 111 West 57th rose: concrete, steel, wind, deadlines and who built them.",
+    "intro": [
+      "Raising a building means beating weight, wind and the deadline. In Cincinnati, the Ingalls Building (1902–1904) reached 64 m without a single steel beam, only concrete with twisted bars inside, while respected engineers swore it would never reach the roof. In São Paulo, the Martinelli rose to 30 stories in a city where almost no building went beyond five, and the work was even halted by the authorities in 1928.",
+      "The Empire State put up 86 stories of steel and stone in 410 days, at 4.5 stories a week, starting just a few months after the stock market crash of 1929. In Dubai, the Burj Khalifa reached 828 m with a Y-shaped plan designed against the wind. And in New York, 111 West 57th Street raised 435 m on a footprint about 18 m wide, the most slender skyscraper in the world.",
+      "Each page shows how the tower came to stand, what it cost and how many people worked on it, and says where the sources disagree or where nobody kept a record."
+    ]
+  },
+  {
+    "slug": "tuneis-e-ferrovias",
+    "nome": "Tunnels and railroads",
+    "titulo": "Tunnels and Railroads: How They Were Built",
+    "resumo": "Thames Tunnel, Channel Tunnel, Gotthard, Santos–Jundiaí and Madeira-Mamoré: how ways were cut under rivers, seas and mountains, and what it cost.",
+    "intro": [
+      "Opening a way beneath a river, a sea or a mountain, or getting the train across what seemed impassable. In London, Marc Brunel dug the Thames Tunnel (1825–1843) with a cage of 36 cells, one for each miner, under a river crowded with ships, and it took 18 years. The Channel Tunnel (1987–1994) used 11 tunnel boring machines, six from England and five from France, and the two halves of the service tunnel met with a lateral offset of 36 cm.",
+      "In Switzerland, the Gotthard Base Tunnel crossed the Alps for 57 km, with up to 2,300 m of rock overhead: it is the longest railway tunnel in the world. In Brazil, the Santos–Jundiaí Railway took the train up the Serra do Mar with four inclined planes, steel cable and steam, and the Madeira-Mamoré Railroad laid track through more than 360 km of forest, swamp and rapids in the Amazon, where almost every worker came down with malaria.",
+      "In several of them, the death toll is the hardest part: on the Madeira-Mamoré it ranges from fewer than 2,000 to 6,000 or more, depending on the source. Each page shows the versions and does not pick one."
+    ]
+  },
+  {
+    "slug": "estadios",
+    "nome": "Stadiums",
+    "titulo": "Great Stadiums: Maracanã, Astrodome and Munich",
+    "resumo": "How the 1950 Maracanã was built, how the Astrodome got its column-free dome, and the cable-and-acrylic roof of the Munich Olympic Stadium.",
+    "intro": [
+      "A stadium has to hold tens of thousands of people and, almost always, be ready on a set date. The Maracanã was raised in less than two years for the 1950 World Cup: a concrete ring for more than 150,000 people, covered by a cantilevered canopy without a single column underneath, demolished in 2011.",
+      "In Houston, the Astrodome (1962–1965) covered an entire baseball stadium with a steel dome spanning 195.7 m, with no column in the middle, and the light from the skylights ended up killing the grass. In Munich, the Olympic Stadium (1969–1972) hung more than 70,000 square meters of acrylic from a cable net nobody knew how to calculate, and the roof only came to stand with the help of a computer.",
+      "Each page has the structure's fact sheet, the cost and what happened to the stadium afterwards."
+    ]
+  },
+  {
+    "slug": "agua-e-eclusas",
+    "nome": "Dams, canals and locks",
+    "titulo": "Dams, Canals and Locks: How They Were Built",
+    "resumo": "Hoover Dam, Itaipu, the Panama Canal and the Falkirk Wheel: how a river was diverted, a mountain range was cut and a boat was lifted without a lock.",
+    "intro": [
+      "Moving a river, or making a ship climb a mountain. Hoover Dam (1931–1936) diverted the Colorado River through four tunnels bored inside the mountain and needed 937 km of chilled-water pipes to cool its own concrete. Itaipu (1975–1984) took the Paraná River out of its bed to raise, in the dry, a 196 m dam owned in equal parts by Brazil and Paraguay; the lake covered Sete Quedas in 14 days.",
+      "The Panama Canal (1904–1914) cut through a mountain range that kept sliding back into the cut, on an isthmus where yellow fever and malaria had already defeated the French, and it lifts ships 26 m to a lake made of rain. In Scotland, the Falkirk Wheel replaced eleven locks with a rotating boat lift, which raises boats 24 m using 1.5 kWh per half turn.",
+      "At Hoover, at Itaipu and in Panama, the death toll depends on who is counting. Each page shows the versions, and does not pick one."
+    ]
+  },
+  {
+    "slug": "brasil",
+    "nome": "Great structures of Brazil",
+    "titulo": "Great Structures of Brazil: How They Were Built",
+    "resumo": "Ten Brazilian structures and how they were built: Christ the Redeemer, Rio–Niterói Bridge, Itaipu, Madeira-Mamoré, Maracanã, MASP, the Congress and more.",
+    "intro": [
+      "From the top of Corcovado to the forest of Rondônia, the Brazilian structures on this site share a problem that seemed to have no solution. Christ the Redeemer (1922–1931) is a 38 m figure of reinforced concrete, with a soapstone skin, on the summit of a granite needle. The Maracanã was finished in less than two years for the 1950 World Cup, and the National Congress was inaugurated with Brasília, on 21 April 1960, still unfinished.",
+      "In São Paulo, the Santos–Jundiaí Railway conquered the Serra do Mar in 1867, the Martinelli rose to 30 stories when almost no building in the city went beyond five, and MASP suspended an entire museum 8 m above Avenida Paulista. In Florianópolis, the Hercílio Luz Bridge stayed closed for 28 years before reopening in 2019. In the Amazon, the Madeira-Mamoré Railroad laid track through more than 360 km of forest, swamp and rapids.",
+      "Over the water, the Rio–Niterói Bridge crossed Guanabara Bay with more than 13 km of bridge, and Itaipu diverted the Paraná River to raise a 196 m dam on the border with Paraguay. Each page has the full fact sheet, with the confidence level of every number."
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "_nota": "Tradução fiel de ../09-ponte-hercilio-luz.json. Campos fixos vêm do original.",
+  "obra": "Hercílio Luz Bridge",
+  "titulo_seo": "How the Hercílio Luz Bridge Was Built (1922–1926)",
+  "titulo_video": null,
+  "lugar": "Strait between Santa Catarina Island and the mainland, Florianópolis, Santa Catarina, Brazil",
+  "periodo": "1922–1926",
+  "impossivel": "Hanging over the sea, with steel shipped from the United States and money the state did not have, a bridge with a 339.5-meter span held up by chains of steel bars that, if one of them broke, might give no warning.",
+  "resumo": "How Florianópolis got the Hercílio Luz Bridge, an eyebar-chain suspension bridge, in 1926, why it was closed for 28 years and what it took to reopen it.",
+  "abertura": [
+    "Until 1926, anyone who wanted to leave Santa Catarina Island, where downtown Florianópolis sits, crossed by boat. When the strong south wind blew, they did not cross. Governor Hercílio Luz wanted a bridge to end the capital's isolation, at a time when some were arguing for moving the seat of government to Lages, up on the plateau.",
+    "The solution, designed in New York by the firm Robinson & Steinman, was a suspension bridge in which the cable is not a cable: it is a chain of steel bars with an eye at each end, joined by pins, which in the middle of the span becomes part of the truss itself. Of the three solutions compared, it was the cheapest way to cross 339.5 meters over the sea. It was also the kind of bridge that, in 1967, in the United States, collapsed entirely when a single bar broke."
+  ],
+  "numeros": [
+    {"valor": "339.5 m", "rotulo": "main suspension span over the sea"},
+    {"valor": "1922–1926", "rotulo": "from the start of work in November 1922 to the opening on May 13, 1926"},
+    {"valor": "819.5 · 821 m", "rotulo": "total length, depending on the measurement"},
+    {"valor": "1978", "rotulo": "the year Santa Catarina finished paying off the loans for the bridge"},
+    {"valor": "28 years", "rotulo": "closed from 1991 until it reopened, on December 30, 2019"},
+    {"valor": "360", "rotulo": "new eyebars, about 800 tons, installed in the restoration"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To link Santa Catarina Island to the mainland for the first time and secure Florianópolis, then with about 40,000 inhabitants, as the state capital. The crossing was made by boats and ferries, and the south wind could halt it for days."},
+    {"item": "Who wanted it", "valor": "Governor Hercílio Luz. He died of cancer in October 1924, twelve days after symbolically inaugurating a wooden replica of the bridge in the city center. The bridge, which was to have been called the Independence Bridge, was named after him.", "nota": "the replica was 10 or 18 meters long, depending on the source"},
+    {"item": "Design", "valor": "Robinson & Steinman, of New York: Holton D. Robinson and David B. Steinman, with William G. Grove. A suspension bridge with eyebar chains instead of steel wire cables; between one quarter and three quarters of the span, the chain acts as the top chord of the stiffening truss."},
+    {"item": "Who built it", "valor": "Byington & Sundstrom, of São Paulo, hired in 1922, built the foundations. The steel, all of it from the United States, was fabricated and erected by the American Bridge Company, with a team of American technicians.", "nota": "the figure of 19 American technicians appears in only one source"},
+    {"item": "The steel", "valor": "Eyebars, chosen by the designers because they saved material, made of heat-treated steel, a trial the American Bridge Company ran on this bridge. About 5,000 tons of structure, according to the state government and a UFMG study; a UFSC history speaks of 4,400 tons erected in one year."},
+    {"item": "Timeline", "valor": "Work began in November 1922 (on the 14th or the 21st, depending on the source); foundations finished in 1924; towers between December 1924 and February 1925; chains closed in April 1925; deck in March 1926; official opening on May 13, 1926, in the rain.", "nota": "the starting day differs among sources"},
+    {"item": "Workers", "valor": "Between 381 and 400 at the peak of construction, according to engineer Wenceslau Diotallevy, inspector of the restoration. They were people from various towns in Santa Catarina, people from other states and the American technicians. The total number of workers is not recorded in the sources consulted."},
+    {"item": "Deaths during construction", "valor": "No source consulted records any dead or injured during the 1922–1926 construction, neither an official figure nor a disputed one."},
+    {"item": "Cost", "valor": "Two loans of $5 million, from 1919 and 1922, with New York banks, yielded 20,263 contos de réis, of which 12,032 contos went to the expenses of receiving them, according to the state's Official Gazette of 1935. The first bank went bankrupt. The final cost, which circulates in different and poorly written versions, is described as practically double the state's annual budget.", "nota": "by the US consumer price index (1922 = 16.8; 2025 = 321.9), the nominal $10 million of the loans is equivalent to about $190 million in 2025; the amount in contos has no reliable conversion"},
+    {"item": "Paying the bill", "valor": "A toll of 100 réis per person from 1926 to 1935, abolished under popular pressure. The loans were only paid off in 1978, more than 50 years after the opening."},
+    {"item": "Dimensions", "valor": "Main span of 339.5 m. Total length of 821 m according to the state government or 819.5 m according to the UFMG study. Towers 74.21 or 75 m above the sea; span 30.86 or 32 m above the water. 14,250 m³ of concrete."},
+    {"item": "Closures and heritage listing", "valor": "Closed to traffic on January 22, 1982, after a report by IPT and the discovery of a bar with a cracked eye. Reopened on March 15, 1988, only to pedestrians, bicycles, motorcycles and carts. Closed for good in 1991 (July 4, in most sources). Listed as heritage by the city in 1992, by the state in 1997 and by IPHAN, entered in the national heritage register in 1998.", "nota": "a UFMG technical study speaks of a bar fracturing, not cracking; the 1991 date has other versions"},
+    {"item": "Restoration", "valor": "From 2006 to 2019, in stages, with several companies and broken contracts; completed by the Portuguese group Teixeira Duarte. The main span was supported on a temporary structure so the old chains could be removed and replaced with 360 new bars, made by Usiminas.", "nota": "the number of bars and the manufacturer come from a single source"},
+    {"item": "Cost of the restoration", "valor": "R$527 million adding up every contract from 1981 to the decorative lighting, by NSC's count; a 2018 Diário Catarinense report arrived at no less than R$618 million in inflation-adjusted terms."},
+    {"item": "Deaths during the restoration", "valor": "One: the diver Sandro José Erben Saes, who drowned in January 2011 while inspecting a pile of the temporary foundation.", "nota": "according to NSC's series on the centennial"},
+    {"item": "Reopening and centennial", "valor": "Reopened on December 30, 2019, before more than 200,000 people. Turned 100 on May 13, 2026. Since late July 2026, and still in October of that year, it closed to cars on Tuesdays and Thursdays, from 20:00 to midnight, indefinitely, for work on the deck and the grating."}
+  ],
+  "historia": [
+    {
+      "titulo": "An island waiting on the wind",
+      "paragrafos": [
+        "Florianópolis was born on Santa Catarina Island, separated from the mainland by a strait a few hundred meters wide. At the start of the twentieth century, everything the island did not produce arrived by boat: cattle, food, people. When the south wind blew, the crossing stopped. According to journalist Maurício Oliveira, the folklorist Franklin Cascaes recalled that this meant at least three days without boats.",
+        "The isolation also had a political price. Some argued for moving the capital to Lages, up on the plateau. Hercílio Luz, born in Desterro in 1860 and back in the state governorship, made the bridge his priority. He wanted to call it the Independence Bridge and, according to Maurício Oliveira, to open it on the centennial of September 7, 1922; the loans were delayed, and work only began in November of that year."
+      ]
+    },
+    {
+      "titulo": "The chain that becomes a truss",
+      "paragrafos": [
+        "The first design, by the São Paulo builder Byington & Sundstrom, was a truss bridge, too expensive for the state. In 1920, according to the history written by Professor Narbal Marcellino, of UFSC, the builder consulted the American engineer Holton D. Robinson, who brought in David B. Steinman. The two compared three solutions and settled on the most economical: a suspension bridge in which the cable is a chain of eyebars, flat steel bars with a hole at each end, linked to one another by pins.",
+        "Chains like that were nineteenth-century technology, already replaced almost everywhere by steel wire cables. What Steinman did was put them to work twice. Between one quarter and three quarters of the span, the chain comes down to meet the truss that stiffens the deck and becomes its top chord; toward the ends, the truss hangs from the chain on vertical hangers. Less steel in the girder, fewer hangers, less load. The American Bridge Company supplied bars of heat-treated steel, and the towers were designed to rock on pinned bearings at the base. The bridge was designed to carry a road, an electric railway line and the city's water main."
+      ]
+    },
+    {
+      "titulo": "Everything by ship",
+      "paragrafos": [
+        "All the material came from the United States, and, according to architect Joel Pacheco, the ships were too large to dock near the island: the cargo was transferred to smaller boats. The construction yard was set up on the mainland, because at the island end there was a cemetery, later moved to Itacorubi.",
+        "The foundations, with steel-cased piles driven down to the rock, were finished in 1924. In July of that year the American erection crew arrived. The mainland tower went up in six weeks, by December 1924; the island tower, in five, by February 1925. In April 1925 the chains were closed, and in August the main structure was complete. At the peak, according to engineer Wenceslau Diotallevy, between 381 and 400 people were working there. How many passed through the job in all, and whether anyone died on it, the sources consulted do not record.",
+        "Hercílio Luz did not see any of it finished. Ill with cancer, he inaugurated a wooden replica of the bridge in the city center on October 8, 1924. He died twelve days later. The real bridge was opened on May 13, 1926, in the rain, by acting governor Antônio Vicente Bulcão Viana, still without the wooden walkway on the main span. It bore the name of Hercílio Luz."
+      ]
+    },
+    {
+      "titulo": "A fifty-year bill",
+      "paragrafos": [
+        "The money came from two loans of $5 million each, taken out in 1919 and 1922 with New York bankers. According to the reconstruction published in the state's Official Gazette in 1935, they yielded 20,263 contos de réis, but 12,032 contos were eaten up by fees, commissions and other expenses. That left 8,231. The first bank went bankrupt, and the state ended up liable for debts of the failed institution. The final cost, which circulates in different and poorly written versions, is described as practically double Santa Catarina's annual budget.",
+        "To pay for it, a toll was charged: 100 réis per person, with surcharges for vehicles and baggage, from 1926 to 1935. According to Maurício Oliveira, in the second half of 1929 the bridge brought in 97 contos, about 1% of the state's revenue. The toll fell under popular pressure. The loans were only paid off in 1978."
+      ]
+    },
+    {
+      "titulo": "The sister bridge that fell",
+      "paragrafos": [
+        "The Hercílio Luz had two close relatives in the United States, both over the Ohio River: the Silver Bridge and the St. Marys bridge, of the same eyebar-chain type. On December 15, 1967, at rush hour, the Silver Bridge collapsed all at once and killed 46 people. The cause was a fracture in the eye of a single bar, corroded from the inside over four decades. The St. Marys bridge was dismantled. The one in Florianópolis, the oldest of the three, became the only one left.",
+        "In Florianópolis, the news hastened a new bridge, the Colombo Salles, opened in 1975. But in 1969 the Hercílio Luz's wooden deck had already been replaced with heavier asphalt, and it was still carrying almost half the traffic. A report by IPT in São Paulo pointed to deteriorated bars, and a crack appeared in the eye of a bar near the top of a tower: a crack five centimeters long, according to the UFSC history; a UFMG technical study speaks of the bar fracturing. The bridge was closed on January 22, 1982. It reopened to pedestrians and bicycles in 1988 and was closed for good in 1991. In 1995, a report by the state highway department concluded that the bars could cause the bridge to collapse abruptly and could not be reused."
+      ]
+    },
+    {
+      "titulo": "Replacing the chains of a suspension bridge",
+      "paragrafos": [
+        "To replace the chain of a bridge that hangs from it, the weight first has to be taken off the chain. The solution was to build under the main span a temporary structure with its own foundation, and to jack the deck up with hydraulic jacks until the bars carried no load. The first transfer of weight was made in the early hours of February 12, 2017, with traffic closed and nearby residents put up in hotels. In November of that year, the chains between the towers were removed.",
+        "The road to that point had taken more than a decade: the first stage, on the approach viaducts, began in 2006; the second was contracted in 2008 and had its contract terminated in 2014, followed by court battles. In 2011, the diver Sandro José Erben Saes drowned while inspecting a pile of the temporary foundation. The American Bridge Company, invited in 2015, turned the job down. The Portuguese group Teixeira Duarte took over in 2016.",
+        "According to NSC's series on the centennial, the new bars, 360 of them, about 800 tons, were made by Usiminas, in Minas Gerais; the saddles at the tops of the towers came from Spain, and the hangers from Italy. The first new bar was installed in March 2018. In August 2019, the bridge was once again held up by the chains alone. The cost of it all, from 1981 to the lighting, exceeds half a billion reais by NSC's count; Diário Catarinense arrived at no less than R$618 million in inflation-adjusted terms through 2018."
+      ]
+    },
+    {
+      "titulo": "A hundred years and two nights a week",
+      "paragrafos": [
+        "The Hercílio Luz reopened on December 30, 2019, before more than 200,000 people, with a steel grating deck in place of the asphalt. It got decorative lighting in December 2024 and turned 100 on May 13, 2026, with three weeks of celebrations organized by the state government and the city.",
+        "Two months later, on July 28, 2026, the government announced that the bridge would close to cars every Tuesday and Thursday, from 20:00 to midnight, indefinitely, for welding, tightening and adjustment work on the deck and the grating. Pedestrians and cyclists could still cross. In October 2026, the bridge that had been closed for 28 years so it would not fall was closing two nights a week so it could stay open."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "It was the largest suspension bridge in the world when it was finished.", "registro": "No. In 1926 there were cable suspension bridges with longer spans. What it had was the longest eyebar-chain suspension span in the world at the time. Today it is the largest suspension bridge in Brazil and the largest eyebar suspension bridge still standing."},
+    {"circula": "It is a bridge unique in the world.", "registro": "It was one of three bridges of nearly the same design: the other two, the Silver Bridge and the St. Marys bridge, stood over the Ohio River, in the United States. The Silver Bridge fell in 1967 and the St. Marys bridge was dismantled. The one in Florianópolis is the oldest of the three and the only one left."},
+    {"circula": "Hercílio Luz opened the bridge that bears his name.", "registro": "He died in October 1924, twelve days after symbolically inaugurating a wooden replica. The bridge was opened on May 13, 1926, by the acting governor, Antônio Vicente Bulcão Viana."},
+    {"circula": "The bridge was built to carry trains.", "registro": "It was designed to carry an electric railway line and the city's water main as well. No railway line was ever installed on it."}
+  ],
+  "perguntas": [
+    {"p": "When was the Hercílio Luz Bridge built?", "r": "Work began in November 1922 and the bridge was opened on May 13, 1926, in the rain. The foundations were finished in 1924, and the towers went up between December 1924 and February 1925."},
+    {"p": "How long is the Hercílio Luz Bridge?", "r": "The main suspension span is 339.5 m over the sea. The total length is 821 m according to the state government or 819.5 m according to the UFMG study, and the towers stand 74.21 or 75 m above the sea, depending on the source."},
+    {"p": "Who built the Hercílio Luz Bridge?", "r": "The design is by the firm Robinson & Steinman, of New York. Byington & Sundstrom, of São Paulo, built the foundations, and the steel, all of it from the United States, was fabricated and erected by the American Bridge Company."},
+    {"p": "Why was the Hercílio Luz Bridge closed?", "r": "It was closed on January 22, 1982, after a report by IPT and the discovery of a crack in the eye of a bar, the same kind of failure that brought down the Silver Bridge in 1967. Closed for good in 1991, it only reopened on December 30, 2019, after receiving 360 new bars."},
+    {"p": "Was the Hercílio Luz Bridge the largest suspension bridge in the world?", "r": "No. In 1926 there were cable suspension bridges with longer spans; it had the longest eyebar-chain suspension span in the world at the time. Today it is the largest suspension bridge in Brazil."}
+  ],
+  "fontes": [
+    {"texto": "Hermes Carvalho, Ricardo Hallal Fakury and Paula Moura Leite Vilela (UFMG), \"The Challenges of Rehabilitating the Hercilio Luz Suspension Bridge\", Latin American Journal of Solids and Structures, 2017"},
+    {"texto": "Narbal Ataliba Marcellino (UFSC), \"Histórico da Ponte Hercílio Luz\""},
+    {"texto": "HistoricBridges.org, \"Ponte Hercílio Luz\""},
+    {"texto": "D. B. Steinman and W. G. Grove, \"The Eye-bar Cable Suspension Bridge at Florianopolis, Brazil\", Transactions of the American Society of Civil Engineers, paper 1662"},
+    {"texto": "Legislative Assembly of Santa Catarina, \"Ponte Hercílio Luz completa 90 anos em meio a expectativas sobre sua reabertura\", 2016"},
+    {"texto": "CREA-SC, \"Ponte Hercílio Luz completa 88 anos de história em Florianópolis\", May 14, 2014"},
+    {"texto": "NSC Total, \"Os 100 anos da velha senhora: da ideia de unir Ilha e Continente, nasce a Hercílio Luz\", 2026"},
+    {"texto": "NSC Total, \"Os 100 anos da velha senhora: como a revolução da engenharia entrou em colapso\", 2026"},
+    {"texto": "NSC Total, \"Os 100 anos da velha senhora: peça por peça, a Hercílio Luz volta a ganhar vida\", 2026"},
+    {"texto": "Maurício Oliveira, \"A velha ponte tem alma\", Portal Upiara, July 28, 2026"},
+    {"texto": "Economia SC, \"Livro sobre a ponte Hercílio Luz traz recorte do desenvolvimento econômico de SC no último século\", July 23, 2026"},
+    {"texto": "NSC Total, \"Obras irão fechar Ponte Hercílio Luz, em Florianópolis, duas vezes por semana\", July 29, 2026"},
+    {"texto": "ND+, \"Ponte Hercílio Luz passa a ser bloqueada duas vezes por semana durante a noite por tempo indeterminado\", 2026"},
+    {"texto": "NSC Total, \"100 anos da Ponte Hercílio Luz: confira a programação do centenário em Florianópolis\", May 6, 2026"},
+    {"texto": "TV Barriga Verde, \"Centenário da Ponte Hercílio Luz é celebrado com 'Parabéns' e programação especial\", May 13, 2026"},
+    {"texto": "Government of Santa Catarina, \"Ponte Hercílio Luz chega aos 100 anos em 2026 com atrações especiais na programação\""},
+    {"texto": "Structure Magazine, \"Silver Bridge Failure 1967 (aka Point Pleasant Bridge)\""},
+    {"texto": "American Society of Civil Engineers, \"Silver Bridge Collapse and Creation of National Bridge Inspections Standards\""},
+    {"texto": "U.S. Bureau of Labor Statistics, Consumer Price Index (CPI-U), annual averages for 1922 and 2025"},
+    {"texto": "Wikipedia (Portuguese), \"Ponte Hercílio Luz\" (starting point)"}
+  ],
+  "imagens": [
+    {"alt": "Gray steel suspension bridge over calm water, with a tall lattice tower on the right, the chain curving down to the truss of the main span and a rocky beach in the foreground", "legenda": "The bridge in 2009, still closed, with its original eyebar chains, seen from a beach near one of its ends.", "autor": "Rodrigo Soldon"},
+    {"alt": "Old black-and-white photograph: the bridge seen from below, from the sea, with the dark trussed deck crossing the sky diagonally and a tower on the left; houses and hills in the background", "legenda": "The bridge seen from the sea in 1958, when it was still the only link between the island and the mainland.", "autor": "Autor não identificado (Arquivo Nacional, fundo Correio da Manhã)"},
+    {"alt": "The bridge under a cloudy sky with yellow tower cranes beside the main span and temporary support structures under the deck", "legenda": "February 2017, the morning after the first transfer of the main span's weight onto the temporary structure.", "autor": "Rachmaninoff"},
+    {"alt": "Upward view of crisscrossing gray steel members covered in rivets, with a lattice tower and hangers against a blue sky", "legenda": "The tower and the truss seen from the deck in June 2019, in the final phase of the restoration, with the members joined by rivets.", "autor": "Andrew Richard Smith"},
+    {"alt": "People walking on the bridge's steel grating deck toward a lattice tower, under a clear sky", "legenda": "People on foot on the deck in the week of the reopening, in January 2020.", "autor": "Filipeschaves"},
+    {"alt": "The bridge at night with its towers and chain outlined in green lights, streetlamps lit along the roadway and the dark city around it", "legenda": "The decorative lighting, inaugurated in December 2024, on a night in May 2025.", "autor": "Thaismay"}
+  ]
+}

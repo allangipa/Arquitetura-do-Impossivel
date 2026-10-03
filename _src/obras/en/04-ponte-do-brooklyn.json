@@ -1,0 +1,182 @@
+{
+  "_nota": "Tradução fiel de ../04-ponte-do-brooklyn.json. Campos fixos vêm do original.",
+  "obra": "Brooklyn Bridge",
+  "titulo_seo": "How the Brooklyn Bridge Was Built (1870–1883)",
+  "titulo_video": "Brooklyn Bridge: 221 tons of fraudulent wire, and it is still standing",
+  "lugar": "East River, between Manhattan and Brooklyn, New York, United States",
+  "periodo": "1870–1883",
+  "impossivel": "Setting two stone towers on the bottom of a tidal river, with men digging underneath boxes of compressed air, at a time when nobody knew why they fell ill when they came back up.",
+  "resumo": "How the Brooklyn Bridge was raised (1870–1883): compressed-air caissons, the illness they caused, Roebling's window and the bad wire in the cables.",
+  "abertura": [
+    "On 22 April 1872, John Myers, a German of about 40, went down to the bottom of the East River, in New York, United States, on his first day on the job. He came up feeling fine, fell ill on the way to his boardinghouse and died on the stairs, that same day. The project's doctor recorded the case with a number and a date.",
+    "He was working on the foundations of the Brooklyn Bridge, the largest suspension bridge in the world when it opened, in 1883. The designer died before the first excavation, the chief engineer came up from the riverbed sick and ran the rest of the job from home, and 221 tons of rejected wire stayed inside the cables. The bridge is still standing."
+  ],
+  "numeros": [
+    {"valor": "486 m", "rotulo": "main span between the towers (1,595 feet 6 inches)"},
+    {"valor": "23.9 m", "rotulo": "depth of the Manhattan caisson below high tide"},
+    {"valor": "110", "rotulo": "cases of caisson disease in 5 months of 1872, with 3 deaths"},
+    {"valor": "5,434", "rotulo": "steel wires in each of the 4 cables"},
+    {"valor": "221 t", "rotulo": "of rejected wire left inside the cables"},
+    {"valor": "20 years", "rotulo": "as the largest suspension bridge in the world (1883–1903)"}
+  ],
+  "ficha": [
+    {"item": "Context", "valor": "Linking New York and Brooklyn, then two separate cities divided by the East River. Bill passed by the state Senate in February 1867; the New York Bridge Company was incorporated the same year.", "nota": "At the time, \"New York and Brooklyn Bridge\" or \"East River Bridge\"."},
+    {"item": "Design", "valor": "John A. Roebling, an engineer born in Mühlhausen, Prussia, builder of suspension bridges in Pittsburgh, Niagara and Cincinnati. Plan presented in 1867."},
+    {"item": "Death of the designer", "valor": "Foot crushed by a ferryboat at the Fulton Ferry slip on 28 June 1869, during a survey; died of tetanus on 22 July 1869, before construction began."},
+    {"item": "Chief engineer", "valor": "Washington A. Roebling, the son, who took over at 32. From 1872 on, ill, he ran the job from home; Emily Warren Roebling, his wife, carried his orders and dealt with the staff.", "nota": "Emily never held the title of chief engineer."},
+    {"item": "Timeline", "valor": "Early January 1870 (the sources give 2 or 3 January) to the opening, on 24 May 1883. The original estimate was 5 years.", "nota": "The disagreement is only over the start date; the opening is 2+."},
+    {"item": "Workers", "valor": "Nobody recorded a total. There are only partial snapshots: 3 gangs of 100 men in the Brooklyn caisson in November 1870; 50 to 125 by day in the Manhattan caisson in 1872; about 700 on the payroll in August 1878.", "nota": "Wages, according to the official 1883 speech: $1.75 a day for a laborer, $2.50 on average."},
+    {"item": "Cost", "valor": "About $15 million at the time, including land. According to the official 1883 speech, the construction proper, without land or interest, came to $9 million.", "nota": "The $9 million comes from a single source (Abram Hewitt, 1883). We have not converted it to today's money."},
+    {"item": "Original estimate", "valor": "$7 million, without land, by John A. Roebling's reckoning."},
+    {"item": "Deaths on the job", "valor": "20, in the official opening speech (W. C. Kingsley, 1883); 27, a figure attributed to the assistant engineer C. C. Martin, who admitted that nobody kept a list. A list of names compiled later also comes to 27, counting John A. Roebling."},
+    {"item": "Caisson disease", "valor": "110 cases and 3 deaths in the Manhattan caisson between 25 January and 31 May 1872, counted by the project's doctor, Andrew H. Smith.", "nota": "Smith himself believed many cases escaped him."},
+    {"item": "Foundations", "valor": "Brooklyn caisson: 168 × 102 feet (51 × 31 m), stopped at 44 feet 6 inches (13.6 m) below high tide. Manhattan caisson: 172 × 102 feet (52 × 31 m), stopped at 78 feet 6 inches (23.9 m), on gravel, without reaching bedrock."},
+    {"item": "Towers", "valor": "More than 80 m above high tide. The sources give 268 to 278 feet."},
+    {"item": "Span and length", "valor": "Main span of 1,595 feet 6 inches (486.3 m). Total length of 6,016 feet (1,834 m) or 5,989 feet (1,825 m), depending on where the approach is measured. Deck 135 feet (41 m) above the water at midspan.", "nota": "The span and the deck height are 2+; the disagreement is over the total length."},
+    {"item": "Cables", "valor": "4 galvanized steel cables, 15¾ inches (40 cm) in diameter and with 5,434 wires each; the design called for 5,282."},
+    {"item": "Stampede", "valor": "On 30 May 1883, six days after the opening, a crush on a stairway on the New York side killed 12 people. Injured: 36 seriously, according to the Library of Congress guide; more than 40 trampled, according to the New-York Tribune.", "nota": "Deaths and date, 2+; the number of injured varies."},
+    {"item": "Afterwards", "valor": "Largest suspension bridge in the world from 1883 to 1903, when it was surpassed by the Williamsburg Bridge. National Historic Landmark in 1964 and city landmark in 1967. In 2024, an average of 103,051 vehicles, 28,845 pedestrians and 5,504 cyclists a day.", "nota": "The traffic figures come from a single source, the New York City government."}
+  ],
+  "historia": [
+    {
+      "titulo": "The designer who did not see the work begin",
+      "paragrafos": [
+        "John A. Roebling arrived in the United States in 1831, from Mühlhausen, Prussia, and spent more than two decades hanging bridges from cables: Pittsburgh, the Delaware River, the Niagara railway bridge, Cincinnati. In 1867, with the state law passed and the New York Bridge Company formed, he presented his plan for the East River crossing. According to the bridge's 1975 National Historic Landmark nomination, he wrote that it would be \"the greatest bridge in existence\" and \"the greatest engineering work of the continent, and of the age\".",
+        "On 28 June 1869, during a survey at the Fulton Ferry slip, a ferryboat struck the pier he was standing on and crushed the toes of his right foot. The toes were amputated. He died of tetanus on 22 July, before any excavation.",
+        "The job passed to his son, Washington A. Roebling, then 32. Work began in early January 1870, on the Brooklyn side. The father's estimate was $7 million, without land, and five years of work. It took more than twice as long."
+      ]
+    },
+    {
+      "titulo": "An upside-down wooden box on the riverbed",
+      "paragrafos": [
+        "To support the towers, the builders had to reach firm ground beneath the riverbed. The method was the pneumatic caisson: an enormous bottomless wooden box, turned upside down and filled with compressed air to hold the water out. The men went down through airlocks and dug beneath the edges, and the box sank under the weight of the tower being built on top of it. The Brooklyn caisson measured 168 by 102 feet (51 by 31 m).",
+        "On 2 December 1870, according to the history of the bridge published by S. W. Green in 1883, a worker left a lit candle near a seam in the roof. The flame was drawn into the oakum caulking and the fire ran through the timbers, with no smoke visible in the chamber. After hours of steam, water and carbon dioxide, the fire department was called: 38 streams of water. The caisson was deliberately flooded and stayed underwater for two and a half days. The repairs delayed the job by almost three months. None of the sources records a death in the fire.",
+        "Washington spent that night inside the caisson. It was the first attack of the sickness that would later take him off the site. In March 1871, the Brooklyn caisson, stopped at 44 feet 6 inches (13.6 m) below high tide, where it had found firm soil, was filled with concrete."
+      ]
+    },
+    {
+      "titulo": "Almost 24 meters below the tide",
+      "paragrafos": [
+        "The Manhattan caisson was a little larger, 172 by 102 feet, and came lined with iron plate because of the fire. Good ground lay much deeper. The lower the caisson went, the higher the air pressure inside: up to 34 pounds per square inch above atmospheric, according to Green; between 18 and 36, in the notes of the project's doctor. The shifts, which began as two of four hours, shrank at the bottom to two of two hours.",
+        "The doctor was Andrew H. Smith. Between 25 January and 31 May 1872, in that caisson alone, he counted 110 cases of illness caused by compressed air, and 3 deaths. John Myers died on his first day of work, 22 April. Patrick McKay, an Irishman of 50, stayed down half an hour longer and was found unconscious in the airlock on 30 April; Smith noted that he had advanced kidney disease and that the compressed air only hastened his death. A man surnamed Reardon, aged 38, went in on 17 May and died the next day.",
+        "The disease was not discovered there. Smith himself records the first cases in a coal mine in France, around 1841, and the study by the doctors Pol and Watelle in 1845; at the St. Louis bridge, whose foundations were dug at the same time, it killed more people than in Brooklyn. What Brooklyn gave it was the name: Smith called it \"caisson disease\". The workers called it the \"Grecian bend\". Why the men fell ill when they came up, nobody could explain.",
+        "On 18 May 1872, at 78 feet 6 inches (23.9 m), Washington Roebling ordered a halt. The caisson rested on compacted sand and gravel, without reaching bedrock. He judged the gravel to be as firm as rock. The 1975 nomination links the decision to the third death; the excavation stopped on the same day Reardon died."
+      ]
+    },
+    {
+      "titulo": "The bridge seen from a window",
+      "paragrafos": [
+        "In the spring of 1872, Washington had his second attack, in the Manhattan caisson, and never went back to the site. In 1873 he took leave and went to Europe for treatment; afterwards he lived in Trenton, New Jersey. In the summer of 1877 he moved back to 110 Columbia Heights, in Brooklyn, to a house from which the bridge could be seen. Green's 1883 history says that he watched the progress \"from a back bay-window with a telescope\", and that until the opening he had not set foot on the finished structure.",
+        "The link between the house and the job was his wife, Emily Warren Roebling. According to the historian David McCullough, all the written communication from the house to the bridge office went out in her handwriting. In the official opening speech, Abram Hewitt described her as the one through whose brain and fingers communication was kept up between those directing the construction and those carrying it out. Green wrote that her acquaintance with the work was \"most minute and accurate\".",
+        "In 1882, the board voted on a proposal to demote Washington to consultant. It lost 10 to 7, and he remained chief engineer to the end. According to McCullough, Emily was the first to cross the deck, by carriage, in early May 1883. The family used to say, years later, that she carried a live rooster as a symbol of victory."
+      ]
+    },
+    {
+      "titulo": "The wire that could not come out",
+      "paragrafos": [
+        "The bridge's 4 cables are galvanized steel, not iron, and they were spun in place: a wheel traveled back and forth from one anchorage to the other, carrying the wire, until it formed 19 strands per cable. The wire contract was awarded in 1877 to J. Lloyd Haigh, a supplier from South Brooklyn, by the board's choice, against Roebling's preference.",
+        "Between June and July 1878, the assistant engineer William Paine and his aides, watching the factory, uncovered the scam. Wire approved by the inspectors received a certificate and, on the way to the site, was swapped in another shed for rejected wire, which went on with the good wire's paperwork. The good wire went back to be approved again.",
+        "When the fraud came to light, about 221 tons of rejected wire were already wound into the cables, and there was no way to remove it without taking them apart. The solution was to add wire: 8 more in each of the 19 strands, 152 per cable, bringing the total from 5,282 to 5,434. Haigh had to supply the extra wire free of charge. The safety margin ended up at about five times the load. The board did not make the case public, nor did it change suppliers.",
+        "Haigh did end up in prison, but for something else: in August 1880 he confessed to forging bank acceptances and got four years. In the same year as the fraud, on 14 June 1878, one of the strands broke loose during spinning and killed two men."
+      ]
+    },
+    {
+      "titulo": "Counting the dead",
+      "paragrafos": [
+        "On opening day, W. C. Kingsley's official speech said that \"twenty men lost their lives\" in the direct work of construction. That is the number McCullough repeats, not counting John A. Roebling; adding the father brings it to 21.",
+        "Other counts reach 27. The number is attributed to the assistant engineer C. C. Martin, in an interview with the Brooklyn Daily Eagle on that same 24 May 1883, in which he admitted there had been no list: had they known so many would be hurt, they would have written it down. A list of names compiled later from newspapers and death certificates also has 27 names, including the designer. By that list, most died in falls and in accidents with derricks; three, of caisson disease.",
+        "The official reports do not help close the count. The chief engineer's 1877 report says that dangerous stretches went by without a single accident, while McCullough, drawing on the Brooklyn Daily Eagle, records two fatal falls from the Brooklyn tower in 1875. There is no reliable total, either of the dead or of the workers."
+      ]
+    },
+    {
+      "titulo": "24 May 1883, and what came after",
+      "paragrafos": [
+        "The bridge opened on 24 May 1883, with President Chester A. Arthur. Washington did not go; he watched from his window. It cost about $15 million at the time, counting land. Green blames the budget overrun on deeper foundations than planned, on steel instead of iron, on a wider and higher deck and on land expropriations.",
+        "Six days later, on 30 May, a blockage at the top of a stairway on the New York side, with thousands of people on the bridge, turned into a stampede. People fell down the stairs and those behind trampled over them. 12 people died. According to the New-York Tribune, an hour later the word on 42nd Street was that the bridge had collapsed with a thousand people on it.",
+        "On 17 May 1884, P. T. Barnum's circus crossed the bridge to Brooklyn with 21 elephants, Jumbo among them, and 17 camels. According to The Sun, the toll collector charged the men and the horses and let the animals through for free. The Tribune noted that many people followed along to see whether Jumbo would make it across in one piece.",
+        "The bridge was the largest suspension bridge in the world until 1903. The cables with Haigh's wire inside are still in place, and in 2024 it carried an average of more than 100,000 vehicles a day."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Emily Roebling was the real chief engineer and designed the bridge.",
+      "registro": "The design is John A. Roebling's, and the chief engineer was Washington to the end, kept on by a vote in 1882. Emily was the indispensable intermediary and gained real technical competence. The exaggeration already appears in 1883: an editorial in Frank Leslie's wrote that she had become \"the chief director of the work\", which no construction document supports."
+    },
+    {
+      "circula": "The 1870 fire in the Brooklyn caisson killed six men.",
+      "registro": "Neither Green's 1883 history nor McCullough records any death in the fire. The caisson was flooded and repaired in almost three months."
+    },
+    {
+      "circula": "Caisson disease was discovered at the Brooklyn Bridge.",
+      "registro": "Cases had been recorded in France since around 1841, and it had killed workers at the St. Louis bridge. Brooklyn gave it the name: \"caisson disease\", from Andrew H. Smith, the project's doctor."
+    },
+    {
+      "circula": "The Manhattan foundations reached bedrock.",
+      "registro": "The caisson stopped on 18 May 1872, at 78 feet 6 inches (23.9 m), on compacted sand and gravel. Washington Roebling decided not to go any deeper."
+    },
+    {
+      "circula": "The official death toll for the construction is 27.",
+      "registro": "The only number stated at an official ceremony was 20, in W. C. Kingsley's speech in 1883. The 27 comes from another count, attributed to the assistant engineer C. C. Martin on the same day as the opening, and he himself admitted that nobody kept a list."
+    }
+  ],
+  "perguntas": [
+    {"p": "When was the Brooklyn Bridge built?", "r": "Construction began in early January 1870 — the sources give 2 or 3 January — and the bridge opened on 24 May 1883. The original estimate was 5 years; it took more than twice that."},
+    {"p": "Who designed the Brooklyn Bridge?", "r": "The design is by John A. Roebling, who died of tetanus in 1869, before construction began. His son, Washington Roebling, was chief engineer to the end and, ill since 1872, ran the job from home, with his wife, Emily Warren Roebling, carrying his orders to the staff."},
+    {"p": "How many people died building the Brooklyn Bridge?", "r": "The sources disagree: the official opening speech spoke of 20 dead; another count, attributed to the assistant engineer C. C. Martin, reaches 27, and he himself admitted that nobody kept a list. There is no reliable total."},
+    {"p": "How much did the Brooklyn Bridge cost to build?", "r": "About $15 million at the time, counting land. According to the official 1883 speech, the construction proper, without land or interest, came to $9 million; the designer's estimate was $7 million."},
+    {"p": "How long is the Brooklyn Bridge?", "r": "The main span between the towers is 486.3 m. The total length is 1,834 m or 1,825 m, depending on where the approach is measured, and the deck stands 41 m above the water at midspan."}
+  ],
+  "fontes": [
+    {"texto": "Andrew H. Smith, The Effects of High Atmospheric Pressure, including the Caisson Disease, Brooklyn, Eagle Print, 1873"},
+    {"texto": "Opening Ceremonies of the New York and Brooklyn Bridge, May 24, 1883, Brooklyn, 1883"},
+    {"texto": "S. W. Green (comp.), A Complete History of the New York and Brooklyn Bridge, New York, 1883"},
+    {"texto": "Washington A. Roebling, Report of the Chief Engineer of the New York & Brooklyn Bridge, January 1, 1877, Brooklyn, 1877"},
+    {"texto": "James B. Armstrong (HAER), The Brooklyn Bridge, National Register / National Historic Landmark nomination, 1975"},
+    {"texto": "NYC Landmarks Preservation Commission, designation LP-0098, 1967"},
+    {"texto": "Historic American Engineering Record, HAER NY-18, Library of Congress"},
+    {"texto": "NYC Department of Transportation, Brooklyn Bridge"},
+    {"texto": "Frank Griggs Jr., Brooklyn Bridge, Part 2, STRUCTURE magazine, 2016"},
+    {"texto": "T. R. Witcher, New York's Brooklyn Bridge is an engineering marvel, Civil Engineering (ASCE), 2022"},
+    {"texto": "Frances Williams Browin, When They Built the Big Bridge, American Heritage, 1956"},
+    {"texto": "David McCullough, The Great Bridge, 1972"},
+    {"texto": "Linda Hall Library, Scientist of the Day: Washington A. Roebling"},
+    {"texto": "Richard Howe, review of Erica Wagner, Chief Engineer: Washington Roebling (2017), Gotham Center, 2018"},
+    {"texto": "New-York Tribune, Fatal panic on the Bridge, 31 May 1883"},
+    {"texto": "The Sun (New York), 18 May 1884, p. 2"},
+    {"texto": "Frank Leslie's Illustrated Newspaper, 9 June 1883"},
+    {"texto": "Christopher Klein, Construction of the Brooklyn Bridge Took 14 Years—And Multiple Lives, History.com, 2019"}
+  ],
+  "imagens": [
+    {
+      "alt": "Aerial view of the East River with the Brooklyn Bridge running diagonally in the foreground and the Manhattan Bridge just behind it",
+      "legenda": "The Brooklyn Bridge seen from above, with the Manhattan Bridge in the background. Photo by Jet Lowe (Library of Congress).",
+      "autor": "Jet Lowe (Library of Congress)"
+    },
+    {
+      "alt": "One of the bridge's stone towers already standing, with Gothic arches and the first ropes of the cable work, and the other tower across the river",
+      "legenda": "The towers already built, with the first ropes of the cable-spinning stage, in a period stereograph (left half of the card).",
+      "autor": "Unknown author (Robert N. Dennis collection, NYPL)"
+    },
+    {
+      "alt": "Cross-section engraving of the foundation: the upside-down wooden box on the riverbed, with the tower masonry on top and the access shafts",
+      "legenda": "The Brooklyn caisson in cross-section, with the masonry above. Harper's Weekly, 17 December 1870, two weeks after the fire.",
+      "autor": "Harper's Weekly, 17 December 1870"
+    },
+    {
+      "alt": "Temporary suspended footbridge leading from the top of a stone tower, above the rooftops of Brooklyn",
+      "legenda": "The temporary footbridge of the cable-spinning stage, attached to the tower. Period stereograph (left half of the card).",
+      "autor": "Unknown author (Robert N. Dennis collection, NYPL)"
+    },
+    {
+      "alt": "Main cable painted white seen from below, with the cable band and the twisted-wire suspender running down to the deck",
+      "legenda": "One of the 4 main cables and a suspender connection, in 1982. Photo by Jet Lowe for the Historic American Engineering Record (HAER NY-18).",
+      "autor": "Jet Lowe (HAER NY-18, Library of Congress)"
+    },
+    {
+      "alt": "Color lithograph of fireworks bursting over the illuminated bridge, with boats on the river",
+      "legenda": "The fireworks on opening night, 24 May 1883. Lithograph by Currier & Ives.",
+      "autor": "Currier & Ives (Library of Congress)"
+    }
+  ]
+}

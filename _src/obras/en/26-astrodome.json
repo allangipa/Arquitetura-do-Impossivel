@@ -1,0 +1,155 @@
+{
+  "_nota": "Tradução fiel de ../26-astrodome.json. Campos fixos vêm do original.",
+  "obra": "Astrodome",
+  "titulo_seo": "Houston Astrodome: How the Dome Was Built (1962–1965)",
+  "titulo_video": null,
+  "lugar": "NRG Park, Houston, Texas, United States",
+  "periodo": "1962–1965",
+  "impossivel": "To roof an entire baseball stadium with a steel dome spanning almost 196 meters, with no column in the middle, and to keep air-conditioned, free of fog and smoke, a volume of air that held tens of thousands of people smoking in the Houston heat.",
+  "resumo": "How Houston roofed the Astrodome with a 196 m dome in 1965, why the light through the roof killed the grass, and what is done today with the closed dome.",
+  "abertura": [
+    "In Houston, Texas, summers are hot, humid and full of late-afternoon rain. In the early 1960s the city wanted a major league baseball team, and the politician and businessman Roy Hofheinz promised what nobody had ever done: a baseball and football stadium fully enclosed and air-conditioned.",
+    "The result, opened on April 9, 1965, was a steel lattice dome with a clear span of 642 feet, about 196 meters, over the entire field. The engineers calculated the wind, the heat and even the risk of fog forming inside. What nobody foresaw was the sun: the light coming through the roof blinded the players, and the remedy ended up inventing a name the whole world came to use."
+  ],
+  "numeros": [
+    {"valor": "195.7 m", "rotulo": "clear span of the dome (642 feet), with no column in the middle"},
+    {"valor": "4,596", "rotulo": "acrylic skylights in the roof, later painted over because of the glare"},
+    {"valor": "1962–1965", "rotulo": "from the groundbreaking ceremony on January 3, 1962, to the opening on April 9, 1965"},
+    {"valor": "$31.6–45M", "rotulo": "cost at the time, depending on what each source adds up"},
+    {"valor": "6,000 · 6,600 TR", "rotulo": "tons of refrigeration of air conditioning, depending on the source"},
+    {"valor": "$752.6M", "rotulo": "to renovate the closed building, against $55 million to demolish it (2025 study)"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To give Houston a stadium for major league baseball and for the city's rodeo, protected from heat, humidity and rain. The National League granted the franchise in 1960; the team debuted in 1962 and played three seasons in a temporary stadium next door while the dome went up."},
+    {"item": "Who wanted it", "valor": "Roy M. Hofheinz (1912–1982), former Harris County judge and former mayor of Houston, at the head of the Houston Sports Association. The building belongs to the county. The team was renamed the Astros in 1965, after NASA's manned spacecraft center in the city, and the stadium became the Astrodome.", "nota": "the official name at the opening was Harris County Domed Stadium"},
+    {"item": "Design", "valor": "Architects Lloyd & Morgan, in association with Wilson, Morris, Crain & Anderson. Structure engineered by Walter P. Moore & Associates; the lamella dome, by Roof Structures, Inc., of St. Louis. Calculations reviewed by New York consultants and by dome specialists. Air conditioning designed by engineer Israel A. Naman."},
+    {"item": "Who built it", "valor": "The general contractor was H. A. Lott, Inc., of Houston. The steel was fabricated and erected by American Bridge, a division of U.S. Steel."},
+    {"item": "The dome", "valor": "A steel lamella truss: identical members assembled in a diamond pattern, in 12 sectors of 30 degrees, all 1.5 m deep, resting on a tension ring that runs on top of 72 columns. The columns move slightly, so the steel can expand and contract without straining the rest of the building. Designed for gusts of 165 miles per hour (about 266 km/h).", "nota": "the weight of the ring is given as 376 or 750 short tons, depending on the source"},
+    {"item": "Dimensions", "valor": "Clear span of 642 feet (195.7 m); outside diameter of 710 feet (216.4 m); height of 208 feet (63.4 m) according to the National Register nomination, or 213 feet (64.9 m) according to the engineering firm; more than 3.6 hectares under cover."},
+    {"item": "Timeline", "valor": "Bonds approved by voters on January 31, 1961; groundbreaking ceremony on January 3, 1962, with officials firing revolvers into the ground; construction of the stadium from March 18, 1963; tension ring closed in December 1963; dome released from its shoring towers in February 1964; opening on April 9, 1965, in an exhibition game against the New York Yankees.", "nota": "the December 1963 and February 1964 milestones come from a single source"},
+    {"item": "Workers", "valor": "The number of workers, in total or at the peak of construction, was not recorded in the sources consulted."},
+    {"item": "Deaths during construction", "valor": "Three, according to the Houston Chronicle: Leon Homer Wilson, in October 1963, and two men who fell in 1964, Frank Halliburton, in April, and welder Homer P. Williams, in May. There is no official figure in institutional sources."},
+    {"item": "Cost", "valor": "$31.6 million in county bonds; $35.5 million in total according to the National Register nomination, including $3.7 million from the state and the city for streets, bridges and sewers; more than $40 million according to the Texas State Historical Association's encyclopedia, of which $20 million for the structure; just over $45 million according to the engineering firm.", "nota": "by the U.S. consumer price index (1965 = 31.5; 2025 = 321.9), $31.6 to 45 million is equivalent to about $323 to 460 million in 2025 dollars"},
+    {"item": "Who paid", "valor": "Harris County, with tax-backed bonds approved at the polls in 1961 and 1962. The City of Houston and the state highway department paid for the surrounding works.", "nota": "the amounts of each bond issue differ between sources"},
+    {"item": "Air conditioning", "valor": "About 6,000 or 6,600 tons of refrigeration (a unit of cooling capacity, not of weight), moving 2 or 2.5 million cubic feet of air per minute, with electrostatic filters and activated carbon. The volume was sized for cigarette smoke and for the heat of the sun coming through the roof."},
+    {"item": "The grass", "valor": "The skylights blinded players during day games and were painted in April 1965. With less light, the natural grass died; the team finished 1965 on dirt painted green. In 1966 Monsanto installed its synthetic turf, first in the infield, in April, and over the whole field on July 19. The product came to be called AstroTurf."},
+    {"item": "Afterward", "valor": "Home of the Astros until 1999 and of the Oilers football team until 1996. It sheltered Hurricane Katrina survivors in September 2005: 17,500 at the peak, according to the Houston Public Library, or about 25,000, according to other counts. Closed after 2008 because of fire-safety deficiencies.", "nota": "the number of people sheltered after Katrina differs between sources"},
+    {"item": "Protection and plans", "valor": "In 2013 voters rejected $217 million in bonds to renovate it (53.5% against). Listed on the National Register of Historic Places in 2014 and declared a Texas landmark in 2017. A $105 million county plan, approved between 2016 and 2018, was suspended in 2019."},
+    {"item": "Today", "valor": "A study commissioned by the county and released in December 2025 put the cost at $752.6 million to bring the building back to basic operation and $55 million to demolish it. In April 2026 the National Park Service found the Astrodome eligible to become a National Historic Landmark; in October 2026 the designation still depended on a formal nomination. In August 2026 the Astrodome Conservancy issued a public call for ideas for the building."}
+  ],
+  "historia": [
+    {
+      "titulo": "A stadium against the weather",
+      "paragrafos": [
+        "Roy Hofheinz had already been Harris County judge and mayor of Houston when, in the late 1950s, he thought of covering a shopping center with a dome. According to his biographer Edgar W. Ray, cited in the National Register nomination, he consulted Buckminster Fuller, the inventor of the geodesic dome, who told him any space could be covered as long as the money did not run out. In 1960, when the chance came to bring major league baseball to Houston, the shopping center left the stage and the dome went to the stadium.",
+        "The argument was the climate. Houston has heat, humidity and summer storms, and the Houston Sports Association and the county commissioners believed an open-air stadium would not draw crowds. But a covered, air-conditioned stadium was such a new idea that revenue bonds would not attract investors. Harris County turned to tax-backed bonds, approved by voters in January 1961 and December 1962. The National League granted the team, the Colt .45s, which debuted in 1962 in a temporary stadium next to the site of the future dome."
+      ]
+    },
+    {
+      "titulo": "Steel diamonds",
+      "paragrafos": [
+        "No span of that size had ever been roofed. The designers compared cantilevered trusses, a timber space frame and Fuller's geodesic dome, and settled on a lamella dome: a network of identical steel members arranged in diamonds, like a weave. The system, born in timber in Germany in 1918, had already worked on spans of up to 285 feet, about 87 meters. In Houston it would be 642 feet, 195.7 meters.",
+        "The dome was divided into 12 sectors of 30 degrees, with every member the same depth, 1.5 meters. It rests on a steel tension ring that runs around the stadium on top of 72 columns, and those columns were made to move: steel grows in the heat and shrinks in the cold, and the columns move with it without straining the structure below. Under the design wind, the dome could shift about 14 centimeters to each side. A model was tested in a wind tunnel at the McDonnell aircraft plant in St. Louis, under 48 different wind conditions. According to the National Register nomination, everything was calculated without computer models."
+      ]
+    },
+    {
+      "titulo": "Assembled in the air",
+      "paragrafos": [
+        "The groundbreaking ceremony, on January 3, 1962, had county and team officials firing Colt .45 revolvers into the ground instead of digging with shovels. Construction of the stadium itself began on March 18, 1963, under the Houston contractor H. A. Lott, with steel from American Bridge. The dome was assembled on 37 temporary shoring towers; the longest members were 122 feet, about 37 meters.",
+        "According to historian Kenneth Womack, in a book from the Society for American Baseball Research, Hurricane Cindy passed through the region in September 1963 without damaging the structure; the tension ring was closed in December; ten defective welds were found by radiography and redone; and in February 1964 the dome was released from the towers and began to stand on its own. In April the 4,596 acrylic skylights began to go in.",
+        "How many men worked there, the sources consulted do not record. The Houston Chronicle recorded three deaths: Leon Homer Wilson, in October 1963, and, in 1964, Frank Halliburton, who fell in April, and welder Homer P. Williams, who fell in May."
+      ]
+    },
+    {
+      "titulo": "The fear of indoor rain",
+      "paragrafos": [
+        "Enclosing 41 million cubic feet of air, more than 1 million cubic meters, under a roof raised a problem no stadium had ever had. Engineer Israel A. Naman, in charge of the air conditioning, wrote in 1966 in the journal of the American society of heating and air-conditioning engineers that there were reports of rain inside large airship hangars while it was dry outside. There was speculation that the stadium might have fog, clouds, turbulence or even rain. The fear was real, but none of the sources records rain inside.",
+        "What worried him more was cigarette smoke. Naman built a glass box with engineers inside, facing a color film of a baseball game, and kept filling the box with smoke until they could no longer see the game. From that measurement came the airflow: about 2 to 2.5 million cubic feet per minute, depending on the source, passing through electrostatic filters and activated carbon. The same airflow solved the rest. According to the Houston Public Library, when the system was not kept running all the time, condensation made the interior hazy. Naman concluded that, with the system always on, winter and summer, there would be no haze, cloud or rain."
+      ]
+    },
+    {
+      "titulo": "The sun in the roof",
+      "paragrafos": [
+        "The Astrodome opened on April 9, 1965, with an exhibition game between the Astros and the New York Yankees. The skylights had been designed to let in enough light for the natural grass, a variety developed especially for the stadium. But in day games the glare of the acrylic behind the ball blinded the players, who lost fly balls in the roof.",
+        "Starting on April 21, 1965, the skylights were painted. According to the Houston Public Library, the paint cut between 25% and 40% of the natural light. The glare ended, but the grass began to die within weeks; it was painted green and, by the end of the season, the team was playing on painted dirt. The way out came from Monsanto, which since 1964 had a synthetic turf, ChemGrass, installed at a school in Providence, Rhode Island. In April 1966 it covered the Astrodome's infield and, on July 19, the whole field. The product came to be called AstroTurf, and the name became a byword for artificial turf."
+      ]
+    },
+    {
+      "titulo": "From shelter to shuttered building",
+      "paragrafos": [
+        "For three decades the Astrodome hosted everything: Muhammad Ali in 1966, college basketball's \"Game of the Century\" in 1968, the \"Battle of the Sexes\" between Billie Jean King and Bobby Riggs in 1973, the 1992 Republican National Convention. The Oilers left after 1996 and the Astros played there for the last time on October 9, 1999. In September 2005 the stadium sheltered Hurricane Katrina survivors brought by bus from New Orleans: 17,500 at the peak, according to the Houston Public Library, or about 25,000, according to other counts.",
+        "In 2008, without a certificate of occupancy and with deficiencies in its fire-protection systems, the building stopped hosting events. In 2013 voters rejected, by 53.5% to 46.5%, $217 million in bonds to turn it into an event center. The following year it was listed on the National Register of Historic Places and, in 2017, became a Texas historic landmark. A $105 million county plan, which would have raised the floor and created parking underneath, was suspended in 2019 by the county judge, Lina Hidalgo."
+      ]
+    },
+    {
+      "titulo": "The bill, 60 years later",
+      "paragrafos": [
+        "In December 2025 the county released a study by Kirksey Architecture, commissioned by the corporation that manages the sports complex: $752.6 million to bring the Astrodome back to basic operation, with plumbing, climate control and safe occupancy conditions, without a full restoration and without capacity for major sporting events; or $55 million to demolish it. The interim county administrator, Jesse Dickerman, said there is no way to renovate it without significant private investment.",
+        "In April 2026, close to its 61st anniversary, the National Park Service found that the building meets the criteria to be a National Historic Landmark, the highest historic designation in the United States; in October 2026 the process still depended on a formal nomination and on the Secretary of the Interior. In August the Astrodome Conservancy issued a public call for ideas to investors and operators. The dome that withstood the wind tunnel and the hurricane is still standing; the first item on the bill for reopening it is, once again, the air."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "The dome was so big that it rained inside the stadium.", "registro": "None of the sources records rain inside. The fear existed: the air-conditioning engineer, Israel A. Naman, wrote in 1966 that there had been speculation about fog, clouds and even rain, because of reports from airship hangars. What was recorded was condensation and haze when the air conditioning was turned off. Kept on all the time, the problem did not appear."},
+    {"circula": "A mathematically calculated exhaust system kept the clouds away.", "registro": "What was calculated was the air circulation of the climate-control system, sized in an experiment with cigarette smoke: engineers in a glass box, facing a baseball film, until the smoke hid the game. The same airflow, with filters and activated carbon, took care of the heat, the smoke and the haze."},
+    {"circula": "Artificial turf was invented for the Astrodome.", "registro": "Monsanto had already installed its ChemGrass in 1964, at a school in Providence, Rhode Island. The Astrodome was the first major stadium to use it, in 1966, and the product took its name: AstroTurf."},
+    {"circula": "It was the world's first covered stadium.", "registro": "Covered arenas already existed. The National Register nomination calls it the first enclosed, air-conditioned stadium in the United States, and the Texas State Historical Association calls it the world's first fully air-conditioned, enclosed multipurpose sports stadium. For baseball and football, it was the first."}
+  ],
+  "perguntas": [
+    {"p": "When was the Astrodome built?", "r": "The groundbreaking ceremony was on January 3, 1962, but construction of the stadium itself began on March 18, 1963. The dome began to stand on its own in February 1964, and the Astrodome opened on April 9, 1965, in an exhibition game against the New York Yankees."},
+    {"p": "How much did the Astrodome cost to build?", "r": "Sources differ depending on what each one adds up: $31.6 million in county bonds, $35.5 million in total according to the National Register nomination, more than $40 million according to the Texas State Historical Association, or just over $45 million according to the engineering firm."},
+    {"p": "How many people died building the Astrodome?", "r": "Three, according to the Houston Chronicle: Leon Homer Wilson, in October 1963, and two men who fell in 1964, Frank Halliburton and welder Homer P. Williams. There is no official figure in institutional sources, and the total number of construction workers was not recorded."},
+    {"p": "Why did the Astrodome switch from real grass to artificial turf?", "r": "The roof's skylights blinded the players and were painted in April 1965; with less light, the natural grass died. In 1966 Monsanto installed its synthetic turf, which came to be called AstroTurf. It was not invented for the stadium: it had already been installed at a school in Providence in 1964."},
+    {"p": "Is the Astrodome still standing?", "r": "Yes, the dome is still standing, but the building has been closed since 2008 because of fire-safety deficiencies. A December 2025 study put the cost at $752.6 million to bring it back to basic operation and $55 million to demolish it."}
+  ],
+  "fontes": [
+    {"texto": "National Park Service, National Register of Historic Places Registration Form, \"The Astrodome\", Texas Historical Commission, 2013"},
+    {"texto": "Wayne Chandler, \"Astrodome\", Handbook of Texas Online, Texas State Historical Association"},
+    {"texto": "Kenneth Womack, \"Houston Astrodome: Engineering the Eighth Wonder of the World\", Society for American Baseball Research, 2017"},
+    {"texto": "Robert Trumpbour, \"Astrodome (Houston, TX)\", SABR BioProject"},
+    {"texto": "Mark Armour, \"The Rise and Fall of Artificial Turf\", Society for American Baseball Research"},
+    {"texto": "Narendra K. Gosain, \"Houston Astrodome, The Eighth Wonder of the World\", Structure Magazine, 2023"},
+    {"texto": "Houston Public Library, Astrodome Memories, \"Construction challenges\""},
+    {"texto": "Houston Public Library, Astrodome Memories, \"Showtime! April 9, 1965\""},
+    {"texto": "Houston Public Library, Astrodome Memories, \"Housing Katrina's evacuees\""},
+    {"texto": "I. A. Naman, \"Domed Stadium Air-Conditioning Design\", ASHRAE Journal, 1966, cited by Dan Singer, \"The Astrodome's Heavy Weather Problem\", Swamplot, 12 February 2019"},
+    {"texto": "Historic American Engineering Record, \"Houston Astrodome\", HAER TX-108, Library of Congress"},
+    {"texto": "Houston Chronicle, \"This week 55 years ago construction started on the Astrodome\", 2018"},
+    {"texto": "ABC13 Houston, \"New study shows demolishing the Astrodome would cost $55 million, while renovating it would cost more than $750 million\", 23 December 2025"},
+    {"texto": "The Real Deal, \"Houston Astrodome math gets starker: $753M to revive, $55M to raze\", 23 December 2025"},
+    {"texto": "Click2Houston, \"61 years later, Houston's Astrodome may get top historic honor in the U.S.\", 8 April 2026"},
+    {"texto": "Bisnow, \"Astrodome Conservancy Solicits Redevelopment Ideas\", 18 August 2026"},
+    {"texto": "CultureMap Houston, \"Houston group seeks fresh ideas for the Astrodome — including a data center\", 19 August 2026"},
+    {"texto": "ABC13 Houston, \"Voters strike down proposal to save Astrodome\", 2013"},
+    {"texto": "National Trust for Historic Preservation, \"The Astrodome: Updates\""},
+    {"texto": "U.S. Bureau of Labor Statistics, consumer price index (CPI-U), annual averages for 1965 and 2025"},
+    {"texto": "Wikipedia, \"Astrodome\" (starting point)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Aerial view of a round stadium with a low, light-colored dome in the middle of a huge empty parking lot, with Houston neighborhoods and highways in the background under a blue sky",
+      "legenda": "The Astrodome seen from above around 1999, surrounded by the sports complex's parking lot in southwest Houston.",
+      "autor": "Carol M. Highsmith (Library of Congress)"
+    },
+    {
+      "alt": "Faded color photograph: the stadium's white dome above its dark circular wall, with a low-roofed pavilion and a parking lot in the foreground",
+      "legenda": "The stadium in the 1970s, before the 1988 and 1989 expansions.",
+      "autor": "Drug Enforcement Administration (National Archives)"
+    },
+    {
+      "alt": "Black-and-white photograph of the interior: the whole dome seen from inside, a grid of steel beams in a diamond pattern radiating from a central lantern, over empty stands and a football field",
+      "legenda": "The lamella truss seen from inside in 2004, with the skylights painted over since 1965 to end the glare.",
+      "autor": "Jet Lowe (Historic American Engineering Record)"
+    },
+    {
+      "alt": "People leaning on a railing in front of the stadium entrance; a woman holds a handwritten green sign searching for a relative",
+      "legenda": "Hurricane Katrina survivors look for relatives at the entrance to the Astrodome on September 1, 2005.",
+      "autor": "Andrea Booher (FEMA)"
+    },
+    {
+      "alt": "The closed stadium seen from the parking lot, with its striped dome, stained concrete wall and trees in front",
+      "legenda": "The shuttered Astrodome in January 2014, the month it was listed on the National Register of Historic Places.",
+      "autor": "EricEnfermero"
+    }
+  ]
+}

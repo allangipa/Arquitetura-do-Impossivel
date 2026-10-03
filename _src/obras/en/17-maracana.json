@@ -1,0 +1,226 @@
+{
+  "_nota": "Tradução fiel de ../17-maracana.json. Campos fixos vêm do original.",
+  "obra": "Maracanã Stadium",
+  "titulo_seo": "How Maracanã Stadium Was Built (1948–1950)",
+  "titulo_video": null,
+  "lugar": "Maracanã neighborhood, Rio de Janeiro, Rio de Janeiro state, Brazil",
+  "periodo": "1948–1950",
+  "impossivel": "Raise in less than two years, for a World Cup with a fixed date, a concrete ring for more than 150,000 people, covered by a cantilevered canopy without a single pillar beneath it.",
+  "resumo": "How Rio built Maracanã in under two years, the largest stadium of its day, for the 1950 World Cup, and why its pillar-free canopy was torn down in 2011.",
+  "abertura": [
+    "In 1946, Brazil was chosen to host the World Cup, and Rio de Janeiro, then the country's capital, had nowhere to stage the final. The government of the Federal District decided to build, on the grounds of an old racetrack in the Maracanã neighborhood, in the city's North Zone, a stadium designed for 155,250 people.",
+    "Construction began in August 1948 and the stadium was opened on 16 June 1950, eight days before the World Cup kicked off. It was not finished: the great reinforced-concrete canopy, a cantilevered ring with no columns beneath it, was still propped up on scaffolding when the ball started rolling."
+  ],
+  "numeros": [
+    {"valor": "155,250", "rotulo": "places planned in the design, counting seats, standing room and permanent reserved seats"},
+    {"valor": "1948–1950", "rotulo": "from the start of construction in August 1948 to the opening on 16 June 1950"},
+    {"valor": "173,850", "rotulo": "paying spectators at the 1950 World Cup final, the official attendance; estimates exceed 199,000"},
+    {"valor": "80,000 m³", "rotulo": "of concrete and 500,000 sacks of cement in the original construction"},
+    {"valor": "3", "rotulo": "dead and 82 injured when a stand railing gave way, on 19 July 1992"},
+    {"valor": "2011", "rotulo": "the year the original concrete canopy was demolished"}
+  ],
+  "ficha": [
+    {
+      "item": "Why",
+      "valor": "To host the 1950 World Cup, which FIFA awarded to Brazil in 1946. Rio de Janeiro was the country's capital and had no stadium fit for a final."
+    },
+    {
+      "item": "Who wanted it",
+      "valor": "The government of the Federal District, under mayor Ângelo Mendes de Moraes, pushed by the campaign of journalist Mário Filho. City councilor Ary Barroso championed the Derby Club grounds, in Maracanã; Carlos Lacerda preferred Jacarepaguá.",
+      "nota": "Ary Barroso's advocacy is recorded by several sources; Carlos Lacerda's preference for Jacarepaguá, by only one; the stadium has borne Mário Filho's name since 1966"
+    },
+    {
+      "item": "Design",
+      "valor": "A group of Brazilian architects that includes Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro and Miguel Feldman; some sources add Waldir Ramos and Oscar Valdetaro.",
+      "nota": "the list of designers has five or seven names, depending on the source"
+    },
+    {
+      "item": "Canopy structural design",
+      "valor": "Engineer Antônio Alves de Noronha, one of the leading names in Brazilian reinforced concrete, was part of the stadium team. According to his family, the structural design of the canopy was his.",
+      "nota": "his membership in the team is recorded by the National Academy of Engineering; the canopy calculations, by his grandson, in a report by Agência Pública"
+    },
+    {
+      "item": "Timeline",
+      "valor": "Cornerstone laid on 20 January 1948; construction begun in August 1948 (on the 2nd or the 10th, depending on the source); opening on 16 June 1950 and first match on the 17th. The canopy was still shored up during the World Cup, and full completion is dated to 1965.",
+      "nota": "the start day and the completion year come from sources that disagree or do not corroborate one another"
+    },
+    {
+      "item": "Workers",
+      "valor": "According to the National Archives of Brazil, 3,500 a day, up to 5,000 at the peak and about 11,000 in total over the course of construction. Other sources speak of 2,800, or of 1,500 plus 2,000 in the final months. Working hours and wages were not recorded in the sources consulted."
+    },
+    {
+      "item": "Deaths during construction",
+      "valor": "None of the sources consulted gives a number or the names of anyone killed or injured during the construction from 1948 to 1950."
+    },
+    {
+      "item": "Cost",
+      "valor": "Estimates of 200 million and 250 million cruzeiros circulate, none with an original document behind it. According to one of the sources, part of the money came from the advance sale of 30,000 permanent reserved seats.",
+      "nota": "with no primary source, the amount is not converted to today's money"
+    },
+    {
+      "item": "Dimensions and materials",
+      "valor": "Axes of 317 × 279 m and 32 m in height. 80,000 m³ of concrete, 500,000 sacks of cement and about 10,000 tonnes of iron."
+    },
+    {
+      "item": "The canopy",
+      "valor": "A cantilevered reinforced-concrete ring over the upper stand, with no columns beneath it. Foreign engineering sources give a cantilever of about 30 m.",
+      "nota": "the absence of pillars is established by several sources; the length of the cantilever, only by popular technical sources"
+    },
+    {
+      "item": "The 1950 crowd",
+      "valor": "At the Brazil 1 × 2 Uruguay final, on 16 July 1950, the official attendance was 173,850 paying spectators. Estimates including those who got in without a ticket range from 199,854 to 210,000."
+    },
+    {
+      "item": "1992",
+      "valor": "On 19 July 1992, before the Brazilian Championship final between Flamengo and Botafogo, a safety railing in the stands gave way along about 13 m. Three fans died and 82 were injured. The expert investigation pointed to badly installed railings, corroded parts and overcrowding.",
+      "nota": "one English-language source speaks of 50 injured"
+    },
+    {
+      "item": "Heritage listing",
+      "valor": "Entered by IPHAN in the Archaeological, Ethnographic and Landscape Heritage Register in 2000."
+    },
+    {
+      "item": "Renovation from 2010 to 2013",
+      "valor": "For the 2014 World Cup, the canopy was demolished in 2011 and replaced by a membrane roof on a cable structure; the two tiers of stands became one. Reopened on 2 June 2013. The cost exceeds R$1 billion: R$1.2 billion according to the State Court of Accounts, which found R$211 million in overbilling; more than R$1.3 billion according to Agência Pública."
+    },
+    {
+      "item": "Concession and sale",
+      "valor": "Managed by Flamengo and Fluminense, under a 20-year contract signed in September 2024. In October 2025, the Constitution and Justice committee of the Rio state assembly put the Maracanã Complex on the list of properties the state may sell; the floor vote was postponed to 2026."
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "A World Cup without a stadium",
+      "paragrafos": [
+        "When FIFA confirmed Brazil as host of the World Cup, in 1946, Rio de Janeiro was the country's capital and had no stadium fit for a World Cup final. Journalist Mário Filho, of the Jornal dos Sports, turned the new stadium into a campaign, and the government of the Federal District took on the construction.",
+        "The next fight was over the location. City councilor and songwriter Ary Barroso championed the grounds of the Derby Club, where horse races were held, in the Maracanã neighborhood; according to one piece of football-history research, Carlos Lacerda wanted the stadium in Jacarepaguá. The Derby won. Construction was approved in November 1947, and the cornerstone was laid on 20 January 1948."
+      ]
+    },
+    {
+      "titulo": "A ring for 155,000",
+      "paragrafos": [
+        "The design, by a group of Brazilian architects that includes Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro and Miguel Feldman, called for 155,250 places: 93,000 seats, 31,000 standing places, 30,000 permanent reserved seats, 500 places in the VIP stand and 250 boxes. The permanent seats were sold in advance and, according to one of the sources, helped pay for the construction.",
+        "The shape was an ellipse of 317 by 279 meters and 32 meters high, all in reinforced concrete, with two tiers of stands. Over the upper tier, the design called for a continuous canopy anchored only at the back, cantilevered, with no column to block the view of the field. Foreign engineering sources give this canopy a cantilever of about 30 meters. According to the family of engineer Antônio Alves de Noronha, who was part of the stadium team, it was he who did its structural design."
+      ]
+    },
+    {
+      "titulo": "Twenty-two months of concrete",
+      "paragrafos": [
+        "The building site opened in August 1948. According to the National Archives, at the first hiring call, on 11 June of that year, 200 applicants showed up at the Derby; later, the site reached 3,500 workers a day and 5,000 at the peak, with an estimated total of 11,000 by the end. Other sources give smaller numbers, 2,800, or 1,500 plus another 2,000 in the final months. How many were injured or died, the sources consulted do not record.",
+        "It took 500,000 sacks of cement, 80,000 cubic meters of concrete and about 10,000 tonnes of iron. The canopy only began to take shape in February 1950. According to the magazine Grandes Construções, the man in charge of the works, Colonel Herculano Gomes, reportedly had a resin added to the concrete to speed up curing. As Noronha's family remembers it, workers and engineers were afraid to stand under that roof with no pillars.",
+        "The stadium was opened on 16 June 1950, with President Eurico Gaspar Dutra and Mayor Mendes de Moraes. The first match, the next day, was between youth teams from Rio and São Paulo. The World Cup began on 24 June. The canopy was still resting on scaffolding."
+      ]
+    },
+    {
+      "titulo": "The fullest day",
+      "paragrafos": [
+        "On 16 July 1950, Uruguay beat Brazil 2–1 in the deciding match of the World Cup. The official attendance was 173,850 paying spectators; counting those who got in without a ticket, estimates range from 199,854 to 210,000 people. Guinness records the match as the largest crowd ever at a World Cup game.",
+        "It was not, however, the stadium's own record for paid attendance. That record dates from 31 August 1969, when 183,341 people paid to see Brazil beat Paraguay 1–0 in the qualifiers. At a Fla-Flu derby in December 1963, according to the National Archives, there were 194,603 people, the largest crowd for a club match. In 1966, the stadium was officially named Estádio Jornalista Mário Filho, after the journalist."
+      ]
+    },
+    {
+      "titulo": "The railing of 1992",
+      "paragrafos": [
+        "On 19 July 1992, about 20 minutes before the Brazilian Championship final between Flamengo and Botafogo, the safety railing on the first step of the north stand, where the Flamengo fans were, gave way along a stretch of some 13 meters. Fans plunged onto the section below. Frederico Castilho de Oliveira, 16, Cláudio José Rocha Galda, 17, and Sérgio de Souza Marques, 25, died; 82 people were injured.",
+        "The expert investigation pointed to badly installed railings, parts corroded by rust and overcrowding. The stadium was closed and only hosted matches again months later. A series of renovations followed: seats in the stands for the 2000 Club World Championship, the year in which IPHAN listed the stadium, for its ethnographic value according to the journal Vitruvius; and the end of the geral, the standing area at field level, replaced by seats in 2005, in preparation for the 2007 Pan American Games."
+      ]
+    },
+    {
+      "titulo": "The canopy that came down on purpose",
+      "paragrafos": [
+        "For the 2014 World Cup, the state government decided to rebuild the stadium on the inside. The two tiers of stands became one, and the 1950 canopy, with cracks, corroded reinforcement and spalling concrete, came under debate. A report by Coppetec, of the Federal University of Rio de Janeiro (UFRJ), recommended demolition on cost-benefit grounds. Spanish engineer María del Carmen Andrade, hired by the government itself, concluded that it could be repaired, with a service life of 10 to 20 years. In April 2011, IPHAN's office in Rio authorized the demolition, and in May the machines began cutting the concrete into 20-tonne pieces.",
+        "In its place went a roof of 46,500 square meters of PTFE-coated fiberglass membrane, designed by the German firm schlaich bergermann partner, held up by a compression ring and three tension rings resting on the old structure. The stadium reopened on 2 June 2013, with Brazil 2 × 2 England. The renovation, by the Odebrecht, Andrade Gutierrez and Delta consortium, cost R$1.2 billion according to the State Court of Accounts, which found R$211 million in overbilling; Agência Pública speaks of more than R$1.3 billion."
+      ]
+    },
+    {
+      "titulo": "For sale?",
+      "paragrafos": [
+        "Flamengo and Fluminense have managed Maracanã since 2019, at first on a provisional basis; in September 2024, they signed a 20-year concession contract with the state, which includes the Maracanãzinho arena. On 22 October 2025, the Constitution and Justice committee of Rio's Legislative Assembly added the Maracanã Complex to the list of properties the state government may sell to deal with its debt to the federal government; lawmakers estimated its value at about R$2 billion. In November, the floor vote was postponed to 2026.",
+        "Meanwhile, the field is changing too. In September 2026, the two clubs' consortium announced that, after the end of the Brazilian Championship, the natural grass will give way to a hybrid pitch, with synthetic fibers, to withstand the run of matches and the rain. The stadium that was finished with its roof still shored up lost the original roof in 2011 and, in 2025, went onto the list of properties the state may sell."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Maracanã was built for 200,000 people.",
+      "registro": "The design called for 155,250 places, adding up seats, standing room, permanent reserved seats, the VIP stand and boxes. The 200,000 is the estimated crowd on match days, including people who got in without a ticket."
+    },
+    {
+      "circula": "The 1950 final is Maracanã's record for paid attendance.",
+      "registro": "The official attendance at the 1950 final was 173,850 paying spectators. The stadium's record for paid attendance belongs to Brazil 1 × 0 Paraguay, on 31 August 1969, with 183,341. The 1950 match is the largest crowd at a World Cup game."
+    },
+    {
+      "circula": "The stadium was ready for the 1950 World Cup.",
+      "registro": "It opened unfinished: the concrete canopy was still shored up on scaffolding during the World Cup, and full completion of the works is dated to 1965."
+    },
+    {
+      "circula": "The canopy was demolished because it was about to collapse.",
+      "registro": "The expert reports disagreed. Coppetec, of UFRJ, recommended demolition on cost-benefit grounds; the Spanish specialist hired by the state government concluded that the structure could be repaired, with a service life of 10 to 20 years."
+    }
+  ],
+  "perguntas": [
+    {"p": "When was Maracanã Stadium built?", "r": "Between 1948 and 1950, for the World Cup. Construction began in August 1948 and the stadium opened on 16 June 1950, eight days before the World Cup kicked off, with the canopy still resting on scaffolding; full completion is dated to 1965."},
+    {"p": "What was the Maracanã Stadium capacity in 1950?", "r": "The design called for 155,250 places, counting seats, standing room, permanent reserved seats, the VIP stand and boxes. At the 1950 World Cup final, the official attendance was 173,850 paying spectators, and estimates including those who got in without a ticket range from 199,854 to 210,000."},
+    {"p": "Who designed Maracanã Stadium?", "r": "A group of Brazilian architects that includes Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro and Miguel Feldman; some sources add Waldir Ramos and Oscar Valdetaro. According to the family of engineer Antônio Alves de Noronha, the canopy calculations were his."},
+    {"p": "How many workers built Maracanã Stadium?", "r": "The sources differ. According to the National Archives of Brazil, there were 3,500 a day, up to 5,000 at the peak and about 11,000 in total; other sources speak of 2,800, or of 1,500 plus 2,000 in the final months. None of the sources consulted records anyone killed or injured during construction."},
+    {"p": "Why was the Maracanã roof demolished?", "r": "In the renovation for the 2014 World Cup, with cracks, corroded reinforcement and spalling concrete, the 1950 canopy was demolished in 2011. The expert reports disagreed: Coppetec, of UFRJ, recommended demolition on cost-benefit grounds, and a specialist hired by the government concluded that it could be repaired."}
+  ],
+  "fontes": [
+    {"texto": "Arquivo Nacional (National Archives of Brazil), virtual exhibition \"Histórias do Maracanã antigo\""},
+    {"texto": "Rogério Daflon, \"Anatomia de um crime\", Agência Pública, 23 March 2017"},
+    {"texto": "\"Maracanã: destruir ou preservar\", Projetos 133.08, Vitruvius, 2012"},
+    {"texto": "National Academy of Engineering of Brazil, \"Antônio Alves de Noronha\""},
+    {"texto": "Grandes Construções magazine, \"Maracanã 1950: a história da construção se repetiu depois de 63 anos\""},
+    {"texto": "Votorantim Cimentos, \"Maracanã, o gigante das arquibancadas\""},
+    {"texto": "João Guilherme Vargas Netto, \"A construção do Maracanã\", 4 February 2014"},
+    {"texto": "Designing Buildings Wiki, \"Maracana Stadium\""},
+    {"texto": "schlaich bergermann partner, \"Stadium Maracanã (Estádio Jornalista Mário Filho)\""},
+    {"texto": "O Empreiteiro magazine, \"Coberturas do Maracanã e do Mineirão ganham soluções diferentes\""},
+    {"texto": "\"Cobertura do Maracanã é demolida com sistema de corte com disco diamantado\", from PINIweb, 2011"},
+    {"texto": "Guinness World Records, \"World Cup Rewind: largest attendance at a match in the 1950 Brazil final\", 2014"},
+    {"texto": "Santos Futebol Clube, \"Seis santistas jogaram no recorde de público do Maracanã\""},
+    {"texto": "Lance!, \"Há 25 anos, uma tragédia acontecia em final de Brasileiro no Maracanã\", 19 July 2017"},
+    {"texto": "Museu da Pelada, \"Tragédia de 1992\""},
+    {"texto": "Denaldo Alchorne de Souza, \"'Maracanã, adeus?' História e memórias de um lugar\", Ludopédio, 13 February 2026"},
+    {"texto": "\"Maracanã: 75 anos do templo do futebol\", História(dora) do Futebol"},
+    {"texto": "Exame, \"Reforma do Maracanã foi superfaturada em R$ 211 milhões, diz TCE\", 13 March 2017"},
+    {"texto": "Fluminense Football Club, \"Maracanã: contrato de concessão é assinado\", 27 September 2024"},
+    {"texto": "Lance!, \"Como fica a concessão do Maracanã caso o estádio vá a leilão?\", 23 October 2025"},
+    {"texto": "Brasil de Fato, \"Maracanã é incluído em lista de vendas de imóveis do estado do RJ\", 25 November 2025"},
+    {"texto": "Diário do Rio, \"Alerj adia para 2026 votação de projeto que autoriza venda de imóveis públicos\", 27 November 2025"},
+    {"texto": "Maracanã Stadium, \"Maracanã vai trocar de gramado para 2027 e adotará tecnologia híbrida para aumentar resistência\", 13 September 2026"},
+    {"texto": "Wikipedia (Portuguese), \"Estádio do Maracanã\" (starting point)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Color aerial view of an oval concrete stadium with the green field at the center, packed stands and a continuous canopy divided into pale segments all the way around; in the background, a round-domed arena and city buildings",
+      "legenda": "The stadium in 1976, still with the original cantilevered reinforced-concrete canopy; in the background, the Maracanãzinho arena.",
+      "autor": "Fortepan / Kátai Gyuláné"
+    },
+    {
+      "alt": "Old sepia panoramic photograph: curving concrete stands still bare, surrounded by tall wooden scaffolding towers, with hills in the background",
+      "legenda": "The building site in April 1949: the ring of stands already outlined and the scaffolding towers that would hold up the canopy.",
+      "autor": "Autor não identificado (revista Estadio, Santiago, 16/04/1949)"
+    },
+    {
+      "alt": "Black-and-white photograph: a packed stadium seen from the top of the stands, with the field on the left, players and a goal, and the dark canopy running around the upper ring; hills in the background",
+      "legenda": "The stadium full in June 1950, days before the World Cup, with the canopy over the upper ring.",
+      "autor": "Autor não identificado (Arquivo Nacional, fundo Agência Nacional)"
+    },
+    {
+      "alt": "Fans celebrating in Maracanã's geral standing area, hats held high, in 1950",
+      "legenda": "Fans in Maracanã's geral, the standing area at field level, during the 1950 World Cup.",
+      "autor": "Autor não identificado (Arquivo Nacional)"
+    },
+    {
+      "alt": "Aerial view of the oval stadium without a roof, with yellow cranes in the middle of the dirt field, surrounded by city buildings and green hills in the background",
+      "legenda": "December 2012: the 1950 canopy already demolished and the stadium open to the sky, awaiting the new roof.",
+      "autor": "Portal da Copa (Governo Federal)"
+    },
+    {
+      "alt": "Aerial view of the stadium with a continuous white ring-shaped roof around the field, next to the round-domed Maracanãzinho arena",
+      "legenda": "The stadium in 2013, after the renovation, with the membrane roof that replaced the canopy.",
+      "autor": "Governo Federal do Brasil (copa2014.gov.br)"
+    }
+  ]
+}

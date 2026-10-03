@@ -1,0 +1,165 @@
+{
+  "_nota": "Tradução fiel de ../22-ponte-de-forth.json. Campos fixos vêm do original.",
+  "obra": "Forth Bridge",
+  "titulo_seo": "Forth Bridge Construction: How It Was Built and Who Died",
+  "titulo_video": null,
+  "lugar": "Firth of Forth, between South Queensferry (Edinburgh) and North Queensferry (Fife), Scotland, United Kingdom",
+  "periodo": "1882–1890",
+  "impossivel": "Carrying trains across a Scottish estuary more than 1.5 km wide, with channels over 60 meters deep, right after another Scottish bridge had fallen in a storm taking a whole train with it, and convincing the public that the new one would not fall.",
+  "resumo": "How the Tay Bridge collapse gave rise to the Forth Bridge, the 1890 steel cantilever, and why its dead were only named a century later.",
+  "abertura": [
+    "On the night of 28 December 1879, during a storm, the central spans of the railway bridge over the River Tay, at Dundee, Scotland, fell with a train on them. Nobody on board survived. The bridge's engineer, Thomas Bouch, had already started another, even larger one across the Firth of Forth, near Edinburgh. It was abandoned.",
+    "In its place, John Fowler and Benjamin Baker designed a bridge that looked like nothing before it: three steel cantilever towers, splayed wide at the base to resist the wind, linked by suspended girders, with two spans of 520 meters. Opened on 4 March 1890, it was for decades the longest cantilever span in the world. It cost at least 57 lives, by the official count of the time; research carried out more than a century later reached 73 names."
+  ],
+  "numeros": [
+    {"valor": "2 × 520 m", "rotulo": "of main cantilever span, the longest in the world in 1890"},
+    {"valor": "110 m", "rotulo": "height of the towers above high water"},
+    {"valor": "6.5 million", "rotulo": "rivets, by the 1890 count, which the site engineer himself thought too low"},
+    {"valor": "4,600", "rotulo": "workers at the peak of construction"},
+    {"valor": "57 · 73", "rotulo": "dead: the official 1890 figure and the names on the 2012 memorial"},
+    {"valor": "1882–1890", "rotulo": "from the contract, in December 1882, to the opening, on 4 March 1890"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To link Edinburgh with the north of Scotland by rail without relying on the Queensferry ferry. The bridge was the centerpiece of a network of new lines to Perth, Dundee and Aberdeen."},
+    {"item": "The disaster that came first", "valor": "On 28 December 1879, the Tay Bridge, at Dundee, fell with a train during a storm, with no survivors. Its engineer, Thomas Bouch, had also designed a suspension bridge for the Forth, with work already begun; it was abandoned."},
+    {"item": "Dead on the Tay", "valor": "59 people are known by name and are on the 2013 memorial; the highest estimate, repeated since the time, is 75."},
+    {"item": "Design", "valor": "Sir John Fowler and Sir Benjamin Baker. A double-track steel cantilever railway bridge: three double-cantilever towers, with arms of 680 feet, and two suspended central girders of 350 feet."},
+    {"item": "Who built it", "valor": "Tancred, Arrol & Co., William Arrol's firm from Glasgow, contracted on 21 December 1882. Arrol had also held the contract for Bouch's bridge. The client was the Forth Bridge Railway Company, backed by four railway companies.", "nota": "the four railways and the 4% annual guarantee come from the account of Wilhelm Westhofen, an engineer on the works"},
+    {"item": "The wind", "valor": "Bouch had designed the Tay Bridge for a wind pressure of 10 pounds per square foot. After the disaster, the Board of Trade began requiring 56 pounds for exposed bridges, and the Forth was designed to that figure."},
+    {"item": "The steel", "valor": "All of it open-hearth Siemens-Martin steel, from mills in Scotland and Wales. The tonnage varies with the count: 42,000 tons planned plus about 16,000 in alterations, according to the site engineer; 53,000 according to Network Rail; 55,000 in other references."},
+    {"item": "Timeline", "valor": "Contract in December 1882; foundations from February 1883; superstructure from 1886; work completed at the end of 1889 (November or December, depending on the source); load test on 21 January 1890; opening on 4 March 1890, by the Prince of Wales.", "nota": "the month of completion differs between sources"},
+    {"item": "Workers", "valor": "4,600 at the peak, according to the engineer Wilhelm Westhofen; 3,200 in the spring of 1887 and more than 4,100 in September of that year. About a third were Irish. The total number of people who worked on the site was not recorded.", "nota": "the proportion of Irish workers comes from a single source"},
+    {"item": "Deaths during construction", "valor": "57 fatal accidents between July 1883 and Christmas 1889, by the count of the contractor's accident club, published in 1890. Local researchers later confirmed 73 names, including the 1890 painting and the approach works; these are the names on the 2012 memorial. Figures of 78 and 98 have also circulated."},
+    {"item": "Injured", "valor": "106 taken to the Edinburgh infirmary and 518 minor accidents treated by doctors, according to Westhofen. Boats on the river saved eight men from drowning.", "nota": "the eight rescued men appear in more than one source"},
+    {"item": "Cost", "valor": "About £3 million, according to Network Rail; an account from 1913 splits it into £1.7 million for the bridge, £0.8 million for plant and expenses and £0.5 million for the connecting railways. Another total reaches £3.2 million, counting £250,000 spent on Bouch's bridge. The value of the 1882 contract has not been confirmed in a primary source; the site engineer records only that it was exceeded.", "nota": "no conversion to today's values: there is no reliable index for a project of 1890"},
+    {"item": "Dimensions", "valor": "Spans of 1,710 feet between column centers, or 1,700 feet clear (about 520 m). Towers 110 m above high water. Rails about 46 m above the water. Total length 2,529 m by the 1890 measurement, or 2,467 m according to Network Rail."},
+    {"item": "Restoration", "valor": "From 2002 to December 2011, more than £130 million, by Network Rail with Balfour Beatty: 240,000 liters of epoxy paint, three coats, every rivet painted by hand. The paint is expected to last two decades or more."},
+    {"item": "Today", "valor": "More than 200 trains a day. A UNESCO World Heritage Site since 5 July 2015."},
+    {"item": "Now", "valor": "In August 2026, Fife Council heard that only about 5% of the bridge's lights work and that Network Rail does not plan to deal with it before 2030.", "nota": "reported by several newspapers, probably from the same original story"}
+  ],
+  "historia": [
+    {
+      "titulo": "A night on the Tay",
+      "paragrafos": [
+        "Until 1890, anyone traveling by train from Edinburgh to the north of Scotland ran into two estuaries: the Forth, just north of the capital, and the Tay, beside Dundee. The engineer Thomas Bouch had an answer for both: the Tay Bridge, which actually opened to trains, and, for the Forth, a suspension bridge with two spans of 1,600 feet; in 1873 the company was formed, the act was passed and the contract was signed with the builder William Arrol, of Glasgow. On Inchgarvie, the islet in the middle of the estuary, a brick pier actually went up, after a foundation stone laid with ceremony.",
+        "On 28 December 1879, at around a quarter past seven in the evening, during a gale, the central spans of the Tay Bridge fell with the train that was crossing them. Nobody survived. How many died was never settled: the memorials unveiled in 2013 on both sides of the river carry 59 names, the known ones; the estimate of 75 dates from the time. The inquiry concluded that the bracing and fastenings were inadequate to resist the force of the gale, and the report of commissioner Henry Rothery named Bouch as chiefly to blame, for faults of design, construction and maintenance. Bouch had taken the wind into account, but at 10 pounds per square foot. He died in 1880."
+      ]
+    },
+    {
+      "titulo": "Fifty-six pounds of wind",
+      "paragrafos": [
+        "According to Wilhelm Westhofen, an engineer on the works that came later, the disaster and what the investigations revealed shook public confidence in Bouch's design, and the Forth suspension bridge was abandoned. The four railway companies with an interest in the east coast route, the Great Northern, North Eastern, Midland and North British, asked their consulting engineers, Barlow, Harrison and John Fowler, to study afresh whether crossing the Forth was worthwhile and with what kind of bridge. They compared Bouch's bridge, three forms of stiffened suspension bridge, a cantilever and even tunnels.",
+        "The winner was the cantilever of John Fowler and Benjamin Baker, submitted to the directors in May 1881 and authorized by Parliament in July 1882. The rules of the game were now different: the Board of Trade required bridges in exposed locations to be designed for a wind pressure of 56 pounds per square foot, more than five times the value used on the Tay. Baker installed wind gauges on Inchgarvie, one of them a board of 300 square feet, to learn what the estuary actually did."
+      ]
+    },
+    {
+      "titulo": "Three men and a bridge",
+      "paragrafos": [
+        "The idea is simple to demonstrate, and Baker demonstrated it. In a famous photograph, two men seated on chairs, identified as Fowler and Baker, hold out their arms braced on wooden poles; between them, on a suspended board, sits the Japanese engineer Kaichi Watanabe, a Glasgow graduate and a foreman on the works. The two men's arms are the cantilevers, Watanabe is the suspended central girder, and piles of bricks at the ends act as counterweights. The photograph is attributed to 1887; when and where it was taken is not certain. In 2007, it ended up on the Bank of Scotland's £20 note.",
+        "On the real bridge, each of the three towers is a pair of cantilever arms of 680 feet, and between them hang girders of 350 feet. The towers spread to 120 feet wide at the base, so that the wind has less leverage on the structure, and the columns are pairs of steel tubes up to 3.7 meters in diameter, leaning toward each other. The goal, in Westhofen's words, was for the bridge to be not only the largest and strongest, but the stiffest in the world, to win the public's confidence. It was also made of steel, at a time when bridges were made of iron: all the material was produced by the Siemens-Martin process, in mills in Scotland and Wales."
+      ]
+    },
+    {
+      "titulo": "Seven years over the estuary",
+      "paragrafos": [
+        "The contract was signed on 21 December 1882 with Tancred, Arrol & Co., and William Arrol reused the workshops he had put up for Bouch's bridge. The foundations began in February 1883. Six compressed-air caissons were sunk, four at Queensferry and two at Inchgarvie, to as much as 89 feet below high water. The superstructure began to rise in 1886, and by 1887 the three towers were already standing, still without their arms, as the photographs Philip Phillips took of the site show.",
+        "At the peak, according to Westhofen, 4,600 people worked there; over the course of the job, there were men almost 90 feet below high water, in the caissons, and more than 300 feet above it, on the towers. The riveters worked on piece rates, in squads of four, with a boy heating the rivets; the boys won a minimum of 20 to 24 shillings a week. The rivet count, which started at 5 million, reached 6.5 million, and Westhofen wrote that he doubted even that covered the total: on Inchgarvie alone almost 2.7 million were counted.",
+        "The work was completed at the end of 1889. On 21 January 1890, two trains with three locomotives each, hauling coal wagons, tested the bridge with about 1,880 tons. On 4 March 1890, the Prince of Wales, the future Edward VII, drove home a gilded rivet and declared the bridge open, in a speech cut short by the wind. Both the contract value and the deadline had been exceeded. The final cost appears as about £3 million, or £3.2 million when what was spent on Bouch's bridge is added."
+      ]
+    },
+    {
+      "titulo": "Fifty-seven, seventy-three",
+      "paragrafos": [
+        "The official death toll is in the same account by Westhofen, published four days before the opening. Between July 1883 and Christmas 1889, when the contractor's accident club ceased to exist, there were 57 fatal accidents, 106 cases taken to the Edinburgh infirmary and 518 minor accidents. The worst year was the one in which the central towers went up, with 17 deaths. Westhofen attributed three quarters of the serious accidents to avoidable causes and blamed the carelessness of the workers themselves, who dropped tools from the staging; he also stated that no death could be attributed to the compressed air in the caissons.",
+        "More than a century later, starting in 2005, a group of local historians from Queensferry searched death certificates and newspapers to put names to the dead. They reached 73: the 16 extra come from the initial painting, in 1890, and from approach works carried out by subcontractors, which the club did not count. The first on the list was Thomas Joseph Harris, a 16-year-old storekeeper, in November 1883. In 2012, two bronze monuments, one at each end of the bridge, were unveiled with the name, age and trade of each man. Other figures have circulated, such as 78 and 98, but the confirmed names number 73."
+      ]
+    },
+    {
+      "titulo": "The bridge that is never done being painted",
+      "paragrafos": [
+        "In English, “painting the Forth Bridge” became an expression for a job that never ends: when you finish, you have to start again. The bridge did, in fact, have painting crews for more than a century. Between 2002 and 2011, Network Rail spent more than £130 million to wrap the structure in scaffolding, blast off the old paint, repair the steel and apply 240,000 liters of an epoxy coating of the kind used on oil platforms, with every rivet painted by hand. On finishing, in December 2011, it announced that the paint would last two decades or more.",
+        "On 5 July 2015, the bridge was added to the UNESCO World Heritage List, as a masterpiece of frank, unadorned display of structure and a milestone in the use of steel. In August 2026, while discussing the site's management plan for 2026 to 2036, Fife Council heard that only about 5% of the lights that illuminated the bridge at night still work, and that Network Rail does not plan to deal with it before 2030. The bridge born from the fall of another, on a stormy night, still carries more than 200 trains a day, almost in the dark."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "The Tay Bridge fell because its engineers ignored the wind.",
+      "registro": "Thomas Bouch did take the wind into account, but at 10 pounds per square foot. The inquiry blamed inadequate bracing and fastenings, and Henry Rothery's report held Bouch responsible for faults of design, construction and maintenance. After the disaster, the requirement rose to 56 pounds."
+    },
+    {
+      "circula": "57 workers died building the bridge.",
+      "registro": "57 is the 1890 count, kept by the contractor's accident club up to Christmas 1889. The research by local historians confirmed 73 names, which are on the memorial unveiled in 2012."
+    },
+    {
+      "circula": "The bridge is painted nonstop: when the painting ends at one end, it starts again at the other.",
+      "registro": "There were permanent painting crews, but the endless cycle is an exaggeration that became a figure of speech. Since the restoration completed in 2011, the coating is expected to last two decades or more."
+    },
+    {
+      "circula": "It was the world's first steel structure.",
+      "registro": "The safest wording is the first major structure in Britain built of steel rather than iron. Scotland's heritage body speaks of the world's first major steel structure; other official sources limit the claim to the United Kingdom, and in the United States the Eads Bridge, of 1874, already used steel as its main metal."
+    }
+  ],
+  "perguntas": [
+    {"p": "Who built the Forth Bridge?", "r": "It was designed by Sir John Fowler and Sir Benjamin Baker. Construction went to Tancred, Arrol & Co., William Arrol's firm from Glasgow, contracted on 21 December 1882; the client was the Forth Bridge Railway Company."},
+    {"p": "When did construction of the Forth Bridge start?", "r": "It was built between 1882 and 1890. The contract was signed in December 1882, the foundations began in February 1883, the superstructure in 1886, and the bridge was opened on 4 March 1890 by the Prince of Wales."},
+    {"p": "Why is the Forth Bridge shaped the way it is?", "r": "Because it was born from the fall of the Tay Bridge, on 28 December 1879. Fowler and Baker designed a steel cantilever with three towers splayed at the base, so the wind has less leverage, designed for a wind pressure of 56 pounds per square foot, more than five times the value used on the Tay."},
+    {"p": "How many men died building the Forth Bridge?", "r": "The sources differ. The official 1890 figure is 57 fatal accidents; research by local historians later confirmed 73 names, which are on the 2012 memorial. Figures of 78 and 98 have also circulated."},
+    {"p": "How big is the Forth Bridge?", "r": "The two main spans are about 520 m each, and the towers rise 110 m above high water. The total length differs between sources: 2,529 m by the 1890 measurement or 2,467 m according to Network Rail."}
+  ],
+  "fontes": [
+    {"texto": "Wilhelm Westhofen, \"The Forth Bridge\", reprinted from Engineering, 28 February 1890"},
+    {"texto": "Wilhelm Westhofen, \"The Forth Bridge: Wind Pressure and Wind Gauges\", 1890 (Wikisource)"},
+    {"texto": "The Forth Bridges, \"Building the Forth Bridge\""},
+    {"texto": "The Forth Bridges, \"Forth Bridge History\""},
+    {"texto": "The Forth Bridges, \"Forth Bridge Construction Statistics\""},
+    {"texto": "The Forth Bridges, \"The Grand Opening of the Forth Bridge\""},
+    {"texto": "The Forth Bridges, \"War and Briggers Memorials\""},
+    {"texto": "Network Rail, historical archive, \"032 – Forth Bridge\""},
+    {"texto": "Network Rail, \"Forth Bridge makes final brush with a modern myth\", 5 September 2011"},
+    {"texto": "Historic Environment Scotland, \"The Forth Bridge\""},
+    {"texto": "UK National Commission for UNESCO, \"The Forth Bridge\""},
+    {"texto": "American Society of Civil Engineers, \"Firth of Forth Railway Bridge\""},
+    {"texto": "Who Do You Think You Are? Magazine, \"How many people died building the Forth Rail Bridge?\", 15 November 2023"},
+    {"texto": "Grace's Guide to British Industrial History, \"Forth Bridge\""},
+    {"texto": "Undiscovered Scotland, \"The Forth Bridge\""},
+    {"texto": "Railway Wonders of the World, \"The Forth Bridge\" (c. 1913)"},
+    {"texto": "Tom Martin, \"Tay Bridge Disaster\" (research and memorial pages)"},
+    {"texto": "University of Glasgow Library, \"The University of Glasgow, Japan, and the Forth Rail Bridge\", 4 September 2015"},
+    {"texto": "The Scotsman, \"Broken lights on the landmark Forth Bridge won't be fixed until 2030\", 2026"},
+    {"texto": "Central Fife Times, \"Forth Bridge lighting so bad only 5 per cent of them work\", 2026"},
+    {"texto": "Wikipedia, \"Forth Bridge\" and \"Tay Bridge disaster\" (starting point)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Red steel bridge with three large diamond-shaped structures over calm water that reflects them, a stone pier on the right and a train crossing the viaduct under a blue sky",
+      "legenda": "The whole bridge seen from South Queensferry in February 2013, with a train on the approach viaduct.",
+      "autor": "George Gastin"
+    },
+    {
+      "alt": "Old sepia photograph: toppled, twisted iron girders sticking out of the water of a wide river, with a row of bridge piers in the background ending in an empty gap",
+      "legenda": "The fallen spans of the Tay Bridge, at Dundee, photographed for the Board of Trade after the disaster of 28 December 1879.",
+      "autor": "Board of Trade (Grã-Bretanha), acervo da National Library of Scotland"
+    },
+    {
+      "alt": "Old black-and-white photograph: two men in hats seated on chairs hold out their arms braced on poles, supporting between them a third man seated on a suspended board; piles of bricks at the ends and a drawing of the bridge on the wooden wall behind",
+      "legenda": "The living model of the cantilever: Kaichi Watanabe suspended between two men identified as John Fowler and Benjamin Baker. The photograph is attributed to 1887.",
+      "autor": "Fotógrafo não identificado, para Benjamin Baker"
+    },
+    {
+      "alt": "Old sepia photograph: three steel lattice towers under construction rising from the water of an estuary, still without their arms, seen from a beach with seaweed-covered rocks",
+      "legenda": "The three towers standing on 17 April 1887, the day the Queensferry tower reached its full height, seen from the south shore.",
+      "autor": "Philip Phillips, acervo da National Library of Scotland"
+    },
+    {
+      "alt": "Old sepia photograph: huge riveted steel tubes, inclined and horizontal, being assembled on a circular stone base, under beams and cranes; two small workers standing by the base",
+      "legenda": "The southwest skewback of the Fife tower on 7 September 1886, with the steel tubes being assembled.",
+      "autor": "Philip Phillips, acervo da National Library of Scotland"
+    },
+    {
+      "alt": "Tall blade-shaped bronze monument with columns of engraved names, standing on a lawn, with houses and trees behind",
+      "legenda": "One of the two monuments unveiled in 2012, at North Queensferry, with the name, age and trade of those who died building the bridge.",
+      "autor": "Rosser1954"
+    }
+  ]
+}

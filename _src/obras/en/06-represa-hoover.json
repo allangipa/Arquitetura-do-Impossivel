@@ -1,0 +1,149 @@
+{
+  "_nota": "Tradução fiel de ../06-represa-hoover.json. Campos fixos vêm do original.",
+  "obra": "Hoover Dam",
+  "titulo_seo": "Hoover Dam: How It Was Built and How Many Died",
+  "titulo_video": "Hoover Dam: 96 dead on the plaque, 213 in the government's own tables",
+  "lugar": "Black Canyon, Colorado River, on the Nevada–Arizona line, United States",
+  "periodo": "1931–1936",
+  "impossivel": "Raising the world's tallest dam at the bottom of a desert canyon, with the Colorado River diverted through the mountain and a mass of concrete that, poured all at once, would have taken 125 years to cool.",
+  "resumo": "How Hoover Dam moved the Colorado River out of its canyon and beat the heat of its own concrete, and why the death toll runs from 96 to 213.",
+  "abertura": [
+    "In the Black Canyon of the Colorado River, on the line between Nevada and Arizona, in the United States, some 48 km southeast of Las Vegas, the US government had the tallest dam in the world of its time built between 1931 and 1936: 221 meters of concrete, from the foundation rock to the crest. To do it, an entire river had to be taken out of its bed, sent through four tunnels cut into the rock, and the concrete had to be cooled with chilled water, block by block.",
+    "The job was finished about two years ahead of schedule, in the depths of the Great Depression. The price in lives is another story, and it depends on who is counting: the memorial plaque speaks of 96 dead; the government's own tables, adding up every cause, reach 213 by the end of 1935."
+  ],
+  "numeros": [
+    {"valor": "221 m", "rotulo": "high, from the foundation rock to the crest (726.4 feet)"},
+    {"valor": "2.48 million m³", "rotulo": "of concrete in the dam alone"},
+    {"valor": "4 tunnels", "rotulo": "15 m in diameter to take the river out of the canyon"},
+    {"valor": "937 km", "rotulo": "of chilled-water pipe inside the concrete"},
+    {"valor": "5,200+", "rotulo": "workers on the job at the same time at the peak, in 1934"},
+    {"valor": "96 × 213", "rotulo": "dead: accidents on the site × all causes in the government tables"}
+  ],
+  "ficha": [
+    {"item": "Who wanted it", "valor": "The US Congress, through the Boulder Canyon Project Act, signed by President Calvin Coolidge on December 21, 1928, to regulate the Colorado River, control floods, store water and generate power."},
+    {"item": "Authorized funding", "valor": "$165 million for the whole project: dam and reservoir ($70.6 million), power plant ($38.2 million), All-American Canal ($38.5 million) and interest ($17.7 million).", "nota": "breakdown from the Project History of 1934 and 1935"},
+    {"item": "Owner", "valor": "The Bureau of Reclamation, of the Department of the Interior; construction engineer Walker R. Young."},
+    {"item": "Contractor", "valor": "Six Companies, Inc., a consortium of six firms from the American West; superintendent Frank Crowe. Bid of $48,890,995; contract awarded on March 11, 1931."},
+    {"item": "Cost of the dam with the power plant", "valor": "About $108 million, in the words of Franklin D. Roosevelt at the dedication, in 1935. The project was paid off with power sales by 1987, except for the $25 million allocated to flood control.", "nota": "values of the time, not converted"},
+    {"item": "Timeline", "valor": "Work began in April 1931; river diverted on November 13 and 14, 1932; first concrete on June 6, 1933; last on May 29, 1935; dedication on September 30, 1935; project accepted on March 1, 1936, about two years ahead of schedule."},
+    {"item": "Workers", "valor": "21,000 in all and an average of 3,500 a day, according to the Bureau of Reclamation. A peak of 5,251 on a single day (July 20, 1934); the highest monthly average was 5,218, in June 1934.", "nota": "the total and the average come from a single source; the peak, from two"},
+    {"item": "Wages", "valor": "From $0.50 an hour (laborer, 8-hour shift) to $1.25 (steam shovel operator), with $1.60 a day deducted for room and board for single men."},
+    {"item": "Heat", "valor": "In the summer of 1931, over 46 °C by day according to the Bureau of Reclamation (other sources say 49 °C); inside the tunnels, up to 60 °C."},
+    {"item": "Deaths", "valor": "96 deaths in accidents on the site, the figure the government calls official and the one on the memorial plaque. The government's own annual tables, with all causes, add up to 213 through December 31, 1935, and 215 including 1936. The figure 112, which also circulates, has no explained origin.", "nota": "the 96 exclude heat, pneumonia and disease"},
+    {"item": "Heat deaths", "valor": "16 between June 25 and July 26, 1931, outside the accident count. Two were women who lived in the area and did not work on the project."},
+    {"item": "Pneumonia", "valor": "42 deaths recorded as pneumonia, all outside the accident count. The workers blamed the exhaust from gasoline trucks in the tunnels; it was never proven."},
+    {"item": "Dimensions", "valor": "221.4 m high; 201 m thick at the base and 13.7 m at the crest; 379 m long at the crest. A concrete arch-gravity dam."},
+    {"item": "Materials", "valor": "2.48 million m³ of concrete in the dam; more than 5 million barrels of cement; 937 km of one-inch steel pipe to cool the concrete."},
+    {"item": "Exclusion", "valor": "The 1902 law governing Bureau projects barred \"Mongolian\" labor, meaning Chinese. Fewer than 50 Black men among more than 20,000, and none of them could live in Boulder City."},
+    {"item": "Afterwards", "valor": "The tallest dam in the world when completed and the world's largest hydroelectric plant for about ten years, until Grand Coulee. Installed capacity of about 2,000 MW. On August 6, 2026, Lake Mead hit its record low, and the Bureau of Reclamation reports that generation has already fallen by about 30%."}
+  ],
+  "historia": [
+    {
+      "titulo": "A river, a law and six companies",
+      "paragrafos": [
+        "On December 21, 1928, President Calvin Coolidge signed the Boulder Canyon Project Act, which authorized $165 million to tame the Colorado River: a dam with a reservoir, a power plant, the All-American Canal and the interest on construction. The dam was meant to hold two full years of the river's average flow.",
+        "The site chosen was Black Canyon, not the Boulder Canyon that gave the project its name, on the line between Nevada and Arizona. According to Invention & Technology magazine, the bidding required a $5 million bond, and that is what forced the builders to team up. Six firms formed Six Companies, Inc., and their bid, $48,890,995, was the lowest. The contract came on March 11, 1931, and work began in April.",
+        "The owner was the Bureau of Reclamation, of the Department of the Interior. On the site, the Six Companies superintendent was Frank Crowe; for the government, the construction engineer Walker R. Young."
+      ]
+    },
+    {
+      "titulo": "The government town and the summer of 1931",
+      "paragrafos": [
+        "To house the workers, the government built Boulder City on federal land, with a gate, passes and federal rangers instead of police. The city manager, Sims Ely, appointed in the fall of 1931, could expel residents from the reservation. In a notice dated December 28, 1932, he reminded people that drunkenness meant expulsion and the loss of one's job. Black workers, who never numbered more than 50 among the more than 20,000 men on the project, were not allowed to live inside.",
+        "Before the town was ready, many people camped in shacks along the river. The summer of 1931 went above 46 °C in the shade, by the Bureau of Reclamation's record, and reached 60 °C inside the tunnels. Between June 25 and July 26, 16 people died of heat, each one named in the government tables. Seven worked for Six Companies, seven for other companies, among them the contractor running the mess hall and dormitories, and two were women who lived in the area without working on the project.",
+        "On August 7, 1931, tunnel workers walked off the job. The trigger was a pay cut: the muckers, who hauled away the rubble, would go from $5 to $4 a day. They demanded clean, cold water, flush toilets, an eight-hour day and compliance with the mining laws of Nevada and Arizona. Six Companies fired everyone and began rehiring on August 13. The strike lasted about a week; the cut stayed, and water, light and a rush to finish Boulder City followed."
+      ]
+    },
+    {
+      "titulo": "Four tunnels through the rock",
+      "paragrafos": [
+        "Before any concrete, the canyon floor had to be dried out. The solution was four diversion tunnels, two on each side, excavated to about 17 meters in diameter and lined with almost a meter of concrete, down to 15 meters. Together they ran almost 5 km. According to the Bureau of Reclamation, a ton of dynamite was used for every 4.3 meters of tunnel.",
+        "The high scalers did another dangerous job: they went down the canyon walls hanging from ropes, with jackhammers and dynamite, to strip away loose rock. The Bureau records that the most common cause of death on the project was falling objects. By the same record, the workers dipped cloth hats in tar to protect themselves, and later Six Companies bought industrial hard hats for everyone. Government photos from October 1932 show Apache men among the high scalers.",
+        "On November 12, 1932, President Herbert Hoover visited tunnel No. 2. The next day, the earth barriers in front of the Arizona tunnels were blasted away and the river entered the first of them. On November 14, the whole Colorado was flowing through the mountain, by way of tunnels 3 and 4. Behind two cofferdams, the riverbed lay dry for the foundation excavation."
+      ]
+    },
+    {
+      "titulo": "Pneumonia or gas",
+      "paragrafos": [
+        "Gasoline trucks ran inside the tunnels. On November 7, 1931, the Nevada mine inspector, A. J. Stinson, ordered Six Companies to stop using them. The company went to federal court, and the federal government itself joined the case on its side. In the ruling of April 28, 1932, the court noted that all parties admitted that carbon monoxide in the air could cause illness or death. Even so, it sided with the company, and on February 15, 1933, it ruled for good: the gasoline ban came from a 1911 law written for mines, and a construction tunnel was not a mine.",
+        "The government tables record 42 deaths from pneumonia, all outside the accident count. Fifteen of them fall between late November 1932 and March 1933, a winter in which the annual report itself records a flu epidemic, with hundreds sick and the school closed for a week. The official explanation at the time, in a notice from Sims Ely, blamed the low resistance of men who drank bootleg liquor.",
+        "The workers said something else: that it was the truck exhaust. They sued Six Companies, and the cases ended in a settlement for an amount never disclosed, after allegations of jury tampering. No document proves that the pneumonias were carbon monoxide, and none proves they were not."
+      ]
+    },
+    {
+      "titulo": "The concrete that cooked",
+      "paragrafos": [
+        "Concrete heats up as it hardens. According to the Bureau of Reclamation, had the dam been poured all at once, the heat would have taken 125 years to escape, and it would have cracked along the way. That is why it rose in about 215 separate columns, 7.6 to 18 meters on a side, in lifts of 1.5 meters, at most one lift every 72 hours.",
+        "Inside each lift went a one-inch steel pipe. First river water ran through it; then chilled water from an ammonia refrigeration plant able to produce a thousand tons of ice a day. In all there were 582 miles of pipe, about 937 km. In the middle of the dam, a slot 2.4 meters wide was left for the cooling headers, filled with concrete as the neighboring blocks cooled. Afterwards, the pipes and joints were pumped full of cement grout.",
+        "The first bucket, of 8 cubic yards (about 6 m³), came down from the cableway at 11:20 a.m. on June 6, 1933. The last concrete was placed on May 29, 1935. Cooling was suspended in March 1935 and completed on May 20. On February 1 of that year, a gate weighing over a thousand tons closed tunnel 4, and the lake began to fill."
+      ]
+    },
+    {
+      "titulo": "Counting the dead",
+      "paragrafos": [
+        "The memorial plaque by sculptor Oskar Hansen honors 96 men who died building the dam. The Bureau of Reclamation calls that number official and explains what it counts: only deaths on the site, by drowning, blasting, falling rock, falls from the canyon walls, machinery or trucks. Heat, pneumonia and heart disease are left out.",
+        "The government's own annual tables tell a different story. Adding up every cause, they reach 213 deaths through December 31, 1935, and 215 including 1936: among them, the 16 from heat, 42 from pneumonia, 36 from other natural causes and 10 in automobile accidents. From 1933 on, they note that there is no record of deaths among people not employed by the government or the contractors. And the original paper of the time and the corrected version the Bureau publishes online do not even agree on the number of accidents in 1935.",
+        "A third figure, 112, appears in the Bureau's official history and in many other sources as the total killed by accident or illness. No document explains the count. Historian Dennis McBride, interviewed by the Las Vegas Review-Journal in 2016, summed it up: there is no reliable number."
+      ]
+    },
+    {
+      "titulo": "Hoover or Boulder, and the white ring",
+      "paragrafos": [
+        "In September 1930, Interior Secretary Ray Lyman Wilbur announced the name Hoover Dam, and five acts of Congress between 1931 and 1933 used that name. On May 8, 1933, Harold Ickes, Franklin D. Roosevelt's Interior Secretary, ordered it called Boulder Dam. Roosevelt dedicated it on September 30, 1935, without saying Hoover's name even once. On April 30, 1947, Harry Truman signed the law that restored the Hoover name.",
+        "When it was finished, it was the tallest dam in the world. The first generator went into service on October 26, 1936, and the plant was the world's largest hydroelectric station for about ten years, until it was surpassed by Grand Coulee. It has 17 main turbines and about 2,000 MW of installed capacity, which the low lake no longer allows to be used in full.",
+        "The lake it holds back, Lake Mead, is drying up. On August 6, 2026, the water dropped to 1,040.50 feet (about 317.1 m), below the 2022 record and the lowest point since the lake was filled. On September 30, 2026, the Bureau's bulletin showed 1,037.80 feet (about 316.3 m). On the canyon walls, the rock the water has left behind forms a white ring.",
+        "The US government reports that generation has already fallen by about 30%, and that at an elevation of 1,035 feet (about 315.5 m) the plant's capacity could drop from 1,302 to 382 MW. In May 2026 it announced $52 million to replace up to three old turbines with models that work with the lake lower."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "There are men buried in the dam's concrete.", "registro": "The Bureau of Reclamation says there are none. The dam rose in blocks, in lifts of 1.5 meters; each bucket raised the level only a few centimeters, and five or six men tramped and vibrated the concrete in each block."},
+    {"circula": "The concrete is still curing and will take more than a hundred years to cool.", "registro": "The 125 years are the estimate of what would have happened without the chilled-water pipes. Artificial cooling ended in 1935. What continues is the slow gain in strength: cores taken in the 1990s showed more than double the strength measured during construction."},
+    {"circula": "The official death toll is 112.", "registro": "The number the government calls official is 96, accidents on the site only. The 112 appears in the Bureau's own history with no explanation. The tables of the time, with all causes, add up to 213 by the end of 1935."},
+    {"circula": "Father and son Tierney were the first and the last to die on the project, on the same day, 14 years apart.", "registro": "J. G. Tierney drowned in the river during a survey done before the project was authorized, and he is not among the 96. The year of his death is disputed: 1922 in the government table, 1921 in a newspaper from January 1922. His son, Patrick, fell from an intake tower on December 20, 1935, and is the last accidental death in the government's lists of names; the 1936 list has no accidents, although a report from the same year mentions two industrial deaths, without names. And, according to the government table, another Bureau man, Harold Connelly, had already died in the river in May 1921."},
+    {"circula": "Roosevelt inaugurated Hoover Dam, in Boulder Canyon.", "registro": "Roosevelt dedicated \"Boulder Dam\" and never spoke Hoover's name. And the dam stands in Black Canyon; Boulder was the name of the original project."}
+  ],
+  "perguntas": [
+    {"p": "How many workers died building the Hoover Dam?", "r": "It depends on who is counting. The number the government calls official, the one on the memorial plaque, is 96, accidents on the site only; the government's own annual tables, with all causes, add up to 213 by the end of 1935 and 215 including 1936. The 112 that also circulates has no explained origin."},
+    {"p": "Are there bodies buried in the Hoover Dam concrete?", "r": "No, according to the Bureau of Reclamation. The dam rose in blocks, in lifts of 1.5 meters, each bucket raised the level only a few centimeters, and five or six men tramped and vibrated the concrete in each block."},
+    {"p": "How long did it take to build the Hoover Dam?", "r": "Work began in April 1931 and the project was accepted on March 1, 1936, about two years ahead of schedule. The first concrete was placed on June 6, 1933, and the last on May 29, 1935."},
+    {"p": "How was the Hoover Dam built?", "r": "First the Colorado River was diverted through four tunnels 15 m in diameter cut into the rock, leaving the riverbed dry. Then the dam rose in about 215 separate columns, cooled by 937 km of chilled-water pipe so the concrete would not crack."},
+    {"p": "Is the Hoover Dam concrete still curing?", "r": "No. The 125 years that get repeated are the estimate of what would have happened without the chilled-water pipes, and artificial cooling ended in 1935. What continues is the concrete's slow gain in strength."}
+  ],
+  "fontes": [
+    {"texto": "Bureau of Reclamation, \"Fatalities at Hoover Dam\" (updated 2015)"},
+    {"texto": "Bureau of Reclamation, annual fatality tables from the Hoover Dam Project History, 1931–1935"},
+    {"texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1932 (NARA)"},
+    {"texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1935 (NARA)"},
+    {"texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1936 (NARA)"},
+    {"texto": "Wm. Joe Simonds, \"The Boulder Canyon Project — Hoover Dam\", Bureau of Reclamation"},
+    {"texto": "Bureau of Reclamation, \"Hoover Dam — Frequently Asked Questions and Answers\""},
+    {"texto": "Bureau of Reclamation, \"The Story of Hoover Dam — Concrete\""},
+    {"texto": "Bureau of Reclamation, essay on the diversion tunnels"},
+    {"texto": "Bureau of Reclamation, \"High Scalers\""},
+    {"texto": "National Register of Historic Places, nomination form for Hoover Dam, 1979 (rev. 1985)"},
+    {"texto": "National Park Service, \"'The Greatest Dam in the World': Building Hoover Dam\""},
+    {"texto": "Franklin D. Roosevelt, address at the dedication of Boulder Dam, September 30, 1935 (American Presidency Project)"},
+    {"texto": "Six Companies, Inc. v. Stinson, 58 F.2d 649 (D. Nev., 1932)"},
+    {"texto": "Six Companies, Inc. v. Stinson, 2 F. Supp. 689 (D. Nev., 1933)"},
+    {"texto": "Tom Huntington, \"Desert Colossus\", Invention & Technology, 2006"},
+    {"texto": "American Experience (PBS), \"Workers' Strike at Hoover Dam\""},
+    {"texto": "Henry Brean, \"Father and son died on the same day, 14 years apart while working on Hoover Dam\", Las Vegas Review-Journal, 2016"},
+    {"texto": "Amy Alonzo, \"How Hoover Dam hiring discrimination set back growth of Nevada's Black community\", The Nevada Independent"},
+    {"texto": "Bureau of Reclamation, \"What's In A Name?\""},
+    {"texto": "Spencer Howard, \"What's in a Name? The Saga of the Hoover Dam\", Herbert Hoover Presidential Library, 2021"},
+    {"texto": "Bureau of Reclamation, \"Enhancing Hoover Dam's Infrastructure and Energy Reliability\", May 21, 2026"},
+    {"texto": "Bureau of Reclamation, daily Lake Mead levels"},
+    {"texto": "ABC News, Lake Mead record low, August 7, 2026"},
+    {"texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1933 (NARA)"},
+    {"texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1934 (NARA)"}
+  ],
+  "imagens": [
+    {"alt": "Hoover Dam seen from above, with the curved concrete wall between the rocks of Black Canyon, the power plant at its foot and Lake Mead in the background", "legenda": "Hoover Dam and Black Canyon seen from the Mike O'Callaghan–Pat Tillman bridge, in April 2026. In the lake, in the background, the pale band on the rock marks where the water once stood.", "autor": "Christian David"},
+    {"alt": "Inside a diversion tunnel already lined with concrete, with metal scaffolding and two men on the floor", "legenda": "Finished concrete lining at the intake portal of diversion tunnel No. 4, October 1932.", "autor": "U.S. Bureau of Reclamation, 1932 (NARA 293757)"},
+    {"alt": "River water pouring out of a concrete tunnel portal in the canyon wall, with a man in a white shirt watching up close", "legenda": "The first Colorado River water flows out of diversion tunnel No. 3, on November 13, 1932.", "autor": "U.S. Bureau of Reclamation, 1932 (NARA 293776)"},
+    {"alt": "Men hanging from ropes on a sheer rock wall of the canyon", "legenda": "High scalers clean the canyon wall above the power plant site on the Nevada side, May 1933.", "autor": "U.S. Bureau of Reclamation, 1933 (NARA 293863)"},
+    {"alt": "Workers around a large cylindrical concrete bucket inside a wooden form", "legenda": "Concrete placed in a block at mid-section of the dam with the cableway's 8-cubic-yard bucket, July 1933.", "autor": "U.S. Bureau of Reclamation, 1933 (NARA 293921)"},
+    {"alt": "View from above of the canyon floor with the dam's concrete blocks rising to different heights", "legenda": "The dam's blocks rise to uneven heights, seen from the suspension bridge over the site, 1933.", "autor": "U.S. Bureau of Reclamation, 1933 (NARA 293916)"}
+  ]
+}

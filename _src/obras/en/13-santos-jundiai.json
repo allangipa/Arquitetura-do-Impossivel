@@ -1,0 +1,173 @@
+{
+  "_nota": "Tradução fiel de ../13-santos-jundiai.json. Campos fixos vêm do original.",
+  "obra": "Santos–Jundiaí Railway",
+  "titulo_seo": "São Paulo Railway (Santos–Jundiaí) and the Serra do Mar",
+  "titulo_video": null,
+  "lugar": "Serra do Mar, between Santos and Jundiaí, by way of the city of São Paulo, São Paulo State, Brazil",
+  "periodo": "1860–1867",
+  "impossivel": "Getting a train up some 800 meters of escarpment in 8 kilometers of dense forest, with a fixed capital that could not pay for any locomotive railway all the way to the top of the range.",
+  "resumo": "How the São Paulo Railway, the Santos–Jundiaí line, beat the Serra do Mar in 1867 with four inclines, cable and steam, and why the idea is back in 2026.",
+  "abertura": [
+    "In the mid-nineteenth century, coffee from the interior of São Paulo went down to the port of Santos, on the São Paulo coast, on the backs of mules. In the way stood the Serra do Mar, an escarpment that climbs almost in one go to nearly 800 meters, covered in Atlantic Forest. A British company, the São Paulo Railway, was given the task of putting a railway there with a capital fixed at 2 million pounds, with no guarantee for a penny more.",
+    "An ordinary locomotive line would have had to wind for more than 40 kilometers just to get over the range. The solution was a different one: cut the slope into four inclines of about 10% and haul the trains up by steel cable, with stationary steam engines at the top of each incline, one train going up while another came down on the other end of the same cable. The line opened on 16 February 1867, ten months ahead of schedule."
+  ],
+  "numeros": [
+    {"valor": "762 to 808 m", "rotulo": "of height gained over the range, depending on the source and the point of measurement"},
+    {"valor": "4 inclines", "rotulo": "of about 10% grade, totaling some 8 km, with a steam engine house at the top of each one"},
+    {"valor": "1860–1867", "rotulo": "from the first spadeful, in May 1860, to the opening, on 16 February 1867"},
+    {"valor": "£1.745M", "rotulo": "the construction contract with Robert Sharpe & Sons, according to the resident engineer"},
+    {"valor": "3,500", "rotulo": "men at the peak of the work, by the resident engineer's own estimate"},
+    {"valor": "139 km", "rotulo": "from Santos to Jundiaí, by way of the city of São Paulo"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To carry coffee from the interior of São Paulo to the port of Santos without depending on the mule trains that came down the Serra do Mar on dirt roads and stone-paved tracks."},
+    {"item": "Who wanted it", "valor": "The Baron of Mauá, the Marquis of Monte Alegre and councilor José Antônio Pimenta Bueno, who received the concession from the Empire in April 1856, with 7% interest guaranteed on a maximum capital of £2 million; a decree of October 1859 extended the guarantee to 90 years. The company was formed in London in December 1859.", "nota": "the day of the decree appears as 20 or 26 April, depending on the source"},
+    {"item": "Design", "valor": "The Scottish engineer James Brunlees, of London, chose the inclined planes. The route was surveyed from 1856 by Daniel Makinson Fox, then 26 years old, who later ran the work as resident engineer. The mechanics of the inclines were designed by R. F. Welby, and the engines were built by Fairbairn & Co., of Manchester.", "nota": "Welby's name and the maker of the engines come from a single source, Fox's description"},
+    {"item": "Who built it", "valor": "The British contractor Robert Sharpe & Sons, hired on 8 February 1860, which subcontracted most of the work in small lots; American contractors built heavy sections between São Paulo and Jundiaí."},
+    {"item": "The system on the range", "valor": "Four inclines with a gradient of 1 in 9.75, close to 10%, with a house of stationary steam engines at the top of each one. In the so-called tail-end system, one train went up attached to one end of the cable while another came down on the other. Each trip carried, in 1869, up to 40 tonnes, in about 15 minutes per incline.", "nota": "the load and the time per incline come from Fox's description; the load was later raised to 60 tonnes"},
+    {"item": "Timeline", "valor": "First spadeful in May 1860; Grota Funda viaduct begun in July 1863 and crossed by the first train in November 1865; rails at Jundiaí in July 1866; opened to traffic on 16 February 1867, ten months before the eight years of the contract were up.", "nota": "some sources give 15 March or November 1860 as the start of the work"},
+    {"item": "Workers", "valor": "About 3,500 at the peak, \"of all nationalities and shades of colour\", according to the resident engineer Daniel Fox: Portuguese and islanders from the Azores and Madeira in greatest number, Germans, Brazilians, English foremen. The total number of workers was not recorded. The concession prohibited the use of enslaved people, but documents from 1863 show that they worked on the line."},
+    {"item": "Wages", "valor": "From 4 shillings and 6 pence to 6 shillings a day during construction, according to Fox."},
+    {"item": "Deaths during construction", "valor": "No source consulted gives a total. The accident reports of the government's inspecting engineer, from 1861 to 1863, record deaths by drowning, gunpowder explosion and crushing, with the names of the victims, according to research by the historian Paulo Rodrigues de Andrade."},
+    {"item": "Cost", "valor": "Contract of £1,745,000; with the extras, £1,817,917 paid to the contractors, plus a bonus of £43,750 from the government for early delivery. Fox calculated £31,570 per mile including the interest paid during construction, which comes to around £2.7 million; a study published in the journal Arquitextos speaks of £2.75 million.", "nota": "adjusted only for British inflation (ONS price index, a factor of about 145 between 1867 and 2026), the contract is equivalent to some £254 million in 2026"},
+    {"item": "Measurements", "valor": "A rise of 2,557 feet (about 779 m) from the foot of the range, or 2,652 feet (about 808 m) above the sea, by Fox's measurement; other sources give 762 m or 796.6 m. Inclines from 1,781 to 2,139 m long, totaling some 8 km. Line of 139 km, gauge of 1.60 m."},
+    {"item": "Serra Nova", "valor": "Around the turn of the twentieth century, the company doubled the line and opened a second funicular, with five inclines of 8%, with stationary engines of 1,000 horsepower driving an endless cable, to which small locomotives hauling the cars, the locobreques, attached themselves by a grip.", "nota": "the start of the work and the inauguration appear as 1895 or 1896 and 1900 or 1901, depending on the source"},
+    {"item": "Nationalization", "valor": "On 13 September 1946, at the end of the 90-year concession, Decree-Law No. 9,869 transferred the railway to the federal government; it became the Estrada de Ferro Santos a Jundiaí."},
+    {"item": "Rack railway", "valor": "In 1974 the Federal Railway Network (Rede Ferroviária Federal) opened, on the bed of the 1867 inclines, a rack railway with Japanese Hitachi locomotives; MRS Logística, which operates the freight section, began using Swiss Stadler locomotives from 2012. The first funicular stopped in 1970 or 1974, and the second in 1976 or 1982, depending on the source."},
+    {"item": "Paranapiacaba", "valor": "The Alto da Serra work camp, from 1861, became the railway village now called Paranapiacaba, in Santo André, with the Vila Martin Smith, opened by the company in 1897. Listed as heritage by Condephaat in 1987 and by IPHAN, and bought by the City of Santo André in 2002. It has been on Brazil's Tentative List for UNESCO since 2014.", "nota": "the IPHAN listing appears as 2002 or 2008, depending on the source"},
+    {"item": "Today", "valor": "On 31 March 2026, Governor Tarcísio de Freitas said that restoring the abandoned funicular looked like the most viable option for the future São Paulo–Santos passenger train; the study remains open, with a public hearing planned for 2027. Since July 2026, the village's metal footbridge has been under restoration."}
+  ],
+  "historia": [
+    {
+      "titulo": "A wall between the coffee and the sea",
+      "paragrafos": [
+        "The Serra do Mar runs parallel to the São Paulo coast and rises almost in one go. In the description that the engineer Daniel Makinson Fox presented in 1870 to the Institution of Civil Engineers, in London, it rises \"abruptly\" to at least 2,500 feet, some 760 meters, covered in forest. For centuries the way down had been by Indigenous trails, the Calçada do Lorena, from 1792, and the Estrada da Maioridade, from the 1840s, all on foot or on muleback.",
+        "On the other side lay the São Paulo plateau, where coffee was spreading fast. Fox put the province's production at 80 million pounds a year. All of it had to go down to Santos. The idea of a railway had existed since the 1830s, was taken up again by the Baron of Mauá in 1853 and 1854, and stalled once more with the Crimean War. In April 1856, the Empire gave the concession to Mauá, to the Marquis of Monte Alegre and to councilor José Antônio Pimenta Bueno."
+      ]
+    },
+    {
+      "titulo": "Numbers that did not add up",
+      "paragrafos": [
+        "The concession guaranteed 7% interest, for a term later extended to 90 years, on a maximum capital of 2 million pounds sterling, and Fox records that it was \"distinctly understood\" that there would be no guarantee for additional capital. Mauá handed the project to the Scottish engineer James Brunlees, who sent Fox, aged 26, to Brazil at the beginning of 1856.",
+        "The instruction from London was to lay out an ordinary locomotive line. Fox says that one look at the terrain was enough to conclude it would not fit the money. The comparison he made is with the Dom Pedro II Railway, which climbed the range near Rio de Janeiro, where the mountain is lower: on the same standard, the São Paulo climb would require at least 26 miles, some 42 kilometers of continuous grade, and would cost £1.5 million on the range alone. Brunlees chose the shortcut: inclined planes, with a gradient of 1 in 10, worked by stationary engines.",
+        "The survey took some fifteen months. According to Fox, the team spent three weeks at a time inside the forest, in huts thatched with palm leaves, and came out \"blanched from want of sunlight\"."
+      ]
+    },
+    {
+      "titulo": "Four inclines and a cable",
+      "paragrafos": [
+        "What was built was four inclines with a gradient of 1 in 9.75, a little over 10%, with lengths between 1,781 and 2,139 meters by Fox's measurement, totaling some 8 kilometers. At the top of each one, an almost level landing of some 76 meters held the engine house: a pair of steam engines of 158 nominal horsepower, fed by five boilers. The cable, of steel wire, was tested to 35 tonnes and lasted about two years.",
+        "The system had an English name, tail-end. One train was attached to one end of the cable and another to the opposite end: while one went up, the other came down, and the weight of the descending one helped the engine. In the middle of each incline the rails split into a passing loop so the two could cross. Each train carried three wagons and a brake van with a clamp able to bite the rails and stop the train within a few meters, used also on foggy days, when the rail became slippery.",
+        "In 1869, according to Fox, each trip lifted at most 40 tonnes and took some 15 minutes per incline, an hour for the whole range. The locobreques, the small locomotives that gripped the cable and that today are associated with the funicular, only arrived with the second system, around the turn of the twentieth century."
+      ]
+    },
+    {
+      "titulo": "The mountain that kept sliding",
+      "paragrafos": [
+        "The biggest problem was not the grade, it was the ground. The cuttings reached 75 and 95 feet deep, and the slopes, 330 feet long. Fox writes that \"embankment after embankment was carried away during construction\", sometimes after it was finished. The answer was to drain everything: collect the water from the slope above the line and carry it across in stone channels, face the embankments and shore up the cuttings with dry-stone walls up to 60 feet high. In all, there were 1.2 million cubic yards of excavation, close to 920,000 cubic meters.",
+        "At the foot of the fourth incline, a valley was crossed by the Grota Funda viaduct, some 215 meters long and 185 feet high at its deepest point. There was no scaffolding: a cable was stretched from one side of the chasm to the other and the iron columns were lowered along it, piece by piece. The first stone was laid in July 1863, and the first train crossed in November 1865. The whole line opened on 16 February 1867. The contract allowed eight years, until the end of 1867, and the contractor Robert Sharpe & Sons received from the government a bonus of £43,750 for finishing ten months early."
+      ]
+    },
+    {
+      "titulo": "Who opened the way down the range",
+      "paragrafos": [
+        "Fox estimated that the largest number of men on the work at any one time was \"probably about 3,500 of all nationalities and shades of colour\". The most numerous, according to him, were Portuguese and islanders from the Azores and Madeira; there were Germans, Brazilians who left the fields for wages and went back at planting time, and Englishmen as foremen and engine drivers. Wages ranged from 4 shillings and 6 pence to 6 shillings a day. The total number of workers was not recorded.",
+        "Fox also wrote that, although Brazil was a slaveholding country, the concession required the use of free labor. The documents tell another story. In an official letter of July 1863 to the president of the province, the company's superintendent, J. J. Aubertin, admitted that the work had been using enslaved people for more than three years, \"not without some tacit permission\" from the government. The accident reports of the inspecting engineer Wallace da Gama Cochrane, from 1861 to 1863, name ten enslaved workers. The historian Paulo Rodrigues de Andrade, who found these papers, concludes that the presence of enslaved people on the work was the rule, not the exception.",
+        "Nobody published how many died. What exists are names: João, drowned in January 1861; Benedicto Cotovi, burned by gunpowder in September of the same year; two enslaved men killed in 1862, one crushed by a rock, the other drowned; the Portuguese José Fernandes, who died two days after an explosion in a mine on the range, in October 1862."
+      ]
+    },
+    {
+      "titulo": "The richest railway and the second funicular",
+      "paragrafos": [
+        "The final bill came in above forecast, but not far off. The contract with Sharpe was for £1,745,000, and the contractors received £1,817,917. With the interest paid during construction, Fox arrived at £31,570 per mile, which comes to nearly £2.7 million for the line; the guaranteed capital in 1869 was £2,650,000. With coffee, the São Paulo Railway came to be described in the British technical press as perhaps the richest railway in the world.",
+        "Traffic grew so much that, around the turn of the twentieth century, the company doubled the line and opened a second funicular, the Serra Nova: five inclines of 8%, some 10 kilometers, engines of 1,000 horsepower and an endless cable gripped by the locobreques. The two systems worked side by side for decades. On 13 September 1946, at the end of the 90-year concession, the railway passed to the federal government and became the Estrada de Ferro Santos a Jundiaí.",
+        "In the 1970s, the Federal Railway Network dismantled the first funicular and, in 1974, opened a rack railway on the same bed, with Japanese locomotives. The second funicular stopped for good in 1976 or in 1982, depending on the source. It is on the inclines of 1867 that MRS freight trains still go down the range."
+      ]
+    },
+    {
+      "titulo": "The village at the top and the return of the funicular",
+      "paragrafos": [
+        "At the top of the range, the 1861 work camp became a village. The company needed to keep the men who ran the engines up there, and in 1897 it opened the Vila Martin Smith, laid out on a grid, with wooden houses allotted according to the company hierarchy. Alto da Serra is today Paranapiacaba, a district of Santo André. It was listed as heritage by Condephaat in 1987 and by IPHAN, bought by the city in 2002 and placed by Brazil on UNESCO's Tentative List in 2014. In July 2026 the restoration began of the metal footbridge that links the two parts of the village, budgeted at R$18 million.",
+        "On 31 March 2026, Governor Tarcísio de Freitas spoke about the passenger train the state is studying between São Paulo and Santos: \"Incredible as it may seem, what is looking most viable is to restore the funicular that has been abandoned for a long time\". The study remains open, with a public hearing planned for 2027, and there is no defined route. The idea of hauling trains up the range by cable, which the British chose for lack of money, is back on the table a century and a half later."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "The railway was built with free labor only, because the concession prohibited slaves.",
+      "registro": "The prohibition existed, and the resident engineer wrote that it was respected. But in an official letter of 1863 the company's superintendent admitted to the government that it was using enslaved people \"not without some tacit permission\", and the accident reports from 1861 to 1863 name ten of them."
+    },
+    {
+      "circula": "The inclined planes had a slope of 10 degrees.",
+      "registro": "The gradient was 1 in 9.75, that is, about 10%: the train rose 1 meter for every 9.75 traveled. Ten degrees would be almost 18%."
+    },
+    {
+      "circula": "Since 1867 the trains were hauled by the locobreques.",
+      "registro": "In the first system, the cable was attached to an unpowered brake van. The locobreques, small locomotives with a grip to seize the cable, were bought for the second funicular, the Serra Nova, opened around the turn of the twentieth century."
+    },
+    {
+      "circula": "The railway was built without explosives, because of the unstable slope.",
+      "registro": "The description of the work speaks of mines (blasting headings) and tunnels, and the accident reports record workers burned by gunpowder and one killed by an explosion in a mine on the range, in 1862."
+    },
+    {
+      "circula": "The budget was 200,000 pounds and the cost doubled.",
+      "registro": "The guaranteed capital was 2 million pounds. The contract was for £1,745,000, and the total cost, with the interest paid during construction, came to nearly £2.7 million."
+    }
+  ],
+  "perguntas": [
+    {"p": "When was the Santos–Jundiaí railway built?", "r": "Between 1860 and 1867. The first spadeful was in May 1860, and the 139 km line, from Santos to Jundiaí by way of São Paulo, opened to traffic on 16 February 1867, ten months before the contract deadline."},
+    {"p": "Who built the São Paulo Railway?", "r": "The British company São Paulo Railway, formed in London in 1859 on the basis of the concession given to the Baron of Mauá, the Marquis of Monte Alegre and Pimenta Bueno. The Scottish engineer James Brunlees chose the inclined planes, Daniel Makinson Fox ran the work and the contractor was Robert Sharpe & Sons."},
+    {"p": "How did the São Paulo Railway climb the Serra do Mar?", "r": "By steel cable. The slope was cut into four inclined planes of about 10%, totaling some 8 km, with a house of stationary steam engines at the top of each one; one train went up attached to one end of the cable while another came down on the other."},
+    {"p": "How many people died building the Santos–Jundiaí railway?", "r": "Nobody has published a total. The accident reports of the government's inspecting engineer, from 1861 to 1863, record deaths by drowning, gunpowder explosion and crushing, with the names of the victims, among them enslaved workers."},
+    {"p": "How much did the São Paulo Railway cost to build?", "r": "The construction contract was for £1,745,000, and the contractors received £1,817,917 with the extras. With the interest paid during construction, the total cost comes to nearly £2.7 million by the resident engineer's count; a study in the journal Arquitextos speaks of £2.75 million."}
+  ],
+  "fontes": [
+    {"texto": "Daniel Makinson Fox, \"Description of the Line and Works of the São Paulo Railway in the Empire of Brazil\", Minutes of Proceedings of the Institution of Civil Engineers, vol. 30, 1870"},
+    {"texto": "Paulo Rodrigues de Andrade, \"Trabalhadores escravos nas obras de construção da SPR na década de 1860\", Aedos (UFRGS), v. 7, n. 17, 2015"},
+    {"texto": "Cecília Rodrigues dos Santos, Claudia Lage and Gustavo Secco, \"Patrimônio: São Paulo Railway 150 anos\", Arquitextos, Vitruvius, 2017"},
+    {"texto": "Thaís Fátima dos Santos Cruz (FAU-USP), \"Funiculares da vila ferroviária de Paranapiacaba: reminiscências, remanescentes e permanências\", 2011"},
+    {"texto": "Thaís Fátima dos Santos Cruz, \"No meio do caminho... uma serra, a ferrovia, o café e uma vila\", Agro-Industrial Heritage Seminar, IAU-USP"},
+    {"texto": "Grace's Guide, \"Sao Paulo Railway\""},
+    {"texto": "Grace's Guide, \"James Brunlees\""},
+    {"texto": "Decree-Law No. 9,869, of 13 September 1946, Chamber of Deputies"},
+    {"texto": "City of Santo André, \"A Vila\" (Paranapiacaba)"},
+    {"texto": "City of Santo André, \"Paranapiacaba terá passarela restaurada com investimento de R$ 18 milhões\", 2026"},
+    {"texto": "Metrô CPTM, \"Tarcísio cita reativação de funicular como alternativa para Trem Intercidades até Santos\", 31 March 2026"},
+    {"texto": "Via Trolebus, \"O que sabemos sobre o Trem SP-Santos (Atualizado 2026)\", 2026"},
+    {"texto": "UNESCO, Tentative List, \"Cultural Landscape of Paranapiacaba: Village and railway systems in the Serra do Mar Mountain Range, São Paulo\""},
+    {"texto": "Office for National Statistics (via officialdata.org), UK consumer price index, 1867–2026"},
+    {"texto": "Wikipedia (Portuguese), \"São Paulo Railway\" and \"Funicular de Paranapiacaba\" (starting point)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Old sepia photograph: a double-track railway curves along a steep slope, with a stone wall on the left, a tunnel in the background, telegraph poles and the mist-covered valley on the right",
+      "legenda": "The São Paulo Railway line on the slope of the Serra do Mar, around 1900, photographed by Guilherme Gaensly.",
+      "autor": "Guilherme Gaensly (Museu Paulista da USP)"
+    },
+    {
+      "alt": "Old black-and-white postcard: at the top of a slope, rails with an iron railing on a high stone wall, a chimney, tanks and a small masonry house, with the range and the valley in the background",
+      "legenda": "One of the engine houses at the top of an inclined plane, on an early twentieth-century postcard. From here the steam engine hauled the cable.",
+      "autor": "Autor não identificado (cartão-postal, Museu Paulista da USP)"
+    },
+    {
+      "alt": "Old black-and-white postcard: view from the top of a cleared slope, with two railway lines cut at different levels, a tunnel mouth and a small wagon halfway up the incline",
+      "legenda": "General view of the inclined planes on the range, on an early twentieth-century postcard: the cuttings in the slope, a tunnel and a wagon right on the incline.",
+      "autor": "Autor não identificado (cartão-postal, Museu Paulista da USP)"
+    },
+    {
+      "alt": "Old black-and-white postcard: an iron viaduct on lattice piers crosses a forested valley, resting on the right on a large stone wall; a man in a peaked cap appears in the lower left corner",
+      "legenda": "One of the iron viaducts of the inclined planes, on an early twentieth-century postcard.",
+      "autor": "Autor não identificado (cartão-postal, Museu Paulista da USP)"
+    },
+    {
+      "alt": "Brick shed with two arches and a yellow gable bearing the inscription SPR 1900, an old railcar inside one of the arches, grass-covered tracks in front and red metal gantries",
+      "legenda": "Shed with the São Paulo Railway mark and the year 1900, in Paranapiacaba, photographed in 2020.",
+      "autor": "Lima Marcos Antonio"
+    },
+    {
+      "alt": "Aerial view of a rail yard between forested hills, with many tracks, blue and yellow locomotives, a brick clock tower in the center and empty platforms on the right",
+      "legenda": "The Paranapiacaba yard and the clock tower in 2018, at the top of the range, where the trains began their descent.",
+      "autor": "Igor Rando"
+    }
+  ]
+}

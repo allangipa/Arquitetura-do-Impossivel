@@ -1,0 +1,133 @@
+{
+  "_nota": "Tradução fiel de ../20-tunel-do-tamisa.json. Campos fixos vêm do original.",
+  "obra": "Thames Tunnel",
+  "titulo_seo": "How Brunel Built the Thames Tunnel (1825–1843)",
+  "titulo_video": null,
+  "lugar": "Under the River Thames, between Rotherhithe and Wapping, London, England, United Kingdom",
+  "periodo": "1825–1843",
+  "impossivel": "Driving a brick passage under a river crowded with ships, through a bed of mud and sand soaked in sewage, when the only earlier attempt at the same spot had been swallowed by the water.",
+  "resumo": "How Marc Brunel dug the Thames Tunnel, the first known to be finished under a navigable river, using a 36-cell shield, and why it took 18 years.",
+  "abertura": [
+    "At the start of the nineteenth century, the Port of London was spreading downriver, and there was no bridge between the docks on the two banks of the Thames: a low bridge would have closed the river to ships. The way out was to go under. Between 1805 and 1808, Cornish miners tried it, between Rotherhithe and Wapping, and the heading flooded when only a few hundred feet were left to go.",
+    "The engineer Marc Isambard Brunel, a Frenchman settled in England, staked everything on an invention of his own, patented in 1818: an iron cage divided into 36 cells, each holding one miner, which advanced tight against the face of the excavation while bricklayers lined the newly opened stretch with brick. Work began in 1825 and the tunnel opened only on 25 March 1843. In between, the river broke in several times, six men died in a single morning and the tunnel stood walled up for years."
+  ],
+  "numeros": [
+    {"valor": "36", "rotulo": "cells in the iron shield, one for each miner"},
+    {"valor": "1825–1843", "rotulo": "18 years from the start of the shaft to the opening, on 25 March 1843"},
+    {"valor": "366 · 396 m", "rotulo": "long: 1,200 or 1,300 feet, depending on the source"},
+    {"valor": "6", "rotulo": "dead in the flood of 12 January 1828; nobody added up the total for the whole job"},
+    {"valor": "£634,000", "rotulo": "total cost, including the fitting-out"},
+    {"valor": "1869", "rotulo": "the year the first train ran through; since 2024 it has been the under-river section of London Overground's Windrush line"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To link the docks on both banks of the Thames, in east London, without closing the river to ships. The tunnel was designed for freight carts and pedestrians."},
+    {"item": "Who wanted it", "valor": "The Thames Tunnel Company, made up of private investors, among them the Duke of Wellington. The Act of Parliament authorizing the work dates from June 1824."},
+    {"item": "Design", "valor": "Marc Isambard Brunel, chief engineer, inventor of the tunneling shield patented in January 1818. His son, Isambard Kingdom Brunel, was resident engineer from 1826–1827."},
+    {"item": "The shield", "valor": "Twelve iron frames side by side, each with three cells stacked in tiers: 36 miners protected at the same time. Each one dug a few inches of earth from the face, shored it up with boards, and the frame was pushed forward by jacks bearing on the brickwork already laid. The first shield was replaced by a new one in 1835–1836.", "nota": "the weight is given as about 7 tons per frame or 80 tons in all"},
+    {"item": "Timeline", "valor": "Rotherhithe shaft begun in March 1825; first flood in May 1827; second on 12 January 1828; tunnel walled up in August 1828; work resumed with Treasury money from December 1834; excavation finished in 1841; opening on 25 March 1843.", "nota": "the stoppage is counted as 6, 7 or 8 years, depending on which restart date is used"},
+    {"item": "Workers", "valor": "36 in the shield on each shift. About 500 working at once in the tunnel, among miners, bricklayers, smiths and carpenters, according to the book Iron Men, by David Waller. Many came from the Cornish mines. The total was not recorded."},
+    {"item": "Conditions", "valor": "River water, loaded with sewage, seeped in at the working face; methane caught fire in the lamps. Workers, and Isambard himself, fell ill."},
+    {"item": "Deaths", "valor": "Six men died in the flood of 12 January 1828: Thomas Ball, J. Long, Thomas Collins, Jeptha Cook, George Evans and a laborer named Lincoln. There is a record of one more miner killed in the flood of November 1837 and of an engineer who died of fever. The total for the 18 years of work does not appear in any source consulted.", "nota": "the six of 1828 are backed by several sources; the other cases come from one source each"},
+    {"item": "Cost", "valor": "£634,000, adding £454,000 for the excavation and £180,000 for the fitting-out. The government lent the company £270,000, according to the TfL archive; other sources speak of £247,000.", "nota": "there is no conversion into today's money with a published method"},
+    {"item": "Dimensions", "valor": "Two parallel brick galleries set in Roman cement, linked by arches. Length of 1,200 feet (366 m) or 1,300 feet (396 m), depending on the source; cross-section of 35 × 20 feet or 38 × 22 feet. The depth is usually given as about 23 m below the river surface at high tide, a figure that goes back to a single origin."},
+    {"item": "Visitors", "valor": "A toll of 1 penny. At the opening, 10,000 people paid in the first 24 hours, according to the TfL archive, or 50,000, according to other sources. A million visitors within a few months; Queen Victoria came in July 1843."},
+    {"item": "The railway", "valor": "Sold to the East London Railway, a company formed in 1865, for £200,000 according to TfL (another source says £800,000). First train on 7 December 1869. Electrified in 1913, joined to the Underground in 1933, part of London Overground since 2010; since November 2024 it has been the Windrush line.", "nota": "the sale price is disputed"},
+    {"item": "Listing", "valor": "Grade II* listed by Historic England since 24 March 1995. International Historic Civil Engineering Landmark of the ASCE since 1991."},
+    {"item": "Today", "valor": "The Rotherhithe entrance shaft and the pump engine house form the Brunel Museum. The museum's renovation, with £2.1 million from the National Lottery Heritage Fund, was called off in December 2025. In September 2026, the tunnel collection received Designated Status from Arts Council England."}
+  ],
+  "historia": [
+    {
+      "titulo": "A river that would not take a bridge",
+      "paragrafos": [
+        "At the turn of the nineteenth century, the traffic of the Port of London was moving down the Thames beyond London Bridge, toward the new docks. Anyone who needed to cross from one bank to the other along that stretch took a boat. A low bridge would block the tall ships coming up the river; a high bridge, with the technology of the day, was not feasible. That left going underneath.",
+        "Others had tried. In 1798–1799, Ralph Dodd wanted to drive a tunnel further downriver, between Gravesend and Tilbury, and gave up. Between 1805 and 1808, the Thames Archway Company brought in Cornish miners, with the engineer Richard Trevithick, to dig a narrow heading precisely between Rotherhithe and Wapping. They got to about 1,000 of the planned 1,200 feet before the water came in. The conclusion of many engineers was that the bed of the Thames, of mud and loose sand, could not be dug through."
+      ]
+    },
+    {
+      "titulo": "The worm and the cage",
+      "paragrafos": [
+        "Marc Isambard Brunel, an engineer born in France in 1769, told how he got the idea. In a letter to his granddaughter, from March 1842, now held in the archive of Royal Museums Greenwich, he recalls that around 1812, while working at the Chatham dockyard, he saw a piece of condemned ship's timber bored through by the shipworm, the mollusk that eats away at hulls. If those creatures could make small protected tunnels, he wrote, men could too, with equivalent protection. It is Brunel's own account, given thirty years later; the Brunel Museum treats it as the version usually told.",
+        "In January 1818 he patented a method for driving tunnels underground. The centerpiece was the shield: twelve iron frames set side by side, each divided into three tiers, for a total of 36 cells. In each cell, a miner removed a few inches of earth behind boards that held up the face, one board at a time. When they had all advanced, the frame was pushed forward by jacks bearing on the finished lining, and the bricklayers laid brick right behind it. The ground was never left unsupported for more than a few hand-spans. The work would be divided into two parallel arched galleries, linked by openings, in a block of brick and Roman cement."
+      ]
+    },
+    {
+      "titulo": "Beneath London's sewage",
+      "paragrafos": [
+        "The Thames Tunnel Company, with investors such as the Duke of Wellington, won authorization from Parliament in June 1824. In March 1825 work began at Rotherhithe, on the south bank, on the entrance shaft: a brick cylinder 50 feet across, built on an iron ring at the surface and sunk little by little as the earth was dug out from inside. At the end of that year the shield began to advance horizontally, heading north.",
+        "Progress was a few feet a day, when there was progress at all. River water, which carried London's sewage, leaked in through the working face; the air was foul, and methane coming out of the mud caught fire in the lamps. Workers fell sick with dizziness, pains and infections. Isambard Kingdom Brunel, Marc's son, took over the running of the site in practice in 1826 and was confirmed as resident engineer in 1827.",
+        "In May 1827, with 549 feet dug, the riverbed gave way and the river poured in. To plug the hole, Isambard went down in a diving bell and had bags of clay dropped onto the riverbed. The tunnel was pumped out and, in November of that year, the company held a banquet inside it, organized by him."
+      ]
+    },
+    {
+      "titulo": "The morning of 12 January 1828",
+      "paragrafos": [
+        "Shortly before six in the morning on 12 January 1828, the face of the tunnel gave way again. Six men died: Thomas Ball, J. Long, Thomas Collins, Jeptha Cook, who left six children, George Evans and a newly hired man named Lincoln. Isambard, who was at the working face, was swept by the water to the Rotherhithe shaft, pulled out unconscious and revived. With serious internal injuries, he spent months recovering, first in Brighton and then in Clifton, near Bristol.",
+        "The money ran out before the repairs, and in August 1828 the face of the tunnel was sealed with a brick wall. The work that was supposed to prove one could dig under a river became, for years, a walled-up passage beneath the Thames."
+      ]
+    },
+    {
+      "titulo": "The government pays for the rest",
+      "paragrafos": [
+        "The restart came with public money. In December 1834 the first installment arrived of a Treasury loan, of £270,000 according to the Transport for London archive, or part of £247,000 raised, according to other sources. The old shield, worn and warped, was dismantled in 1835, and a new, sturdier one went to work in March 1836. The stoppage lasted six, seven or eight years, depending on which date is taken as the restart.",
+        "The river kept coming in: there were floods in August and November 1837, in March 1838 and in April 1840. According to a survey based on the biography written by L. T. C. Rolt, the flood of November 1837 killed one more miner. There is also a record of an engineer who died of a fever blamed on the tunnel water. How many died in all over the eighteen years of work, no source consulted adds up. In 1839 the shield reached the Wapping bank, Marc Brunel was knighted in 1841, and the excavation reached the north shaft in November 1841."
+      ]
+    },
+    {
+      "titulo": "The penny attraction",
+      "paragrafos": [
+        "The tunnel opened to the public on 25 March 1843, with a ceremony and a procession. It cost £634,000 including the fitting-out. The spiral ramps that were to bring carts down to the bottom were never built for lack of money, and the freight passage became a pedestrian passage, via long stairways inside the shafts, at 1 penny per person. In the first 24 hours, 10,000 people paid to get in, according to the TfL archive; other sources speak of 50,000. Within a few months it passed a million visitors, and Queen Victoria visited it in July 1843. The archways between the galleries filled with souvenir stalls, and there was a yearly fair with musicians and tightrope walkers.",
+        "The novelty wore off. By the late 1850s the tunnel had a reputation as a seedy place. In 1865 the newly formed East London Railway bought it, for £200,000 according to TfL, and on 7 December 1869 the first train ran through. Marc Brunel died in 1849, and Isambard ten years later."
+      ]
+    },
+    {
+      "titulo": "A tunnel that still carries trains",
+      "paragrafos": [
+        "Brunel's tunnel has never gone out of use. It was electrified in 1913, absorbed into the London Underground in 1933, closed for refurbishment in 1995, when a proposal to cover the brick with sprayed concrete caused protests and led to its listing, and reopened in 1998. Since 2010 it has been part of London Overground, and since November 2024 it has been the under-river section of the Windrush line. The idea of the shield moved on: from 1869, Peter W. Barlow and James Henry Greathead redesigned it as a cylinder, the design from which today's tunnel boring machines descend, at a distance.",
+        "The Rotherhithe shaft and the drainage pump house form the Brunel Museum. The museum had £2.1 million from the National Lottery Heritage Fund to restore the two buildings and build an entrance pavilion in time for the 200 years since the start of the work. Studies of the Windrush line tunnel, just below, delayed everything, TfL raised objections to the pavilion's site, and in December 2025 the fund decided not to go ahead with the works. Two hundred years after Brunel, disturbing the ground above that tunnel is still an engineering problem. In September 2026, the museum's collection on the tunnel received Designated Status from Arts Council England, reserved for collections of outstanding importance."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "It was the first tunnel ever built under a river.", "registro": "The sources put it more carefully: the first known to have been successfully completed under a navigable river. The 1805–1808 attempt, at the same spot, got to about 1,000 feet before flooding, and there is an ancient account, of uncertain proof, of a tunnel under the Euphrates, in Babylon."},
+    {"circula": "Brunel's shield is the basis of every modern subway.", "registro": "The concept, a protective shell that advances while the lining is built just behind it, is the basis of tunneling today, as the TfL archive notes. But Brunel's shield was rectangular; today's machines descend from the cylindrical shield of Barlow and Greathead, used from 1869."},
+    {"circula": "Brunel invented the shield after watching a worm.", "registro": "That is Brunel's own version, in an 1842 letter about something he said he saw around 1812 at the Chatham dockyard. The shipworm, by the way, is a mollusk, not a worm. The Brunel Museum presents the story as the one usually told."},
+    {"circula": "The tunnel was built for carriages.", "registro": "It was designed for freight carts, but the spiral access ramps were never built for lack of money. From 1843 to 1869, it was a pedestrian passage, with stairways in the shafts and a toll of 1 penny."}
+  ],
+  "perguntas": [
+    {"p": "How was the Thames Tunnel built?", "r": "With the shield patented by Marc Isambard Brunel in 1818: an iron cage of 36 cells, each holding one miner, which advanced tight against the face of the excavation while the bricklayers lined the newly opened stretch with brick right behind it."},
+    {"p": "Who built the Thames Tunnel?", "r": "The chief engineer was Marc Isambard Brunel, a Frenchman settled in England. His son, Isambard Kingdom Brunel, was resident engineer from 1826–1827. The project belonged to the Thames Tunnel Company, made up of private investors, among them the Duke of Wellington."},
+    {"p": "How long did it take to build the Thames Tunnel?", "r": "18 years: the Rotherhithe shaft was begun in March 1825 and the tunnel opened on 25 March 1843. In between, the river flooded the works several times, and the tunnel stood walled up from August 1828 until work resumed with Treasury money, from December 1834."},
+    {"p": "How many people died building the Thames Tunnel?", "r": "The total was never added up. Six men died in the flood of 12 January 1828, and there is a record of one more miner killed in the flood of November 1837 and of an engineer who died of fever."},
+    {"p": "How long is the Thames Tunnel?", "r": "Sources differ: 1,200 feet (366 m) or 1,300 feet (396 m). It consists of two parallel brick galleries, linked by arches, that have carried trains since 1869."}
+  ],
+  "fontes": [
+    {"texto": "TfL Corporate Archives, Research Guide No 25: The Thames Tunnel, 2024"},
+    {"texto": "Historic England, Thames Tunnel, list entry 1242119 (Grade II*), 1995"},
+    {"texto": "American Society of Civil Engineers, \"Thames Tunnel\", International Historic Civil Engineering Landmark"},
+    {"texto": "London Museum, \"The Thames Tunnel: Marc Brunel's engineering marvel\""},
+    {"texto": "Royal Museums Greenwich, \"Musing on a mollusc: Brunel's inspiration for the Thames Tunnel\" (letter from Marc Brunel, 10 March 1842)"},
+    {"texto": "Brunel Museum, \"1828 Tunnel Flood\""},
+    {"texto": "Brunel Museum, \"Tunnel Shaft\""},
+    {"texto": "Brunel Museum, \"Working at the Face – Inspiration\""},
+    {"texto": "Brunel Museum, \"New Insights into the Thames Tunnel Designs\""},
+    {"texto": "Brunel Museum, news from 2026"},
+    {"texto": "Linda Hall Library, \"Scientist of the Day: Marc Isambard Brunel\""},
+    {"texto": "National Transport Trust, \"Thames Tunnel\""},
+    {"texto": "Guinness World Records, \"First tunnel under a navigable waterway\""},
+    {"texto": "PBS, Building Big, \"Thames Tunnel\""},
+    {"texto": "Mark Cartwright, \"Thames Tunnel\", World History Encyclopedia, 2023"},
+    {"texto": "Andie Byrnes, \"Marc Brunel in Rotherhithe: the construction of the Thames Tunnel 1825–1843\", A Rotherhithe Blog, 2015"},
+    {"texto": "ianVisits, \"Brunel Museum's expansion put on hold after railway tunnel complications\", 29 May 2026"},
+    {"texto": "Tom de Castella, \"Tate + Co's expansion of Brunel Museum runs out of steam\", Architects' Journal, 14 July 2026"},
+    {"texto": "Evie Flynn, \"Rotherhithe museum for first underwater tunnel gains Designated Status\", Southwark News, 17 September 2026"},
+    {"texto": "Wikipedia, \"Thames Tunnel\" and \"Tunnelling shield\" (starting point)"}
+  ],
+  "imagens": [
+    {"alt": "Old black-and-white engraving: an arched brick gallery receding into the distance, with side archways lit by lamps, pedestrians in top hats and two men pulling a cart on the stone floor", "legenda": "The tunnel as a pedestrian attraction, in an engraving published in Germany in 1839, four years before the opening.", "autor": "Bibliographisches Institut, Hildburghausen (Meyer's Universum, vol. 6)"},
+    {"alt": "Old woodcut of a rectangular grid of wood and iron frames in three tiers and twelve columns, with boards across the front of each cell and a few miners working inside; two arches drawn over it mark the outline of the galleries", "legenda": "The shield seen from the front, with its 36 cells in three tiers, in a popular English magazine from November 1832.", "autor": "Autor não identificado (The Penny Magazine)"},
+    {"alt": "Lithograph of a bright gallery of successive arches, with a woman in a white dress and a boy on the left and gentlemen in top hats by the archways and lamps on the right", "legenda": "Visitors in one of the galleries, in a nineteenth-century lithograph that gives the tunnel a length of 1,300 feet, a width of 38 and a height of 22.", "autor": "Autor não identificado (Library of Congress, Popular Graphic Arts)"},
+    {"alt": "Inside an arched tunnel with train tracks running toward a bright light in the distance; on the left, the original columns and arches of painted brick", "legenda": "The northbound train gallery in 2007, already a railway tunnel, with Brunel's original arches on the left.", "autor": "Steve McSherry"},
+    {"alt": "People walking on the tracks at the dark entrance of two tunnel galleries side by side, lit in the distance", "legenda": "The two galleries, side by side, on a walking tour with the line closed, in May 2014.", "autor": "Martyn Pattison"},
+    {"alt": "Dark interior of a circular shaft of blackened brick, with a zigzag metal staircase outlined in red light and chairs on the floor", "legenda": "The Rotherhithe entrance shaft, begun in 1825, now part of the Brunel Museum, with the staircase installed in 2016.", "autor": "Z22"}
+  ]
+}

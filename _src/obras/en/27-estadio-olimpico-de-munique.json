@@ -1,0 +1,149 @@
+{
+  "_nota": "Tradução fiel de ../27-estadio-olimpico-de-munique.json. Campos fixos vêm do original.",
+  "obra": "Munich Olympic Stadium",
+  "titulo_seo": "Munich Olympic Stadium Roof: How It Was Built (1969–1972)",
+  "titulo_video": null,
+  "lugar": "Olympic Park, Munich, Bavaria, Germany",
+  "periodo": "1969–1972",
+  "impossivel": "To hang more than 70,000 square meters of acrylic over a stadium, an arena and a swimming pool, on a cable net nobody knew how to calculate, with a fixed deadline and without knowing whether the shape could even be built.",
+  "resumo": "How the cable-and-acrylic roof of the Munich Olympic Stadium came from a nylon stocking, went through wire models and only stood up thanks to a computer.",
+  "abertura": [
+    "In October 1967, the jury of the competition for the Olympic Park in Munich, Bavaria, Germany, chose a design whose model, according to the most often told story, had toothpick masts and a roof of stretched nylon stocking. Günter Behnisch's office proposed covering the stadium, the arena, the swimming pool and the paths between them with a single transparent tent, inspired by the pavilion Frei Otto had just put up at the Montreal Expo.",
+    "The problem was that nobody knew whether it could be built. The report the German government delivered to Parliament in 1975 says so in plain words: at the outset it was not even clear whether the roof was technically feasible, nor was there any remotely reliable basis for estimating its cost. The architect spoke of 15 to 18 million marks. The final bill was 170.6 million."
+  ],
+  "numeros": [
+    {"valor": "DM 170.6M", "rotulo": "final cost of the roof, according to the government's report to the Bundestag (1974)"},
+    {"valor": "DM 15–18M", "rotulo": "the cost architect Günter Behnisch estimated in February 1968"},
+    {"valor": "74,000 · 78,700 m²", "rotulo": "of covered area, depending on the source and the way it is measured"},
+    {"valor": "75 cm", "rotulo": "per side of each mesh in the steel cable net"},
+    {"valor": "80 m", "rotulo": "height of the tallest masts that hold up the net"},
+    {"valor": "11,000", "rotulo": "acrylic panels to be replaced in the renovation planned for 2026–2029"}
+  ],
+  "ficha": [
+    {"item": "What for", "valor": "The 1972 Summer Olympic Games, from August 26 to September 11. The roof covers the Olympic Stadium, the Olympiahalle, the Olympic swimming pool and the paths between them, on the former Oberwiesenfeld airfield."},
+    {"item": "Competition", "valor": "104 designs submitted by July 3, 1967. On October 13, 1967, 17 of the 19 jurors voted for the one by Behnisch & Partner, championed by the jury chairman, architect Egon Eiermann.", "nota": "the number of designs appears in a single source"},
+    {"item": "Architects", "valor": "Behnisch & Partner, of Stuttgart: Günter Behnisch, Fritz Auer, Carlo Weber and Cord Wehrse. Frei Otto joined as partner architect for the roof, and his institute at the University of Stuttgart built the models."},
+    {"item": "Engineering", "valor": "The Leonhardt + Andrä office (Fritz Leonhardt and Wolfhardt Andrä), with Jörg Schlaich, then 34 years old, and Rudolf Bergermann in charge of the roof. Computer calculations by John Argyris and by Klaus Linkwitz with Hans-Jörg Schek, on a CDC 6600 at the University of Stuttgart."},
+    {"item": "Timeline", "valor": "Construction began on June 9, 1969; foundation stone on July 14, 1969; net lifted from May or June 1971; stadium roof finished on April 21, 1972; stadium inaugurated on May 26, 1972, with West Germany 4–1 Soviet Union before about 80,000 people.", "nota": "the month the net began to go up varies among sources; the exact days for the start of construction, the foundation stone and the completion of the roof come from a single source"},
+    {"item": "The structure", "valor": "A steel cable net with a 75 × 75 cm mesh, fastened to edge cables and hung from steel masts up to 80 m tall; nodes and connecting pieces in cast steel; concrete anchor blocks of up to 4,000 tonnes. On top, acrylic panels of 3 × 3 m."},
+    {"item": "Covered area", "valor": "74,800 m² in the most cited figure; 74,000 m² according to the engineering firm that made the roof; about 78,000 to 78,700 m² in the documents for the 2025 renovation. Over the stadium, 34,550 m²."},
+    {"item": "Workers", "valor": "About 5,000 workers and more than a million hours of work, according to Armin Radtke's book on the stadium (2005). The total for the roof alone was not recorded in the sources consulted."},
+    {"item": "Accidents", "valor": "No official figure has been published. Engineer Rudolf Bergermann says there was no accident during the original construction; a former worker, in testimony to the Munich City Museum, remembers a colleague who fell and died at one of the Olympic building sites, without saying which."},
+    {"item": "Cost of the roof", "valor": "170.6 million marks in the provisional final account of September 30, 1974, against 47.7 million in the first estimate by the client, Olympia-Baugesellschaft (October 1967), and 15 to 18 million in the architect's (February 1968). In 1969, the only two bids in the tender were for 101 million and 130 million. By the same report's figures, it was double what the stadium cost without the roof.", "nota": "engineer Rudolf Bergermann and the Munich press speak of 200 million or more"},
+    {"item": "Who paid", "valor": "The Games cost 1,967 million marks. Two thirds came from Olympic revenue, such as the lottery (252 million) and the 10-mark commemorative coin (679 million). The net burden on the public purse was 635 million, divided among the federal government, Bavaria, Munich, Schleswig-Holstein and Kiel.", "nota": "federal government report to the Bundestag, 1975"},
+    {"item": "The acrylic", "valor": "The original panels turned milky over time and were replaced in the late 1990s. According to Bergermann, a worker fell through a brittle panel and died during that replacement."},
+    {"item": "Protection", "valor": "A protected Bavarian heritage monument since 1997. On September 22, 2023, the Federal Chamber of Engineers declared the roof a Historic Landmark of Civil Engineering in Germany.", "nota": "the year of the heritage listing appears in a single source"},
+    {"item": "Today", "valor": "A complete renovation of the roof was approved in 2025, for 298.4 million euros, from September 2026 to the end of 2029, with the replacement of 11,000 panels and anticorrosion treatment of the cables. On September 26, 2026, Munich was chosen as Germany's candidate for the 2036, 2040 or 2044 Games."}
+  ],
+  "historia": [
+    {
+      "titulo": "A stocking over toothpicks",
+      "paragrafos": [
+        "Munich won the 1972 Games and chose an odd site for them: Oberwiesenfeld, a former airfield north of the city center, with a hill made of war rubble. The architecture competition received 104 designs by July 1967. The one by Behnisch & Partner, a Stuttgart office, did not propose buildings: it proposed a landscape, with stands dug into the ground and a single light roof over everything.",
+        "The idea for the roof came from Montreal. Cord Wehrse, of the office, had seen the German pavilion at Expo 67, a cable net of about 8,000 square meters hung from masts, designed by Frei Otto and Rolf Gutbrod. According to the most often told story, the competition model had toothpick masts and a roof made of stretched nylon stocking. It was an image, not a structure.",
+        "According to engineer Rudolf Bergermann, the design was nearly eliminated and survived only because Mayor Hans-Jochen Vogel and the jury chairman, Egon Eiermann, defended it. On October 13, 1967, it won by 17 votes to 2."
+      ]
+    },
+    {
+      "titulo": "Nobody knew if it was possible",
+      "paragrafos": [
+        "The report the federal government delivered to the Bundestag in 1975 does not hide the size of the gamble. The roof, the text says, was a completely new technical construction, with no experience to draw on; at the beginning, it was not even clear whether it could be built. In March 1968 the client ordered a conservative alternative to be developed alongside the tent, with separate roofs over each building.",
+        "A group of international experts examined both. On the tent, it concluded that the construction appeared structurally and constructively flawless and buildable. Engineer Fritz Leonhardt, according to Bergermann, was the one who told the client the roof could be built. On June 21, 1968, the board chose the tent, with no time for another expert opinion."
+      ]
+    },
+    {
+      "titulo": "Models that were not enough",
+      "paragrafos": [
+        "Frei Otto became famous for studying lightweight forms with soap film, which stretches between wires until it takes up the smallest possible area. For Munich, however, what the technical sources record are other models. His institute at the University of Stuttgart built form-finding models of polyester mesh at a scale of 1:200 and, for the calculations, models at 1:125, with the net made of 0.2-millimeter stainless steel wire, the edge cables of copper and each node tied by hand.",
+        "These models were loaded with weights and photographed by several cameras at once, to measure how much the net sagged. The length of each cable was to come from the photos. It did not work. According to a 2024 study by the German research group that studies these models, there would not have been time to build all the detailed models needed; Bergermann recalls that the institute's first models were too imprecise to serve as a basis for construction.",
+        "Working together was not easy either. Frei Otto argued for a 50-centimeter mesh, which nobody could fall through; the engineers imposed 75, to reduce the number of nodes. According to Bergermann, after almost half a year of cooperation, the client decided to let Frei Otto go."
+      ]
+    },
+    {
+      "titulo": "The computer joins the job",
+      "paragrafos": [
+        "The way out was to calculate. The University of Stuttgart had a CDC 6600, one of the fastest computers of its day. John Argyris, one of the creators of the finite element method, adapted a program that had been written for helicopter rotors and used it on the arena's net. The geodesist Klaus Linkwitz, who was supposed only to measure the models, created another method with Hans-Jörg Schek, based on least squares, ready in May 1970 and used on the stadium.",
+        "That method is now known as the force density method and is still used to find the shape of cable and membrane roofs all over the world. The firm that made the roof calls it the first iterative computer application for this kind of problem. The construction drawings, at a scale of 1:20, were made by hand by twenty or thirty soldiers of the German army, according to Bergermann.",
+        "Between the nylon stocking and the finished roof, then, stands a computer. The form was born from an architect's drawing and from physical models; but the exact length of each cable, the position of each node and the cutting pattern of the net came out of programs."
+      ]
+    },
+    {
+      "titulo": "A bill that multiplied",
+      "paragrafos": [
+        "The 1975 report records the escalation date by date. In October 1967 the client, Olympia-Baugesellschaft, estimated the roof at 47.7 million marks, using the Montreal pavilion as a basis. In February 1968 Behnisch spoke of 15 to 18 million. In July 1969, when bidding opened, only 2 of the 15 interested firms submitted bids: 101 million and 130 million. The stadium, arena and pool had been under construction since June.",
+        "In December 1969 the client signed a cost-reimbursement contract. The bill kept climbing: the translucent acrylic, steel 20% more expensive, corrections to wrong estimates, corrosion protection. On September 30, 1974, the provisional final account reached 170.6 million marks, double the stadium without the roof by the report's own figures. Bergermann and the Munich press speak of 200 million or more.",
+        "The government itself summed it up this way: the roof had by far the highest rate of cost increase of all the Olympic projects, and is at the same time a pioneering technical achievement of the first order. Because of the pressure of the deadline, the report says, design and construction had to run partly in parallel."
+      ]
+    },
+    {
+      "titulo": "The roof that stayed",
+      "paragrafos": [
+        "The stadium roof was finished in the spring of 1972, and the stadium was inaugurated on May 26, with four goals by Gerd Müller against the Soviet Union. In September the Games were interrupted by the attack on the Israeli team in the Olympic Village, and it was in the stadium, under the roof, that about 80,000 people gathered for the memorial ceremony for the victims.",
+        "The east side of the stands is still uncovered: the section of roof planned there was never built, although the foundations were laid as a precaution. The acrylic panels, which according to Bergermann were supposed to last about 25 years, turned milky and were all replaced in the late 1990s. The stadium, protected as a heritage monument and by copyright, lost its soccer clubs in 2005 and went on to host athletics and concerts; since 2023 it has been undergoing renovation, with the central part closed from October 2025 until mid-2027."
+      ]
+    },
+    {
+      "titulo": "Taking it apart panel by panel, again",
+      "paragrafos": [
+        "In September and October 2025 the city approved the complete renovation of the roof, budgeted at 298.4 million euros. The 11,000 acrylic panels will be replaced once again, along with dampers, profiles and joints; the cables get new corrosion protection; and part of the anchor foundations will be repaired. The work was scheduled to begin in September 2026 and end in late 2029, in stages.",
+        "At the same time, the park became a candidate again. On October 26, 2025, 66.4% of Munich voters backed an Olympic bid, and on September 26, 2026, the German Olympic Sports Confederation chose the city, by 91 votes to 50, as the country's candidate for the 2036, 2040 or 2044 Games. The roof nobody knew could be built is being redone to, perhaps, cover a second Olympics."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "Frei Otto found the shape of the roof by dipping wires into soapy water.", "registro": "Frei Otto did study minimal surfaces with soap film at his institute in Stuttgart. But for Munich, the technical records describe a nylon-stocking model in the competition, polyester-mesh models at 1:200 and steel-wire models at 1:125 for measurement, with no soap film."},
+    {"circula": "The roof was made without a computer, with models alone.", "registro": "No. The models could not deliver the precision or the time needed, and the final calculation of the cables was done on a CDC 6600 computer at the University of Stuttgart, with programs by John Argyris and by Klaus Linkwitz and Hans-Jörg Schek. It was one of the first major applications of computers in civil engineering."},
+    {"circula": "Frei Otto designed the Munich roof.", "registro": "The roof was born in Günter Behnisch's office, inspired by Frei Otto's pavilion in Montreal, and was engineered by the Leonhardt + Andrä office, with Jörg Schlaich and Rudolf Bergermann. Frei Otto was the partner architect for the roof and his institute built the models; according to Bergermann, he was let go after half a year."},
+    {"circula": "The roof cost ten times more than planned.", "registro": "It depends on whose forecast. It was about ten times the 15 to 18 million marks estimated by the architect, and three and a half times the client's first estimate of 47.7 million. The official final bill was 170.6 million."}
+  ],
+  "perguntas": [
+    {"p": "Who designed the Munich Olympic Stadium?", "r": "The design is by the Stuttgart office Behnisch & Partner, led by Günter Behnisch, with Frei Otto as partner architect for the roof. The roof was engineered by the Leonhardt + Andrä office, with Jörg Schlaich and Rudolf Bergermann in charge."},
+    {"p": "How was the Munich Olympic Stadium roof built?", "r": "It is a steel cable net with a 75 × 75 cm mesh, hung from masts up to 80 m tall and covered with acrylic panels of 3 × 3 m. The models could not provide the precision needed, and the length of each cable was calculated on a CDC 6600 computer at the University of Stuttgart."},
+    {"p": "When was the Munich Olympic Stadium built?", "r": "Construction began on June 9, 1969, the net began to be lifted in 1971 and the stadium roof was finished on April 21, 1972. The stadium was inaugurated on May 26, 1972, with West Germany 4–1 Soviet Union, for the 1972 Games."},
+    {"p": "How much did the Munich Olympic Stadium roof cost?", "r": "The provisional final account, from 1974, was 170.6 million marks, against 15 to 18 million estimated by the architect and 47.7 million in the client's first estimate. Bergermann and the Munich press speak of 200 million or more."},
+    {"p": "Is the Munich Olympic Stadium still standing?", "r": "Yes. It lost its soccer clubs in 2005 and went on to host athletics and concerts. In 2025 a complete renovation of the roof was approved, for 298.4 million euros, with the replacement of 11,000 acrylic panels by the end of 2029."}
+  ],
+  "fontes": [
+    {"texto": "Deutscher Bundestag, Drucksache 7/3066, \"Unterrichtung durch die Bundesregierung betr. Gesamtfinanzierung der Olympischen Sommerspiele 1972\", 1975"},
+    {"texto": "Wenzel, Vöhringer, Schmid and Weber, \"Retro-digitising non-Euclidean physical models in construction history\", Architectus, 2024"},
+    {"texto": "Iker Gil and Bill Baker, \"The Super Roof Turns 50\", interview with Rudolf Bergermann and Knut Göppert, MAS Context, 2022"},
+    {"texto": "schlaich bergermann partner, \"Roof for Munich Olympic Stadium 1972\""},
+    {"texto": "Bundesingenieurkammer, \"Eine Idee wird Realität: wie das Zeltdach des Olympiastadions München den Ingenieurbau Deutschlands prägte\", 2023"},
+    {"texto": "University of Stuttgart, Institut für Ingenieurgeodäsie, annual report 2017 (obituary of Klaus Linkwitz)"},
+    {"texto": "H.-J. Schek, \"The force density method for form finding and computation of general networks\", Computer Methods in Applied Mechanics and Engineering, 1974"},
+    {"texto": "Olympiapark München, \"Zeltdach-Konstruktion\""},
+    {"texto": "City of Munich, \"Stadtrat beschließt Sanierung des Zeltdachs im Olympiapark\", 2025"},
+    {"texto": "Stadtwerke München, \"Modernisierungen im Olympiapark\""},
+    {"texto": "City of Munich, official result of the referendum on the Olympic bid, 2025"},
+    {"texto": "Sportschau, \"München ist Olympiabewerber: Schwieriger Prozess mit ulkigem Ende\", 2026"},
+    {"texto": "Münchner Stadtmuseum, \"Ein tragischer Unfall im Vorfeld der Spiele\", testimony by Helmut Bauer"},
+    {"texto": "Bayerische Landeszentrale für politische Bildungsarbeit, \"They're all gone: das Olympia-Attentat 1972\""}
+  ],
+  "imagens": [
+    {
+      "alt": "Color photograph from 1972: the stadium's transparent roof of cables and panels, hung from tall leaning masts, over a concrete grandstand; in the foreground, a red running track and a street with buses",
+      "legenda": "The Olympic Stadium roof in 1972, seen from the warm-up track, with the leaning masts and the cables that carry the load down to the ground.",
+      "autor": "Romák Éva / Fortepan"
+    },
+    {
+      "alt": "View from the top of a grassy hill: the stadium with its wavy gray roof over the west stands, masts with cables, floodlight towers and the uncovered east stands; a lake in the foreground",
+      "legenda": "The roof seen from the Olympiaberg, the hill of war rubble, in 2025. The east side of the stands was never covered.",
+      "autor": "Strubbl"
+    },
+    {
+      "alt": "Upward view of one edge of the roof: the steel cable net in squares, the transparent panels on top, the clamps at the nodes and a gray mast against the blue sky",
+      "legenda": "The net seen from below: 75-centimeter meshes, clamps at every node and the 3-by-3-meter acrylic panels on top.",
+      "autor": "Martin Falbisoner"
+    },
+    {
+      "alt": "A tilted concrete block, partly dug out, with a thick tube from which a cable emerges; in the background, scaffolding and the edge of the roof",
+      "legenda": "One of the cable anchor blocks, dug out during maintenance work in April 2023.",
+      "autor": "Andrybak"
+    },
+    {
+      "alt": "Color photograph from 1972: people sitting and lying on a sloping lawn, among masts with green, blue and white flags; on the left, the edge of the cable roof",
+      "legenda": "Crowds on the lawn of the Olympic Park during the 1972 Games, with the edge of the roof in the background.",
+      "autor": "Romák Éva / Fortepan"
+    }
+  ]
+}

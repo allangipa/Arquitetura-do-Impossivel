@@ -1,0 +1,129 @@
+{
+  "_nota": "Tradução fiel de ../19-edificio-martinelli.json. Campos fixos vêm do original.",
+  "obra": "Martinelli Building",
+  "titulo_seo": "Martinelli Building, São Paulo: How It Rose (1924–1934)",
+  "titulo_video": null,
+  "lugar": "Rua São Bento, Avenida São João and Rua Líbero Badaró, downtown São Paulo, São Paulo, Brazil",
+  "periodo": "1924–1934",
+  "impossivel": "Raising 30 stories of reinforced concrete in a city where almost no building went above five, while City Hall halted the work, the press spoke of collapse and the public crossed the street so as not to walk underneath.",
+  "resumo": "How an Italian immigrant pushed the Martinelli from 12 or 14 to 30 stories, fought a stop-work order, lived at the top and lost it all to his debts.",
+  "abertura": [
+    "In 1924, when Giuseppe Martinelli started work on the triangle between Rua São Bento, Avenida São João and Rua Líbero Badaró, in downtown São Paulo, almost no building in the city went above five stories. His was designed for 12 or 14, depending on the source. It reached 30.",
+    "Along the way, City Hall halted the work, the fight ended up in court, the newspapers spoke of a risk of collapse and a technical committee had to say whether the thing would stay standing. At the top, the owner built his own five-story house, and moved in with his family in 1929."
+  ],
+  "numeros": [
+    {"valor": "30", "rotulo": "stories, counting the five of the owner's house at the top"},
+    {"valor": "105.65 m", "rotulo": "tall, the figure published in 1929; some give 130 m"},
+    {"valor": "1928", "rotulo": "the year of the stop-work order, when the building had reached 24 stories"},
+    {"valor": "1924–1934", "rotulo": "from the start of work to completion, according to most sources; the building opened, still unfinished, in 1929"},
+    {"valor": "103", "rotulo": "owners after the 1944 auction"},
+    {"valor": "1975–1979", "rotulo": "from expropriation by City Hall to the reopening, on 4 May 1979"}
+  ],
+  "ficha": [
+    {"item": "Who wanted it", "valor": "Giuseppe Martinelli (1870–1946), an immigrant from Lucca, Italy, who started out in Brazil as a butcher and peddler and grew rich with a shipping company in Santos, above all during the First World War.", "nota": "the year he arrived in Brazil is given as 1889 or 1892"},
+    {"item": "Design", "valor": "Hungarian architect William (Vilmos) Fillinger (1888–1968), trained at the Academy of Fine Arts in Vienna. The enlargements were decided by Martinelli himself; the structural calculations were by his nephew, engineer Ítalo Martinelli; the facade, by the Lacombe brothers."},
+    {"item": "Structure and materials", "valor": "Reinforced concrete with brick walls. Cement imported from Sweden and Norway by Martinelli's own import firm, Carrara marble, Riga pine, Swiss elevators. Facade in pink render mixed with ground glass, rock crystal and mica dust."},
+    {"item": "Stories", "valor": "Planned for 12 stories, according to the building's condominium association and City Hall, or for 14, possibly rising to 18, according to the Enciclopédia Itaú Cultural, the National Library and historian Maria Cecília Naclério Homem. It reached 24 before the stop-work order and ended with 30.", "nota": "some count 26 or 28 stories, or 27 floors plus three in the attic"},
+    {"item": "Stop-work order", "valor": "In 1928, with the work close to 24 stories, City Hall halted construction, alleging the lack of a permit and a risk of collapse. The case went to court. According to the building's condominium association, a technical committee certified its safety and capped the height at 25 stories.", "nota": "the 25-story limit and the committee come from a single source; the names of its members were not found"},
+    {"item": "Timeline", "valor": "Work began in 1924. In April 1929 the newspapers counted 25 finished stories; the Cine Rosário, on the ground floor, opened on 2 September 1929. Completion is given as 1934.", "nota": "some sources say the building opened in 1929 with only 12 stories, which the press of the time contradicts; others speak of five years of work, counting only up to 1929"},
+    {"item": "Workers", "valor": "More than 600, plus 90 Italian and Spanish craftsmen on the finishes, according to the building's condominium association. The total, wages and working hours were not recorded in the sources consulted."},
+    {"item": "Deaths during construction", "valor": "One record: a worker who fell from the tenth floor in 1927, name unknown, according to researcher Douglas Nascimento, of the Instituto São Paulo Antiga. There is no official count."},
+    {"item": "Cost", "valor": "Not recorded in the sources consulted. What is known is that Martinelli went into debt to finish the building."},
+    {"item": "Height", "valor": "105.65 m, the figure published by the magazine O Cruzeiro in 1929 and repeated by most sources. The building's condominium association speaks of 130 m; a USP record gives 63 m on the Rua São Bento side and 72.5 m on the Líbero Badaró side, probably measured another way."},
+    {"item": "Fire", "valor": "On 24 November 1929, a short circuit next to the elevator motors set fire to the 26th floor, still full of construction timber. The firefighters' hoses could not reach that high; the fire was fought with buckets passed from hand to hand. No one died. The damage was estimated at 200 contos de réis.", "nota": "according to the Instituto São Paulo Antiga, drawing on newspapers of the time"},
+    {"item": "The loss", "valor": "In debt and hit by the crisis of 1929, Martinelli sold the building to the Istituto Nazionale di Credito per il Lavoro Italiano all'Estero, linked to the Italian government. In 1943, with Brazil at war with the Axis, the federal government confiscated the building; in 1944 it was auctioned and ended up divided among 103 owners.", "nota": "the sale is dated 1933 or 1934"},
+    {"item": "Decline and renovation", "valor": "Between the 1950s and the 1970s it became a vertical slum, with idle elevators, piled-up garbage and crimes in the police pages. Expropriated in 1975 by mayor Olavo Setúbal, it was renovated and reopened on 4 May 1979 as the seat of city agencies."},
+    {"item": "Protection", "valor": "Its massing and facades have been landmarked since the 1980s by Conpresp, the municipal heritage council, and by Condephaat, the state one.", "nota": "according to SP Urbanismo"},
+    {"item": "Today", "valor": "Floors 25 to 28, with the 26th-floor terrace, were granted in 2023, for 15 years, to Grupo Tokyo, for an observation deck with a museum, bars and a restaurant. In July 2026 the terrace began hosting free guided tours again on Tuesdays, while the works continued."}
+  ],
+  "historia": [
+    {
+      "titulo": "A five-story city",
+      "paragrafos": [
+        "In the São Paulo of the early 1920s, the city was growing on coffee money, but it was growing outward. Buildings over five stories were rare. The tallest, the Sampaio Moreira, opened in 1924 on Rua Líbero Badaró, had about 12. It was in the same area, in the triangle formed by Rua São Bento, Avenida São João and Líbero Badaró itself, that Giuseppe Martinelli decided to raise his building.",
+        "Martinelli was born in 1870 near Lucca, Italy, into a family of masons, and arrived in Brazil at the end of the nineteenth century. He started as a butcher and peddler, set up a customs brokerage in Santos and made a fortune in port business during the First World War. In the 1920s, he wanted to leave a mark that was more than a company: the tallest building in South America.",
+        "The design was commissioned from Hungarian architect William Fillinger, trained in Vienna. The facade went to the Lacombe brothers. Nearly all the material came from abroad: cement from Sweden and Norway, brought in by Martinelli's own import firm, Carrara marble, Riga pine, Swiss elevators."
+      ]
+    },
+    {
+      "titulo": "One more story, and another",
+      "paragrafos": [
+        "Work began in 1924. How many stories the building had on paper depends on who is telling it: 12, according to the building's condominium association and City Hall; 14, with the possibility of reaching 18, according to historian Maria Cecília Naclério Homem, the Enciclopédia Itaú Cultural and the National Library. What they all say is that the number kept climbing. Martinelli himself, who had studied building in Lucca before emigrating, began deciding the enlargements, and his nephew, engineer Ítalo Martinelli, kept redoing the calculations for the reinforced-concrete structure.",
+        "The building's condominium association says Martinelli inspected the site every day and even worked as a mason alongside the laborers, who numbered more than 600, plus 90 Italian and Spanish craftsmen on the finishes. It also says the foundations shook a neighboring building, and that the problem was solved by buying the neighbor. This information comes from a single source.",
+        "According to the Instituto São Paulo Antiga, the worst news from that site came in 1927: a worker fell from the tenth floor and died. His name was not recorded in the sources consulted, and there is no official count of injuries or deaths on the job. Nor was it recorded how much the building cost."
+      ]
+    },
+    {
+      "titulo": "The 1928 stop-work order",
+      "paragrafos": [
+        "When the structure reached 24 stories, in 1928, City Hall halted the work. The charge, according to the condominium association, was the lack of a permit and disregard for municipal law; according to Itaú Cultural and the National Library, there were claims that the building could collapse. An article by the Instituto São Paulo Antiga adds that architects removed from the project went to the newspapers to say the foundations had been built for 14 stories, not for 24.",
+        "The city believed the worst. Accounts from the time say pedestrians crossed the street so as not to walk under the construction. The case went to court and became a political issue, used by the opposition against Martinelli and against City Hall. Even newspapers in Rio de Janeiro followed the dispute, between May and October 1928.",
+        "The way out, according to the building's condominium association, was a technical committee, which examined the work, certified that it was safe and allowed up to 25 stories. Who sat on that committee and what its report said does not appear in the sources consulted. By April 1929, the newspaper O Paiz was already counting 25 stories built."
+      ]
+    },
+    {
+      "titulo": "The house on the top floor",
+      "paragrafos": [
+        "Martinelli did not stop at 25. On the top five stories he built a small palace for his own family, which became known as the Casa do Comendador. According to the National Library and City Hall, he moved there in 1929. The building's first resident, however, had been the dance teacher Arturo Patrizi, settled on the fourth floor since 1928, while work was still going on.",
+        "The most repeated explanation is that Martinelli moved to the top to prove the building would not fall. It appears in Itaú Cultural, in City Hall's account and in almost every text about the building, but none of the sources consulted quotes him saying so. The building's condominium association tells another version: the five-story house was a way to get past the 25-story limit set by the committee and reach 30, like Gustave Eiffel, who had an apartment at the top of his tower.",
+        "In 1929 the Martinelli opened its doors, still unfinished. The Cine Rosário, the building's movie theater, opened on 2 September 1929, and the magazine O Cruzeiro called it the largest reinforced-cement structure in the world, a title the Edifício A Noite, in Rio de Janeiro, was claiming at the same time. The published height was 105.65 meters. On 24 November 1929, a short circuit on the 26th floor, where the elevator motors were and a lot of construction timber still lay, started a fire the firefighters' hoses could not reach. It was fought with buckets passed from hand to hand and left no one dead."
+      ]
+    },
+    {
+      "titulo": "The crash, the war and the auction",
+      "paragrafos": [
+        "The year of the opening was also the year of the New York stock market crash. The crisis hit Martinelli's shipping company, and the apartments and offices did not sell as he had hoped. With the building's debts, he sold it, in 1933 or 1934, depending on the source, to the Istituto Nazionale di Credito per il Lavoro Italiano all'Estero, an institution of the Italian government. The building was declared finished in 1934.",
+        "In the years that followed, the building also housed the headquarters of political groups, such as the Club Republicano Paulista. In 1943, with Brazil at war with the Axis since the year before, the federal government confiscated Italian property, and the building, renamed Edifício América, was auctioned in 1944. Shortly afterward, it already had 103 owners."
+      ]
+    },
+    {
+      "titulo": "From slum to renovation",
+      "paragrafos": [
+        "Divided among more than a hundred owners, the building became a vertical slum from the 1950s or the 1960s on, depending on the source. Elevators stopped, garbage piled up in the shafts, and the building moved from the society columns to the police pages, with crimes that were never solved.",
+        "In 1975, mayor Olavo Setúbal expropriated the Martinelli and moved the residents out. The renovation replaced the electrical and plumbing systems, installed new elevators and a fire protection system and cleaned the facade; the original interior paintings were lost. The building reopened on 4 May 1979 as the seat of municipal departments, a use it keeps today. According to SP Urbanismo, its massing and facades have been landmarked since the 1980s by Conpresp and Condephaat."
+      ]
+    },
+    {
+      "titulo": "The top City Hall wanted to stop",
+      "paragrafos": [
+        "The roof was restored starting in 2008, and the 26th-floor terrace was open to visitors from 2010 to early 2017. In 2023, City Hall granted floors 25 to 28, the terrace, a ground-floor shop and the basement to Grupo Tokyo, for 15 years, for an observation deck with a museum, bars and a restaurant. In 2024, the centenary of the start of construction, the building received more than 100,000 visitors, according to the concessionaire.",
+        "In July 2026, free guided tours of the terrace resumed, on Tuesdays, during the modernization works, which were still going on. Since 2010, the top that City Hall tried to stop in 1928 has been the place where City Hall takes tourists."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "Martinelli moved to the top of the building to prove it would not fall.", "registro": "The house at the top exists, and the family moved there in 1929. The motive is repeated by almost every source, but none quotes a statement from him. The building's condominium association gives another explanation: the five-story house was the way to get past the 25-story limit set after the stop-work order and reach 30."},
+    {"circula": "The Martinelli was Brazil's first skyscraper.", "registro": "It depends on what you call a skyscraper. Before it, São Paulo already had the Sampaio Moreira, from 1924, and the Edifício A Noite, in Rio de Janeiro, went up at the same time, between 1928 and 1929. The Martinelli was the building that took São Paulo upward, and the tallest in the city until the arrival of the Edifício Altino Arantes, in the 1940s."},
+    {"circula": "The building opened in 1929 with only 12 stories.", "registro": "In April 1929 the newspaper O Paiz was already counting 25 stories built. What opened in 1929 was a building still under construction, completed in 1934."},
+    {"circula": "It was the first reinforced-concrete building in Brazil.", "registro": "No. It was one of the country's first large reinforced-concrete buildings, and in 1929 the magazine O Cruzeiro called it the largest reinforced-cement structure in the world, a title the Edifício A Noite also claimed."}
+  ],
+  "perguntas": [
+    {"p": "Who built the Martinelli Building?", "r": "Giuseppe Martinelli, an immigrant from Lucca, Italy, who grew rich with a shipping company in Santos. The design is by Hungarian architect William Fillinger; the structural calculations, by his nephew, engineer Ítalo Martinelli; the facade, by the Lacombe brothers."},
+    {"p": "When was the Martinelli Building built?", "r": "Work began in 1924. The building opened, still unfinished, in 1929, and most sources give 1934 as the year of completion."},
+    {"p": "How tall is the Martinelli Building?", "r": "Sources differ. The figure published in 1929 by the magazine O Cruzeiro, and repeated by most, is 105.65 m; the building's condominium association speaks of 130 m. It has 30 stories, counting the five of the owner's house at the top."},
+    {"p": "Why did Martinelli live on top of his building?", "r": "The most repeated explanation is that he wanted to prove the building would not fall, but no source quotes him saying so. The condominium association gives another version: the five-story house was the way to get past the 25-story limit set after the stop-work order and reach 30."},
+    {"p": "Did the Martinelli Building catch fire?", "r": "Yes. On 24 November 1929, a short circuit next to the elevator motors set fire to the 26th floor, still full of construction timber. The firefighters' hoses could not reach that high, the fire was fought with buckets passed from hand to hand, and no one died."}
+  ],
+  "fontes": [
+    {"texto": "Andrea C. T. Wanderley, \"O Edifício Martinelli, antigo referencial e símbolo de São Paulo\", Brasiliana Fotográfica, Biblioteca Nacional, 2022"},
+    {"texto": "\"Edifício Martinelli\", Enciclopédia Itaú Cultural, 2024"},
+    {"texto": "São Paulo City Hall, Municipal Housing Department, \"A história de Martinelli, o imigrante que sonhou subir aos céus\", 2006"},
+    {"texto": "Maria Cecília Naclério Homem, O Prédio Martinelli: a ascensão do imigrante e a verticalização de São Paulo, Projeto Editores, 1984"},
+    {"texto": "Condomínio Prédio Martinelli, \"História do Prédio Martinelli\""},
+    {"texto": "IAU-USP, Arquitetura Italiana em São Paulo, entry \"Edifício Martinelli\", 2022"},
+    {"texto": "Silvia A. P. Zakia, \"Edifício Santana, o primeiro arranha-céu de Campinas\", Oculum Ensaios, 2011"},
+    {"texto": "Douglas Nascimento, \"O incêndio do Martinelli\", São Paulo Antiga, 2019"},
+    {"texto": "\"O real legado do Edifício Martinelli para o céu de São Paulo\", São Paulo Antiga, 2016"},
+    {"texto": "Claudia Crescente, \"Edifício Martinelli guarda mistérios e assombrações\", Folha de S.Paulo (reprinted by Jornal GGN, 2014)"},
+    {"texto": "SP Urbanismo, \"Prefeitura vai conceder terraço do Edifício Martinelli para implantação de observatório\", 2019"},
+    {"texto": "SP Urbanismo, \"Concessão transforma Terraço Martinelli em novo espaço cultural e de lazer no centro de SP\", 2023"},
+    {"texto": "Revista PROJETO, \"Edifício Martinelli reabre visitas guiadas gratuitas ao terraço\", 2026"},
+    {"texto": "São Paulo City Hall, \"Edifício Martinelli retoma visitas guiadas gratuitas para o público\", 2025"}
+  ],
+  "imagens": [
+    {"alt": "Tall, wide building with a pinkish facade, four stepped blocks and a pale crown with pinnacles, seen from below on a pedestrian street with palm trees and a street clock", "legenda": "The Martinelli in 2016, seen from Rua São Bento. The pale blocks at the top include the floors of the owner's former house.", "autor": "Wilfredor"},
+    {"alt": "Old black-and-white photograph: low rooftops of downtown São Paulo in the foreground and, behind them, a single building much taller than all the others", "legenda": "The Martinelli in 1939, still without a rival of its height in downtown São Paulo.", "autor": "Autor não identificado (Museu Paulista da USP, coleção cartões-postais)"},
+    {"alt": "Old sepia postcard: an avenue with 1940s cars, a wide building with a billboard frame on top in the center and, behind it, a taller, stepped white tower", "legenda": "Avenida São João on an undated postcard: the Martinelli in the center and, behind it, the tower of the Edifício Altino Arantes, which took away its title as the city's tallest.", "autor": "Foto-Postal Colombo, autor não identificado (Museu Paulista da USP)"},
+    {"alt": "Balconies with columns and balusters on a pink house atop a building, with a row of stone pinnacles and the city and mountains behind under a blue sky", "legenda": "The balconies of the Casa do Comendador, the residence Martinelli built on the building's top floors, in 2015.", "autor": "Wilfredor"}
+  ]
+}

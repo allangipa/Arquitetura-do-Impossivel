@@ -1,0 +1,169 @@
+{
+  "_nota": "Tradução fiel de ../03-ponte-rio-niteroi.json. Campos fixos vêm do original.",
+  "obra": "Rio–Niterói Bridge",
+  "titulo_seo": "How the Rio–Niterói Bridge Was Built (1969–1974)",
+  "titulo_video": "Rio–Niterói Bridge: 13 km over the bay, and a death toll that never added up",
+  "lugar": "Guanabara Bay, between Rio de Janeiro and Niterói, Brazil",
+  "periodo": "1969–1974",
+  "impossivel": "Crossing the bay with more than 13 km of bridge, almost 9 of them over water, with solid rock 50 meters below the sea, a span high enough for oil tankers and low enough for airplanes, on a political deadline at the height of the dictatorship.",
+  "resumo": "How the Rio–Niterói Bridge was built: more than 13 km over Guanabara Bay, a steel span between ships and planes, and a death toll that never added up.",
+  "abertura": [
+    "On 24 March 1970, according to O Globo, a test platform loaded with more than 2,000 tons of water collapsed into Guanabara Bay, in Rio de Janeiro, Brazil. The Rio–Niterói Bridge did not exist yet. The test was meant to prove that it would stand, and it killed eight men.",
+    "The structure that came out of it is more than 13 kilometers long, with a 300-meter steel span 72 meters high and foundations resting on rock 50 meters below the sea. It was measured, calculated and counted down to every caisson and every segment. Only one count never added up: how many men died to raise it."
+  ],
+  "numeros": [
+    {"valor": "300 m", "rotulo": "main span, a continuous steel girder"},
+    {"valor": "72 m", "rotulo": "height at the highest point, the ceiling set by aircraft"},
+    {"valor": "50–60 m", "rotulo": "depth of the rock below sea level"},
+    {"valor": "1,138", "rotulo": "foundation caissons in the sea"},
+    {"valor": "560,000 m³", "rotulo": "of structural concrete"},
+    {"valor": "≈ 10,000", "rotulo": "workers, plus 200 engineers"}
+  ],
+  "ficha": [
+    {"item": "Official name", "valor": "Presidente Costa e Silva Bridge, under Law 5,595 of 28 July 1970, seven months after the president's death"},
+    {"item": "Who wanted it", "valor": "The military regime: Costa e Silva sent the bill to Congress in August 1968; the Transportation Minister, Mário Andreazza, ran the project. Law 5,512 of 17 October 1968 authorized construction"},
+    {"item": "Why", "valor": "Before it, the way across by car was the ferry, a trip of up to 2 hours"},
+    {"item": "Design", "valor": "Concrete: the Noronha firm (Antonio Alves Noronha Filho and Benjamin Ernani Diaz). Steel span: Howard, Needles, Tammen & Bergendoff (HNTB), of Kansas City, USA"},
+    {"item": "Builders", "valor": "Consórcio Construtor Rio-Niterói (contract of 4 December 1968), expropriated by Decree 68,110 of 26 January 1971; then Consórcio Construtor Guanabara (Camargo Corrêa, Mendes Júnior, Rabello). Steel: Redpath Dorman Long and Cleveland Bridge, from England, with Montreal Engenharia"},
+    {"item": "Workers", "valor": "About 10,000, and 200 engineers. Nobody recorded how many were working at the same time at the peak", "nota": "the peak figure has no source"},
+    {"item": "Working hours", "valor": "11 hours on land (8 regular and 3 compulsory) and 24-hours-on, 24-hours-off shifts on the vessels, according to O Globo (2014)"},
+    {"item": "Timeline", "valor": "Promised for March 1971; opened on 4 March 1974, about three years later", "nota": "the length of the job appears as 4 and a half, 5 or 6 years, depending on the source"},
+    {"item": "Authorized cost", "valor": "NCr$ 255,368,800, at July 1968 prices (Law 5,512)", "nota": "text of the law"},
+    {"item": "British loan", "valor": "£31 million (O Globo, BBC) or £32.2 million (Campos, 2025), from British banks led by N. M. Rothschild & Sons"},
+    {"item": "Final cost", "valor": "About Cr$ 800 million (O Globo, 2014), $400 million (Arquivo Nacional) or $674 million (BBC). Every figure is several times above the contract price", "nota": "there is no conversion to today's money with a stated method"},
+    {"item": "Deaths", "valor": "33 is the official number attributed to the government, with no published document. O Globo counted 18 in newspapers up to November 1972; the engineer Bruno Contarini says “30 at most”; the engineer Carlos Henrique Siqueira, about 40; the Arquivo Nacional, “at least 40”; unofficial estimates go as high as 400"},
+    {"item": "The 1970 accident", "valor": "Load test collapsed on 24 March 1970 (O Globo; other sources give the 25th). 8 dead, according to O Globo and Contarini; 12, according to the reporter Romildo Guerrante, from memory"},
+    {"item": "Length", "valor": "13.29 km (concession company) or 13.2 km (Ibracon); over water, between 8.6 and 8.9 km"},
+    {"item": "Structure", "valor": "Main span of 300 m between two of 200 m, in steel box girders; navigation clearance of 60 m; 72 m at the highest point; steel in the span: 13,100 t (Upstone, 1974) or 14,000 t (CBCA)", "nota": "the weight of the steel varies"},
+    {"item": "Afterwards", "valor": "Run by DNER until 1995, then granted as a concession; concession company Ecovias Ponte (its name in 2026), with a contract through 2045/2046. Toll of R$6.60 from 18 March 2026"}
+  ],
+  "historia": [
+    {
+      "titulo": "A hundred years of a bay with no bridge, and the regime's bridge",
+      "paragrafos": [
+        "Until 1974, anyone who wanted to drive from Rio de Janeiro to Niterói had two choices. Wait for the ferry, which carried a little over 50 cars and could take up to two hours to cross, or drive around Guanabara Bay on about 100 kilometers of road. The idea of joining the two shores is old. In 1875, the English engineer Hamilton Lindsay-Bucknall presented Emperor Pedro II with a railway tunnel under the bay, about 6 meters in diameter. It never happened, for lack of money. In 1935, a suspension bridge was designed, and the plan is now in the Arquivo Nacional, Brazil's national archives. Others followed, for bridges and for tunnels, a working group in 1963 and an executive commission in 1965. The bay was still left with nothing.",
+        "It was the military regime that took the bridge off the drawing board. On 23 August 1968, President Costa e Silva's bill was read in Congress. On 17 October, Law 5,512 authorized the project with NCr$ 255,368,800, at July prices of that year. On 13 December, the AI-5 decree shut down the same Congress that had approved it.",
+        "In between, on 9 November 1968, Queen Elizabeth II of the United Kingdom, on her only visit to Brazil, unveiled the plaque marking the start of construction. British money was part of the arrangement: a loan of more than 30 million pounds, from banks led by N. M. Rothschild & Sons, on condition that British firms build the main span.",
+        "Costa e Silva died in December 1969. Law 5,595, of July 1970, gave the structure the official name of Presidente Costa e Silva Bridge. Almost nobody calls it that."
+      ]
+    },
+    {
+      "titulo": "Between the ship and the airplane",
+      "paragrafos": [
+        "The first problem was in the air. The oil tankers bound for the Petrobras terminal, at the back of the bay, needed 60 meters of clearance to pass: that was the Navy's requirement. But the bridge crosses the approach path of Galeão and Santos Dumont, Rio's two airports, and the Air Force would allow nothing above 72 meters.",
+        "Between the hull and the wing there were 12 meters left to fit the roadway and the structure that carries it. The main span ended up 72 meters high at its highest point. To cross the width of the shipping channel, HNTB designed a continuous steel girder with a 300-meter span between two spans of 200. The designer himself, H. J. Graham, wrote in 1976 that the span beat its largest rival of the time by 39 meters."
+      ]
+    },
+    {
+      "titulo": "The rock far below, and the test that fell",
+      "paragrafos": [
+        "The second problem was at the bottom. At the main piers, the water is 21 to 22 meters deep; beneath it there is mud and sand, and solid rock only appears 50 or 60 meters below sea level. The answer was 1,138 caissons: 477 driven and drilled into the rock by the Bade-Wirth method, 199 hybrids with steel piles, and 462 dug out from inside, by men, with the tube filled with compressed air to hold the water back.",
+        "Before trusting the caissons, they had to be proven to hold. The load test was a contractual requirement of the Transportation Ministry. According to O Globo's account, a platform with 34 caissons of 22 meters, filled with water, totaled more than 2,000 tons when, with only the last one left to fill, there was a loud crash and the platform collapsed. A barge and a crane went down with it.",
+        "O Globo places the accident on the afternoon of 24 March 1970; the reporter Romildo Guerrante, who covered the construction, says the 25th. O Globo, the Arquivo Nacional, Ibracon's magazine and the engineer Bruno Contarini, who worked on the project, count 8 dead, three engineers and five laborers. Guerrante, from memory, says 12. The accident made the front pages the next day. Work stopped until February 1971."
+      ]
+    },
+    {
+      "titulo": "The government takes over the job",
+      "paragrafos": [
+        "The first consortium had been hired in December 1968. In January 1971, the government admitted that only 20% of the bridge was done; according to Ibracon's magazine, the consortium had already used up 70% of the price. On 26 January 1971, Decree 68,110 declared the assets of the Consórcio Construtor Rio-Niterói itself to be of public utility, for urgent expropriation.",
+        "The job passed to a state company created for the purpose, ECEX, headed by Colonel João Carlos Guedes, and to a new group, the Consórcio Construtor Guanabara. The opposition MDB tried to open a congressional inquiry in 1971, and the Arena majority blocked it. To deliver the bridge before the end of the Médici government, according to Ibracon, Andreazza and Guedes moved into the building site on Ilha do Fundão, in Rio de Janeiro.",
+        "Fundão housed the factory for the concrete stretch. The deck over the sea was made of precast segments, pieces of about 100 tons glued with epoxy and post-tensioned with steel cables. There were 3,250 segments. According to Ibracon, four launching gantries advanced 13 meters a day, against 3.2 meters if the concrete had been cast in place."
+      ]
+    },
+    {
+      "titulo": "Men under pressure",
+      "paragrafos": [
+        "About 10,000 workers and 200 engineers worked on the bridge. The historian Pedro Campos, of UFRRJ, describes most of them as young men, Black and mixed-race, many of them migrants from the Northeast; the least skilled earned one to two minimum wages. All of them worked under a particularly intense regime of discipline and surveillance. According to O Globo, it was 11 hours a day on land and 24-hours-on, 24-hours-off shifts on the vessels, with a guard force of 400 men and a ban on talking to outsiders. Photos from the time show workers in sandals and shorts, without helmets.",
+        "The 462 compressed-air caissons exacted another price. Anyone who goes down into a pressurized chamber and comes up too fast forms nitrogen bubbles in the blood: joint pain, paralysis and, years later, necrosis of the shoulder and hip bones. It is the old caisson disease. That it struck the bridge workers en masse, the sources agree. How many, they do not: the published figures go from 1,226 cases to about 2,000 and reach 45,000, and none of them can be verified today."
+      ]
+    },
+    {
+      "titulo": "The span that came from England",
+      "paragrafos": [
+        "The middle piece was fabricated in England and crossed the Atlantic by ship to the building site on Ilha do Caju, in Rio de Janeiro. There, the 176-meter central section, weighing more than 3,000 tons, was assembled on the ground, floated out to the span and lifted about 67 meters by hydraulic jacks. According to the designer, the side spans went up in three and a half days on the Niterói side and three on the Rio side. The only date available for the closure is a caption in O Globo: 1973.",
+        "On 4 January 1974, two months before the opening, a steel cable snapped at pier 21 and a walkway fell 32 meters with eight men on it; six died, according to O Globo. On 4 March 1974, President Médici crossed the bridge with Andreazza and opened it. There was a Mass for those who died building it. According to the Arquivo Nacional, their families were not invited.",
+        "The number that stuck is 33, attributed to the government and repeated ever since, without any official document with that count ever having been published. The only count with a method, O Globo's survey of the newspapers, reached 18 dead in eight accidents up to November 1972, and stops there: according to a UFF study, from 1971 on, news of accidents disappears from the pages. The testimonies range from “30 at most” to “about 40”; the undocumented estimates, to 400."
+      ]
+    },
+    {
+      "titulo": "Every plate measured",
+      "paragrafos": [
+        "Half a century later, the bridge is inspected piece by piece. A report delivered to ANTT, the federal land transportation agency, in March 2024 measured the steel casings of the caissons along one of the pier lines: on one of the plates, corrosion had already eaten through 90.35% of the thickness. The same report notes that the casing was made as formwork, not as structure, and that much of the section is still left to be consumed, but warns that from then on the progress will be much faster. The engineer in charge is Carlos Henrique Siqueira, the same engineer who worked on the construction in the 1970s.",
+        "In 2023, the concession company began reinforcing the segments with new post-tensioning cables at 70 pier lines, about 700 of the 3,250, because some of the original cables had lost tension over time; in June 2025, the work was still under way. In June 2026, a kayaker's video showing corrosion on pier 84 spread on social media; Ecovias Ponte replied that it is a decommissioned pier, with no structural function, and monitored. The technical explanation is the company's alone."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Workers were sealed in concrete inside the piers.",
+      "registro": "It is a story, repeated by a retired UFRJ professor and by the reporter Romildo Guerrante. There is no name, case or document to support it."
+    },
+    {
+      "circula": "400 men died building it.",
+      "registro": "It is an unofficial estimate, with no document. The official number, 33, has no published document either. The known counts range from 18, in the newspapers up to 1972, to “at least 40”, according to the Arquivo Nacional."
+    },
+    {
+      "circula": "Queen Elizabeth II opened the bridge.",
+      "registro": "She unveiled the plaque marking the start of construction, on 9 November 1968. The one who opened it was Médici, on 4 March 1974."
+    },
+    {
+      "circula": "The bridge is a British work.",
+      "registro": "What is British is the steel main span, and the loan. The design of the rest is by the Brazilian Noronha firm, and the construction is Brazilian."
+    },
+    {
+      "circula": "It is 13 km of bridge over the sea.",
+      "registro": "It is about 13.3 km in all, of which about 8.8 km are over water."
+    }
+  ],
+  "perguntas": [
+    {"p": "When was the Rio–Niterói Bridge built?", "r": "Queen Elizabeth II unveiled the plaque marking the start of construction on 9 November 1968, and President Médici opened the bridge on 4 March 1974. It had been promised for March 1971, about three years earlier."},
+    {"p": "How many people died building the Rio–Niterói Bridge?", "r": "The count never added up. The official number, 33, is attributed to the government with no published document; O Globo counted 18 in the newspapers up to November 1972, the Arquivo Nacional speaks of “at least 40”, and undocumented estimates go as high as 400."},
+    {"p": "Are there workers buried in the piers of the Rio–Niterói Bridge?", "r": "It is a story, repeated by a retired UFRJ professor and by the reporter Romildo Guerrante. There is no name, case or document to support it."},
+    {"p": "How long is the Rio–Niterói Bridge?", "r": "The sources differ: 13.29 km according to the concession company or 13.2 km according to Ibracon, of which between 8.6 and 8.9 km are over water. The steel main span is 300 m long and reaches 72 m in height."},
+    {"p": "How much did the Rio–Niterói Bridge cost?", "r": "The law authorized NCr$ 255,368,800, at July 1968 prices. The final cost varies among sources: about Cr$ 800 million, $400 million or $674 million, every figure several times above the contract price."}
+  ],
+  "fontes": [
+    {"texto": "Law No. 5,512 of 17 October 1968, authorizing the construction of the Rio–Niterói Bridge"},
+    {"texto": "Law No. 5,595 of 28 July 1970, naming the bridge “Presidente Costa e Silva”"},
+    {"texto": "Decree No. 68,110 of 26 January 1971, expropriation of the Consórcio Construtor Rio-Niterói"},
+    {"texto": "Pedro Henrique Pedreira Campos, “A ponte da ditadura”, Tempo v.31 n.2, 2025"},
+    {"texto": "Pedro Henrique Pedreira Campos, entry LMT#99, Laboratório de Estudos de História dos Mundos do Trabalho, 2021"},
+    {"texto": "Fábio Luís Pedroso, “Soluções pioneiras no projeto e execução da Ponte Rio-Niterói”, Concreto & Construções n.113, Ibracon, 2024"},
+    {"texto": "H. J. Graham (HNTB), “Design of the Rio-Niteroi Bridge”, Transportation Research Record 607, 1976"},
+    {"texto": "T. J. Upstone, article on the erection of the steel span, Building With Steel, 1974, reproduced by New Steel Construction"},
+    {"texto": "T. J. Upstone and D. Reily, “Construction of the navigation spans of the Rio Niteroi bridge”, Proc. Institution of Civil Engineers v.66, 1979"},
+    {"texto": "O Globo, “Travessia: Ponte Rio-Niterói, 40 anos”, special report, 2014"},
+    {"texto": "Arquivo Nacional, “Ponte Rio-Niterói: obra de sangue, silêncio e concreto”, series Que República é essa?, 2025"},
+    {"texto": "Ana Beatriz Camarinha and Matheus Sinder (UFF), “Nas águas da Guanabara, a Ponte Rio-Niterói: o AI-5 como política econômica”, Seminário de Diamantina, 2024"},
+    {"texto": "Ecoponte/ANTT, monitoring report on the compressed-air foundations, March 2024"},
+    {"texto": "Agência Brasil, “Com fluxo diário de 150 mil veículos, Ponte Rio-Niterói faz 50 anos”, 2024 (republished by Clube de Engenharia)"},
+    {"texto": "Norwil Veloso, “A saga da Ponte Rio-Niterói”, Revista M&T n.259, 2021"}
+  ],
+  "imagens": [
+    {
+      "alt": "Aerial view of the Rio–Niterói Bridge crossing Guanabara Bay, with Mocanguê Island and ships in the foreground",
+      "legenda": "The bridge over Guanabara Bay, seen from the Niterói side, with Mocanguê Island in the foreground.",
+      "autor": "Diego Baravelli"
+    },
+    {
+      "alt": "The steel main span of the Rio–Niterói Bridge seen from below, from the water, with the sun behind it",
+      "legenda": "The 300-meter steel main span, seen from the water.",
+      "autor": "Marinelson Almeida"
+    },
+    {
+      "alt": "Black-and-white photograph of Rio–Niterói Bridge piers under construction in the middle of the bay, with a crane",
+      "legenda": "Piers under construction, on 10 May 1971. Agência Nacional.",
+      "autor": "Agência Nacional (Arquivo Nacional, BR_RJANRIO_EH_0_FOT_EVE_07338_0012)"
+    },
+    {
+      "alt": "An oil tanker anchored in Guanabara Bay, with the Rio–Niterói Bridge in the background",
+      "legenda": "A tanker in the bay: the ships required 60 meters of clearance under the span.",
+      "autor": "Diego Baravelli"
+    },
+    {
+      "alt": "Row of concrete piers of the Rio–Niterói Bridge over the water, in perspective",
+      "legenda": "The piers of the concrete stretch, which carry the deck of precast segments.",
+      "autor": "Gian Cornachini"
+    }
+  ]
+}

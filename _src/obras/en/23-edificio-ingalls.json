@@ -1,0 +1,158 @@
+{
+  "_nota": "Tradução fiel de ../23-edificio-ingalls.json. Campos fixos vêm do original.",
+  "obra": "Ingalls Building",
+  "titulo_seo": "Ingalls Building: The First Reinforced Concrete Skyscraper",
+  "titulo_video": null,
+  "lugar": "Corner of Fourth and Vine streets, downtown Cincinnati, Ohio, United States",
+  "periodo": "1902–1904",
+  "impossivel": "Raising 64 meters of offices without a single steel beam, only concrete with twisted bars inside, when, according to the sources, no concrete building stood more than six stories tall and respected engineers swore it would never reach the roof.",
+  "resumo": "How Cincinnati built the Ingalls Building from 1902 to 1904, the world's first reinforced concrete skyscraper, while engineers doubted it would stand.",
+  "abertura": [
+    "In 1902, at the corner of Fourth and Vine streets, in downtown Cincinnati, Ohio, in the United States, a 64-meter office building began to rise. Until then, according to the sources that record the history of the project, no concrete building in the world had gone above six stories. This one would have sixteen, counting the attic, and not a single steel beam.",
+    "The investor was Melville E. Ingalls, president of a major railroad; the architects, Elzner & Anderson; the engineer, Henry N. Hooper. The secret was hidden inside the concrete: square steel bars, twisted cold, the technique patented in 1884 by the engineer Ernest L. Ransome. Concrete copes well with being crushed and very badly with being pulled. The twisted bar is there to do the part it cannot do."
+  ],
+  "numeros": [
+    {"valor": "64 m", "rotulo": "of height above the sidewalk, 210 feet in the measurements of the time"},
+    {"valor": "15 + attic", "rotulo": "stories, “practically sixteen”, in the architect's words"},
+    {"valor": "20 cm", "rotulo": "thickness of the concrete walls, from bottom to top"},
+    {"valor": "1884", "rotulo": "the year of Ernest Ransome's patent for the twisted steel bar"},
+    {"valor": "US$500,000", "rotulo": "contract price of the complete building, according to a magazine of 1903"},
+    {"valor": "6 stories", "rotulo": "the height of the tallest concrete building before it, according to the sources, which do not say which one it was"}
+  ],
+  "ficha": [
+    {"item": "What it is", "valor": "A reinforced concrete office building, recognized as the world's first skyscraper built with that material. The architect himself called it, in 1904, “the first concrete skyscraper”."},
+    {"item": "Who wanted it", "valor": "Melville E. Ingalls (1842–1914), president of the Cleveland, Cincinnati, Chicago & St. Louis railroad, the “Big Four”, and of the Merchants National Bank. He was the main investor, and the building took his name."},
+    {"item": "Design", "valor": "The architects Alfred O. Elzner and George M. Anderson, of the firm Elzner & Anderson, of Cincinnati. The structural calculations are attributed to Henry N. Hooper, chief engineer of the Ferro-Concrete Construction Company, also of Cincinnati.", "nota": "Elzner's 1904 article describes the system without mentioning Hooper or Ransome"},
+    {"item": "The system", "valor": "A monolithic frame of concrete columns, beams and slabs, reinforced with square steel bars twisted cold, the technique of Ernest L. Ransome's patent 305,226, of 16 September 1884. No I-beams, no rivets, no bolts."},
+    {"item": "Who built it", "valor": "The contractor W. H. Ellis & Co., which won as the lowest bidder, according to Saxby's Magazine of 1903. Other sources give the builder as the Ferro-Concrete Construction Company, Hooper's firm."},
+    {"item": "Timeline", "valor": "About two years to obtain the city's permit. The Hammond Building, which occupied the lot, was demolished in 1902, and work began in the fall of 1902. Completion appears as 1903 in current sources; in mid-1904, the architect wrote that the building “has just been completed”."},
+    {"item": "Pace of work", "valor": "Three sets of wooden forms, reused from the bottom up. The Skyscraper Museum speaks of one slab every twelve days; other sources, of three floors a month."},
+    {"item": "Workers", "valor": "No source consulted records how many worked on the project, nor the peak, hours or wages."},
+    {"item": "Deaths and accidents", "valor": "No source consulted records any dead or injured during construction, neither an official figure nor a disputed one."},
+    {"item": "Cost", "valor": "About US$500,000 for the complete building, a contract price published by Saxby's Magazine in 1903, in a piece praising the contractor. Architect and magazine both claimed that concrete came out cheaper than steel.", "nota": "by the US consumer price index in the Federal Reserve Bank of Minneapolis series (1903 = 27; 2025 = 967.5), it is equivalent to about US$18 million in 2025 dollars"},
+    {"item": "Dimensions", "valor": "64 m (210 feet) above the sidewalk; 71.6 m (235 feet) counting from the bottom of the foundation. A footprint of 15 × 30 m, the whole corner lot. Walls of 20 cm, slabs of 12.7 cm, panels of 4.9 × 4.9 m.", "nota": "the height from the foundation and the slab thickness come only from the architect's article"},
+    {"item": "Stories", "valor": "Fifteen stories and a full attic, “practically sixteen”, according to the architect. That is why sources speak sometimes of 15, sometimes of 16."},
+    {"item": "Facade", "valor": "A veneer of 10 to 15 cm attached to the concrete: white marble on the first three floors, glazed gray brick on the next eleven and glazed white terra cotta on the top floor and the cornice."},
+    {"item": "Recognition", "valor": "National Historic Civil Engineering Landmark of the American Society of Civil Engineers, in 1973 or 1974, depending on the source. Listed on the National Register of Historic Places on 7 March 1975."},
+    {"item": "Today", "valor": "Sold in 2013, after years of neglect it was converted into a hotel: the Courtyard by Marriott Cincinnati Downtown, owned by SREE Hotels, opened in July 2021. The gym is inside the old bank vault."}
+  ],
+  "historia": [
+    {
+      "titulo": "A building nobody wanted to permit",
+      "paragrafos": [
+        "At the turn of the twentieth century, Cincinnati, Ohio, was a city of railroads and banks, and Melville E. Ingalls was at the center of both. A Harvard-trained lawyer, he had come to the city in 1870 to look after a railroad in trouble and, in 1889, became president of the Cleveland, Cincinnati, Chicago & St. Louis, known as the Big Four. He also presided over the Merchants National Bank. For the corner of Fourth and Vine streets, where the old Hammond Building stood, he wanted a first-class office building, as tall as the new steel buildings.",
+        "Except it would not be steel. According to Saxby's Magazine, a Cincinnati publication, in 1903, the owners compared bids for a steel skeleton and for a concrete structure, and concrete came out cheaper. The problem was that nobody had done it. The American Society of Civil Engineers records that the tallest concrete building of the day had six stories, and that Ingalls took two years to get a permit from the city, whose officials doubted the design."
+      ]
+    },
+    {
+      "titulo": "The bar that twists",
+      "paragrafos": [
+        "Concrete resists being compressed very well and being pulled very badly. In a beam, the bottom part is pulled; in a tower, the wind pushes sideways and puts one face in tension. Left alone, concrete cracks. The help is steel inside, and the problem with steel inside is slipping: a smooth bar can come loose from the concrete when it cracks.",
+        "In 1884, the English engineer Ernest L. Ransome, settled in California, patented the solution: twisting square bars, so that the spiral would grip the concrete along its whole length. In the book he published in 1912, he recounts that the idea came to him while twisting a rubber band he had in his pocket, and that when he presented the invention to a technical society in California, he was ridiculed: people said twisting ruined the iron. The Ingalls Building used cold-twisted bars throughout. Ransome, however, does not appear as the author of the building: the design is by Elzner & Anderson, and the calculations are attributed to Henry N. Hooper."
+      ]
+    },
+    {
+      "titulo": "One block, top to bottom",
+      "paragrafos": [
+        "In June 1904, the architect Alfred O. Elzner described the building in the magazine The Architectural Record, in an article titled “The First Concrete Skyscraper”. The structure, he wrote, is “a concrete box of 8-inch walls”, with no I-beams, no angles, no rivets and no bolts: only bars embedded in the concrete, with their ends interlaced, forming “a complete concrete monolith”.",
+        "The slabs are 12.7 cm thick and span panels of 4.9 by 4.9 meters. In the columns, twisted bars near the surface, on two opposite sides, take the wind load; in the center, round smooth bars help carry the weight and taper off until they disappear around the tenth floor, where concrete alone was enough. The beam is not attached to the column by any connecting piece: the bars of one run in among those of the other, and the concrete is all one. The walls themselves, between the top of one window and the sill of the one above, were designed as beams, and it is they that brace the building against the wind.",
+        "Elzner admitted that the columns on the lower floors came out larger than they needed to be, out of a “spirit of conservatism”, natural in so radical a break. From the outside, nobody saw the concrete: the building was clad in white marble below, glazed gray brick in the middle and white terra cotta at the top, like any skyscraper of the time."
+      ]
+    },
+    {
+      "titulo": "Three sets of forms",
+      "paragrafos": [
+        "Work began in the fall of 1902. For the foundation, a pit 7.6 meters deep was dug and, according to the Public Library of Cincinnati, the workers found under the old basement seven wells, vaults and cisterns from the early nineteenth century. The concrete was mixed on site, in motor-driven mixers. How many men worked there, and whether any were injured, no source consulted records.",
+        "The Skyscraper Museum, in New York, says the job used three sets of wooden forms, taken apart and reassembled from the bottom up, and that one slab could be poured every twelve days. It was slower than steel: according to the museum, a steel skeleton generally went up more than twice as fast. Elzner countered that the first concrete skyscraper had taken “only a few months longer” than the most recent steel building of the time."
+      ]
+    },
+    {
+      "titulo": "Those who swore it would fall",
+      "paragrafos": [
+        "In Cincinnati people still tell how a reporter stayed up all night in front of the building, waiting to see it collapse when the shoring was removed. The city's own Public Library presents the episode as an “often-told story”, and the Society of Architectural Historians as local tradition; no source gives the name of the reporter or the newspaper.",
+        "What was recorded is harsher. In the 1904 article, Elzner wrote that, during construction, “men of great ability who should have known better”, predicted that the building would never reach the roof; that if it did, it would crack all over from the shrinkage of the concrete; and that it would not stand up to the wind. “The facts are that it did reach the roof; that there are no shrinkage cracks, and that the building not only has not blown over, but that in the highest winds, there is not even a perceptible tremor”. As proof, he pointed to the bank vault, weighing nearly a hundred tons, resting on a 12.7-centimeter slab on the second floor.",
+        "The fire argument arrived at the same time. In February 1904, the Great Baltimore Fire destroyed that city's downtown, and Elzner opened the article by recalling that a remodeled building with concrete columns, beams and floors had remained standing in the middle of the burned area."
+      ]
+    },
+    {
+      "titulo": "From offices to hotel",
+      "paragrafos": [
+        "The building worked, and concrete made its way into tall buildings in the United States, slowly: according to Professor Mir M. Ali, of the University of Illinois, until around 1960 a concrete building rarely went above twenty stories. In 1973 or 1974, depending on the source, the American Society of Civil Engineers declared the Ingalls Building a National Historic Civil Engineering Landmark; in 1975, it was listed on the National Register of Historic Places.",
+        "In the twenty-first century, the building emptied out. It was sold in 2013 and, when the hotel project was announced, it had been empty for about seven years, according to the Cincinnati station WCPO. In July 2021 it opened as the Courtyard by Marriott Cincinnati Downtown, owned by SREE Hotels, renovated by HGC Construction. The armored door of the old vault is still there. The room that in 1904 served as proof that a concrete slab could hold nearly a hundred tons is now the hotel gym."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "A reporter stayed up all night waiting for the building to fall, so he could be first with the news.",
+      "registro": "It is local tradition, and the sources themselves treat it that way: the Public Library of Cincinnati speaks of an “often-told story”, with no name of reporter or newspaper. What is documented is the architect Alfred O. Elzner, in 1904, recounting that respected engineers predicted the building would not reach the roof, would crack from shrinkage and would not stand up to the wind."
+    },
+    {
+      "circula": "The building stayed up because it was flexible: flexibility beat rigidity.",
+      "registro": "It is the opposite. It was designed as a rigid monolith, with the slabs working as diaphragms and the walls as beams against the wind, according to the architect and the American Society of Civil Engineers. Elzner boasted that in the heaviest winds not even a tremor could be felt."
+    },
+    {
+      "circula": "It was the world's first reinforced concrete building.",
+      "registro": "No. Reinforced concrete was already being used in low buildings, in Europe and in the United States, including by Ernest Ransome himself, since the 1880s. The Ingalls Building is recognized as the first reinforced concrete skyscraper."
+    },
+    {
+      "circula": "Ernest Ransome designed the building.",
+      "registro": "Ransome invented and patented, in 1884, the twisted steel bar used in the building. The design is by the architects Elzner & Anderson, and the structural calculations are attributed to the engineer Henry N. Hooper."
+    }
+  ],
+  "perguntas": [
+    {"p": "Why is the Ingalls Building important?", "r": "It is recognized as the world's first reinforced concrete skyscraper: a 64 m office building in Cincinnati, in the United States, raised without a single steel beam at a time when, according to the sources, no concrete building went above six stories."},
+    {"p": "How was the Ingalls Building constructed?", "r": "As a monolith: concrete columns, beams and slabs poured together, reinforced with square steel bars twisted cold, the technique patented by Ernest L. Ransome in 1884. There are no I-beams, rivets or bolts, and three sets of wooden forms were reused from the bottom up."},
+    {"p": "Who built the Ingalls Building?", "r": "The investor was Melville Ingalls, president of the Big Four railroad, and the design is by the architects Elzner & Anderson, with structural calculations attributed to the engineer Henry Hooper. Who carried out the work is disputed: a magazine of 1903 names the contractor W. H. Ellis & Co., which won as the lowest bidder; other sources, Hooper's Ferro-Concrete Construction Company."},
+    {"p": "When was the Ingalls Building built?", "r": "Work began in the fall of 1902. The sources differ on when it ended: completion appears as 1903 in current sources, but in mid-1904 the architect wrote that the building had just been completed."},
+    {"p": "How many stories does the Ingalls Building have?", "r": "Fifteen stories and a full attic, “practically sixteen”, in the architect's words; that is why sources speak sometimes of 15, sometimes of 16. The height is 64 m above the sidewalk."}
+  ],
+  "fontes": [
+    {"texto": "A. O. Elzner, \"The First Concrete Skyscraper\", The Architectural Record, vol. 15, June 1904"},
+    {"texto": "\"Armored Concrete Building Fifteen Stories High — The Ingalls Building at Cincinnati\", Saxby's Magazine, Cincinnati, 1903"},
+    {"texto": "Ernest L. Ransome, US patent 305,226, \"Building Construction\", 16 September 1884"},
+    {"texto": "Ernest L. Ransome and Alexis Saurbrey, Reinforced Concrete Buildings, McGraw-Hill, 1912"},
+    {"texto": "American Society of Civil Engineers, \"Ingalls Building\", historic civil engineering landmarks"},
+    {"texto": "Society of Architectural Historians, SAH Archipedia, \"Ingalls Building\""},
+    {"texto": "Kevin Welch, \"Ingalls Building\", Public Library of Cincinnati and Hamilton County, 2022"},
+    {"texto": "The Skyscraper Museum, \"The Modern Concrete Skyscraper\""},
+    {"texto": "Mir M. Ali, \"Evolution of Concrete Skyscrapers: from Ingalls to Jin Mao\", Electronic Journal of Structural Engineering, 2001"},
+    {"texto": "Council on Tall Buildings and Urban Habitat, The Skyscraper Center, \"Ingalls Building\""},
+    {"texto": "Indiana Historical Society, \"Melville E. Ingalls Papers, 1870–1907\""},
+    {"texto": "WCPO, \"Historic Ingalls Building to get new life as hotel\""},
+    {"texto": "SREE Hotels, \"SREE Hotels Opens Courtyard by Marriott in Downtown Cincinnati\", Hotel-Online, July 2021"},
+    {"texto": "Federal Reserve Bank of Minneapolis, \"Consumer Price Index, 1800–\""}
+  ],
+  "imagens": [
+    {
+      "alt": "Tall, narrow building with a light-colored facade, seen from below at the corner, with a stone base, regular rows of windows and a projecting cornice at the top, against a blue sky",
+      "legenda": "The Ingalls Building in 2019, at the corner of Fourth and Vine streets, in Cincinnati.",
+      "autor": "Warren LeMay"
+    },
+    {
+      "alt": "Black-and-white newspaper photograph: on the left, a tall, light-colored building dominates the scene; on the right, three more distant tall buildings, a church spire and a small airship in the sky",
+      "legenda": "Downtown Cincinnati photographed in May 1904 from the Chamber of Commerce Building; the Ingalls Building is the one on the left.",
+      "autor": "Autor não identificado (The Cincinnati Post, 26/05/1904)"
+    },
+    {
+      "alt": "Old sepia postcard: a tall corner building seen from above, with a flagpole on top, the street far below and lower buildings around it",
+      "legenda": "A postcard from around 1910, which presented the building as the largest concrete building in the world.",
+      "autor": "Autor não identificado (Columbus Metropolitan Library)"
+    },
+    {
+      "alt": "Detail of the top of a building: a decorated projecting cornice, a top floor with pilasters and windows and, below, rows of windows in a light brick wall",
+      "legenda": "The top floor and the cornice, clad in glazed white terra cotta over the concrete structure.",
+      "autor": "Hhelvey"
+    },
+    {
+      "alt": "Rectangular bank vault door, open, full of bolts and gears, in a marble wall; inside, a small gym with dumbbells",
+      "legenda": "The door of the old bank vault, in 2021; the armored room became the hotel gym.",
+      "autor": "Antony-22"
+    },
+    {
+      "alt": "Black-and-white engraved portrait of a man with a full beard, dark suit and white collar, looking to the right",
+      "legenda": "Melville E. Ingalls, the investor who gave the building its name, in a portrait published by 1902.",
+      "autor": "Franklin Co., Chicago"
+    }
+  ]
+}

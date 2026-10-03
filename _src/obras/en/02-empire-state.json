@@ -1,0 +1,180 @@
+{
+  "_nota": "Tradução fiel de ../02-empire-state.json. Campos fixos vêm do original.",
+  "obra": "Empire State Building",
+  "titulo_seo": "How the Empire State Building Was Built (1930–1931)",
+  "_excecoes_numeros": ["27.500.000"],
+  "titulo_video": "Empire State: 102 floors in 410 days, and nobody wrote down who raised them",
+  "lugar": "Manhattan, New York, United States",
+  "periodo": "1930–1931",
+  "impossivel": "Putting up 86 floors of steel and stone in 410 days, in the middle of Manhattan, with work starting just months after the stock market crash of 1929.",
+  "resumo": "How the Empire State Building rose 4.5 floors a week in 1930, what it cost, how many died, and why nobody wrote down the names of the men who built it.",
+  "abertura": [
+    "On 14 August 1930, according to the builder's daily log, 3,439 men were at work on the same block of Manhattan, in New York, United States. The construction of the Empire State Building is one of the best documented of the 20th century: tons of steel erected, dates for every stage, numbered photographs.",
+    "And even so, nobody compiled a list of the men who raised it. This page rebuilds the job from what the sources recorded, shows where they disagree, and says plainly what nobody wrote down."
+  ],
+  "numeros": [
+    {"valor": "410 days", "rotulo": "from the start of work (17 March 1930) to the opening (1 May 1931)"},
+    {"valor": "4.5", "rotulo": "floors a week, on average"},
+    {"valor": "3,439", "rotulo": "men on a single day, 14 August 1930, according to the builder's daily log; other sources give 3,000 to 5,000"},
+    {"valor": "$40,948,900", "rotulo": "final cost, including the demolition of the old hotel"},
+    {"valor": "381 m", "rotulo": "to the 102nd floor; 443 m to the tip"},
+    {"valor": "5", "rotulo": "deaths recorded by the builder in October 1930"}
+  ],
+  "ficha": [
+    {"item": "Who wanted it", "valor": "Al Smith, former governor of New York, announced the building at the end of August 1929; John J. Raskob and Pierre S. du Pont put up the capital. On 13 December 1929, Metropolitan Life approved a loan of $27,500,000."},
+    {"item": "Site", "valor": "That of the Waldorf-Astoria hotel. Demolition begun on 1 October 1929 (New York Times of the day) × \"1930\" (1981 landmark designation report)."},
+    {"item": "Architect", "valor": "William F. Lamb, of the firm Shreve, Lamb & Harmon"},
+    {"item": "Design time", "valor": "\"Two weeks\" (Smithsonian) × four weeks of study and the basic scheme drawn in about two hours, in a single night (Lamb himself, Architectural Forum, Jan/1931)"},
+    {"item": "Builder", "valor": "Starrett Brothers & Eken; steel erection by Post & McCord", "nota": "Post & McCord: Architectural Forum, Aug/1930"},
+    {"item": "Workers at the peak", "valor": "3,439 on a single day, 14 August 1930 (Starrett daily log) × about 3,400 (ASCE) × 3,500 (Skyscraper Museum) × 5,000 \"at the peak\" (Popular Mechanics, Dec/1930) × about 3,000 (publisher of Glenn Kurtz's book)", "nota": "Kurtz speaks of about 10,000 over the whole job"},
+    {"item": "Who they were and what they earned", "valor": "Irish and Italian immigrants, and Mohawk ironworkers from Kahnawake, Quebec, Canada. New York union scale on 15 May 1930 for structural ironworkers: 192.5 cents an hour, $77 for a 40-hour week, Saturdays off, double pay for overtime.", "nota": "wages: Bureau of Labor Statistics, Bulletin 540; this is the union scale, not the job's payroll"},
+    {"item": "Workers' names", "valor": "Nobody compiled the list. What survives is 32 names of award-winning craftsmen on a bronze plaque in the lobby; Glenn Kurtz's book (Nov/2025) was the first to reconstruct who they were."},
+    {"item": "Timeline", "valor": "Work begun on 17 March 1930; first steel columns on 7 April 1930; steel at the top on 19 September 1930; opening on 1 May 1931, with Herbert Hoover switching on the lights with a button in Washington", "nota": "steel at the top: a single source (Willis & Friedman, 1998)"},
+    {"item": "Pace", "valor": "4.5 floors a week, against 3.5 for the previous record for a building of this height", "nota": "the fastest stretch varies: 14 or 14 and a half floors in 10 working days"},
+    {"item": "Cost", "valor": "$40,948,900, including the demolition of the Waldorf. Budget: $50 million × $60 million. Adjusted for inflation: about $867 million in 2025 dollars by the US consumer price index (1931 average to 2025 average), or $678 million in 2024 dollars by the GDP deflator.", "nota": "the budget varies among sources"},
+    {"item": "Deaths", "valor": "5 recorded by the builder on 22 October 1930 (1 in the demolition, 1 in the excavation, 3 on the tower) × 14 (New York Daily News) × \"up to 42\" (New Masses magazine, treated by historians as rumor). No name was published in the available sources."},
+    {"item": "Height and floors", "valor": "381 m to the 102nd floor; 443 m to the tip of the antenna. The 102 floors are 86 floors, plus the mast counted as 14, plus 2 basement levels.", "nota": "the count of 102: 1981 landmark designation report"},
+    {"item": "Materials", "valor": "Steel: 57,480 short tons × 57,000 t × 60,000 t. Bricks: 10 million.", "nota": "bricks: two or more sources"},
+    {"item": "Elevators and stairs", "valor": "73 elevators today (the originals: 64 × 66); 1,576 steps to the 86th floor, 1,860 to the 102nd", "nota": "the original number of elevators varies"},
+    {"item": "Afterwards", "valor": "23% rented in the first year; the observatory helped stave off bankruptcy. First profit: the 1940s × early 1950s. On 28 July 1945, a B-25 struck between the 79th and 80th floors: 14 dead.", "nota": "the year of the first profit varies"}
+  ],
+  "historia": [
+    {
+      "titulo": "An announcement, and two months later the crash",
+      "paragrafos": [
+        "At the end of August 1929, Al Smith, former governor of New York, announced the new building. The money came from John J. Raskob and Pierre S. du Pont. The site was that of the Waldorf-Astoria hotel, in Manhattan, and demolition began, according to the New York Times of the day, on 1 October 1929. The 1981 landmark designation report dates the demolition to 1930.",
+        "On 24 October 1929, about two months after the announcement, the New York stock market crashed.",
+        "The project did not stop. On 13 December 1929, the board of Metropolitan Life approved a loan of $27,500,000 to Empire State, Inc. A month earlier, Al Smith had left the insurer's board precisely because the company he headed was negotiating that loan. The newspaper item still called the building \"85 stories\": the mast at the top was not yet in the drawings."
+      ]
+    },
+    {
+      "titulo": "A design that ran alongside the construction",
+      "paragrafos": [
+        "The architect was William F. Lamb, of the firm Shreve, Lamb & Harmon. How long he took to design the building depends on who is telling it. The Smithsonian says two weeks. Lamb himself, in the January 1931 issue of Architectural Forum, described four weeks of study with his team and the basic scheme of the building drawn in a single night, in about two hours.",
+        "What the 1930 documents show is a design running only a few weeks ahead of the steel. The first structural drawings were delivered in mid-January 1930. The structural design was only finished up to the slab above the 85th floor in mid-June, when the columns had already been rising for two months.",
+        "Work officially began on 17 March 1930, a date engraved on a medallion in the lobby. Steel erection was scheduled for 1 April; photograph No. 133, published by the structural engineer, shows the first columns being set in the basement on 7 April."
+      ]
+    },
+    {
+      "titulo": "Thirty thousand tons in nine weeks",
+      "paragrafos": [
+        "The steel came from Carnegie Steel, in Homestead, near Pittsburgh. Fabrication was split between two companies, American Bridge, in Ambridge, and McClintic-Marshall, in Rankin, which took turns in groups of six to eight floors. Erection was by Post & McCord. In each of the first two months, 15,000 t were fabricated.",
+        "Up top, nine derricks were swinging at the start: five of 30 t and four of 20 t. Between 7 April and 9 June 1930, almost 30,000 t of steel were erected. The structural engineer, J. L. Edwards, wrote in August of that year that this was about 50% more than all the steel in 40 Wall Street or the Chrysler Building, and called the pace a speed record per ton.",
+        "There was no yard: the building site was the building itself. More than 200 trucks arrived each day. On every floor, small cars on rails carried material to where it would be used, and there were lunch counters on five floors, so nobody lost time going down.",
+        "The pace became a record. The historian John Tauranac records the 26th floor on 20 June and half the frame on 27 July. ENR magazine speaks of 22 floors in 22 working days in July, on regular hours. On average, it came to 4.5 floors a week, when the previous record for a building of that height was 3.5. A first-person sentence, reproduced in books with no confirmed author, says that they once erected 14 and a half floors in 10 working days, \"steel, concrete, stone and all\"; other historians speak of 14 floors in the same span. The steel reached the top on 19 September 1930, according to the builder's daily log published by Willis and Friedman. The schedule released in 1930 had planned the roof framing for 1 September."
+      ]
+    },
+    {
+      "titulo": "The steel men",
+      "paragrafos": [
+        "The men up there were, in large part, Irish and Italian immigrants, and a minority of Mohawk ironworkers from Kahnawake, Quebec, Canada. The photographer Lewis Hine followed the work, and some of his photos ran in magazines as early as 1930.",
+        "How many there were depends on the count. The builder's daily log recorded 3,439 men on a single day, 14 August 1930. Popular Mechanics, in December 1930, speaks of 5,000 \"at the peak of construction\"; the Skyscraper Museum, of 3,500; the publisher of Glenn Kurtz's book, of about 3,000; and Kurtz himself, of about 10,000 over the whole job. These are probably different counts — the busiest day and the total number of men who passed through the job — but the sources do not reconcile them.",
+        "What they earned also has an official source. Bulletin 540 of the Bureau of Labor Statistics records the New York union scale on 15 May 1930: the structural ironworker received 192.5 cents an hour, $77 for a full week, at 8 hours a day, 40 a week, with Saturdays off and overtime paid double. The bricklayer had the same scale; the bricklayer's helper, 112.5 cents an hour. This is the union's table, not the job's payroll.",
+        "Shifts of 12 hours existed, but in the excavation: from January to March 1930, two shifts of 300 men each, according to the historian Langmead (2009). On the demolition of the hotel, an average of 600 men worked."
+      ]
+    },
+    {
+      "titulo": "Five deaths, and who did the counting",
+      "paragrafos": [
+        "The official number is five, and it has a date and an author. On 22 October 1930, Starrett Brothers & Eken, denying rumors of too many deaths on the job, told the New York Times that five deaths had been recorded: one in the demolition of the Waldorf-Astoria, one in the excavation and three in the construction of the new building. The count is the builder's, a little over six months before the opening.",
+        "The historian John Tauranac describes five circumstances: one worker was hit by a truck while sawing a plank; another walked into a blasting area; another stepped off a scaffold; another fell down the elevator shaft; the last was struck by a hoist. By his list, none fell from the steel frame. How that list fits the builder's breakdown (demolition, excavation, tower), the sources do not say.",
+        "Other numbers circulated. The New York Daily News spoke of 14 dead. New Masses magazine went as high as \"up to 42\", a figure historians treat as rumor. And the name of none of the five appears in the available sources."
+      ]
+    },
+    {
+      "titulo": "The mast, the lights and the empty building",
+      "paragrafos": [
+        "On 1 May 1931, in Washington, President Herbert Hoover pressed a button, and the lights of the Empire State came on in New York. It had been 410 days since 17 March 1930. Counting from the architects' contracts, in September 1929, it was about 20 months. The final cost came to $40,948,900, demolition included — below a budget that the sources give as $50 or $60 million.",
+        "The mast at the top was calculated for the force of the wind added to the pull of a moored airship: 318,000 pounds, a little over 7% of the 4,340,000 pounds of wind load on the facade, according to Architectural Forum in August 1930. In practice, it was almost never used. On 15 September 1931, a small US Navy blimp made 25 passes in 45-mile-per-hour winds, dumped ballast and was shaken by the turbulence; the naval historian Norman Polmar identifies it as the J-4 and speaks of a contact of 3 minutes. A New York World-Telegram photo dated 30 September 1931 shows the Goodyear-Zeppelin Columbia trying to pick up mail sacks from the mast: the rope reached Andrew Kelly's hands once, and slipped away. A Universal newsreel of 1 October that year shows, on the contrary, a package delivered into the arms of a tower employee. These may be two different flights.",
+        "In the first year, only 23% of the building was rented, and New York started calling it the Empty State Building. In 1936, there was no elevator above the 45th floor. What kept the accounts afloat was the observatory: about 1 million visitors a year, at $1 each, which, according to the landmark designation report, saved the building from bankruptcy, in part. When the first profit came, the sources do not agree: the 1940s or the early 1950s. In 1951, the building was sold for $51 million.",
+        "On 28 July 1945, at 9:40 a.m., in fog, a B-25 bomber struck between the 79th and 80th floors. In all, 14 people died: the 3 crew members and 11 people in the building. The elevator operator Betty Lou Oliver fell 75 floors inside an elevator car and survived, a record listed by Guinness."
+      ]
+    },
+    {
+      "titulo": "Ninety-four years later, the names",
+      "paragrafos": [
+        "For almost a century, the men in Hine's photos remained nameless. The Skyscraper Museum sums it up: no list of workers on this job was ever compiled. The only names left in the building are on a bronze plaque in the lobby, with 32 craftsmen honored by the New York Building Congress — among them Michael Tierney, rock driller, and Vladimir Kozloff, wrecker.",
+        "In November 2025, the writer Glenn Kurtz published Men at Work: The Empire State Building and the Untold Story of the Craftsmen Who Built It. Cross-referencing the census, immigration and union records, newspapers of the time and interviews with descendants, the book put names to the men who raised the building. On 1 May 2026, the Empire State turned 95."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "The photo of eleven workers eating lunch on a beam was taken at the Empire State.",
+      "registro": "It was not. The photo is from the RCA Building, at Rockefeller Center, in New York, dated 20 September 1932, and it was staged for publicity."
+    },
+    {
+      "circula": "Airships used to dock at the Empire State's mast.",
+      "registro": "The mast worked as publicity. In September 1931 there was a contact of a few minutes with a small Navy blimp, and flights by a Goodyear airship to pass mail and packages by rope, recorded sometimes as a failure, sometimes as a successful delivery. The famous photo of the docked airship is a composite."
+    },
+    {
+      "circula": "Hundreds of workers died, and there are men buried in the concrete.",
+      "registro": "The builder recorded 5 deaths up to October 1930, with circumstances described by John Tauranac; none of the circumstances described involves concrete or a fall from the steel frame. The Daily News spoke of 14; New Masses's 42 are treated as rumor."
+    },
+    {
+      "circula": "The workers earned $1.25 an hour, in 12-hour shifts, seven days a week.",
+      "registro": "The official New York union scale, in May 1930, gave the structural ironworker 192.5 cents an hour, 40 hours a week, Saturdays off and double pay for overtime. Shifts of 12 hours, only in the excavation."
+    },
+    {
+      "circula": "The whole building was done in 410 days.",
+      "registro": "The number is right, but it runs from 17 March 1930 to 1 May 1931. The architects' contracts date from September 1929 and the demolition of the hotel began on 1 October 1929: from design to opening, it was about 20 months."
+    }
+  ],
+  "perguntas": [
+    {"p": "How long did it take to build the Empire State Building?", "r": "It took 410 days, from the official start of work, on 17 March 1930, to the opening, on 1 May 1931, at an average of 4.5 floors a week. Counting from the architects' contracts, in September 1929, it was about 20 months."},
+    {"p": "How many people died building the Empire State Building?", "r": "The sources disagree. The builder recorded 5 deaths up to October 1930: 1 in the demolition, 1 in the excavation and 3 on the tower; the New York Daily News spoke of 14, and New Masses magazine's “up to 42” is treated by historians as rumor."},
+    {"p": "How much did the Empire State Building cost to build?", "r": "The final cost was $40,948,900, including the demolition of the Waldorf-Astoria hotel, below a budget that the sources give as $50 or $60 million. Adjusted by the US consumer price index, that is about $867 million in 2025 dollars."},
+    {"p": "How many workers built the Empire State Building?", "r": "The sources disagree. The builder's daily log recorded 3,439 men on a single day, 14 August 1930; other counts range from about 3,000 to 5,000 at the peak, and Glenn Kurtz speaks of about 10,000 over the whole job."},
+    {"p": "How tall is the Empire State Building?", "r": "It is 381 m to the 102nd floor and 443 m to the tip of the antenna. The 102 floors are 86 floors, plus the mast counted as 14, plus 2 basement levels."}
+  ],
+  "fontes": [
+    {"texto": "Anthony W. Robins, Landmarks Preservation Commission, landmark designation report LP-2000, New York, 1981"},
+    {"texto": "National Park Service, nomination of the Empire State Building as a National Historic Landmark"},
+    {"texto": "J. L. Edwards, \"The Structural Frame\", Architectural Forum, August 1930"},
+    {"texto": "Popular Mechanics, December 1930"},
+    {"texto": "Bureau of Labor Statistics, Bulletin 540, Union Scales of Wages and Hours of Labor, May 15, 1930"},
+    {"texto": "The New York Times, \"Approves $27,500,000 for Smith Project\", 14 December 1929, p. 3"},
+    {"texto": "The New York Times, \"Few Fatalities on Smith's Building\", 23 October 1930, p. 25"},
+    {"texto": "Library of Congress, New York World-Telegram & Sun photo of the airship Columbia, 30 September 1931"},
+    {"texto": "Empire State Building, Facts & Figures and History"},
+    {"texto": "John Tauranac, The Empire State Building: The Making of a Landmark, 2014"},
+    {"texto": "Carol Willis and Donald Friedman, Building the Empire State, 1998"},
+    {"texto": "Skyscraper Museum, The Empire State Building and the Untold Story of the Craftsmen Who Built It"},
+    {"texto": "Glenn Kurtz, Men at Work, Seven Stories Press, 2025"},
+    {"texto": "Glenn Kurtz, \"Who Built the Empire State Building?\", Time, 28 March 2026"},
+    {"texto": "Architectural Record, on Glenn Kurtz's book, 1 May 2026"},
+    {"texto": "ASCE Metropolitan Section, Empire State Building"}
+  ],
+  "imagens": [
+    {
+      "alt": "The Empire State Building seen from above, with the antenna on top, among the buildings of Manhattan on a hazy morning",
+      "legenda": "The Empire State Building seen from the north, rising above Midtown Manhattan.",
+      "autor": "Jorge Láscar"
+    },
+    {
+      "alt": "Excavated site with the first steel columns standing on their footings, derricks in the background",
+      "legenda": "The first steel columns being set in the basement, on 7 April 1930. Published in Architectural Forum, August 1930.",
+      "autor": "Knickerbocker, for Architectural Forum (1930)"
+    },
+    {
+      "alt": "Steel frame with several floors erected above a base already in concrete, derricks at the top",
+      "legenda": "The frame at the stage when almost 30,000 t of steel had been erected, up to 9 June 1930. Architectural Forum, August 1930.",
+      "autor": "Knickerbocker, for Architectural Forum (1930)"
+    },
+    {
+      "alt": "Steel skeleton with derricks in the foreground and the Chrysler Building in the background",
+      "legenda": "The frame rising on the site of the Waldorf-Astoria, with the Chrysler Building behind. Published in Mid-Week Pictorial on 5 July 1930.",
+      "autor": "Lewis Hine (Mid-Week Pictorial, 1930)"
+    },
+    {
+      "alt": "Worker in a cap sitting on a beam, tightening a part, with Manhattan and the Chrysler Building far below",
+      "legenda": "An ironworker high on the frame, with the Chrysler Building to the right. Photo by Lewis Hine.",
+      "autor": "Lewis Hine (National Archives, NARA 518290)"
+    },
+    {
+      "alt": "The building almost fully clad, still without its crowning tower, above the neighboring blocks",
+      "legenda": "The building on 16 October 1930, still without the tower. Architectural Forum, November 1930.",
+      "autor": "Knickerbocker, for Architectural Forum (1930)"
+    }
+  ]
+}

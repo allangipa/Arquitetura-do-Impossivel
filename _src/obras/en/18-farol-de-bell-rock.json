@@ -1,0 +1,126 @@
+{
+  "_nota": "Tradução fiel de ../18-farol-de-bell-rock.json. Campos fixos vêm do original.",
+  "obra": "Bell Rock Lighthouse",
+  "titulo_seo": "How the Bell Rock Lighthouse Was Built (1807–1811)",
+  "titulo_video": null,
+  "lugar": "Bell Rock (Inchcape) reef, North Sea, off Arbroath, Angus, Scotland, United Kingdom",
+  "periodo": "1807–1811",
+  "impossivel": "Raising a stone tower some 35 meters tall on a reef the sea covers twice a day, about 18 kilometers from the coast, working only in summer and, at first, only about two hours at each low tide.",
+  "resumo": "How the Bell Rock Lighthouse, a tower of interlocking stone, rose from 1807 to 1811 on a reef the North Sea covers, and who deserves the credit.",
+  "abertura": [
+    "Some 18 kilometers off Arbroath, on the east coast of Scotland, in the United Kingdom, lies a reef that shows itself only at low tide. It is called Bell Rock, or Inchcape, and it sank ships on the way into the Firths of Tay and Forth. In 1806, the British Parliament authorized a stone lighthouse planted right on top of it.",
+    "The tower was lit on 1 February 1811 and is still lit today. It is the oldest sea-washed lighthouse in the world still in service, built stone by stone, with blocks dovetailed into one another, by men who could work only while the tide allowed. And people still argue over who designed it: Robert Stevenson, who built it, or John Rennie, who was the chief engineer."
+  ],
+  "numeros": [
+    {"valor": "1 February 1811", "rotulo": "the first night it shone, after four years of work"},
+    {"valor": "2 hours", "rotulo": "of work per low tide, at the start of construction"},
+    {"valor": "35 to 36 m", "rotulo": "tall, depending on the source"},
+    {"valor": "£61,331", "rotulo": "net cost, against an estimate of about £42,000"},
+    {"valor": "3", "rotulo": "men killed on the job, according to the engineer's journal; other sources count at least two"},
+    {"valor": "1988", "rotulo": "the year the last keepers left the tower"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "The reef is submerged at high tide and sank ships at the mouths of the Firths of Tay and Forth. A storm in December 1799 took about 70 vessels off the coasts of Fife and Angus, and the wreck of the warship HMS York, with 491 men, was blamed on the reef.", "nota": "the date of the York's loss is given as 1799, 1803 or 1804, depending on the source"},
+    {"item": "Who wanted it", "valor": "The Commissioners of Northern Lighthouses, today the Northern Lighthouse Board. Robert Stevenson, the board's engineer, proposed the stone tower after visiting the reef in 1800. A first bill failed in the House of Lords in 1803; the second passed in 1806, with a government loan.", "nota": "the £25,000 loan appears in only one source"},
+    {"item": "Design", "valor": "On 3 December 1806, the board appointed John Rennie chief engineer, with Stevenson as his assistant, and Stevenson ran the work on the reef. The book Stevenson published in 1824 gives Rennie almost no credit, and the feud between the two families lasted more than a century. Scotland's heritage body lists Stevenson as designer and Rennie as consulting engineer."},
+    {"item": "The model", "valor": "John Smeaton's Eddystone Lighthouse, near Plymouth, England (1759): a stone tower in which every course is dovetailed together. The 40-ton vessel built to carry the stones out to the reef was named Smeaton in his honor."},
+    {"item": "How it stands", "valor": "The stones of each course dovetail into one another, from the center outward, and the courses are tied to each other with oak trenails, wedges and stone joggles. The base was set into a pit cut into the reef itself. The first 30 feet (about 9 m) are solid."},
+    {"item": "Material", "valor": "Aberdeen granite for the outer casing of the lower courses and sandstone for the core and the rest of the tower, according to Stevenson. Sources mention stone from Aberdeen, Mylnefield (Dundee) and Craigleith (Edinburgh).", "nota": "the name of the sandstone quarry varies between sources"},
+    {"item": "Timeline", "valor": "Work on the reef from 18 August 1807; foundation stone on 10 July 1808; solid section finished on 25 August 1809; last stone in the summer of 1810; lit on 1 February 1811. Stones were laid only in the summers of 1808, 1809 and 1810.", "nota": "the exact dates come from Stevenson's journal; the starting year, the 30-foot solid section and the lighting are backed by other sources; the last stone is given as 30 July or 2 September 1810"},
+    {"item": "Tide", "valor": "At first, about two hours of work per low tide. In 1810, with the tower already above the water, the working day reached nine hours, according to Stevenson."},
+    {"item": "Workers", "valor": "24 artificers on the first landing, in August 1807; 60 at the Arbroath yard in May 1808; up to 52 people at once on the reef; 31 living in the timber barrack in June 1810. The total number of men who passed through the job was not reliably recorded.", "nota": "figures from Stevenson's journal"},
+    {"item": "Wages", "valor": "3 shillings and 4 pence a day, plus 6 pence per hour of overtime. In 1810, working Sundays as well, the artificers took home more than two guineas a week, according to Stevenson."},
+    {"item": "Deaths", "valor": "Three, in Stevenson's journal: seaman James Scott, aged 18, drowned at the reef in September 1808; laborer William Walker, crushed by a stone at the Arbroath yard in July 1809; and smith Charles Henderson, who fell from the rope ladder between the barrack and the tower in 1810.", "nota": "other sources count at least two deaths and describe Henderson's as happening in a storm"},
+    {"item": "Cost", "valor": "£61,331 9s. 2d. net, by Stevenson's account; from the gross outlay of £77,089 they deducted boats, machinery and sheds sold or transferred, and the light vessel. The estimates were £41,844 (Rennie) and £42,685 (Stevenson).", "nota": "at the job's wage rate, the net cost equals about 368,000 days of an artificer's pay; there is no reliable conversion into today's pounds"},
+    {"item": "Dimensions", "valor": "About 35 or 36 m tall, depending on the source; 42 feet (13 m) in diameter at the base and 15 feet (4.5 m) at the top; 96 steps; about 2,077 tons of stone. The number of blocks is given as 2,835, about 2,800 or about 2,500."},
+    {"item": "The light", "valor": "Lit on 1 February 1811, when the light vessel Pharos, moored nearby since 15 September 1807, was put out. The original light had 24 reflectors and oil lamps, turned by clockwork and alternated white and red. Today it gives one white flash every 5 seconds, visible at 18 nautical miles."},
+    {"item": "Later accidents", "valor": "On 15 December 1955, an RAF helicopter struck the anemometer at the top and fell into the sea; both crew members died and the light went out. On 3 September 1987, a fire swept the upper floors, and the three keepers were rescued by helicopter as the tide rose.", "nota": "the 1987 fire comes from a single source, the newspaper The Courier"},
+    {"item": "Today", "valor": "Automated in October 1988 and monitored remotely from Edinburgh. In 2026, the National Records of Scotland exhibited documents from its construction, from 3 August to 25 September, in Edinburgh.", "nota": "the day of automation is given as 24 or 26 October 1988"}
+  ],
+  "historia": [
+    {
+      "titulo": "A reef that vanishes twice a day",
+      "paragrafos": [
+        "Bell Rock is a sandstone reef in the North Sea, about 18 kilometers from Arbroath, in the county of Angus, Scotland, in the United Kingdom. At high tide it lies under four to five meters of water; at low tide it shows for a few hours. It sits in the path of ships entering the Firth of Tay, bound for Dundee, and the Firth of Forth, bound for Edinburgh. A legend, repeated by the National Records of Scotland, says an abbot of Arbroath hung a warning bell there in the fourteenth century, and that this is where the name comes from.",
+        "A bell was not enough. In December 1799, a storm took about 70 vessels off the coasts of Fife and Angus. The wreck of HMS York, a warship lost with 491 men, was blamed on the reef, and the sources disagree on the date, which appears as 1799, late 1803 or 1804. Robert Stevenson, engineer to the Northern Lighthouses board, visited the reef in 1800 and argued for a stone tower. The first bill failed in the House of Lords in 1803. The second passed in 1806."
+      ]
+    },
+    {
+      "titulo": "Who drew the tower",
+      "paragrafos": [
+        "On 3 December 1806, the board decided the work would be done under the direction of John Rennie, appointed chief engineer, with Stevenson as his assistant. In practice, Stevenson got the reef: he lived on the boats and in the barrack, directed the men and kept the works journal. Rennie visited the reef and sent instructions. According to research by historian Roland Paxton, published in 2011, it was Rennie who drew the elevation and gave Stevenson the data to lay out the curve of the tower's profile, wide at the bottom and slender at the top.",
+        "In 1824, Stevenson published a book about the work, with engravings and accounts, and Rennie barely appears in it. Paxton found that letters had been cut out of Stevenson's letter books, and that a report by Rennie from 1809 was left out of the book, possibly in the mid-nineteenth century. The two men's sons fought over the credit until 1848, and the families for much longer. Today Scotland's heritage body lists the lighthouse as Stevenson's design, with Rennie as consulting engineer. Both readings still stand."
+      ]
+    },
+    {
+      "titulo": "Smeaton's dovetail",
+      "paragrafos": [
+        "The model was the Eddystone Lighthouse, which John Smeaton had raised in 1759 on a rock off Plymouth, England. Smeaton's idea was to make each course of stone work as a single piece: the blocks are dovetail-shaped, wider at one end, and lock into one another, from the center to the edge, like a jigsaw puzzle. Bell Rock was done the same way, according to Stevenson himself, and the courses were also tied to one another with oak trenails, wedges and stone joggles.",
+        "The base is not glued to the reef: it sits inside it. The men cut a foundation pit into the rock, deeper than planned, and the first courses were laid there with pozzolana mortar. The first 30 feet, about 9 meters, are solid stone, Aberdeen granite outside and sandstone inside. The rest is weight: about 2,078 tons, by Stevenson's reckoning. Each block was cut on land, in Arbroath, assembled on a platform to test the fit and only then shipped out. According to Stevenson, many blocks lost half their volume in the cutting.",
+        "The 40-ton vessel that carried the stones to the reef was named Smeaton. It was Stevenson who suggested the name, in honor of the engineer whose narrative, he wrote, would serve as a kind of manual for the job."
+      ]
+    },
+    {
+      "titulo": "Two hours per tide",
+      "paragrafos": [
+        "Work began on 18 August 1807, when 24 artificers landed on the reef. Work went on only in summer and, at first, for about two hours at each low tide. The men lived aboard ship, suffered from seasickness and, when the tide rose, went back to the boats. One day in 1807, one of the boats broke from its moorings with men still on the reef, and on the next trip out 18 artificers refused to go.",
+        "The answer was a timber barrack on legs, raised beside the tower site on 50-foot beams. At first it served as shelter and smithy; from 1809 on, the men began living in it, first a few, then 24, and by 1810 there were 31. A rope ladder linked the barrack to the tower. Meanwhile, a light vessel, the Pharos, stayed moored near the reef from 15 September 1807 until the night the tower was lit.",
+        "The foundation stone was laid on 10 July 1808. The solid section was finished on 25 August 1809. In 1810, with the tower above the water, the working day reached nine hours, and the artificers, who earned 3 shillings and 4 pence a day, plus 6 pence per hour of overtime, began taking home more than two guineas a week, according to Stevenson. The Navy was press-ganging men in the middle of the war against Napoleon, and the men on the job were given a protection medal so they would not be taken."
+      ]
+    },
+    {
+      "titulo": "The three who did not come back",
+      "paragrafos": [
+        "Stevenson's journal records three deaths. In September 1808, seaman James Scott, aged 18, was tying a rope to a buoy when its chain came loose from the bottom; the buoy sprang up, overturned the boat, and he, probably struck on the head, was swept away by the current. In July 1809, at the Arbroath yard, a stone slipped from the tackle and fell on laborer William Walker, who died within hours, leaving a wife and two children. In 1810, during the fitting of the lantern, smith Charles Henderson was coming down from the tower in the dark, racing a workmate, and fell from the rope ladder. He was never found.",
+        "The board paid a pension to Scott's mother and to Walker's widow. Other sources speak of at least two deaths and describe Henderson's as happening in a storm. The journal also mentions one man left disabled at the yard and another who lost a finger."
+      ]
+    },
+    {
+      "titulo": "The bill and the light",
+      "paragrafos": [
+        "Rennie had estimated the tower at £41,844, or £42,000, as he himself rounded it. Stevenson's accounts came to £77,089 in gross spending and, after deducting what was sold or transferred, including the light vessel, to £61,331 9s. 2d. net, about 47% over Rennie's estimate. At the job's wage rate, the sum equals about 368,000 days of an artificer's pay.",
+        "The last stone was laid in the summer of 1810: the National Records of Scotland give 30 July for the last course, and Stevenson's journal gives 2 September for the last stone. The light was announced in the newspapers in December and lit on 1 February 1811. There were 24 reflectors with oil lamps, turned by clockwork and alternating white with red. In 1819, the painter J. M. W. Turner made a watercolor of the tower in the middle of a storm to illustrate Stevenson's book."
+      ]
+    },
+    {
+      "titulo": "More than two hundred years at sea",
+      "paragrafos": [
+        "In the Second World War, the tower was strafed more than once and hit by a bomb in 1941. On 15 December 1955, an RAF helicopter carrying newspapers to the keepers struck the anemometer at the top with its tail rotor and fell into the sea; both crew members died and the light was put out of action. On 3 September 1987, according to Dundee's newspaper The Courier, a fuel leak caught fire in the kitchen and spread to the upper floors; the three keepers climbed down onto the reef with the tide rising and were lifted off by a helicopter.",
+        "In October 1988, the last keepers left the tower, which from then on was monitored from Edinburgh. In 2026, the National Records of Scotland brought the construction documents to the exhibition For the Safety of All, in Edinburgh, from 3 August to 25 September. Bell Rock is still there, about 18 kilometers off the coast, shining every night: the oldest sea-washed lighthouse in the world still in service."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "Robert Stevenson designed and built the lighthouse on his own.", "registro": "John Rennie was appointed chief engineer in 1806, with Stevenson as his assistant. Research by historian Roland Paxton, published in 2011, credits Rennie with the curve of the profile; Stevenson's 1824 book barely mentions him. The credit has been disputed ever since, and Scotland's heritage body lists Stevenson as designer and Rennie as consultant."},
+    {"circula": "The lighthouse's base is fused to the rock of the reef.", "registro": "There is no fusion. A foundation pit was cut into the reef, the first courses were laid inside it with mortar, and the stones lock together through dovetail joints, trenails and stone joggles. The rest is weight: about 2,077 tons."},
+    {"circula": "The dovetail joint was invented for Bell Rock.", "registro": "It comes from John Smeaton's Eddystone Lighthouse (1759). Stevenson himself wrote that he followed the Eddystone method."},
+    {"circula": "The lighthouse caught fire in 1955.", "registro": "In 1955, an RAF helicopter struck the top of the tower and fell into the sea, killing both crew members, according to the British Parliament's record. The fire was in 1987, according to the newspaper The Courier."},
+    {"circula": "It is the oldest lighthouse in the world.", "registro": "It is the oldest sea-washed lighthouse, built on wave-battered rock, still in service. There are far older lighthouses on dry land."}
+  ],
+  "perguntas": [
+    {"p": "Who built the Bell Rock Lighthouse?", "r": "Robert Stevenson ran the work on the reef, but in 1806 the Northern Lighthouses board appointed John Rennie chief engineer, with Stevenson as his assistant. Credit for the design is still disputed: Scotland's heritage body lists Stevenson as designer and Rennie as consulting engineer."},
+    {"p": "How was the Bell Rock Lighthouse built?", "r": "Stone by stone: the blocks were cut in Arbroath and dovetail into one another, as in John Smeaton's Eddystone Lighthouse. The base was set into a pit cut into the reef itself, and at first work went on only in summer, about two hours at each low tide."},
+    {"p": "How long did it take to build the Bell Rock Lighthouse?", "r": "About four years. Work on the reef began on 18 August 1807 and the tower was lit on 1 February 1811; stones were laid only in the summers of 1808, 1809 and 1810."},
+    {"p": "How tall is the Bell Rock Lighthouse?", "r": "Sources differ: about 35 or 36 m. The tower is 13 m in diameter at the base, 4.5 m at the top, and has 96 steps."},
+    {"p": "How many people died building the Bell Rock Lighthouse?", "r": "Sources differ. Stevenson's journal records three deaths, those of seaman James Scott, laborer William Walker and smith Charles Henderson; other sources count at least two."}
+  ],
+  "fontes": [
+    {"texto": "Robert Stevenson, An Account of the Bell Rock Light-House, Edinburgh, 1824 (Project Gutenberg)"},
+    {"texto": "Northern Lighthouse Board, \"Bell Rock\""},
+    {"texto": "National Library of Scotland, \"Robert Stevenson and the building of Bell Rock Lighthouse\""},
+    {"texto": "National Records of Scotland, \"'A ruddy gem of changeful light': the Bell Rock Lighthouse\", 2026"},
+    {"texto": "The Rochester Bridge Trust, \"John Rennie – Bell Rock Lighthouse\" (based on Roland Paxton, Dynasty of Engineers, 2011)"},
+    {"texto": "Historic Environment Scotland, Bell Rock Lighthouse, LB45197"},
+    {"texto": "House of Commons, \"Helicopter Crash, Bell Rock Lighthouse\", Hansard, 20 December 1955"},
+    {"texto": "Encyclopaedia Britannica, 11th ed., article \"Lighthouse\", 1911"},
+    {"texto": "The Courier, \"When the Bell Rock Lighthouse fire left keepers trapped with waters rising\""},
+    {"texto": "Midlothian View, \"Talks to shine a light on Scotland's lighthouses\", 29 June 2026"}
+  ],
+  "imagens": [
+    {"alt": "White stone lighthouse with a dark lantern at the top and a wide, dark base, on a low reef almost level with calm water, under a grey-blue sky", "legenda": "The tower and the reef exposed at low tide, in 2013. At high tide, the water covers the rock and reaches the dark base.", "autor": "Kognos"},
+    {"alt": "Black-and-white engraving: the nearly finished stone tower, with a crane on top, linked by a wooden bridge to a barrack on timber legs; men on the reef and rowing boats on the sea", "legenda": "The works on the reef: the tower, the timber barrack where the men lived and the bridge between the two. Engraving by William Miller after a painting by Alexander Carse, published in Stevenson's book in 1824.", "autor": "William Miller, sobre desenho de G. C. Scott e pintura de Alexander Carse"},
+    {"alt": "Black-and-white technical plate showing three stages of the work: the base with cranes in 1808, the conical base with the rope ladder in 1809 and, on the right, the tower in section, with floors, spiral stair and crane on top, in 1810", "legenda": "The work in September 1808, August 1809 and July 1810. Plate IX of Stevenson's book, engraved by William Miller after a drawing by J. Slight.", "autor": "William Miller, sobre desenho de J. Slight"},
+    {"alt": "Watercolor: huge waves and white spray climbing the lighthouse tower under a dark stormy sky, with a heeling sailing ship on the left", "legenda": "The lighthouse in a storm, a watercolor by J. M. W. Turner from 1819, made for the engraving in Stevenson's book.", "autor": "J. M. W. Turner"},
+    {"alt": "White lighthouse with its stone base darkened and wet on a low reef, under a clear blue sky and a dark blue sea", "legenda": "The tower in 2022. The dark part at the bottom is the solid masonry the tide covers.", "autor": "Ralph Greig"}
+  ]
+}

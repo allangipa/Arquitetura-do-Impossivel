@@ -1,0 +1,169 @@
+{
+  "_nota": "Tradução fiel de ../33-111-west-57th-street.json. Campos fixos vêm do original.",
+  "obra": "111 West 57th Street",
+  "titulo_seo": "111 West 57th Street: The World's Skinniest Skyscraper",
+  "titulo_video": null,
+  "lugar": "West 57th Street, Midtown, Manhattan, New York, United States",
+  "periodo": "2014–2021",
+  "impossivel": "Raising 435 meters of apartments on a footprint some 18 meters wide, on a lot squeezed between neighbors and attached to a landmarked 1925 building, without the tower swaying enough for the people living at the top to feel it.",
+  "resumo": "How New York raised 111 West 57th Street, the world's most slender skyscraper, 435 m tall on 18 m, and the crisis that halted work at the 20th floor.",
+  "abertura": [
+    "On West 57th Street, in Manhattan, New York, in the United States, the stretch next to Central Park earned the nickname Billionaires' Row in the 2010s: a line of very tall, very thin residential towers, sold on their park views. 111 West 57th Street, also called Steinway Tower, is the most extreme of them. It is 435.3 meters tall and about 18 meters wide.",
+    "A tower like this does not fall; it sways, and the problem is making sure nobody feels it. The solution from SHoP Architects and the engineers at WSP was to put two full-height concrete walls along the sides, tie them together at mechanical floors and hang a pendulum of hundreds of tons at the top. At the foot of the tower stands Steinway Hall, home of Steinway pianos from 1925 until the 2013 sale, whose lot and development rights allowed the tower to rise."
+  ],
+  "numeros": [
+    {"valor": "435.3 m", "rotulo": "architectural height, over 84 floors"},
+    {"valor": "1:23 · 1:24", "rotulo": "the ratio of width to height, depending on the source"},
+    {"valor": "~18 m", "rotulo": "wide (59 feet) in the narrowest direction"},
+    {"valor": "800 t", "rotulo": "the weight of the mass damper at the top, in American 'tons' (about 725 metric tonnes)"},
+    {"valor": "US$725M", "rotulo": "in construction financing, between a mortgage and a mezzanine loan"},
+    {"valor": "20 floors", "rotulo": "where work stopped in July 2017, amid the crisis with lenders and partners"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To sell luxury apartments with Central Park views on a narrow Midtown lot. The only way to have a view there is to go up, and to go up the developers bought Steinway Hall and the neighbors' development rights."},
+    {"item": "Who wanted it", "valor": "Michael Stern's JDS Development Group and Kevin Maloney's Property Markets Group, which in March 2013 bought Steinway Hall from the piano maker for US$46 million. Spruce Capital Partners later came in as a partner."},
+    {"item": "Design", "valor": "SHoP Architects, of New York. A reinforced-concrete tower with a steel crown, glass north and south facades, and east and west facades clad in about 43,000 pieces of terracotta, in undulating piers that form a moiré pattern."},
+    {"item": "Structure", "valor": "WSP. Two concrete shear walls run the full height of the east and west facades and are tied to each other and to the core by bracing walls on mechanical floors. At the top, above the last occupied floor, a tuned mass damper reduces the sway.", "nota": "the bracing floors appear in only one source, The Builders Report"},
+    {"item": "The side walls", "valor": "Up to 30 inches, about 76 cm, according to one source; another speaks of 30 to 36 inches on the lower floors, up to some 91 cm, thinning to 16 inches, about 41 cm, at the top."},
+    {"item": "Concrete", "valor": "Up to 14,000 psi, about 96.5 MPa, with more than 5.5 million feet of rebar, according to the developers."},
+    {"item": "The 1925 building", "valor": "Steinway Hall, 16 stories, designed by Warren & Wetmore and built in 1924–1925 as headquarters and showroom for Steinway & Sons. Facade landmarked by the city on November 13, 2001; the rotunda and the lobby, on September 10, 2013. The tower occupies an empty lot next door and part of the Steinway Hall lot."},
+    {"item": "Timeline", "valor": "Excavation from 2014; work stopped at 20 floors in July 2017; spire installed and tower topped out in 2019; completion given as 2020, 2021 or 2022, depending on the source."},
+    {"item": "Workers", "valor": "The total number of workers was not recorded in the sources consulted. In 2018 the Manhattan District Attorney's office reported that the concrete and masonry subcontractor Parkside Construction had more than 500 employees spread across eight sites, this one among them."},
+    {"item": "Deaths and accidents", "valor": "No death recorded in the sources consulted. The New York City Department of Buildings logged four minor injuries at the address in April and May 2015. In January 2020, a block of terracotta fell and pierced the roof of a taxi; on October 29, 2020, in high winds, the crane spun, a cable struck the facade and glass and aluminum fell into the street. Nobody was hurt in either case; after the second, the city stopped the work.", "nota": "the absence of deaths holds for the sources consulted; the 2015 injuries may relate to the Steinway Hall renovation"},
+    {"item": "Cost", "valor": "Financing of US$725 million in 2015: a US$400 million mortgage from AIG and a US$325 million mezzanine loan from Apollo. The total cost appears as US$1 billion in a 2017 report and as US$2 billion in other sources.", "nota": "by the US consumer price index (2015 ≈ 237.0; 2025 = 321.9), the US$725 million equal about US$985 million in 2025 dollars"},
+    {"item": "The crisis", "valor": "In 2017, an overrun of about US$57 million put the mezzanine loan in default. Apollo assigned a US$25 million tranche to Spruce, which foreclosed on it in July and wiped out the investment of partner AmBase, between US$56 million and US$70 million depending on the source.", "nota": "the amount of AmBase's investment varies between sources"},
+    {"item": "Apartments", "valor": "59 or 60 units, depending on the source, some of them inside Steinway Hall. After years of slow sales, by April 2026 only one was left unsold, according to The Real Deal."},
+    {"item": "Today", "valor": "Third-tallest building in New York in 2026. On February 9, 2026 the auction house Bonhams opened its American headquarters in Steinway Hall, reopening the rotunda to the public. On May 28, 2026 New York State's highest court ruled, 4–3, that AmBase's lawsuit against Apollo may proceed."}
+  ],
+  "historia": [
+    {
+      "titulo": "Billionaires' street",
+      "paragrafos": [
+        "West 57th Street cuts across Manhattan, in New York, in the United States, two blocks from Central Park. In the 2010s, this stretch became the address of a new species of skyscraper: narrow residential towers that rose high enough to look at the park over the buildings on the block below. The press called the street Billionaires' Row. One57, Central Park Tower and, a few blocks away, 432 Park Avenue are its neighbors.",
+        "In Manhattan, going up is a matter of land and of paperwork. Lots are small, and the height you can build depends on the lot area and on the development rights bought from the neighbors. In March 2013, Michael Stern's JDS Development Group and Kevin Maloney's Property Markets Group, with investor Arthur P. Becker, paid US$46 million for Steinway Hall, on the same street. According to Bloomberg, the investors were planning a tower of some 700 feet, about 213 meters, and were counting on Steinway's rights to go higher."
+      ]
+    },
+    {
+      "titulo": "A tower the width of a volleyball court",
+      "paragrafos": [
+        "What was left for the tower was a strip: an empty lot facing 58th Street and part of the Steinway Hall lot itself. The tower's footprint measures about 59 feet, some 18 meters, in the narrowest direction, and between 75 and 78 feet in the other, depending on the source. That is roughly the length of a volleyball court. On that, SHoP Architects designed 84 floors and 435.3 meters of height, according to the Council on Tall Buildings and Urban Habitat.",
+        "The slenderness math is simple, and it is what makes the building famous: the tower is about 24 times taller than it is wide. Architectural Record gives the ratio as 1 to 24 and calls it the skinniest skyscraper in the world; New York's Skyscraper Museum gives 1 to 23. For comparison, 432 Park Avenue, the previous record holder in the same neighborhood, comes in at 1 to 15, according to Architectural Record.",
+        "Before the tower could be designed, it had to go through the New York City Landmarks Preservation Commission. Steinway Hall's facade had been a landmark since 2001, and in September 2013 the commission also designated the ground-floor rotunda and lobby. The project went to a hearing in October 2013 and was only approved after being revised."
+      ]
+    },
+    {
+      "titulo": "Two walls and a pendulum",
+      "paragrafos": [
+        "A tall building does not need much to stand up against its own weight. The enemy is the wind, which pushes sideways, and in such a thin tower the effect shows up less as a risk of falling and more as sway: the building oscillates, and up at the top people feel it. The engineering, by WSP, tackled this in three combined ways.",
+        "The first is two reinforced-concrete shear walls that run the full height of the east and west facades, the tower's narrow faces. They work as the building's spine and dictated the architecture: east and west became more closed, clad in terracotta, while north and south, facing the park and the city, became glass. The thickness of these walls appears as up to 30 inches, about 76 centimeters, in one source, and as 30 to 36 inches on the lower floors, thinning to 16 at the top, in another.",
+        "The second, according to The Builders Report, is a set of mechanical floors where bracing walls tie the two side walls to each other and to the core, so that they work together instead of each on its own. The third sits at the top, above the last occupied floor: a tuned mass damper, a large weight that moves opposite to the building's sway and dampens it. The developers give 800 'tons', a unit that in American sources usually means the short ton: about 725 metric tonnes.",
+        "The concrete reaches 14,000 psi, about 96.5 MPa, according to the developers. At the base, according to the publication The Builders Report, about 200 tie-downs anchored in Manhattan's bedrock keep the tower from being pulled out of the ground in the strongest winds."
+      ]
+    },
+    {
+      "titulo": "The project that stalled at the twentieth floor",
+      "paragrafos": [
+        "Excavation began in 2014. In 2015, the project had US$725 million in financing: a US$400 million mortgage from the insurer AIG and a US$325 million mezzanine loan, more expensive and subordinated, from the asset manager Apollo. Among the partners was AmBase Corporation, which had put between US$56 million and US$70 million into the project, depending on the source.",
+        "Costs rose. According to the 2026 ruling of New York's highest court, an overrun of about US$57 million threw the loan off balance, and in February 2017 Apollo demanded US$56 million that nobody put in. In March, Apollo split the loan into two tranches, of US$300 million and US$25 million; on June 28 it assigned the smaller one to Spruce Capital, at face value; and on July 7 Spruce foreclosed on the collateral, taking the stake that had belonged to AmBase. AmBase's lawyer told the press that the budget had left out expensive items such as the cranes.",
+        "That July of 2017, according to the website 6sqft, the tower was stalled at 20 floors of concrete. The courts allowed the foreclosure in August, and the tower went on until it topped out, in 2019. AmBase spent the following years in court."
+      ]
+    },
+    {
+      "titulo": "Who raised the tower",
+      "paragrafos": [
+        "There is no public record of how many people worked on the site, either at the peak or in total. The most precise picture of the workers comes from a criminal case. On May 16, 2018, the Manhattan District Attorney's office charged Parkside Construction, a concrete and masonry subcontractor working on this and seven other sites on the island, with stealing more than US$1.7 million in wages from at least 520 workers between 2014 and 2017. Time was clocked by facial-recognition machines on site, and the printed timesheets were then altered to show fewer hours.",
+        "The same indictment accuses the company of hiding more than US$40 million in payroll from the state workers' compensation insurer. The 520 workers are the total for all eight sites, not just this one; and, as the prosecutors themselves stressed, charges are not a conviction.",
+        "No worker death was recorded in the sources consulted. The Department of Buildings' accident report logged four minor injuries at the address in April and May 2015, among them an electrician struck in the eyes by an electric arc. The accidents the city saw were others: in January 2020, a block of terracotta fell from the tower and pierced the roof of a taxi on 57th Street, with the passenger inside; and on October 29, 2020, in high winds, the crane at the top spun, a cable hanging from the boom struck the facade and glass and aluminum fell into the street. 57th Street was closed, the subway was rerouted and the city stopped the work. Nobody was hurt."
+      ]
+    },
+    {
+      "titulo": "The house of pianos",
+      "paragrafos": [
+        "Steinway Hall was designed by the firm Warren & Wetmore and built in 1924 and 1925 for Steinway & Sons, which followed New York's musical life as it moved to 57th Street after Carnegie Hall opened, in 1891, according to the Landmarks Preservation Commission. It is a 16-story neoclassical building, with an Indiana limestone front and a tower with a pyramidal roof. On the ground floor, a domed rotunda served as the showroom.",
+        "In the 2013 sale, the piano maker was given up to 18 months to move out. The rotunda and the lobby were restored, and the upper floors of the old building became apartments in the same condominium as the tower. On February 9, 2026, the auction house Bonhams opened its American headquarters there, in 42,000 square feet, and reopened the rotunda to the public after a decade closed.",
+        "That same year, the fight over money moved to a higher level. On May 28, 2026, the Court of Appeals, New York State's highest court, ruled 4–3 that a lender with sole discretion to assign a loan is still bound by good faith, and sent back to the trial court AmBase's claim that Apollo assigned the tranche to Spruce in order to strip it of its investment. The tower, which spent years with more than half of its apartments unsold, reached April 2026 with 58 of 59 units sold, according to The Real Deal."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "It is the tallest building in New York.",
+      "registro": "In 2026, it was the third-tallest in the city and the fourth-tallest in North America, according to the Council on Tall Buildings and Urban Habitat. Its record is for slenderness, not height."
+    },
+    {
+      "circula": "It has the heaviest damper in the world, bigger than Taipei 101's.",
+      "registro": "The comparison mixes units. The tower's 800 'tons', if they are American short tons, as is the usage in the US, come to about 725 metric tonnes; the Taipei 101 pendulum weighs 660 metric tonnes, and the one in Shanghai Tower, in China, about a thousand."
+    },
+    {
+      "circula": "The east and west facades are blank walls, with no windows at all.",
+      "registro": "The concrete walls that hold up the tower sit on these facades, which is why they are more closed and clad in terracotta. But there are glazed strips between the piers; the continuous glass is on the north and south faces."
+    },
+    {
+      "circula": "More than 500 of the tower's workers had their wages stolen.",
+      "registro": "The Manhattan District Attorney speaks of at least 520 workers cheated by the subcontractor Parkside, but that adds up eight different sites, of which this is one."
+    },
+    {
+      "circula": "It uses the strongest concrete in the world.",
+      "registro": "The phrase comes from the developers' material. Concrete of up to 14,000 psi, about 96.5 MPa, is ultra-high-performance, but the world-record claim has no independent confirmation."
+    }
+  ],
+  "perguntas": [
+    {"p": "How tall is 111 West 57th Street?", "r": "It is 435.3 meters in architectural height, over 84 floors, according to the Council on Tall Buildings and Urban Habitat. In 2026 it was the third-tallest building in New York; its record is for slenderness, not height."},
+    {"p": "Why is 111 West 57th Street the skinniest skyscraper in the world?", "r": "Because the tower is about 18 meters wide in its narrowest direction and 435.3 meters tall, some 24 times taller than it is wide. Sources give the ratio of width to height as 1 to 23 or 1 to 24."},
+    {"p": "How does 111 West 57th Street keep from swaying in the wind?", "r": "Two concrete walls run the full height of the east and west facades, tied to each other and to the core at mechanical floors. At the top, a tuned mass damper of 800 American tons, about 725 metric tonnes, moves against the sway and dampens it."},
+    {"p": "How much did 111 West 57th Street cost?", "r": "The project had US$725 million in financing in 2015, between a mortgage from AIG and a mezzanine loan from Apollo. The total cost varies between sources: US$1 billion in a 2017 report and US$2 billion in others."},
+    {"p": "What problems did 111 West 57th Street have during construction?", "r": "In July 2017 work stopped at 20 floors, after an overrun of about US$57 million pushed the mezzanine loan into default and into the foreclosure that wiped out partner AmBase. In 2020, a block of terracotta and debris from the facade fell into the street, injuring no one, and the city stopped the work."}
+  ],
+  "fontes": [
+    {"texto": "Council on Tall Buildings and Urban Habitat, The Skyscraper Center, \"111 West 57th Street\""},
+    {"texto": "The Skyscraper Museum, \"Supertall!\", \"111 West 57th Street\""},
+    {"texto": "Sara Hart, \"A Cliff Dweller's Guide to Tall Skinny Buildings\", Architectural Record, 2021"},
+    {"texto": "The Builders Report, \"111 West 57th Street\""},
+    {"texto": "SHoP Architects, \"111 West 57th\""},
+    {"texto": "\"SHoP Architects-designed NYC skyscraper tops out\", Construction Specifier, 2019"},
+    {"texto": "NYC Landmarks Preservation Commission, Steinway Hall, Designation List 331, LP-2100, 2001"},
+    {"texto": "NYC Department of Buildings, construction accident report, 12 months through September 2015"},
+    {"texto": "Manhattan District Attorney, press release on Parkside Construction, 16/05/2018"},
+    {"texto": "New York Court of Appeals, 111 W. 57th Inv. LLC v 111 W57 Mezz Inv. LLC, 2026 NY Slip Op 03376, 28/05/2026"},
+    {"texto": "\"A supertall order: New York's high court decision in Steinway Tower lawsuit…\", amNY, 2026"},
+    {"texto": "\"World's skinniest skyscraper at 111 West 57th Street stalled at 20 stories by soaring costs\", 6sqft, 2017"},
+    {"texto": "\"Foreclosure moves ahead at Billionaires' Row supertall 111 West 57th Street\", 6sqft, 2017"},
+    {"texto": "\"How 111 West 57th went from Billionaires' Row dud to darling\", The Real Deal, 2026"},
+    {"texto": "\"Stop Work Order Issued After Spinning Crane Sends Large Slabs Of Metal Falling Onto Midtown Street\", CBS New York, 2020"},
+    {"texto": "\"Debris falls from spinning crane atop 'skinniest' building in world\", Fox 5 NY, 2020"},
+    {"texto": "Bonhams, press release on its new American headquarters at Steinway Hall"},
+    {"texto": "\"NYC Tallest Condo Corridor Gets New Entrant With Steinway\", Bloomberg, 2013"}
+  ],
+  "imagens": [
+    {
+      "alt": "Very thin, tall tower with glass faces that narrow in steps up to the tip, rising above the trees of Central Park under a cloudy sky, with the Essex House hotel sign on a building to the right",
+      "legenda": "The tower seen from Central Park in May 2023.",
+      "autor": "Benoît Prieur"
+    },
+    {
+      "alt": "Thin tower under construction with a red crane attached to its side and the top structure still exposed, next to a wider blue glass skyscraper",
+      "legenda": "In January 2020, still under construction, with the crane attached to its side, seen from Columbus Circle next to One57.",
+      "autor": "Jim.henderson"
+    },
+    {
+      "alt": "Aerial view of Midtown with several tall, thin towers under a gray sky; on the left the tallest, glass-clad, and on the right an even narrower tower with a crane, with snowy Central Park in the background",
+      "legenda": "Billionaires' Row seen from the south in December 2020: Central Park Tower on the left and, on the right, 111 West 57th Street still with its crane.",
+      "autor": "Itrytohelp32"
+    },
+    {
+      "alt": "Pale facade seen from below, covered in narrow, repeated vertical piers rising until they stand out against the blue sky",
+      "legenda": "The terracotta and bronze piers of the facade, seen from 57th Street in 2021.",
+      "autor": "Kidfly182"
+    },
+    {
+      "alt": "Pale stone building several stories high with an arched entrance on the ground floor, on a street with parked cars, and the glass tower rising behind it",
+      "legenda": "Steinway Hall, from 1925, on 57th Street in May 2026, with the tower behind it.",
+      "autor": "Ajay Suresh"
+    },
+    {
+      "alt": "Circular hall with green marble columns, arches, a decorated dome and a crystal chandelier, with a black grand piano in the center",
+      "legenda": "The Steinway Hall rotunda in February 2026, reopened to the public.",
+      "autor": "Epicgenius"
+    }
+  ]
+}

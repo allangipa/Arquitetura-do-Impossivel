@@ -1,0 +1,232 @@
+{
+  "_nota": "Tradução fiel de ../14-eurotunel.json. Campos fixos vêm do original.",
+  "obra": "Channel Tunnel",
+  "titulo_seo": "How the Channel Tunnel Was Built Under the Sea",
+  "titulo_video": null,
+  "lugar": "Under the Strait of Dover, between Folkestone, Kent, England, and Coquelles, Pas-de-Calais, France",
+  "periodo": "1987–1994",
+  "impossivel": "Bore three tunnels 50 kilometers long, almost 40 of them under the sea, from two coasts and two countries with different maps, following a single layer of soft rock, so that the machines would meet in the middle without any government money.",
+  "resumo": "How England and France bored the Channel Tunnel under the sea: 11 tunnel boring machines, a meeting measured in millimeters and an 80% cost overrun.",
+  "abertura": [
+    "The English began digging a tunnel to France in 1880, from the cliffs of Dover in the county of Kent, and stopped for fear of invasion. They tried again in 1974 and stopped because of the cost. The third time, between 1987 and 1994, no government put in a single penny: the treaty between the two countries forbade it.",
+    "What made the project possible was a band of rock. Between the hard chalk above and the clay below, beneath the seabed, runs a layer of chalk marl, soft enough to be cut and watertight enough to hold back the water of the Channel. Eleven tunnel boring machines followed that layer, six setting out from England and five from France, and on 1 December 1990 the two ends of the service tunnel met 22.3 kilometers from the English coast."
+  ],
+  "numeros": [
+    {"valor": "50 km", "rotulo": "length of each of the three tunnels, about 38 of them under the sea"},
+    {"valor": "11", "rotulo": "tunnel boring machines: six set out from England and five from France"},
+    {"valor": "36 cm", "rotulo": "of sideways offset, and 58 mm in height, when the two halves of the service tunnel met"},
+    {"valor": "13,000 · 15,000", "rotulo": "workers at the peak of construction, depending on the source"},
+    {"valor": "10 · 11", "rotulo": "deaths during construction: the most cited count and the names on the plaque in their memory"},
+    {"valor": "+80%", "rotulo": "overrun: from a forecast £2.6 billion to £4.65 billion, both at 1985 prices"}
+  ],
+  "ficha": [
+    {
+      "item": "Why",
+      "valor": "To link Great Britain to the continent by land, with passenger trains and trains that carry cars and trucks. The idea was old: the first design dates from 1802, by the French engineer Albert Mathieu-Favier, and the company that runs the tunnel today counts 139 schemes studied since then.",
+      "nota": "the number of schemes comes from the operator itself"
+    },
+    {
+      "item": "Earlier attempts",
+      "valor": "In 1880–1882, the compressed-air machine of Beaumont and English bored close to 2 km from Shakespeare Cliff, in Dover, and there was a heading at Sangatte, in France, as well; the work stopped over military fears. In 1974 work started again and, on 20 January 1975, the British government gave up because of the cost.",
+      "nota": "how much was dug in 1974 varies: from 250 meters to one mile, depending on the source"
+    },
+    {
+      "item": "Who decided",
+      "valor": "Margaret Thatcher and François Mitterrand chose the Eurotunnel proposal in January 1986: three rail-only tunnels, budgeted at £2.6 billion, one of the two cheapest of the four finalists. Treaty of Canterbury on 12 February 1986; concession on 14 March 1986."
+    },
+    {
+      "item": "Who built it",
+      "valor": "TransManche Link (TML), a consortium of ten contractors, five British and five French, with five founding banks. Two thirds of the tunnel were bored from the English side, from Shakespeare Cliff, and one third from the French side, from a giant shaft at Sangatte."
+    },
+    {
+      "item": "The tunnels",
+      "valor": "Two single-track rail tunnels, 7.6 m in internal diameter, and a 4.8 m service tunnel between them, linked by 270 cross-passages. They run about 40 m below the seabed, in a layer of chalk marl."
+    },
+    {
+      "item": "The tunnel boring machines",
+      "valor": "Eleven: six British, open-faced, and five French, closed and sealed for 11 bar of pressure, because on the French side the chalk was fractured and full of water. The French ones had women's names: Brigitte, Europa, Catherine, Virginie and Pascaline, which became Séverine when it went back for the last tunnel.",
+      "nota": "the design pressure comes from the French builders' technical sheet"
+    },
+    {
+      "item": "Timeline",
+      "valor": "Boring began in December 1987 on the English side and on 28 February 1988 on the French side. Service tunnel breakthrough on 1 December 1990; rail tunnels on 22 May and 28 June 1991. Handed over to Eurotunnel on 10 December 1993 and opened on 6 May 1994.",
+      "nota": "the start date on the English side varies between 1 and 15 December 1987"
+    },
+    {
+      "item": "The breakthrough",
+      "valor": "On 1 December 1990, at 12:12, 22.3 km from England and 15.6 km from France, Briton Graham Fagg and Frenchman Philippe Cozette shook hands in the service tunnel. The machines had stopped 100 m from each other; the measured offset was about 36 cm sideways and 58 mm in height.",
+      "nota": "two technical measurements: 358 mm and 361 mm of sideways offset"
+    },
+    {
+      "item": "Workers",
+      "valor": "More than 13,000 at the peak, according to the operator and the Institution of Civil Engineers; 15,000, according to other sources. The French site alone reached 5,234 people in August 1990. Work went on 24 hours a day, on both sides."
+    },
+    {
+      "item": "Deaths during construction",
+      "valor": "The most repeated count is 10 dead, 8 of them British. The plaque in memory of the workers at Samphire Hoe, Dover, put up by the operator and the contractor, bears 11 names, between 1986 and 1992. Two are French: Guy Joly, crushed by the machine under the sea in 1989, and René Saint-Georges, struck by a vehicle on the site in 1990. In 1990, the contractor's safety manager said there had been at least five deaths on the French side, three of them undisclosed."
+    },
+    {
+      "item": "Cost",
+      "valor": "Budgeted at £2.6 billion in 1985, it ended at £4.65 billion at the same 1985 prices, an overrun of about 80%. In current 1994 pounds, about £9.5 billion, according to a Global Infrastructure Hub case study.",
+      "nota": "by the British Retail Prices Index (1985 = 373.2; 2025 = 1,588.6), the £4.65 billion of 1985 are worth about £20 billion in 2025"
+    },
+    {
+      "item": "Who paid",
+      "valor": "Private money only: Article 1 of the treaty forbids government funds and guarantees. There were five share issues, totaling £2.43 billion by 1994, and a loan syndicated among more than 200 banks.",
+      "nota": "the equity total comes from an article by the company's own finance director"
+    },
+    {
+      "item": "The crisis",
+      "valor": "On 14 September 1995 Eurotunnel suspended interest payments. There were restructurings in 1997, when the concession was extended to 2086, and in 2006–2007, under court protection in Paris, with the debt cut from about €9 billion to about €4 billion."
+    },
+    {
+      "item": "Fires",
+      "valor": "On 18 November 1996, a truck shuttle caught fire with 34 people on board, with no deaths. On 11 September 2008, another fire burned for about 16 hours; 650 m of lining were replaced and full service only returned in February 2009.",
+      "nota": "the figures for the 2008 fire appear in only one source"
+    },
+    {
+      "item": "Today",
+      "valor": "Run by Getlink, Eurotunnel's name since 2017. About 400 trains a day and half a billion passengers in 30 years, according to the operator. In June 2026, the company refused to let the walker Karl Bushby cross the service tunnel on foot to complete a 28-year walk around the world.",
+      "nota": "the traffic figures come from the operator"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "A hundred years of abandoned tunnels",
+      "paragrafos": [
+        "The first serious dig began in 1880. A machine driven by compressed air, designed by Captain Thomas English and credited to Colonel Frederick Beaumont, cut through the chalk from Abbot's Cliff and Shakespeare Cliff, near Dover, in England. By 1882, the Shakespeare Cliff heading was almost two kilometers long, and the French were digging theirs from Sangatte, near Calais. The work stopped out of a fear that had nothing geological about it: in the British press and Parliament, the tunnel became the front door for an enemy army.",
+        "The next attempt came almost a century later. Edward Heath and Georges Pompidou signed a treaty in 1973, and work restarted at Shakespeare Cliff in 1974. On 20 January 1975, minister Anthony Crosland told the House of Commons that Harold Wilson's government was giving up. The rail link on the English side had become too expensive, and abandoning the project would cost the taxpayer about £20 million. How much was dug that time the sources do not agree: some speak of 250 meters of trial tunnel, others of one mile."
+      ]
+    },
+    {
+      "titulo": "Not a penny of government money",
+      "paragrafos": [
+        "When the subject came back, in the 1980s, Margaret Thatcher imposed a condition. The Treaty of Canterbury, signed with François Mitterrand on 12 February 1986, states in Article 1 that the tunnel will be financed without recourse to government funds or guarantees. According to Michael Grant, who handled Eurotunnel's finances, it was the only basis on which Thatcher would accept the project.",
+        "Four proposals reached the final round: a suspension bridge, a bridge-and-tunnel combination, four tunnels carrying road and rail, and Eurotunnel's, with three rail-only tunnels, in which cars and trucks travel inside the train. Budgeted at £2.6 billion, a little above the rival four-tunnel proposal and well below the two bridges, it was chosen in January 1986. Two of the tunnels carry the trains, one in each direction. The third, smaller, runs between them: it is the service tunnel, used by maintenance and rescue crews, and the refuge for anyone who has to leave a stopped train."
+      ]
+    },
+    {
+      "titulo": "A band of chalk under the sea",
+      "paragrafos": [
+        "The route was not chosen on the map, it was chosen in the rock. Surveys carried out since the nineteenth century, more than a hundred boreholes in the seabed and about a thousand kilometers of seismic lines revealed a layer of chalk marl: a limestone rock with clay, weak, uniform and practically watertight. Above it lies the hard, fractured chalk; below it, clay. The tunnels run about 40 meters below the seabed, following that layer.",
+        "On the English side it is well behaved. On the French side, in the first kilometers under the sea, the chalk is cracked and waterlogged. That is why the two shores used different machines. The six British tunnel boring machines were open-faced. The five French ones were closed, with the cutting chamber sealed to withstand 11 bar of water pressure, and the excavated chalk passed through an airlock before reaching the wagons. At Sangatte, away from the beach, the French sank a watertight shaft about 50 meters wide and more than 60 deep, from which all their machines set out.",
+        "Two thirds of the tunnel were bored from England and one third from France. The three tunnels together add up to about 150 kilometers, bored 24 hours a day, and the alignment tolerance required of the builders was 15 centimeters."
+      ]
+    },
+    {
+      "titulo": "The meeting of 1 December 1990",
+      "paragrafos": [
+        "The service tunnel went first, as a probe for the other two. The surveyors had an invisible problem: the British and French maps used different projection systems, and not even sea level matched on the two coasts. After the breakthrough, the measured difference between the sea levels of the two coasts was about 36 centimeters.",
+        "The two machines stopped 100 meters from each other. The offset was measured: 358 millimeters sideways and 58 in height, according to the French builders' technical sheet, or 361 and 58, according to a German measurement published in 1991. The English machine advanced another 50 meters on a corrected line, was turned off into a tight curve and buried right there; the French one was dismantled, and the last stretch was dug with hand tools.",
+        "On 1 December 1990, at 12:12, 22.3 kilometers from England and 15.6 from France, Briton Graham Fagg and Frenchman Philippe Cozette shook hands through the opening. The rail tunnels met on 22 May and 28 June 1991. So that the machines would not collide head-on, each English tunnel boring machine was steered down below the floor and entombed in concrete, and the French one passed over it."
+      ]
+    },
+    {
+      "titulo": "How many worked and how many died",
+      "paragrafos": [
+        "The operator speaks of more than 13,000 workers at the peak, recruited mainly in the regions on both sides of the Channel; other sources speak of 15,000. The French site alone reached 5,234 people, counting employees and subcontractors, in August 1990.",
+        "The death toll also has two versions. The most repeated is ten, eight of them British, most in the first months of boring. The plaque that the operator and the contractor put up at Samphire Hoe, by the sea in Dover, bears eleven names, with dates from 1986 to 1992. Two of them are French: Guy Joly, 29, killed in August 1989 at kilometer 4.1 of the service tunnel under the sea, and René Saint-Georges, 56, struck by a vehicle in the yard of the lining-segment factory in May 1990. In October 1990, the contractor's safety manager stated that the French side had at least five dead, three of them undisclosed, because France recorded accidents in a different way.",
+        "Samphire Hoe is itself a piece of the project: a site of about 30 hectares made from 4.9 million cubic meters of the chalk excavated on the English side, at the foot of the cliffs. On the French side, the chalk slurry was pumped into a valley behind a dam."
+      ]
+    },
+    {
+      "titulo": "The bill that blew up",
+      "paragrafos": [
+        "At 1985 prices, the tunnel budgeted at £2.6 billion cost £4.65 billion, about 80% more, according to the assessment of economist Richard Anguera. In 1994 pounds, that comes to nearly £9.5 billion. By the British Retail Prices Index, the £4.65 billion of 1985 are worth something like £20 billion in 2025.",
+        "According to the company itself, the tunnel boring machines advanced more slowly than expected at the start, the logistics were underestimated and the trains cost far more than anticipated. In 1992, the contractor claimed about £1.5 billion more, and Eurotunnel had to pay £50 million a month while the arbitration was pending. There were five share issues and a loan syndicated among more than 200 banks. In September 1995, little more than a year after the opening, the company suspended interest payments. Restructurings followed in 1997 and in 2006–2007, the latter under the protection of a Paris court, with the debt cut from about €9 billion to about €4 billion. In Anguera's view, the British economy would have been better off if the tunnel had never been built."
+      ]
+    },
+    {
+      "titulo": "Fire, border and a man on foot",
+      "paragrafos": [
+        "Queen Elizabeth II and President Mitterrand opened the tunnel on 6 May 1994. Two years later, on 18 November 1996, a truck shuttle caught fire on its way to England, with 34 people on board; no one died. On 11 September 2008, another fire burned for about 16 hours and forced the replacement of 650 meters of lining. In the summer of 2015, migrants tried to get into the Coquelles terminal by the hundreds and, on one night in July, between 1,500 and 2,000 times; about ten died near the terminal within a few weeks. Since Brexit, freight has gone through customs again.",
+        "On 30 December 2025, a power supply failure and a stalled train closed the tunnel on the eve of the New Year, and Eurostar canceled its trains to and from London that day. In June 2026, the operator turned down a request from Briton Karl Bushby, who had been walking from Chile since 1998, to cross the Channel on foot through the service tunnel: closing it for 15 hours, the company said, would put passenger trains and maintenance at risk. The tunnel of the 1990 handshake is still, every day, the emergency exit for the other two."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "The tunnel was a public works project of the British and French governments.",
+      "registro": "The 1986 treaty forbids government money and guarantees. The project was paid for by shareholders and by a loan from more than 200 banks, and the company spent more than a decade renegotiating its debt, from 1995 to 2007."
+    },
+    {
+      "circula": "The two sides met with an error of just a few centimeters.",
+      "registro": "The offset measured in the service tunnel was about 36 centimeters sideways and 58 millimeters in height, after 22.3 km on one side and 15.6 km on the other. That is remarkable precision, but not a few centimeters, and the \"58 centimeters\" that sometimes appears for the height is a unit error."
+    },
+    {
+      "circula": "Ten workers died building it.",
+      "registro": "Ten is the most cited count, with eight British. The plaque in memory of the workers, in Dover, has eleven names, and the contractor's safety manager said in 1990 that there had been deaths on the French side that had not been disclosed."
+    },
+    {
+      "circula": "It cost £4.65 billion. Or £9.5. Or more than 10.",
+      "registro": "All three figures circulate and they measure different things: the cost at 1985 prices, the same cost in 1994 pounds, and the total including financing. At constant prices, the overrun on the 1985 budget was about 80%."
+    },
+    {
+      "circula": "The English never wanted the tunnel.",
+      "registro": "They dug in 1880 and in 1974. The first time they stopped for fear of a military invasion; the second, because of the cost."
+    }
+  ],
+  "perguntas": [
+    {"p": "When was the Channel Tunnel built?", "r": "Between 1987 and 1994. Boring began in December 1987 on the English side and on 28 February 1988 on the French side; the service tunnel broke through on 1 December 1990, and it opened on 6 May 1994."},
+    {"p": "How long and how deep is the Channel Tunnel?", "r": "Each of the three tunnels is 50 km long, about 38 of them under the sea. They run about 40 m below the seabed, following a layer of chalk marl between the hard chalk above and the clay below."},
+    {"p": "How was the Channel Tunnel built underwater?", "r": "Eleven tunnel boring machines, six from England and five from France, dug two rail tunnels and a service tunnel between them, following a soft, watertight layer of chalk marl. When the two halves of the service tunnel met, the offset was about 36 cm sideways and 58 mm in height."},
+    {"p": "How many workers died building the Channel Tunnel?", "r": "Accounts differ: the most cited count is 10 dead, 8 of them British, but the plaque in memory of the workers in Dover bears 11 names. In 1990, the contractor's safety manager said there had been at least five deaths on the French side, three of them undisclosed."},
+    {"p": "How much did the Channel Tunnel cost to build?", "r": "Budgeted at £2.6 billion in 1985, it ended at £4.65 billion at the same 1985 prices, an overrun of about 80%. In 1994 pounds, about £9.5 billion, paid with private money only, because the treaty forbade government funds."}
+  ],
+  "fontes": [
+    {"texto": "Pierre-Jean Pompée, \"Channel Tunnel — 3 tunnels\", Amicale des Bâtisseurs du Tunnel sous la Manche, 1995"},
+    {"texto": "N. Korittke, \"Vorgehensweise und Genauigkeit beim Durchschlag des Eurotunnels\", Glückauf 127, 1991 (abstract)"},
+    {"texto": "Michael Grant, \"Financing Eurotunnel\", Japan Railway & Transport Review 11, April 1997"},
+    {"texto": "Getlink, \"The Group's history\""},
+    {"texto": "Getlink, \"1994–2024 The Channel Tunnel — 30 years of unique history\", 6 May 2024"},
+    {"texto": "Getlink Press, \"First historic breakthrough under the Channel\""},
+    {"texto": "Amicale des Bâtisseurs du Tunnel sous la Manche, \"The tunnel builders remember\""},
+    {"texto": "Richard Anguera, \"The Channel Tunnel — an ex post economic evaluation\", Transportation Research Part A 40(4), 2006"},
+    {"texto": "Global Infrastructure Hub, \"The Channel Tunnel (United Kingdom – France)\", case study"},
+    {"texto": "Institution of Civil Engineers, \"How was the Channel Tunnel built?\""},
+    {"texto": "UK House of Commons, statement by Anthony Crosland on the tunnel, 20 January 1975 (Hansard)"},
+    {"texto": "UK House of Lords, \"Channel Tunnel Workforce: Health and Safety\", 20 June 1990 (Hansard)"},
+    {"texto": "UK House of Lords, \"Channel Tunnel: Fire\", 19 November 1996 (Hansard)"},
+    {"texto": "Construction News, \"Five deaths on French side of Channel Tunnel, says Transmanche Link's safety manager\", 4 October 1990"},
+    {"texto": "Subterranea Britannica, \"Channel Tunnel 1880 attempt\""},
+    {"texto": "Office for National Statistics, \"Retail Prices Index: long run series\" (CDKO)"},
+    {"texto": "CNBC, \"Eurostar hit by power outage during height of New Year travel season\", 30 December 2025"},
+    {"texto": "RTÉ, \"Some Channel Tunnel services resume after power failure\", 30 December 2025"},
+    {"texto": "ExplorersWeb, \"Karl Bushby refused entry into Channel Tunnel\", 19 June 2026"},
+    {"texto": "Euro Weekly News, \"Karl Bushby's 28-year walk home to Hull hits Channel Tunnel block\", 7 August 2026"},
+    {"texto": "Railway Gazette International, \"Virgin Trains' Channel Tunnel plans are 'moving at pace' as access to High Speed 1 is approved\", 17 August 2026"},
+    {"texto": "Wikipedia, \"Channel Tunnel\" and \"Construction du tunnel sous la Manche\" (starting point)"}
+  ],
+  "imagens": [
+    {
+      "alt": "White cylindrical tunnel boring machine displayed in a roundabout garden, with the red wheel-shaped cutting head on the left and the French inscription Hommage aux bâtisseurs du tunnel on its body",
+      "legenda": "The tunnel boring machine T4 \"Virginie\", which bored the French service tunnel under land, on display at Coquelles in 2013: 320 tonnes and 5.59 m in diameter, according to its plaque.",
+      "autor": "Lionel Allorge"
+    },
+    {
+      "alt": "Circular cutting head of a tunnel boring machine, with radial arms full of teeth, displayed outdoors next to a pavilion bearing the Eurotunnel logo",
+      "legenda": "Cutting head of a tunnel boring machine at the Eurotunnel exhibition center in Folkestone, in September 1992, with construction still under way.",
+      "autor": "Ben Brooksbank"
+    },
+    {
+      "alt": "Wide construction site with tracks, stacks of sleepers, wagons and work locomotives, concrete viaducts under construction and cranes in front of a green hill",
+      "legenda": "The English-side site, in Kent, in May 1991, with construction trains and viaducts still being built.",
+      "autor": "Terry Foulger (publicado por The Basingstoker)"
+    },
+    {
+      "alt": "View from the top of a white cliff over the gray sea: below, a platform of earth enclosed by a dam juts out over the water, with blue sheds and cranes",
+      "legenda": "April 1991: the Samphire Hoe site being built up with chalk dug from the tunnel, at the foot of the cliffs of Dover.",
+      "autor": "Anthony Parkes"
+    },
+    {
+      "alt": "Silver train hauling truck-carrying wagons emerges from a white concrete portal cut into a hillside, under catenary wires, with a curving road on the right",
+      "legenda": "A truck shuttle emerges from the tunnel at the French portal, in Coquelles, in August 2014.",
+      "autor": "Florian Fèvre"
+    },
+    {
+      "alt": "Metal plaque on a concrete block by the sea, with text in English and French in memory of those who died building the tunnel and a list of eleven names",
+      "legenda": "The memorial to the workers who died during construction, at Samphire Hoe, Dover: eleven names, between 1986 and 1992.",
+      "autor": "Nilfanion"
+    }
+  ]
+}

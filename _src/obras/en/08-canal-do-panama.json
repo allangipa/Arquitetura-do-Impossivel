@@ -1,0 +1,143 @@
+{
+  "_nota": "Tradução fiel de ../08-canal-do-panama.json. Campos fixos vêm do original.",
+  "obra": "Panama Canal",
+  "titulo_seo": "How the Panama Canal Was Built (1904–1914)",
+  "titulo_video": null,
+  "lugar": "Isthmus of Panama, between Colón and Panama City, Panama",
+  "periodo": "1904–1914",
+  "impossivel": "Cutting through a mountain range that kept sliding back into the cut, on an isthmus where yellow fever and malaria had already defeated the French, and lifting ships 26 meters up to a lake made of rain.",
+  "resumo": "How the Panama Canal beat a mountain that kept sliding back, the mosquito and the water, and why the death toll depends on who is doing the counting.",
+  "abertura": [
+    "On the Isthmus of Panama, in Central America, some 80 km of land separate the Atlantic from the Pacific. The French under Ferdinand de Lesseps, the man behind the Suez Canal, tried to cut through it at sea level between 1881 and 1889, spent $287 million and stopped with the canal unfinished. The estimates of the dead from that decade are around twenty thousand.",
+    "The United States took over in 1904 and finished in 1914, with a different plan: instead of slicing the isthmus down to sea level, they dammed a river, created a lake 26 meters above the sea and lifted ships up to it through locks. Along the way, they removed almost 239 million cubic yards of earth and rock, and fought a slope that would not stop collapsing and a mosquito that nobody, until shortly before, had known was to blame."
+  ],
+  "numeros": [
+    {"valor": "1904–1914", "rotulo": "the American project, from the takeover to the opening on August 15, 1914; before that, the French in 1881–1889"},
+    {"valor": "238,845,587 yd³", "rotulo": "of earth and rock excavated by the Americans, about 183 million m³"},
+    {"valor": "305 × 33.5 m", "rotulo": "each of the 12 chambers of the original locks (1,000 × 110 feet)"},
+    {"valor": "5,609", "rotulo": "dead in the hospital records of the American project"},
+    {"valor": "20,000 · 22,000", "rotulo": "dead in the French attempt, depending on the estimate"},
+    {"valor": "$375M", "rotulo": "cost to the US according to the Canal Authority; one count comes close to 500 million"}
+  ],
+  "ficha": [
+    {"item": "Why", "valor": "To shorten the voyage between the Atlantic and the Pacific, which went around the southern tip of South America. Before the canal, the isthmus was already crossed overland, by the Panama Railroad, completed in 1855."},
+    {"item": "The French attempt", "valor": "1881–1889, Ferdinand de Lesseps's Compagnie Universelle du Canal Interocéanique. A sea-level plan; the company switched to a lock canal in 1888, with the lock contract going to Gustave Eiffel's firm, and stopped on May 15, 1889.", "nota": "the date of the collapse varies between December 1888 and May 1889, depending on the milestone used"},
+    {"item": "Who wanted the American project", "valor": "Theodore Roosevelt's administration. Colombia rejected the treaty; Panama broke away from it on November 3, 1903, and on November 18, 1903, the Hay–Bunau-Varilla Treaty gave the US permanent rights over a canal zone. The US paid $10 million to Panama and $40 million to the French company."},
+    {"item": "Who ran it", "valor": "Chief engineers John F. Wallace (1904–1905), John F. Stevens (1905–1907) and Colonel George W. Goethals (1907–1914). David D. Gaillard led the cut through the mountains; William C. Gorgas, the sanitation work."},
+    {"item": "Design", "valor": "A lock canal, decided by the US Congress in June 1906 (Senate, 36 to 31, on June 21; House, on June 27). A dam on the Chagres River, at Gatún, forms a lake 26 m above the sea; three sets of locks (Gatún, with 3 steps; Pedro Miguel, with 1; Miraflores, with 2) raise and lower the ships.", "nota": "the dates of the votes come from the Canal Authority"},
+    {"item": "Timeline", "valor": "American takeover on May 4, 1904; work on the locks from August 24, 1909; bottom of the Culebra Cut reached on May 20, 1913; first complete transit on January 7, 1914, by the crane boat Alexandre La Valley; opening on August 15, 1914, with the steamship Ancon.", "nota": "the days of the takeover and of the start of the locks come from the Canal Authority"},
+    {"item": "Workers", "valor": "At the peak, more than 40,000 at the same time: 44,733 on March 26, 1913, according to the Canal Authority; 46,000 in December 1907 according to another chronology. Counting all the years, the totals run from 42,000 to 56,307, depending on the source and what is being counted."},
+    {"item": "Where they came from", "valor": "Most from the West Indies: 31,071 Afro-Caribbean workers hired, some 20,000 from Barbados alone; also Martinique, Guadeloupe, Jamaica and Trinidad. From Europe came mainly Spaniards, Italians and Greeks. Americans averaged a little over 5,000."},
+    {"item": "Gold roll and silver roll", "valor": "Two payrolls. The gold roll, for whites, mostly Americans, paid in US gold currency; the silver roll, for West Indians and also southern Europeans, paid in silver coin, ten cents an hour, ten hours a day, six days a week. The division also applied to housing, mess halls and building entrances.", "nota": "the exact silver currency is given as Panamanian or Colombian, depending on the source"},
+    {"item": "Cost", "valor": "About $375 million to the US, including the $10 million to Panama and the $40 million to the French, plus about $12 million in fortifications, according to the Canal Authority. Other counts of total spending come close to $500 million. The French had spent $287 million.", "nota": "by the US consumer price index (1914 = 10.0; 2025 = 321.9), $375 million in 1914 is equivalent to about $12 billion in 2025"},
+    {"item": "Deaths, American project", "valor": "5,609 from disease and accidents in the hospital records from 1904 to 1914. According to historian David McCullough, some 350 were white Americans and some 4,500 Black workers, almost all West Indian. According to historian Caroline Lieffers, many historians believe the real number was several times higher.", "nota": "the total has two sources; the breakdown by color comes from McCullough"},
+    {"item": "Deaths, French attempt", "valor": "About 22,000 in McCullough's count; 20,000 in PBS's. The Canal Authority speaks of some 25,000 for both periods combined. It is an estimate: the French records are incomplete."},
+    {"item": "Disease", "valor": "Yellow fever and malaria. Gorgas went after the mosquito: window screens, drainage of more than 100 square miles of swamp, brush cleared around the towns. The last case of yellow fever is dated November 11, 1905, or December 1906, depending on the source. The malaria death rate fell from 7.45 per thousand employees in 1906 to 0.30 in 1913.", "nota": "yellow fever eradicated by 1906: several sources; drop in malaria: Canal Authority"},
+    {"item": "Dimensions", "valor": "A canal of about 80 km. Chambers of 1,000 × 110 feet (304.8 × 33.5 m). Gatún Lake covering 163.38 square miles (about 423 km²), the world's largest artificial lake at the time. Culebra Cut of 12.6 to 14.1 km, depending on the source, crossing the divide at its lowest point, 333.5 feet (about 102 m).", "nota": "the lengths of the canal and the cut vary among sources; the chambers and the lake do not"},
+    {"item": "Afterwards", "valor": "Torrijos-Carter Treaties, signed on September 7, 1977; the Canal Zone ended on October 1, 1979, and the canal passed to Panama on December 31, 1999. A third set of locks, for Neopanamax ships, opened on June 26, 2016, at a cost of $5.25 billion."},
+    {"item": "The 2026 drought", "valor": "In the 2026 drought, with El Niño, the Canal Authority cut the maximum draft of the Neopanamax locks in steps, from 50 to 48 feet, and the daily slots, to 9 Neopanamax and 23 Panamax. On September 28, 2026, with rainfall near average, it raised the draft to 49 feet and announced the return of the 10th Neopanamax slot starting October 15, 2026, warning that the watershed remained in water deficit."}
+  ],
+  "historia": [
+    {
+      "titulo": "The sea-level canal",
+      "paragrafos": [
+        "In 1879, an international congress in Paris approved the idea of Ferdinand de Lesseps, who ten years earlier had opened the Suez Canal: a canal across the Isthmus of Panama, then part of Colombia, cut at sea level, without locks, like Suez. The first men of the Compagnie Universelle reached Colón at the end of January 1881.",
+        "Suez ran through sand. Panama had a mountain range in the middle, a river, the Chagres, that flooded suddenly in the rainy season, and a disease that killed without anyone knowing how. The first yellow fever death among the employees came in June 1881, with the rains. By the Canal Authority's figures, about 60 died of disease in 1881, twice that in 1882 and 420 in 1883. Jules Dingler, the director general who arrived in 1883, lost his daughter, his son, his daughter's fiancé and his wife to yellow fever.",
+        "In 1888 the company gave up on sea level and began working on a lock canal, with Gustave Eiffel's firm hired to build the locks. It was too late. On May 15, 1889, all activity stopped. The French had spent $287 million. The estimates of the dead for the decade are around twenty thousand: 22,000 by historian David McCullough's count, 20,000 by PBS's. The scandal of the collapse reached the courts: Eiffel was convicted in 1893, and the conviction was overturned on appeal."
+      ]
+    },
+    {
+      "titulo": "A country in fifteen days",
+      "paragrafos": [
+        "The United States wanted the canal, and Congress chose the Panama route in 1902. Colombia was the missing piece, and its Senate rejected the treaty. On November 3, 1903, Panama declared independence, with the backing of Theodore Roosevelt's administration. Fifteen days later, on November 18, the Hay–Bunau-Varilla Treaty gave the United States permanent rights over a zone around the canal. The man who signed for Panama was the French engineer Philippe Bunau-Varilla, who, according to the US State Department, had not lived in Panama for seventeen years and negotiated without formal authorization from the new government.",
+        "The Americans paid $10 million to Panama and $40 million to the French company. On May 4, 1904, Lieutenant Mark Brooke received the keys to the warehouses and to the hospital at Ancon. They also inherited some 30 million cubic yards of usable French excavation."
+      ]
+    },
+    {
+      "titulo": "First, the mosquito",
+      "paragrafos": [
+        "The first chief engineer, John F. Wallace, stayed about a year. His replacement in 1905, John F. Stevens, did something that looked like retreat: he stopped the digging. He rebuilt the old Panama Railroad and set up the train system that would haul the spoil out of the cut. And he argued for a lock canal, against the idea of trying sea level again. In June 1906, the Senate approved the locks by 36 votes to 31, and the House confirmed it.",
+        "At the same time, the physician William C. Gorgas was applying on the isthmus what had been learned shortly before: that yellow fever and malaria came from the mosquito. Copper screens on the houses, more than 100 square miles of swamp drained, strips of brush cleared around the towns. The last case of yellow fever is dated November 11, 1905, by some sources and December 1906 by others; either way, the disease that had defeated the French was gone within the first two years of the American project. Malaria held out longer: in 1906 it still struck 82% of the workforce, according to a study of Gorgas's reports, and its death rate fell from 7.45 to 0.30 per thousand employees only between 1906 and 1913.",
+        "In November 1906, Roosevelt went to see the work, on the first trip abroad by a sitting American president, and let himself be photographed in the cab of a steam shovel. Stevens left the post in early 1907. In his place came an Army colonel, George W. Goethals, who stayed until the end."
+      ]
+    },
+    {
+      "titulo": "The mountain that kept coming back",
+      "paragrafos": [
+        "The heart of the project was the Culebra Cut, later named the Gaillard Cut, where the canal crosses the Continental Divide at its lowest point, 333.5 feet above the sea. The Bucyrus steam shovels, with five-cubic-yard dippers, filled trains that left the cut one after another; in March 1909 there were 68 of them there. In 1908 alone, more than 37 million cubic yards came out.",
+        "The problem was that the slope kept sliding back down. On October 4, 1907, the Cucaracha slide pushed 500,000 cubic yards into the cut, advancing about 14 feet a day for ten days. Others came at Gold Hill and on the west bank, next to the town of Culebra, each one with millions of cubic yards. The estimate of what had to be removed from the cut alone went from 53.8 million cubic yards in 1906 to about 100 million in 1913. And the blasting work had its price: at Bas Obispo, on December 12, 1908, a charge went off early and killed 23 men, or 26, depending on the account.",
+        "On May 20, 1913, two steam shovels met at the bottom of the cut. In all, by July 1, 1914, the Americans had excavated 238,845,587 cubic yards. David D. Gaillard, who led the cut, died on December 5, 1913, before the opening."
+      ]
+    },
+    {
+      "titulo": "A lake made of rain",
+      "paragrafos": [
+        "The idea that made the canal possible was not to dig down to the sea. At Gatún, an earth dam closed off the Chagres River and formed a lake of 163.38 square miles, about 423 km², the world's largest artificial lake at the time, 26 meters above the sea. Ships climb up to it and come down on the other side through three sets of locks: Gatún, with three steps, on the Atlantic; Pedro Miguel, with one, and Miraflores, with two, on the Pacific.",
+        "The twelve chambers are all the same size, 1,000 by 110 feet, or 304.8 by 33.5 meters. Water from the lake fills the chambers through culverts 18 feet in diameter, and each transit by a Panamax ship uses 51 to 55 million gallons of fresh water. Work on the locks began on August 24, 1909; Pedro Miguel was finished in 1911, Miraflores in May 1913 and Gatún in June 1913.",
+        "On January 7, 1914, the crane boat Alexandre La Valley made the first complete transit. The official opening was on August 15, 1914, with the steamship Ancon. By the Canal Authority's count, the American project cost about $375 million, $23 million below the 1907 estimate; other counts of total spending come close to $500 million."
+      ]
+    },
+    {
+      "titulo": "Gold and silver",
+      "paragrafos": [
+        "Most of the people who dug the canal came from the West Indies. A total of 31,071 Afro-Caribbean workers were hired, some 20,000 from Barbados alone, where the Canal Commission kept a chief recruiter. At the peak, the workforce topped 40,000 men at the same time: 44,733 in March 1913, according to the Canal Authority. Americans averaged a little over 5,000.",
+        "Pay split everyone into two rolls. The gold roll, for whites, mostly Americans, was paid in US gold currency. The silver roll, for West Indians and also for Spaniards, Italians and Greeks, was paid in silver coin: ten cents an hour, ten hours a day, six days a week. The Linda Hall Library sums it up: the division, meant to separate skilled from unskilled labor, quickly became a system of segregation, with separate housing, mess halls and building entrances. The Spaniards on the silver roll earned twice as much as the West Indians.",
+        "The same division shows up in the deaths. The hospital records count 5,609 dead from disease and accidents from 1904 to 1914. By McCullough's count, some 350 were white Americans and some 4,500 Black workers. In the first half of 1906, according to a study of Gorgas's data, nonwhites died at several times the rate of whites: 59 per thousand against 17. McCullough speaks of ten times; the measures and the time frames are not the same. And, according to historian Caroline Lieffers, many historians believe the real number was several times higher."
+      ]
+    },
+    {
+      "titulo": "The water today",
+      "paragrafos": [
+        "The Torrijos-Carter Treaties, signed on September 7, 1977, ended the Canal Zone in 1979 and handed the canal to Panama on December 31, 1999. On June 26, 2016, a third set of locks, for larger ships, was opened with the passage of the Cosco Shipping Panama, at a cost of $5.25 billion.",
+        "What the canal has never stopped needing is rain. In 2026, with El Niño, rainfall in the watershed was below average, and Gatún Lake dropped. The Canal Authority cut the maximum draft of the new locks in steps, from 50 to 48 feet between July and September, and reduced the daily slots: from September 3, 9 Neopanamax and 25 Panamax ships; from September 15, 23 Panamax. On September 28, with rainfall back near average and the lake rising from 84.04 to 84.74 feet over the month, it eased back: a draft of 49 feet and the tenth Neopanamax slot restored from October 15, with the warning that the watershed remained in water deficit. For the years ahead, the canal is preparing a new reservoir, on the Indio River, to send more water to the lake."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "The canal was the work of the Americans.", "registro": "The Americans finished it, but the French had dug for eight years before, and some 30 million cubic yards of that excavation were put to use. And most of the digging was done by workers from the West Indies: 31,071 Afro-Caribbean workers hired, some 20,000 from Barbados alone."},
+    {"circula": "Tens of thousands of Americans died building the canal.", "registro": "The records of the American project count 5,609 dead in all, and, by David McCullough's count, some 350 were white Americans. Most of the dead were Black workers from the West Indies. The estimates of twenty thousand or more belong to the French attempt, in the 1880s."},
+    {"circula": "The French failed out of incompetence in the face of yellow fever.", "registro": "In the 1880s nobody knew that yellow fever and malaria were transmitted by mosquitoes. The Americans arrived after that discovery and began with sanitation. The French sea-level plan also weighed on the outcome: it was abandoned late, in 1888."},
+    {"circula": "The Panama Canal is at sea level, like Suez.", "registro": "No. It lifts ships 26 meters, through locks, up to Gatún Lake, and lowers them on the other side. Sea level was the French plan, and the US Congress rejected it in 1906."},
+    {"circula": "Gorgas wiped out malaria in Panama.", "registro": "He wiped out yellow fever, by 1906. Malaria fell sharply, from 7.45 to 0.30 deaths per thousand employees between 1906 and 1913, but in 1906 it still struck the great majority of the workforce."}
+  ],
+  "perguntas": [
+    {"p": "When was the Panama Canal built?", "r": "The French tried from 1881 to 1889 and stopped with the canal unfinished. The United States took over in 1904 and opened the canal on August 15, 1914, with the steamship Ancon."},
+    {"p": "Who built the Panama Canal?", "r": "The work began with Ferdinand de Lesseps's French company and was finished by the United States, under chief engineers John F. Wallace, John F. Stevens and, from 1907 to 1914, Colonel George W. Goethals. Most of the digging was done by workers from the West Indies: 31,071 Afro-Caribbean workers hired, some 20,000 from Barbados alone."},
+    {"p": "How many people died building the Panama Canal?", "r": "The hospital records of the American project count 5,609 dead from 1904 to 1914, most of them Black workers from the West Indies, and many historians believe the real number was several times higher. For the French attempt, the estimates run between 20,000 and 22,000."},
+    {"p": "How do the Panama Canal locks work?", "r": "The canal is not at sea level. A dam on the Chagres River, at Gatún, formed a lake 26 meters above the sea, and three sets of locks, Gatún, Pedro Miguel and Miraflores, lift ships up to it and lower them on the other side."},
+    {"p": "How much did the Panama Canal cost?", "r": "About $375 million to the United States, according to the Canal Authority, including the $10 million paid to Panama and the $40 million to the French company; other counts come close to $500 million. The French had already spent $287 million."}
+  ],
+  "fontes": [
+    {"texto": "Autoridad del Canal de Panamá, \"End of the Construction\""},
+    {"texto": "Autoridad del Canal de Panamá, \"The French Canal Construction\""},
+    {"texto": "Autoridad del Canal de Panamá, \"American Canal Construction\""},
+    {"texto": "Autoridad del Canal de Panamá, \"Work Force\""},
+    {"texto": "Autoridad del Canal de Panamá, \"Design of the Locks\""},
+    {"texto": "Autoridad del Canal de Panamá, \"Culebra Cut\""},
+    {"texto": "Autoridad del Canal de Panamá, \"Preguntas Frecuentes\""},
+    {"texto": "Autoridad del Canal de Panamá, \"Panama Canal Adopts Additional Measures to Address Reduced Precipitation in the Canal Watershed\", August 20, 2026"},
+    {"texto": "U.S. Department of State, Office of the Historian, \"The Panama Canal and the Torrijos-Carter Treaties\""},
+    {"texto": "Barbados Department of Archives and Barbados Museum and Historical Society, \"The Silver Men: West Indian Labourers at the Panama Canal\", nomination to UNESCO's Memory of the World Register"},
+    {"texto": "Linda Hall Library, The Land Divided, The World United: \"Making the Dirt Fly\""},
+    {"texto": "Linda Hall Library, The Land Divided, The World United: \"Life in the Zone\""},
+    {"texto": "PBS American Experience, \"TR and the Panama Canal\""},
+    {"texto": "PBS American Experience, \"Creating the Canal\""},
+    {"texto": "\"Death, disease, and discrimination during the construction of the Panama Canal (1904–1914)\", Hektoen International, 2021"},
+    {"texto": "Caroline Lieffers, \"The Panama Canal's forgotten casualties\", The Conversation, 2018"},
+    {"texto": "David McCullough, The Path Between the Seas: The Creation of the Panama Canal, 1870–1914, Simon & Schuster, 1977"},
+    {"texto": "\"Panama Canal to Tighten Draft Limits Again as Water Levels Continue to Fall\", gCaptain, August 6, 2026"},
+    {"texto": "\"Panama Canal Authority Adopts New Transit Restrictions\", DTN, September 2, 2026"},
+    {"texto": "\"Panama Canal Adds Transit Capacity as Rainfall Brings Relief\", gCaptain, September 28, 2026"},
+    {"texto": "\"Panama Canal Eases Restrictions Adding Transit Slot and Maximum Draft\", The Maritime Executive, September 28, 2026"},
+    {"texto": "\"Panama Canal Seeks Program Manager for $1.6B Rio Indio Reservoir\", ENR"},
+    {"texto": "U.S. Bureau of Labor Statistics, \"Consumer Price Index: 2025 in review\""}
+  ],
+  "imagens": [
+    {"alt": "Deep, dry valley cut between two rock slopes, with several railroad tracks along the bottom, a steam shovel on the right and cranes on the left", "legenda": "The Culebra Cut looking south, still dry, with the rail lines that hauled the spoil away.", "autor": "Bain News Service (Biblioteca do Congresso dos EUA)"},
+    {"alt": "Narrow channel between high slopes, with a pale, collapsed slope on the right and several steam dredges working in the water", "legenda": "Dredges at work on the Cucaracha slide, in the Culebra Cut, with water already in the channel.", "autor": "Bain News Service (Biblioteca do Congresso dos EUA)"},
+    {"alt": "Empty, very long lock chamber between two concrete walls, with tracks on the floor, a steel tower on the right and a crane gantry in the distance", "legenda": "One of the lock chambers in 1912, before the gates were installed: 1,000 feet long by 110 wide.", "autor": "Biblioteca do Congresso dos EUA"},
+    {"alt": "Large steam shovel with a dipper and chains, marked I.C.C. 114, surrounded by men in hats; in the cab, a man in a white suit", "legenda": "Theodore Roosevelt, in white, in the cab of an Isthmian Canal Commission steam shovel during construction.", "autor": "Autor não identificado (Biblioteca do Congresso dos EUA)"},
+    {"alt": "Steamship with passengers on deck inside a narrow lock chamber, with small locomotives on the side walls and people watching", "legenda": "The steamship Ancon in one of the Gatún lock chambers, in 1914.", "autor": "Bain News Service (Biblioteca do Congresso dos EUA)"},
+    {"alt": "Heavily loaded container ship inside the new locks, behind white buildings and a control tower, with water in the foreground", "legenda": "A container ship enters the Cocolí locks, on the Pacific side, opened in the 2016 expansion.", "autor": "David Brossard, 2020"}
+  ]
+}
