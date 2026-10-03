@@ -1,0 +1,364 @@
+{
+  "num": "17",
+  "slug": "maracana",
+  "obra": "Estádio do Maracanã",
+  "titulo_video": null,
+  "lugar": "Bairro do Maracanã, Rio de Janeiro, Rio de Janeiro, Brasil",
+  "regiao": "brasil",
+  "periodo": "1948–1950",
+  "estreia": "2027-01-28",
+  "impossivel": "Erguer em menos de dois anos, para uma Copa do Mundo com data marcada, um anel de concreto para mais de 150 mil pessoas coberto por uma marquise em balanço sem um único pilar por baixo.",
+  "resumo": "Como o Rio ergueu em menos de dois anos o maior estádio de sua época para a Copa de 1950, e por que a marquise sem pilares foi demolida em 2011.",
+  "abertura": [
+    "Em 1946, o Brasil foi escolhido para sediar a Copa do Mundo, e o Rio de Janeiro, então capital do país, não tinha onde pôr a final. A prefeitura do Distrito Federal decidiu construir, no terreno de um antigo hipódromo no bairro do Maracanã, na Zona Norte do Rio de Janeiro, no Brasil, um estádio projetado para 155.250 pessoas.",
+    "A obra começou em agosto de 1948 e o estádio foi inaugurado em 16 de junho de 1950, oito dias antes da abertura da Copa. Não estava pronto: a grande marquise de concreto armado, um anel em balanço sem colunas por baixo, ainda estava apoiada em andaimes quando a bola rolou."
+  ],
+  "numeros": [
+    {
+      "valor": "155.250",
+      "rotulo": "lugares previstos no projeto, entre assentos, lugares em pé e cadeiras cativas",
+      "conf": "2+"
+    },
+    {
+      "valor": "1948–1950",
+      "rotulo": "da obra iniciada em agosto de 1948 à inauguração em 16/06/1950",
+      "conf": "2+"
+    },
+    {
+      "valor": "173.850",
+      "rotulo": "pagantes na final da Copa de 1950, o público oficial; as estimativas passam de 199 mil",
+      "conf": "2+"
+    },
+    {
+      "valor": "80 mil m³",
+      "rotulo": "de concreto e 500 mil sacos de cimento na obra original",
+      "conf": "2+"
+    },
+    {
+      "valor": "3",
+      "rotulo": "mortos e 82 feridos quando uma grade da arquibancada cedeu, em 19/07/1992",
+      "conf": "2+"
+    },
+    {
+      "valor": "2011",
+      "rotulo": "o ano em que a marquise original de concreto foi demolida",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Receber a Copa do Mundo de 1950, que a FIFA deu ao Brasil em 1946. O Rio de Janeiro era a capital do país e não tinha um estádio à altura de uma final.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "A prefeitura do Distrito Federal, na gestão de Ângelo Mendes de Moraes, empurrada pela campanha do jornalista Mário Filho. O vereador Ary Barroso defendeu o terreno do Derby Club, no Maracanã; Carlos Lacerda preferia Jacarepaguá.",
+      "conf": "2+",
+      "nota": "a disputa do terreno é contada em fontes de história do futebol; o estádio leva o nome de Mário Filho desde 1966"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Um grupo de arquitetos brasileiros que inclui Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro e Miguel Feldman; algumas fontes acrescentam Waldir Ramos e Oscar Valdetaro.",
+      "conf": "DIV",
+      "nota": "a lista de autores tem cinco ou sete nomes, conforme a fonte"
+    },
+    {
+      "item": "Cálculo da marquise",
+      "valor": "O engenheiro Antônio Alves de Noronha, um dos nomes do concreto armado no Brasil, integrou a equipe do estádio. Segundo a família dele, foi dele o cálculo estrutural da marquise.",
+      "conf": "1",
+      "nota": "a participação na equipe é registrada pela Academia Nacional de Engenharia; o cálculo da marquise, pelo neto, em reportagem da Agência Pública"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Pedra fundamental em 20/01/1948; obra iniciada em agosto de 1948 (dia 2 ou 10, conforme a fonte); inauguração em 16/06/1950 e primeiro jogo no dia 17. A marquise ainda estava escorada durante a Copa, e a conclusão total é dada como de 1965.",
+      "conf": "2+",
+      "nota": "o dia de início e o ano de conclusão vêm de fontes que divergem ou não se confirmam entre si"
+    },
+    {
+      "item": "Operários",
+      "valor": "Segundo o Arquivo Nacional, 3.500 por dia, até 5 mil no auge e cerca de 11 mil no total ao longo da obra. Outras fontes falam em 2.800, ou em 1.500 mais 2.000 nos últimos meses. Jornada e salário não foram registrados nas fontes consultadas.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Mortes na construção",
+      "valor": "Nenhuma fonte consultada dá número ou nome de mortos ou feridos na obra de 1948 a 1950.",
+      "conf": "sem"
+    },
+    {
+      "item": "Custo",
+      "valor": "Circulam estimativas de 200 milhões e de 250 milhões de cruzeiros, nenhuma com documento de origem. Parte do dinheiro veio da venda antecipada de 30 mil cadeiras cativas.",
+      "conf": "DIV",
+      "nota": "sem fonte primária, o valor não é convertido para hoje"
+    },
+    {
+      "item": "Medidas e material",
+      "valor": "Eixos de 317 × 279 m e 32 m de altura. 80 mil m³ de concreto, 500 mil sacos de cimento e cerca de 10 mil toneladas de ferro.",
+      "conf": "2+"
+    },
+    {
+      "item": "A marquise",
+      "valor": "Um anel de concreto armado em balanço sobre a arquibancada superior, sem colunas por baixo. Fontes de engenharia estrangeiras dão cerca de 30 m de balanço.",
+      "conf": "1",
+      "nota": "a ausência de pilares é confirmada por várias fontes; a medida do balanço, só por fontes de divulgação técnica"
+    },
+    {
+      "item": "Público de 1950",
+      "valor": "Na final Brasil 1 × 2 Uruguai, em 16/07/1950, o público oficial foi de 173.850 pagantes. As estimativas com quem entrou sem ingresso vão de 199.854 a 210 mil.",
+      "conf": "DIV"
+    },
+    {
+      "item": "1992",
+      "valor": "Em 19/07/1992, antes da final do Brasileiro entre Flamengo e Botafogo, uma grade de proteção da arquibancada cedeu em cerca de 13 m. Três torcedores morreram e 82 ficaram feridos. A perícia apontou grades mal instaladas, peças corroídas e superlotação.",
+      "conf": "2+",
+      "nota": "uma fonte em inglês fala em 50 feridos"
+    },
+    {
+      "item": "Tombamento",
+      "valor": "Inscrito pelo Iphan no Livro do Tombo Arqueológico, Etnográfico e Paisagístico em 2000.",
+      "conf": "2+"
+    },
+    {
+      "item": "Reforma de 2010 a 2013",
+      "valor": "Para a Copa de 2014, a marquise foi demolida em 2011 e trocada por uma cobertura de membrana sobre estrutura de cabos; os dois anéis de arquibancada viraram um. Reaberto em 02/06/2013. O custo passa de R$ 1 bilhão: R$ 1,2 bilhão pelo Tribunal de Contas do Estado, que apontou R$ 211 milhões de superfaturamento; mais de R$ 1,3 bilhão segundo a Agência Pública.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Administrado por Flamengo e Fluminense, por contrato de 20 anos assinado em setembro de 2024. Em outubro de 2025, a comissão de Constituição e Justiça da Assembleia do Rio pôs o Complexo do Maracanã na lista de imóveis que o Estado pode vender; a votação em plenário foi adiada para 2026.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Uma Copa sem estádio",
+      "paragrafos": [
+        "Quando a FIFA confirmou o Brasil como sede da Copa do Mundo, em 1946, o Rio de Janeiro era a capital do país e não tinha um estádio à altura de uma final de Mundial. O jornalista Mário Filho, do Jornal dos Sports, fez do novo estádio uma campanha, e a prefeitura do Distrito Federal assumiu a obra.",
+        "A briga seguinte foi pelo lugar. O vereador e compositor Ary Barroso defendia o terreno do Derby Club, onde havia corridas de cavalo, no bairro do Maracanã; Carlos Lacerda queria o estádio em Jacarepaguá. Ganhou o Derby. A construção foi aprovada em novembro de 1947, e a pedra fundamental foi lançada em 20 de janeiro de 1948."
+      ]
+    },
+    {
+      "titulo": "Um anel para 155 mil",
+      "paragrafos": [
+        "O projeto, de um grupo de arquitetos brasileiros que inclui Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro e Miguel Feldman, previa 155.250 lugares: 93 mil assentos, 31 mil lugares em pé, 30 mil cadeiras cativas, 500 lugares na tribuna de honra e 250 camarotes. As cativas foram vendidas antes da obra e ajudaram a pagá-la.",
+        "A forma era uma elipse de 317 por 279 metros e 32 metros de altura, toda em concreto armado, com dois anéis de arquibancada. Sobre o anel de cima, o desenho pedia uma marquise contínua presa só pela parte de trás, em balanço, sem nenhuma coluna que atrapalhasse a vista do campo. Fontes de engenharia estrangeiras dão a essa marquise cerca de 30 metros de balanço. Segundo a família do engenheiro Antônio Alves de Noronha, que integrou a equipe do estádio, foi ele quem fez o cálculo estrutural dela."
+      ]
+    },
+    {
+      "titulo": "Vinte e dois meses de concreto",
+      "paragrafos": [
+        "O canteiro começou em agosto de 1948. Pelo Arquivo Nacional, no primeiro recrutamento, em 11 de junho daquele ano, apareceram 200 candidatos no Derby; depois, a obra chegou a 3.500 trabalhadores por dia e 5 mil no auge, num total estimado de 11 mil ao fim. Outras fontes falam em números menores, de 2.800 ou de 1.500 com mais 2.000 nos meses finais. Quantos se feriram ou morreram, as fontes consultadas não registram.",
+        "Foram 500 mil sacos de cimento, 80 mil metros cúbicos de concreto e cerca de 10 mil toneladas de ferro. A marquise só começou a ganhar forma em fevereiro de 1950. Segundo a revista Grandes Construções, o responsável pela obra, coronel Herculano Gomes, mandou pôr no concreto uma resina para acelerar a secagem. Pela lembrança da família de Noronha, operários e engenheiros tinham receio de ficar sob aquele teto sem pilares.",
+        "O estádio foi inaugurado em 16 de junho de 1950, com o presidente Eurico Gaspar Dutra e o prefeito Mendes de Moraes. O primeiro jogo, no dia seguinte, foi entre seleções de jovens do Rio e de São Paulo. A Copa começou em 24 de junho. A marquise continuava apoiada em andaimes."
+      ]
+    },
+    {
+      "titulo": "O dia mais cheio",
+      "paragrafos": [
+        "Em 16 de julho de 1950, o Uruguai venceu o Brasil por 2 a 1 na partida decisiva da Copa. O público oficial foi de 173.850 pagantes; com quem entrou sem ingresso, as estimativas vão de 199.854 a 210 mil pessoas. O Guinness registra o jogo como o maior público de uma partida de Copa do Mundo.",
+        "Não foi, porém, o maior público pagante do próprio estádio. Esse recorde é de 31 de agosto de 1969, quando 183.341 pessoas pagaram para ver o Brasil vencer o Paraguai por 1 a 0 nas eliminatórias. Num Fla-Flu de dezembro de 1963, segundo o Arquivo Nacional, havia 194.603 pessoas, o maior público entre clubes. Em 1966, o estádio ganhou o nome de Jornalista Mário Filho."
+      ]
+    },
+    {
+      "titulo": "A grade de 1992",
+      "paragrafos": [
+        "Em 19 de julho de 1992, cerca de 20 minutos antes da final do Campeonato Brasileiro entre Flamengo e Botafogo, a grade de proteção do primeiro degrau da arquibancada do setor norte, onde estava a torcida do Flamengo, cedeu num trecho de uns 13 metros. Dezenas de torcedores caíram sobre as cadeiras de baixo. Morreram Frederico Castilho de Oliveira, de 16 anos, Cláudio José Rocha Galda, de 17, e Sérgio de Souza Marques, de 25; 82 pessoas ficaram feridas.",
+        "A perícia apontou grades mal instaladas, peças corroídas pela oxidação e superlotação. O estádio foi interditado e só voltou a receber jogos meses depois. Vieram reformas em série: assentos nas arquibancadas para o Mundial de Clubes de 2000; o fim da geral, trocada por cadeiras, para os Jogos Pan-Americanos de 2007. Em 2000, o Iphan tombou o Maracanã pelo seu valor etnográfico."
+      ]
+    },
+    {
+      "titulo": "A marquise que caiu de propósito",
+      "paragrafos": [
+        "Para a Copa de 2014, o governo do Estado decidiu refazer o estádio por dentro. Os dois anéis de arquibancada viraram um, e a marquise de 1950, com fissuras, armaduras corroídas e concreto estufado, entrou em debate. Um laudo da Coppetec, da UFRJ, recomendou demolir por custo-benefício. A engenheira espanhola María del Carmen Andrade, contratada pelo próprio governo, concluiu que dava para reparar, com durabilidade de 10 a 20 anos. Em abril de 2011, a superintendência do Iphan no Rio autorizou a demolição, e em maio as máquinas começaram a cortar o concreto em peças de 20 toneladas.",
+        "No lugar ficou uma cobertura de 46.500 metros quadrados de membrana de fibra de vidro revestida de PTFE, projetada pelo escritório alemão schlaich bergermann partner, sustentada por um anel de compressão e três anéis de tração apoiados sobre a estrutura antiga. O estádio reabriu em 2 de junho de 2013, com Brasil 2 × 2 Inglaterra. A reforma, do consórcio Odebrecht, Andrade Gutierrez e Delta, custou R$ 1,2 bilhão segundo o Tribunal de Contas do Estado, que apontou R$ 211 milhões de superfaturamento; a Agência Pública fala em mais de R$ 1,3 bilhão."
+      ]
+    },
+    {
+      "titulo": "À venda?",
+      "paragrafos": [
+        "Desde setembro de 2024, o Maracanã e o Maracanãzinho são administrados por Flamengo e Fluminense, num contrato de concessão de 20 anos. Em 22 de outubro de 2025, a comissão de Constituição e Justiça da Assembleia Legislativa do Rio incluiu o Complexo do Maracanã na lista de imóveis que o governo do Estado pode vender para enfrentar a dívida com a União; deputados estimaram o valor em cerca de R$ 2 bilhões. Em novembro, a votação em plenário foi adiada para 2026.",
+        "Enquanto isso, o campo também muda. Em setembro de 2026, o consórcio dos dois clubes anunciou que, depois do fim do Brasileiro, a grama natural dará lugar a um gramado híbrido, com fibras sintéticas, para aguentar a sequência de jogos e as chuvas. O estádio que ficou pronto com a cobertura ainda escorada chega aos 76 anos sem a cobertura original, e com o próprio futuro em votação."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "O Maracanã foi construído para 200 mil pessoas.",
+      "registro": "O projeto previa 155.250 lugares, somando assentos, lugares em pé, cadeiras cativas, tribuna e camarotes. Os 200 mil são a lotação estimada de dias de jogo, com gente que entrou sem ingresso."
+    },
+    {
+      "circula": "A final de 1950 é o recorde de público pagante do Maracanã.",
+      "registro": "O público oficial da final de 1950 foi de 173.850 pagantes. O recorde de pagantes do estádio é de Brasil 1 × 0 Paraguai, em 31/08/1969, com 183.341. O jogo de 1950 é o maior público de uma partida de Copa do Mundo."
+    },
+    {
+      "circula": "O estádio estava pronto para a Copa de 1950.",
+      "registro": "Foi inaugurado incompleto: a marquise de concreto continuava escorada em andaimes durante a Copa, e a conclusão total da obra é dada como de 1965."
+    },
+    {
+      "circula": "A marquise foi demolida porque ia cair.",
+      "registro": "Os laudos divergiram. A Coppetec, da UFRJ, recomendou demolir por custo-benefício; a especialista espanhola contratada pelo governo do Estado concluiu que a estrutura podia ser reparada, com vida útil de 10 a 20 anos."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Arquivo Nacional, exposição virtual \"Histórias do Maracanã antigo\"",
+      "url": "https://exposicoesvirtuais.an.gov.br/index.php/galerias/10-exposicoes/371-hist%C3%B3ria-do-maracan%C3%A3-antigo.html"
+    },
+    {
+      "texto": "Rogério Daflon, \"Anatomia de um crime\", Agência Pública, 23/03/2017",
+      "url": "https://apublica.org/2017/03/anatomia-de-um-crime/"
+    },
+    {
+      "texto": "\"Maracanã: destruir ou preservar\", Projetos 133.08, Vitruvius, 2012",
+      "url": "https://vitruvius.com.br/revistas/read/projetos/12.133/4225"
+    },
+    {
+      "texto": "Academia Nacional de Engenharia, \"Antônio Alves de Noronha\"",
+      "url": "https://anebrasil.org.br/ant%C3%B4nio-alves-de-noronha/"
+    },
+    {
+      "texto": "Revista Grandes Construções, \"Maracanã 1950: a história da construção se repetiu depois de 63 anos\"",
+      "url": "https://grandesconstrucoes.com.br/Noticias/Exibir/maracana-1950-a-historia-da-construcao-se-repetiu-depois-de-63-anos"
+    },
+    {
+      "texto": "Votorantim Cimentos, \"Maracanã, o gigante das arquibancadas\"",
+      "url": "https://www.votorantimcimentos.com.br/obras-realizadas/maracana-o-gigante-das-arquibancadas/"
+    },
+    {
+      "texto": "João Guilherme Vargas Netto, \"A construção do Maracanã\", 04/02/2014",
+      "url": "https://metalurgicos.org.br/noticias/a-construcao-do-maracana/"
+    },
+    {
+      "texto": "Designing Buildings Wiki, \"Maracana Stadium\"",
+      "url": "https://www.designingbuildings.co.uk/wiki/Maracana_Stadium"
+    },
+    {
+      "texto": "schlaich bergermann partner, \"Stadium Maracanã (Estádio Jornalista Mário Filho)\"",
+      "url": "https://www.sbp.de/en/project/stadium-maracana-estadio-jornalista-mario-filho/"
+    },
+    {
+      "texto": "Revista O Empreiteiro, \"Coberturas do Maracanã e do Mineirão ganham soluções diferentes\"",
+      "url": "https://revistaoe.info/coberturas-do-maracana-e-do-mineirao-ganham-solucoes-diferentes/"
+    },
+    {
+      "texto": "\"Cobertura do Maracanã é demolida com sistema de corte com disco diamantado\", a partir da PINIweb, 2011",
+      "url": "https://civilizacaoengenheira.wordpress.com/2011/10/13/cobertura-do-maracana-e-demolida-com-sistema-de-corte-com-disco-diamantado/"
+    },
+    {
+      "texto": "Guinness World Records, \"World Cup Rewind: largest attendance at a match in the 1950 Brazil final\", 2014",
+      "url": "https://www.guinnessworldrecords.com/news/2014/6/world-cup-rewind-world-cup-rewind-largest-attendance-at-a-match-in-the-1950-brazil-final"
+    },
+    {
+      "texto": "Santos Futebol Clube, \"Seis santistas jogaram no recorde de público do Maracanã\"",
+      "url": "https://www.santosfc.com.br/seis-santistas-jogaram-no-recorde-de-publico-do-maracana/"
+    },
+    {
+      "texto": "Lance!, \"Há 25 anos, uma tragédia acontecia em final de Brasileiro no Maracanã\", 19/07/2017",
+      "url": "https://www.lance.com.br/brasileirao/anos-uma-tragedia-acontecia-final-brasileiro-maracana.html"
+    },
+    {
+      "texto": "Museu da Pelada, \"Tragédia de 1992\"",
+      "url": "https://www.museudapelada.com/tragedia-de-1992/"
+    },
+    {
+      "texto": "Denaldo Alchorne de Souza, \"'Maracanã, adeus?' História e memórias de um lugar\", Ludopédio, 13/02/2026",
+      "url": "https://ludopedio.org.br/arquibancada/maracana-adeus-historia-e-memorias-de-um-lugar/"
+    },
+    {
+      "texto": "\"Maracanã: 75 anos do templo do futebol\", História(dora) do Futebol",
+      "url": "https://historiadoradofutebol.substack.com/p/maracana-75-anos-do-templo-do-futebol"
+    },
+    {
+      "texto": "Exame, \"Reforma do Maracanã foi superfaturada em R$ 211 milhões, diz TCE\", 13/03/2017",
+      "url": "https://exame.com/brasil/reforma-do-maracana-foi-superfaturada-em-r-211-milhoes-diz-tce/"
+    },
+    {
+      "texto": "Fluminense Football Club, \"Maracanã: contrato de concessão é assinado\", 27/09/2024",
+      "url": "https://www.fluminense.com.br/noticia/maracana-contrato-de-concessao-e-assinado"
+    },
+    {
+      "texto": "Lance!, \"Como fica a concessão do Maracanã caso o estádio vá a leilão?\", 23/10/2025",
+      "url": "https://www.lance.com.br/futebol-nacional/entenda-como-fica-a-concessao-do-maracana-caso-o-estadio-va-a-leilao.html"
+    },
+    {
+      "texto": "Brasil de Fato, \"Maracanã é incluído em lista de vendas de imóveis do estado do RJ\", 25/11/2025",
+      "url": "https://www.brasildefato.com.br/2025/11/25/maracana-e-incluido-em-lista-de-vendas-de-imoveis-do-estado-do-rj/"
+    },
+    {
+      "texto": "Diário do Rio, \"Alerj adia para 2026 votação de projeto que autoriza venda de imóveis públicos\", 27/11/2025",
+      "url": "https://diariodorio.com/alerj-adia-para-2026-votacao-de-projeto-que-autoriza-venda-de-imoveis-publicos"
+    },
+    {
+      "texto": "Estádio do Maracanã, \"Maracanã vai trocar de gramado para 2027 e adotará tecnologia híbrida para aumentar resistência\", 13/09/2026",
+      "url": "https://www.estadiodomaracana.com.br/maracana-vai-trocar-de-gramado-para-2027-e-adotara-tecnologia-hibrida-para-aumentar-resistencia/"
+    },
+    {
+      "texto": "Wikipédia, \"Estádio do Maracanã\" (ponto de partida)",
+      "url": "https://pt.wikipedia.org/wiki/Est%C3%A1dio_do_Maracan%C3%A3"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "17-capa.jpg",
+      "alt": "Vista aérea colorida de um estádio oval de concreto com o campo verde no centro, arquibancadas cheias e uma marquise contínua dividida em gomos claros em toda a volta; ao fundo, um ginásio de cúpula redonda e prédios da cidade",
+      "legenda": "O estádio em 1976, ainda com a marquise original de concreto armado em balanço; ao fundo, o Maracanãzinho.",
+      "autor": "Fortepan / Kátai Gyuláné",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Maracan%C3%A3_Stadion._Fortepan_78067.jpg",
+      "recriacao": false,
+      "foco": "50% 50%"
+    },
+    {
+      "arquivo": "17-construcao-1949.jpg",
+      "alt": "Fotografia antiga em tom sépia, panorâmica: arquibancadas de concreto em curva ainda nuas, cercadas por torres altas de andaime de madeira, com morros ao fundo",
+      "legenda": "O canteiro em abril de 1949: o anel de arquibancada já desenhado e as torres de andaime que sustentariam a marquise.",
+      "autor": "Autor não identificado (revista Estadio, Santiago, 16/04/1949)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Construcci%C3%B3n_del_Estadio_Maracan%C3%A1,_Estadio,_1949-04-16_(309).jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "17-jogo-1950.jpg",
+      "alt": "Fotografia em preto e branco: estádio lotado visto do alto da arquibancada, com o campo à esquerda, jogadores e um gol, e a marquise escura contornando o anel superior; morros ao fundo",
+      "legenda": "O estádio cheio em junho de 1950, dias antes da Copa, com a marquise sobre o anel superior.",
+      "autor": "Autor não identificado (Arquivo Nacional, fundo Agência Nacional)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Jogo_no_Est%C3%A1dio_do_Maracan%C3%A3,_antes_da_Copa_do_Mundo_de_1950.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "17-aerea-1950.jpg",
+      "alt": "Fotografia aérea antiga em preto e branco do estádio oval lotado, com a marquise em gomos em toda a volta e restos de obra e andaimes ao pé da fachada",
+      "legenda": "Cartão-postal aéreo da Fotolabor, sem data, com o estádio cheio e sinais de obra ainda em volta.",
+      "autor": "Werner Haberkorn / Fotolabor (acervo Museu Paulista da USP)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Werner_Haberkorn_-_Estadio_do_Maracan%C3%A3_-_Maracana_stadium_-_Rio_de_Janeiro_-_Brasil.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "17-obra-2012.jpg",
+      "alt": "Vista aérea do estádio oval sem cobertura, com guindastes amarelos no centro do campo de terra, cercado por prédios da cidade e morros verdes ao fundo",
+      "legenda": "Dezembro de 2012: a marquise de 1950 já demolida e o estádio aberto, à espera da nova cobertura.",
+      "autor": "Portal da Copa (Governo Federal)",
+      "licenca": "CC BY 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Dezembro_de_2012_(8380361661).jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "17-hoje-2013.jpg",
+      "alt": "Vista aérea do estádio com uma cobertura branca contínua em anel ao redor do campo, ao lado do ginásio de cúpula redonda do Maracanãzinho",
+      "legenda": "O estádio em 2013, depois da reforma, com a cobertura de membrana que substituiu a marquise.",
+      "autor": "Governo Federal do Brasil (copa2014.gov.br)",
+      "licenca": "CC BY 3.0 BR",
+      "licenca_url": "https://creativecommons.org/licenses/by/3.0/br/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Maracana_Stadium_June_2013.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": null
+}

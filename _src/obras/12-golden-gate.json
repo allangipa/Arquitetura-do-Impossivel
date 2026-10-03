@@ -1,0 +1,342 @@
+{
+  "num": "12",
+  "slug": "golden-gate",
+  "obra": "Ponte Golden Gate",
+  "titulo_video": null,
+  "lugar": "Estreito de Golden Gate, entre São Francisco e o condado de Marin, Califórnia, Estados Unidos",
+  "regiao": "mundo",
+  "periodo": "1933–1937",
+  "estreia": "2026-12-24",
+  "impossivel": "Fincar uma torre de aço em mar aberto, na boca de uma baía com correntes de maré e neblina, e pendurar dela o maior vão pênsil do mundo, com cabos fiados fio a fio no próprio local.",
+  "resumo": "Como São Francisco ergueu a Golden Gate entre 1933 e 1937: a torre sul no mar aberto, os cabos fiados no local, os 11 mortos e quem de fato fez o cálculo.",
+  "abertura": [
+    "A Golden Gate não atravessa um rio. Atravessa a única abertura da baía de São Francisco, na Califórnia, nos Estados Unidos, para o oceano Pacífico: um estreito escavado na rocha, com mais de 100 metros de fundo no ponto mais profundo, maré que entra e sai com força e neblina que chega do mar sem aviso. Foi ali que, em plena Grande Depressão, com um em cada quatro americanos sem emprego, se decidiu pendurar uma estrada de 1.280 metros de vão.",
+    "É a terceira ponte pênsil deste quadro, depois do Brooklyn e da Hercílio Luz, e a mais ousada das três no tamanho. Mas a história dela tem dois problemas que não estão no desenho: uma torre que precisou nascer dentro do mar aberto, protegida por uma banheira de concreto, e um engenheiro que fez a conta da ponte e só teve o nome reconhecido setenta anos depois."
+  ],
+  "numeros": [
+    {
+      "valor": "1.280 m",
+      "rotulo": "de vão central, o maior vão pênsil do mundo de 1937 a 1964",
+      "conf": "2+"
+    },
+    {
+      "valor": "1933–1937",
+      "rotulo": "da obra iniciada em 05/01/1933 à abertura em 27 e 28/05/1937",
+      "conf": "2+"
+    },
+    {
+      "valor": "27.572",
+      "rotulo": "fios de aço em cada um dos dois cabos principais, fiados no local",
+      "conf": "2+"
+    },
+    {
+      "valor": "US$ 35 mi",
+      "rotulo": "em títulos aprovados pelos eleitores em 1930 e pagos só com pedágio até 1971",
+      "conf": "2+"
+    },
+    {
+      "valor": "11",
+      "rotulo": "operários mortos, dez deles num único acidente em fevereiro de 1937",
+      "conf": "2+"
+    },
+    {
+      "valor": "19",
+      "rotulo": "homens que caíram na rede de segurança e sobreviveram",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Ligar São Francisco ao condado de Marin, ao norte, sem depender das balsas que faziam a travessia desde o século XIX. A ideia ganhou corpo com um estudo de viabilidade iniciado em 1919 pelo engenheiro da cidade, Michael O'Shaughnessy.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem quis e pagou",
+      "valor": "O Golden Gate Bridge and Highway District, criado por lei estadual em 1923 e incorporado em 1928, reunindo São Francisco e cinco condados do norte da Califórnia. O Departamento de Guerra, dono das duas margens, teve de autorizar a obra.",
+      "conf": "2+"
+    },
+    {
+      "item": "Engenheiro-chefe",
+      "valor": "Joseph B. Strauss, nomeado em 1929. Em 1921 ele havia proposto um híbrido de cantiléver com ponte pênsil, depois abandonado.",
+      "conf": "2+"
+    },
+    {
+      "item": "Cálculo e projeto estrutural",
+      "valor": "Charles A. Ellis, no projeto de 1922 a 1931, em troca constante com Leon S. Moisseiff, autor da teoria da deflexão que permitiu um tabuleiro mais leve. O conselho de engenheiros tinha ainda O. H. Ammann e Charles Derleth Jr. Strauss afastou Ellis em 1931 e pôs Clifford Paine no lugar.",
+      "conf": "2+",
+      "nota": "a data da demissão aparece como agosto, novembro ou dezembro de 1931, conforme a fonte"
+    },
+    {
+      "item": "Arquitetura e cor",
+      "valor": "Irving F. Morrow, arquiteto consultor, desenhou os detalhes em art déco e escolheu o laranja chamado International Orange, inspirado no primer avermelhado que protegia o aço. A Marinha queria a ponte pintada com listras pretas e amarelas.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem construiu",
+      "valor": "Dez empreiteiras principais. A superestrutura de aço foi da McClintic-Marshall, do grupo Bethlehem Steel; os cabos, da John A. Roebling's Sons Company, de Trenton, Nova Jersey; os pilares das torres, da Pacific Bridge Company.",
+      "conf": "2+"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Obra iniciada em 05/01/1933; torre norte pronta em 1934 e torre sul em 1935; cabos fiados de outubro de 1935 a maio de 1936; vão central unido em novembro de 1936; aberta a pedestres em 27/05/1937 e a veículos em 28/05/1937.",
+      "conf": "2+",
+      "nota": "o dia em que o vão central foi unido aparece como 18 ou 20 de novembro de 1936, e o fim da fiação como 20 ou 22 de maio de 1936"
+    },
+    {
+      "item": "Operários",
+      "valor": "O total não foi registrado: o próprio distrito informa que os números exatos de emprego não estão disponíveis. Segundo a PBS, o salário ia de 4 a 11 dólares por dia em 1933, e a subida até o posto de trabalho não era paga.",
+      "conf": "sem"
+    },
+    {
+      "item": "Mortes",
+      "valor": "Onze. Kermit Moore morreu em 21/10/1936, atingido na queda de um guindaste. Os outros dez morreram quando um andaime móvel se soltou e rompeu a rede de segurança, em fevereiro de 1937. A rede salvou outros 19 homens.",
+      "conf": "2+",
+      "nota": "o acidente coletivo é datado de 17/02/1937 pelo distrito e de 16/02/1937 pela PBS; o peso do andaime aparece como duas ou cinco toneladas"
+    },
+    {
+      "item": "Custo",
+      "valor": "US$ 35 milhões em títulos, dos quais cerca de US$ 27,1 milhões foram para a construção propriamente dita, segundo o distrito; a obra terminou com sobra de cerca de US$ 1,3 milhão. A rede de segurança custou US$ 130 mil.",
+      "conf": "2+",
+      "nota": "pelo índice de preços ao consumidor dos EUA (1933 = 13,0; 2025 = 321,9), os US$ 35 milhões equivalem a cerca de US$ 870 milhões de 2025; o índice mede preços ao consumidor, não custo de obra"
+    },
+    {
+      "item": "Financiamento",
+      "valor": "Títulos aprovados em votação em 04/11/1930, com casas, fazendas e comércios dos condados do distrito como garantia. Em 1932, o Bank of America comprou US$ 3 milhões deles. A dívida foi quitada em 1971: 35 milhões de principal e quase 39 milhões de juros, pagos só com pedágio.",
+      "conf": "2+"
+    },
+    {
+      "item": "Medidas",
+      "valor": "Vão central de 4.200 pés (1.280 m); comprimento total de 8.981 pés (cerca de 2.737 m); torres de 746 pés (227 m) acima da água; pista a 220 pés (67 m) da água; cabos de 92 cm de diâmetro, com 129 mil quilômetros de fio somados.",
+      "conf": "2+",
+      "nota": "o comprimento total e o vão livre aparecem só nos dados do distrito"
+    },
+    {
+      "item": "Fundação da torre sul",
+      "valor": "Em mar aberto, a cerca de 335 metros da praia, com o pilar assentado a 110 pés (33,5 m) abaixo da maré baixa média, dentro de um anel de concreto do qual foram bombeados 9,4 milhões de galões de água.",
+      "conf": "1",
+      "nota": "números do distrito, dono da ponte"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Em outubro de 2025 o distrito contratou a fase final do reforço sísmico, com obra iniciada em 2026 nas torres, nos vãos laterais e no pilar da torre sul. Em 2024 foi concluída uma rede de aço sob as calçadas contra o suicídio.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "A boca da baía",
+      "paragrafos": [
+        "O nome Golden Gate é mais velho que a ponte e que a corrida do ouro: segundo o distrito que administra a obra, foi dado ao estreito pelo explorador John C. Frémont em 1846. É a passagem por onde toda a água da baía de São Francisco entra e sai do Pacífico duas vezes por dia. O levantamento geológico americano mede ali um canal escavado na rocha com até 113 metros de fundo; a neblina de verão cobre a boca da baía com frequência; e o mar aberto bate direto contra as margens.",
+        "Por isso a travessia era de balsa, e ponte ali era assunto de visionário. O engenheiro da cidade, Michael O'Shaughnessy, iniciou um estudo em 1919. Em 1921, Joseph B. Strauss, construtor de pontes basculantes, apresentou um desenho: um híbrido de dois braços em balanço com um trecho pênsil no meio, orçado em cerca de 17 milhões de dólares. A imprensa o achou feio. Seriam precisos mais oito anos, uma lei estadual, a criação de um distrito com seis condados e a licença do Departamento de Guerra, dono das duas margens, para Strauss ser nomeado engenheiro-chefe, em 1929."
+      ]
+    },
+    {
+      "titulo": "O nome na placa e o nome da conta",
+      "paragrafos": [
+        "A ponte que existe não é o desenho de 1921. Leon S. Moisseiff, engenheiro de Nova York, convenceu Strauss a abandonar o híbrido por uma ponte pênsil pura, e trouxe a teoria da deflexão, que calcula como cabo e tabuleiro se deformam juntos e permite um tabuleiro mais leve e esbelto. Quem transformou isso em números foi Charles A. Ellis, ex-professor de engenharia da Universidade de Illinois, contratado por Strauss em 1922. Em 1930, em quatro meses de trabalho, Ellis fechou o projeto e as estimativas; a PBS, citando o historiador Kevin Starr, fala em dez volumes e meio de cálculo feito à mão.",
+        "Em 1931, antes de a obra começar, Strauss afastou Ellis, acusando-o de gastar tempo e dinheiro, e entregou o projeto final ao assistente Clifford Paine. Segundo a PBS, o nome de Ellis sumiu do material oficial da ponte por mais de 50 anos, e quem ficou com a estátua junto à praça do pedágio foi Strauss. Só em 2007, nos 70 anos da abertura, o próprio distrito reconheceu em relatório que o papel principal no projeto tinha sido de Ellis; em 2012, nos 75 anos, uma placa na torre sul passou a dizê-lo.",
+        "O desenho visível tem um terceiro autor. O arquiteto Irving F. Morrow desenhou os postes, o guarda-corpo e as nervuras verticais das torres, e escolheu a cor. Segundo o distrito, ele se inspirou no primer avermelhado de zarcão com que o aço chegava da Bethlehem Steel, visto da balsa em que ia para a obra, e recusou preto, cinza e alumínio. A Marinha queria a ponte listrada de preto e amarelo, para os navios a verem na neblina. Ficou o laranja."
+      ]
+    },
+    {
+      "titulo": "Uma banheira no mar aberto",
+      "paragrafos": [
+        "A torre norte assentou em águas rasas, junto à costa de Marin, e em junho de 1934 já estava de pé. A torre sul era outro problema: o lugar dela ficava em mar aberto, a cerca de 335 metros da praia de São Francisco. Para chegar até lá, os construtores fizeram uma passarela de madeira sobre estacas. Em agosto de 1933, um cargueiro que saía da baía em neblina densa entrou por ela e destruiu um trecho; dois meses depois de reparada, segundo o distrito, mais da metade da estrutura desabou num temporal.",
+        "A solução foi cercar o lugar do pilar com uma defensa, um anel oval de concreto lançado debaixo d'água por tubos em formas de madeira, que os operários apelidaram de banheira. Fechado o anel, a água de dentro foi bombeada para fora, cerca de 9,4 milhões de galões pela conta do distrito, e o pilar foi construído a seco, com mergulhadores trabalhando até 110 pés de profundidade. Sobre ele, a torre sul de aço subiu em seis meses e ficou pronta em junho de 1935. A defensa continua lá, protegendo a base da torre contra choque de navio."
+      ]
+    },
+    {
+      "titulo": "Fio a fio sobre o estreito",
+      "paragrafos": [
+        "Os cabos não chegaram prontos. Foram fiados no lugar pela John A. Roebling's Sons Company, a firma de Trenton, Nova Jersey, fundada por John A. Roebling, o mesmo engenheiro que projetou a Ponte do Brooklyn. Na Hercílio Luz, em Florianópolis, a ponte pendia de correntes de barras de aço; aqui, a técnica era a do Brooklyn levada ao limite: roldanas iam e voltavam sobre passarelas provisórias, de margem a margem, puxando, fio após fio, arames de cerca de cinco milímetros de espessura.",
+        "Cada um dos dois cabos principais ficou com 27.572 fios, agrupados em 61 feixes e compactados num cilindro de 92 centímetros de diâmetro. Somado, o fio dá 80 mil milhas, cerca de 129 mil quilômetros. A fiação começou em outubro de 1935 e terminou em maio de 1936, antes do prazo. Em novembro daquele ano, as duas metades do tabuleiro se encontraram no meio do vão. Uma foto da Marinha de 12/11/1936 mostra três porta-aviões passando por baixo da ponte ainda aberta."
+      ]
+    },
+    {
+      "titulo": "A rede e os onze",
+      "paragrafos": [
+        "Strauss impôs regras que não eram comuns em obra de ponte: capacete, óculos contra o reflexo, creme contra o vento, dieta contra tontura. E mandou estender, a um custo de 130 mil dólares, uma rede de segurança sob toda a obra, mais larga e mais comprida que o próprio tabuleiro. Ela segurou 19 homens que caíram. Eles passaram a se chamar de Halfway to Hell Club, o clube dos que caíram só até a metade do caminho para o inferno.",
+        "Até fevereiro de 1937 houve uma morte, e não foi queda: em 21/10/1936, o montador Kermit Moore foi atingido quando um guindaste tombou. Então, a três meses da abertura, um andaime móvel que corria sob o tabuleiro se soltou com os homens que trabalhavam nele e despencou sobre a rede, que não foi feita para aquele peso e se rompeu. Dez morreram; dois sobreviveram, segundo a PBS. O distrito data o acidente de 17/02/1937; a PBS, do dia 16. Nenhum número oficial registra quantos homens trabalharam na obra ao todo."
+      ]
+    },
+    {
+      "titulo": "Uma dívida paga com pedágio",
+      "paragrafos": [
+        "A ponte foi paga pelos moradores da região, e com risco para eles. Em 04/11/1930, eleitores de seis condados aprovaram 35 milhões de dólares em títulos, dando como garantia casas, fazendas e comércios da área do distrito. Os títulos ficaram encalhados na Depressão e em processos judiciais até 1932, quando o Bank of America, de A. P. Giannini, comprou 3 milhões deles e destravou a venda. A obra terminou com sobra de cerca de 1,3 milhão de dólares.",
+        "A conta foi para o pedágio: 50 centavos por carro em 1937, segundo a PBS. Em 27/05/1937, o Dia do Pedestre, a ponte abriu só para quem fosse a pé; no dia seguinte, ao meio-dia, o presidente Franklin Roosevelt acionou um telégrafo em Washington e os carros passaram. O último título foi resgatado em 1971: 35 milhões de dólares de principal e quase 39 milhões de juros, tudo pago por quem atravessou."
+      ]
+    },
+    {
+      "titulo": "Noventa e três anos depois, de volta à torre sul",
+      "paragrafos": [
+        "Em 24/10/2025, o distrito contratou a fase final do reforço sísmico da ponte, com a empreiteira Halmar International, de Nova York, por 863,9 milhões de dólares. A ordem de serviço teve efeito em 05/01/2026, 93 anos depois do dia em que a obra original começou, e o trabalho de campo, com a montagem dos canteiros, começou em maio de 2026. O contrato prevê reforçar as duas torres, as treliças, os vãos laterais e o pilar da torre sul, com conclusão prevista para 2031; a fase inteira vai até 2036.",
+        "Pelo índice de preços ao consumidor americano, os 35 milhões de dólares de 1933 equivalem a cerca de 870 milhões de hoje, quase exatamente o valor desse contrato, que reforça uma ponte já pronta. Enquanto isso, o pedágio subiu 50 centavos em 01/07/2026 e passou a 10,25 dólares no FasTrak, cobrado só no sentido sul. Sob as calçadas, desde 2024, corre outra rede de aço, instalada contra o suicídio, a segunda rede da história desta ponte."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Joseph Strauss projetou a Golden Gate.",
+      "registro": "Strauss foi o engenheiro-chefe e o promotor da obra. O desenho dele, de 1921, era um híbrido abandonado. O cálculo da ponte que existe é de Charles Ellis, com a teoria de Leon Moisseiff, e o próprio distrito reconheceu o papel principal de Ellis em 2007; a placa veio em 2012."
+    },
+    {
+      "circula": "A cor laranja foi escolhida para os navios enxergarem a ponte.",
+      "registro": "Quem queria cor de sinalização era a Marinha, que pediu listras pretas e amarelas. O International Orange saiu de um estudo do arquiteto Irving Morrow, inspirado no primer avermelhado do aço, por combinar com os morros e contrastar com o mar e o céu."
+    },
+    {
+      "circula": "A ponte é pintada de uma ponta à outra todo ano, e quando acaba começa de novo.",
+      "registro": "Não. Segundo o distrito, a pintura é manutenção contínua, por trechos, feita por uma equipe permanente de pintores, e não uma volta completa por ano."
+    },
+    {
+      "circula": "A rede de segurança evitou mortes na obra.",
+      "registro": "Ela salvou 19 homens que caíram. Mas foi justamente através da rede que caíram os dez mortos de fevereiro de 1937: o andaime que se soltou a rompeu. Ao todo, morreram 11 operários."
+    },
+    {
+      "circula": "O nome Golden Gate vem da cor da ponte ou da corrida do ouro.",
+      "registro": "Segundo o distrito, o nome do estreito foi dado por John C. Frémont em 1846, antes da corrida do ouro e quase um século antes da ponte."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Golden Gate Bridge, Highway and Transportation District, \"Construction\"",
+      "url": "https://www.goldengate.org/bridge/history-research/bridge-construction/construction/"
+    },
+    {
+      "texto": "Golden Gate Bridge, Highway and Transportation District, \"Design & Construction Stats\"",
+      "url": "https://www.goldengate.org/bridge/history-research/statistics-data/design-construction-stats/"
+    },
+    {
+      "texto": "Golden Gate Bridge, Highway and Transportation District, \"FAQs\" e \"Key Dates\"",
+      "url": "https://www.goldengate.org/bridge/history-research/statistics-data/faqs/"
+    },
+    {
+      "texto": "Golden Gate Bridge, Highway and Transportation District, \"Joseph Strauss\"",
+      "url": "https://www.goldengate.org/bridge/history-research/bridge-construction/joseph-strauss/"
+    },
+    {
+      "texto": "Golden Gate Bridge, Highway and Transportation District, \"Bond Measure Passes\"",
+      "url": "https://www.goldengate.org/bridge/history-research/bridge-construction/bond-measure-passes/"
+    },
+    {
+      "texto": "Golden Gate Bridge, Highway and Transportation District, \"Color & Art Deco Styling\" e \"Painting the Bridge\"",
+      "url": "https://www.goldengate.org/bridge/history-research/bridge-features/color-art-deco-styling/"
+    },
+    {
+      "texto": "Golden Gate Bridge, Highway and Transportation District, \"A Bathtub for the South Tower\" (exposição)",
+      "url": "https://www.goldengate.org/exhibits/a-bathtub-for-the-south-tower/"
+    },
+    {
+      "texto": "Golden Gate Bridge, Highway and Transportation District, relatórios de Engenharia ao comitê de obras, abril e julho de 2026",
+      "url": "https://goldengate.org/assets/1/25/2026-0723-bocomm-no8-engrpt.pdf"
+    },
+    {
+      "texto": "Federal Highway Administration, \"Golden Gate Bridge 1937\", série Contributions & Crossroads",
+      "url": "https://www.fhwa.dot.gov/candc/factsheets/goldengatebridge.pdf"
+    },
+    {
+      "texto": "PBS, American Experience, \"Men Who Built the Bridge\"",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/goldengate-workers/"
+    },
+    {
+      "texto": "PBS, American Experience, \"Opposition to the Bridge and Facts\"",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/goldengate-opposition/"
+    },
+    {
+      "texto": "PBS NewsHour, \"As Golden Gate Bridge Turns 75, History Revised to Honor Engineer\", 2012",
+      "url": "https://www.pbs.org/newshour/show/as-golden-gate-bridge-turns-75-its-history-is-revised"
+    },
+    {
+      "texto": "Frank Griggs Jr., \"Golden Gate Bridge\", STRUCTURE Magazine, 2017",
+      "url": "https://www.structuremag.org/article/golden-gate-bridge/"
+    },
+    {
+      "texto": "Edward Tenner, \"Steel into Gold\", Humanities (NEH), 2012",
+      "url": "https://www.neh.gov/humanities/2012/septemberoctober/statement/steel-gold"
+    },
+    {
+      "texto": "Linda Hall Library, \"Charles Alton Ellis\"",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/charles-alton-ellis/"
+    },
+    {
+      "texto": "NJ Spotlight News, \"Golden Gate Bridge: A Roebling Legacy Turns 75\", 2012",
+      "url": "https://www.njspotlightnews.org/2012/05/golden-gate-bridge-a-roebling-legacy-turns-75/"
+    },
+    {
+      "texto": "The Press Democrat, \"Golden Gate Bridge district approves $1B in seismic retrofit work\", 24/10/2025",
+      "url": "https://www.pressdemocrat.com/2025/10/24/golden-gate-bridge-district-approves-1b-in-seismic-retrofit-work/"
+    },
+    {
+      "texto": "Bay Area FasTrak, \"Golden Gate Bridge Tolls Increasing July 1, 2026\"",
+      "url": "https://www.bayareafastrak.org/en/cms/news-detail-article33.shtml"
+    },
+    {
+      "texto": "KTVU, \"Golden Gate Bridge suicide prevention net a success two years in\", 20/01/2026",
+      "url": "https://www.ktvu.com/news/suicide-net-movable-traffic-land-barrier-life-saving-safety"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "12-capa.jpg",
+      "alt": "Ponte pênsil laranja sob céu azul, com uma torre alta sobre uma base de concreto no mar, os cabos descendo em curva até a segunda torre ao fundo, morros verdes e marrons atrás e um forte de tijolos em primeiro plano",
+      "legenda": "A ponte em 2017, vista de São Francisco: a torre sul ergue-se do mar sobre a defensa de concreto; à esquerda, o Fort Point, do século XIX.",
+      "autor": "Frank Schulenburg",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+      "recriacao": false,
+      "foco": "52% 45%"
+    },
+    {
+      "arquivo": "12-trestle-1934.jpg",
+      "alt": "Fotografia aérea antiga em preto e branco: ao fundo, uma torre de aço solitária junto a um penhasco do outro lado do estreito; em primeiro plano, uma passarela estreita avança da praia para o mar até guindastes e blocos de concreto",
+      "legenda": "Julho de 1934: a torre norte já de pé do lado de Marin e, em primeiro plano, a passarela que levava do lado de São Francisco ao canteiro da torre sul, em mar aberto.",
+      "autor": "Chas. M. Hiller (Associated Oil Company; Library of Congress)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Construction_of_the_Golden_Gate_Bridge_3c22793u.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "12-cabos-1936.jpg",
+      "alt": "Fotografia aérea em preto e branco: duas torres de aço sobre o estreito ligadas por dois cabos em curva, sem tabuleiro entre elas, com morros ao fundo e casas em primeiro plano",
+      "legenda": "Maio de 1936, nos dias em que terminava a fiação: os dois cabos já cruzam o estreito, ainda sem o tabuleiro.",
+      "autor": "Exército dos EUA, Army Air Forces (National Archives)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Aerial_Photograph_of_the_Golden_Gate_Bridge_being_Constructed_in_San_Francisco,_California_-_NARA_-_7455640.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "12-porta-avioes-1936.jpg",
+      "alt": "Fotografia aérea em preto e branco: navios de guerra em fila passando sob uma ponte pênsil cujo tabuleiro ainda tem uma abertura no meio; uma torre à direita",
+      "legenda": "12 de novembro de 1936: porta-aviões e outros navios da Marinha passam sob a ponte, com o tabuleiro ainda por fechar.",
+      "autor": "Marinha dos EUA (Naval History and Heritage Command)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:US_Navy_aircraft_carriers_passing_under_the_Golden_Gate_Bridge_in_November_1936.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "12-secao-do-cabo.jpg",
+      "alt": "Fotografia em preto e branco de um grande cilindro metálico exposto num jardim, com uma placa sobre ele com os dados do cabo; a ponte e suas duas torres ao fundo",
+      "legenda": "Um pedaço de cabo exposto perto da ponte, em 1984: a placa informa 27.572 fios em cada cabo.",
+      "autor": "Jet Lowe (Historic American Engineering Record, Library of Congress)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:GENERAL_VIEW,_LOOKING_NORTH,_SHOWING_THE_BRIDGE_IN_BACKGROUND_AND_A_%27SECTION%27_OF_THE_WIRE_CABLE_IN_THE_FOREGROUND_-_Golden_Gate_Bridge,_Spanning_mouth_of_San_Francisco_Bay,_HAER_CAL,38-SANFRA,140-1.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "12-catalinas-1937.jpg",
+      "alt": "Fotografia em preto e branco: três hidroaviões em formação sobre uma ponte pênsil pronta, com uma torre, o tabuleiro inteiro e a costa ao fundo",
+      "legenda": "Maio de 1937, o mês da abertura: hidroaviões da Marinha sobrevoam a ponte concluída.",
+      "autor": "Marinha dos EUA (Naval History and Heritage Command)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:PBY-1_Catalinas_of_VP-9_over_the_Golden_Gate_Bridge_in_May_1937.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "santos-jundiai"
+}

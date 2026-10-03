@@ -1,0 +1,369 @@
+{
+  "num": "10",
+  "slug": "torre-eiffel",
+  "obra": "Torre Eiffel",
+  "titulo_video": null,
+  "lugar": "Champ-de-Mars, Paris, Île-de-France, França",
+  "regiao": "mundo",
+  "periodo": "1887–1889",
+  "estreia": "2026-12-10",
+  "impossivel": "Erguer 300 metros de ferro, quase o dobro da construção mais alta do mundo, em pouco mais de dois anos, com a forma ditada pela conta do vento, e abrir a obra a tempo da Exposição Universal de 1889.",
+  "resumo": "Quem desenhou a Torre Eiffel, como o vento definiu a curva, quanto custou, quem morreu na obra e por que ela não foi demolida em 1909.",
+  "abertura": [
+    "Em 1889, a construção mais alta do mundo era o Monumento a Washington, com 169 metros. Para a Exposição Universal daquele ano, no Champ-de-Mars, em Paris, na França, a empresa de Gustave Eiffel prometeu uma torre de ferro de 300 metros, montada em pouco mais de dois anos e paga em sua maior parte por ela mesma.",
+    "O desenho não era de Eiffel. Saiu, em junho de 1884, das mãos de dois engenheiros da empresa, Maurice Koechlin e Émile Nouguier, e ganhou a forma final com o arquiteto Stephen Sauvestre. Eiffel comprou a patente, assumiu o risco e deu o nome. A curva dos quatro pés, ele mesmo explicou em 1887, foi a que o cálculo da resistência ao vento lhe forneceu."
+  ],
+  "numeros": [
+    {
+      "valor": "300 m",
+      "rotulo": "de altura em 1889; 330 m com as antenas desde 2022",
+      "conf": "2+"
+    },
+    {
+      "valor": "2 anos, 2 meses e 5 dias",
+      "rotulo": "do início das fundações, em janeiro de 1887, ao topo, em 31/03/1889",
+      "conf": "2+"
+    },
+    {
+      "valor": "7.300 t",
+      "rotulo": "de ferro pudlado na estrutura metálica",
+      "conf": "2+"
+    },
+    {
+      "valor": "2,5 milhões",
+      "rotulo": "de rebites postos a quente",
+      "conf": "2+"
+    },
+    {
+      "valor": "7.799.401 F",
+      "rotulo": "custo final em francos de 1889, contra 6,5 milhões estimados",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Para quê",
+      "valor": "Ser a grande atração da Exposição Universal de 1889, que marcava o centenário da Revolução Francesa. O programa do concurso, aberto em 1º de maio de 1886, pedia uma torre de ferro de base quadrada, com 125 metros de lado e 300 de altura.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem desenhou",
+      "valor": "Émile Nouguier e Maurice Koechlin, engenheiros da empresa Eiffel, no croqui datado de 6 de junho de 1884. O arquiteto Stephen Sauvestre redesenhou o conjunto: base em alvenaria, os grandes arcos entre os pés e o primeiro andar, menos plataformas.",
+      "conf": "2+"
+    },
+    {
+      "item": "A patente",
+      "valor": "Registrada em 18/09/1884 nos nomes de Eiffel, Nouguier e Koechlin, para pilares e pilones metálicos com mais de 300 metros. No fim de 1884, Eiffel comprou os direitos dos dois engenheiros.",
+      "conf": "2+",
+      "nota": "em troca, segundo a família Koechlin, 1% do que Eiffel recebesse pela obra para cada um e a citação dos nomes"
+    },
+    {
+      "item": "O contrato",
+      "valor": "Convenção de 08/01/1887 entre o ministro Édouard Lockroy, pelo Estado, o prefeito Eugène Poubelle, pela Cidade de Paris, e Eiffel. Subsídio de 1,5 milhão de francos em três parcelas e a exploração da torre durante a Exposição e por 20 anos a partir de 1º de janeiro de 1890; depois disso, a exploração voltava à Cidade, dona da torre.",
+      "conf": "2+"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Fundações a partir do fim de janeiro de 1887, em cinco meses; montagem do ferro a partir de 01/07/1887; vigas do primeiro andar unidas em 07/12/1887; segundo andar em agosto de 1888; topo em 31/03/1889. Aberta ao público em 15/05/1889, ainda sem elevadores.",
+      "conf": "2+",
+      "nota": "o primeiro dia de obra aparece como 26 ou 28 de janeiro de 1887"
+    },
+    {
+      "item": "Como foi montada",
+      "valor": "As peças foram desenhadas uma a uma, furadas e pré-montadas em trechos de cerca de 5 metros na fábrica da empresa em Levallois-Perret, a 4 km do canteiro, e unidas no local por rebites postos a quente. O primeiro andar foi apoiado em andaimes de madeira de 30 e 45 metros, com caixas de areia e macacos hidráulicos para acertar a inclinação dos pés.",
+      "conf": "2+"
+    },
+    {
+      "item": "Peças e rebites",
+      "valor": "18.038 peças de ferro e 2,5 milhões de rebites. Quantos rebites foram postos no canteiro varia: cerca de um terço para a empresa que explora a torre, 800 mil para a Scientific American de 1889.",
+      "conf": "DIV",
+      "nota": "a Scientific American de 1889 fala em 12 mil peças"
+    },
+    {
+      "item": "Operários",
+      "valor": "Cerca de 150 na fábrica e entre 150 e 300 no canteiro, segundo a empresa que explora a torre; no dia da greve de 19/09/1888, a presença habitual era de cerca de 140. Rebitador ganhava 0,70 franco por hora. Ninguém registrou o total de trabalhadores.",
+      "conf": "DIV",
+      "nota": "salários e presença vêm de um levantamento da CGT em arquivos da polícia de Paris"
+    },
+    {
+      "item": "Mortes",
+      "valor": "A versão da empresa que explora a torre: nenhum morto em serviço e um operário italiano morto fora do horário. Os documentos do contrato de indenização guardados no Musée d'Orsay falam de Angelo Scagliotti, morto num acidente em 24/05/1889 no canteiro da torre, uma sexta-feira, quando os elevadores ainda eram instalados.",
+      "conf": "DIV",
+      "nota": "a afirmação de que morreram mais de 300 operários é falsa"
+    },
+    {
+      "item": "Custo",
+      "valor": "7.799.401,31 francos, contra 6,5 milhões estimados na época da convenção e 3,155 milhões do primeiro orçamento de Eiffel, de 1885. O Estado entrou com 1,5 milhão; o resto veio de Eiffel e de uma sociedade com três bancos.",
+      "conf": "2+",
+      "nota": "pelo valor do franco de 1889 (0,2903 g de ouro fino), o custo final corresponde a cerca de 2,26 toneladas de ouro; o orçamento de 1885 vem de uma fonte só"
+    },
+    {
+      "item": "Material",
+      "valor": "7.300 toneladas de ferro pudlado das forjas Dupont et Fould, em Pompey, na Lorena; cerca de 10.100 toneladas no total, segundo a Biblioteca Nacional da França. 60 toneladas de tinta a cada campanha de pintura.",
+      "conf": "2+"
+    },
+    {
+      "item": "Medidas",
+      "valor": "300 metros sem a bandeira em 1889, cerca de 312 com o mastro; 330 metros com as antenas desde março de 2022. Primeiro andar a 57,6 m e segundo a 115,7 m do chão.",
+      "conf": "2+"
+    },
+    {
+      "item": "Protesto",
+      "valor": "Em 14/02/1887, o jornal Le Temps publicou uma carta de escritores, pintores, escultores e arquitetos, entre eles Charles Garnier, Gounod, Maupassant e Leconte de Lisle, contra a \"inutile et monstrueuse tour Eiffel\" e, sobretudo, contra mantê-la de pé por vinte anos.",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "Cerca de 2 milhões de pessoas subiram na torre em 1889. Com o fim da concessão marcado para 1909, Eiffel apostou na ciência: a partir de 1903 pagou a antena para as experiências de radiotelegrafia do capitão Gustave Ferrié. A concessão foi prorrogada por 70 anos a partir de 1º de janeiro de 1910.",
+      "conf": "2+"
+    },
+    {
+      "item": "Hoje",
+      "valor": "A 20ª campanha de pintura, iniciada em 2019 e prevista para terminar em 2026, custa mais de 80 milhões de euros. Em 07/09/2026, uma greve do pessoal fechou a torre por um dia.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Um pilar de ponte esticado até 300 metros",
+      "paragrafos": [
+        "A empresa de Gustave Eiffel, em Levallois-Perret, nos arredores de Paris, vivia de pontes e viadutos de ferro. Em junho de 1884, com a Exposição Universal de 1889 no horizonte, dois engenheiros da casa, Maurice Koechlin, chefe do escritório de estudos, e Émile Nouguier, tiveram a ideia de esticar até 300 metros o tipo de pilar treliçado que a empresa já sabia fazer. O croqui, assinado pelos dois e datado de 6 de junho de 1884, mostra quatro vigas em treliça que se afastam na base e se juntam no topo, com Notre-Dame, a Estátua da Liberdade e o Arco do Triunfo empilhados ao lado, para dar a escala.",
+        "Para tornar a ideia aceitável ao público, os dois chamaram o arquiteto da empresa, Stephen Sauvestre. Ele pôs uma base de alvenaria, ligou os quatro pés ao primeiro andar com grandes arcos, desenhou salas envidraçadas e um topo em bulbo. Muito disso foi simplificado depois; os arcos ficaram. Em 18 de setembro de 1884, Eiffel registrou a patente nos três nomes. No fim daquele ano, comprou os direitos de Koechlin e Nouguier. Segundo a família Koechlin, a troca foi 1% do que Eiffel recebesse pela obra para cada um e a promessa de citar seus nomes. A torre ficou com o dele."
+      ]
+    },
+    {
+      "titulo": "A forma que o vento desenhou",
+      "paragrafos": [
+        "Uma torre de 300 metros não cai pelo peso: cai pelo vento. O peso, distribuído pelos quatro pés, exercia sobre o solo uma pressão de poucos quilos por centímetro quadrado. O problema era o empurrão lateral, que cresce com a altura e tenta derrubar a torre como uma alavanca. A resposta foi dar aos quatro pés uma curva calculada para que, a cada altura, o esforço do vento corresse por dentro das próprias arestas, sem precisar de diagonais atravessando o vão entre elas. E deixar tudo vazado: uma treliça aberta oferece pouca superfície para o vento empurrar.",
+        "Eiffel disse isso em público em 14 de fevereiro de 1887, no jornal Le Temps, ao responder aos artistas que atacavam a torre: a condição de que tivera de tratar antes de tudo era a resistência ao vento, e as curvas das quatro arestas, tais como o cálculo as fornecera, dariam uma impressão de beleza. Num texto citado hoje pela empresa que explora a torre, ele escreveu que os pés pareciam brotar do chão e ter sido moldados pela ação do vento."
+      ]
+    },
+    {
+      "titulo": "Dezoito mil peças, cada uma com seu desenho",
+      "paragrafos": [
+        "A convenção de 8 de janeiro de 1887, assinada pelo ministro Édouard Lockroy, pelo prefeito do Sena, Eugène Poubelle, e por Eiffel, deu pouco mais de dois anos para a obra. As fundações começaram no fim daquele mês. Em cinco meses foram feitos os maciços de alvenaria que recebem cada aresta; do lado do Sena, abaixo do lençol de água, os operários cavaram dentro de caixões metálicos com ar comprimido. Em 1º de julho de 1887 começou a montagem do ferro.",
+        "O segredo da velocidade estava longe do Champ-de-Mars. Na fábrica de Levallois-Perret, cerca de 50 engenheiros e desenhistas produziram milhares de desenhos para as 18.038 peças de ferro pudlado vindas das forjas de Pompey, na Lorena. Cada peça era traçada, cortada e furada ali, e pré-montada em trechos de uns 5 metros. No canteiro, entre 150 e 300 homens, segundo a empresa que explora a torre, levantavam os trechos com pequenas gruas a vapor que subiam pelos trilhos dos futuros elevadores, aparafusavam provisoriamente e trocavam os parafusos por rebites postos a quente. Cada rebite pedia quatro homens: um aquecia, um segurava, um formava a cabeça, um batia com a marreta.",
+        "O momento mais delicado foi o primeiro andar. Os quatro pés subiam inclinados, apoiados em andaimes de madeira de 30 e depois de 45 metros, e as grandes vigas do andar tinham de encontrá-los no lugar exato. A inclinação de cada pé foi acertada com caixas de areia, esvaziadas aos poucos, e macacos hidráulicos na base. A junção foi feita em 7 de dezembro de 1887. Daí em diante, a torre serviu de canteiro para si mesma: segundo andar em agosto de 1888, topo no fim de março de 1889."
+      ]
+    },
+    {
+      "titulo": "Cinco cêntimos por hora",
+      "paragrafos": [
+        "Em 19 de setembro de 1888, com o segundo andar pronto, os operários pararam. Segundo um levantamento da CGT nos arquivos da Prefeitura de Polícia de Paris, só 27 dos cerca de 140 habituais apareceram naquele dia. Um rebitador ganhava 0,70 franco por hora; um carpinteiro, 0,80. Eiffel cedeu um aumento de cinco cêntimos por hora e uma gratificação aos mais antigos quando a torre chegasse à plataforma da lanterna, mas recusou pagar mais pela altura. Em dezembro, com o frio, houve nova ameaça de greve; as fontes divergem sobre se Eiffel negociou ou não.",
+        "Ninguém registrou quantos homens passaram pela obra. A empresa que explora a torre diz que nenhum morreu em serviço, num trabalho feito em pequenas plataformas, sem proteção, no frio e no vento, e que um operário italiano morreu fora do horário, com a viúva indenizada discretamente por Eiffel. Os documentos desse contrato de indenização, guardados no Musée d'Orsay, dão nome e data: Angelo Scagliotti, morto num acidente em 24 de maio de 1889 no canteiro da torre. Foi uma sexta-feira, nove dias depois da abertura ao público. Segundo a pesquisa da família, que reproduz a certidão de óbito e o contrato, ele foi esmagado pela cabine durante a instalação do primeiro elevador, e o contrato diz que morreu trabalhando no canteiro por conta de Eiffel."
+      ]
+    },
+    {
+      "titulo": "O protesto, o custo e a festa",
+      "paragrafos": [
+        "A obra mal começara quando o Le Temps publicou, em 14 de fevereiro de 1887, a carta de dezenas de artistas ao diretor dos trabalhos da Exposição, Adolphe Alphand: Charles Garnier, o arquiteto da Ópera, o compositor Charles Gounod, Guy de Maupassant, Leconte de Lisle, entre outros. Chamavam a torre de inútil e monstruosa e protestavam, sobretudo, contra mantê-la de pé por vinte anos. Eiffel respondeu no mesmo número: ninguém tinha visto a torre ainda, só um desenho, e o colossal tinha um encanto próprio, como as pirâmides.",
+        "A conta final ficou em 7.799.401,31 francos, mais de 1,3 milhão acima dos 6,5 milhões estimados e mais do que o dobro do primeiro orçamento de Eiffel. O Estado pagou 1,5 milhão, em três parcelas atreladas ao primeiro andar, ao segundo e à conclusão; o resto foi de Eiffel e de uma sociedade com três bancos. Em 31 de março de 1889 a bandeira subiu no topo e Eiffel recebeu ali a Legião de Honra. Durante a Exposição, cerca de 2 milhões de pessoas subiram na torre."
+      ]
+    },
+    {
+      "titulo": "Salva pela antena",
+      "paragrafos": [
+        "Passada a Exposição, o público sumiu. A convenção dava a Eiffel a exploração por 20 anos a partir de 1º de janeiro de 1890; depois disso, a torre, que já pertencia à Cidade de Paris, voltava inteira para ela, e ninguém garantia que a Cidade a quisesse. Em 1906, Paris decidiu demolir a Galeria das Máquinas, outro gigante de 1889, por falta de uso.",
+        "Eiffel buscou uma utilidade científica. Em 1898, Eugène Ducretet fez da torre uma ligação de telegrafia sem fio com o Panthéon, a 4 km. A partir de 1903, Eiffel pagou a antena para as experiências do capitão Gustave Ferrié, do Exército. Em poucos anos a torre falava com fortes a centenas de quilômetros, e em 1909 ganhou uma estação permanente sob o Champ-de-Mars. A concessão foi prorrogada por 70 anos a partir de 1º de janeiro de 1910. Na Primeira Guerra, a torre interceptou mensagens alemãs. Eiffel já tinha deixado os negócios: condenado em 1893 no escândalo do canal francês do Panamá, cujas eclusas sua empresa contratara em 1887, teve a condenação anulada pela Corte de Cassação no mesmo ano, por prescrição."
+      ]
+    },
+    {
+      "titulo": "Ferro que precisa de tinta",
+      "paragrafos": [
+        "Eiffel desenhou a torre para que cada parte pudesse ser alcançada e examinada em busca do primeiro sinal de ferrugem. O ferro de 1889 só está de pé porque é repintado inteiro de tempos em tempos, com cerca de 60 toneladas de tinta a cada campanha. A 20ª campanha começou em 2019, custa mais de 80 milhões de euros, enfrentou o chumbo das tintas antigas e devolve à torre o marrom-amarelado que Eiffel escolheu em 1907; a conclusão está prevista para 2026, com a face interna.",
+        "Em setembro de 2026, a torre parou por outro motivo. Num sábado, 5 de setembro, a direção afastou funcionárias de seus postos durante a visita privada de uma delegação religiosa, a pedido dos visitantes. Na segunda-feira, 7, o pessoal entrou em greve e a torre ficou fechada o dia inteiro, reabrindo no dia seguinte. A empresa que a explora reconheceu que não devia ter aceitado o pedido, e em 29 de setembro o diretor-geral anunciou que deixará o cargo no fim do ano."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Gustave Eiffel projetou a torre.",
+      "registro": "A ideia e o primeiro desenho, de 6 de junho de 1884, são dos engenheiros Émile Nouguier e Maurice Koechlin; a forma arquitetônica é de Stephen Sauvestre. Eiffel registrou a patente nos três nomes, comprou os direitos dos dois engenheiros no fim de 1884, financiou, construiu e explorou a torre."
+    },
+    {
+      "circula": "O contrato mandava desmontar a torre depois de 20 anos.",
+      "registro": "A convenção de 8 de janeiro de 1887 não fala em desmontar. Diz que a Cidade de Paris vira dona da torre depois da Exposição e que, terminados os 20 anos de exploração por Eiffel, contados de 1º de janeiro de 1890, a exploração volta à Cidade. A demolição era um risco real, não uma cláusula."
+    },
+    {
+      "circula": "Ninguém morreu na construção. Ou, no extremo oposto, morreram mais de 300 operários.",
+      "registro": "Os 300 mortos são falsos, como mostrou a checagem da AFP em 2022. A versão da empresa que explora a torre é de nenhum morto em serviço. Os documentos guardados no Musée d'Orsay registram a morte de Angelo Scagliotti num acidente no canteiro, em 24 de maio de 1889, quando os elevadores eram instalados."
+    },
+    {
+      "circula": "Émile Zola assinou o protesto dos artistas contra a torre.",
+      "registro": "O nome de Zola não está entre as assinaturas publicadas pelo Le Temps em 14 de fevereiro de 1887. Estão Charles Garnier, Gounod, Maupassant, Leconte de Lisle, Sully Prudhomme, Victorien Sardou, Meissonier e outros."
+    },
+    {
+      "circula": "A torre é de ferro fundido.",
+      "registro": "É de ferro pudlado, um ferro forjado, fabricado pelas forjas Dupont et Fould, em Pompey, na Lorena."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Convenção de 8 de janeiro de 1887 entre o Estado, a Cidade de Paris e Gustave Eiffel para a construção e exploração da torre de 300 metros (texto integral)",
+      "url": "https://fr.wikisource.org/wiki/Convention_du_8_janvier_1887"
+    },
+    {
+      "texto": "\"Les artistes contre la tour Eiffel\", Le Temps, 14/02/1887 (texto integral e assinaturas)",
+      "url": "https://fr.wikisource.org/wiki/Protestation_des_artistes_contre_la_tour_de_M._Eiffel_du_14_f%C3%A9vrier_1887"
+    },
+    {
+      "texto": "Resposta de Gustave Eiffel à protestação dos artistas, entrevista a Paul Bourde, Le Temps, 14/02/1887",
+      "url": "https://fr.wikisource.org/wiki/R%C3%A9ponse_de_Gustave_Eiffel_%C3%A0_la_protestation_des_artistes_du_14_f%C3%A9vrier_1887"
+    },
+    {
+      "texto": "\"The Eiffel Tower\", Scientific American, 15/06/1889",
+      "url": "https://www.scientificamerican.com/article/the-eiffel-tower-1889-06/"
+    },
+    {
+      "texto": "Société d'exploitation de la tour Eiffel, \"Histoire\" e números-chave",
+      "url": "https://www.toureiffel.paris/fr/le-monument/histoire"
+    },
+    {
+      "texto": "Société d'exploitation de la tour Eiffel, \"The Construction of the Eiffel Tower\", Google Arts & Culture",
+      "url": "https://artsandculture.google.com/story/the-construction-of-the-eiffel-tower-tour-eiffel/UgWBgIpO0RsA8A"
+    },
+    {
+      "texto": "Bertrand Lemoine, \"La construction de la Tour Eiffel : un chantier exemplaire !\", site oficial da torre, 04/11/2019",
+      "url": "https://www.toureiffel.paris/fr/actualites/130-ans/la-construction-de-la-tour-eiffel-un-chantier-exemplaire"
+    },
+    {
+      "texto": "Bertrand Lemoine, \"Comment la radio a sauvé la Tour Eiffel ?\", site oficial da torre, 03/02/2020",
+      "url": "https://www.toureiffel.paris/fr/actualites/130-ans/comment-la-radio-sauve-la-tour-eiffel"
+    },
+    {
+      "texto": "Biblioteca Nacional da França, Passerelles, \"La construction de la tour Eiffel\"",
+      "url": "https://passerelles.essentiels.bnf.fr/fr/article/acb5a625-1b1c-44a0-8f3b-44fae77d57fd-construction-la-tour-eiffel"
+    },
+    {
+      "texto": "Biblioteca Nacional da França, Passerelles, \"La Tour en chiffres\"",
+      "url": "https://passerelles.essentiels.bnf.fr/fr/chronologie/construction/86975eb3-9f28-4e1a-bc88-e28bbfab0a26-tour-eiffel/article/1f2784db-192b-4652-bbe4-d6ea814b4608-tour-en-chiffres"
+    },
+    {
+      "texto": "BNP Paribas, história, \"The Eiffel Tower: a 19th-century industrial feat partly financed by the banking forerunners of BNP Paribas\"",
+      "url": "https://histoire.bnpparibas/en/the-eiffel-tower-a-19th-century-industrial-feat-partly-financed-by-the-banking-forerunners-of-bnp-paribas/"
+    },
+    {
+      "texto": "Musée d'Orsay, \"Documents concernant le contrat d'indemnité signé par Mme Scagliotti, veuve d'Angelo Scagliotti mort dans un accident intervenu le 24 mai 1889 sur le chantier de la Tour\"",
+      "url": "https://www.musee-orsay.fr/en/artworks/documents-concernant-le-contrat-dindemnite-signe-par-mme-scagliotti-veuve-dangelo-scagliotti-mort-dans-un-accident-intervenu-le-24-mai-1889-sur-le-chantier-de-la-tour-104525"
+    },
+    {
+      "texto": "\"Angelo Scagliotti (1849-1889), le seul ouvrier mort à la Tour Eiffel\", pesquisa familiar com a certidão de óbito e o contrato de indenização",
+      "url": "https://www.scagliottiangelo.info/2020/04/angelo-scagliotti-1848-1889-son_20.html"
+    },
+    {
+      "texto": "AFP Factuel, \"« 300 ouvriers » tués sur le chantier de la Tour Eiffel ? C'est faux\", 05/08/2022",
+      "url": "https://defacto-observatoire.fr/Medias/Factuel/Fact-checks/300-ouvriers-tues-sur-le-chantier-de-la-Tour-Eiffel-C-est-faux/"
+    },
+    {
+      "texto": "FTM-CGT, \"Tour Eiffel, histoire sociale et syndicale : premières pistes\"",
+      "url": "https://ftm-cgt.fr/tour-eiffel-histoire-sociale-et-syndicale-premieres-pistes/"
+    },
+    {
+      "texto": "Família Koechlin, \"Maurice Koechlin\"",
+      "url": "https://www.koechlin.net/ancetres-koechlin/maurice/"
+    },
+    {
+      "texto": "P. Weidman e I. Pinelis, \"Model equations for the Eiffel Tower profile: historical perspective and new results\", Comptes Rendus Mécanique, 2004",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1631072104000786"
+    },
+    {
+      "texto": "American Society of Civil Engineers, \"Eiffel Tower\" (marco histórico da engenharia civil)",
+      "url": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/eiffel-tower"
+    },
+    {
+      "texto": "Encyclopædia Universalis, \"Gustave Eiffel: le scandale de Panamá\"",
+      "url": "https://www.universalis.fr/encyclopedie/gustave-eiffel/2-le-scandale-de-panama/"
+    },
+    {
+      "texto": "Bibliothèques des Hauts-de-Seine, \"Le canal de Panama et son scandale\"",
+      "url": "https://bibliotheques.hauts-de-seine.fr/espace-thematique/eiffel-un-levalloisien-passionne-de-sciences-et-de-techniques/l-entreprise-gustave-eiffel-et-ses-constructions/le-canal-de-panama-et-son-scandale"
+    },
+    {
+      "texto": "Prefeitura de Paris, \"Une nouvelle antenne pour la tour Eiffel… qui a grandi de 6 mètres en 2022\"",
+      "url": "https://www.paris.fr/pages/la-tour-eiffel-fete-ses-130-ans-6554"
+    },
+    {
+      "texto": "franceinfo, \"La vaste campagne de travaux de la tour Eiffel touche à sa fin\", 2025",
+      "url": "https://www.franceinfo.fr/culture/patrimoine/la-vaste-campagne-de-travaux-de-la-tour-eiffel-touche-a-sa-fin_7219974.html"
+    },
+    {
+      "texto": "franceinfo, \"Tour Eiffel : le personnel en grève après une visite privée polémique\", 2026",
+      "url": "https://www.franceinfo.fr/culture/patrimoine/tour-eiffel-le-personnel-en-greve-apres-une-visite-privee-polemique_8181671.html"
+    },
+    {
+      "texto": "RTS, \"Tour Eiffel : grève après l'éviction de femmes du personnel\", 2026",
+      "url": "https://www.rts.ch/info/monde/2026/article/tour-eiffel-greve-apres-l-eviction-de-femmes-du-personnel-29350258.html"
+    },
+    {
+      "texto": "CNews, \"Mise à l'écart de femmes à la tour Eiffel : le directeur annonce son départ\", 29/09/2026",
+      "url": "https://www.cnews.fr/france/2026-09-29/mise-lecart-de-femmes-la-tour-eiffel-le-directeur-annonce-son-depart-1926280"
+    },
+    {
+      "texto": "Wikipédia, \"Tour Eiffel\" (ponto de partida)",
+      "url": "https://fr.wikipedia.org/wiki/Tour_Eiffel"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "10-capa.jpg",
+      "alt": "Fotografia antiga em preto e branco: os quatro pés inclinados da torre, já unidos pela estrutura do primeiro andar, apoiados numa floresta de andaimes de madeira, atrás do muro de cais do Sena e de árvores sem folhas",
+      "legenda": "A torre em 10 de fevereiro de 1888, vista do outro lado do Sena, dois meses depois da junção das vigas do primeiro andar.",
+      "autor": "Hippolyte Blancard (Musée Carnavalet)",
+      "licenca": "CC0",
+      "licenca_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Vue_de_la_tour_Eiffel_en_construction_le_10_f%C3%A9vrier_1888_en_vue_de_l%27Exposition_universelle_de_1889,_7%C3%A8me_arrondissement,_PH73441.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "10-croqui.jpg",
+      "alt": "Desenho a lápis e tinta sobre papel amarelado: um pilone alto de treliça com quatro pés que se afastam na base, ao lado de desenhos menores de Notre-Dame, da Estátua da Liberdade e do Arco do Triunfo empilhados para comparar a altura",
+      "legenda": "O croqui de Émile Nouguier e Maurice Koechlin, datado de 6 de junho de 1884: um pilone de 300 metros para a Exposição de 1889, ainda sem os arcos de Sauvestre.",
+      "autor": "Maurice Koechlin e Émile Nouguier",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Maurice_koechlin_pylone.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "10-fundacoes.jpg",
+      "alt": "Fotografia antiga em sépia de uma escavação funda com paredes de terra, onde operários de chapéu erguem blocos retangulares de alvenaria de pedra; um carrinho de mão e um poste de madeira em primeiro plano",
+      "legenda": "Os maciços de alvenaria das fundações em 14 de março de 1887, pouco mais de um mês depois do início da obra.",
+      "autor": "Fotógrafo não identificado (Musée Carnavalet)",
+      "licenca": "CC0",
+      "licenca_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Champ-de-Mars._Exposition_universelle_de_1889._Construction_de_la_tour_Eiffel._Mur_de_pierre_-_fondation,_14_mars_1887,_PH16958.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "10-1888.jpg",
+      "alt": "Fotografia antiga em sépia: a torre até um pouco acima do segundo andar, com o arco da base e o primeiro andar completos e gruas no topo inacabado, sobre o Champ-de-Mars em obras e a cidade ao fundo na névoa",
+      "legenda": "Setembro de 1888: o segundo andar pronto e a montagem seguindo para cima, com as gruas presas à própria torre.",
+      "autor": "Théophile Féau (Musée Carnavalet)",
+      "licenca": "CC0",
+      "licenca_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Construction_de_la_tour_Eiffel,_7%C3%A8me_arrondissement,_Paris._14_septembre_1888,_PH9114-12.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "10-1889.jpg",
+      "alt": "Fotografia antiga em sépia do rio Sena com barcaças amarradas no cais, montes de areia e carroças em primeiro plano, e a torre completa ao fundo à direita, esguia contra o céu claro",
+      "legenda": "A torre pronta, em 1889, vista do porto de Grenelle, no Sena.",
+      "autor": "Théophile Féau (Musée Carnavalet)",
+      "licenca": "CC0",
+      "licenca_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Vue_de_la_tour_Eiffel_et_de_l%27ancien_trocad%C3%A9ro_depuis_le_pont_et_le_port_de_Grenelle._Exposition_universelle_de_1889,_15,_PH9114-20.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "10-hoje.jpg",
+      "alt": "A torre vista de frente, de dia, contra o céu azul, com o gramado do Champ-de-Mars em primeiro plano e árvores dos dois lados",
+      "legenda": "A torre vista do Champ-de-Mars em 2009.",
+      "autor": "Benh LIEU SONG",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "congresso-nacional"
+}
