@@ -266,7 +266,7 @@ def topo(base, atual=""):
       <a href="{base}index.html#obras"{cur('obras')}>Obras</a>
       <a href="{base}index.html#metodo"{cur('metodo')}>Método</a>
       <a href="{base}sobre.html"{cur('sobre')}>Sobre</a>
-      <a class="yt" href="{CANAL}" rel="noopener">YouTube</a>
+      <a class="yt" href="{CANAL}" target="_blank" rel="noopener">YouTube</a>
     </nav>
   </div>
 </header>
@@ -280,7 +280,7 @@ def rodape(base):
     <div>
       <h4>Arquitetura do Impossível</h4>
       <p>Como uma obra que parecia impossível ficou de pé: o projeto, o cálculo, o canteiro, quem trabalhou e quem morreu. Aqui, número tem fonte.</p>
-      <p><a href="{CANAL}" rel="noopener">Assista no YouTube</a></p>
+      <p><a href="{CANAL}" target="_blank" rel="noopener">Assista no YouTube</a></p>
     </div>
     <div>
       <h4>Do mesmo criador</h4>
@@ -462,7 +462,7 @@ def home(obras, og):
       <p class="lead">Toda semana, a história de uma grande construção que parecia impossível, e de quem resolveu o problema. O projeto, o cálculo, o canteiro. Quantos operários, quanto tempo, quanto custou, quem se feriu e quem morreu.</p>
       <div class="botoes">
         <a class="botao cheio" href="#obras">Ver as obras</a>
-        <a class="botao" href="{CANAL}" rel="noopener">Canal no YouTube</a>
+        <a class="botao" href="{CANAL}" target="_blank" rel="noopener">Canal no YouTube</a>
       </div>
     </div>
     <div class="simbolo" aria-hidden="true">{simbolo(agrupar=True, rotulo="")}</div>
@@ -597,7 +597,7 @@ def pagina_obra(o, obras, og):
         <h3>{e(o['titulo_video'])}</h3>
         <p>{e(BORDAO)}</p>
       </div>
-      <a class="botao cheio" href="{CANAL}" rel="noopener">Ver no YouTube</a>
+      <a class="botao cheio" href="{CANAL}" target="_blank" rel="noopener">Ver no YouTube</a>
     </section>
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
@@ -691,7 +691,7 @@ def pagina_privacidade():
     Adaptada da política do Vestígio Oculto, que tem o mesmo desenho."""
     base = ""
     if CANAL:
-        canal = f'com canal correspondente no YouTube, <a href="{CANAL}" rel="noopener">@ArquiteturadoImpossível</a>'
+        canal = f'com canal correspondente no YouTube, <a href="{CANAL}" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>'
     else:
         canal = "com canal correspondente no YouTube"
     corpo = (PRIVACIDADE.replace("{{NOME}}", NOME).replace("{{CANAL_FRASE}}", canal)
@@ -705,7 +705,7 @@ def pagina_privacidade():
 
 def pagina_sobre():
     base = ""
-    canal = f'<a href="{CANAL}" rel="noopener">@ArquiteturadoImpossível</a>' if CANAL else "no YouTube"
+    canal = f'<a href="{CANAL}" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>' if CANAL else "no YouTube"
     corpo = f"""<main id="conteudo"><div class="casca privacidade">
   <span class="rotulo">Sobre</span>
   <h1>Sobre o {NOME}</h1>
