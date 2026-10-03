@@ -333,3 +333,17 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
 .privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
 .privacidade .resumo strong{color:var(--giz)}
+
+/* ---- próximo episódio: a chamada do fim do vídeo, na página ------------ */
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}

@@ -555,6 +555,34 @@ def pagina_obra(o, obras, og):
         nav += (f'<a href="{prox["slug"]}.html"><span class="rotulo">Obra {prox["num"]} →</span><strong>{e(prox["obra"])}</strong></a>' if prox else '<a href="../index.html#obras"><span class="rotulo">Todas as obras →</span><strong>Prancheta</strong></a>')
         nav += "</nav>"
 
+    # "Próximo episódio": o papel da chamada no fim do vídeo. Se o próximo
+    # já tem página, leva a ela; se só está anunciado (EM_APURACAO), mostra
+    # sem link, com a data de estreia.
+    seguinte = ""
+    anunciado = next((a for a in EM_APURACAO if int(a["num"]) == int(o["num"]) + 1), None)
+    if prox:
+        pc = prox["imagens"][0]
+        seguinte = f"""<a class="proximo-ep" href="{prox['slug']}.html">
+      <div class="foto">{img_tag(pc['arquivo'], pc['alt'], base, '(max-width:640px) 100vw, 260px', foco=pc.get('foco'))}</div>
+      <div class="txt">
+        <span class="rotulo">Próximo episódio · Obra <b>{e(prox['num'])}</b> · <span class="selo-estreia" data-estreia="{prox['estreia']}" data-no-ar="no ar">estreia {e(data_br(prox['estreia']))}</span></span>
+        <h3>{e(prox['obra'])}</h3>
+        <span class="onde">{e(prox['lugar'])} · {e(prox['periodo'])}</span>
+        <p>{para(prox['impossivel'])}</p>
+        <span class="ir">Ler a obra →</span>
+      </div>
+    </a>"""
+    elif anunciado:
+        seguinte = f"""<div class="proximo-ep sem-pagina">
+      <div class="txt">
+        <span class="rotulo">Próximo episódio · Obra <b>{e(anunciado['num'])}</b> · estreia {e(data_br(anunciado['estreia']))}</span>
+        <h3>{e(anunciado['obra'])}</h3>
+        <span class="onde">{e(anunciado['lugar'])}</span>
+        <p>{para(anunciado['impossivel'])}</p>
+        <span class="ir">Em apuração</span>
+      </div>
+    </div>"""
+
     jsonld = {
         "@context": "https://schema.org", "@type": "Article", "headline": f"{o['obra']}: como foi erguido",
         "description": o["resumo"], "inLanguage": "pt-BR", "url": url,
@@ -599,6 +627,8 @@ def pagina_obra(o, obras, og):
       </div>
       <a class="botao cheio" href="{CANAL}" target="_blank" rel="noopener">Ver no YouTube</a>
     </section>
+
+    {seguinte}
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes">{fontes}</ol>
