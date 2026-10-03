@@ -2,13 +2,14 @@
   "num": "21",
   "slug": "ponte-eads",
   "obra": "Ponte Eads",
+  "relacionados": ["ponte-do-brooklyn", "ponte-rio-niteroi", "torre-eiffel"],
   "titulo_video": null,
   "lugar": "Rio Mississippi, entre St. Louis, Missouri, e East St. Louis, Illinois, Estados Unidos",
   "regiao": "mundo",
   "periodo": "1867–1874",
   "estreia": "2027-02-25",
   "impossivel": "Apoiar na rocha, sob uns 25 metros de areia que o Mississippi arrastava, três arcos de mais de 150 metros feitos de um metal que nunca tinha sido o principal de uma grande estrutura, sem escorar nada no rio e sem parar os vapores.",
-  "resumo": "Como um homem sem diploma de engenheiro ergueu sobre o Mississippi uma ponte de arcos de aço em 1874, e o que custou cavar até a rocha em ar comprimido.",
+  "resumo": "Como um homem sem diploma de engenheiro ergueu a Ponte Eads, de arcos de aço, sobre o Mississippi em 1874, e o custo de cavar até a rocha em ar comprimido.",
   "abertura": [
     "Em 1867, St. Louis, no Missouri, nos Estados Unidos, via o rio Mississippi como uma barreira. O trem chegava à margem e a carga descia para balsas, enquanto Chicago, mais ao norte, já se firmava como o centro ferroviário do país. Os barqueiros exigiam que qualquer ponte deixasse passar os vapores por baixo e não bloqueasse o rio durante a obra.",
     "Quem se propôs a fazê-la foi James Buchanan Eads, um homem que nunca tinha estudado engenharia nem projetado uma ponte. O que ele tinha era outra coisa: anos no fundo daquele mesmo rio, dentro de um sino de mergulho, resgatando cargas de vapores afundados. Sabia que a areia do leito se movia, e decidiu que a ponte só ficaria de pé se descesse até a rocha."

@@ -10,11 +10,15 @@ RedirectMatch 404 ^/(_src|\.claude|\.git)(/|$)
 # README e .gitignore são notas de trabalho, não página
 RedirectMatch 404 ^/(README\.md|\.gitignore)$
 
+AddType image/webp .webp
+
 <IfModule mod_expires.c>
   ExpiresActive On
   ExpiresByType text/html "access plus 10 minutes"
   ExpiresByType text/css "access plus 7 days"
   ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
   ExpiresByType image/svg+xml "access plus 30 days"
   ExpiresByType font/woff2 "access plus 1 year"
 </IfModule>

@@ -2,13 +2,15 @@
   "num": "23",
   "slug": "edificio-ingalls",
   "obra": "Edifício Ingalls",
+  "titulo_seo": "Edifício Ingalls, o primeiro arranha-céu de concreto armado",
+  "relacionados": ["empire-state", "edificio-martinelli", "cristo-redentor"],
   "titulo_video": null,
   "lugar": "Esquina das ruas Fourth e Vine, centro de Cincinnati, Ohio, Estados Unidos",
   "regiao": "mundo",
   "periodo": "1902–1904",
   "estreia": "2027-03-11",
   "impossivel": "Erguer 64 metros de escritórios sem nenhuma viga de aço, só com concreto e barras torcidas por dentro, quando, segundo as fontes, nenhum prédio de concreto passava de seis andares e engenheiros respeitados juravam que ele nunca chegaria ao telhado.",
-  "resumo": "Como Cincinnati ergueu, de 1902 a 1904, o primeiro arranha-céu de concreto armado do mundo, sob a desconfiança de engenheiros, e o que restou da prova.",
+  "resumo": "Como Cincinnati ergueu o Edifício Ingalls, de 1902 a 1904, o primeiro arranha-céu de concreto armado do mundo, sob a desconfiança de engenheiros.",
   "abertura": [
     "Em 1902, na esquina das ruas Fourth e Vine, no centro de Cincinnati, em Ohio, nos Estados Unidos, começou a subir um prédio de escritórios de 64 metros. Até então, segundo as fontes que registram a história da obra, nenhum edifício de concreto no mundo tinha passado de seis andares. Este teria dezesseis, contando o ático, e nenhuma viga de aço.",
     "O investidor era Melville E. Ingalls, presidente de uma grande ferrovia; os arquitetos, Elzner & Anderson; o engenheiro, Henry N. Hooper. O segredo estava escondido no concreto: barras de aço quadradas, torcidas a frio, a técnica patenteada em 1884 pelo engenheiro Ernest L. Ransome. O concreto aguenta bem ser esmagado e muito mal ser puxado. A barra torcida existe para fazer a parte que ele não faz."

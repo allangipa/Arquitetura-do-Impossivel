@@ -6,12 +6,299 @@
 <title>Estrada de Ferro Madeira-Mamoré · Arquitetura do Impossível</title>
 <meta name="description" content="Como a Madeira-Mamoré atravessou pântano, corredeira e malária na Amazônia, e por que a conta dos mortos vai de menos de 2 mil a 6 mil ou mais.">
 <link rel="canonical" href="https://arquiteturadoimpossivel.com.br/obras/estrada-de-ferro-madeira-mamore.html">
+<meta name="robots" content="max-image-preview:large">
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../assets/img/07-capa-800.webp 800w, ../assets/img/07-capa.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <meta name="google-adsense-account" content="ca-pub-4401770243539507">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-<link rel="stylesheet" href="../assets/arquitetura.css">
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
@@ -53,7 +340,7 @@
 </header>
 <main id="conteudo">
 <header class="capa">
-  <img src="../assets/img/07-capa.jpg" srcset="../assets/img/07-capa-800.jpg 800w, ../assets/img/07-capa.jpg 1600w" sizes="100vw" width="1600" height="1123" alt="Trilhos em linha reta sobre um pântano alagado, com troncos de palmeira sob a via, homens e cavalos ao fundo e mata baixa dos dois lados" loading="eager" decoding="async" style="object-position:40% 55%">
+  <picture><source type="image/webp" srcset="../assets/img/07-capa-800.webp 800w, ../assets/img/07-capa.webp 1600w" sizes="100vw"><img src="../assets/img/07-capa.jpg" srcset="../assets/img/07-capa-800.jpg 800w, ../assets/img/07-capa.jpg 1600w" sizes="100vw" width="1600" height="1123" alt="Trilhos em linha reta sobre um pântano alagado, com troncos de palmeira sob a via, homens e cavalos ao fundo e mata baixa dos dois lados" loading="eager" fetchpriority="high" decoding="async" style="object-position:40% 55%"></picture>
   <span class="credito-capa">No trecho pantanoso do rio Abunã, uma estiva de troncos de palmeira leva a via por cima da água para o trem de lastro passar. — <a href="https://commons.wikimedia.org/wiki/File:Em_Trecho_Pantanoso,_na_Reta_do_Rio_Abun%C3%A3,_%C3%89_Constru%C3%ADdo_uma_Estiva_de_Troncos_de_Palmeiras,_para_o_Trem_do_Lastro_-_934,_Acervo_do_Museu_Paulista_da_USP.jpg" rel="noopener">Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></span>
   <div class="casca">
     <span class="rotulo">Obra <b>07</b> · Brasil</span>
@@ -74,19 +361,19 @@
     <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span> Confirmado em duas ou mais fontes independentes.</span><span><span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span> Uma fonte só; o texto diz qual.</span><span><span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span> As fontes discordam; mostramos as versões e não escolhemos.</span><span><span class="conf conf-sem" title="Ninguém registrou. Dizemos isso em vez de inventar.">sem registro</span> Ninguém registrou. Dizemos isso em vez de inventar.</span></div>
 
     <h2 id="s1"><span class="n">01</span>Uma ferrovia no tratado do Acre</h2><p>Em 17 de novembro de 1903, em Petrópolis, no Rio de Janeiro, Brasil e Bolívia assinaram o tratado que deu o Acre ao Brasil. Pelo artigo III, o Brasil pagaria £ 2.000.000 à Bolívia, em duas parcelas, &quot;por não haver equivalência nas áreas&quot;. Pelo artigo VII, assumia outra obrigação: construir uma ferrovia do porto de Santo Antônio, no rio Madeira, até Guajará-Mirim, no Mamoré, para os dois países usarem com as mesmas tarifas.</p><p>O motivo era o rio. Entre Santo Antônio e Guajará-Mirim, o Madeira e o Mamoré descem por uma escada de cachoeiras e corredeiras que barco carregado não passava. A borracha da Bolívia e do alto Madeira precisava de um desvio por terra. O tratado dava quatro anos, mas com cuidado na palavra: o Brasil &quot;se esforçará&quot; por concluir nesse prazo.</p><p>A ferrovia acabou partindo de Porto Velho, uns 7 km rio abaixo de Santo Antônio, e não entrou na Bolívia: termina em Guajará-Mirim, do lado brasileiro do Mamoré, diante de Guayaramerín. E não era a primeira vez que alguém tentava abri-la.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/07-cachoeira.jpg" data-legenda="Uma das cachoeiras do rio Madeira em Santo Antônio, o obstáculo que a ferrovia existia para contornar. — Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Leito do rio coberto de grandes blocos de rocha escura, com um homem de pé entre as pedras e a mata na outra margem"><img src="../assets/img/07-cachoeira.jpg" srcset="../assets/img/07-cachoeira-800.jpg 800w, ../assets/img/07-cachoeira.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1095" alt="Leito do rio coberto de grandes blocos de rocha escura, com um homem de pé entre as pedras e a mata na outra margem" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/07-cachoeira.jpg" data-legenda="Uma das cachoeiras do rio Madeira em Santo Antônio, o obstáculo que a ferrovia existia para contornar. — Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Leito do rio coberto de grandes blocos de rocha escura, com um homem de pé entre as pedras e a mata na outra margem"><picture><source type="image/webp" srcset="../assets/img/07-cachoeira-800.webp 800w, ../assets/img/07-cachoeira.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/07-cachoeira.jpg" srcset="../assets/img/07-cachoeira-800.jpg 800w, ../assets/img/07-cachoeira.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1095" alt="Leito do rio coberto de grandes blocos de rocha escura, com um homem de pé entre as pedras e a mata na outra margem" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 02</span><span>Uma das cachoeiras do rio Madeira em Santo Antônio, o obstáculo que a ferrovia existia para contornar.</span><small><a href="https://commons.wikimedia.org/wiki/File:Em_Santo_Ant%C3%B4nio,_Trabalhadores_Observam_uma_das_Cachoeiras_do_Rio_Madeira_-_444,_Acervo_do_Museu_Paulista_da_USP.jpg" rel="noopener">Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s2"><span class="n">02</span>Nem com todo o capital do mundo</h2><p>Em 1872, o coronel americano George Earl Church levantou em Londres um empréstimo boliviano de £ 1.700.000 nominais, vendidos a 68%, e contratou a inglesa Public Works Construction Co. por £ 600.000. Os engenheiros chegaram a Santo Antônio em 6 de julho de 1872. Um ano depois, segundo o engenheiro Neville B. Craig, tinham três milhas e meia de levantamento, cerca de 5,6 km, e nem um pé de trilho assentado.</p><p>Em 9 de julho de 1873, um ano e três dias depois de chegar, a Public Works abandonou o contrato e foi à Justiça em Londres. Na petição, citada por Craig, a empresa descreveu a região como um ossuário, com os homens morrendo como moscas, e disse que, com todo o capital do mundo e metade da sua população, seria impossível construir a ferrovia.</p><p>Em 1878 veio a P. &amp; T. Collins, de Filadélfia. O vapor <em>Mercedita</em> partiu em 3 de janeiro com 220 pessoas. O segundo navio, o <em>Metropolis</em>, com trilhos e trabalhadores, encalhou e se partiu na praia de Currituck, na Carolina do Norte, em 31 de janeiro de 1878, antes de deixar os Estados Unidos. Craig conta 80 empregados da ferrovia mortos; o marcador histórico da Carolina do Norte fala em 85 mortos no total; outras contas chegam a 102.</p><p>Das 941 pessoas que a Collins mandou dos Estados Unidos, 719 chegaram a Santo Antônio, e pelo menos 23,6% delas morreram, pela tabela de Craig, que compara: os soldados da União na Guerra Civil morreram em proporção menor. Da mortalidade dos cerca de 400 cearenses e 200 indígenas bolivianos contratados na região, ainda segundo Craig, nenhum registro foi mantido. Em 1879 a obra parou. Craig lista o que ficou: cerca de 3,5 km de trilho permanente e 6,3 km por onde rodava o trem de construção; os 7 km de linha que costumam ser citados dependem do que se mede. Ficou também uma locomotiva Baldwin em Santo Antônio.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/07-mosquitos.jpg" data-legenda="Trabalhadores com capuzes de proteção contra mosquitos. — Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Três homens de botas numa varanda coberta de madeira, com a cabeça coberta por capuzes de tela"><img src="../assets/img/07-mosquitos.jpg" srcset="../assets/img/07-mosquitos-800.jpg 800w, ../assets/img/07-mosquitos.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1144" alt="Três homens de botas numa varanda coberta de madeira, com a cabeça coberta por capuzes de tela" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/07-mosquitos.jpg" data-legenda="Trabalhadores com capuzes de proteção contra mosquitos. — Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Três homens de botas numa varanda coberta de madeira, com a cabeça coberta por capuzes de tela"><picture><source type="image/webp" srcset="../assets/img/07-mosquitos-800.webp 800w, ../assets/img/07-mosquitos.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/07-mosquitos.jpg" srcset="../assets/img/07-mosquitos-800.jpg 800w, ../assets/img/07-mosquitos.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1144" alt="Três homens de botas numa varanda coberta de madeira, com a cabeça coberta por capuzes de tela" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 03</span><span>Trabalhadores com capuzes de proteção contra mosquitos.</span><small><a href="https://commons.wikimedia.org/wiki/File:Trabalhadores_com_Prote%C3%A7%C3%A3o_de_Mosquitos_-_352,_Acervo_do_Museu_Paulista_da_USP.jpg" rel="noopener">Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s3"><span class="n">03</span>Trilho sobre galhos</h2><p>A concessão foi vencida por Joaquim Catramby, que assinou contrato em 14 de novembro de 1906. Quem a fez andar foi o americano Percival Farquhar, que comprou a concessão e fundou a Madeira-Mamoré Railway Co. em 1907; a transferência formal veio pelo Decreto 6.838, de 30 de junho de 1908. A construtora foi a May, Jekyll &amp; Randolph. Segundo o historiador Abnael Machado de Lima, a primeira turma saiu de Belém em 9 de junho de 1907, com 140 pessoas, e o início simbólico da obra foi em 4 de julho, em Porto Velho.</p><p>O traçado era o problema. As fotografias que o americano Dana B. Merrill fez da obra, entre 1909 e 1912, mostram o que as legendas descrevem: no trecho pantanoso do rio Abunã, trilhos assentados sobre estivas de galhada e de troncos de palmeira, para o trem de lastro passar por cima da água; pontes provisórias de madeira sobre os igarapés; rocha aberta a dinamite; aterros desfeitos pela chuva; vagões descarrilados. Numa delas, a legenda registra que, na cheia, o Madeira subia 14 metros acima do nível mínimo.</p><p>O primeiro trecho, de cerca de 90 km até Jaci-Paraná, foi entregue em 31 de maio de 1910. Em novembro daquele ano, um aditivo passou a pagar £ 2.750 por quilômetro de lastro e pontes provisórias. O Tribunal de Contas recusou o registro, e só o Decreto Legislativo 2.579, de 7 de junho de 1912, validou a despesa, segundo um parecer sobre os contratos publicado pelo Conjur.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/07-cemiterio.jpg" data-legenda="O cemitério da Candelária, atrás do hospital da companhia, entre Santo Antônio e Porto Velho. — Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Clareira aberta na floresta com fileiras de pequenas cruzes brancas entre tocos e troncos caídos"><img src="../assets/img/07-cemiterio.jpg" srcset="../assets/img/07-cemiterio-800.jpg 800w, ../assets/img/07-cemiterio.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1144" alt="Clareira aberta na floresta com fileiras de pequenas cruzes brancas entre tocos e troncos caídos" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/07-cemiterio.jpg" data-legenda="O cemitério da Candelária, atrás do hospital da companhia, entre Santo Antônio e Porto Velho. — Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Clareira aberta na floresta com fileiras de pequenas cruzes brancas entre tocos e troncos caídos"><picture><source type="image/webp" srcset="../assets/img/07-cemiterio-800.webp 800w, ../assets/img/07-cemiterio.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/07-cemiterio.jpg" srcset="../assets/img/07-cemiterio-800.jpg 800w, ../assets/img/07-cemiterio.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1144" alt="Clareira aberta na floresta com fileiras de pequenas cruzes brancas entre tocos e troncos caídos" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 04</span><span>O cemitério da Candelária, atrás do hospital da companhia, entre Santo Antônio e Porto Velho.</span><small><a href="https://commons.wikimedia.org/wiki/File:Cemit%C3%A9rio_da_Candel%C3%A1ria,_Localizado_Atr%C3%A1s_do_Hospital_-_284,_Acervo_do_Museu_Paulista_da_USP.jpg" rel="noopener">Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s4"><span class="n">04</span>O demônio da Amazônia</h2><p>O inimigo maior não estava no traçado. Desde 1908 a companhia mantinha o Hospital da Candelária, entre Santo Antônio e Porto Velho. Em 1910 e 1911 eram onze médicos, alguns com experiência no Canal do Panamá, e o serviço era chefiado pelo americano Carl Lovelace. Pelo levantamento do historiador André Vasques Vital, o hospital recebia de 120 a 150 doentes por dia em 1911, e 60 em 1912.</p><p>Em 1910, a própria companhia contratou Oswaldo Cruz. Ele viajou com Belisário Penna de 16 de junho a 29 de agosto e observou a obra de 9 de julho a 7 de agosto. Segundo os historiadores Júlio César Schweickardt e Nísia Trindade Lima, Cruz chamou a malária de demônio da Amazônia e registrou mais de 90% dos trabalhadores doentes; outra leitura do mesmo relatório fala em 80 a 90%. Um trabalhador ficava, em média, menos de três meses na obra.</p><p>A resposta foi tratar o remédio como regra de serviço. A partir de 1º de agosto de 1910, o quinino passou a ser dose diária e obrigatória, e o uso das medidas contra o mosquito, &quot;obrigação de trabalho&quot;. Merrill fotografou homens com capuzes de tela na cabeça. E a malária não era a única: um relatório de Lovelace, citado em artigo sobre a região, conta 963 casos de beribéri na Candelária de 1908 a 1911.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/07-borracha.jpg" data-legenda="Pélas de borracha aguardam o embarque junto a um vagão da EFMM. — Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Centenas de bolas de borracha enfileiradas no chão diante de barracões de palha e de um vagão de carga marcado EFMM"><img src="../assets/img/07-borracha.jpg" srcset="../assets/img/07-borracha-800.jpg 800w, ../assets/img/07-borracha.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1061" alt="Centenas de bolas de borracha enfileiradas no chão diante de barracões de palha e de um vagão de carga marcado EFMM" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/07-borracha.jpg" data-legenda="Pélas de borracha aguardam o embarque junto a um vagão da EFMM. — Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Centenas de bolas de borracha enfileiradas no chão diante de barracões de palha e de um vagão de carga marcado EFMM"><picture><source type="image/webp" srcset="../assets/img/07-borracha-800.webp 800w, ../assets/img/07-borracha.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/07-borracha.jpg" srcset="../assets/img/07-borracha-800.jpg 800w, ../assets/img/07-borracha.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1061" alt="Centenas de bolas de borracha enfileiradas no chão diante de barracões de palha e de um vagão de carga marcado EFMM" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 05</span><span>Pélas de borracha aguardam o embarque junto a um vagão da EFMM.</span><small><a href="https://commons.wikimedia.org/wiki/File:P%C3%A9las_de_Borracha_Aguardando_o_Embarque_-_1137,_Acervo_do_Museu_Paulista_da_USP.jpg" rel="noopener">Dana B. Merrill, 1909–1912 (Acervo do Museu Paulista da USP)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s5"><span class="n">05</span>A conta que ninguém fecha</h2><p>A tabela da companhia, reproduzida pelo escritor Hiram Reis e Silva, soma 21.817 trabalhadores trazidos de fora e 1.552 óbitos entre 1907 e 1912, com mais de 400 mortes por ano de 1909 a 1911. É o número que mais se repete. Mas há uma variante da mesma tabela que não fecha nos totais, uma versão que dá 1.522 e outra, atribuída a Manoel Rodrigues Ferreira e a Francisco Foot Hardman, que dá 1.693. Todas ficam abaixo de dois mil.</p><p>O registro conta o que o hospital viu. Não conta quem morreu no caminho, na viagem para Manaus ou Belém, ou depois de voltar doente para casa. Por isso as estimativas sobem: cerca de 6.000 na conta mais citada, que aparece também atribuída ao governo brasileiro; 6.208 na conta de Hiram Reis e Silva, que multiplica os registrados por quatro; 7.000 a 10.000 no romancista Errol Lincoln Uys; mais de 30.000 em Fiorelo Picoli. Na outra ponta, Ricardo Leite, no livro <em>1912 – Vitória na Selva</em>, de 2020, diz que mesmo somando 20% de mortes não registradas o total fica abaixo de dois mil, e chama as contas de 6 a 20 mil de especulação.</p><p>O arquivo que poderia desempatar não existe mais: os papéis da ferrovia foram queimados quando ela foi desativada. Das chapas de Merrill sobraram 189 negativos, hoje no Museu Paulista da USP. Uma delas mostra o cemitério da Candelária, numa clareira atrás do hospital. Craig já tinha escrito, em 1907, sobre os homens da Collins que morreram depois de voltar para casa: não havia como saber quantos.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/07-coronel-church.jpg" data-legenda="A Baldwin que a P. &amp; T. Collins deixou em Santo Antônio em 1879, restaurada e batizada Coronel Church, em Porto Velho, em 2006. — Freyah, CC BY-SA 3.0" aria-label="Ampliar imagem: Locomotiva a vapor preta com rodas de aro claro e a inscrição Coronel Church na cabine, dentro de um galpão"><img src="../assets/img/07-coronel-church.jpg" srcset="../assets/img/07-coronel-church-800.jpg 800w, ../assets/img/07-coronel-church.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1197" alt="Locomotiva a vapor preta com rodas de aro claro e a inscrição Coronel Church na cabine, dentro de um galpão" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/07-coronel-church.jpg" data-legenda="A Baldwin que a P. &amp; T. Collins deixou em Santo Antônio em 1879, restaurada e batizada Coronel Church, em Porto Velho, em 2006. — Freyah, CC BY-SA 3.0" aria-label="Ampliar imagem: Locomotiva a vapor preta com rodas de aro claro e a inscrição Coronel Church na cabine, dentro de um galpão"><picture><source type="image/webp" srcset="../assets/img/07-coronel-church-800.webp 800w, ../assets/img/07-coronel-church.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/07-coronel-church.jpg" srcset="../assets/img/07-coronel-church-800.jpg 800w, ../assets/img/07-coronel-church.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1197" alt="Locomotiva a vapor preta com rodas de aro claro e a inscrição Coronel Church na cabine, dentro de um galpão" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 06</span><span>A Baldwin que a P. &amp; T. Collins deixou em Santo Antônio em 1879, restaurada e batizada Coronel Church, em Porto Velho, em 2006.</span><small><a href="https://commons.wikimedia.org/wiki/File:Coronelchurch01.jpg" rel="noopener">Freyah</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener">CC BY-SA 3.0</a></small></figcaption>
 </figure><h2 id="s6"><span class="n">06</span>Pronta tarde demais</h2><p>O último dormente foi assentado em 30 de abril de 1912, e a inauguração aparece em datas diferentes conforme a fonte, entre abril e setembro daquele ano. O mercado que justificava a obra já tinha virado. Entre 1910 e 1911, o preço máximo da borracha fina caiu praticamente pela metade; a fatia amazônica da oferta mundial foi de 44% para 35% entre 1910 e 1912; e ao longo daquela década as plantações da Ásia passaram a produção brasileira, segundo um estudo publicado na revista <em>Almanack</em>.</p><p>A ferrovia ficou, e com ela uma cidade: Porto Velho nasceu da ferrovia. Entre 1910 e 1912, a Chicago Bridge &amp; Iron Works montou ali três caixas d&#x27;água de 200 mil litros cada, que abasteceram a cidade e a ferrovia até a década de 1950 e hoje estão na bandeira do município. A locomotiva Baldwin que a Collins deixou em Santo Antônio em 1879 foi restaurada, batizada de Coronel Church e está no museu da ferrovia, em Porto Velho.</p><p>O Decreto 58.501, de 25 de maio de 1966, desativou a linha e a passou ao Ministério da Guerra; o último trem correu em 1972. O apelido que ficou, Ferrovia do Diabo, é o título do livro de Manoel Rodrigues Ferreira, de 1959. Antes dele, Ferreira publicou reportagens com fotos tiradas dos negativos de Merrill, que recebeu em 1956.</p><h2 id="s7"><span class="n">07</span>Os trilhos agora</h2><p>Nos anos 2000, o IPHAN tombou parte do que restou: um pedaço do pátio de Porto Velho, os trilhos até Santo Antônio, as três caixas d&#x27;água e o cemitério da Candelária. O resto da linha ficou de fora. Em 28 de outubro de 2025, o Ministério Público Federal processou Rondônia, a União e o IPHAN, pedindo o tombamento definitivo dos 366 km e R$ 6 milhões de dano moral coletivo, por causa de trilhos furtados, pontes metálicas desmontadas, dormentes arrancados e locomotivas abandonadas.</p><p>Em agosto de 2026, segundo o News Rondônia, a Prefeitura de Porto Velho fechou acordo com a Associação Brasileira de Preservação Ferroviária para recuperar a estrutura e mandou ao IPHAN uma carta de intenção sobre uma candidatura a Patrimônio Mundial da UNESCO, ainda em fase inicial. Em setembro, a Prefeitura anunciou para o começo de outubro a volta do passeio de trem pelos trilhos da Madeira-Mamoré até a igreja de Santo Antônio; segundo o prefeito Léo Moraes, o acervo estava parado havia quase três décadas.</p>
     
@@ -104,7 +391,7 @@
     </section>
 
     <a class="proximo-ep" href="canal-do-panama.html">
-      <div class="foto"><img src="../assets/img/08-capa.jpg" srcset="../assets/img/08-capa-800.jpg 800w, ../assets/img/08-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1072" alt="Vale profundo e seco aberto entre duas encostas de rocha, com várias linhas de trilho no fundo, uma escavadeira a vapor à direita e guindastes à esquerda" loading="lazy" decoding="async"></div>
+      <div class="foto"><picture><source type="image/webp" srcset="../assets/img/08-capa-800.webp 800w, ../assets/img/08-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/08-capa.jpg" srcset="../assets/img/08-capa-800.jpg 800w, ../assets/img/08-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1072" alt="Vale profundo e seco aberto entre duas encostas de rocha, com várias linhas de trilho no fundo, uma escavadeira a vapor à direita e guindastes à esquerda" loading="lazy" decoding="async"></picture></div>
       <div class="txt">
         <span class="rotulo">Próximo episódio · Obra <b>08</b> · <span class="selo-estreia" data-estreia="2026-11-26" data-no-ar="no ar">estreia 26 nov 2026</span></span>
         <h3>Canal do Panamá</h3>
@@ -113,6 +400,8 @@
         <span class="ir">Ler a obra →</span>
       </div>
     </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MAIS</span>Leia também</h2><ul><li><a href="santos-jundiai.html"><span class="rotulo">Obra <b>13</b> · Brasil</span><strong>Estrada de Ferro Santos–Jundiaí</strong><span class="onde">1860–1867</span></a></li><li><a href="tunel-de-base-de-sao-gotardo.html"><span class="rotulo">Obra <b>31</b> · Suíça</span><strong>Túnel de Base de São Gotardo</strong><span class="onde">1999–2016</span></a></li><li><a href="represa-hoover.html"><span class="rotulo">Obra <b>06</b> · Estados Unidos</span><strong>Represa Hoover</strong><span class="onde">1931–1936</span></a></li></ul></section>
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes"><li>Decreto 5.161, de 10/03/1904, que promulga o Tratado de Petrópolis (Câmara dos Deputados) — <a href="https://www2.camara.leg.br/legin/fed/decret/1900-1909/decreto-5161-10-marco-1904-583837-publicacaooriginal-106599-pe.html" rel="noopener">www2.camara.leg.br</a></li><li>Neville B. Craig, Recollections of an Ill-Fated Expedition to the Headwaters of the Madeira River in Brazil, Lippincott, 1907 (Internet Archive) — <a href="https://archive.org/details/recollectionsofi00crai" rel="noopener">archive.org</a></li><li>Abnael Machado de Lima, &quot;Cem anos do reinício da construção da EFMM 1907/2007&quot;, Gente de Opinião — <a href="https://www.gentedeopiniao.com.br/colunista/abnael-machado/cem-anos-do-reinicio-da-construcao-da-estrada-de-ferro-madeira-mamore-1907-2007" rel="noopener">gentedeopiniao.com.br</a></li><li>Hiram Reis e Silva, &quot;A Terceira Margem — parte XCVIII — Madeira-Mamoré, Ferrovia do Diabo XIX&quot;, Gente de Opinião — <a href="https://www.gentedeopiniao.com.br/colunista/hiram-reis-e-silva/a-terceira-margem-parte-xcviii-madeira-mamore-ferrovia-do-diabo-xix-cada-dormente-representa-uma-vida-humana" rel="noopener">gentedeopiniao.com.br</a></li><li>Anísio Gorayeb, &quot;A lendária Madeira Mamoré&quot;, Gente de Opinião — <a href="https://www.gentedeopiniao.com.br/colunista/anisio-gorayeb/a-lendaria-madeira-mamore" rel="noopener">gentedeopiniao.com.br</a></li><li>Manoel Rodrigues Ferreira, A Ferrovia do Diabo, Melhoramentos, 1959</li><li>Francisco Foot Hardman, Trem-fantasma: a ferrovia Madeira-Mamoré e a modernidade na selva, Companhia das Letras, 2005 — <a href="https://www.companhiadasletras.com.br/livro/9788535905991/trem-fantasma" rel="noopener">companhiadasletras.com.br</a></li><li>Júlio César Schweickardt e Nísia Trindade Lima, &quot;Os cientistas brasileiros visitam a Amazônia&quot;, História, Ciências, Saúde – Manguinhos, 2007 — <a href="http://www.scielo.br/j/hcsm/a/nqjFC5DH35TNy3Y96QwRgLJ/?lang=pt" rel="noopener">scielo.br</a></li><li>André Vasques Vital, &quot;Visões do Alto Madeira: Comissão Rondon, malária e política em Santo Antônio do Madeira (1910-1915)&quot;, SBHC — <a href="https://www.sbhc.org.br/arquivo/download?ID_ARQUIVO=665" rel="noopener">sbhc.org.br</a></li><li>&quot;Hospital da Candelária: um lugar de cura e morte nos campos da selva madeirense&quot;, Revista FT — <a href="https://revistaft.com.br/hospital-da-candelaria-um-lugar-de-cura-e-morte-nos-campos-da-selva-madeirense/" rel="noopener">revistaft.com.br</a></li><li>Sílvia Maria do Espírito Santo e Pedro Ribeiro, catálogo da exposição Ferrovia Madeira-Mamoré: Trilhos e Sonhos (BNDES / Museu Paulista da USP) — <a href="http://vfco.brazilia.jor.br/ferrovias/efmm/exposicao-fotos-EFMM-4.shtml" rel="noopener">vfco.brazilia.jor.br</a></li><li>&quot;Cronologia da EFMM&quot;, revista Centro-Oeste nº 81, 1993 — <a href="http://vfco.brazilia.jor.br/ferrovias/efmm/cronologia-Madeira-Mamore.shtml" rel="noopener">vfco.brazilia.jor.br</a></li><li>&quot;Contratos de construção da estrada de ferro Madeira-Mamoré&quot;, Conjur, 03/07/2014 — <a href="https://www.conjur.com.br/2014-jul-03/contratos-construcao-estrada-ferro-madeira-mamore-1913/" rel="noopener">conjur.com.br</a></li><li>&quot;O que levou a Madeira-Mamoré a ser conhecida como Ferrovia do Diabo&quot;, Revista Ferroviária, 03/11/2025 — <a href="https://revistaferroviaria.com.br/2025/11/o-que-levou-a-madeira-mamore-a-ser-conhecida-como-ferrovia-do-diabo/" rel="noopener">revistaferroviaria.com.br</a></li><li>&quot;&#x27;Indústria maldita&#x27; ou &#x27;árvore de ouro&#x27;? O debate econômico nos tempos do ciclo da borracha, 1850-1914&quot;, Almanack — <a href="https://www.scielo.br/j/alm/a/nmzHMF7QxHmwkDdYCx9cDgF/?format=html&amp;lang=pt" rel="noopener">scielo.br</a></li><li>North Carolina Department of Natural and Cultural Resources, &quot;Wreck of the Metropolis (A-33)&quot;, 2023 — <a href="https://www.dncr.nc.gov/blog/2023/12/01/wreck-metropolis-33" rel="noopener">dncr.nc.gov</a></li><li>&quot;MPF pede na Justiça que estado tombe Estrada de Ferro Madeira-Mamoré&quot;, Portal O Fato, 06/11/2025 — <a href="https://portalofato.com.br/2025/11/06/mpf-pede-na-justica-que-estado-tombe-estrada-de-ferro-madeira-mamore-e-cobra-indenizacao-de-r-6-milhoes/" rel="noopener">portalofato.com.br</a></li><li>News Rondônia, acordo da Prefeitura de Porto Velho com a ABPF, 04/08/2026</li><li>&quot;Passeio histórico pelos trilhos da Madeira-Mamoré até Santo Antônio é retomado&quot;, Rondônia Dinâmica, 17/09/2026 — <a href="https://www.rondoniadinamica.com/noticias/2026/09/passeio-historico-pelos-trilhos-da-madeira-mamore-ate-santo-antonio-e-retomado,254389.shtml" rel="noopener">rondoniadinamica.com</a></li><li>&quot;Prefeitura retoma passeio de trem na Madeira-Mamoré neste sábado&quot;, Diário RO, 29/09/2026 — <a href="https://www.diarioro.com.br/2026/09/29/prefeitura-retoma-passeio-de-trem-na-madeira-mamore-neste-sabado-3/" rel="noopener">diarioro.com.br</a></li></ol>

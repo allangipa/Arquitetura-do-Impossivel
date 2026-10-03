@@ -2,6 +2,7 @@
   "num": "25",
   "slug": "atomium",
   "obra": "Atomium",
+  "relacionados": ["torre-eiffel", "estadio-olimpico-de-munique", "opera-de-sydney"],
   "titulo_video": null,
   "lugar": "Planalto do Heysel, Laeken, Bruxelas, Bélgica",
   "regiao": "mundo",

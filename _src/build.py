@@ -114,6 +114,41 @@ SIMBOLO_PEQUENO = lambda: simbolo("0 0 1020 886", rotulo="")  # sem a cota: a 34
 
 
 # --- carga e conferência --------------------------------------------------
+ROTULO_LEIA = "MAIS"
+ITEM_LEIA = lambda y: (f'<li><a href="{y["slug"]}.html"><span class="rotulo">Obra <b>{e(y["num"])}</b> · {e(y["lugar"].split(",")[-1].strip())}</span>'
+                       f'<strong>{e(y["obra"])}</strong><span class="onde">{e(y["periodo"])}</span></a></li>')
+
+
+def conferir_relacionados(x, slugs):
+    """`relacionados` (opcional): três slugs do MESMO site, de assunto
+    próximo, para o bloco "Leia também". Para se o slug não existir, se
+    repetir, se apontar para a própria página ou para o `proximo` (que já
+    tem bloco próprio)."""
+    rel = x.get("relacionados")
+    if rel is None:
+        return
+    if not isinstance(rel, list) or len(rel) != 3 or len(set(rel)) != 3:
+        falha(f"{x['slug']}: relacionados deve ter 3 slugs diferentes: {rel!r}")
+    for s in rel:
+        if s not in slugs:
+            falha(f"{x['slug']}: relacionado '{s}' não existe")
+        if s == x["slug"]:
+            falha(f"{x['slug']}: relacionado aponta para a própria página")
+        if s == x["proximo"]:
+            falha(f"{x['slug']}: relacionado '{s}' já é o próximo episódio")
+
+
+def leia_tambem(x, todos):
+    """Bloco "Leia também": três links internos de assunto próximo."""
+    rel = x.get("relacionados") or []
+    if not rel:
+        return ""
+    por_slug = {y["slug"]: y for y in todos}
+    itens = "".join(ITEM_LEIA(por_slug[s]) for s in rel)
+    return (f'<section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">{ROTULO_LEIA}</span>Leia também</h2>'
+            f'<ul>{itens}</ul></section>')
+
+
 def carregar():
     obras = []
     for f in sorted((SRC / "obras").glob("[0-9][0-9]-*.json")):
@@ -153,6 +188,7 @@ def carregar():
     for o in obras:
         if o["proximo"] and o["proximo"] not in slugs:
             falha(f"{o['slug']}: proximo '{o['proximo']}' não existe")
+        conferir_relacionados(o, slugs)
     if not obras:
         falha("nenhuma obra em _src/obras")
     return obras
@@ -227,9 +263,26 @@ def consentimento(base):
 </script>
 """
 
-def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar=True):
+def css_inline():
+    """O CSS vai dentro do <head>: um arquivo de ~6 KB comprimido custava uma
+    ida e volta inteira bloqueando a primeira pintura (PageSpeed, 03/10/2026).
+    Fontes com caminho absoluto, porque o <style> resolve a partir da página."""
+    css = (SRC / "arquitetura.css").read_text(encoding="utf-8")
+    css = re.sub(r"/\*.*?\*/", "", css, flags=re.S)
+    return re.sub(r"\n\s*\n+", "\n", css).strip()
+
+
+CSS_INLINE = None
+
+
+def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar=True, extra=""):
+    global CSS_INLINE
+    if CSS_INLINE is None:
+        CSS_INLINE = css_inline()
     # 404: noindex e sem canonical (é servido em qualquer endereço)
-    canon = f'<link rel="canonical" href="{e(url)}">' if indexar else '<meta name="robots" content="noindex, follow">'
+    # max-image-preview:large: deixa o Google Discover usar a og:image grande
+    canon = (f'<link rel="canonical" href="{e(url)}">\n'
+             '<meta name="robots" content="max-image-preview:large">') if indexar else '<meta name="robots" content="noindex, follow">'
     lds = jsonld if isinstance(jsonld, list) else [jsonld]
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(j, ensure_ascii=False)}</script>' for j in lds)
     return f"""<!doctype html>
@@ -243,8 +296,10 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
 <link rel="preload" href="{base}assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{base}assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+{extra}
 {adsense_head()}
-<link rel="stylesheet" href="{base}assets/arquitetura.css">
+<style>{CSS_INLINE}</style>
 <meta property="og:type" content="{tipo}">
 <meta property="og:site_name" content="{e(NOME)}">
 <meta property="og:locale" content="pt_BR">
@@ -357,7 +412,29 @@ def conf_selo(c):
     return f'<span class="conf {cls}" title="{e(tit)}">{e(txt)}</span>'
 
 
+def webp(jpg):
+    """Cópia WebP ao lado do JPEG (o JPEG fica como reserva no <picture>).
+    Só regera se faltar ou se o JPEG for mais novo."""
+    destino = jpg.with_suffix(".webp")
+    if not destino.exists() or destino.stat().st_mtime < jpg.stat().st_mtime:
+        Image.open(jpg).convert("RGB").save(destino, "WEBP", quality=78, method=5)
+    return destino.name
+
+
+def webp_srcset(arquivo, base):
+    """(srcset WebP, tem versão de 800?) da imagem `arquivo`."""
+    nome = Path(arquivo).stem
+    menor = IMG / f"{nome}-800.jpg"
+    w = Image.open(IMG / arquivo).size[0]
+    grande = f"{base}assets/img/{webp(IMG / arquivo)}"
+    if menor.exists():
+        return f"{base}assets/img/{webp(menor)} 800w, {grande} {w}w", True
+    return grande, False
+
+
 def img_tag(arquivo, alt, base, tamanhos="100vw", carregar="lazy", classe="", foco=None):
+    """<picture> com WebP e reserva JPEG. `carregar="eager"` é a imagem do LCP
+    (a capa): sai com fetchpriority alto; o resto é lazy."""
     nome = Path(arquivo).stem
     menor = IMG / f"{nome}-800.jpg"
     w, h = Image.open(IMG / arquivo).size
@@ -368,8 +445,19 @@ def img_tag(arquivo, alt, base, tamanhos="100vw", carregar="lazy", classe="", fo
     # `foco` (opcional na imagem do JSON): o ponto que não pode sair do quadro
     # quando a foto é recortada (capa no celular, cartão da home). CSS object-position.
     st = f' style="object-position:{e(foco)}"' if foco else ""
-    return (f'<img src="{base}assets/img/{e(arquivo)}"{srcset} width="{w}" height="{h}" '
-            f'alt="{e(alt)}" loading="{carregar}" decoding="async"{cl}{st}>')
+    prio = ' fetchpriority="high"' if carregar == "eager" else ""
+    ws, tem800 = webp_srcset(arquivo, base)
+    sz = f' sizes="{tamanhos}"' if tem800 else ""
+    return (f'<picture><source type="image/webp" srcset="{ws}"{sz}>'
+            f'<img src="{base}assets/img/{e(arquivo)}"{srcset} width="{w}" height="{h}" '
+            f'alt="{e(alt)}" loading="{carregar}"{prio} decoding="async"{cl}{st}></picture>')
+
+
+def preload_capa(arquivo, base, tamanhos="100vw"):
+    """Avisa o navegador da capa (LCP) já no <head>, antes do HTML do corpo."""
+    ws, tem800 = webp_srcset(arquivo, base)
+    sz = f' imagesizes="{tamanhos}"' if tem800 else ""
+    return f'<link rel="preload" as="image" type="image/webp" imagesrcset="{ws}"{sz} fetchpriority="high">'
 
 
 def credito(im):
@@ -441,7 +529,14 @@ DESC_PRIV = (f"Como o {NOME} trata dados, cookies e anúncios do Google AdSense,
 
 def titulo_seo(o):
     """Assunto primeiro, marca no fim, até 60 caracteres. O período sai se não
-    couber, antes da marca."""
+    couber, antes da marca. `titulo_seo` no JSON (opcional) substitui o padrão
+    quando a obra é buscada de outro jeito ("como foi construído o…", o nome
+    em inglês); passa pelas mesmas travas."""
+    if o.get("titulo_seo"):
+        t = o["titulo_seo"].strip()
+        if len(t) > TITULO_MAX:
+            falha(f"{o['slug']}: titulo_seo com {len(t)} caracteres (máx. {TITULO_MAX})")
+        return t
     for t in (f"{o['obra']} ({o['periodo']}) · {NOME}", f"{o['obra']} · {NOME}"):
         if len(t) <= TITULO_MAX:
             return t
@@ -681,7 +776,8 @@ def pagina_obra(o, obras, og):
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "about": {"@type": "LandmarksOrHistoricalBuildings", "name": o["obra"], "address": o["lugar"]},
     }, migalhas((NOME, DOMINIO + "/"), ("Obras", DOMINIO + "/#obras"), (o["obra"], url))]
-    return (cabeca(titulo_seo(o), o["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article")
+    return (cabeca(titulo_seo(o), o["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article",
+                   extra=preload_capa(capa["arquivo"], base))
             + '<div class="progresso" aria-hidden="true"></div>' + topo(base, "obras") + f"""<main id="conteudo">
 <header class="capa">
   {img_tag(capa['arquivo'], capa['alt'], base, '100vw', 'eager', foco=capa.get('foco'))}
@@ -720,6 +816,8 @@ def pagina_obra(o, obras, og):
     </section>
 
     {seguinte}
+
+    {leia_tambem(o, obras)}
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes">{fontes}</ol>

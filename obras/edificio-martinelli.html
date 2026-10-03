@@ -6,12 +6,299 @@
 <title>Edifício Martinelli (1924–1934) · Arquitetura do Impossível</title>
 <meta name="description" content="Como um imigrante italiano subiu o Martinelli de 12 ou 14 para 30 andares, enfrentou embargo, morou no topo e perdeu o prédio para as dívidas.">
 <link rel="canonical" href="https://arquiteturadoimpossivel.com.br/obras/edificio-martinelli.html">
+<meta name="robots" content="max-image-preview:large">
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../assets/img/19-capa-800.webp 800w, ../assets/img/19-capa.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <meta name="google-adsense-account" content="ca-pub-4401770243539507">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-<link rel="stylesheet" href="../assets/arquitetura.css">
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
@@ -53,7 +340,7 @@
 </header>
 <main id="conteudo">
 <header class="capa">
-  <img src="../assets/img/19-capa.jpg" srcset="../assets/img/19-capa-800.jpg 800w, ../assets/img/19-capa.jpg 1600w" sizes="100vw" width="1600" height="2230" alt="Prédio alto e largo de fachada rosada, com quatro blocos escalonados e coroamento claro com pináculos, visto de baixo de uma rua de pedestres com palmeiras e um relógio de rua" loading="eager" decoding="async" style="object-position:45% 30%">
+  <picture><source type="image/webp" srcset="../assets/img/19-capa-800.webp 800w, ../assets/img/19-capa.webp 1600w" sizes="100vw"><img src="../assets/img/19-capa.jpg" srcset="../assets/img/19-capa-800.jpg 800w, ../assets/img/19-capa.jpg 1600w" sizes="100vw" width="1600" height="2230" alt="Prédio alto e largo de fachada rosada, com quatro blocos escalonados e coroamento claro com pináculos, visto de baixo de uma rua de pedestres com palmeiras e um relógio de rua" loading="eager" fetchpriority="high" decoding="async" style="object-position:45% 30%"></picture>
   <span class="credito-capa">O Martinelli em 2016, visto da Rua São Bento. Os blocos claros do alto incluem os andares da antiga casa do dono. — <a href="https://commons.wikimedia.org/wiki/File:Edif%C3%ADcio_Martinelli,_S%C3%A3o_Paulo_(0001_103).jpg" rel="noopener">Wilfredor</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noopener">CC0</a></span>
   <div class="casca">
     <span class="rotulo">Obra <b>19</b> · Brasil</span>
@@ -74,13 +361,13 @@
     <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span> Confirmado em duas ou mais fontes independentes.</span><span><span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span> Uma fonte só; o texto diz qual.</span><span><span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span> As fontes discordam; mostramos as versões e não escolhemos.</span><span><span class="conf conf-sem" title="Ninguém registrou. Dizemos isso em vez de inventar.">sem registro</span> Ninguém registrou. Dizemos isso em vez de inventar.</span></div>
 
     <h2 id="s1"><span class="n">01</span>Uma cidade de cinco andares</h2><p>Na São Paulo do começo dos anos 1920, a cidade crescia com o dinheiro do café, mas crescia para os lados. Eram raros os prédios com mais de cinco andares. O mais alto, o Sampaio Moreira, inaugurado em 1924 na Rua Líbero Badaró, tinha uns 12. Foi na mesma região, no triângulo formado pela Rua São Bento, pela Avenida São João e pela própria Líbero Badaró, que Giuseppe Martinelli decidiu erguer o seu prédio.</p><p>Martinelli nasceu em 1870 na região de Lucca, na Itália, numa família de pedreiros, e chegou ao Brasil no fim do século XIX. Começou como açougueiro e mascate, montou uma casa de despachos em Santos e, e fez fortuna com a atividade portuária durante a Primeira Guerra. Nos anos 1920, queria deixar uma marca que não fosse só uma empresa: o prédio mais alto da América do Sul.</p><p>O projeto foi encomendado ao arquiteto húngaro William Fillinger, formado em Viena. A fachada coube aos irmãos Lacombe. O material veio quase todo de fora: cimento da Suécia e da Noruega, trazido pela própria importadora de Martinelli, mármore de Carrara, pinho-de-riga, elevadores suíços.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/19-centro-1939.jpg" data-legenda="O Martinelli em 1939, ainda sem rival à altura no centro de São Paulo. — Autor não identificado (Museu Paulista da USP, coleção cartões-postais), Domínio público" aria-label="Ampliar imagem: Fotografia antiga em preto e branco: telhados baixos do centro de São Paulo em primeiro plano e, ao fundo, um único prédio muito mais alto que todos os outros"><img src="../assets/img/19-centro-1939.jpg" srcset="../assets/img/19-centro-1939-800.jpg 800w, ../assets/img/19-centro-1939.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1023" alt="Fotografia antiga em preto e branco: telhados baixos do centro de São Paulo em primeiro plano e, ao fundo, um único prédio muito mais alto que todos os outros" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/19-centro-1939.jpg" data-legenda="O Martinelli em 1939, ainda sem rival à altura no centro de São Paulo. — Autor não identificado (Museu Paulista da USP, coleção cartões-postais), Domínio público" aria-label="Ampliar imagem: Fotografia antiga em preto e branco: telhados baixos do centro de São Paulo em primeiro plano e, ao fundo, um único prédio muito mais alto que todos os outros"><picture><source type="image/webp" srcset="../assets/img/19-centro-1939-800.webp 800w, ../assets/img/19-centro-1939.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/19-centro-1939.jpg" srcset="../assets/img/19-centro-1939-800.jpg 800w, ../assets/img/19-centro-1939.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1023" alt="Fotografia antiga em preto e branco: telhados baixos do centro de São Paulo em primeiro plano e, ao fundo, um único prédio muito mais alto que todos os outros" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 02</span><span>O Martinelli em 1939, ainda sem rival à altura no centro de São Paulo.</span><small><a href="https://commons.wikimedia.org/wiki/File:S%C3%A3o_Paulo_-_1939_(1)_-_1-15787-0000-0000,_Acervo_do_Museu_Paulista_da_USP.jpg" rel="noopener">Autor não identificado (Museu Paulista da USP, coleção cartões-postais)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s2"><span class="n">02</span>Mais um andar, e mais outro</h2><p>A obra começou em 1924. Quantos andares o prédio teria no papel depende de quem conta: 12, segundo o condomínio do edifício e a Prefeitura; 14, com possibilidade de chegar a 18, segundo a historiadora Maria Cecília Naclério Homem, a Enciclopédia Itaú Cultural e a Biblioteca Nacional. O que todas dizem é que o número não parou de subir. O próprio Martinelli, que antes de emigrar tinha estudado construção em Lucca, passou a decidir as ampliações, e o sobrinho, o engenheiro Ítalo Martinelli, refazia os cálculos da estrutura de concreto armado.</p><p>O condomínio do prédio conta que Martinelli fiscalizava a obra todos os dias e chegava a trabalhar como pedreiro ao lado dos operários, que passaram de 600, com mais 90 artesãos italianos e espanhóis no acabamento. Conta também que as fundações abalaram um prédio vizinho, e que o problema foi resolvido com a compra do vizinho. São informações que vêm de uma fonte só.</p><p>Segundo o Instituto São Paulo Antiga, a pior notícia daquele canteiro veio em 1927: um operário caiu do décimo andar e morreu. O nome dele não ficou registrado nas fontes consultadas, nem há um número oficial de feridos ou mortos na obra. Também não ficou registrado quanto o prédio custou.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/19-avenida-sao-joao.jpg" data-legenda="A Avenida São João num cartão-postal sem data: o Martinelli ao centro e, atrás, a torre do Edifício Altino Arantes, que tirou dele o posto de mais alto da cidade. — Foto-Postal Colombo, autor não identificado (Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Cartão-postal antigo em sépia: avenida com carros dos anos 1940, um prédio largo com estrutura de anúncio no topo ao centro e, atrás dele, uma torre branca mais alta e escalonada"><img src="../assets/img/19-avenida-sao-joao.jpg" srcset="../assets/img/19-avenida-sao-joao-800.jpg 800w, ../assets/img/19-avenida-sao-joao.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="928" alt="Cartão-postal antigo em sépia: avenida com carros dos anos 1940, um prédio largo com estrutura de anúncio no topo ao centro e, atrás dele, uma torre branca mais alta e escalonada" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/19-avenida-sao-joao.jpg" data-legenda="A Avenida São João num cartão-postal sem data: o Martinelli ao centro e, atrás, a torre do Edifício Altino Arantes, que tirou dele o posto de mais alto da cidade. — Foto-Postal Colombo, autor não identificado (Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Cartão-postal antigo em sépia: avenida com carros dos anos 1940, um prédio largo com estrutura de anúncio no topo ao centro e, atrás dele, uma torre branca mais alta e escalonada"><picture><source type="image/webp" srcset="../assets/img/19-avenida-sao-joao-800.webp 800w, ../assets/img/19-avenida-sao-joao.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/19-avenida-sao-joao.jpg" srcset="../assets/img/19-avenida-sao-joao-800.jpg 800w, ../assets/img/19-avenida-sao-joao.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="928" alt="Cartão-postal antigo em sépia: avenida com carros dos anos 1940, um prédio largo com estrutura de anúncio no topo ao centro e, atrás dele, uma torre branca mais alta e escalonada" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 03</span><span>A Avenida São João num cartão-postal sem data: o Martinelli ao centro e, atrás, a torre do Edifício Altino Arantes, que tirou dele o posto de mais alto da cidade.</span><small><a href="https://commons.wikimedia.org/wiki/File:34._Brasil._S%C3%A3o_Paulo._Avenida_S._Jo%C3%A3o_(1)_-_1-07375-0000-0000,_Acervo_do_Museu_Paulista_da_USP.jpg" rel="noopener">Foto-Postal Colombo, autor não identificado (Museu Paulista da USP)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s3"><span class="n">03</span>O embargo de 1928</h2><p>Quando a estrutura chegava aos 24 andares, em 1928, a Prefeitura embargou a obra. A acusação, segundo o condomínio, era de falta de licença e de desrespeito às leis municipais; segundo a Itaú Cultural e a Biblioteca Nacional, havia denúncias de que o prédio podia ruir. Um artigo do Instituto São Paulo Antiga acrescenta que arquitetos afastados da obra foram aos jornais dizer que as fundações tinham sido feitas para 14 andares, e não para 24.</p><p>A cidade acreditou no pior. Registros da época contam que pedestres mudavam de calçada para não passar embaixo da construção. O caso foi parar na Justiça e virou assunto político, usado pela oposição contra Martinelli e contra a Prefeitura. Até jornais do Rio de Janeiro acompanharam a disputa, entre maio e outubro de 1928.</p><p>A saída, segundo o condomínio do prédio, foi uma comissão técnica, que examinou a obra, atestou que ela era segura e autorizou até 25 andares. Quem eram os membros dessa comissão e o que dizia o laudo não aparece nas fontes consultadas. Em abril de 1929, o jornal O Paiz já contava 25 andares construídos.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/19-casa-do-comendador.jpg" data-legenda="As varandas da Casa do Comendador, a residência que Martinelli construiu nos últimos andares do prédio, em 2015. — Wilfredor, CC BY-SA 4.0" aria-label="Ampliar imagem: Varandas com colunas e balaústres de uma casa rosada no alto de um prédio, com pináculos de pedra em fila e a cidade e montanhas ao fundo sob céu azul"><img src="../assets/img/19-casa-do-comendador.jpg" srcset="../assets/img/19-casa-do-comendador-800.jpg 800w, ../assets/img/19-casa-do-comendador.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="661" alt="Varandas com colunas e balaústres de uma casa rosada no alto de um prédio, com pináculos de pedra em fila e a cidade e montanhas ao fundo sob céu azul" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/19-casa-do-comendador.jpg" data-legenda="As varandas da Casa do Comendador, a residência que Martinelli construiu nos últimos andares do prédio, em 2015. — Wilfredor, CC BY-SA 4.0" aria-label="Ampliar imagem: Varandas com colunas e balaústres de uma casa rosada no alto de um prédio, com pináculos de pedra em fila e a cidade e montanhas ao fundo sob céu azul"><picture><source type="image/webp" srcset="../assets/img/19-casa-do-comendador-800.webp 800w, ../assets/img/19-casa-do-comendador.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/19-casa-do-comendador.jpg" srcset="../assets/img/19-casa-do-comendador-800.jpg 800w, ../assets/img/19-casa-do-comendador.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="661" alt="Varandas com colunas e balaústres de uma casa rosada no alto de um prédio, com pináculos de pedra em fila e a cidade e montanhas ao fundo sob céu azul" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 04</span><span>As varandas da Casa do Comendador, a residência que Martinelli construiu nos últimos andares do prédio, em 2015.</span><small><a href="https://commons.wikimedia.org/wiki/File:Martinelli_building_Terrace,_S%C3%A3o_Paulo_downtown,_Brazil.jpg" rel="noopener">Wilfredor</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a></small></figcaption>
 </figure><h2 id="s4"><span class="n">04</span>A casa no último andar</h2><p>Martinelli não parou nos 25. Nos cinco andares de cima construiu um palacete para a própria família, que ficou conhecido como Casa do Comendador. Segundo a Biblioteca Nacional e a Prefeitura, mudou-se para lá em 1929. O primeiro morador do prédio, porém, tinha sido o professor de dança Arturo Patrizi, instalado no quarto andar desde 1928, com a obra ainda em andamento.</p><p>A explicação mais repetida é que Martinelli foi morar no topo para provar que o prédio não cairia. Ela aparece na Itaú Cultural, na Prefeitura e em quase todo texto sobre o edifício, mas nenhuma das fontes consultadas traz uma frase dele dizendo isso. O condomínio do prédio conta outra versão: a casa de cinco andares foi a forma de passar do limite de 25 andares fixado pela comissão e chegar aos 30, como Gustave Eiffel, que tinha um apartamento no alto da sua torre.</p><p>Em 1929 o Martinelli abriu as portas, ainda inacabado. O Cine Rosário, o cinema do prédio, foi inaugurado em 02/09/1929, e a revista O Cruzeiro o chamou de a maior obra de cimento armado do mundo, título que o Edifício A Noite, no Rio de Janeiro, disputava ao mesmo tempo. A altura publicada era de 105,65 metros. Em 24/11/1929, um curto-circuito no 26º andar, onde ficavam os motores dos elevadores e ainda havia muita madeira de obra, provocou um incêndio que as mangueiras dos bombeiros não alcançavam. O fogo foi combatido com baldes passados de mão em mão e não deixou mortos.</p><h2 id="s5"><span class="n">05</span>A crise, a guerra e o leilão</h2><p>O ano da inauguração foi também o da quebra da Bolsa de Nova York. A crise atingiu a empresa de navegação de Martinelli, e os apartamentos e salas não foram vendidos como ele esperava. Com as dívidas da obra, ele vendeu o prédio, em 1933 ou 1934, conforme a fonte, ao Istituto Nazionale di Credito per il Lavoro Italiano all&#x27;Estero, uma instituição do governo italiano. A obra foi dada como concluída em 1934.</p><p>Nos anos seguintes, o prédio abrigou também sedes de agremiações políticas, como o Club Republicano Paulista. Em 1943, com o Brasil em guerra contra o Eixo desde o ano anterior, a União confiscou os bens italianos, e o prédio, rebatizado Edifício América, foi leiloado em 1944. Pouco depois, já tinha 103 donos.</p><h2 id="s6"><span class="n">06</span>Do cortiço à reforma</h2><p>Dividido entre mais de cem donos, o edifício virou um cortiço vertical a partir dos anos 1950 ou 1960, conforme a fonte. Elevadores pararam, o lixo se acumulou nos poços, e o prédio passou das colunas sociais para as páginas policiais, com crimes que nunca foram esclarecidos.</p><p>Em 1975, o prefeito Olavo Setúbal desapropriou o Martinelli e retirou os moradores. A reforma trocou as instalações elétricas e hidráulicas, instalou elevadores novos e um sistema contra incêndio e limpou a fachada; as pinturas internas originais se perderam. O prédio foi reinaugurado em 04/05/1979 como sede de secretarias municipais, uso que mantém. Segundo a SP Urbanismo, a volumetria e as fachadas foram tombadas a partir dos anos 1980 pelo Conpresp e pelo Condephaat.</p><h2 id="s7"><span class="n">07</span>O topo que a Prefeitura quis barrar</h2><p>A cobertura foi restaurada a partir de 2008 e o terraço do 26º andar ficou aberto a visitas de 2010 ao começo de 2017. Em 2023, a Prefeitura concedeu os andares 25 a 28, o terraço, uma loja do térreo e o subsolo ao Grupo Tokyo, por 15 anos, para um mirante com museu, bares e restaurante. Em 2024, ano do centenário do início da obra, o prédio recebeu mais de 100 mil visitantes, segundo a concessionária.</p><p>Em julho de 2026, as visitas guiadas gratuitas ao terraço voltaram, às terças-feiras, durante as obras de modernização, que continuavam. Desde 2010, o topo que a Prefeitura tentou barrar em 1928 é o lugar para onde a Prefeitura leva os turistas.</p>
     
@@ -98,7 +385,7 @@
     </section>
 
     <a class="proximo-ep" href="tunel-do-tamisa.html">
-      <div class="foto"><img src="../assets/img/20-capa.jpg" srcset="../assets/img/20-capa-800.jpg 800w, ../assets/img/20-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1077" alt="Gravura antiga em preto e branco: galeria de tijolo em arco que se perde ao fundo, com arcadas laterais iluminadas por lampiões, pedestres de cartola e dois homens puxando uma carreta no piso de pedra" loading="lazy" decoding="async"></div>
+      <div class="foto"><picture><source type="image/webp" srcset="../assets/img/20-capa-800.webp 800w, ../assets/img/20-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/20-capa.jpg" srcset="../assets/img/20-capa-800.jpg 800w, ../assets/img/20-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1077" alt="Gravura antiga em preto e branco: galeria de tijolo em arco que se perde ao fundo, com arcadas laterais iluminadas por lampiões, pedestres de cartola e dois homens puxando uma carreta no piso de pedra" loading="lazy" decoding="async"></picture></div>
       <div class="txt">
         <span class="rotulo">Próximo episódio · Obra <b>20</b> · <span class="selo-estreia" data-estreia="2027-02-18" data-no-ar="no ar">estreia 18 fev 2027</span></span>
         <h3>Túnel do Tâmisa</h3>
@@ -107,6 +394,8 @@
         <span class="ir">Ler a obra →</span>
       </div>
     </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MAIS</span>Leia também</h2><ul><li><a href="empire-state.html"><span class="rotulo">Obra <b>02</b> · Estados Unidos</span><strong>Empire State Building</strong><span class="onde">1930–1931</span></a></li><li><a href="edificio-ingalls.html"><span class="rotulo">Obra <b>23</b> · Estados Unidos</span><strong>Edifício Ingalls</strong><span class="onde">1902–1904</span></a></li><li><a href="masp.html"><span class="rotulo">Obra <b>15</b> · Brasil</span><strong>MASP</strong><span class="onde">1960–1968</span></a></li></ul></section>
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes"><li>Andrea C. T. Wanderley, &quot;O Edifício Martinelli, antigo referencial e símbolo de São Paulo&quot;, Brasiliana Fotográfica, Biblioteca Nacional, 2022 — <a href="https://brasilianafotografica.bn.gov.br/?p=27521" rel="noopener">brasilianafotografica.bn.gov.br</a></li><li>&quot;Edifício Martinelli&quot;, Enciclopédia Itaú Cultural, 2024 — <a href="https://enciclopedia.itaucultural.org.br/obra69058/edificio-martinelli" rel="noopener">enciclopedia.itaucultural.org.br</a></li><li>Prefeitura de São Paulo, Secretaria Municipal de Habitação, &quot;A história de Martinelli, o imigrante que sonhou subir aos céus&quot;, 2006 — <a href="https://prefeitura.sp.gov.br/web/habitacao/w/noticias/4230" rel="noopener">prefeitura.sp.gov.br</a></li><li>Maria Cecília Naclério Homem, O Prédio Martinelli: a ascensão do imigrante e a verticalização de São Paulo, Projeto Editores, 1984</li><li>Condomínio Prédio Martinelli, &quot;História do Prédio Martinelli&quot; — <a href="http://www.prediomartinelli.com.br/historia-do-predio-martinelli-2/" rel="noopener">prediomartinelli.com.br</a></li><li>IAU-USP, Arquitetura Italiana em São Paulo, ficha &quot;Edifício Martinelli&quot;, 2022 — <a href="https://arquitalianasaopaulo.iau.usp.br/obras/edificio-martinelli/" rel="noopener">arquitalianasaopaulo.iau.usp.br</a></li><li>Silvia A. P. Zakia, &quot;Edifício Santana, o primeiro arranha-céu de Campinas&quot;, Oculum Ensaios, 2011 — <a href="https://www.redalyc.org/pdf/3517/351732215003.pdf" rel="noopener">redalyc.org</a></li><li>Douglas Nascimento, &quot;O incêndio do Martinelli&quot;, São Paulo Antiga, 2019 — <a href="https://saopauloantiga.com.br/o-incendio-do-martinelli/" rel="noopener">saopauloantiga.com.br</a></li><li>&quot;O real legado do Edifício Martinelli para o céu de São Paulo&quot;, São Paulo Antiga, 2016 — <a href="https://saopauloantiga.com.br/o-real-legado-do-edificio-martinell/" rel="noopener">saopauloantiga.com.br</a></li><li>Claudia Crescente, &quot;Edifício Martinelli guarda mistérios e assombrações&quot;, Folha de S.Paulo (reproduzido pelo Jornal GGN, 2014) — <a href="https://jornalggn.com.br/cultura/os-misterios-do-edificio-martinelli/" rel="noopener">jornalggn.com.br</a></li><li>SP Urbanismo, &quot;Prefeitura vai conceder terraço do Edifício Martinelli para implantação de observatório&quot;, 2019 — <a href="https://gestaourbana.prefeitura.sp.gov.br/noticias/prefeitura-vai-conceder-terraco-do-edificio-martinelli-para-implantacao-de-observatorio/" rel="noopener">gestaourbana.prefeitura.sp.gov.br</a></li><li>SP Urbanismo, &quot;Concessão transforma Terraço Martinelli em novo espaço cultural e de lazer no centro de SP&quot;, 2023 — <a href="https://gestaourbana.prefeitura.sp.gov.br/noticias/concessao-transforma-terraco-martinelli-em-novo-espaco-cultural-e-de-lazer-no-centro-de-sp/" rel="noopener">gestaourbana.prefeitura.sp.gov.br</a></li><li>Revista PROJETO, &quot;Edifício Martinelli reabre visitas guiadas gratuitas ao terraço&quot;, 2026 — <a href="https://revistaprojeto.com.br/noticias/edificio-martinelli-reabre-visitas-guiadas-gratuitas-ao-terraco/" rel="noopener">revistaprojeto.com.br</a></li><li>Prefeitura de São Paulo, &quot;Edifício Martinelli retoma visitas guiadas gratuitas para o público&quot;, 2025 — <a href="https://prefeitura.sp.gov.br/w/edif%C3%ADcio-martinelli-na-regi%C3%A3o-central-retoma-programa%C3%A7%C3%A3o-de-visitas-guiadas-gratuitas-para-o-p%C3%BAblico" rel="noopener">prefeitura.sp.gov.br</a></li></ol>

@@ -53,3 +53,18 @@ Grau de confiança (`conf`), o mesmo da apuração:
 - `1` uma fonte só
 - `DIV` as fontes divergem — o valor mostra as versões, o site não escolhe
 - `sem` ninguém registrou — o valor diz isso com todas as letras
+
+## Campos opcionais de busca e navegação (03/10/2026)
+
+- `"titulo_seo": "Como foi construído o Cristo Redentor (1922–1931)"` — substitui
+  o `<title>` padrão (`obra (período) · marca`) quando a obra é buscada de
+  outro jeito: "como foi construído o…", o nome em inglês ("Hoover Dam",
+  "Forth Bridge"). Até 60 caracteres e único; o build para fora disso. Saiu do
+  autocomplete do Google em pt-BR; nunca afirma o que a página não sustenta.
+- `"relacionados": ["slug", "slug", "slug"]` — o bloco "Leia também" no fim da
+  página: três obras de assunto próximo (pontes pênseis, arranha-céus,
+  túneis…). O build para se um slug não existir, repetir, for a própria obra
+  ou for o `proximo` (que já tem bloco próprio).
+
+Imagens: o build gera sozinho a cópia `.webp` de cada JPEG (e da versão
+`-800`) e serve as duas num `<picture>`; não é preciso fazer nada à mão.

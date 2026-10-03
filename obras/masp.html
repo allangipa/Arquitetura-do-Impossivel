@@ -3,19 +3,306 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MASP (1960–1968) · Arquitetura do Impossível</title>
+<title>Como foi construído o MASP e seu vão livre (1960–1968)</title>
 <meta name="description" content="Como Lina Bo Bardi e Figueiredo Ferraz suspenderam o MASP sobre um vão livre na Paulista, por que ele ficou vermelho e o que mudou em 2026.">
 <link rel="canonical" href="https://arquiteturadoimpossivel.com.br/obras/masp.html">
+<meta name="robots" content="max-image-preview:large">
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../assets/img/15-capa-800.webp 800w, ../assets/img/15-capa.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <meta name="google-adsense-account" content="ca-pub-4401770243539507">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-<link rel="stylesheet" href="../assets/arquitetura.css">
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="MASP (1960–1968) · Arquitetura do Impossível">
+<meta property="og:title" content="Como foi construído o MASP e seu vão livre (1960–1968)">
 <meta property="og:description" content="Como Lina Bo Bardi e Figueiredo Ferraz suspenderam o MASP sobre um vão livre na Paulista, por que ele ficou vermelho e o que mudou em 2026.">
 <meta property="og:url" content="https://arquiteturadoimpossivel.com.br/obras/masp.html">
 <meta property="og:image" content="https://arquiteturadoimpossivel.com.br/assets/img/og-masp.jpg">
@@ -53,7 +340,7 @@
 </header>
 <main id="conteudo">
 <header class="capa">
-  <img src="../assets/img/15-capa.jpg" srcset="../assets/img/15-capa-800.jpg 800w, ../assets/img/15-capa.jpg 1600w" sizes="100vw" width="1600" height="1067" alt="Caixa de vidro escuro e concreto suspensa sobre a calçada, presa entre dois grandes pórticos vermelhos, com pedestres passando por baixo e prédios altos ao fundo" loading="eager" decoding="async" style="object-position:55% 50%">
+  <picture><source type="image/webp" srcset="../assets/img/15-capa-800.webp 800w, ../assets/img/15-capa.webp 1600w" sizes="100vw"><img src="../assets/img/15-capa.jpg" srcset="../assets/img/15-capa-800.jpg 800w, ../assets/img/15-capa.jpg 1600w" sizes="100vw" width="1600" height="1067" alt="Caixa de vidro escuro e concreto suspensa sobre a calçada, presa entre dois grandes pórticos vermelhos, com pedestres passando por baixo e prédios altos ao fundo" loading="eager" fetchpriority="high" decoding="async" style="object-position:55% 50%"></picture>
   <span class="credito-capa">O MASP visto da Avenida Paulista em 2017: o volume suspenso, os pórticos vermelhos e a praça aberta embaixo. — <a href="https://commons.wikimedia.org/wiki/File:MASP_2017_001.jpg" rel="noopener">Mike Peel</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a></span>
   <div class="casca">
     <span class="rotulo">Obra <b>15</b> · Brasil</span>
@@ -74,16 +361,16 @@
     <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span> Confirmado em duas ou mais fontes independentes.</span><span><span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span> Uma fonte só; o texto diz qual.</span><span><span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span> As fontes discordam; mostramos as versões e não escolhemos.</span><span><span class="conf conf-sem" title="Ninguém registrou. Dizemos isso em vez de inventar.">sem registro</span> Ninguém registrou. Dizemos isso em vez de inventar.</span></div>
 
     <h2 id="s1"><span class="n">01</span>Um museu à procura de chão</h2><p>O MASP nasceu em 1947, no centro de São Paulo, em andares do edifício dos Diários Associados, o império de jornais e rádios de Assis Chateaubriand. Quem o dirigia era o crítico italiano Pietro Maria Bardi, e quem desenhava as salas e as exposições era a mulher dele, a arquiteta Lina Bo Bardi, chegada ao Brasil em 1946. O museu cresceu depressa e precisou de casa.</p><p>A casa ficou no alto da Avenida Paulista, no terreno onde existira o Belvedere Trianon, um mirante projetado por Ramos de Azevedo, inaugurado em 1916 e demolido em 1951. Dali se via o vale da Avenida Nove de Julho, que passa em túneis por baixo do terreno, na direção do centro. O mesmo lote recebeu a primeira Bienal de São Paulo, em 1951, e foi disputado pelo Museu de Arte Moderna de Ciccillo Matarazzo, que chegou a encomendar um projeto a Affonso Eduardo Reidy, nunca construído.</p><p>Segundo o plano de conservação da estrutura feito pelo museu, Lina começou o projeto em 1957, e a obra, municipal, começou em 1960; outras fontes falam em 1958.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/15-belvedere-1923.jpg" data-legenda="A Avenida Paulista num cartão-postal de cerca de 1923, com o Belvedere Trianon à esquerda, no terreno onde hoje fica o MASP. — Autor não identificado, Domínio público" aria-label="Ampliar imagem: Cartão-postal colorido antigo: uma avenida larga com bonde e pedestres de roupas dos anos 1920, um pavilhão amarelo com telhado vermelho à esquerda e uma pérgola de colunas à direita"><img src="../assets/img/15-belvedere-1923.jpg" srcset="../assets/img/15-belvedere-1923-800.jpg 800w, ../assets/img/15-belvedere-1923.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="913" alt="Cartão-postal colorido antigo: uma avenida larga com bonde e pedestres de roupas dos anos 1920, um pavilhão amarelo com telhado vermelho à esquerda e uma pérgola de colunas à direita" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/15-belvedere-1923.jpg" data-legenda="A Avenida Paulista num cartão-postal de cerca de 1923, com o Belvedere Trianon à esquerda, no terreno onde hoje fica o MASP. — Autor não identificado, Domínio público" aria-label="Ampliar imagem: Cartão-postal colorido antigo: uma avenida larga com bonde e pedestres de roupas dos anos 1920, um pavilhão amarelo com telhado vermelho à esquerda e uma pérgola de colunas à direita"><picture><source type="image/webp" srcset="../assets/img/15-belvedere-1923-800.webp 800w, ../assets/img/15-belvedere-1923.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/15-belvedere-1923.jpg" srcset="../assets/img/15-belvedere-1923-800.jpg 800w, ../assets/img/15-belvedere-1923.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="913" alt="Cartão-postal colorido antigo: uma avenida larga com bonde e pedestres de roupas dos anos 1920, um pavilhão amarelo com telhado vermelho à esquerda e uma pérgola de colunas à direita" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 02</span><span>A Avenida Paulista num cartão-postal de cerca de 1923, com o Belvedere Trianon à esquerda, no terreno onde hoje fica o MASP.</span><small><a href="https://commons.wikimedia.org/wiki/File:Avenida_Paulista_1923_Belvedere_Trianon.jpg" rel="noopener">Autor não identificado</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s2"><span class="n">02</span>Deixar a cidade passar por baixo</h2><p>A ideia de Lina foi não ocupar o chão. O museu seria uma caixa de vidro de dois andares, suspensa oito metros acima da calçada, e o térreo ficaria livre, como uma praça coberta com vista para o vale. Embaixo, encaixado no desnível do terreno, um segundo volume semienterrado abrigaria auditórios e salas de exposição.</p><p>Por muito tempo se contou que esse vão livre era uma obrigação: Joaquim Eugênio de Lima, criador da Avenida Paulista, teria doado o terreno à Prefeitura exigindo que a vista do belvedere fosse preservada. A história aparece em livros, em páginas oficiais e até em processos de preservação. Em 2019, o historiador Daniele Pisani publicou que não houve doação nem cláusula: o lote teria sido vendido à Prefeitura por José Borges de Figueiredo, sócio de Lima, e a versão da exigência teria sido difundida por Pietro Maria Bardi. Se Pisani estiver certo, o vão não foi imposto a Lina. Foi escolha dela.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/15-obra-1965.jpg" data-legenda="A obra em novembro de 1965: o volume superior ainda inteiro dentro dos andaimes do escoramento. — Autor não identificado (Arquivo Histórico de São Paulo, Prefeitura de São Paulo), Domínio público" aria-label="Ampliar imagem: Fotografia aérea em preto e branco: um bloco retangular coberto de andaimes sobre uma base de concreto, ao lado de uma rotatória, cercado de árvores e prédios"><img src="../assets/img/15-obra-1965.jpg" srcset="../assets/img/15-obra-1965-800.jpg 800w, ../assets/img/15-obra-1965.jpg 400w" sizes="(max-width:980px) 100vw, 720px" width="400" height="355" alt="Fotografia aérea em preto e branco: um bloco retangular coberto de andaimes sobre uma base de concreto, ao lado de uma rotatória, cercado de árvores e prédios" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/15-obra-1965.jpg" data-legenda="A obra em novembro de 1965: o volume superior ainda inteiro dentro dos andaimes do escoramento. — Autor não identificado (Arquivo Histórico de São Paulo, Prefeitura de São Paulo), Domínio público" aria-label="Ampliar imagem: Fotografia aérea em preto e branco: um bloco retangular coberto de andaimes sobre uma base de concreto, ao lado de uma rotatória, cercado de árvores e prédios"><picture><source type="image/webp" srcset="../assets/img/15-obra-1965-800.webp 800w, ../assets/img/15-obra-1965.webp 400w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/15-obra-1965.jpg" srcset="../assets/img/15-obra-1965-800.jpg 800w, ../assets/img/15-obra-1965.jpg 400w" sizes="(max-width:980px) 100vw, 720px" width="400" height="355" alt="Fotografia aérea em preto e branco: um bloco retangular coberto de andaimes sobre uma base de concreto, ao lado de uma rotatória, cercado de árvores e prédios" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 03</span><span>A obra em novembro de 1965: o volume superior ainda inteiro dentro dos andaimes do escoramento.</span><small><a href="https://commons.wikimedia.org/wiki/File:MASP_-_1965.jpg" rel="noopener">Autor não identificado (Arquivo Histórico de São Paulo, Prefeitura de São Paulo)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s3"><span class="n">03</span>O cálculo de Figueiredo Ferraz</h2><p>Para segurar a caixa sem colunas no meio, o engenheiro José Carlos de Figueiredo Ferraz, que tinha sido secretário de Obras do município, propôs dois pórticos de concreto. Cada um é formado por dois pilares e uma viga gigante no alto, na cobertura; um segundo par de vigas, entre os andares, sustenta os pisos. O vão entre os pilares aparece como 74 metros no plano de conservação do museu e como 70 metros num artigo técnico da revista AU, de 2014. As vigas da cobertura têm 78 metros de comprimento e seção oca de 2,5 por 3,5 metros.</p><p>O segredo é a protensão: cabos de aço esticados dentro do concreto, que comprimem a viga e a fazem trabalhar contra o próprio peso. Segundo o plano de conservação, Ferraz não pôde usar o sistema francês Freyssinet de ancoragem e criou o seu, o Sistema Ferraz, em que os fios fazem um laço na ponta fixa e voltam pela mesma bainha. O concreto de alta resistência foi desenvolvido durante a obra e esquentava tanto ao endurecer que as bainhas dos cabos serviram também para tirar calor.</p><p>Segundo o artigo da AU, assinado por Marcelo Suzuki e Roberto Rochlitz, a protensão levou várias semanas, um pouco a cada dia, em centenas de cabos, e encurtou as vigas em cerca de cinco centímetros. Para que elas pudessem se mover enquanto eram esticadas, um dos apoios de cada viga é articulado, com um pivô escondido dentro do pilar.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/15-vao-livre.jpg" data-legenda="Debaixo do volume suspenso, em 2013: a praça do vão livre, sem nenhuma coluna até os pilares do outro lado. — Harry Wood, CC BY-SA 2.0" aria-label="Ampliar imagem: Vista de baixo de uma enorme laje de concreto escuro sobre um piso de paralelepípedos quase vazio, com dois pilares vermelhos ao fundo e a avenida à esquerda"><img src="../assets/img/15-vao-livre.jpg" srcset="../assets/img/15-vao-livre-800.jpg 800w, ../assets/img/15-vao-livre.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1200" alt="Vista de baixo de uma enorme laje de concreto escuro sobre um piso de paralelepípedos quase vazio, com dois pilares vermelhos ao fundo e a avenida à esquerda" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/15-vao-livre.jpg" data-legenda="Debaixo do volume suspenso, em 2013: a praça do vão livre, sem nenhuma coluna até os pilares do outro lado. — Harry Wood, CC BY-SA 2.0" aria-label="Ampliar imagem: Vista de baixo de uma enorme laje de concreto escuro sobre um piso de paralelepípedos quase vazio, com dois pilares vermelhos ao fundo e a avenida à esquerda"><picture><source type="image/webp" srcset="../assets/img/15-vao-livre-800.webp 800w, ../assets/img/15-vao-livre.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/15-vao-livre.jpg" srcset="../assets/img/15-vao-livre-800.jpg 800w, ../assets/img/15-vao-livre.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1200" alt="Vista de baixo de uma enorme laje de concreto escuro sobre um piso de paralelepípedos quase vazio, com dois pilares vermelhos ao fundo e a avenida à esquerda" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 04</span><span>Debaixo do volume suspenso, em 2013: a praça do vão livre, sem nenhuma coluna até os pilares do outro lado.</span><small><a href="https://commons.wikimedia.org/wiki/File:V%C3%A3o_Livre_do_MASP_01.jpg" rel="noopener">Harry Wood</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="license noopener">CC BY-SA 2.0</a></small></figcaption>
 </figure><h2 id="s4"><span class="n">04</span>Oito metros acima da Paulista</h2><p>Os quatro pilares têm 2,5 por 4 metros de seção e 35,35 metros de altura total, dos quais 14,10 ficam enterrados, sobre sapatas de 12,5 por 9,5 metros. O primeiro andar não se apoia nas vigas intermediárias: fica pendurado nelas por tirantes. O segundo, a Pinacoteca, descansa sobre elas, num salão único sem uma divisória.</p><p>A obra foi lenta. O plano de conservação fala em dificuldades técnicas e financeiras e em vários momentos de paralisação, e uma foto do arquivo da Prefeitura, de novembro de 1965, mostra o volume superior ainda inteiro dentro dos andaimes do escoramento. Quantos operários passaram pelo canteiro, quanto a cidade gastou e se houve acidentes, as fontes consultadas não registram.</p><p>O museu foi inaugurado em 7 de novembro de 1968 pela rainha Elizabeth II, acompanhada do príncipe Philip, na única visita dela ao Brasil. Na Pinacoteca, os quadros não estavam nas paredes: flutuavam em lâminas de vidro presas a blocos de concreto, os cavaletes de cristal de Lina.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/15-anexo-2025.jpg" data-legenda="O MASP e o Edifício Pietro Maria Bardi, o anexo de 14 andares, em fevereiro de 2025, semanas antes da abertura. — Mauro Cateb, CC BY-SA 4.0" aria-label="Ampliar imagem: A caixa de vidro com pórticos vermelhos do MASP, baixa e comprida, ao lado de uma torre estreita e escura de muitos andares, numa avenida sob céu azul"><img src="../assets/img/15-anexo-2025.jpg" srcset="../assets/img/15-anexo-2025-800.jpg 800w, ../assets/img/15-anexo-2025.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1317" alt="A caixa de vidro com pórticos vermelhos do MASP, baixa e comprida, ao lado de uma torre estreita e escura de muitos andares, numa avenida sob céu azul" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/15-anexo-2025.jpg" data-legenda="O MASP e o Edifício Pietro Maria Bardi, o anexo de 14 andares, em fevereiro de 2025, semanas antes da abertura. — Mauro Cateb, CC BY-SA 4.0" aria-label="Ampliar imagem: A caixa de vidro com pórticos vermelhos do MASP, baixa e comprida, ao lado de uma torre estreita e escura de muitos andares, numa avenida sob céu azul"><picture><source type="image/webp" srcset="../assets/img/15-anexo-2025-800.webp 800w, ../assets/img/15-anexo-2025.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/15-anexo-2025.jpg" srcset="../assets/img/15-anexo-2025-800.jpg 800w, ../assets/img/15-anexo-2025.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1317" alt="A caixa de vidro com pórticos vermelhos do MASP, baixa e comprida, ao lado de uma torre estreita e escura de muitos andares, numa avenida sob céu azul" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 05</span><span>O MASP e o Edifício Pietro Maria Bardi, o anexo de 14 andares, em fevereiro de 2025, semanas antes da abertura.</span><small><a href="https://commons.wikimedia.org/wiki/File:MASP_and_its_annex.jpg" rel="noopener">Mauro Cateb</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a></small></figcaption>
 </figure><h2 id="s5"><span class="n">05</span>As vigas que cederam e o vermelho</h2><p>Quando o escoramento foi retirado, em 1968, as vigas superiores desceram mais do que o previsto. O plano de conservação atribui isso a um desempenho parcial da protensão original. A deformação fazia a água empoçar no teto, e uma vistoria de 1987 achou concreto deteriorado nas vigas e nos pilares. A cobertura foi refeita, mas a água continuava entrando: atravessava o concreto poroso das vigas e pilares externos, juntava-se no vazio dentro deles e descia até a Pinacoteca.</p><p>Em 1990, a estrutura externa foi pintada com tinta impermeabilizante vermelha, solução que, segundo o plano de conservação, foi aprovada com Lina Bo Bardi. Um dos argumentos foi a existência de croquis da arquiteta com a estrutura em vermelho, argumento que o próprio plano de conservação considera discutível. O vermelho, de todo modo, virou a imagem do prédio.</p><p>Em 1999, o escritório que sucedeu Figueiredo Ferraz fez uma segunda protensão nas vigas da cobertura, com quatro cabos novos dentro de cada viga-caixa. Ao abrir as vigas, os técnicos encontraram o interior deteriorado e fôrmas de madeira com cupins, deixadas lá dentro desde a construção. Os cavaletes de cristal saíram da Pinacoteca em 1996 e voltaram em 2015.</p><h2 id="s6"><span class="n">06</span>Cinza, vermelho e um túnel</h2><p>Em abril de 2024 começou o restauro dos pórticos, que o museu descreveu como o primeiro significativo desde a inauguração. A tinta foi retirada, as armaduras oxidadas foram tratadas, e por meses a Paulista viu os pórticos do MASP cinza. O vermelho voltou a partir de junho, numa tinta da AkzoNobel batizada de Vermelho MASP, e o restauro foi entregue em abril de 2025.</p><p>Em novembro de 2024, a Prefeitura, dona do prédio e do terreno, concedeu o vão livre ao museu por 20 anos. Em 28 de março de 2025 abriu o Edifício Pietro Maria Bardi, um prédio vizinho dos anos 1950 transformado pelo escritório METRO Arquitetos em anexo de 14 andares, pago com R$ 250 milhões em doações de pessoas físicas. O prédio de Lina passou a levar o nome dela.</p><p>Em 11 de setembro de 2026, o museu abriu a passagem subterrânea que liga os dois edifícios. Nas paredes, Beatriz Milhazes fez Pietrolina, uma obra de 98 metros, com uma pintura de 60 metros e elementos refletores numa parede de 38. O prédio que Lina levantou do chão para deixar a cidade passar por baixo ganhou, 58 anos depois, um caminho por baixo da terra, e o vão continua livre.</p>
     
@@ -101,7 +388,7 @@
     </section>
 
     <a class="proximo-ep" href="burj-khalifa.html">
-      <div class="foto"><img src="../assets/img/16-capa.jpg" srcset="../assets/img/16-capa-800.jpg 800w, ../assets/img/16-capa.jpg 1280w" sizes="(max-width:640px) 100vw, 260px" width="1280" height="857" alt="Vista aérea de uma torre altíssima em construção, ainda sem fachada no topo, projetando uma sombra comprida sobre um bairro de prédios novos, canteiros e o deserto ao fundo" loading="lazy" decoding="async" style="object-position:34% 50%"></div>
+      <div class="foto"><picture><source type="image/webp" srcset="../assets/img/16-capa-800.webp 800w, ../assets/img/16-capa.webp 1280w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/16-capa.jpg" srcset="../assets/img/16-capa-800.jpg 800w, ../assets/img/16-capa.jpg 1280w" sizes="(max-width:640px) 100vw, 260px" width="1280" height="857" alt="Vista aérea de uma torre altíssima em construção, ainda sem fachada no topo, projetando uma sombra comprida sobre um bairro de prédios novos, canteiros e o deserto ao fundo" loading="lazy" decoding="async" style="object-position:34% 50%"></picture></div>
       <div class="txt">
         <span class="rotulo">Próximo episódio · Obra <b>16</b> · <span class="selo-estreia" data-estreia="2027-01-21" data-no-ar="no ar">estreia 21 jan 2027</span></span>
         <h3>Burj Khalifa</h3>
@@ -110,6 +397,8 @@
         <span class="ir">Ler a obra →</span>
       </div>
     </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MAIS</span>Leia também</h2><ul><li><a href="congresso-nacional.html"><span class="rotulo">Obra <b>11</b> · Brasil</span><strong>Congresso Nacional</strong><span class="onde">1957–1960</span></a></li><li><a href="edificio-martinelli.html"><span class="rotulo">Obra <b>19</b> · Brasil</span><strong>Edifício Martinelli</strong><span class="onde">1924–1934</span></a></li><li><a href="maracana.html"><span class="rotulo">Obra <b>17</b> · Brasil</span><strong>Estádio do Maracanã</strong><span class="onde">1948–1950</span></a></li></ul></section>
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes"><li>Silvio Oksman (coord.) e equipe Getty-MASP, &quot;Plano de Conservação da Estrutura do MASP&quot;, Fundação Getty, programa Keeping It Modern, 2018 — <a href="https://www.getty.edu/publications-reports/item/2K7KY0" rel="noopener">getty.edu</a></li><li>Marcelo Suzuki e Roberto Rochlitz, &quot;A estrutura do Masp, de Lina Bo Bardi&quot;, revista AU, n.º 249, 2014 (reprodução do IAB-TO) — <a href="https://iabto.blogspot.com/2015/02/a-estrutura-do-masp-de-lina-bo-bardi.html" rel="noopener">iabto.blogspot.com</a></li><li>Rita Casaro, &quot;Masp, uma singular obra de arte da engenharia&quot;, Jornal do Engenheiro (SEESP), n.º 522, 2018 — <a href="https://www.seesp.org.br/site/jornal-do-engenheiro/item/17886-tecnologia-masp-uma-singular-obra-de-arte-da-engenharia" rel="noopener">seesp.org.br</a></li><li>FGV-CPDOC, verbete &quot;José Carlos de Figueiredo Ferraz&quot;, Dicionário Histórico-Biográfico Brasileiro — <a href="https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/jose-carlos-de-figueiredo-ferraz" rel="noopener">www18.fgv.br</a></li><li>Stephen Mark Caffey e Gabriela Campagnol, &quot;Dis/Solution: Lina Bo Bardi&#x27;s Museu de Arte de São Paulo&quot;, Journal of Conservation and Museum Studies, 2015 — <a href="https://jcms-journal.com/articles/10.5334/jcms.1021221" rel="noopener">jcms-journal.com</a></li><li>Daniele Pisani, &quot;O Trianon do MAM ao Masp: arquitetura e política em São Paulo (1946–1968)&quot;, Editora 34, 2019</li><li>Folha de S.Paulo, &quot;Historiador revela mentira sobre vão-livre do Masp antes da construção do museu&quot;, 09/07/2019 (reprodução do Fórum Permanente) — <a href="https://www.forumpermanente.org/imprensa/dossie-masp/historiador-revela-mentira-sobre-vao-livre-do-masp-antes-da-construcao-do-museu" rel="noopener">forumpermanente.org</a></li><li>Prefeitura de São Paulo, &quot;Prefeitura concederá vão-livre do Masp ao próprio museu por 20 anos para atividades culturais&quot;, 12/11/2024 — <a href="https://prefeitura.sp.gov.br/w/prefeitura-conceder%C3%A1-v%C3%A3o-livre-do-masp-ao-pr%C3%B3prio-museu-por-20-anos-para-atividades-culturais%C2%A0" rel="noopener">prefeitura.sp.gov.br</a></li><li>Tribunal de Contas do Município de São Paulo, &quot;MASP&quot; — <a href="https://lgpd.tcm.sp.gov.br/Pagina/66304" rel="noopener">lgpd.tcm.sp.gov.br</a></li><li>Poder360, &quot;Rainha Elizabeth inaugurou prédio do Masp na Avenida Paulista&quot;, 09/09/2022 — <a href="https://www.poder360.com.br/brasil/rainha-elizabeth-inaugurou-predio-do-masp-na-avenida-paulista/" rel="noopener">poder360.com.br</a></li><li>Correio Braziliense, &quot;Como foi construído o vão livre do Masp&quot; — <a href="https://www.correiobraziliense.com.br/cbradar/como-foi-construido-o-vao-livre-do-masp/" rel="noopener">correiobraziliense.com.br</a></li><li>IstoÉ Dinheiro, &quot;Masp abre mão do vermelho durante restauro do prédio de Lina Bo Bardi&quot;, 23/04/2024 — <a href="https://istoedinheiro.com.br/masp-abre-mao-do-vermelho-durante-restauro-do-predio-de-lina-bo-bardi" rel="noopener">istoedinheiro.com.br</a></li><li>Cimento Itambé, &quot;MASP realiza o maior projeto de restauro desde a sua inauguração&quot;, 15/05/2024 — <a href="https://www.cimentoitambe.com.br/masp-realiza-o-maior-projeto-de-restauro-desde-a-sua-inauguracao/" rel="noopener">cimentoitambe.com.br</a></li><li>CNN Brasil, &quot;Cor vermelha volta a fazer parte da fachada do Masp&quot;, 10/06/2024 — <a href="https://www.cnnbrasil.com.br/nacional/cor-vermelha-volta-a-fazer-parte-da-fachada-do-masp-veja-imagens/" rel="noopener">cnnbrasil.com.br</a></li><li>Folha do ABC, &quot;MASP entrega restauro dos pórticos com sistema de pintura da AkzoNobel&quot;, 20/04/2025 — <a href="https://folhadoabc.com.br/masp-entrega-restauro-dos-porticos-com-sistema-de-pintura-da-akzonobel/" rel="noopener">folhadoabc.com.br</a></li><li>Elle Brasil, &quot;Novo edifício do Masp será aberto ao público em março de 2025&quot;, 26/11/2024 — <a href="https://elle.com.br/elle-decoration/novo-edificio-do-masp" rel="noopener">elle.com.br</a></li><li>Cidade de São Paulo, &quot;MASP inaugura novo edifício Pietro Maria Bardi e expõe Cinco Ensaios sobre o MASP&quot;, 2025 — <a href="https://cidadedesaopaulo.com/masp-inaugura-novo-edificio-pietro-maria-bardi-e-expoe-cinco-ensaios-sobre-o-masp/" rel="noopener">cidadedesaopaulo.com</a></li><li>Portal Tela, &quot;MASP inaugura túnel subterrâneo com instalação de quase 100 metros&quot;, 10/09/2026 — <a href="https://www.portaltela.com/entretenimento/2026/09/10/masp-inaugura-tunel-subterraneo-com-instalacao-de-quase-100-metros/" rel="noopener">portaltela.com</a></li><li>Portal Democrata, &quot;Masp abre nova passagem subterrânea na Avenida Paulista&quot;, 11/09/2026 — <a href="https://portaldemocrata.com.br/2026/09/11/masp-abre-nova-passagem-subterranea-na-avenida-paulista-para-facilitar-a-mobilidade-urbana/" rel="noopener">portaldemocrata.com.br</a></li><li>Revista Business, &quot;Beatriz Milhazes transforma passagem do MASP em obra imersiva de 98 metros na Avenida Paulista&quot;, 17/09/2026 — <a href="https://revistabusiness.com.br/2026/09/17/beatriz-milhazes-leva-ao-masp-sua-maior-obra-de-arte-em-arquitetura-com-98-metros-em-passagem-subterranea/" rel="noopener">revistabusiness.com.br</a></li><li>Wikipédia, &quot;Museu de Arte de São Paulo&quot; (ponto de partida) — <a href="https://pt.wikipedia.org/wiki/Museu_de_Arte_de_S%C3%A3o_Paulo" rel="noopener">pt.wikipedia.org</a></li></ol>

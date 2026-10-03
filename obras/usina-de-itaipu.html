@@ -3,19 +3,306 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Usina de Itaipu (1975–1984) · Arquitetura do Impossível</title>
+<title>Como foi construída a Usina de Itaipu (1975–1984)</title>
 <meta name="description" content="Como Brasil e Paraguai desviaram o rio Paraná, ergueram Itaipu e cobriram Sete Quedas em 14 dias, e por que a conta dos mortos ainda é uma estimativa.">
 <link rel="canonical" href="https://arquiteturadoimpossivel.com.br/obras/usina-de-itaipu.html">
+<meta name="robots" content="max-image-preview:large">
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../assets/img/05-itaipu-aerea-800.webp 800w, ../assets/img/05-itaipu-aerea.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <meta name="google-adsense-account" content="ca-pub-4401770243539507">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-<link rel="stylesheet" href="../assets/arquitetura.css">
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="Usina de Itaipu (1975–1984) · Arquitetura do Impossível">
+<meta property="og:title" content="Como foi construída a Usina de Itaipu (1975–1984)">
 <meta property="og:description" content="Como Brasil e Paraguai desviaram o rio Paraná, ergueram Itaipu e cobriram Sete Quedas em 14 dias, e por que a conta dos mortos ainda é uma estimativa.">
 <meta property="og:url" content="https://arquiteturadoimpossivel.com.br/obras/usina-de-itaipu.html">
 <meta property="og:image" content="https://arquiteturadoimpossivel.com.br/assets/img/og-usina-de-itaipu.jpg">
@@ -53,7 +340,7 @@
 </header>
 <main id="conteudo">
 <header class="capa">
-  <img src="../assets/img/05-itaipu-aerea.jpg" srcset="../assets/img/05-itaipu-aerea-800.jpg 800w, ../assets/img/05-itaipu-aerea.jpg 1600w" sizes="100vw" width="1600" height="1067" alt="Vista aérea da Usina de Itaipu: o vertedouro à esquerda, a barragem em curva e o reservatório ao fundo, com o rio Paraná em primeiro plano" loading="eager" decoding="async" style="object-position:45% 55%">
+  <picture><source type="image/webp" srcset="../assets/img/05-itaipu-aerea-800.webp 800w, ../assets/img/05-itaipu-aerea.webp 1600w" sizes="100vw"><img src="../assets/img/05-itaipu-aerea.jpg" srcset="../assets/img/05-itaipu-aerea-800.jpg 800w, ../assets/img/05-itaipu-aerea.jpg 1600w" sizes="100vw" width="1600" height="1067" alt="Vista aérea da Usina de Itaipu: o vertedouro à esquerda, a barragem em curva e o reservatório ao fundo, com o rio Paraná em primeiro plano" loading="eager" fetchpriority="high" decoding="async" style="object-position:45% 55%"></picture>
   <span class="credito-capa">Itaipu vista do alto, com o reservatório atrás da barragem e o rio Paraná abaixo dela. — <a href="https://commons.wikimedia.org/wiki/File:Itaipu_Aerea.jpg" rel="noopener">International Hydropower Association (IHA)</a> · <a href="https://creativecommons.org/licenses/by/2.0/" rel="license noopener">CC BY 2.0</a></span>
   <div class="casca">
     <span class="rotulo">Obra <b>05</b> · Brasil</span>
@@ -74,13 +361,13 @@
     <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span> Confirmado em duas ou mais fontes independentes.</span><span><span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span> Uma fonte só; o texto diz qual.</span><span><span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span> As fontes discordam; mostramos as versões e não escolhemos.</span><span><span class="conf conf-sem" title="Ninguém registrou. Dizemos isso em vez de inventar.">sem registro</span> Ninguém registrou. Dizemos isso em vez de inventar.</span></div>
 
     <h2 id="s1"><span class="n">01</span>Uma fronteira em cima da cachoeira</h2><p>O problema começou como disputa de mapa. Nos anos 1960, Brasil e Paraguai disputavam a área dos saltos de Sete Quedas, entre Guaíra, no Paraná, Brasil, e Salto del Guairá, no Paraguai. A saída veio em 22 de junho de 1966: a Ata do Iguaçu, negociada a partir de Porto Presidente Stroessner (hoje Ciudad del Este, Paraguai) e assinada em Foz do Iguaçu, Brasil, trocou a briga pela fronteira por um projeto comum, o aproveitamento do rio Paraná.</p><p>Sete anos depois, em 26 de abril de 1973, em Brasília, os chanceleres Mário Gibson Barboza e Raúl Sapena Pastor assinaram o Tratado de Itaipu. O texto cria uma entidade com dono duplo: a Itaipu Binacional, constituída em 17 de maio de 1974, com capital de 100 milhões de dólares dividido em partes iguais e intransferíveis entre a Eletrobras e a paraguaia ANDE. A energia também seria dividida ao meio, e cada país teria direito de comprar o que o outro não usasse.</p><p>A divisão chegou às máquinas. O Paraguai usa corrente em 50 hertz; o Brasil, em 60. Por isso a usina tem 20 unidades de 700 megawatts, metade girando num ritmo e metade no outro, para um total de 14.000 megawatts.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/05-sete-quedas-1929.jpg" data-legenda="O rio Paraná no Salto das Sete Quedas, fotografado em 1929–1930, mais de cinquenta anos antes de o lago cobrir as quedas. — B. Rondon (Arquivo Nacional, Fundo Ministério da Guerra), Domínio público" aria-label="Ampliar imagem: Fotografia antiga em sépia do rio Paraná estrangulado entre paredões de rocha no Salto das Sete Quedas, com quedas d&#x27;água ao fundo"><img src="../assets/img/05-sete-quedas-1929.jpg" srcset="../assets/img/05-sete-quedas-1929-800.jpg 800w, ../assets/img/05-sete-quedas-1929.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="704" alt="Fotografia antiga em sépia do rio Paraná estrangulado entre paredões de rocha no Salto das Sete Quedas, com quedas d&#x27;água ao fundo" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/05-sete-quedas-1929.jpg" data-legenda="O rio Paraná no Salto das Sete Quedas, fotografado em 1929–1930, mais de cinquenta anos antes de o lago cobrir as quedas. — B. Rondon (Arquivo Nacional, Fundo Ministério da Guerra), Domínio público" aria-label="Ampliar imagem: Fotografia antiga em sépia do rio Paraná estrangulado entre paredões de rocha no Salto das Sete Quedas, com quedas d&#x27;água ao fundo"><picture><source type="image/webp" srcset="../assets/img/05-sete-quedas-1929-800.webp 800w, ../assets/img/05-sete-quedas-1929.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/05-sete-quedas-1929.jpg" srcset="../assets/img/05-sete-quedas-1929-800.jpg 800w, ../assets/img/05-sete-quedas-1929.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="704" alt="Fotografia antiga em sépia do rio Paraná estrangulado entre paredões de rocha no Salto das Sete Quedas, com quedas d&#x27;água ao fundo" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 02</span><span>O rio Paraná no Salto das Sete Quedas, fotografado em 1929–1930, mais de cinquenta anos antes de o lago cobrir as quedas.</span><small><a href="https://commons.wikimedia.org/wiki/File:Guayra_-_Estrangulamento_do_Rio_Paran%C3%A1_no_Salto_das_Sete_Quedas,_na_fronteira_Brasil-Paraguai_(2).jpg" rel="noopener">B. Rondon (Arquivo Nacional, Fundo Ministério da Guerra)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s2"><span class="n">02</span>Tirar o rio do lugar</h2><p>Uma barragem não se constrói dentro da correnteza. Para trabalhar no leito do rio Paraná, os engenheiros abriram um canal de desvio na margem: cerca de 2 km de comprimento, 150 m de largura e 90 m de profundidade, segundo a Itaipu. Duas ensecadeiras, arcos de concreto, seguravam a água fora do canal enquanto ele era escavado.</p><p>Em 20 de outubro de 1978, 58 toneladas de explosivos derrubaram as duas ensecadeiras, e o rio passou a correr pelo caminho novo. Os presidentes Ernesto Geisel e Alfredo Stroessner se encontraram no meio da Ponte da Amizade e acionaram a chave juntos. Com o leito seco, começou a barragem propriamente dita.</p><p>Ao fim, a obra escavou mais de 50 milhões de metros cúbicos de terra e rocha e consumiu mais de 12 milhões de metros cúbicos de concreto. A própria Itaipu publica três números para o concreto, 12,3, 12,6 e 12,7 milhões, sem explicar a diferença. A barragem, somados os trechos de concreto, enrocamento e terra, chega a 7.919 m de extensão e 196 m de altura.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/05-vertedouro.jpg" data-legenda="O vertedouro de Itaipu com comportas abertas, em 2008. — Cmasi, CC BY-SA 4.0" aria-label="Ampliar imagem: O vertedouro de Itaipu com parte das comportas abertas e a água descendo pelas calhas de concreto"><img src="../assets/img/05-vertedouro.jpg" srcset="../assets/img/05-vertedouro-800.jpg 800w, ../assets/img/05-vertedouro.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1067" alt="O vertedouro de Itaipu com parte das comportas abertas e a água descendo pelas calhas de concreto" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/05-vertedouro.jpg" data-legenda="O vertedouro de Itaipu com comportas abertas, em 2008. — Cmasi, CC BY-SA 4.0" aria-label="Ampliar imagem: O vertedouro de Itaipu com parte das comportas abertas e a água descendo pelas calhas de concreto"><picture><source type="image/webp" srcset="../assets/img/05-vertedouro-800.webp 800w, ../assets/img/05-vertedouro.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/05-vertedouro.jpg" srcset="../assets/img/05-vertedouro-800.jpg 800w, ../assets/img/05-vertedouro.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1067" alt="O vertedouro de Itaipu com parte das comportas abertas e a água descendo pelas calhas de concreto" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 03</span><span>O vertedouro de Itaipu com comportas abertas, em 2008.</span><small><a href="https://commons.wikimedia.org/wiki/File:Itaipu_spillway_4081_filtered.jpg" rel="noopener">Cmasi</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a></small></figcaption>
 </figure><h2 id="s3"><span class="n">03</span>O canteiro</h2><p>Quantos homens trabalharam ao mesmo tempo depende de quem conta. Os registros das construtoras, citados pelos historiadores Pedro Henrique Pedreira Campos e Valdir Sessi e pela Agência Pública, dão quase 32 mil no canteiro em 1978. A Itaipu fala em cerca de 40 mil, somando o canteiro e os escritórios de apoio nos dois países. Pela rotatividade, mais de 100 mil pessoas passaram pela obra.</p><p>A obra era também uma cidade dividida. Em Foz do Iguaçu, a Vila A abrigava técnicos e administrativos; a Vila B, a alta chefia; a Vila C, os operários de menor qualificação. Muitos não eram barrageiros de carreira, mas lavradores da região trazidos por agenciadores.</p><p>E era vigiada. Pesquisas acadêmicas documentam que a Assessoria Especial de Segurança e Informação da Itaipu, presente dos dois lados da fronteira, espionava trabalhadores e trocava informações com órgãos de informação e repressão da ditadura, como o SNI e o DOPS. A guarda da usina vestia marrom, e os operários a chamavam de Guarda Marrom. Greves só ganharam corpo depois da fundação do sindicato local, em 1986; nas de 1987 houve tropas e veículos militares no canteiro.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/05-reservatorio.jpg" data-legenda="O reservatório de Itaipu em 2020: 1.350 km² de água onde antes corriam o rio e as quedas. — Falk2, CC BY-SA 4.0" aria-label="Ampliar imagem: O reservatório de Itaipu visto da margem, com vegetação em primeiro plano e estruturas da usina ao fundo"><img src="../assets/img/05-reservatorio.jpg" srcset="../assets/img/05-reservatorio-800.jpg 800w, ../assets/img/05-reservatorio.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1067" alt="O reservatório de Itaipu visto da margem, com vegetação em primeiro plano e estruturas da usina ao fundo" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/05-reservatorio.jpg" data-legenda="O reservatório de Itaipu em 2020: 1.350 km² de água onde antes corriam o rio e as quedas. — Falk2, CC BY-SA 4.0" aria-label="Ampliar imagem: O reservatório de Itaipu visto da margem, com vegetação em primeiro plano e estruturas da usina ao fundo"><picture><source type="image/webp" srcset="../assets/img/05-reservatorio-800.webp 800w, ../assets/img/05-reservatorio.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/05-reservatorio.jpg" srcset="../assets/img/05-reservatorio-800.jpg 800w, ../assets/img/05-reservatorio.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1067" alt="O reservatório de Itaipu visto da margem, com vegetação em primeiro plano e estruturas da usina ao fundo" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 04</span><span>O reservatório de Itaipu em 2020: 1.350 km² de água onde antes corriam o rio e as quedas.</span><small><a href="https://commons.wikimedia.org/wiki/File:J37_816_embalse_Itaip%C3%BA,_presa.jpg" rel="noopener">Falk2</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a></small></figcaption>
 </figure><h2 id="s4"><span class="n">04</span>A conta dos mortos</h2><p>Não existe um número oficial de mortos para a obra inteira. O que a Itaipu Binacional informou, por escrito, à Agência Pública em 2023 foi uma estimativa: 43.530 acidentes de trabalho entre 1978 e 1984, brasileiros e paraguaios, dos quais 106 fatais. Para 1975 a 1977 e para 1985 a 1991, quando as máquinas continuaram a ser montadas, a empresa não deu número.</p><p>Outras contagens existem, todas parciais. A tese da historiadora Ivone Lima, de 2004, chega a 40 mortes entre 1975 e 1979; um boletim interno do consórcio Unicon soma 56 entre 1976 e 1981, só na margem brasileira; o jornalista Tão Gomes Pinto fala em 138. Um ex-técnico de segurança da obra disse à Pública que a equipe dele contou até 800, num levantamento que se perdeu. Uma fonte anônima da Itaipu falou à agência EFE, em 2013, em cerca de mil, somando acidentes e doenças do trabalho.</p><p>Entre os casos com data está o de 17 de dezembro de 1981: um acidente com um guindaste Peiner, durante manutenção da lança, matou 5 operários. Pesquisadores registraram também relatos de vítimas levadas ao hospital para que a morte não constasse como ocorrida no canteiro, o que dificultava a indenização.</p><h2 id="s5"><span class="n">05</span>Catorze dias</h2><p>Sete Quedas não eram sete saltos. Eram 18 ou 19, conforme a fonte, arrumados em sete grupos, com uma vazão citada de cerca de 13.300 m³ por segundo. O Parque Nacional que as protegia foi extinto em 4 de julho de 1981. Em 17 de janeiro de 1982, uma passarela superlotada sobre um dos saltos desabou e matou 32 turistas.</p><p>A despedida foi pública. Em julho de 1982, segundo a imprensa paranaense, entidades ambientalistas reuniram milhares de pessoas no parque, no Quarup Adeus Sete Quedas. Em 9 de setembro, Carlos Drummond de Andrade publicou no Jornal do Brasil a crônica &quot;Adeus a Sete Quedas&quot;.</p><p>Em 13 de outubro de 1982, as comportas do canal de desvio foram fechadas. Ajudada por uma cheia, a água encheu o reservatório e, até 27 de outubro, cobriu as quedas. No mesmo dia do fechamento começou a operação Mymba Kuera, &quot;os animais&quot; em guarani, que até 10 de janeiro de 1983 resgatou mais de 30 mil bichos: 36 mil, segundo a Itaipu; quase 39 mil, segundo a BBC News Brasil, somando os dois lados.</p><h2 id="s6"><span class="n">06</span>Quem estava no caminho</h2><p>O lago de 1.350 km² cobriu terra habitada. Do lado brasileiro, foram atingidas 8.519 propriedades, 6.913 rurais e 1.606 urbanas, cerca de 101 mil hectares. O número de pessoas varia com o método: cerca de 42 mil, 40 mil ou 60 mil atingidos, conforme a fonte. Segundo a Comissão Estadual da Verdade do Paraná, a Itaipu indenizou primeiro escolas, igrejas, hospitais e comércio, esvaziando as comunidades. Do lado paraguaio, o total de desapropriados não indígenas não aparece nas fontes consultadas.</p><p>Para os Avá-Guarani, a conta foi ainda mais curta. Em 1977, um grupo de trabalho da Funai e do Incra reconheceu apenas 11 famílias indígenas, 27 pessoas, número que a Comissão da Verdade do Paraná chama de falseamento da realidade. Os Guarani reivindicavam 1.500 hectares; receberam, em 1982, uma área registrada de 231,88 hectares. Fotos de 1981, reveladas em 2017, mostram casas Guarani em chamas diante de funcionários.</p><p>A reparação veio quatro décadas depois. Em 24 de março de 2025, o STF homologou acordo que prevê a compra de 3 mil hectares para os Avá-Guarani, com R$ 240 milhões da Itaipu. Em 29 de outubro de 2025, a União, a Funai, o Incra e a Itaipu publicaram um pedido de desculpas pelas violações de direitos humanos cometidas contra esse povo.</p><h2 id="s7"><span class="n">07</span>A usina e a conta que ficou</h2><p>A primeira unidade gerou energia em 5 de maio de 1984, e a inauguração oficial, com Figueiredo e Stroessner, foi em 25 de outubro daquele ano. A 18ª unidade entrou em 1991; as duas últimas, em 2006 e 2007. Em 2016, Itaipu produziu 103.098.366 MWh, recorde mundial anual na época, superado pela chinesa Três Gargantas em 2020.</p><p>O custo da construção também tem mais de uma versão: cerca de 12 bilhões de dólares, segundo a Memória da Eletricidade, ou cerca de 14 bilhões, segundo a própria Itaipu. A obra foi quase toda financiada, e a dívida foi quitada em 28 de fevereiro de 2023, depois de cerca de 63 bilhões de dólares pagos em cinquenta anos, dos quais 27,9 bilhões em juros e encargos.</p><p>Cinquenta anos depois de o Tratado entrar em vigor, em 2023, ele previa rever as bases financeiras da usina, o chamado Anexo C. Em setembro de 2026, Brasil e Paraguai ainda não tinham chegado a um acordo.</p>
     
@@ -98,7 +385,7 @@
     </section>
 
     <a class="proximo-ep" href="represa-hoover.html">
-      <div class="foto"><img src="../assets/img/06-capa.jpg" srcset="../assets/img/06-capa-800.jpg 800w, ../assets/img/06-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1345" alt="Represa Hoover vista de cima, com o paredão curvo de concreto entre as rochas do Black Canyon, a usina ao pé e o lago Mead ao fundo" loading="lazy" decoding="async" style="object-position:42% 40%"></div>
+      <div class="foto"><picture><source type="image/webp" srcset="../assets/img/06-capa-800.webp 800w, ../assets/img/06-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/06-capa.jpg" srcset="../assets/img/06-capa-800.jpg 800w, ../assets/img/06-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1345" alt="Represa Hoover vista de cima, com o paredão curvo de concreto entre as rochas do Black Canyon, a usina ao pé e o lago Mead ao fundo" loading="lazy" decoding="async" style="object-position:42% 40%"></picture></div>
       <div class="txt">
         <span class="rotulo">Próximo episódio · Obra <b>06</b> · <span class="selo-estreia" data-estreia="2026-11-12" data-no-ar="no ar">estreia 12 nov 2026</span></span>
         <h3>Represa Hoover</h3>
@@ -107,6 +394,8 @@
         <span class="ir">Ler a obra →</span>
       </div>
     </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MAIS</span>Leia também</h2><ul><li><a href="eurotunel.html"><span class="rotulo">Obra <b>14</b> · França</span><strong>Eurotúnel</strong><span class="onde">1987–1994</span></a></li><li><a href="canal-do-panama.html"><span class="rotulo">Obra <b>08</b> · Panamá</span><strong>Canal do Panamá</strong><span class="onde">1904–1914</span></a></li><li><a href="estrada-de-ferro-madeira-mamore.html"><span class="rotulo">Obra <b>07</b> · Brasil</span><strong>Estrada de Ferro Madeira-Mamoré</strong><span class="onde">1907–1912</span></a></li></ul></section>
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes"><li>Tratado de Itaipu, promulgado pelo Decreto nº 72.707, de 28/08/1973 — <a href="http://www.planalto.gov.br/ccivil_03/decreto/antigos/d72707.htm" rel="noopener">planalto.gov.br</a></li><li>Pedro Henrique Pedreira Campos e Rafael Vaz da Motta Brandão, “A construção da usina hidrelétrica de Itaipu durante a ditadura”, Projeto História (PUC-SP), v. 77, 2023 — <a href="https://revistas.pucsp.br/index.php/revph/article/download/61481/42954/201379" rel="noopener">revistas.pucsp.br</a></li><li>Pedro Henrique Pedreira Campos, “Violações cometidas contra trabalhadores/as durante a construção da usina hidrelétrica de Itaipu: o caso dos acidentes de trabalho”, Revista NEP (UFPR), v. 9, n. 2, 2023 — <a href="https://revistas.ufpr.br/nep/article/view/93703" rel="noopener">revistas.ufpr.br</a></li><li>André Borges, “Itaipu na ditadura: mais de 100 operários mortos e 43 mil acidentes na construção”, Agência Pública, 19/06/2023 — <a href="https://apublica.org/2023/06/itaipu-na-ditadura-mais-de-100-operarios-mortos-e-43-mil-acidentes-na-construcao/" rel="noopener">apublica.org</a></li><li>Comissão Estadual da Verdade do Paraná “Teresa Urban”, relatório, 2017 (2ª versão, 2019), vol. 1 — <a href="https://www.justica.pr.gov.br/sites/default/arquivos_restritos/files/documento/2019-10/comissao_da_verdade_v1_2versao.pdf" rel="noopener">justica.pr.gov.br</a></li><li>Valdir Sessi, “O povo do abismo”: trabalhadores e o aparato repressivo durante a construção da Hidrelétrica de Itaipu (1974–1987), dissertação, Unioeste, 2015 — <a href="https://tede.unioeste.br/handle/tede/1723" rel="noopener">tede.unioeste.br</a></li><li>Eduardo Gonçalves Ueda, História e memória dos trabalhadores brasileiros na construção da Usina Hidrelétrica de Itaipu, TCC, UNILA, 2019 — <a href="https://dspace.unila.edu.br/bitstreams/bae07d22-8f72-4b54-acef-94b670faf68e/download" rel="noopener">dspace.unila.edu.br</a></li><li>Paulo Brandi, “Itaipu Binacional meio século”, Memória da Eletricidade, 16/05/2024 — <a href="https://memoriadaeletricidade.com.br/blog/139956/itaipu-binacional-meio-seculo-o-aproveitamento-da-energia-hidraulica-dos-saltos-de-sete-quedas" rel="noopener">memoriadaeletricidade.com.br</a></li><li>IEEE Milestone, “Itaipu Hydroelectric Power Plant, 1975–1984”, Engineering and Technology History Wiki — <a href="https://ethw.org/Milestones:Itaipu_Hydroelectric_Power_Plant,_1975-1984" rel="noopener">ethw.org</a></li><li>Itaipu Binacional, “Nossa história” — <a href="https://www.itaipu.gov.br/institucional/sobre-itaipu/nossa-historia" rel="noopener">itaipu.gov.br</a></li><li>Itaipu Binacional, “Barragem” — <a href="https://www.itaipu.gov.br/energia/barragem" rel="noopener">itaipu.gov.br</a></li><li>Itaipu Binacional, “Itaipu em números” — <a href="https://www.itaipu.gov.br/institucional/sobre-itaipu/itaipu-em-numeros" rel="noopener">itaipu.gov.br</a></li><li>H2FOZ, “Explosão do Canal de Desvio de Itaipu completa 40 anos”, 19/10/2018 — <a href="https://www.h2foz.com.br/geral/explosao-do-canal-de-desvio-de-itaipu-completa-40-anos/" rel="noopener">h2foz.com.br</a></li><li>BBC News Brasil, “Mymba Kuéra: como foi o monumental resgate de mais de 30 mil animais durante a construção de Itaipu”, 19/09/2026 (republicada por O Povo) — <a href="https://www.opovo.com.br/agencia/bbc/2026/09/19/mymba-kuera-como-foi-o-monumental-resgate-de-mais-de-30-mil-animais-durante-a-construcao-de-itaipu-entre-o-brasil-e-o-paraguai.html" rel="noopener">opovo.com.br</a></li><li>Portal da Crônica Brasileira (IMS e Fundação Casa de Rui Barbosa), Carlos Drummond de Andrade, “Adeus a Sete Quedas”, Jornal do Brasil, 09/09/1982 — <a href="https://cronicabrasileira.org.br/cronicas/17410/adeus-a-sete-quedas" rel="noopener">cronicabrasileira.org.br</a></li><li>Gazeta do Povo, “Estado brasileiro e Itaipu pedem desculpas ao povo Avá-Guarani”, 29/10/2025 — <a href="https://www.gazetadopovo.com.br/parana/estado-brasileiro-itaipu-pedem-desculpas-povo-ava-guarani/" rel="noopener">gazetadopovo.com.br</a></li><li>Agência Brasil, “Itaipu ultrapassa Três Gargantas e reassume liderança em produção”, dezembro de 2016 — <a href="https://agenciabrasil.ebc.com.br/economia/noticia/2016-12/itaipu-ultrapassa-tres-gargantas-e-reassume-lideranca-em-producao-de" rel="noopener">agenciabrasil.ebc.com.br</a></li><li>Robson Rodrigues, “Com negociação de Itaipu parada, Brasil avalia tarifa de US$ 15/kW em 2027”, CNN Brasil, 01/09/2026 — <a href="https://www.cnnbrasil.com.br/blogs/robson-rodrigues/infra/com-negociacao-de-itaipu-parada-brasil-mira-tarifa-de-us-15-kw-para-2027/" rel="noopener">cnnbrasil.com.br</a></li></ol>

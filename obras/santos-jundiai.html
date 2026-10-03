@@ -3,26 +3,313 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Estrada de Ferro Santos–Jundiaí · Arquitetura do Impossível</title>
-<meta name="description" content="Como a São Paulo Railway venceu a Serra do Mar em 1867 com quatro rampas, cabo de aço e máquinas a vapor, e por que a ideia voltou à mesa em 2026.">
+<title>Estrada de Ferro Santos-Jundiaí e a Serra do Mar</title>
+<meta name="description" content="Como a São Paulo Railway, a Santos-Jundiaí, venceu a Serra do Mar em 1867 com quatro rampas, cabo de aço e vapor, e por que a ideia voltou à mesa em 2026.">
 <link rel="canonical" href="https://arquiteturadoimpossivel.com.br/obras/santos-jundiai.html">
+<meta name="robots" content="max-image-preview:large">
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../assets/img/13-capa-800.webp 800w, ../assets/img/13-capa.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <meta name="google-adsense-account" content="ca-pub-4401770243539507">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-<link rel="stylesheet" href="../assets/arquitetura.css">
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="Estrada de Ferro Santos–Jundiaí · Arquitetura do Impossível">
-<meta property="og:description" content="Como a São Paulo Railway venceu a Serra do Mar em 1867 com quatro rampas, cabo de aço e máquinas a vapor, e por que a ideia voltou à mesa em 2026.">
+<meta property="og:title" content="Estrada de Ferro Santos-Jundiaí e a Serra do Mar">
+<meta property="og:description" content="Como a São Paulo Railway, a Santos-Jundiaí, venceu a Serra do Mar em 1867 com quatro rampas, cabo de aço e vapor, e por que a ideia voltou à mesa em 2026.">
 <meta property="og:url" content="https://arquiteturadoimpossivel.com.br/obras/santos-jundiai.html">
 <meta property="og:image" content="https://arquiteturadoimpossivel.com.br/assets/img/og-santos-jundiai.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Estrada de Ferro Santos–Jundiaí (1860–1867): como a obra ficou de pé", "description": "Como a São Paulo Railway venceu a Serra do Mar em 1867 com quatro rampas, cabo de aço e máquinas a vapor, e por que a ideia voltou à mesa em 2026.", "inLanguage": "pt-BR", "url": "https://arquiteturadoimpossivel.com.br/obras/santos-jundiai.html", "image": {"@type": "ImageObject", "url": "https://arquiteturadoimpossivel.com.br/assets/img/og-santos-jundiai.jpg", "width": 1200, "height": 630}, "datePublished": "2026-10-03", "dateModified": "2026-10-03", "author": {"@type": "Organization", "name": "Arquitetura do Impossível", "url": "https://arquiteturadoimpossivel.com.br/"}, "publisher": {"@type": "Organization", "name": "Arquitetura do Impossível", "url": "https://arquiteturadoimpossivel.com.br/", "logo": {"@type": "ImageObject", "url": "https://arquiteturadoimpossivel.com.br/assets/marca/logo-512.png", "width": 512, "height": 512}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arquiteturadoimpossivel.com.br/obras/santos-jundiai.html"}, "about": {"@type": "LandmarksOrHistoricalBuildings", "name": "Estrada de Ferro Santos–Jundiaí", "address": "Serra do Mar, entre Santos e Jundiaí, passando por São Paulo, estado de São Paulo, Brasil"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Estrada de Ferro Santos–Jundiaí (1860–1867): como a obra ficou de pé", "description": "Como a São Paulo Railway, a Santos-Jundiaí, venceu a Serra do Mar em 1867 com quatro rampas, cabo de aço e vapor, e por que a ideia voltou à mesa em 2026.", "inLanguage": "pt-BR", "url": "https://arquiteturadoimpossivel.com.br/obras/santos-jundiai.html", "image": {"@type": "ImageObject", "url": "https://arquiteturadoimpossivel.com.br/assets/img/og-santos-jundiai.jpg", "width": 1200, "height": 630}, "datePublished": "2026-10-03", "dateModified": "2026-10-03", "author": {"@type": "Organization", "name": "Arquitetura do Impossível", "url": "https://arquiteturadoimpossivel.com.br/"}, "publisher": {"@type": "Organization", "name": "Arquitetura do Impossível", "url": "https://arquiteturadoimpossivel.com.br/", "logo": {"@type": "ImageObject", "url": "https://arquiteturadoimpossivel.com.br/assets/marca/logo-512.png", "width": 512, "height": 512}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arquiteturadoimpossivel.com.br/obras/santos-jundiai.html"}, "about": {"@type": "LandmarksOrHistoricalBuildings", "name": "Estrada de Ferro Santos–Jundiaí", "address": "Serra do Mar, entre Santos e Jundiaí, passando por São Paulo, estado de São Paulo, Brasil"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Arquitetura do Impossível", "item": "https://arquiteturadoimpossivel.com.br/"}, {"@type": "ListItem", "position": 2, "name": "Obras", "item": "https://arquiteturadoimpossivel.com.br/#obras"}, {"@type": "ListItem", "position": 3, "name": "Estrada de Ferro Santos–Jundiaí", "item": "https://arquiteturadoimpossivel.com.br/obras/santos-jundiai.html"}]}</script>
 </head>
 <body>
@@ -53,7 +340,7 @@
 </header>
 <main id="conteudo">
 <header class="capa">
-  <img src="../assets/img/13-capa.jpg" srcset="../assets/img/13-capa-800.jpg 800w, ../assets/img/13-capa.jpg 1600w" sizes="100vw" width="1600" height="951" alt="Fotografia antiga em sépia: uma ferrovia de via dupla corre em curva numa encosta íngreme, com muro de pedra à esquerda, um túnel ao fundo, postes de telégrafo e o vale coberto de névoa à direita" loading="eager" decoding="async" style="object-position:42% 60%">
+  <picture><source type="image/webp" srcset="../assets/img/13-capa-800.webp 800w, ../assets/img/13-capa.webp 1600w" sizes="100vw"><img src="../assets/img/13-capa.jpg" srcset="../assets/img/13-capa-800.jpg 800w, ../assets/img/13-capa.jpg 1600w" sizes="100vw" width="1600" height="951" alt="Fotografia antiga em sépia: uma ferrovia de via dupla corre em curva numa encosta íngreme, com muro de pedra à esquerda, um túnel ao fundo, postes de telégrafo e o vale coberto de névoa à direita" loading="eager" fetchpriority="high" decoding="async" style="object-position:42% 60%"></picture>
   <span class="credito-capa">A linha da São Paulo Railway na encosta da Serra do Mar, por volta de 1900, fotografada por Guilherme Gaensly. — <a href="https://commons.wikimedia.org/wiki/File:Guilherme_Gaensly_-_S%C3%A3o_Paulo._S._P._R._Serra_II,_Acervo_do_Museu_Paulista_da_USP_(cropped).jpg" rel="noopener">Guilherme Gaensly (Museu Paulista da USP)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></span>
   <div class="casca">
     <span class="rotulo">Obra <b>13</b> · Brasil</span>
@@ -74,19 +361,19 @@
     <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span> Confirmado em duas ou mais fontes independentes.</span><span><span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span> Uma fonte só; o texto diz qual.</span><span><span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span> As fontes discordam; mostramos as versões e não escolhemos.</span><span><span class="conf conf-sem" title="Ninguém registrou. Dizemos isso em vez de inventar.">sem registro</span> Ninguém registrou. Dizemos isso em vez de inventar.</span></div>
 
     <h2 id="s1"><span class="n">01</span>Uma parede entre o café e o mar</h2><p>A Serra do Mar corre paralela ao litoral de São Paulo e sobe quase de uma vez. Na descrição que o engenheiro Daniel Makinson Fox apresentou em 1870 à Institution of Civil Engineers, em Londres, ela se ergue &quot;abruptamente&quot; a no mínimo 2.500 pés, uns 760 metros, coberta de floresta. Por ali passavam, havia séculos, trilhas indígenas, a Calçada do Lorena, de 1792, e a Estrada da Maioridade, dos anos 1840, todas a pé ou em lombo de mula.</p><p>Do outro lado ficava o planalto paulista, onde o café se espalhava rápido. Fox calculava a produção da província em 80 milhões de libras-peso por ano. Tudo tinha de descer até Santos. A ideia de uma ferrovia existia desde os anos 1830, foi retomada pelo Barão de Mauá em 1853 e 1854 e travou de novo com a Guerra da Crimeia. Em abril de 1856, o Império deu a concessão a Mauá, ao Marquês de Monte Alegre e ao conselheiro José Antônio Pimenta Bueno.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/13-maquina-fixa.jpg" data-legenda="Uma das casas de máquinas no alto de um plano inclinado, em cartão-postal do início do século XX. Daqui a máquina a vapor puxava o cabo. — Autor não identificado (cartão-postal, Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Cartão-postal antigo em preto e branco: no alto de uma encosta, trilhos com grade de ferro sobre um muro alto de pedra, uma chaminé, tanques e uma pequena casa de alvenaria, com a serra e o vale ao fundo"><img src="../assets/img/13-maquina-fixa.jpg" srcset="../assets/img/13-maquina-fixa-800.jpg 800w, ../assets/img/13-maquina-fixa.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="980" alt="Cartão-postal antigo em preto e branco: no alto de uma encosta, trilhos com grade de ferro sobre um muro alto de pedra, uma chaminé, tanques e uma pequena casa de alvenaria, com a serra e o vale ao fundo" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/13-maquina-fixa.jpg" data-legenda="Uma das casas de máquinas no alto de um plano inclinado, em cartão-postal do início do século XX. Daqui a máquina a vapor puxava o cabo. — Autor não identificado (cartão-postal, Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Cartão-postal antigo em preto e branco: no alto de uma encosta, trilhos com grade de ferro sobre um muro alto de pedra, uma chaminé, tanques e uma pequena casa de alvenaria, com a serra e o vale ao fundo"><picture><source type="image/webp" srcset="../assets/img/13-maquina-fixa-800.webp 800w, ../assets/img/13-maquina-fixa.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/13-maquina-fixa.jpg" srcset="../assets/img/13-maquina-fixa-800.jpg 800w, ../assets/img/13-maquina-fixa.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="980" alt="Cartão-postal antigo em preto e branco: no alto de uma encosta, trilhos com grade de ferro sobre um muro alto de pedra, uma chaminé, tanques e uma pequena casa de alvenaria, com a serra e o vale ao fundo" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 02</span><span>Uma das casas de máquinas no alto de um plano inclinado, em cartão-postal do início do século XX. Daqui a máquina a vapor puxava o cabo.</span><small><a href="https://commons.wikimedia.org/wiki/File:S._Paulo_Railway_Co._Planos_Inclinados._Serra._Machina_Fixa_(1)_-_1-03795-0000-0000,_Acervo_do_Museu_Paulista_da_USP.jpg" rel="noopener">Autor não identificado (cartão-postal, Museu Paulista da USP)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s2"><span class="n">02</span>Uma conta que não fechava</h2><p>A concessão garantia juros de 7%, prazo depois estendido a 90 anos, sobre um capital máximo de 2 milhões de libras esterlinas, e Fox registra que ficou &quot;distintamente entendido&quot; que não haveria garantia para capital adicional. Mauá entregou o projeto ao engenheiro escocês James Brunlees, que mandou Fox, de 26 anos, para o Brasil no começo de 1856.</p><p>A ordem de Londres era traçar uma linha comum de locomotiva. Fox conta que bastou ver o terreno para concluir que isso não caberia no dinheiro. A comparação que ele fez é com a Estrada de Ferro Dom Pedro II, que subia a serra perto do Rio de Janeiro, onde a montanha é mais baixa: no mesmo padrão, a subida paulista exigiria pelo menos 26 milhas, uns 42 quilômetros de rampa contínua, e custaria só na serra £ 1,5 milhão. Brunlees decidiu pelo atalho: planos inclinados, com rampa de 1 em 10, puxados por máquinas fixas.</p><p>O levantamento levou uns quinze meses. Segundo Fox, a equipe passava três semanas seguidas dentro da mata, em cabanas cobertas de folha de palmito, e saía de lá &quot;desbotada pela falta de sol&quot;.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/13-serra-vista-geral.jpg" data-legenda="Vista geral dos planos inclinados na serra, em cartão-postal do início do século XX: os cortes na encosta, um túnel e um vagão em plena rampa. — Autor não identificado (cartão-postal, Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Cartão-postal antigo em preto e branco: vista do alto de uma encosta desmatada, com duas linhas férreas cortadas em níveis diferentes, a boca de um túnel e um vagão pequeno no meio da rampa"><img src="../assets/img/13-serra-vista-geral.jpg" srcset="../assets/img/13-serra-vista-geral-800.jpg 800w, ../assets/img/13-serra-vista-geral.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="970" alt="Cartão-postal antigo em preto e branco: vista do alto de uma encosta desmatada, com duas linhas férreas cortadas em níveis diferentes, a boca de um túnel e um vagão pequeno no meio da rampa" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/13-serra-vista-geral.jpg" data-legenda="Vista geral dos planos inclinados na serra, em cartão-postal do início do século XX: os cortes na encosta, um túnel e um vagão em plena rampa. — Autor não identificado (cartão-postal, Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Cartão-postal antigo em preto e branco: vista do alto de uma encosta desmatada, com duas linhas férreas cortadas em níveis diferentes, a boca de um túnel e um vagão pequeno no meio da rampa"><picture><source type="image/webp" srcset="../assets/img/13-serra-vista-geral-800.webp 800w, ../assets/img/13-serra-vista-geral.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/13-serra-vista-geral.jpg" srcset="../assets/img/13-serra-vista-geral-800.jpg 800w, ../assets/img/13-serra-vista-geral.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="970" alt="Cartão-postal antigo em preto e branco: vista do alto de uma encosta desmatada, com duas linhas férreas cortadas em níveis diferentes, a boca de um túnel e um vagão pequeno no meio da rampa" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 03</span><span>Vista geral dos planos inclinados na serra, em cartão-postal do início do século XX: os cortes na encosta, um túnel e um vagão em plena rampa.</span><small><a href="https://commons.wikimedia.org/wiki/File:N%C2%BA_97._S._Paulo_Railway_Co._Planos_Inclinados._Serra._Vista_Geral_(1)_-_1-03800-0000-0000,_Acervo_do_Museu_Paulista_da_USP.jpg" rel="noopener">Autor não identificado (cartão-postal, Museu Paulista da USP)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s3"><span class="n">03</span>Quatro rampas e um cabo</h2><p>O que se construiu foram quatro planos de rampa 1 em 9,75, pouco mais de 10%, com comprimentos entre 1.781 e 2.139 metros pela medição de Fox, somando uns 8 quilômetros. No alto de cada um, um patamar quase plano de uns 76 metros abrigava a casa de máquinas: um par de máquinas a vapor de 158 cavalos nominais, alimentado por cinco caldeiras. O cabo, de fios de aço, era testado para 35 toneladas e durava cerca de dois anos.</p><p>O sistema tinha nome inglês, tail-end. Um trem era preso a uma ponta do cabo e outro à ponta oposta: enquanto um subia, o outro descia, e o peso do que descia ajudava a máquina. No meio de cada plano os trilhos se abriam em desvio para os dois se cruzarem. Cada composição levava três vagões e um vagão-freio com uma pinça capaz de morder os trilhos e parar o trem em poucos metros, usada também nos dias de neblina, quando o trilho ficava escorregadio.</p><p>Em 1869, segundo Fox, cada viagem subia no máximo 40 toneladas e levava uns 15 minutos por plano, uma hora na serra inteira. Os locobreques, as pequenas locomotivas que agarravam o cabo e que hoje se associam ao funicular, só chegaram com o segundo sistema, na virada para o século XX.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/13-viaduto.jpg" data-legenda="Um dos viadutos de ferro dos planos inclinados, em cartão-postal do início do século XX. — Autor não identificado (cartão-postal, Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Cartão-postal antigo em preto e branco: um viaduto de ferro sobre pilares treliçados atravessa um vale de mata, apoiado à direita num grande muro de pedra; um homem de quepe aparece no canto inferior esquerdo"><img src="../assets/img/13-viaduto.jpg" srcset="../assets/img/13-viaduto-800.jpg 800w, ../assets/img/13-viaduto.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="981" alt="Cartão-postal antigo em preto e branco: um viaduto de ferro sobre pilares treliçados atravessa um vale de mata, apoiado à direita num grande muro de pedra; um homem de quepe aparece no canto inferior esquerdo" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/13-viaduto.jpg" data-legenda="Um dos viadutos de ferro dos planos inclinados, em cartão-postal do início do século XX. — Autor não identificado (cartão-postal, Museu Paulista da USP), Domínio público" aria-label="Ampliar imagem: Cartão-postal antigo em preto e branco: um viaduto de ferro sobre pilares treliçados atravessa um vale de mata, apoiado à direita num grande muro de pedra; um homem de quepe aparece no canto inferior esquerdo"><picture><source type="image/webp" srcset="../assets/img/13-viaduto-800.webp 800w, ../assets/img/13-viaduto.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/13-viaduto.jpg" srcset="../assets/img/13-viaduto-800.jpg 800w, ../assets/img/13-viaduto.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="981" alt="Cartão-postal antigo em preto e branco: um viaduto de ferro sobre pilares treliçados atravessa um vale de mata, apoiado à direita num grande muro de pedra; um homem de quepe aparece no canto inferior esquerdo" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 04</span><span>Um dos viadutos de ferro dos planos inclinados, em cartão-postal do início do século XX.</span><small><a href="https://commons.wikimedia.org/wiki/File:S._Paulo_Railway_Co._Planos_Inclinados._Serra._Um_Viaducto_(1)_-_1-03792-0000-0000,_Acervo_do_Museu_Paulista_da_USP.jpg" rel="noopener">Autor não identificado (cartão-postal, Museu Paulista da USP)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s4"><span class="n">04</span>A serra que escorregava</h2><p>O problema maior não foi a rampa, foi o chão. Os cortes chegaram a 75 e 95 pés de profundidade, e os taludes, a 330 pés de comprimento. Fox escreve que &quot;aterro após aterro foi levado durante a construção&quot;, às vezes depois de pronto. A saída foi drenar tudo: recolher a água da encosta acima da linha e atravessá-la por canais de pedra, revestir os aterros e escorar os cortes com muros de pedra seca de até 60 pés. Ao todo, foram 1,2 milhão de jardas cúbicas de escavação, perto de 920 mil metros cúbicos.</p><p>Ao pé do quarto plano, um vale foi vencido pelo viaduto da Grota Funda, de uns 215 metros, com 185 pés de altura no ponto mais fundo. Não houve andaime: um cabo foi esticado de um lado ao outro do abismo e as colunas de ferro desceram por ele, peça por peça. A primeira pedra foi posta em julho de 1863, e o primeiro trem passou em novembro de 1865. A linha inteira abriu em 16/02/1867. O contrato dava oito anos, até o fim de 1867, e a empreiteira Robert Sharpe &amp; Sons ganhou do governo um bônus de £ 43.750 pelos dez meses de antecipação.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/13-galpao-spr-1900.jpg" data-legenda="Galpão com a marca da São Paulo Railway e o ano de 1900, em Paranapiacaba, fotografado em 2020. — Lima Marcos Antonio, CC BY-SA 4.0" aria-label="Ampliar imagem: Galpão de tijolos com dois arcos e frontão amarelo com a inscrição SPR 1900, um vagão antigo dentro de um dos arcos, trilhos cobertos de grama na frente e pórticos metálicos vermelhos"><img src="../assets/img/13-galpao-spr-1900.jpg" srcset="../assets/img/13-galpao-spr-1900-800.jpg 800w, ../assets/img/13-galpao-spr-1900.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1067" alt="Galpão de tijolos com dois arcos e frontão amarelo com a inscrição SPR 1900, um vagão antigo dentro de um dos arcos, trilhos cobertos de grama na frente e pórticos metálicos vermelhos" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/13-galpao-spr-1900.jpg" data-legenda="Galpão com a marca da São Paulo Railway e o ano de 1900, em Paranapiacaba, fotografado em 2020. — Lima Marcos Antonio, CC BY-SA 4.0" aria-label="Ampliar imagem: Galpão de tijolos com dois arcos e frontão amarelo com a inscrição SPR 1900, um vagão antigo dentro de um dos arcos, trilhos cobertos de grama na frente e pórticos metálicos vermelhos"><picture><source type="image/webp" srcset="../assets/img/13-galpao-spr-1900-800.webp 800w, ../assets/img/13-galpao-spr-1900.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/13-galpao-spr-1900.jpg" srcset="../assets/img/13-galpao-spr-1900-800.jpg 800w, ../assets/img/13-galpao-spr-1900.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1067" alt="Galpão de tijolos com dois arcos e frontão amarelo com a inscrição SPR 1900, um vagão antigo dentro de um dos arcos, trilhos cobertos de grama na frente e pórticos metálicos vermelhos" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 05</span><span>Galpão com a marca da São Paulo Railway e o ano de 1900, em Paranapiacaba, fotografado em 2020.</span><small><a href="https://commons.wikimedia.org/wiki/File:Funicular_serra_do_Mar,_de_Paranapiacaba_at%C3%A9_Cubat%C3%A3o.jpg" rel="noopener">Lima Marcos Antonio</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a></small></figcaption>
 </figure><h2 id="s5"><span class="n">05</span>Quem abriu a serra</h2><p>Fox estimou que o maior número de homens na obra ao mesmo tempo foi &quot;provavelmente cerca de 3.500, de todas as nacionalidades e cores&quot;. Os mais numerosos, segundo ele, eram portugueses e ilhéus dos Açores e da Madeira; havia alemães, brasileiros que trocavam a roça pelo salário e voltavam no plantio, e ingleses como encarregados e maquinistas. O salário ia de 4 xelins e 6 pence a 6 xelins por dia. O total de trabalhadores não foi registrado.</p><p>Fox também escreveu que, embora o Brasil fosse escravista, a concessão obrigava a usar trabalho livre. Os documentos contam outra história. Num ofício de julho de 1863 ao presidente da província, o superintendente da companhia, J. J. Aubertin, admitiu que a obra usava escravizados havia mais de três anos, &quot;não sem alguma permissão tácita&quot; do governo. Os mapas de acidentes do engenheiro fiscal Wallace da Gama Cochrane, de 1861 a 1863, citam dez trabalhadores escravizados pelo nome. O historiador Paulo Rodrigues de Andrade, que levantou esses papéis, conclui que a presença de escravos na obra foi a regra, não a exceção.</p><p>Ninguém publicou quantos morreram. O que existe são nomes: João, afogado em janeiro de 1861; Benedicto Cotovi, queimado por pólvora em setembro do mesmo ano; dois escravizados mortos em 1862, um esmagado por uma pedra, outro afogado; o português José Fernandes, que morreu dois dias depois de uma explosão numa mina da serra, em outubro de 1862.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/13-paranapiacaba.jpg" data-legenda="O pátio de Paranapiacaba e a torre do relógio em 2018, no alto da serra, onde os trens começavam a descida. — Igor Rando, CC BY-SA 4.0" aria-label="Ampliar imagem: Vista aérea de um pátio ferroviário entre morros de mata, com muitas linhas, locomotivas azuis e amarelas, uma torre de relógio de tijolo no centro e plataformas vazias à direita"><img src="../assets/img/13-paranapiacaba.jpg" srcset="../assets/img/13-paranapiacaba-800.jpg 800w, ../assets/img/13-paranapiacaba.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1200" alt="Vista aérea de um pátio ferroviário entre morros de mata, com muitas linhas, locomotivas azuis e amarelas, uma torre de relógio de tijolo no centro e plataformas vazias à direita" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/13-paranapiacaba.jpg" data-legenda="O pátio de Paranapiacaba e a torre do relógio em 2018, no alto da serra, onde os trens começavam a descida. — Igor Rando, CC BY-SA 4.0" aria-label="Ampliar imagem: Vista aérea de um pátio ferroviário entre morros de mata, com muitas linhas, locomotivas azuis e amarelas, uma torre de relógio de tijolo no centro e plataformas vazias à direita"><picture><source type="image/webp" srcset="../assets/img/13-paranapiacaba-800.webp 800w, ../assets/img/13-paranapiacaba.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/13-paranapiacaba.jpg" srcset="../assets/img/13-paranapiacaba-800.jpg 800w, ../assets/img/13-paranapiacaba.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1200" alt="Vista aérea de um pátio ferroviário entre morros de mata, com muitas linhas, locomotivas azuis e amarelas, uma torre de relógio de tijolo no centro e plataformas vazias à direita" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 06</span><span>O pátio de Paranapiacaba e a torre do relógio em 2018, no alto da serra, onde os trens começavam a descida.</span><small><a href="https://commons.wikimedia.org/wiki/File:Vista_a%C3%A9rea_de_Paranapiacaba_(Rel%C3%B3gio_da_esta%C3%A7%C3%A3o).jpg" rel="noopener">Igor Rando</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a></small></figcaption>
 </figure><h2 id="s6"><span class="n">06</span>A ferrovia mais rica e o segundo funicular</h2><p>A conta final ficou acima do previsto, mas não muito longe. O contrato com a Sharpe foi de £ 1.745.000, e as empreiteiras receberam £ 1.817.917. Com os juros pagos durante a obra, Fox chegou a £ 31.570 por milha, o que dá perto de £ 2,7 milhões para a linha; o capital garantido em 1869 era de £ 2.650.000. Com o café, a São Paulo Railway chegou a ser descrita na imprensa técnica inglesa como talvez a ferrovia mais rica do mundo.</p><p>O tráfego cresceu tanto que, na virada para o século XX, a companhia duplicou a linha e abriu um segundo funicular, a Serra Nova: cinco planos de 8%, uns 10 quilômetros, máquinas de 1.000 cavalos e um cabo sem fim agarrado pelos locobreques. Os dois sistemas trabalharam lado a lado por décadas. Em 13/09/1946, ao fim dos 90 anos da concessão, a ferrovia passou à União e virou Estrada de Ferro Santos a Jundiaí.</p><p>Nos anos 1970, a Rede Ferroviária Federal desmontou o primeiro funicular e, em 1974, inaugurou no mesmo leito um sistema de cremalheira, com locomotivas japonesas. O segundo funicular parou de vez em 1976 ou em 1982, conforme a fonte. É sobre os planos de 1867 que os trens de carga da MRS ainda descem a serra.</p><h2 id="s7"><span class="n">07</span>A vila no alto e a volta do funicular</h2><p>No alto da serra, o canteiro de obras de 1861 virou vila. A companhia precisava manter ali quem operava as máquinas, e em 1897 abriu a Vila Martin Smith, planejada em xadrez, com casas de madeira distribuídas pela hierarquia da empresa. O Alto da Serra é hoje Paranapiacaba, distrito de Santo André. Foi tombado pelo Condephaat em 1987 e pelo Iphan, comprado pela prefeitura em 2002 e posto pelo Brasil na Lista Indicativa da UNESCO em 2014. Em julho de 2026 começou a restauração da passarela metálica que liga as duas partes da vila, orçada em R$ 18 milhões.</p><p>Em 31/03/2026, o governador Tarcísio de Freitas falou do trem de passageiros que o estado estuda entre São Paulo e Santos: &quot;Por incrível que pareça, o que está parecendo mais viável é restaurar o funicular que está abandonado há muito tempo&quot;. O estudo continua aberto, com audiência pública prevista para 2027, e não há traçado definido. A ideia de puxar trens serra acima por cabo, que os ingleses escolheram por falta de dinheiro, voltou à mesa um século e meio depois.</p>
     
@@ -104,7 +391,7 @@
     </section>
 
     <a class="proximo-ep" href="eurotunel.html">
-      <div class="foto"><img src="../assets/img/14-capa.jpg" srcset="../assets/img/14-capa-800.jpg 800w, ../assets/img/14-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1067" alt="Tuneladora branca e cilíndrica exposta num jardim de rotatória, com a cabeça de corte vermelha em forma de roda à esquerda e a inscrição em francês Hommage aux bâtisseurs du tunnel no corpo" loading="lazy" decoding="async" style="object-position:30% 50%"></div>
+      <div class="foto"><picture><source type="image/webp" srcset="../assets/img/14-capa-800.webp 800w, ../assets/img/14-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/14-capa.jpg" srcset="../assets/img/14-capa-800.jpg 800w, ../assets/img/14-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1067" alt="Tuneladora branca e cilíndrica exposta num jardim de rotatória, com a cabeça de corte vermelha em forma de roda à esquerda e a inscrição em francês Hommage aux bâtisseurs du tunnel no corpo" loading="lazy" decoding="async" style="object-position:30% 50%"></picture></div>
       <div class="txt">
         <span class="rotulo">Próximo episódio · Obra <b>14</b> · <span class="selo-estreia" data-estreia="2027-01-07" data-no-ar="no ar">estreia 07 jan 2027</span></span>
         <h3>Eurotúnel</h3>
@@ -113,6 +400,8 @@
         <span class="ir">Ler a obra →</span>
       </div>
     </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MAIS</span>Leia também</h2><ul><li><a href="estrada-de-ferro-madeira-mamore.html"><span class="rotulo">Obra <b>07</b> · Brasil</span><strong>Estrada de Ferro Madeira-Mamoré</strong><span class="onde">1907–1912</span></a></li><li><a href="tunel-de-base-de-sao-gotardo.html"><span class="rotulo">Obra <b>31</b> · Suíça</span><strong>Túnel de Base de São Gotardo</strong><span class="onde">1999–2016</span></a></li><li><a href="roda-de-falkirk.html"><span class="rotulo">Obra <b>30</b> · Reino Unido</span><strong>Roda de Falkirk</strong><span class="onde">2000–2002</span></a></li></ul></section>
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes"><li>Daniel Makinson Fox, &quot;Description of the Line and Works of the São Paulo Railway in the Empire of Brazil&quot;, Minutes of Proceedings of the Institution of Civil Engineers, vol. 30, 1870 — <a href="https://upload.wikimedia.org/wikipedia/commons/3/3e/Description_of_the_Line_and_Works_of_the_Sao_Paulo_Railway_in_the_Empire_of_Brazil.pdf" rel="noopener">upload.wikimedia.org</a></li><li>Paulo Rodrigues de Andrade, &quot;Trabalhadores escravos nas obras de construção da SPR na década de 1860&quot;, Aedos (UFRGS), v. 7, n. 17, 2015 — <a href="https://seer.ufrgs.br/index.php/aedos/article/download/60919/36114/251657" rel="noopener">seer.ufrgs.br</a></li><li>Cecília Rodrigues dos Santos, Claudia Lage e Gustavo Secco, &quot;Patrimônio: São Paulo Railway 150 anos&quot;, Arquitextos, Vitruvius, 2017 — <a href="https://vitruvius.com.br/revistas/read/arquitextos/17.201/6435" rel="noopener">vitruvius.com.br</a></li><li>Thaís Fátima dos Santos Cruz (FAU-USP), &quot;Funiculares da vila ferroviária de Paranapiacaba: reminiscências, remanescentes e permanências&quot;, 2011 — <a href="https://www.patrimonioindustrial.cl/pdf/Funiculares_da_vila_ferroviaria_da_paranapiacaba.pdf" rel="noopener">patrimonioindustrial.cl</a></li><li>Thaís Fátima dos Santos Cruz, &quot;No meio do caminho... uma serra, a ferrovia, o café e uma vila&quot;, Seminário de Patrimônio Agroindustrial, IAU-USP — <a href="https://www.iau.usp.br/sspa/arquivos/pdfs/papers/01517.pdf" rel="noopener">iau.usp.br</a></li><li>Grace&#x27;s Guide, &quot;Sao Paulo Railway&quot; — <a href="https://www.gracesguide.co.uk/Sao_Paulo_Railway" rel="noopener">gracesguide.co.uk</a></li><li>Grace&#x27;s Guide, &quot;James Brunlees&quot; — <a href="https://www.gracesguide.co.uk/James_Brunlees" rel="noopener">gracesguide.co.uk</a></li><li>Decreto-Lei nº 9.869, de 13 de setembro de 1946, Câmara dos Deputados — <a href="https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-9869-13-setembro-1946-450047-publicacaooriginal-1-pe.html" rel="noopener">www2.camara.leg.br</a></li><li>Prefeitura de Santo André, &quot;A Vila&quot; (Paranapiacaba) — <a href="https://www3.santoandre.sp.gov.br/fip/paranapiacaba-2/" rel="noopener">www3.santoandre.sp.gov.br</a></li><li>Prefeitura de Santo André, &quot;Paranapiacaba terá passarela restaurada com investimento de R$ 18 milhões&quot;, 2026 — <a href="https://web.santoandre.sp.gov.br/portal/noticias/0/3/20743/paranapiacaba-tera-passarela-restaurada-com-investimento-de-r-18-milhoes" rel="noopener">web.santoandre.sp.gov.br</a></li><li>Metrô CPTM, &quot;Tarcísio cita reativação de funicular como alternativa para Trem Intercidades até Santos&quot;, 31/03/2026 — <a href="https://www.metrocptm.com.br/tarcisio-cita-reativacao-de-funicular-como-alternativa-para-trem-intercidades-ate-santos/" rel="noopener">metrocptm.com.br</a></li><li>Via Trolebus, &quot;O que sabemos sobre o Trem SP-Santos (Atualizado 2026)&quot;, 2026 — <a href="https://viatrolebus.com.br/2026/09/o-que-sabemos-sobre-o-trem-sp-santos-atualizado-2026/" rel="noopener">viatrolebus.com.br</a></li><li>UNESCO, Lista Indicativa, &quot;Cultural Landscape of Paranapiacaba: Village and railway systems in the Serra do Mar Mountain Range, São Paulo&quot; — <a href="https://whc.unesco.org/en/tentativelists/5878/" rel="noopener">whc.unesco.org</a></li><li>Office for National Statistics (via officialdata.org), índice de preços ao consumidor do Reino Unido, 1867–2026 — <a href="https://www.officialdata.org/uk/inflation/1867?amount=100" rel="noopener">officialdata.org</a></li><li>Wikipédia, &quot;São Paulo Railway&quot; e &quot;Funicular de Paranapiacaba&quot; (ponto de partida) — <a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_Railway" rel="noopener">pt.wikipedia.org</a></li></ol>

@@ -3,19 +3,306 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Congresso Nacional (1957–1960) · Arquitetura do Impossível</title>
+<title>Como foi construído o Congresso Nacional (1957–1960)</title>
 <meta name="description" content="Como Niemeyer e o calculista Joaquim Cardozo fizeram as cúpulas e as torres do Congresso para 21/04/1960, e o que ainda faltava no dia da inauguração.">
 <link rel="canonical" href="https://arquiteturadoimpossivel.com.br/obras/congresso-nacional.html">
+<meta name="robots" content="max-image-preview:large">
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../assets/img/11-camara-em-obra-1959-800.webp 800w, ../assets/img/11-camara-em-obra-1959.webp 1431w" imagesizes="100vw" fetchpriority="high">
 <meta name="google-adsense-account" content="ca-pub-4401770243539507">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-<link rel="stylesheet" href="../assets/arquitetura.css">
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="Congresso Nacional (1957–1960) · Arquitetura do Impossível">
+<meta property="og:title" content="Como foi construído o Congresso Nacional (1957–1960)">
 <meta property="og:description" content="Como Niemeyer e o calculista Joaquim Cardozo fizeram as cúpulas e as torres do Congresso para 21/04/1960, e o que ainda faltava no dia da inauguração.">
 <meta property="og:url" content="https://arquiteturadoimpossivel.com.br/obras/congresso-nacional.html">
 <meta property="og:image" content="https://arquiteturadoimpossivel.com.br/assets/img/og-congresso-nacional.jpg">
@@ -53,7 +340,7 @@
 </header>
 <main id="conteudo">
 <header class="capa">
-  <img src="../assets/img/11-camara-em-obra-1959.jpg" srcset="../assets/img/11-camara-em-obra-1959-800.jpg 800w, ../assets/img/11-camara-em-obra-1959.jpg 1431w" sizes="100vw" width="1431" height="1428" alt="Fotografia antiga em preto e branco: a cúpula côncava da Câmara coberta de andaimes de tubos, sobre a laje da plataforma sustentada por pilotis e fachada de vidro; atrás, o esqueleto de uma das torres em construção" loading="eager" decoding="async" style="object-position:55% 50%">
+  <picture><source type="image/webp" srcset="../assets/img/11-camara-em-obra-1959-800.webp 800w, ../assets/img/11-camara-em-obra-1959.webp 1431w" sizes="100vw"><img src="../assets/img/11-camara-em-obra-1959.jpg" srcset="../assets/img/11-camara-em-obra-1959-800.jpg 800w, ../assets/img/11-camara-em-obra-1959.jpg 1431w" sizes="100vw" width="1431" height="1428" alt="Fotografia antiga em preto e branco: a cúpula côncava da Câmara coberta de andaimes de tubos, sobre a laje da plataforma sustentada por pilotis e fachada de vidro; atrás, o esqueleto de uma das torres em construção" loading="eager" fetchpriority="high" decoding="async" style="object-position:55% 50%"></picture>
   <span class="credito-capa">A cúpula da Câmara em obra, em 1959, sobre a plataforma já com pilotis e fachada; atrás, o esqueleto das torres. — <a href="https://commons.wikimedia.org/wiki/File:Constru%C3%A7%C3%A3o_de_Bras%C3%ADlia_Congresso_Nacional_e_C%C3%A2mara_dos_Deputados_1959.jpg" rel="noopener">Agência Nacional (Arquivo Nacional)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></span>
   <div class="casca">
     <span class="rotulo">Obra <b>11</b> · Brasil</span>
@@ -74,16 +361,16 @@
     <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span> Confirmado em duas ou mais fontes independentes.</span><span><span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span> Uma fonte só; o texto diz qual.</span><span><span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span> As fontes discordam; mostramos as versões e não escolhemos.</span><span><span class="conf conf-sem" title="Ninguém registrou. Dizemos isso em vez de inventar.">sem registro</span> Ninguém registrou. Dizemos isso em vez de inventar.</span></div>
 
     <h2 id="s1"><span class="n">01</span>Um prédio com data marcada</h2><p>Quando Lúcio Costa venceu o concurso do Plano Piloto, em março de 1957, o desenho da nova capital já previa, na Praça dos Três Poderes, um edifício vertical para o Congresso. Brasília tinha de ser inaugurada em 21 de abril de 1960, e o Congresso era a peça que dava sentido à data: era ali que o Poder Legislativo, até então no Rio de Janeiro, passaria a funcionar.</p><p>Oscar Niemeyer fechou a composição entre março e julho de 1957: uma plataforma horizontal comprida, duas cúpulas em cima dela e duas torres estreitas de 28 andares atrás. A obra começou antes de o projeto estar pronto. Segundo Juliano Loureiro de Carvalho, pesquisador do Senado, o projeto de estruturas foi iniciado junto com as obras, em novembro de 1957, e só terminou em outubro de 1959; a comissão de deputados e senadores só aprovou o projeto em novembro de 1959, com o prédio já bem adiantado. Outra fonte, do próprio Senado, dá o início da construção em 16/03/1958.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/11-esqueleto-aco-1959.jpg" data-legenda="O esqueleto de aço das torres em 1959, durante uma visita de engenheiros ao canteiro. — Agência Nacional (Arquivo Nacional), Domínio público" aria-label="Ampliar imagem: Fotografia antiga em preto e branco: o esqueleto de pilares e vigas das duas torres do Congresso, ainda sem paredes, com guindastes no alto, e um grupo de visitantes de terno e vestido no canteiro em primeiro plano"><img src="../assets/img/11-esqueleto-aco-1959.jpg" srcset="../assets/img/11-esqueleto-aco-1959-800.jpg 800w, ../assets/img/11-esqueleto-aco-1959.jpg 1431w" sizes="(max-width:980px) 100vw, 720px" width="1431" height="2083" alt="Fotografia antiga em preto e branco: o esqueleto de pilares e vigas das duas torres do Congresso, ainda sem paredes, com guindastes no alto, e um grupo de visitantes de terno e vestido no canteiro em primeiro plano" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/11-esqueleto-aco-1959.jpg" data-legenda="O esqueleto de aço das torres em 1959, durante uma visita de engenheiros ao canteiro. — Agência Nacional (Arquivo Nacional), Domínio público" aria-label="Ampliar imagem: Fotografia antiga em preto e branco: o esqueleto de pilares e vigas das duas torres do Congresso, ainda sem paredes, com guindastes no alto, e um grupo de visitantes de terno e vestido no canteiro em primeiro plano"><picture><source type="image/webp" srcset="../assets/img/11-esqueleto-aco-1959-800.webp 800w, ../assets/img/11-esqueleto-aco-1959.webp 1431w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/11-esqueleto-aco-1959.jpg" srcset="../assets/img/11-esqueleto-aco-1959-800.jpg 800w, ../assets/img/11-esqueleto-aco-1959.jpg 1431w" sizes="(max-width:980px) 100vw, 720px" width="1431" height="2083" alt="Fotografia antiga em preto e branco: o esqueleto de pilares e vigas das duas torres do Congresso, ainda sem paredes, com guindastes no alto, e um grupo de visitantes de terno e vestido no canteiro em primeiro plano" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 02</span><span>O esqueleto de aço das torres em 1959, durante uma visita de engenheiros ao canteiro.</span><small><a href="https://commons.wikimedia.org/wiki/File:Constru%C3%A7%C3%A3o_do_Congresso_Nacional_1959-1.jpg" rel="noopener">Agência Nacional (Arquivo Nacional)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s2"><span class="n">02</span>A laje que segura tudo</h2><p>Antes das cúpulas há a plataforma: 200 metros de comprimento por 87 de largura, cerca de 14.500 m² de cobertura, segundo um levantamento técnico do Senado feito em 2017. É uma laje dupla, com nervuras que formam caixões vazios por dentro, apoiada numa malha de pilares de 10 por 15 metros. Nas bordas tem 70 centímetros de espessura; no centro, 3 metros.</p><p>O desenho dessa laje mudou no meio do caminho. No anteprojeto, o corredor que leva o público às galerias passava por cima dela e criava uma lombada de 1,70 metro que cortava a vista entre as cúpulas. Entre janeiro e setembro de 1958 o corredor desceu para dentro da plataforma. As plantas publicadas em 1958 mostravam a versão abandonada, e foram copiadas em livros e trabalhos acadêmicos por mais de cinquenta anos, como mostraram Elcio Gomes da Silva e José Manoel Morales Sánchez ao comparar os desenhos com as pranchas originais guardadas na Câmara.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/11-torres-marco-1960.jpg" data-legenda="As torres em 31/03/1960, três semanas antes da inauguração, ainda com andaimes e sem vidro nas janelas. — Autor não identificado (Arquivo Nacional, fundo Correio da Manhã), Domínio público" aria-label="Ampliar imagem: Fotografia antiga em preto e branco: as duas torres vistas de baixo, já revestidas nas pontas, com plataformas de andaime penduradas em vários andares, janelas sem vidro e uma torre de guindaste encostada à direita"><img src="../assets/img/11-torres-marco-1960.jpg" srcset="../assets/img/11-torres-marco-1960-800.jpg 800w, ../assets/img/11-torres-marco-1960.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="2190" alt="Fotografia antiga em preto e branco: as duas torres vistas de baixo, já revestidas nas pontas, com plataformas de andaime penduradas em vários andares, janelas sem vidro e uma torre de guindaste encostada à direita" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/11-torres-marco-1960.jpg" data-legenda="As torres em 31/03/1960, três semanas antes da inauguração, ainda com andaimes e sem vidro nas janelas. — Autor não identificado (Arquivo Nacional, fundo Correio da Manhã), Domínio público" aria-label="Ampliar imagem: Fotografia antiga em preto e branco: as duas torres vistas de baixo, já revestidas nas pontas, com plataformas de andaime penduradas em vários andares, janelas sem vidro e uma torre de guindaste encostada à direita"><picture><source type="image/webp" srcset="../assets/img/11-torres-marco-1960-800.webp 800w, ../assets/img/11-torres-marco-1960.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/11-torres-marco-1960.jpg" srcset="../assets/img/11-torres-marco-1960-800.jpg 800w, ../assets/img/11-torres-marco-1960.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="2190" alt="Fotografia antiga em preto e branco: as duas torres vistas de baixo, já revestidas nas pontas, com plataformas de andaime penduradas em vários andares, janelas sem vidro e uma torre de guindaste encostada à direita" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 03</span><span>As torres em 31/03/1960, três semanas antes da inauguração, ainda com andaimes e sem vidro nas janelas.</span><small><a href="https://commons.wikimedia.org/wiki/File:Constru%C3%A7%C3%A3o_do_Congresso_Nacional_-_BR_RJANRIO_PH_0_FOT_00742_0019,_Acervo_do_Arquivo_Nacional.jpg" rel="noopener">Autor não identificado (Arquivo Nacional, fundo Correio da Manhã)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s3"><span class="n">03</span>A tigela que não podia encostar</h2><p>A cúpula do Senado tinha solução conhecida: um paraboloide de revolução, com casca de 10 centímetros no topo e 35 na base, e um anel de concreto em volta para segurar o empurrão lateral. O problema era a outra. Niemeyer queria a cúpula da Câmara virada para cima, com 62 metros de diâmetro, parecendo apenas pousada sobre a laje, tocando-a com uma curva suave.</p><p>Cardozo tentou primeiro uma forma única, um paraboloide com curva do quinto grau, e ela criou dificuldades de cálculo e de execução. A saída, descrita pelo próprio engenheiro, foi trocar uma casca por três: uma faixa de elipsoide, onde se apoia a arquibancada das galerias, um tronco de cone e uma calota esférica muito achatada, de 52 metros de diâmetro e apenas 14 centímetros de espessura, que segura o forro do plenário e a cobertura plana. Tudo isso descansa num anel de concreto de 2,70 por 1,73 metro.</p><p>Para que a tigela aguentasse a tração em volta da base, a armadura foi mudada durante a obra. No primeiro metro, barras de aço comum soldadas em pares; nos dois metros seguintes, barras mais finas de um aço novo, o Torstahl, que tinha o dobro da resistência e acabara de chegar ao Brasil. Na parte mais densa, perto da base, o aço chega a cerca de 10% da seção de concreto. Cardozo calculou tudo no Rio de Janeiro: segundo um depoimento registrado por Silva e Sánchez, ele &quot;tinha muita idade&quot; e não pôde se mudar para Brasília. Tinha 60 anos em 1957.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/11-congresso-1960.jpg" data-legenda="O Congresso em 1960, com as duas cúpulas e as torres prontas por fora. — Agência Nacional (Arquivo Nacional), Domínio público" aria-label="Ampliar imagem: Fotografia antiga em preto e branco do conjunto visto de longe, sobre um gramado: a cúpula convexa à esquerda, as duas torres no centro, a cúpula côncava à direita e a rampa subindo para a plataforma"><img src="../assets/img/11-congresso-1960.jpg" srcset="../assets/img/11-congresso-1960-800.jpg 800w, ../assets/img/11-congresso-1960.jpg 1433w" sizes="(max-width:980px) 100vw, 720px" width="1433" height="1216" alt="Fotografia antiga em preto e branco do conjunto visto de longe, sobre um gramado: a cúpula convexa à esquerda, as duas torres no centro, a cúpula côncava à direita e a rampa subindo para a plataforma" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/11-congresso-1960.jpg" data-legenda="O Congresso em 1960, com as duas cúpulas e as torres prontas por fora. — Agência Nacional (Arquivo Nacional), Domínio público" aria-label="Ampliar imagem: Fotografia antiga em preto e branco do conjunto visto de longe, sobre um gramado: a cúpula convexa à esquerda, as duas torres no centro, a cúpula côncava à direita e a rampa subindo para a plataforma"><picture><source type="image/webp" srcset="../assets/img/11-congresso-1960-800.webp 800w, ../assets/img/11-congresso-1960.webp 1433w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/11-congresso-1960.jpg" srcset="../assets/img/11-congresso-1960-800.jpg 800w, ../assets/img/11-congresso-1960.jpg 1433w" sizes="(max-width:980px) 100vw, 720px" width="1433" height="1216" alt="Fotografia antiga em preto e branco do conjunto visto de longe, sobre um gramado: a cúpula convexa à esquerda, as duas torres no centro, a cúpula côncava à direita e a rampa subindo para a plataforma" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 04</span><span>O Congresso em 1960, com as duas cúpulas e as torres prontas por fora.</span><small><a href="https://commons.wikimedia.org/wiki/File:Obras_de_constru%C3%A7%C3%A3o_de_Bras%C3%ADlia_-_Congresso_Nacional.jpg" rel="noopener">Agência Nacional (Arquivo Nacional)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s4"><span class="n">04</span>Aço escondido nas torres</h2><p>As torres parecem concreto e não são. Por dentro, cada uma é um esqueleto de pilares e vigas de aço, unidos por rebites e depois envolvidos em concreto, a mesma solução dos ministérios da Esplanada. O aço veio dos Estados Unidos, fabricado pela Bethlehem Steel, por um contrato que a NOVACAP assinou em julho de 1957 com a americana Raymond Concrete Pile, como contrapartida de um empréstimo do Eximbank, o banco de exportação americano.</p><p>A montagem não andou no ritmo de Brasília. Segundo a pesquisa de Elcio Gomes da Silva e Danilo Matoso Macedo, os americanos trabalhavam em turnos regulares e com regras de segurança, e, nas palavras dos depoimentos da época, construía-se muito devagar. Em 2 de maio de 1959 a NOVACAP assumiu a montagem dos prédios que faltavam, incluindo as torres do Congresso, e entregou o trabalho a operários que nunca tinham montado estrutura de aço. O arquiteto Hermano Montenegro lembrou, num depoimento de 1989, operários nordestinos sem experiência nenhuma que, em pouco tempo, passaram a montar estruturas metálicas difíceis e a rebitar &quot;com a maior rapidez do mundo&quot;.</p><p>A passarela que liga as duas torres no meio da altura não estava no projeto original. Segundo Nauro Esteves, coordenador técnico da obra, ela foi feita para travar a estrutura metálica, por causa da altura dos prédios.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/11-congresso-hoje.jpg" data-legenda="O Congresso em 2015: as torres, a cúpula do Senado no canto e a cúpula da Câmara refletida no espelho d&#x27;água. — Donatas Dabravolskas, CC BY-SA 4.0" aria-label="Ampliar imagem: O Congresso Nacional ao entardecer, com as duas torres altas à esquerda, a cúpula convexa do Senado no canto, a grande cúpula côncava da Câmara à direita e o conjunto refletido no espelho d&#x27;água"><img src="../assets/img/11-congresso-hoje.jpg" srcset="../assets/img/11-congresso-hoje-800.jpg 800w, ../assets/img/11-congresso-hoje.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1063" alt="O Congresso Nacional ao entardecer, com as duas torres altas à esquerda, a cúpula convexa do Senado no canto, a grande cúpula côncava da Câmara à direita e o conjunto refletido no espelho d&#x27;água" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/11-congresso-hoje.jpg" data-legenda="O Congresso em 2015: as torres, a cúpula do Senado no canto e a cúpula da Câmara refletida no espelho d&#x27;água. — Donatas Dabravolskas, CC BY-SA 4.0" aria-label="Ampliar imagem: O Congresso Nacional ao entardecer, com as duas torres altas à esquerda, a cúpula convexa do Senado no canto, a grande cúpula côncava da Câmara à direita e o conjunto refletido no espelho d&#x27;água"><picture><source type="image/webp" srcset="../assets/img/11-congresso-hoje-800.webp 800w, ../assets/img/11-congresso-hoje.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/11-congresso-hoje.jpg" srcset="../assets/img/11-congresso-hoje-800.jpg 800w, ../assets/img/11-congresso-hoje.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1063" alt="O Congresso Nacional ao entardecer, com as duas torres altas à esquerda, a cúpula convexa do Senado no canto, a grande cúpula côncava da Câmara à direita e o conjunto refletido no espelho d&#x27;água" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 05</span><span>O Congresso em 2015: as torres, a cúpula do Senado no canto e a cúpula da Câmara refletida no espelho d&#x27;água.</span><small><a href="https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_Nereu_Ramos_-_Bras%C3%ADlia_-_20150603172521.jpg" rel="noopener">Donatas Dabravolskas</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a></small></figcaption>
 </figure><h2 id="s5"><span class="n">05</span>Os homens do 28</h2><p>Ninguém registrou quantos homens trabalharam no Congresso. Brasília inteira tinha 64.314 habitantes no censo de 17 de maio de 1959, quase dois homens para cada mulher, e a maioria estava na construção. A jornada ia das 6h ao meio-dia e das 13h às 18h, e muitos faziam viradas de dia e noite, porque o pagamento era por hora. Os acidentados atendidos pelo hospital do IAPI passaram de 1.974 em 1958 para 10.927 em 1959, segundo o historiador Hermes Aquino Teixeira.</p><p>Também não há número de mortos na obra do Congresso, nem oficial, nem contestado. Os operários chamavam o prédio de &quot;o 28&quot;, pelos andares das torres, e o temiam. Num depoimento ao Arquivo Público do Distrito Federal, em 1990, Natalino Cavalcante de Melo falou de operários que caíam das torres ao soldar e eram cobertos com lona. Num subsolo do Congresso ficou o recado de um operário, José Silva Guerra, do Ceará, escrito em 22/04/1959: &quot;Que os homens de amanhã que aqui vierem tenham compaixão dos nossos filhos e que a lei se cumpra.&quot;</p><p>Em 8 de fevereiro de 1959, num domingo de carnaval, a Guarda Especial de Brasília invadiu à noite o acampamento da construtora Pacheco Fernandes Dantas, que erguia o Palácio do Planalto, depois de uma briga por causa de comida estragada. O inquérito registrou um morto, Evaristo Soares Brandão, e 48 feridos. Um telegrama da associação dos operários falou em nove mortos, e candangos ouvidos décadas depois falaram em dezenas. Nenhum outro corpo foi encontrado. Não foi na obra do Congresso, mas foi na mesma corrida contra a mesma data.</p><h2 id="s6"><span class="n">06</span>Inaugurado pela metade</h2><p>Seis meses antes da inauguração, o Congresso e o Palácio do Planalto ainda eram esqueletos, segundo reportagem do Correio Braziliense. Uma fotografia de 31 de março de 1960, do arquivo do jornal Correio da Manhã, mostra as torres com plataformas de andaime e uma grua encostada, três semanas antes da festa. Em 21 de abril de 1960 o Congresso fez sua primeira sessão em Brasília. As torres estavam sem vidro nas esquadrias e sem acabamento por dentro; projeto, obra e pagamentos à construtora continuaram até 1964.</p><p>O prédio continuou mudando. A plataforma foi ampliada em 1970 e 1971, com projeto do próprio Niemeyer, e Carvalho contou cem reformas no edifício principal entre 1960 e 2020. A impermeabilização da laje é um mosaico de épocas: em 2017, perto de metade ainda era a original, feita no local com camadas de asfalto, alumínio, feltro e chumbo. Joaquim Cardozo deixou de calcular depois de 1971, quando desabou em Belo Horizonte o Pavilhão da Gameleira, outra obra sua com Niemeyer, matando 69 operários; condenado em primeira instância, foi absolvido em recurso, e a perícia apontou erro de execução, não de cálculo.</p><h2 id="s7"><span class="n">07</span>Duzentos anos depois</h2><p>Em 6 de maio de 2026, o Congresso comemorou os 200 anos da instalação da Câmara dos Deputados e do Senado, que se reuniram pela primeira vez em 6 de maio de 1826. A sessão solene foi no Plenário Ulysses Guimarães, debaixo da cúpula côncava, e à noite as cúpulas e as torres receberam imagens projetadas. O prédio feito às pressas para ser o símbolo de um Legislativo que mudava de cidade virou a tela da festa de dois séculos desse Legislativo.</p>
     
@@ -101,7 +388,7 @@
     </section>
 
     <a class="proximo-ep" href="golden-gate.html">
-      <div class="foto"><img src="../assets/img/12-capa.jpg" srcset="../assets/img/12-capa-800.jpg 800w, ../assets/img/12-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1000" alt="Ponte pênsil laranja sob céu azul, com uma torre alta sobre uma base de concreto no mar, os cabos descendo em curva até a segunda torre ao fundo, morros verdes e marrons atrás e um forte de tijolos em primeiro plano" loading="lazy" decoding="async" style="object-position:52% 45%"></div>
+      <div class="foto"><picture><source type="image/webp" srcset="../assets/img/12-capa-800.webp 800w, ../assets/img/12-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/12-capa.jpg" srcset="../assets/img/12-capa-800.jpg 800w, ../assets/img/12-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1000" alt="Ponte pênsil laranja sob céu azul, com uma torre alta sobre uma base de concreto no mar, os cabos descendo em curva até a segunda torre ao fundo, morros verdes e marrons atrás e um forte de tijolos em primeiro plano" loading="lazy" decoding="async" style="object-position:52% 45%"></picture></div>
       <div class="txt">
         <span class="rotulo">Próximo episódio · Obra <b>12</b> · <span class="selo-estreia" data-estreia="2026-12-24" data-no-ar="no ar">estreia 24 dez 2026</span></span>
         <h3>Ponte Golden Gate</h3>
@@ -110,6 +397,8 @@
         <span class="ir">Ler a obra →</span>
       </div>
     </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MAIS</span>Leia também</h2><ul><li><a href="masp.html"><span class="rotulo">Obra <b>15</b> · Brasil</span><strong>MASP</strong><span class="onde">1960–1968</span></a></li><li><a href="cristo-redentor.html"><span class="rotulo">Obra <b>01</b> · Brasil</span><strong>Cristo Redentor</strong><span class="onde">1922–1931</span></a></li><li><a href="opera-de-sydney.html"><span class="rotulo">Obra <b>28</b> · Austrália</span><strong>Ópera de Sydney</strong><span class="onde">1959–1973</span></a></li></ul></section>
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes"><li>Elcio Gomes da Silva e José Manoel Morales Sánchez, &quot;Documentação estrutural do Palácio do Congresso Nacional em Brasília&quot;, Paranoá, n. 15, 2015 — <a href="https://periodicos.unb.br/index.php/paranoa/article/download/11440/10072/20636" rel="noopener">periodicos.unb.br</a></li><li>Elcio Gomes da Silva e Danilo Matoso Macedo, &quot;Estruturas metálicas no concreto de Brasília&quot;, Thésis, v. 5, 2018 — <a href="https://thesis.anparq.org.br/revista-thesis/article/download/203/220/619" rel="noopener">thesis.anparq.org.br</a></li><li>Elcio Gomes da Silva e José Manoel Morales Sánchez, &quot;Congresso Nacional: da documentação técnica à obra construída&quot;, mdc, 2009 — <a href="https://mdc.arq.br/2009/03/09/congresso-nacional-da-documentacao-tecnica-a-obra-construida/" rel="noopener">mdc.arq.br</a></li><li>Elcio Gomes da Silva, Os palácios originais de Brasília, tese de doutorado, Universidade de Brasília, 2012 — <a href="https://repositorio.unb.br/handle/10482/11159" rel="noopener">repositorio.unb.br</a></li><li>Dayane Torres Matos e Thamires de Souza Fernandes, &quot;As cúpulas do Palácio do Congresso Nacional&quot;, Cadernos de Graduação — Ciências Exatas e Tecnológicas, v. 5, n. 2, 2019 — <a href="https://periodicos.set.edu.br/cadernoexatas/article/download/6687/3243/0" rel="noopener">periodicos.set.edu.br</a></li><li>Juliano Loureiro de Carvalho, &quot;Palácio do Congresso Nacional — valor cultural de alterações em edifícios modernos&quot;, Anais do Museu Paulista, v. 32, 2024 — <a href="https://doi.org/10.11606/1982-02672024v32e19" rel="noopener">doi.org</a></li><li>Senado Federal, &quot;Caracterização construtiva — Plataforma do Edifício Principal&quot;, consulta pública sobre impermeabilização, 2017 — <a href="https://www12.senado.leg.br/transparencia/licitacoes-e-contratos/sadcon/convocacoes-e-especificacoes/solucoes-de-impermeabilizacao-para-o-palacio-do-congresso-nacional/caracterizacao-construtiva" rel="noopener">www12.senado.leg.br</a></li><li>Lucas Ferreira Santos, Cotidiano operário durante a construção de Brasília e o Massacre da Pacheco Fernandes em 1959, monografia de História, Universidade de Brasília, 2023 — <a href="https://bdm.unb.br/bitstream/10483/36739/1/2023_LucasFerreiraSantos_tcc.pdf" rel="noopener">bdm.unb.br</a></li><li>Mariana Machado, &quot;Massacre da Pacheco Fernandes completa 60 anos e continua sendo mistério&quot;, Correio Braziliense, 08/02/2019 — <a href="https://www.correiobraziliense.com.br/app/noticia/cidades/2019/02/08/interna_cidadesdf,736183/massacre-da-pacheco-fernandes-completa-60-anos-continua-sendo-misterio.shtml" rel="noopener">correiobraziliense.com.br</a></li><li>Renato Alves, &quot;1959, o ano em que Brasília não parou&quot;, Correio Braziliense, 19/10/2009 — <a href="https://www.correiobraziliense.com.br/app/noticia/cidades/2009/10/19/interna_cidadesdf,149129/1959-o-ano-em-que-brasilia-nao-parou.shtml" rel="noopener">correiobraziliense.com.br</a></li><li>Agência Senado, &quot;Brasília 60 anos — Candangos na construção da capital&quot;, 2020 — <a href="https://www12.senado.leg.br/noticias/infomaterias/2020/04/brasilia-60-anos-2014-candangos-na-construcao-da-capital" rel="noopener">www12.senado.leg.br</a></li><li>Renato Alves, &quot;Na construção de Brasília, operários temiam o &#x27;28&#x27;, onde quedas seriam comuns&quot;, O Tempo, 21/04/2024 — <a href="https://www.otempo.com.br/politica/congresso/na-construcao-de-brasilia-operarios-temiam-o-28-onde-quedas-seriam-comuns-1.3401643" rel="noopener">otempo.com.br</a></li><li>Agência Brasil, &quot;Censo populacional de 1959 revela quem eram os candangos que construíram Brasília&quot;, 2010 — <a href="https://memoria.ebc.com.br/agenciabrasil/noticia/2010-04-21/censo-populacional-de-1959-revela-quem-eram-os-candangos-que-construiram-brasilia" rel="noopener">memoria.ebc.com.br</a></li><li>Câmara dos Deputados, &quot;Joaquim Cardozo, o poeta dos cálculos&quot;, Plenarinho, 2020 — <a href="https://plenarinho.leg.br/index.php/2020/04/joaquim-cardozo-o-poeta-dos-calculos/" rel="noopener">plenarinho.leg.br</a></li><li>Câmara dos Deputados, &quot;Congresso Nacional recebe projeção pelos 200 anos da Câmara dos Deputados e do Senado Federal&quot;, 05/05/2026 — <a href="https://www.camara.leg.br/assessoria-de-imprensa/1269078-congresso-nacional-recebe-projecao-pelos-200-anos-da-camara-dos-deputados-e-do-senado-federal/" rel="noopener">camara.leg.br</a></li><li>Agência Senado, &quot;&#x27;Representação do povo&#x27; é destaque em sessão pelo bicentenário da Câmara&quot;, 06/05/2026 — <a href="https://www12.senado.leg.br/noticias/materias/2026/05/06/defesa-da-democracia-e-destaque-em-sessao-pelo-bicentenario-da-camara" rel="noopener">www12.senado.leg.br</a></li><li>Congresso Nacional, &quot;Arquitetura — Visite o Congresso&quot; — <a href="https://www2.congressonacional.leg.br/visite/arquitetura" rel="noopener">www2.congressonacional.leg.br</a></li><li>Council on Tall Buildings and Urban Habitat, Skyscraper Center, &quot;Palacio do Congresso Nacional Anexo I&quot; — <a href="https://www.skyscrapercenter.com/building/palacio-do-congresso-nacional-anexo-i/15761" rel="noopener">skyscrapercenter.com</a></li></ol>

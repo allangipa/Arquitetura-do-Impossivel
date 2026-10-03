@@ -2,13 +2,14 @@
   "num": "27",
   "slug": "estadio-olimpico-de-munique",
   "obra": "Estádio Olímpico de Munique",
+  "relacionados": ["astrodome", "maracana", "atomium"],
   "titulo_video": null,
   "lugar": "Parque Olímpico, Munique, Baviera, Alemanha",
   "regiao": "mundo",
   "periodo": "1969–1972",
   "estreia": "2027-04-08",
   "impossivel": "Pendurar sobre um estádio, um ginásio e uma piscina mais de 70 mil metros quadrados de acrílico numa rede de cabos que ninguém sabia calcular, com prazo fixo e sem saber se a forma era sequer construível.",
-  "resumo": "Como o teto de cabos e acrílico de Munique 1972 saiu de uma meia-calça, passou por maquetes de arame e só ficou de pé quando um computador fez a conta.",
+  "resumo": "Como o teto de cabos e acrílico do Estádio Olímpico de Munique saiu de uma meia-calça, passou por maquetes de arame e só ficou de pé com um computador.",
   "abertura": [
     "Em outubro de 1967, o júri do concurso para o Parque Olímpico de Munique, na Baviera, Alemanha, escolheu um projeto cuja maquete, segundo a história mais contada, tinha mastros de palito e um teto de meia de náilon esticada. O escritório de Günter Behnisch propunha cobrir o estádio, o ginásio, a piscina e os caminhos entre eles com uma única tenda transparente, inspirada no pavilhão que Frei Otto acabara de levantar na Expo de Montreal.",
     "O problema é que ninguém sabia se aquilo podia ser construído. O relatório que o governo alemão entregou ao Parlamento em 1975 diz com todas as letras: no início, não estava claro nem se o teto era tecnicamente viável, nem havia base minimamente confiável para estimar o custo. O arquiteto falou em 15 a 18 milhões de marcos. A conta final foi de 170,6 milhões."

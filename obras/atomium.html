@@ -6,12 +6,299 @@
 <title>Atomium (1956–1958) · Arquitetura do Impossível</title>
 <meta name="description" content="Como a Bélgica ergueu para a Expo 58 um cristal de ferro de 102 m, por que ele deveria ter sido desmontado e como trocou a pele de alumínio por aço inox.">
 <link rel="canonical" href="https://arquiteturadoimpossivel.com.br/obras/atomium.html">
+<meta name="robots" content="max-image-preview:large">
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../assets/img/25-cristal-de-ferro-800.webp 800w, ../assets/img/25-cristal-de-ferro.webp 999w" imagesizes="100vw" fetchpriority="high">
 <meta name="google-adsense-account" content="ca-pub-4401770243539507">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-<link rel="stylesheet" href="../assets/arquitetura.css">
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
@@ -53,7 +340,7 @@
 </header>
 <main id="conteudo">
 <header class="capa">
-  <img src="../assets/img/25-cristal-de-ferro.jpg" srcset="../assets/img/25-cristal-de-ferro-800.jpg 800w, ../assets/img/25-cristal-de-ferro.jpg 999w" sizes="100vw" width="999" height="931" alt="Diagrama em cinza sobre fundo branco: oito esferas nos vértices de um cubo e uma nona no centro, ligadas por barras, as quatro diagonais cruzando no meio" loading="eager" decoding="async">
+  <picture><source type="image/webp" srcset="../assets/img/25-cristal-de-ferro-800.webp 800w, ../assets/img/25-cristal-de-ferro.webp 999w" sizes="100vw"><img src="../assets/img/25-cristal-de-ferro.jpg" srcset="../assets/img/25-cristal-de-ferro-800.jpg 800w, ../assets/img/25-cristal-de-ferro.jpg 999w" sizes="100vw" width="999" height="931" alt="Diagrama em cinza sobre fundo branco: oito esferas nos vértices de um cubo e uma nona no centro, ligadas por barras, as quatro diagonais cruzando no meio" loading="eager" fetchpriority="high" decoding="async"></picture>
   <span class="credito-capa">A célula cúbica de corpo centrado do ferro, a forma que o Atomium reproduz. No edifício, o cubo está apoiado sobre um dos vértices. — <a href="https://commons.wikimedia.org/wiki/File:Iron_bcc.png" rel="noopener">Solid State</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></span>
   <div class="casca">
     <span class="rotulo">Obra <b>25</b> · Mundo</span>
@@ -74,10 +361,10 @@
     <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span> Confirmado em duas ou mais fontes independentes.</span><span><span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span> Uma fonte só; o texto diz qual.</span><span><span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span> As fontes discordam; mostramos as versões e não escolhemos.</span><span><span class="conf conf-sem" title="Ninguém registrou. Dizemos isso em vez de inventar.">sem registro</span> Ninguém registrou. Dizemos isso em vez de inventar.</span></div>
 
     <h2 id="s1"><span class="n">01</span>Um cristal no meio da avenida</h2><p>Bruxelas já tinha recebido outras exposições internacionais quando decidiu fazer a de 1958, no planalto do Heysel, no bairro de Laeken, onde a de 1935 havia deixado palácios e avenidas. Era a primeira exposição universal depois da Segunda Guerra, e a Bélgica vivia um momento de prosperidade. Os organizadores queriam romper com o desenho simétrico de 1935 e organizar o recinto inteiro a partir de um ponto focal.</p><p>Esse ponto seria um edifício pago pela indústria do metal. Três federações se juntaram numa associação sem fins lucrativos, e um engenheiro da Fabrimétal, André Waterkeyn, apresentou a ideia: em vez de um pavilhão, um cristal de ferro. Mais exatamente, a célula elementar do ferro, que os químicos chamam de cúbica de corpo centrado: oito átomos nos vértices de um cubo e um nono no centro. As esferas seriam os átomos; os tubos, as forças que os ligam. O nome, Atomium, falava da era atômica, e o plano era ocupar as esferas com exposições sobre o uso pacífico da energia nuclear.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/25-canteiro-expo-1957.jpg" data-legenda="O canteiro da Expo 58 em 11 de abril de 1957, quando o Atomium tinha apenas o primeiro mastro de pé. — Daan Noske / Anefo (Nationaal Archief), CC0" aria-label="Ampliar imagem: Fotografia em preto e branco: operários levantando paredes de tijolo entre estruturas de madeira de casas em construção, num terreno de obra cheio de material"><img src="../assets/img/25-canteiro-expo-1957.jpg" srcset="../assets/img/25-canteiro-expo-1957-800.jpg 800w, ../assets/img/25-canteiro-expo-1957.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1274" alt="Fotografia em preto e branco: operários levantando paredes de tijolo entre estruturas de madeira de casas em construção, num terreno de obra cheio de material" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/25-canteiro-expo-1957.jpg" data-legenda="O canteiro da Expo 58 em 11 de abril de 1957, quando o Atomium tinha apenas o primeiro mastro de pé. — Daan Noske / Anefo (Nationaal Archief), CC0" aria-label="Ampliar imagem: Fotografia em preto e branco: operários levantando paredes de tijolo entre estruturas de madeira de casas em construção, num terreno de obra cheio de material"><picture><source type="image/webp" srcset="../assets/img/25-canteiro-expo-1957-800.webp 800w, ../assets/img/25-canteiro-expo-1957.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/25-canteiro-expo-1957.jpg" srcset="../assets/img/25-canteiro-expo-1957-800.jpg 800w, ../assets/img/25-canteiro-expo-1957.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1274" alt="Fotografia em preto e branco: operários levantando paredes de tijolo entre estruturas de madeira de casas em construção, num terreno de obra cheio de material" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 02</span><span>O canteiro da Expo 58 em 11 de abril de 1957, quando o Atomium tinha apenas o primeiro mastro de pé.</span><small><a href="https://commons.wikimedia.org/wiki/File:Opbouw_wereldtentoonstelling_in_Brussel,_Bestanddeelnr_908-4941.jpg" rel="noopener">Daan Noske / Anefo (Nationaal Archief)</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noopener">CC0</a></small></figcaption>
 </figure><h2 id="s2"><span class="n">02</span>A conta dos 165 bilhões</h2><p>O número que acompanha o Atomium desde 1958 é a ampliação: o cristal estaria aumentado cerca de 165 bilhões de vezes. O inventário dos Arquivos da Cidade de Bruxelas, de 2004, fala em mais de 150 bilhões. A conta se sustenta. Segundo a revista técnica Acier Stahl Steel, de 1958, a aresta do cubo mede 47 metros; no ferro de verdade, a aresta da célula mede pouco menos de três décimos de bilionésimo de metro. A divisão de uma pela outra dá cerca de 164 bilhões.</p><p>A mesma geometria explica a altura. Um cubo de 47 metros posto sobre um vértice tem, de uma ponta à outra, uns 81 metros entre os centros das esferas. Somam-se meia esfera em cima e meia embaixo, de 18 metros de diâmetro cada uma, e o pavilhão de entrada sobre o qual pousa a esfera de baixo. O resultado são os 102 metros do edifício. Coube aos irmãos André e Jean Polak, arquitetos, transformar o diagrama num prédio que se pudesse visitar, e aos engenheiros Artémy S. Joukoff e André Beckers fazer com que ele parasse em pé.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/25-desmontagem-expo-1958.jpg" data-legenda="A desmontagem da Expo em 25 de novembro de 1958, um mês depois do fechamento. Os pavilhões foram desfeitos; o Atomium, que também deveria sair, ficou. — Harry Pot / Anefo (Nationaal Archief), CC0" aria-label="Ampliar imagem: Fotografia em preto e branco: um homem de terno lê papéis numa mesa de escritório no meio de um pavilhão envidraçado vazio, com o chão coberto de entulho e aparas"><img src="../assets/img/25-desmontagem-expo-1958.jpg" srcset="../assets/img/25-desmontagem-expo-1958-800.jpg 800w, ../assets/img/25-desmontagem-expo-1958.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="2038" alt="Fotografia em preto e branco: um homem de terno lê papéis numa mesa de escritório no meio de um pavilhão envidraçado vazio, com o chão coberto de entulho e aparas" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/25-desmontagem-expo-1958.jpg" data-legenda="A desmontagem da Expo em 25 de novembro de 1958, um mês depois do fechamento. Os pavilhões foram desfeitos; o Atomium, que também deveria sair, ficou. — Harry Pot / Anefo (Nationaal Archief), CC0" aria-label="Ampliar imagem: Fotografia em preto e branco: um homem de terno lê papéis numa mesa de escritório no meio de um pavilhão envidraçado vazio, com o chão coberto de entulho e aparas"><picture><source type="image/webp" srcset="../assets/img/25-desmontagem-expo-1958-800.webp 800w, ../assets/img/25-desmontagem-expo-1958.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/25-desmontagem-expo-1958.jpg" srcset="../assets/img/25-desmontagem-expo-1958-800.jpg 800w, ../assets/img/25-desmontagem-expo-1958.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="2038" alt="Fotografia em preto e branco: um homem de terno lê papéis numa mesa de escritório no meio de um pavilhão envidraçado vazio, com o chão coberto de entulho e aparas" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 03</span><span>A desmontagem da Expo em 25 de novembro de 1958, um mês depois do fechamento. Os pavilhões foram desfeitos; o Atomium, que também deveria sair, ficou.</span><small><a href="https://commons.wikimedia.org/wiki/File:Afbraak_Expo_te_Brussel,_Jan_de_Winter_werkt_midden_in_chaos,_Bestanddeelnr_909-9964.jpg" rel="noopener">Harry Pot / Anefo (Nationaal Archief)</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noopener">CC0</a></small></figcaption>
 </figure><h2 id="s3"><span class="n">03</span>Equilibrado num vértice, à espera do vento</h2><p>Uma estrutura de esferas e tubos apoiada num ponto só não se parecia com nada que os engenheiros conhecessem. A associação que administra o Atomium afirma que os estudos começaram em janeiro de 1955 com ensaios em túnel de vento, porque calcular a resistência ao vento de um conjunto de esferas era, segundo ela, uma primeira mundial. O inventário do patrimônio de Bruxelas registra uma maquete submetida a ventos artificiais para testar a estabilidade.</p><p>O edifício que saiu desses ensaios não se apoia só no vértice. As três esferas mais baixas descansam sobre três bipés, estruturas em V invertido de uns 30 metros que levam escadas por dentro e serviam de saída aos visitantes. Na versão mais repetida da história, registrada na Wikipédia em inglês a partir do banco de dados Structurae, o projeto original não tinha esses apoios, e o túnel de vento mostrou que o conjunto tombaria com ventos de 80 km/h, quando a Bélgica já registrou rajadas de 140 km/h. As fontes institucionais confirmam os ensaios e os bipés, mas não detalham essa sequência.</p><p>Por dentro, cada esfera tem como esqueleto doze arcos semicirculares de chapa de aço em caixão, com uma ossatura secundária que segura o revestimento. Os tubos, de cerca de 3 metros de diâmetro, levam escadas, escadas rolantes, a mais longa com 35 metros, e, no tubo vertical do centro, um elevador de 5 metros por segundo, que o inventário de Bruxelas descreve como o mais rápido da Europa na época.</p><h2 id="s4"><span class="n">04</span>Alpinistas pendurados em guinchos</h2><p>As fundações começaram em março de 1956, sobre grupos de estacas cravadas a 17,5 metros. O primeiro mastro vertical subiu em janeiro de 1957, a esfera de base foi montada em maio, os bipés e o mastro central entre junho e setembro, e as esferas foram fechadas de outubro de 1957 a março de 1958. A montagem coube aos Ateliers de Construction de Jambes-Namur. A revista Acier Stahl Steel registrou o equipamento: doze guinchos elétricos, mais de quarenta guinchos manuais e 43 quilômetros de cabo de aço. Cada bipé, de 115 toneladas segundo a revista, ou 100 segundo a RTBF, foi montado no chão e erguido inteiro.</p><p>Quantos homens fizeram isso, ninguém registrou. O número de 15 mil operários que aparece na imprensa belga se refere à Expo inteira. O que existe é a memória de um deles. Frans Cools, chefe de turma da Jambes-Namur, contou ao jornal Gazet van Laakdal, que publicou seu obituário em 2023, que a equipe trabalhava pendurada em caçambas presas a guinchos, no máximo quatro por caçamba, e que eles se chamavam de alpinistas. Nos últimos nove meses, disse, trabalharam sem parar, inclusive nos fins de semana e feriados. Segundo ele, não houve acidente nenhum, e a obra só terminou às 2 horas da manhã de 17/04/1958, no próprio dia em que o rei Balduíno abriu a exposição. A associação que administra o edifício dá outra data de conclusão: 25 de março.</p><h2 id="s5"><span class="n">05</span>Seis meses que viraram quase setenta anos</h2><p>A Expo 58 ficou aberta de 17 de abril a 19 de outubro de 1958 e registrou 41.454.412 entradas. O Atomium, desprezado na época pelos críticos de arquitetura pelo gigantismo e pela forma, foi a atração mais procurada. Quando a exposição fechou, os pavilhões foram desmontados. O Atomium também deveria ter sido: segundo os Arquivos da Cidade de Bruxelas, ele não estava destinado a sobreviver à exposição, e foi a Cidade que quis mantê-lo, por causa do sucesso.</p><p>Ficar não significou ser cuidado. Os Arquivos registram uma restauração entre 1988 e 1993, mas o revestimento de alumínio de 1958 envelheceu e a estrutura passou a deixar entrar água. A associação que administra o edifício afirma que ele esteve perto de ser demolido no fim dos anos 1990, por falta de viabilidade. As contas de público da época divergem: o inventário de 2004 fala em perto de meio milhão de visitantes por ano; o jornal L&#x27;Avenir, em 2026, em cerca de 150 mil por ano antes da renovação.</p><h2 id="s6"><span class="n">06</span>A pele nova</h2><p>A renovação durou de março de 2004 a fevereiro de 2006, com projeto do escritório Conix. A estrutura metálica foi recuperada ou substituída, e o alumínio deu lugar ao aço inoxidável, mais resistente à corrosão e melhor isolante acústico, segundo a associação. Cada esfera era coberta por 48 grandes triângulos, e cada um deles, na versão de 1958, era um mosaico de chapas menores; por isso há fontes que contam 720 triângulos de alumínio por esfera. Os painéis novos reproduzem o desenho com falsas juntas. O edifício ganhou cerca de 100 toneladas e passou de 2.400 para 2.500 toneladas.</p><p>Para ajudar a pagar o revestimento novo, mil triângulos originais foram leiloados. O custo total aparece como 26 milhões de euros numa versão e como 25 milhões mais 2,5 milhões de sobrecusto do aço na conta da RTBF, a emissora pública belga. O Atomium reabriu em 14/02/2006, em cerimônia oficial, e ao público em 18 de fevereiro.</p><h2 id="s7"><span class="n">07</span>Um cristal com direitos autorais</h2><p>O Atomium é também um caso conhecido de direito de imagem. Em 2003, a sociedade belga de autores, SABAM, reivindicava direitos sobre reproduções do edifício no mundo todo. Desde 15 de julho de 2016, a lei belga permite reproduzir obras de arquitetura colocadas de forma permanente em lugar público, desde que isso não prejudique a exploração normal da obra. A associação que administra o Atomium continua a pedir que todo uso da imagem, comercial ou não, passe por autorização. Por isso as imagens desta página mostram o cristal que inspirou o edifício e a exposição que o cercou, e não o edifício.</p><p>Em 2025, segundo o L&#x27;Avenir, o Atomium recebeu 850 mil visitantes, recorde da sua história. Em 14/02/2026 começou a programação dos 20 anos da renovação, com três instalações de arte digital nas esferas e um podcast com operários, arquitetos e vizinhos da obra; quem nasceu em 18/02/2006 entra de graça o ano inteiro. Em setembro de 2026, as esferas receberam um festival de ciência aberto ao público. O edifício que deveria durar seis meses chegou a quase setenta anos.</p>
     
@@ -95,7 +382,7 @@
     </section>
 
     <a class="proximo-ep" href="astrodome.html">
-      <div class="foto"><img src="../assets/img/26-capa.jpg" srcset="../assets/img/26-capa-800.jpg 800w, ../assets/img/26-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1228" alt="Vista aérea de um estádio redondo de cúpula baixa e clara no meio de um estacionamento vazio enorme, com bairros e rodovias de Houston ao fundo sob céu azul" loading="lazy" decoding="async" style="object-position:60% 58%"></div>
+      <div class="foto"><picture><source type="image/webp" srcset="../assets/img/26-capa-800.webp 800w, ../assets/img/26-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/26-capa.jpg" srcset="../assets/img/26-capa-800.jpg 800w, ../assets/img/26-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1228" alt="Vista aérea de um estádio redondo de cúpula baixa e clara no meio de um estacionamento vazio enorme, com bairros e rodovias de Houston ao fundo sob céu azul" loading="lazy" decoding="async" style="object-position:60% 58%"></picture></div>
       <div class="txt">
         <span class="rotulo">Próximo episódio · Obra <b>26</b> · <span class="selo-estreia" data-estreia="2027-04-01" data-no-ar="no ar">estreia 01 abr 2027</span></span>
         <h3>Astrodome</h3>
@@ -104,6 +391,8 @@
         <span class="ir">Ler a obra →</span>
       </div>
     </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MAIS</span>Leia também</h2><ul><li><a href="torre-eiffel.html"><span class="rotulo">Obra <b>10</b> · França</span><strong>Torre Eiffel</strong><span class="onde">1887–1889</span></a></li><li><a href="estadio-olimpico-de-munique.html"><span class="rotulo">Obra <b>27</b> · Alemanha</span><strong>Estádio Olímpico de Munique</strong><span class="onde">1969–1972</span></a></li><li><a href="opera-de-sydney.html"><span class="rotulo">Obra <b>28</b> · Austrália</span><strong>Ópera de Sydney</strong><span class="onde">1959–1973</span></a></li></ul></section>
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes"><li>Inventaire du patrimoine architectural, Région de Bruxelles-Capitale (urban.brussels), &quot;Atomium&quot;, 2018 — <a href="https://monument.heritage.brussels/fr/Bruxelles_Laeken/Square_de_l_Atomium/A001/38328" rel="noopener">monument.heritage.brussels</a></li><li>Virginie Coumans, Archives de l&#x27;Atomium, Inventaire n° 8, Archives de la Ville de Bruxelles, 2004 — <a href="http://archives.brucity.be/docs/0100/AVB_INV_008.pdf" rel="noopener">archives.brucity.be</a></li><li>Patrimoine industriel Wallonie-Bruxelles, &quot;La construction de l&#x27;Atomium: un fameux défi&quot;, 2010, a partir da revista Acier Stahl Steel, julho e agosto de 1958 — <a href="https://patrimoineindustriel.be/fr/publications/actualite/+la-construction-de-l-atomium-un-fameux-defi" rel="noopener">patrimoineindustriel.be</a></li><li>Atomium asbl, &quot;The construction of the Atomium&quot; — <a href="https://atomium.be/construction_of_the_atomium" rel="noopener">atomium.be</a></li><li>Atomium asbl, &quot;Renovation of the Atomium&quot; — <a href="https://atomium.be/renovation_of_the_atomium" rel="noopener">atomium.be</a></li><li>Atomium asbl, &quot;Expo 58&quot; — <a href="https://atomium.be/expo58" rel="noopener">atomium.be</a></li><li>Atomium asbl, &quot;Copyright&quot; — <a href="https://atomium.be/copyright" rel="noopener">atomium.be</a></li><li>RTBF, &quot;L&#x27;Atomium, tout une histoire !&quot;, 08/06/2020 — <a href="https://www.rtbf.be/article/l-atomium-tout-une-histoire-10517624" rel="noopener">rtbf.be</a></li><li>RTBF, &quot;Patrimoine : avec une santé de fer, l&#x27;Atomium célèbre son 65e anniversaire&quot;, 17/04/2023 — <a href="https://www.rtbf.be/article/patrimoine-avec-une-sante-de-fer-l-atomium-celebre-son-65e-anniversaire-11184378" rel="noopener">rtbf.be</a></li><li>Gazet van Laakdal, &quot;Atomiumbouwer Frans Cools&quot;, 18/03/2023 — <a href="https://www.gazetvanlaakdal.be/archieven/73044" rel="noopener">gazetvanlaakdal.be</a></li><li>L&#x27;Avenir, &quot;20 ans après sa rénovation, l&#x27;Atomium est prêt à écrire un nouveau chapitre&quot;, 13/02/2026 — <a href="https://www.lavenir.net/lifestyle/2026/02/13/20-ans-apres-sa-renovation-latomium-est-pret-a-ecrire-un-nouveau-chapitre-FAEINOC2ZFA5VF3NKAOBMV7SCY/" rel="noopener">lavenir.net</a></li><li>VRT NWS, &quot;20 ans de rénovation de l&#x27;Atomium : entre sciences et innovations&quot;, 16/02/2026 — <a href="https://www.vrt.be/vrtnws/fr/2026/02/16/20-ans-de-renovation-de-latomium-entre-sciences-et-innovations/" rel="noopener">vrt.be</a></li><li>Wikimedia Commons, &quot;Copyright rules by territory/Belgium&quot;, seção sobre liberdade de panorama — <a href="https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Belgium" rel="noopener">commons.wikimedia.org</a></li><li>Wikipédia em inglês, &quot;Atomium&quot; (ponto de partida; o trecho sobre o ensaio de vento cita o banco de dados Structurae) — <a href="https://en.wikipedia.org/wiki/Atomium" rel="noopener">en.wikipedia.org</a></li></ol>

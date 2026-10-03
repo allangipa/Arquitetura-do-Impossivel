@@ -3,19 +3,306 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ponte do Brooklyn (1870–1883) · Arquitetura do Impossível</title>
+<title>Como foi construída a Ponte do Brooklyn (1870–1883)</title>
 <meta name="description" content="Como a Ponte do Brooklyn foi erguida (1870–1883): caixões de ar comprimido, o mal que saía deles, a janela de Roebling e o arame falso nos cabos.">
 <link rel="canonical" href="https://arquiteturadoimpossivel.com.br/obras/ponte-do-brooklyn.html">
+<meta name="robots" content="max-image-preview:large">
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../assets/img/04-capa-800.webp 800w, ../assets/img/04-capa.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <meta name="google-adsense-account" content="ca-pub-4401770243539507">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-<link rel="stylesheet" href="../assets/arquitetura.css">
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="Ponte do Brooklyn (1870–1883) · Arquitetura do Impossível">
+<meta property="og:title" content="Como foi construída a Ponte do Brooklyn (1870–1883)">
 <meta property="og:description" content="Como a Ponte do Brooklyn foi erguida (1870–1883): caixões de ar comprimido, o mal que saía deles, a janela de Roebling e o arame falso nos cabos.">
 <meta property="og:url" content="https://arquiteturadoimpossivel.com.br/obras/ponte-do-brooklyn.html">
 <meta property="og:image" content="https://arquiteturadoimpossivel.com.br/assets/img/og-ponte-do-brooklyn.jpg">
@@ -53,7 +340,7 @@
 </header>
 <main id="conteudo">
 <header class="capa">
-  <img src="../assets/img/04-capa.jpg" srcset="../assets/img/04-capa-800.jpg 800w, ../assets/img/04-capa.jpg 1600w" sizes="100vw" width="1600" height="1264" alt="Vista aérea do East River com a Ponte do Brooklyn em diagonal no primeiro plano e a Ponte de Manhattan logo atrás" loading="eager" decoding="async" style="object-position:55% 70%">
+  <picture><source type="image/webp" srcset="../assets/img/04-capa-800.webp 800w, ../assets/img/04-capa.webp 1600w" sizes="100vw"><img src="../assets/img/04-capa.jpg" srcset="../assets/img/04-capa-800.jpg 800w, ../assets/img/04-capa.jpg 1600w" sizes="100vw" width="1600" height="1264" alt="Vista aérea do East River com a Ponte do Brooklyn em diagonal no primeiro plano e a Ponte de Manhattan logo atrás" loading="eager" fetchpriority="high" decoding="async" style="object-position:55% 70%"></picture>
   <span class="credito-capa">A Ponte do Brooklyn vista do alto, com a Ponte de Manhattan ao fundo. Foto de Jet Lowe (Library of Congress). — <a href="https://commons.wikimedia.org/wiki/File:LOC_Brooklyn_Bridge_and_East_River_2_cropped.jpg" rel="noopener">Jet Lowe (Library of Congress)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></span>
   <div class="casca">
     <span class="rotulo">Obra <b>04</b> · Mundo</span>
@@ -74,19 +361,19 @@
     <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span> Confirmado em duas ou mais fontes independentes.</span><span><span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span> Uma fonte só; o texto diz qual.</span><span><span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span> As fontes discordam; mostramos as versões e não escolhemos.</span><span><span class="conf conf-sem" title="Ninguém registrou. Dizemos isso em vez de inventar.">sem registro</span> Ninguém registrou. Dizemos isso em vez de inventar.</span></div>
 
     <h2 id="s1"><span class="n">01</span>O projetista que não viu a obra começar</h2><p>John A. Roebling chegou aos Estados Unidos em 1831, vindo de Mühlhausen, na Prússia, e passou mais de duas décadas pendurando pontes em cabos: Pittsburgh, o rio Delaware, a ponte ferroviária do Niágara, Cincinnati. Em 1867, com a lei estadual aprovada e a New York Bridge Company formada, ele apresentou o plano da travessia do East River. Segundo a nomeação da ponte a marco histórico nacional, de 1975, escreveu que seria &quot;a maior ponte existente&quot; e &quot;a maior obra de engenharia do continente, e da época&quot;.</p><p>Em 28 de junho de 1869, durante um levantamento no cais da Fulton Ferry, uma balsa bateu no atracadouro onde ele estava e esmagou os dedos do pé direito. Os dedos foram amputados. Ele morreu de tétano em 22 de julho, antes de qualquer escavação.</p><p>A obra passou ao filho, Washington A. Roebling, então com 32 anos. Ela começou no início de janeiro de 1870, do lado do Brooklyn. A estimativa do pai era de US$ 7 milhões, sem os terrenos, e cinco anos de trabalho. Levou mais que o dobro do tempo.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/04-torres-em-obra.jpg" data-legenda="As torres já erguidas, com as primeiras cordas da fase dos cabos, numa estereoscopia de época (metade esquerda do cartão). — Autor desconhecido (Robert N. Dennis collection, NYPL), Domínio público" aria-label="Ampliar imagem: Torre de pedra da ponte já erguida, com arcos góticos e as primeiras cordas dos cabos, e a outra torre ao fundo do outro lado do rio"><img src="../assets/img/04-torres-em-obra.jpg" srcset="../assets/img/04-torres-em-obra-800.jpg 800w, ../assets/img/04-torres-em-obra.jpg 670w" sizes="(max-width:980px) 100vw, 720px" width="670" height="600" alt="Torre de pedra da ponte já erguida, com arcos góticos e as primeiras cordas dos cabos, e a outra torre ao fundo do outro lado do rio" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/04-torres-em-obra.jpg" data-legenda="As torres já erguidas, com as primeiras cordas da fase dos cabos, numa estereoscopia de época (metade esquerda do cartão). — Autor desconhecido (Robert N. Dennis collection, NYPL), Domínio público" aria-label="Ampliar imagem: Torre de pedra da ponte já erguida, com arcos góticos e as primeiras cordas dos cabos, e a outra torre ao fundo do outro lado do rio"><picture><source type="image/webp" srcset="../assets/img/04-torres-em-obra-800.webp 800w, ../assets/img/04-torres-em-obra.webp 670w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/04-torres-em-obra.jpg" srcset="../assets/img/04-torres-em-obra-800.jpg 800w, ../assets/img/04-torres-em-obra.jpg 670w" sizes="(max-width:980px) 100vw, 720px" width="670" height="600" alt="Torre de pedra da ponte já erguida, com arcos góticos e as primeiras cordas dos cabos, e a outra torre ao fundo do outro lado do rio" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 02</span><span>As torres já erguidas, com as primeiras cordas da fase dos cabos, numa estereoscopia de época (metade esquerda do cartão).</span><small><a href="https://commons.wikimedia.org/wiki/File:East_River_bridge_towers,_N.Y_(NYPL_b11708026-G91F173_023F).tiff" rel="noopener">Autor desconhecido (Robert N. Dennis collection, NYPL)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s2"><span class="n">02</span>Uma caixa de madeira emborcada no fundo do rio</h2><p>Para apoiar as torres era preciso chegar a chão firme debaixo do leito do rio. O método foi o caixão pneumático: uma enorme caixa de madeira sem fundo, emborcada, cheia de ar comprimido para segurar a água do lado de fora. Os homens desciam por eclusas, cavavam por baixo das bordas, e a caixa afundava sob o peso da torre que ia sendo erguida em cima dela. O caixão do Brooklyn media 168 por 102 pés (51 por 31 m).</p><p>Em 2 de dezembro de 1870, segundo a história da ponte publicada por S. W. Green em 1883, um operário deixou uma vela acesa perto de uma junta do teto. A chama foi puxada para a calafetagem de estopa e o fogo correu por dentro do madeiramento, sem fumaça visível na câmara. Depois de horas de vapor, água e gás carbônico, chamaram os bombeiros: 38 jatos d&#x27;água. O caixão foi inundado de propósito e ficou alagado dois dias e meio. O reparo atrasou a obra quase três meses. Nenhuma das fontes registra morte no incêndio.</p><p>Washington passou aquela noite dentro do caixão. Foi o primeiro ataque da doença que mais tarde o tiraria do canteiro. Em março de 1871, o caixão do Brooklyn, parado a 44 pés e 6 polegadas (13,6 m) abaixo da maré alta, onde achou solo firme, foi cheio de concreto.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/04-caixao-corte.jpg" data-legenda="O caixão do Brooklyn em corte, com a alvenaria por cima. Harper&#x27;s Weekly, 17 de dezembro de 1870, duas semanas depois do incêndio. — Harper&#x27;s Weekly, 17/12/1870, Domínio público" aria-label="Ampliar imagem: Gravura em corte da fundação: a caixa de madeira emborcada no leito do rio, com a alvenaria da torre em cima e os poços de acesso"><img src="../assets/img/04-caixao-corte.jpg" srcset="../assets/img/04-caixao-corte-800.jpg 800w, ../assets/img/04-caixao-corte.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="831" alt="Gravura em corte da fundação: a caixa de madeira emborcada no leito do rio, com a alvenaria da torre em cima e os poços de acesso" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/04-caixao-corte.jpg" data-legenda="O caixão do Brooklyn em corte, com a alvenaria por cima. Harper&#x27;s Weekly, 17 de dezembro de 1870, duas semanas depois do incêndio. — Harper&#x27;s Weekly, 17/12/1870, Domínio público" aria-label="Ampliar imagem: Gravura em corte da fundação: a caixa de madeira emborcada no leito do rio, com a alvenaria da torre em cima e os poços de acesso"><picture><source type="image/webp" srcset="../assets/img/04-caixao-corte-800.webp 800w, ../assets/img/04-caixao-corte.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/04-caixao-corte.jpg" srcset="../assets/img/04-caixao-corte-800.jpg 800w, ../assets/img/04-caixao-corte.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="831" alt="Gravura em corte da fundação: a caixa de madeira emborcada no leito do rio, com a alvenaria da torre em cima e os poços de acesso" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 03</span><span>O caixão do Brooklyn em corte, com a alvenaria por cima. Harper&#x27;s Weekly, 17 de dezembro de 1870, duas semanas depois do incêndio.</span><small><a href="https://archive.org/details/sim_harpers-weekly_1870-12-17_14_729/page/n3" rel="noopener">Harper&#x27;s Weekly, 17/12/1870</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s3"><span class="n">03</span>Quase 24 metros abaixo da maré</h2><p>O caixão de Manhattan era um pouco maior, 172 por 102 pés, e veio forrado de chapa de ferro por causa do incêndio. O chão bom estava muito mais fundo. Quanto mais o caixão descia, maior a pressão do ar lá dentro: até 34 libras por polegada quadrada acima da atmosfera, segundo Green; entre 18 e 36, nas anotações do médico da obra. Os turnos, que começaram com dois de quatro horas, encolheram no fundo para dois de duas horas.</p><p>O médico era Andrew H. Smith. Entre 25 de janeiro e 31 de maio de 1872, só naquele caixão, ele contou 110 casos de doença causada pelo ar comprimido, e 3 mortes. John Myers morreu no primeiro dia de trabalho, 22 de abril. Patrick McKay, irlandês de 50 anos, ficou meia hora a mais lá embaixo e foi achado inconsciente na eclusa em 30 de abril; Smith anotou que ele tinha uma doença renal avançada e que o ar comprimido só apressou a morte. Um homem de sobrenome Reardon, de 38 anos, entrou em 17 de maio e morreu no dia seguinte.</p><p>A doença não foi descoberta ali. O próprio Smith registra os primeiros casos numa mina de carvão na França, por volta de 1841, e o estudo dos médicos Pol e Watelle em 1845; na ponte de St. Louis, cujas fundações foram cavadas na mesma época, ela matou mais gente do que no Brooklyn. O que o Brooklyn deu foi o nome: Smith chamou aquilo de &quot;caisson disease&quot;, o mal dos caixões. Os operários falavam em &quot;Grecian bend&quot;, a curvatura grega. Por que os homens adoeciam ao subir, ninguém sabia explicar.</p><p>Em 18 de maio de 1872, a 78 pés e 6 polegadas (23,9 m), Washington Roebling mandou parar. O caixão ficou sobre areia e cascalho compactados, sem chegar à rocha. Ele julgou o cascalho tão firme quanto ela. A nomeação de 1975 liga a decisão à terceira morte; a escavação parou no mesmo dia em que Reardon morreu.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/04-passarela.jpg" data-legenda="A passarela provisória da fase dos cabos, presa à torre. Estereoscopia de época (metade esquerda do cartão). — Autor desconhecido (Robert N. Dennis collection, NYPL), Domínio público" aria-label="Ampliar imagem: Passarela provisória suspensa saindo do alto de uma torre de pedra, sobre telhados do Brooklyn"><img src="../assets/img/04-passarela.jpg" srcset="../assets/img/04-passarela-800.jpg 800w, ../assets/img/04-passarela.jpg 670w" sizes="(max-width:980px) 100vw, 720px" width="670" height="600" alt="Passarela provisória suspensa saindo do alto de uma torre de pedra, sobre telhados do Brooklyn" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/04-passarela.jpg" data-legenda="A passarela provisória da fase dos cabos, presa à torre. Estereoscopia de época (metade esquerda do cartão). — Autor desconhecido (Robert N. Dennis collection, NYPL), Domínio público" aria-label="Ampliar imagem: Passarela provisória suspensa saindo do alto de uma torre de pedra, sobre telhados do Brooklyn"><picture><source type="image/webp" srcset="../assets/img/04-passarela-800.webp 800w, ../assets/img/04-passarela.webp 670w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/04-passarela.jpg" srcset="../assets/img/04-passarela-800.jpg 800w, ../assets/img/04-passarela.jpg 670w" sizes="(max-width:980px) 100vw, 720px" width="670" height="600" alt="Passarela provisória suspensa saindo do alto de uma torre de pedra, sobre telhados do Brooklyn" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 04</span><span>A passarela provisória da fase dos cabos, presa à torre. Estereoscopia de época (metade esquerda do cartão).</span><small><a href="https://commons.wikimedia.org/wiki/File:Foot_bridge_and_tower_of_East_River_bridge_(NYPL_b11708026-G91F173_068F).tiff" rel="noopener">Autor desconhecido (Robert N. Dennis collection, NYPL)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s4"><span class="n">04</span>A ponte vista de uma janela</h2><p>Na primavera de 1872, Washington teve o segundo ataque, no caixão de Manhattan, e não voltou mais ao canteiro. Em 1873 pediu licença e foi se tratar na Europa; depois morou em Trenton, Nova Jersey. No verão de 1877 voltou para o número 110 da Columbia Heights, no Brooklyn, numa casa de onde se via a ponte. A história de Green, de 1883, diz que ele acompanhava o andamento &quot;de uma janela dos fundos, com uma luneta&quot;, e que até a inauguração não tinha pisado na estrutura pronta.</p><p>Quem fazia a ponte entre a casa e a obra era a mulher dele, Emily Warren Roebling. Segundo o historiador David McCullough, toda a comunicação escrita da casa para o escritório da ponte saía na letra dela. No discurso oficial da inauguração, Abram Hewitt a descreveu como aquela por cujo cérebro e dedos se mantinha a comunicação entre quem dirigia a construção e quem a executava. Green escreveu que o conhecimento dela da obra era &quot;minucioso e exato&quot;.</p><p>Em 1882, a diretoria votou uma proposta para rebaixar Washington a consultor. Perdeu por 10 a 7, e ele ficou engenheiro-chefe até o fim. Segundo McCullough, Emily foi a primeira a atravessar o tabuleiro, de carruagem, no começo de maio de 1883. A família contava, anos depois, que ela levou um galo vivo como símbolo de vitória.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/04-cabo.jpg" data-legenda="Um dos 4 cabos principais e a ligação de um pendural, em 1982. Foto de Jet Lowe para o Historic American Engineering Record (HAER NY-18). — Jet Lowe (HAER NY-18, Library of Congress), Domínio público" aria-label="Ampliar imagem: Cabo principal pintado de branco visto de baixo, com a braçadeira e o pendural de fios trançados descendo até o tabuleiro"><img src="../assets/img/04-cabo.jpg" srcset="../assets/img/04-cabo-800.jpg 800w, ../assets/img/04-cabo.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="2086" alt="Cabo principal pintado de branco visto de baixo, com a braçadeira e o pendural de fios trançados descendo até o tabuleiro" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/04-cabo.jpg" data-legenda="Um dos 4 cabos principais e a ligação de um pendural, em 1982. Foto de Jet Lowe para o Historic American Engineering Record (HAER NY-18). — Jet Lowe (HAER NY-18, Library of Congress), Domínio público" aria-label="Ampliar imagem: Cabo principal pintado de branco visto de baixo, com a braçadeira e o pendural de fios trançados descendo até o tabuleiro"><picture><source type="image/webp" srcset="../assets/img/04-cabo-800.webp 800w, ../assets/img/04-cabo.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/04-cabo.jpg" srcset="../assets/img/04-cabo-800.jpg 800w, ../assets/img/04-cabo.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="2086" alt="Cabo principal pintado de branco visto de baixo, com a braçadeira e o pendural de fios trançados descendo até o tabuleiro" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 05</span><span>Um dos 4 cabos principais e a ligação de um pendural, em 1982. Foto de Jet Lowe para o Historic American Engineering Record (HAER NY-18).</span><small><a href="https://commons.wikimedia.org/wiki/File:Detail_view_of_connection_between_suspender_and_main_cable._Jet_Lowe,_photographer,_1982._-_Brooklyn_Bridge,_Spanning_East_River_between_Park_Row,_Manhattan_and_Sands_Street,_HAER_NY,31-NEYO,90-45.tif" rel="noopener">Jet Lowe (HAER NY-18, Library of Congress)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s5"><span class="n">05</span>O arame que não podia sair</h2><p>Os 4 cabos da ponte são de aço galvanizado, não de ferro, e foram fiados no próprio lugar: uma roda ia e voltava de uma ancoragem à outra, levando o arame, até formar 19 cordões por cabo. O contrato do arame foi dado em 1877 a J. Lloyd Haigh, fornecedor do sul do Brooklyn, por escolha da diretoria, contra a preferência de Roebling.</p><p>Entre junho e julho de 1878, o engenheiro assistente William Paine e seus auxiliares, vigiando a fábrica, descobriram o golpe. O arame aprovado pela inspeção recebia certificado e, no caminho até a obra, era trocado em outro galpão por arame reprovado, que seguia com o papel do bom. O arame bom voltava para ser aprovado de novo.</p><p>Quando a fraude apareceu, cerca de 221 toneladas de arame reprovado já estavam enroladas nos cabos, e não havia como tirar sem desmanchá-los. A solução foi acrescentar fio: 8 a mais em cada um dos 19 cordões, 152 por cabo, levando o total de 5.282 para 5.434. Haigh teve de fornecer o arame extra de graça. A margem de segurança ficou em cerca de cinco vezes a carga. A diretoria não tornou o caso público nem trocou o fornecedor.</p><p>Haigh acabou preso, mas por outra coisa: em agosto de 1880 confessou ter falsificado aceites bancários e pegou quatro anos de prisão. No mesmo ano da fraude, em 14 de junho de 1878, um dos cordões se soltou durante a fiação e matou dois homens.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/04-fogos.jpg" data-legenda="Os fogos da noite da inauguração, 24 de maio de 1883. Litografia de Currier &amp; Ives. — Currier &amp; Ives (Library of Congress), Domínio público" aria-label="Ampliar imagem: Litografia colorida dos fogos de artifício explodindo sobre a ponte iluminada, com barcos no rio"><img src="../assets/img/04-fogos.jpg" srcset="../assets/img/04-fogos-800.jpg 800w, ../assets/img/04-fogos.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1220" alt="Litografia colorida dos fogos de artifício explodindo sobre a ponte iluminada, com barcos no rio" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/04-fogos.jpg" data-legenda="Os fogos da noite da inauguração, 24 de maio de 1883. Litografia de Currier &amp; Ives. — Currier &amp; Ives (Library of Congress), Domínio público" aria-label="Ampliar imagem: Litografia colorida dos fogos de artifício explodindo sobre a ponte iluminada, com barcos no rio"><picture><source type="image/webp" srcset="../assets/img/04-fogos-800.webp 800w, ../assets/img/04-fogos.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/04-fogos.jpg" srcset="../assets/img/04-fogos-800.jpg 800w, ../assets/img/04-fogos.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1220" alt="Litografia colorida dos fogos de artifício explodindo sobre a ponte iluminada, com barcos no rio" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 06</span><span>Os fogos da noite da inauguração, 24 de maio de 1883. Litografia de Currier &amp; Ives.</span><small><a href="https://commons.wikimedia.org/wiki/File:The_grand_display_of_fireworks_and_illuminations-_at_the_opening_of_the_great_suspension_bridge_between_New_York_and_Brooklyn_on_the_evening_of_May_24th,_1883_LCCN2001702100.jpg" rel="noopener">Currier &amp; Ives (Library of Congress)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s6"><span class="n">06</span>A conta dos mortos</h2><p>No dia da inauguração, o discurso oficial de W. C. Kingsley disse que &quot;vinte homens perderam a vida&quot; no trabalho direto da obra. É o número que McCullough repete, sem contar John A. Roebling; quem soma o pai chega a 21.</p><p>Outras contagens chegam a 27. O número é atribuído ao engenheiro assistente C. C. Martin, em entrevista ao Brooklyn Daily Eagle do mesmo 24 de maio de 1883, na qual ele admitiu que não houve lista: se soubessem que tantos se feririam, teriam anotado. Uma lista nominal montada depois a partir de jornais e atestados de óbito também tem 27 nomes, incluindo o projetista. Por ela, a maioria morreu de queda e de acidentes com guindastes; três, do mal dos caixões.</p><p>Os relatórios oficiais não ajudam a fechar a conta. O relatório do engenheiro-chefe de 1877 diz que trechos perigosos correram sem nenhum acidente, enquanto McCullough, com base no Brooklyn Daily Eagle, registra duas quedas fatais da torre do Brooklyn em 1875. Não existe um total confiável, nem de mortos nem de operários.</p><h2 id="s7"><span class="n">07</span>24 de maio de 1883, e o que veio depois</h2><p>A ponte foi aberta em 24 de maio de 1883, com o presidente Chester A. Arthur. Washington não foi; assistiu da janela. Custou cerca de US$ 15 milhões da época, contando os terrenos. Green atribui o estouro do orçamento a fundações mais fundas que o previsto, ao aço no lugar do ferro, a um tabuleiro mais largo e mais alto e às desapropriações.</p><p>Seis dias depois, em 30 de maio, um bloqueio no alto de uma escada do lado de Nova York, com milhares de pessoas na ponte, virou tumulto. Gente caiu da escada e os de trás passaram por cima. Morreram 12 pessoas. Segundo o New-York Tribune, uma hora depois dizia-se na rua 42 que a ponte tinha caído com mil pessoas.</p><p>Em 17 de maio de 1884, o circo de P. T. Barnum atravessou a ponte para o Brooklyn com 21 elefantes, entre eles o Jumbo, e 17 camelos. Segundo o The Sun, o cobrador do pedágio cobrou dos homens e dos cavalos e deixou os bichos passarem de graça. O Tribune anotou que muita gente foi atrás para ver se o Jumbo chegaria inteiro.</p><p>A ponte foi a maior ponte pênsil do mundo até 1903. Os cabos com o arame de Haigh dentro continuam no lugar, e em 2024 ela recebia em média mais de 100 mil veículos por dia.</p>
     
@@ -104,7 +391,7 @@
     </section>
 
     <a class="proximo-ep" href="usina-de-itaipu.html">
-      <div class="foto"><img src="../assets/img/05-itaipu-aerea.jpg" srcset="../assets/img/05-itaipu-aerea-800.jpg 800w, ../assets/img/05-itaipu-aerea.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1067" alt="Vista aérea da Usina de Itaipu: o vertedouro à esquerda, a barragem em curva e o reservatório ao fundo, com o rio Paraná em primeiro plano" loading="lazy" decoding="async" style="object-position:45% 55%"></div>
+      <div class="foto"><picture><source type="image/webp" srcset="../assets/img/05-itaipu-aerea-800.webp 800w, ../assets/img/05-itaipu-aerea.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/05-itaipu-aerea.jpg" srcset="../assets/img/05-itaipu-aerea-800.jpg 800w, ../assets/img/05-itaipu-aerea.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1067" alt="Vista aérea da Usina de Itaipu: o vertedouro à esquerda, a barragem em curva e o reservatório ao fundo, com o rio Paraná em primeiro plano" loading="lazy" decoding="async" style="object-position:45% 55%"></picture></div>
       <div class="txt">
         <span class="rotulo">Próximo episódio · Obra <b>05</b> · <span class="selo-estreia" data-estreia="2026-11-05" data-no-ar="no ar">estreia 05 nov 2026</span></span>
         <h3>Usina de Itaipu</h3>
@@ -113,6 +400,8 @@
         <span class="ir">Ler a obra →</span>
       </div>
     </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MAIS</span>Leia também</h2><ul><li><a href="golden-gate.html"><span class="rotulo">Obra <b>12</b> · Estados Unidos</span><strong>Ponte Golden Gate</strong><span class="onde">1933–1937</span></a></li><li><a href="ponte-eads.html"><span class="rotulo">Obra <b>21</b> · Estados Unidos</span><strong>Ponte Eads</strong><span class="onde">1867–1874</span></a></li><li><a href="ponte-hercilio-luz.html"><span class="rotulo">Obra <b>09</b> · Brasil</span><strong>Ponte Hercílio Luz</strong><span class="onde">1922–1926</span></a></li></ul></section>
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes"><li>Andrew H. Smith, The Effects of High Atmospheric Pressure, including the Caisson Disease, Brooklyn, Eagle Print, 1873 — <a href="https://digirepo.nlm.nih.gov/ext/dw/0026772/PDF/0026772.pdf" rel="noopener">digirepo.nlm.nih.gov</a></li><li>Opening Ceremonies of the New York and Brooklyn Bridge, May 24, 1883, Brooklyn, 1883 — <a href="https://archive.org/details/openingceremonie00broorich" rel="noopener">archive.org</a></li><li>S. W. Green (comp.), A Complete History of the New York and Brooklyn Bridge, Nova York, 1883 — <a href="https://archive.org/details/completehistoryo00gree" rel="noopener">archive.org</a></li><li>Washington A. Roebling, Report of the Chief Engineer of the New York &amp; Brooklyn Bridge, January 1, 1877, Brooklyn, 1877 — <a href="https://archive.org/details/reportofchiefeng00roeb" rel="noopener">archive.org</a></li><li>James B. Armstrong (HAER), The Brooklyn Bridge, nomeação ao National Register / National Historic Landmark, 1975 — <a href="https://npgallery.nps.gov/NRHP/GetAsset/NHLS/66000523_text" rel="noopener">npgallery.nps.gov</a></li><li>NYC Landmarks Preservation Commission, designação LP-0098, 1967 — <a href="https://s-media.nyc.gov/agencies/lpc/lp/0098.pdf" rel="noopener">s-media.nyc.gov</a></li><li>Historic American Engineering Record, HAER NY-18, Library of Congress — <a href="https://www.loc.gov/resource/hhh.ny1234.photos/?sp=13" rel="noopener">loc.gov</a></li><li>NYC Department of Transportation, Brooklyn Bridge — <a href="https://www.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml" rel="noopener">nyc.gov</a></li><li>Frank Griggs Jr., Brooklyn Bridge, Part 2, STRUCTURE magazine, 2016 — <a href="https://www.structuremag.org/article/brooklyn-bridge-part-2/" rel="noopener">structuremag.org</a></li><li>T. R. Witcher, New York&#x27;s Brooklyn Bridge is an engineering marvel, Civil Engineering (ASCE), 2022 — <a href="https://www.asce.org/publications-and-news/civil-engineering-source/civil-engineering-magazine/issues/magazine-issue/article/2022/07/new-yorks-brooklyn-bridge-is-an-engineering-marvel" rel="noopener">asce.org</a></li><li>Frances Williams Browin, When They Built the Big Bridge, American Heritage, 1956 — <a href="https://www.americanheritage.com/when-they-built-big-bridge" rel="noopener">americanheritage.com</a></li><li>David McCullough, The Great Bridge, 1972</li><li>Linda Hall Library, Scientist of the Day: Washington A. Roebling — <a href="https://www.lindahall.org/about/news/scientist-of-the-day/washington-a-roebling/" rel="noopener">lindahall.org</a></li><li>Richard Howe, resenha de Erica Wagner, Chief Engineer: Washington Roebling (2017), Gotham Center, 2018 — <a href="https://www.gothamcenter.org/blog/erica-wagners-chief-engineer-washington-roebling-the-man-who-built-the-brooklyn-bridge" rel="noopener">gothamcenter.org</a></li><li>New-York Tribune, Fatal panic on the Bridge, 31/05/1883 — <a href="https://chroniclingamerica.loc.gov/lccn/sn83030214/1883-05-31/ed-1/seq-1/" rel="noopener">chroniclingamerica.loc.gov</a></li><li>The Sun (Nova York), 18/05/1884, p. 2 — <a href="https://chroniclingamerica.loc.gov/lccn/sn83030272/1884-05-18/ed-1/seq-2/" rel="noopener">chroniclingamerica.loc.gov</a></li><li>Frank Leslie&#x27;s Illustrated Newspaper, 09/06/1883 — <a href="https://archive.org/details/sim_leslies-weekly_1883-06-09_56_1446" rel="noopener">archive.org</a></li><li>Christopher Klein, Construction of the Brooklyn Bridge Took 14 Years—And Multiple Lives, History.com, 2019</li></ol>

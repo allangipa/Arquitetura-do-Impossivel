@@ -3,19 +3,306 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Canal do Panamá (1904–1914) · Arquitetura do Impossível</title>
+<title>Como foi construído o Canal do Panamá (1904–1914)</title>
 <meta name="description" content="Como o Canal do Panamá venceu a montanha que desabava, o mosquito e a água, e por que a conta dos mortos depende de quem conta.">
 <link rel="canonical" href="https://arquiteturadoimpossivel.com.br/obras/canal-do-panama.html">
+<meta name="robots" content="max-image-preview:large">
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <link rel="preload" href="../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../assets/img/08-capa-800.webp 800w, ../assets/img/08-capa.webp 1600w" imagesizes="100vw" fetchpriority="high">
 <meta name="google-adsense-account" content="ca-pub-4401770243539507">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
-<link rel="stylesheet" href="../assets/arquitetura.css">
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="Canal do Panamá (1904–1914) · Arquitetura do Impossível">
+<meta property="og:title" content="Como foi construído o Canal do Panamá (1904–1914)">
 <meta property="og:description" content="Como o Canal do Panamá venceu a montanha que desabava, o mosquito e a água, e por que a conta dos mortos depende de quem conta.">
 <meta property="og:url" content="https://arquiteturadoimpossivel.com.br/obras/canal-do-panama.html">
 <meta property="og:image" content="https://arquiteturadoimpossivel.com.br/assets/img/og-canal-do-panama.jpg">
@@ -53,7 +340,7 @@
 </header>
 <main id="conteudo">
 <header class="capa">
-  <img src="../assets/img/08-capa.jpg" srcset="../assets/img/08-capa-800.jpg 800w, ../assets/img/08-capa.jpg 1600w" sizes="100vw" width="1600" height="1072" alt="Vale profundo e seco aberto entre duas encostas de rocha, com várias linhas de trilho no fundo, uma escavadeira a vapor à direita e guindastes à esquerda" loading="eager" decoding="async">
+  <picture><source type="image/webp" srcset="../assets/img/08-capa-800.webp 800w, ../assets/img/08-capa.webp 1600w" sizes="100vw"><img src="../assets/img/08-capa.jpg" srcset="../assets/img/08-capa-800.jpg 800w, ../assets/img/08-capa.jpg 1600w" sizes="100vw" width="1600" height="1072" alt="Vale profundo e seco aberto entre duas encostas de rocha, com várias linhas de trilho no fundo, uma escavadeira a vapor à direita e guindastes à esquerda" loading="eager" fetchpriority="high" decoding="async"></picture>
   <span class="credito-capa">O Corte Culebra visto para o sul, ainda seco, com as linhas de trem que levavam o entulho para fora. — <a href="https://commons.wikimedia.org/wiki/File:Panama_Canal,_Culebra_Cut_looking_south_LCCN2014689073.jpg" rel="noopener">Bain News Service (Biblioteca do Congresso dos EUA)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></span>
   <div class="casca">
     <span class="rotulo">Obra <b>08</b> · Mundo</span>
@@ -74,19 +361,19 @@
     <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span> Confirmado em duas ou mais fontes independentes.</span><span><span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span> Uma fonte só; o texto diz qual.</span><span><span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span> As fontes discordam; mostramos as versões e não escolhemos.</span><span><span class="conf conf-sem" title="Ninguém registrou. Dizemos isso em vez de inventar.">sem registro</span> Ninguém registrou. Dizemos isso em vez de inventar.</span></div>
 
     <h2 id="s1"><span class="n">01</span>O canal ao nível do mar</h2><p>Em 1879, um congresso internacional em Paris aprovou a ideia de Ferdinand de Lesseps, que dez anos antes tinha aberto o Canal de Suez: um canal no istmo do Panamá, então parte da Colômbia, cortado ao nível do mar, sem eclusas, como Suez. Os primeiros homens da Compagnie Universelle chegaram a Colón no fim de janeiro de 1881.</p><p>Suez atravessava areia. O Panamá tinha uma cordilheira no meio, um rio, o Chagres, que enchia de repente na estação das chuvas, e uma doença que matava sem que ninguém soubesse como. A primeira morte por febre amarela entre os empregados veio em junho de 1881, com as chuvas. Pelos números da Autoridade do Canal, morreram de doença cerca de 60 em 1881, o dobro em 1882 e 420 em 1883. Jules Dingler, o diretor-geral que chegou em 1883, perdeu a filha, o filho, o noivo da filha e a esposa para a febre amarela.</p><p>Em 1888 a companhia desistiu do nível do mar e passou a trabalhar num canal de eclusas, com a empresa de Gustave Eiffel contratada para elas. Era tarde. Em 15 de maio de 1889, toda a atividade parou. Os franceses tinham gastado US$ 287 milhões. As estimativas de mortos da década ficam em torno de vinte mil: 22 mil na conta do historiador David McCullough, 20 mil na da PBS. O escândalo da quebra chegou aos tribunais: Eiffel foi condenado em 1893, e a condenação foi anulada em recurso.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/08-cucaracha.jpg" data-legenda="Dragas trabalhando no deslizamento de Cucaracha, no Corte Culebra, já com água no canal. — Bain News Service (Biblioteca do Congresso dos EUA), Domínio público" aria-label="Ampliar imagem: Canal estreito entre encostas altas, com uma encosta clara e desmoronada à direita e várias dragas a vapor trabalhando na água"><img src="../assets/img/08-cucaracha.jpg" srcset="../assets/img/08-cucaracha-800.jpg 800w, ../assets/img/08-cucaracha.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1110" alt="Canal estreito entre encostas altas, com uma encosta clara e desmoronada à direita e várias dragas a vapor trabalhando na água" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/08-cucaracha.jpg" data-legenda="Dragas trabalhando no deslizamento de Cucaracha, no Corte Culebra, já com água no canal. — Bain News Service (Biblioteca do Congresso dos EUA), Domínio público" aria-label="Ampliar imagem: Canal estreito entre encostas altas, com uma encosta clara e desmoronada à direita e várias dragas a vapor trabalhando na água"><picture><source type="image/webp" srcset="../assets/img/08-cucaracha-800.webp 800w, ../assets/img/08-cucaracha.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/08-cucaracha.jpg" srcset="../assets/img/08-cucaracha-800.jpg 800w, ../assets/img/08-cucaracha.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1110" alt="Canal estreito entre encostas altas, com uma encosta clara e desmoronada à direita e várias dragas a vapor trabalhando na água" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 02</span><span>Dragas trabalhando no deslizamento de Cucaracha, no Corte Culebra, já com água no canal.</span><small><a href="https://commons.wikimedia.org/wiki/File:Cucaracha_Slide,_Culebra_Cut_LCCN2014697545.tif" rel="noopener">Bain News Service (Biblioteca do Congresso dos EUA)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s2"><span class="n">02</span>Um país em quinze dias</h2><p>Os Estados Unidos queriam o canal, e o Congresso escolheu a rota do Panamá em 1902. Faltava a Colômbia, cujo Senado rejeitou o tratado. Em 3 de novembro de 1903, o Panamá se declarou independente, com o apoio do governo de Theodore Roosevelt. Quinze dias depois, em 18 de novembro, o tratado Hay–Bunau-Varilla deu aos Estados Unidos direitos permanentes sobre uma zona em torno do canal. Quem assinou pelo Panamá foi o engenheiro francês Philippe Bunau-Varilla, que, segundo o Departamento de Estado americano, não vivia no Panamá havia dezessete anos e negociou sem autorização formal do novo governo.</p><p>Os americanos pagaram US$ 10 milhões ao Panamá e US$ 40 milhões à companhia francesa. Em 4 de maio de 1904, o tenente Mark Brooke recebeu as chaves dos armazéns e do hospital de Ancon. Herdaram também uns 30 milhões de jardas cúbicas de escavação francesa aproveitável.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/08-eclusa.jpg" data-legenda="Uma câmara das eclusas em 1912, antes da instalação das comportas: 1.000 pés de comprimento por 110 de largura. — Biblioteca do Congresso dos EUA, Domínio público" aria-label="Ampliar imagem: Câmara de eclusa vazia e muito longa entre duas paredes de concreto, com trilhos no fundo, uma torre metálica à direita e um pórtico de guindaste ao longe"><img src="../assets/img/08-eclusa.jpg" srcset="../assets/img/08-eclusa-800.jpg 800w, ../assets/img/08-eclusa.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1134" alt="Câmara de eclusa vazia e muito longa entre duas paredes de concreto, com trilhos no fundo, uma torre metálica à direita e um pórtico de guindaste ao longe" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/08-eclusa.jpg" data-legenda="Uma câmara das eclusas em 1912, antes da instalação das comportas: 1.000 pés de comprimento por 110 de largura. — Biblioteca do Congresso dos EUA, Domínio público" aria-label="Ampliar imagem: Câmara de eclusa vazia e muito longa entre duas paredes de concreto, com trilhos no fundo, uma torre metálica à direita e um pórtico de guindaste ao longe"><picture><source type="image/webp" srcset="../assets/img/08-eclusa-800.webp 800w, ../assets/img/08-eclusa.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/08-eclusa.jpg" srcset="../assets/img/08-eclusa-800.jpg 800w, ../assets/img/08-eclusa.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1134" alt="Câmara de eclusa vazia e muito longa entre duas paredes de concreto, com trilhos no fundo, uma torre metálica à direita e um pórtico de guindaste ao longe" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 03</span><span>Uma câmara das eclusas em 1912, antes da instalação das comportas: 1.000 pés de comprimento por 110 de largura.</span><small><a href="https://commons.wikimedia.org/wiki/File:Looking_through_locks_before_gates_were_placed,_Panama_Canal_Zone_LCCN96521994.jpg" rel="noopener">Biblioteca do Congresso dos EUA</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s3"><span class="n">03</span>Primeiro, o mosquito</h2><p>O primeiro engenheiro-chefe, John F. Wallace, ficou cerca de um ano. Quem o substituiu, em 1905, John F. Stevens, fez algo que parecia recuo: parou a escavação. Reconstruiu a velha ferrovia do Panamá, montou o sistema de trens que levaria o entulho para fora do corte. E defendeu um canal de eclusas, contra a ideia de repetir o nível do mar. Em junho de 1906, o Senado aprovou as eclusas por 36 votos a 31, e a Câmara confirmou.</p><p>Ao mesmo tempo, o médico William C. Gorgas aplicava no istmo o que se tinha aprendido pouco antes: que a febre amarela e a malária vinham do mosquito. Telas de cobre nas casas, mais de 100 milhas quadradas de pântano drenadas, faixas de mato cortado em volta das vilas. O último caso de febre amarela é dado em 11 de novembro de 1905 por algumas fontes e em dezembro de 1906 por outras; de todo modo, a doença que tinha derrotado os franceses acabou nos dois primeiros anos da obra americana. A malária resistiu mais: em 1906 ainda atingia 82% da força de trabalho, segundo um levantamento sobre os relatórios de Gorgas, e a mortalidade por ela só caiu de 7,45 para 0,30 por mil empregados entre 1906 e 1913.</p><p>Em novembro de 1906, Roosevelt foi ver a obra, na primeira viagem de um presidente americano em exercício ao exterior, e se deixou fotografar na cabine de uma escavadeira a vapor. Stevens deixou o cargo no início de 1907. Em seu lugar entrou um coronel do Exército, George W. Goethals, que ficou até o fim.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/08-roosevelt.jpg" data-legenda="Theodore Roosevelt, de branco, na cabine de uma escavadeira a vapor da Comissão do Canal Ístmico, durante as obras. — Autor não identificado (Biblioteca do Congresso dos EUA), Domínio público" aria-label="Ampliar imagem: Grande escavadeira a vapor com caçamba e correntes, marcada I.C.C. 114, cercada por homens de chapéu; na cabine, um homem de terno branco"><img src="../assets/img/08-roosevelt.jpg" srcset="../assets/img/08-roosevelt-800.jpg 800w, ../assets/img/08-roosevelt.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1129" alt="Grande escavadeira a vapor com caçamba e correntes, marcada I.C.C. 114, cercada por homens de chapéu; na cabine, um homem de terno branco" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/08-roosevelt.jpg" data-legenda="Theodore Roosevelt, de branco, na cabine de uma escavadeira a vapor da Comissão do Canal Ístmico, durante as obras. — Autor não identificado (Biblioteca do Congresso dos EUA), Domínio público" aria-label="Ampliar imagem: Grande escavadeira a vapor com caçamba e correntes, marcada I.C.C. 114, cercada por homens de chapéu; na cabine, um homem de terno branco"><picture><source type="image/webp" srcset="../assets/img/08-roosevelt-800.webp 800w, ../assets/img/08-roosevelt.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/08-roosevelt.jpg" srcset="../assets/img/08-roosevelt-800.jpg 800w, ../assets/img/08-roosevelt.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1129" alt="Grande escavadeira a vapor com caçamba e correntes, marcada I.C.C. 114, cercada por homens de chapéu; na cabine, um homem de terno branco" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 04</span><span>Theodore Roosevelt, de branco, na cabine de uma escavadeira a vapor da Comissão do Canal Ístmico, durante as obras.</span><small><a href="https://commons.wikimedia.org/wiki/File:Pres._Theodore_Roosevelt_on_steam-powered_digging_machine_during_construction_of_the_Panama_Canal_LCCN2002714444.jpg" rel="noopener">Autor não identificado (Biblioteca do Congresso dos EUA)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s4"><span class="n">04</span>A montanha que voltava</h2><p>O coração da obra era o Corte Culebra, depois chamado Corte Gaillard, por onde o canal atravessa a divisória continental, no ponto mais baixo dela, a 333,5 pés acima do mar. As escavadeiras Bucyrus, com caçambas de cinco jardas cúbicas, enchiam trens que saíam do corte um atrás do outro; em março de 1909 havia 68 delas ali. Só em 1908 saíram mais de 37 milhões de jardas cúbicas.</p><p>O problema era que a encosta descia de volta. Em 4 de outubro de 1907, o deslizamento de Cucaracha empurrou 500 mil jardas cúbicas para dentro do corte, avançando cerca de 14 pés por dia durante dez dias. Outros vieram em Gold Hill e na margem oeste, junto à vila de Culebra, cada um com milhões de jardas cúbicas. A estimativa do que era preciso tirar só do corte foi de 53,8 milhões de jardas cúbicas em 1906 para cerca de 100 milhões em 1913. E o trabalho com explosivos tinha seu preço: em Bas Obispo, em 12 de dezembro de 1908, uma carga detonou antes da hora e matou 23 homens, ou 26, conforme o relato.</p><p>Em 20 de maio de 1913, duas escavadeiras se encontraram no fundo do corte. Ao todo, até 1º de julho de 1914, os americanos tinham escavado 238.845.587 jardas cúbicas. David D. Gaillard, que comandou o corte, morreu em 5 de dezembro de 1913, antes da inauguração.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/08-ancon.jpg" data-legenda="O vapor Ancon numa das câmaras das eclusas de Gatún, em 1914. — Bain News Service (Biblioteca do Congresso dos EUA), Domínio público" aria-label="Ampliar imagem: Navio a vapor com passageiros no convés dentro de uma câmara de eclusa estreita, com pequenas locomotivas nos muros laterais e pessoas observando"><img src="../assets/img/08-ancon.jpg" srcset="../assets/img/08-ancon-800.jpg 800w, ../assets/img/08-ancon.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1069" alt="Navio a vapor com passageiros no convés dentro de uma câmara de eclusa estreita, com pequenas locomotivas nos muros laterais e pessoas observando" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/08-ancon.jpg" data-legenda="O vapor Ancon numa das câmaras das eclusas de Gatún, em 1914. — Bain News Service (Biblioteca do Congresso dos EUA), Domínio público" aria-label="Ampliar imagem: Navio a vapor com passageiros no convés dentro de uma câmara de eclusa estreita, com pequenas locomotivas nos muros laterais e pessoas observando"><picture><source type="image/webp" srcset="../assets/img/08-ancon-800.webp 800w, ../assets/img/08-ancon.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/08-ancon.jpg" srcset="../assets/img/08-ancon-800.jpg 800w, ../assets/img/08-ancon.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1069" alt="Navio a vapor com passageiros no convés dentro de uma câmara de eclusa estreita, com pequenas locomotivas nos muros laterais e pessoas observando" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 05</span><span>O vapor Ancon numa das câmaras das eclusas de Gatún, em 1914.</span><small><a href="https://commons.wikimedia.org/wiki/File:%22ANCON%22_in_Gatun_locks_LCCN2014697346.jpg" rel="noopener">Bain News Service (Biblioteca do Congresso dos EUA)</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Domínio público</a></small></figcaption>
 </figure><h2 id="s5"><span class="n">05</span>Um lago feito de chuva</h2><p>A ideia que tornou o canal possível foi não cavar até o mar. Em Gatún, uma barragem de terra fechou o rio Chagres e formou um lago de 163,38 milhas quadradas, cerca de 423 km², o maior lago artificial do mundo na época, 26 metros acima do mar. Os navios sobem até ele e descem do outro lado por três conjuntos de eclusas: Gatún, com três degraus, no Atlântico; Pedro Miguel, com um, e Miraflores, com dois, no Pacífico.</p><p>As doze câmaras têm o mesmo tamanho, 1.000 por 110 pés, ou 304,8 por 33,5 metros. A água do lago enche as câmaras por aquedutos de 18 pés de diâmetro, e cada travessia de um navio Panamax gasta de 51 a 55 milhões de galões de água doce. A obra das eclusas começou em 24 de agosto de 1909; Pedro Miguel ficou pronta em 1911, Miraflores em maio de 1913 e Gatún em junho de 1913.</p><p>Em 7 de janeiro de 1914, o guindaste flutuante Alexandre La Valley fez a primeira travessia completa. A inauguração oficial foi em 15 de agosto de 1914, com o vapor Ancon. Pela conta da Autoridade do Canal, a obra americana custou cerca de US$ 375 milhões, US$ 23 milhões abaixo da estimativa de 1907; outras contas de gasto total chegam perto de US$ 500 milhões.</p><figure class="fig revela">
-  <button type="button" class="cantos" data-grande="../assets/img/08-cocoli.jpg" data-legenda="Um porta-contêineres entra pelas eclusas de Cocolí, do lado do Pacífico, abertas na ampliação de 2016. — David Brossard, 2020, CC BY-SA 2.0" aria-label="Ampliar imagem: Navio porta-contêineres muito carregado dentro das eclusas novas, atrás de edifícios brancos e de uma torre de controle, com água em primeiro plano"><img src="../assets/img/08-cocoli.jpg" srcset="../assets/img/08-cocoli-800.jpg 800w, ../assets/img/08-cocoli.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="739" alt="Navio porta-contêineres muito carregado dentro das eclusas novas, atrás de edifícios brancos e de uma torre de controle, com água em primeiro plano" loading="lazy" decoding="async"></button>
+  <button type="button" class="cantos" data-grande="../assets/img/08-cocoli.jpg" data-legenda="Um porta-contêineres entra pelas eclusas de Cocolí, do lado do Pacífico, abertas na ampliação de 2016. — David Brossard, 2020, CC BY-SA 2.0" aria-label="Ampliar imagem: Navio porta-contêineres muito carregado dentro das eclusas novas, atrás de edifícios brancos e de uma torre de controle, com água em primeiro plano"><picture><source type="image/webp" srcset="../assets/img/08-cocoli-800.webp 800w, ../assets/img/08-cocoli.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../assets/img/08-cocoli.jpg" srcset="../assets/img/08-cocoli-800.jpg 800w, ../assets/img/08-cocoli.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="739" alt="Navio porta-contêineres muito carregado dentro das eclusas novas, atrás de edifícios brancos e de uma torre de controle, com água em primeiro plano" loading="lazy" decoding="async"></picture></button>
   <figcaption><span class="fn">FIG. 06</span><span>Um porta-contêineres entra pelas eclusas de Cocolí, do lado do Pacífico, abertas na ampliação de 2016.</span><small><a href="https://commons.wikimedia.org/wiki/File:Container_ship_entering_the_new_Cocoli_locks_of_the_Panama_Canal.jpg" rel="noopener">David Brossard, 2020</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="license noopener">CC BY-SA 2.0</a></small></figcaption>
 </figure><h2 id="s6"><span class="n">06</span>Ouro e prata</h2><p>Quem cavou o canal veio, na maior parte, das Antilhas. Foram contratados 31.071 afro-antilhanos, cerca de 20 mil só de Barbados, onde a Comissão do Canal mantinha um recrutador-chefe. No auge, a força de trabalho passou de 40 mil homens ao mesmo tempo: 44.733 em março de 1913, pela Autoridade do Canal. Os americanos eram, em média, pouco mais de 5 mil.</p><p>O pagamento separava todos em duas folhas. O gold roll, de brancos, sobretudo americanos, era pago em moeda de ouro dos Estados Unidos. O silver roll, de antilhanos e também de espanhóis, italianos e gregos, era pago em moeda de prata: dez centavos por hora, dez horas por dia, seis dias por semana. A Biblioteca Linda Hall resume que a divisão, pensada para separar trabalho qualificado e não qualificado, virou rapidamente um sistema de segregação, com moradia, refeitório e entradas de prédio separados. Os espanhóis do silver roll ganhavam o dobro dos antilhanos.</p><p>A mesma divisão aparece nas mortes. Os registros hospitalares contam 5.609 mortos de doença e acidente de 1904 a 1914. Pela conta de McCullough, uns 350 eram americanos brancos e uns 4.500, trabalhadores negros. No primeiro semestre de 1906, segundo um levantamento sobre os dados de Gorgas, não brancos morriam várias vezes mais que brancos: 59 por mil contra 17. McCullough fala em dez vezes; as medidas e os recortes não são os mesmos. E, segundo a historiadora Caroline Lieffers, muitos historiadores acham que o número real foi várias vezes maior.</p><h2 id="s7"><span class="n">07</span>A água agora</h2><p>Os tratados Torrijos-Carter, assinados em 7 de setembro de 1977, acabaram com a Zona do Canal em 1979 e entregaram o canal ao Panamá em 31 de dezembro de 1999. Em 26 de junho de 2016, um terceiro conjunto de eclusas, para navios maiores, foi inaugurado com a passagem do Cosco Shipping Panama, ao custo de US$ 5,25 bilhões.</p><p>O que o canal não deixou de precisar é chuva. Em 2026, com o El Niño, choveu menos que a média na bacia, e o lago Gatún baixou. A Autoridade do Canal cortou em degraus o calado máximo das eclusas novas, de 50 para 48 pés entre julho e setembro, e reduziu as vagas diárias: a partir de 3 de setembro, 9 navios Neopanamax e 25 Panamax; a partir de 15 de setembro, 23 Panamax. Em 28 de setembro, com a chuva de volta perto da média e o lago subindo de 84,04 para 84,74 pés no mês, ela recuou: calado de 49 pés e a décima vaga Neopanamax de volta a partir de 15 de outubro, com o aviso de que a bacia continuava em déficit de água. Para os anos seguintes, o canal prepara uma represa nova, no rio Indio, para mandar mais água ao lago.</p>
     
@@ -104,7 +391,7 @@
     </section>
 
     <a class="proximo-ep" href="ponte-hercilio-luz.html">
-      <div class="foto"><img src="../assets/img/09-capa.jpg" srcset="../assets/img/09-capa-800.jpg 800w, ../assets/img/09-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1200" alt="Ponte pênsil de aço cinza sobre água calma, com uma torre treliçada alta à direita, a corrente descendo em curva até a treliça do vão central e uma praia com pedras em primeiro plano" loading="lazy" decoding="async" style="object-position:68% 45%"></div>
+      <div class="foto"><picture><source type="image/webp" srcset="../assets/img/09-capa-800.webp 800w, ../assets/img/09-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/09-capa.jpg" srcset="../assets/img/09-capa-800.jpg 800w, ../assets/img/09-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1200" alt="Ponte pênsil de aço cinza sobre água calma, com uma torre treliçada alta à direita, a corrente descendo em curva até a treliça do vão central e uma praia com pedras em primeiro plano" loading="lazy" decoding="async" style="object-position:68% 45%"></picture></div>
       <div class="txt">
         <span class="rotulo">Próximo episódio · Obra <b>09</b> · <span class="selo-estreia" data-estreia="2026-12-03" data-no-ar="no ar">estreia 03 dez 2026</span></span>
         <h3>Ponte Hercílio Luz</h3>
@@ -113,6 +400,8 @@
         <span class="ir">Ler a obra →</span>
       </div>
     </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MAIS</span>Leia também</h2><ul><li><a href="estrada-de-ferro-madeira-mamore.html"><span class="rotulo">Obra <b>07</b> · Brasil</span><strong>Estrada de Ferro Madeira-Mamoré</strong><span class="onde">1907–1912</span></a></li><li><a href="usina-de-itaipu.html"><span class="rotulo">Obra <b>05</b> · Paraguai</span><strong>Usina de Itaipu</strong><span class="onde">1975–1984</span></a></li><li><a href="roda-de-falkirk.html"><span class="rotulo">Obra <b>30</b> · Reino Unido</span><strong>Roda de Falkirk</strong><span class="onde">2000–2002</span></a></li></ul></section>
 
     <h2 id="fontes"><span class="n">FONTES</span>Fontes</h2>
     <ol class="fontes"><li>Autoridad del Canal de Panamá, &quot;End of the Construction&quot; — <a href="https://pancanal.com/en/end-of-the-construction/" rel="noopener">pancanal.com</a></li><li>Autoridad del Canal de Panamá, &quot;The French Canal Construction&quot; — <a href="https://pancanal.com/en/the-french-canal-construction/" rel="noopener">pancanal.com</a></li><li>Autoridad del Canal de Panamá, &quot;American Canal Construction&quot; — <a href="https://pancanal.com/en/american-canal-construction/" rel="noopener">pancanal.com</a></li><li>Autoridad del Canal de Panamá, &quot;Work Force&quot; — <a href="https://pancanal.com/en/work-force/" rel="noopener">pancanal.com</a></li><li>Autoridad del Canal de Panamá, &quot;Design of the Locks&quot; — <a href="https://pancanal.com/en/design-of-the-locks/" rel="noopener">pancanal.com</a></li><li>Autoridad del Canal de Panamá, &quot;Culebra Cut&quot; — <a href="https://pancanal.com/en/culebra-cut/" rel="noopener">pancanal.com</a></li><li>Autoridad del Canal de Panamá, &quot;Preguntas Frecuentes&quot; — <a href="https://pancanal.com/preguntas-frecuentes/" rel="noopener">pancanal.com</a></li><li>Autoridad del Canal de Panamá, &quot;Panama Canal Adopts Additional Measures to Address Reduced Precipitation in the Canal Watershed&quot;, 20/08/2026 — <a href="https://pancanal.com/en/panama-canal-adopts-additional-measures-to-address-reduced-precipitation-in-the-canal-watershed/" rel="noopener">pancanal.com</a></li><li>U.S. Department of State, Office of the Historian, &quot;The Panama Canal and the Torrijos-Carter Treaties&quot; — <a href="https://history.state.gov/milestones/1977-1980/panama-canal" rel="noopener">history.state.gov</a></li><li>Barbados Department of Archives e Barbados Museum and Historical Society, &quot;The Silver Men: West Indian Labourers at the Panama Canal&quot;, candidatura ao registro Memória do Mundo da UNESCO — <a href="https://media.unesco.org/sites/default/files/webform/mow001/panama_silvermen.pdf" rel="noopener">media.unesco.org</a></li><li>Linda Hall Library, The Land Divided, The World United: &quot;Making the Dirt Fly&quot; — <a href="https://www.lindahall.org/experience/digital-exhibitions/the-land-divided-the-world-united/07-making-the-dirt-fly/" rel="noopener">lindahall.org</a></li><li>Linda Hall Library, The Land Divided, The World United: &quot;Life in the Zone&quot; — <a href="https://www.lindahall.org/experience/digital-exhibitions/the-land-divided-the-world-united/09-life-in-the-zone" rel="noopener">lindahall.org</a></li><li>PBS American Experience, &quot;TR and the Panama Canal&quot; — <a href="https://www.pbs.org/wgbh/americanexperience/features/general-article/tr-panama" rel="noopener">pbs.org</a></li><li>PBS American Experience, &quot;Creating the Canal&quot; — <a href="https://www.pbs.org/wgbh/americanexperience/features/paNama-canal-creating-canal/" rel="noopener">pbs.org</a></li><li>&quot;Death, disease, and discrimination during the construction of the Panama Canal (1904–1914)&quot;, Hektoen International, 2021 — <a href="https://hekint.org/2021/09/17/death-disease-and-discrimination-during-the-construction-of-the-panama-canal-1904-1914/" rel="noopener">hekint.org</a></li><li>Caroline Lieffers, &quot;The Panama Canal&#x27;s forgotten casualties&quot;, The Conversation, 2018 — <a href="https://theconversation.com/the-panama-canals-forgotten-casualties-93536" rel="noopener">theconversation.com</a></li><li>David McCullough, The Path Between the Seas: The Creation of the Panama Canal, 1870–1914, Simon &amp; Schuster, 1977</li><li>&quot;Panama Canal to Tighten Draft Limits Again as Water Levels Continue to Fall&quot;, gCaptain, 06/08/2026 — <a href="https://gcaptain.com/panama-canal-to-tighten-draft-limits-again-as-water-levels-continue-to-fall/" rel="noopener">gcaptain.com</a></li><li>&quot;Panama Canal Authority Adopts New Transit Restrictions&quot;, DTN, 02/09/2026 — <a href="https://www.dtnpf.com/agriculture/web/ag/columns/cash-market-moves/article/2026/09/02/panama-canal-authority-adopts-new" rel="noopener">dtnpf.com</a></li><li>&quot;Panama Canal Adds Transit Capacity as Rainfall Brings Relief&quot;, gCaptain, 28/09/2026 — <a href="https://gcaptain.com/panama-canal-adds-transit-capacity-as-rainfall-brings-relief/" rel="noopener">gcaptain.com</a></li><li>&quot;Panama Canal Eases Restrictions Adding Transit Slot and Maximum Draft&quot;, The Maritime Executive, 28/09/2026 — <a href="https://maritime-executive.com/article/panama-canal-eases-restrictions-adding-transit-slot-and-maximum-draft" rel="noopener">maritime-executive.com</a></li><li>&quot;Panama Canal Seeks Program Manager for $1.6B Rio Indio Reservoir&quot;, ENR — <a href="https://www.enr.com/articles/63550-panama-canal-seeks-program-manager-for-16b-rio-indio-reservoir" rel="noopener">enr.com</a></li><li>U.S. Bureau of Labor Statistics, &quot;Consumer Price Index: 2025 in review&quot; — <a href="https://www.bls.gov/opub/ted/2026/consumer-price-index-2025-in-review.htm" rel="noopener">bls.gov</a></li></ol>
