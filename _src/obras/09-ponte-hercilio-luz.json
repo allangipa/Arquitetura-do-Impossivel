@@ -1,0 +1,354 @@
+{
+  "num": "09",
+  "slug": "ponte-hercilio-luz",
+  "obra": "Ponte Hercílio Luz",
+  "titulo_video": null,
+  "lugar": "Estreito entre a Ilha de Santa Catarina e o continente, Florianópolis, Santa Catarina, Brasil",
+  "regiao": "brasil",
+  "periodo": "1922–1926",
+  "estreia": "2026-12-03",
+  "impossivel": "Pendurar sobre o mar, com aço que o Brasil não fabricava e dinheiro que o Estado não tinha, uma ponte de 339 metros de vão presa por correntes de barras de aço que, se uma delas partisse, podiam não avisar.",
+  "resumo": "Como Florianópolis ganhou uma ponte pênsil de correntes em 1926, por que ela ficou 28 anos fechada e o que foi preciso trocar para reabri-la.",
+  "abertura": [
+    "Até 1926, quem quisesse sair da Ilha de Santa Catarina, onde fica o centro de Florianópolis, atravessava de barco. Com vento sul forte, não atravessava. O governador Hercílio Luz quis uma ponte para tirar a capital do isolamento, num tempo em que havia quem defendesse levar a sede do governo para Lages, no planalto.",
+    "A solução, desenhada em Nova York pela firma Robinson & Steinman, foi uma ponte pênsil em que o cabo não é cabo: é uma corrente de barras de aço com um olho em cada ponta, presas por pinos, que no meio do vão vira parte da própria treliça. Era a forma mais barata de vencer 339,5 metros sobre o mar. Era também o tipo de ponte que, em 1967, nos Estados Unidos, caiu inteira quando uma única barra quebrou."
+  ],
+  "numeros": [
+    {
+      "valor": "339,5 m",
+      "rotulo": "de vão central pênsil sobre o mar",
+      "conf": "2+"
+    },
+    {
+      "valor": "1922–1926",
+      "rotulo": "da obra iniciada em novembro de 1922 à inauguração em 13/05/1926",
+      "conf": "2+"
+    },
+    {
+      "valor": "819,5 · 821 m",
+      "rotulo": "de comprimento total, conforme a medição",
+      "conf": "DIV"
+    },
+    {
+      "valor": "1978",
+      "rotulo": "o ano em que Santa Catarina terminou de pagar os empréstimos da obra",
+      "conf": "2+"
+    },
+    {
+      "valor": "28 anos",
+      "rotulo": "fechada de 1991 até a reabertura, em 30/12/2019",
+      "conf": "2+"
+    },
+    {
+      "valor": "360",
+      "rotulo": "barras de olhal novas, cerca de 800 toneladas, instaladas no restauro",
+      "conf": "1"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Ligar pela primeira vez a Ilha de Santa Catarina ao continente e firmar Florianópolis, então com cerca de 40 mil habitantes, como capital do estado. A travessia era feita por barcos e balsas, e o vento sul podia suspendê-la por dias.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "O governador Hercílio Luz. Ele morreu de câncer em outubro de 1924, doze dias depois de inaugurar, simbolicamente, uma réplica de madeira da ponte no centro da cidade. A ponte, que se chamaria da Independência, recebeu o nome dele.",
+      "conf": "2+",
+      "nota": "a réplica tinha 10 ou 18 metros, conforme a fonte"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Robinson & Steinman, de Nova York: Holton D. Robinson e David B. Steinman, com William G. Grove. Ponte pênsil com correntes de barras de olhal em vez de cabos de fio de aço; entre um quarto e três quartos do vão, a corrente funciona como banzo superior da treliça de rigidez.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem construiu",
+      "valor": "A Byington & Sundstrom, de São Paulo, contratada em 1922, fez as fundações. O aço, todo vindo dos Estados Unidos, foi fabricado e montado pela American Bridge Company, com uma equipe de técnicos americanos.",
+      "conf": "2+",
+      "nota": "o número de 19 técnicos americanos aparece numa fonte só"
+    },
+    {
+      "item": "O aço",
+      "valor": "Barras de olhal de aço tratado termicamente, uma aposta da American Bridge para economizar material. Cerca de 5 mil toneladas de estrutura, segundo o governo do estado e um estudo da UFMG; um histórico da UFSC fala em 4.400 toneladas montadas em um ano.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Obra iniciada em novembro de 1922 (dia 14 ou 21, conforme a fonte); fundações prontas em 1924; torres entre dezembro de 1924 e fevereiro de 1925; correntes fechadas em abril de 1925; piso em março de 1926; inauguração oficial em 13/05/1926, sob chuva.",
+      "conf": "2+",
+      "nota": "o dia de início diverge entre as fontes"
+    },
+    {
+      "item": "Operários",
+      "valor": "Entre 381 e 400 no auge da obra, segundo o engenheiro Wenceslau Diotallevy, fiscal do restauro. Eram catarinenses de várias cidades, gente de outros estados e os técnicos americanos. O total de trabalhadores não foi registrado nas fontes consultadas.",
+      "conf": "1"
+    },
+    {
+      "item": "Mortes na construção",
+      "valor": "Nenhuma fonte consultada registra mortos ou feridos na obra de 1922 a 1926, nem número oficial, nem contestado.",
+      "conf": "sem"
+    },
+    {
+      "item": "Custo",
+      "valor": "Dois empréstimos de US$ 5 milhões, de 1919 e 1922, com bancos de Nova York, renderam 20.263 contos de réis, dos quais 12.032 contos foram embora em despesas para recebê-los, segundo o Diário Oficial do estado de 1935. O primeiro banco faliu. O custo final aparece como cerca de 14.478 ou 14.278 contos, praticamente o dobro do orçamento anual do estado.",
+      "conf": "DIV",
+      "nota": "pelo índice de preços ao consumidor dos EUA (1922 = 16,8; 2025 = 321,9), os US$ 10 milhões nominais dos empréstimos equivalem a cerca de US$ 190 milhões de 2025; o valor em contos não tem conversão confiável"
+    },
+    {
+      "item": "A conta paga",
+      "valor": "Pedágio de 100 réis por pessoa de 1926 a 1935, abolido por pressão popular. Os empréstimos só foram quitados em 1978, mais de 50 anos depois da inauguração.",
+      "conf": "2+"
+    },
+    {
+      "item": "Medidas",
+      "valor": "Vão central de 339,5 m. Comprimento total de 821 m pelo governo do estado ou 819,5 m pelo estudo da UFMG. Torres de 74,21 ou 75 m acima do mar; vão a 30,86 ou 32 m sobre a água. 14.250 m³ de concreto nas fundações e pilares.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Interdições e tombamento",
+      "valor": "Fechada ao tráfego em 22/01/1982, depois de um laudo do IPT e da descoberta de uma barra com o olho rachado. Reaberta em 15/03/1988 só para pedestres, bicicletas, motos e carroças. Fechada de vez em 1991 (04/07, na maioria das fontes). Tombada pelo município em 1992, pelo estado em 1997 e pelo IPHAN, com inscrição no Livro do Tombo em 1998.",
+      "conf": "2+",
+      "nota": "um estudo técnico da UFMG fala em ruptura de uma barra, não em trinca; a data de 1991 tem outras versões"
+    },
+    {
+      "item": "Restauro",
+      "valor": "De 2006 a 2019, em etapas, com várias empresas e contratos rompidos; concluído pelo grupo português Teixeira Duarte. O vão central foi apoiado numa estrutura provisória para que as correntes antigas fossem retiradas e substituídas por 360 barras novas, feitas pela Usiminas.",
+      "conf": "2+",
+      "nota": "o número de barras e o fabricante vêm de uma fonte só"
+    },
+    {
+      "item": "Custo do restauro",
+      "valor": "R$ 527 milhões somando todos os contratos de 1981 à iluminação cênica, pela conta da NSC; uma reportagem do Diário Catarinense de 2018 chegou a pelo menos R$ 618 milhões em valores corrigidos.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Mortes no restauro",
+      "valor": "Uma: o mergulhador Sandro José Erben Saes, afogado em janeiro de 2011 durante a inspeção de uma estaca da fundação provisória.",
+      "conf": "1",
+      "nota": "segundo a série da NSC sobre o centenário"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Reaberta em 30/12/2019 diante de mais de 200 mil pessoas. Completou 100 anos em 13/05/2026. Desde o fim de julho de 2026, fecha aos carros às terças e quintas, das 20h à meia-noite, por tempo indeterminado, para obras no piso e no gradil.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Uma ilha à espera do vento",
+      "paragrafos": [
+        "Florianópolis nasceu na Ilha de Santa Catarina, separada do continente por um estreito de algumas centenas de metros. No começo do século XX, tudo o que a ilha não produzia chegava de barco: o gado, a comida, as pessoas. Quando soprava o vento sul, a travessia parava. Segundo o jornalista Maurício Oliveira, o folclorista Franklin Cascaes lembrava que isso significava, no mínimo, três dias sem barco.",
+        "O isolamento tinha também um preço político. O interior do estado já se ligava ao Paraná, a São Paulo e ao Rio Grande do Sul por ferrovia e estrada, e havia quem defendesse mudar a capital para Lages, no planalto. Hercílio Luz, nascido em Desterro em 1860 e de volta ao governo do estado, fez da ponte a prioridade. Queria chamá-la de Ponte da Independência e inaugurá-la no centenário de 7 de setembro de 1922. O dinheiro atrasou, e a obra só começou em novembro daquele ano."
+      ]
+    },
+    {
+      "titulo": "A corrente que vira treliça",
+      "paragrafos": [
+        "O primeiro desenho, da construtora Byington & Sundstrom, de São Paulo, era uma ponte em treliça, cara demais para o Estado. Em 1920, segundo o histórico do professor Narbal Marcellino, da UFSC, a construtora consultou o engenheiro americano Holton D. Robinson, que chamou David B. Steinman. Os dois compararam três soluções e ficaram com a mais econômica: uma ponte pênsil em que o cabo é uma corrente de barras de olhal, barras chatas de aço com um furo em cada ponta, ligadas umas às outras por pinos.",
+        "Correntes assim eram técnica do século XIX, já trocada em quase todo lugar por cabos de fio de aço. O que Steinman fez foi pô-las para trabalhar duas vezes. Entre um quarto e três quartos do vão, a corrente desce até encontrar a treliça que enrijece o tabuleiro e passa a ser o banzo superior dela; nas pontas, a treliça pendura-se na corrente por pendurais verticais. Menos aço na viga, menos pendurais, menos carga. A American Bridge Company trouxe barras de aço tratado termicamente, e as torres foram feitas para balançar sobre rótulas na base. A ponte foi projetada para levar estrada, uma linha de trem elétrico e a adutora de água da cidade."
+      ]
+    },
+    {
+      "titulo": "Tudo de navio",
+      "paragrafos": [
+        "O Brasil não fabricava aquele aço. Todo o material veio dos Estados Unidos, e, segundo o arquiteto Joel Pacheco, os navios eram grandes demais para atracar perto da ilha: a carga era baldeada para barcos menores. O canteiro ficou no continente, porque na cabeceira da ilha havia um cemitério, depois transferido para o Itacorubi.",
+        "As fundações, com estacas de camisa metálica descendo até a rocha, ficaram prontas em 1924. Em julho daquele ano chegou a equipe de montagem americana. A torre do continente subiu em seis semanas, até dezembro de 1924; a da ilha, em cinco, até fevereiro de 1925. Em abril de 1925 as correntes estavam fechadas, e em agosto a estrutura principal estava completa. No auge, segundo o engenheiro Wenceslau Diotallevy, trabalhavam ali entre 381 e 400 pessoas. Quantas passaram pela obra ao todo, e se alguém morreu nela, as fontes consultadas não registram.",
+        "Hercílio Luz não viu nada disso pronto. Doente de câncer, inaugurou em 8 de outubro de 1924 uma réplica de madeira da ponte, no centro da cidade, e atravessou-a a pé. Morreu doze dias depois. A ponte de verdade foi inaugurada em 13 de maio de 1926, sob chuva torrencial, pelo governador em exercício Antônio Vicente Bulcão Viana, ainda sem a passarela de madeira no vão central. Levou o nome dele."
+      ]
+    },
+    {
+      "titulo": "A conta de cinquenta anos",
+      "paragrafos": [
+        "O dinheiro veio de dois empréstimos de US$ 5 milhões cada, tomados em 1919 e 1922 com banqueiros de Nova York. Pela reconstituição publicada no Diário Oficial do estado em 1935, eles renderam 20.263 contos de réis, mas 12.032 contos foram consumidos por taxas, comissões e outras despesas. Sobraram 8.231. O primeiro banco faliu, e o Estado acabou responsável por dívidas da instituição falida. O custo final aparece nas fontes como cerca de 14.478 ou 14.278 contos, praticamente o dobro do orçamento anual de Santa Catarina.",
+        "Para pagar, cobrou-se pedágio: 100 réis por pessoa, a pé ou de carro, de 1926 a 1935. Segundo Maurício Oliveira, no segundo semestre de 1929 a ponte rendeu 97 contos, cerca de 1% da receita do estado. A cobrança caiu por pressão popular. Os empréstimos só foram quitados em 1978."
+      ]
+    },
+    {
+      "titulo": "A ponte irmã que caiu",
+      "paragrafos": [
+        "A Hercílio Luz tinha duas parentas próximas nos Estados Unidos, ambas sobre o rio Ohio: a Silver Bridge e a ponte de St. Marys, do mesmo tipo de corrente de barras de olhal. Em 15 de dezembro de 1967, na hora do rush, a Silver Bridge caiu de uma vez e matou 46 pessoas. A causa foi uma fratura no olho de uma única barra, corroída por dentro ao longo de quatro décadas. A St. Marys foi desmontada. A de Florianópolis, a mais velha das três, ficou sendo a única.",
+        "Em Florianópolis, a notícia apressou uma ponte nova, a Colombo Salles, aberta em 1975. Mas em 1969 o piso de madeira da Hercílio Luz já tinha sido trocado por asfalto, mais pesado, e ela seguia levando quase metade do tráfego. Um laudo do IPT de São Paulo apontou barras deterioradas, e apareceu, no olho de uma barra junto ao topo de uma torre, uma trinca de cinco centímetros. A ponte foi fechada em 22 de janeiro de 1982. Reabriu para pedestres e bicicletas em 1988 e foi fechada de vez em 1991. Em 1995, um relatório do departamento de estradas do estado concluiu que as barras podiam causar a queda abrupta da ponte e não tinham como ser reaproveitadas."
+      ]
+    },
+    {
+      "titulo": "Trocar as correntes de uma ponte suspensa",
+      "paragrafos": [
+        "Para trocar a corrente de uma ponte pendurada nela, é preciso primeiro tirar o peso da corrente. A solução foi construir sob o vão central uma estrutura provisória, uma treliça espacial apoiada em quatro bases com fundação própria, e levantar o tabuleiro com macacos hidráulicos até as barras ficarem sem carga. A primeira transferência de peso foi feita na madrugada de 12 de fevereiro de 2017, com trânsito fechado e moradores levados para hotéis. Em novembro daquele ano, as correntes entre as torres foram retiradas.",
+        "O caminho até ali tinha levado mais de uma década: a primeira etapa, nos viadutos, começou em 2006; a segunda foi contratada em 2008, parou por falta de dinheiro e brigas judiciais e teve o contrato rescindido em 2014. Em 2011, o mergulhador Sandro José Erben Saes morreu afogado inspecionando uma estaca da fundação provisória. A American Bridge, convidada em 2015, recusou o serviço. O grupo português Teixeira Duarte assumiu em 2016.",
+        "As barras novas, 360 delas, cerca de 800 toneladas, foram feitas pela Usiminas, em Minas Gerais; as selas do topo das torres vieram da Espanha, e os pendurais, da Itália. A primeira barra nova foi instalada em março de 2018. Em agosto de 2019, a ponte voltou a se sustentar só pelas correntes. O custo de tudo, de 1981 à iluminação, passa de meio bilhão de reais pela conta da NSC; o Diário Catarinense chegou a pelo menos R$ 618 milhões em valores corrigidos até 2018."
+      ]
+    },
+    {
+      "titulo": "Cem anos e duas noites por semana",
+      "paragrafos": [
+        "A Hercílio Luz reabriu em 30 de dezembro de 2019, diante de mais de 200 mil pessoas, com piso de gradil metálico no lugar do asfalto. Ganhou iluminação cênica em dezembro de 2024 e completou 100 anos em 13 de maio de 2026, com um mês de festa organizado pelo governo do estado e pela prefeitura.",
+        "Dois meses depois, em 28 de julho de 2026, o governo anunciou que a ponte passaria a fechar para carros toda terça e quinta, das 20h à meia-noite, por tempo indeterminado, para obras de solda, aperto e ajuste no piso e no gradil. Pedestres e ciclistas continuam passando. A ponte que ficou 28 anos fechada para não cair agora fecha duas noites por semana para continuar aberta."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Foi a maior ponte pênsil do mundo quando ficou pronta.",
+      "registro": "Não. Em 1926 havia pontes pênseis de cabo com vão maior. O que ela teve foi o maior vão pênsil de correntes de barras de olhal do mundo na época. Hoje é a maior ponte pênsil do Brasil e a maior ponte de barras de olhal ainda de pé."
+    },
+    {
+      "circula": "É uma ponte única no mundo.",
+      "registro": "Ela foi uma de três pontes quase do mesmo projeto: as outras duas, a Silver Bridge e a de St. Marys, ficavam sobre o rio Ohio, nos Estados Unidos. A Silver Bridge caiu em 1967 e a de St. Marys foi desmontada. A de Florianópolis é a mais velha das três e a única que sobrou."
+    },
+    {
+      "circula": "Hercílio Luz inaugurou a ponte que leva o nome dele.",
+      "registro": "Ele morreu em outubro de 1924, doze dias depois de inaugurar, simbolicamente, uma réplica de madeira. A ponte foi inaugurada em 13 de maio de 1926 pelo governador em exercício, Antônio Vicente Bulcão Viana."
+    },
+    {
+      "circula": "A ponte foi feita para ter trem.",
+      "registro": "Ela foi projetada para levar também uma linha de trem elétrico e a adutora de água da cidade. O trem nunca passou por ela."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Hermes Carvalho, Ricardo Hallal Fakury e Paula Moura Leite Vilela (UFMG), \"The Challenges of Rehabilitating the Hercilio Luz Suspension Bridge\", Latin American Journal of Solids and Structures, 2017",
+      "url": "https://www.scielo.br/j/lajss/a/Mcq765DHmGKQW6HFyQxNxkr/?lang=en"
+    },
+    {
+      "texto": "Narbal Ataliba Marcellino (UFSC), \"Histórico da Ponte Hercílio Luz\"",
+      "url": "https://www.narbal.ecv.ufsc.br/Curiosas/HIST%C3%93RICO%20DA%20PONTE%20HERC%C3%8DLIO%20LUZ.pdf"
+    },
+    {
+      "texto": "HistoricBridges.org, \"Ponte Hercílio Luz\"",
+      "url": "https://historicbridges.org/bridges/browser/?bridgebrowser=brazil%2Fpontehercilioluz%2F"
+    },
+    {
+      "texto": "D. B. Steinman e W. G. Grove, \"The Eye-bar Cable Suspension Bridge at Florianopolis, Brazil\", Transactions of the American Society of Civil Engineers, paper 1662",
+      "url": null
+    },
+    {
+      "texto": "Assembleia Legislativa de Santa Catarina, \"Ponte Hercílio Luz completa 90 anos em meio a expectativas sobre sua reabertura\", 2016",
+      "url": "https://www.alesc.sc.gov.br/agenciaal/noticia/ponte-hercilio-luz-completa-90-anos-em-meio-a-expectativas-sobre-sua-reaber/"
+    },
+    {
+      "texto": "CREA-SC, \"Ponte Hercílio Luz completa 88 anos de história em Florianópolis\", 14/05/2014",
+      "url": "https://portal.crea-sc.org.br/ponte-hercilio-luz-completa-88-anos-de-historia-em-florianopolis/"
+    },
+    {
+      "texto": "NSC Total, \"Os 100 anos da velha senhora: da ideia de unir Ilha e Continente, nasce a Hercílio Luz\", 2026",
+      "url": "https://especiais.nsctotal.com.br/os-100-anos-da-velha-senhora-da-ideia-de-unir-ilha-e-continente-nasce-a-hercilio-luz/"
+    },
+    {
+      "texto": "NSC Total, \"Os 100 anos da velha senhora: como a revolução da engenharia entrou em colapso\", 2026",
+      "url": "https://especiais.nsctotal.com.br/os-100-anos-da-velha-senhora-como-a-revolucao-da-engenharia-entrou-em-colapso/"
+    },
+    {
+      "texto": "NSC Total, \"Os 100 anos da velha senhora: peça por peça, a Hercílio Luz volta a ganhar vida\", 2026",
+      "url": "https://especiais.nsctotal.com.br/os-100-anos-da-velha-senhora-peca-por-peca-a-hercilio-luz-volta-a-ganhar-vida/"
+    },
+    {
+      "texto": "Maurício Oliveira, \"A velha ponte tem alma\", Portal Upiara, 28/07/2026",
+      "url": "https://upiara.com.br/artigos/a-velha-ponte-tem-alma-por-mauricio-oliveira/"
+    },
+    {
+      "texto": "Economia SC, \"Livro sobre a ponte Hercílio Luz traz recorte do desenvolvimento econômico de SC no último século\", 23/07/2026",
+      "url": "https://economiasc.com/2026/07/23/livro-sobre-a-ponte-hercilio-luz-traz-recorte-do-desenvolvimento-economico-de-sc-no-ultimo-seculo/"
+    },
+    {
+      "texto": "NSC Total, \"Obras irão fechar Ponte Hercílio Luz, em Florianópolis, duas vezes por semana\", 29/07/2026",
+      "url": "https://www.nsctotal.com.br/infraestrutura/obras-irao-fechar-ponte-hercilio-luz-em-florianopolis-duas-vezes-por-semana"
+    },
+    {
+      "texto": "ND+, \"Ponte Hercílio Luz passa a ser bloqueada duas vezes por semana durante a noite por tempo indeterminado\", 2026",
+      "url": "https://ndmais.com.br/infraestrutura/ponte-hercilio-luz-passa-a-ser-bloqueada-duas-vezes-por-semana-durante-a-noite-por-tempo-indeterminado/"
+    },
+    {
+      "texto": "NSC Total, \"100 anos da Ponte Hercílio Luz: confira a programação do centenário em Florianópolis\", 06/05/2026",
+      "url": "https://www.nsctotal.com.br/entretenimento/100-anos-da-ponte-hercilio-luz-confira-a-programacao-do-centenario-em-florianopolis"
+    },
+    {
+      "texto": "TV Barriga Verde, \"Centenário da Ponte Hercílio Luz é celebrado com 'Parabéns' e programação especial\", 13/05/2026",
+      "url": "https://www.tvbv.com.br/centenario-da-ponte-hercilio-luz-e-celebrado-com-parabens-e-programacao-especial/"
+    },
+    {
+      "texto": "Governo de Santa Catarina, \"Ponte Hercílio Luz chega aos 100 anos em 2026 com atrações especiais na programação\"",
+      "url": "https://estado.sc.gov.br/noticias/ponte-hercilio-luz-chega-aos-100-anos-em-2026-com-atracoes-especiais-na-programacao/"
+    },
+    {
+      "texto": "Structure Magazine, \"Silver Bridge Failure 1967 (aka Point Pleasant Bridge)\"",
+      "url": "https://www.structuremag.org/article/silver-bridge-failure-1967-aka-point-pleasant-bridge/"
+    },
+    {
+      "texto": "American Society of Civil Engineers, \"Silver Bridge Collapse and Creation of National Bridge Inspections Standards\"",
+      "url": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/silver-bridge-collapse-and-creation-of-national-bridge-inspections-standards"
+    },
+    {
+      "texto": "U.S. Bureau of Labor Statistics, índice de preços ao consumidor (CPI-U), médias anuais de 1922 e 2025",
+      "url": "https://www.bls.gov/opub/ted/2026/consumer-price-index-2025-in-review.htm"
+    },
+    {
+      "texto": "Wikipédia, \"Ponte Hercílio Luz\" (ponto de partida)",
+      "url": "https://pt.wikipedia.org/wiki/Ponte_Herc%C3%ADlio_Luz"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "09-capa.jpg",
+      "alt": "Ponte pênsil de aço cinza sobre água calma, com uma torre treliçada alta à direita, a corrente descendo em curva até a treliça do vão central e uma praia com pedras em primeiro plano",
+      "legenda": "A ponte em 2009, ainda fechada, com as correntes de barras de olhal originais, vista de uma praia junto a uma das cabeceiras.",
+      "autor": "Rodrigo Soldon",
+      "licenca": "CC BY 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Herc%C3%ADlio_Luz_Bridge_003.jpg",
+      "recriacao": false,
+      "foco": "68% 45%"
+    },
+    {
+      "arquivo": "09-1958.jpg",
+      "alt": "Fotografia antiga em preto e branco: a ponte vista de baixo, do mar, com o tabuleiro treliçado escuro cruzando o céu na diagonal e uma torre à esquerda; casas e morros ao fundo",
+      "legenda": "A ponte vista do mar em 1958, quando ainda era uma das principais ligações entre a ilha e o continente.",
+      "autor": "Autor não identificado (Arquivo Nacional, fundo Correio da Manhã)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ponte_Herc%C3%ADlio_Luz,_1958.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "09-restauro.jpg",
+      "alt": "A ponte sob céu nublado com guindastes de torre amarelos ao lado do vão central e estruturas de apoio provisórias sob o tabuleiro",
+      "legenda": "Fevereiro de 2017, na manhã seguinte à primeira transferência de peso do vão central para a estrutura provisória.",
+      "autor": "Rachmaninoff",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Reforma_Herc%C3%ADlio_Luz,_fev_2017.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "09-estrutura.jpg",
+      "alt": "Vista de baixo para cima de barras de aço cinza cruzadas, cheias de rebites, com uma torre treliçada e pendurais contra o céu azul",
+      "legenda": "A torre e a treliça vistas do tabuleiro em 2019, já restauradas, com as peças unidas por rebites.",
+      "autor": "Andrew Richard Smith",
+      "licenca": "CC BY 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Detalhes_da_estrutura_-_Ponte_Herc%C3%ADlio_Luz.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "09-reabertura.jpg",
+      "alt": "Pessoas caminhando sobre o piso de grade metálica da ponte em direção a uma torre treliçada, sob céu claro",
+      "legenda": "Gente a pé no tabuleiro na semana da reabertura, em janeiro de 2020.",
+      "autor": "Filipeschaves",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Reinaugura%C3%A7%C3%A3o_da_ponte_-_cabeceira_insular.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "09-noite.jpg",
+      "alt": "A ponte à noite com as torres e a corrente contornadas por luzes verdes, postes acesos sobre a pista e a cidade escura ao redor",
+      "legenda": "A iluminação cênica, inaugurada em dezembro de 2024, numa noite de maio de 2025.",
+      "autor": "Thaismay",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ponte_Herc%C3%ADlio_Luz_de_noite_(02).jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": null
+}
