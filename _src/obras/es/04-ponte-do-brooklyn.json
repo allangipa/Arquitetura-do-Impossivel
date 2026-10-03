@@ -1,0 +1,143 @@
+{
+  "_nota": "Traducción fiel de ../04-ponte-do-brooklyn.json. Campos fijos vienen del original.",
+  "obra": "Puente de Brooklyn",
+  "titulo_seo": "Cómo se construyó el Puente de Brooklyn (1870–1883)",
+  "titulo_video": "Puente de Brooklyn: 221 toneladas de alambre fraudulento, y sigue en pie",
+  "lugar": "East River, entre Manhattan y Brooklyn, Nueva York, Estados Unidos",
+  "periodo": "1870–1883",
+  "impossivel": "Asentar dos torres de piedra en el fondo de un río de marea, con hombres cavando debajo de cajas de aire comprimido, en una época en que nadie sabía por qué enfermaban al subir.",
+  "resumo": "Cómo se levantó el Puente de Brooklyn (1870–1883): cajones de aire comprimido, el mal que salía de ellos, la ventana de Roebling y el alambre fraudulento.",
+  "abertura": [
+    "El 22 de abril de 1872, John Myers, alemán de unos 40 años, bajó al fondo del East River, en Nueva York, Estados Unidos, en su primer día de trabajo. Subió sintiéndose bien, se descompuso camino a la pensión y murió en la escalera, ese mismo día. El médico de la obra registró el caso con número y fecha.",
+    "Trabajaba en los cimientos del Puente de Brooklyn, el mayor puente colgante del mundo cuando se abrió, en 1883. El proyectista murió antes de la primera excavación, el ingeniero jefe salió enfermo del fondo del río y dirigió el resto de la obra desde su casa, y dentro de los cables quedaron 221 toneladas de alambre rechazado. El puente sigue en pie."
+  ],
+  "numeros": [
+    {"valor": "486 m", "rotulo": "vano central entre las torres (1.595 pies y 6 pulgadas)"},
+    {"valor": "23,9 m", "rotulo": "profundidad del cajón de Manhattan bajo la marea alta"},
+    {"valor": "110", "rotulo": "casos de enfermedad de los cajones en 5 meses de 1872, con 3 muertes"},
+    {"valor": "5.434", "rotulo": "alambres de acero en cada uno de los 4 cables"},
+    {"valor": "221 t", "rotulo": "de alambre rechazado que quedó dentro de los cables"},
+    {"valor": "20 años", "rotulo": "como el mayor puente colgante del mundo (1883–1903)"}
+  ],
+  "ficha": [
+    {"item": "Contexto", "valor": "Unir Nueva York y Brooklyn, entonces dos ciudades separadas por el East River. Proyecto de ley aprobado en el Senado estatal en febrero de 1867; la New York Bridge Company se constituyó ese mismo año.", "nota": "En la época, \"New York and Brooklyn Bridge\" o \"East River Bridge\"."},
+    {"item": "Proyecto", "valor": "John A. Roebling, ingeniero nacido en Mühlhausen, Prusia, autor de puentes colgantes en Pittsburgh, el Niágara y Cincinnati. Plan presentado en 1867."},
+    {"item": "Muerte del proyectista", "valor": "Un transbordador le aplastó el pie en el muelle del Fulton Ferry el 28/06/1869, durante un levantamiento topográfico; murió de tétanos el 22/07/1869, antes del inicio de la obra."},
+    {"item": "Ingeniero jefe", "valor": "Washington A. Roebling, el hijo, que asumió a los 32 años. A partir de 1872, enfermo, dirigió la obra desde su casa; Emily Warren Roebling, su esposa, llevaba las órdenes y trataba con el equipo.", "nota": "Emily nunca tuvo el título de ingeniera jefe."},
+    {"item": "Plazo", "valor": "Desde comienzos de enero de 1870 (las fuentes dan el 2 o el 3 de enero) hasta la inauguración, el 24/05/1883. La estimación original era de 5 años.", "nota": "Divergencia solo en el día de inicio; la inauguración es 2+."},
+    {"item": "Obreros", "valor": "Nadie registró un total. Hay solo retratos parciales: 3 turnos de 100 hombres en el cajón de Brooklyn en noviembre de 1870; de 50 a 125 de día en el cajón de Manhattan en 1872; cerca de 700 en nómina en agosto de 1878.", "nota": "Salario, según el discurso oficial de 1883: US$ 1,75 por día el peón, US$ 2,50 el promedio."},
+    {"item": "Costo", "valor": "Cerca de US$ 15 millones de la época, incluidos los terrenos. Según el discurso oficial de 1883, la construcción propiamente dicha, sin terrenos ni intereses, costó US$ 9 millones.", "nota": "Los US$ 9 millones vienen de una sola fuente (Abram Hewitt, 1883). No los convertimos a valores de hoy."},
+    {"item": "Estimación original", "valor": "US$ 7 millones, sin terrenos, según la cuenta de John A. Roebling."},
+    {"item": "Muertes en la obra", "valor": "20, en el discurso oficial de la inauguración (W. C. Kingsley, 1883); 27, número atribuido al ingeniero asistente C. C. Martin, que admitió que nadie hizo una lista. Una lista nominal armada después también llega a 27, contando a John A. Roebling."},
+    {"item": "Enfermedad de los cajones", "valor": "110 casos y 3 muertes en el cajón de Manhattan entre el 25/01 y el 31/05/1872, contados por el médico de la obra, Andrew H. Smith.", "nota": "El propio Smith creía que muchos casos se le escaparon."},
+    {"item": "Cimientos", "valor": "Cajón de Brooklyn: 168 × 102 pies (51 × 31 m), detenido a 44 pies y 6 pulgadas (13,6 m) bajo la marea alta. Cajón de Manhattan: 172 × 102 pies (52 × 31 m), detenido a 78 pies y 6 pulgadas (23,9 m), sobre grava, sin llegar a la roca."},
+    {"item": "Torres", "valor": "Más de 80 m sobre la marea alta. Las fuentes dan de 268 a 278 pies."},
+    {"item": "Vano y longitud", "valor": "Vano central de 1.595 pies y 6 pulgadas (486,3 m). Longitud total de 6.016 pies (1.834 m) o 5.989 pies (1.825 m), según dónde se mida la rampa. Tablero a 135 pies (41 m) del agua en el centro del vano.", "nota": "El vano y la altura del tablero son 2+; la divergencia está en la longitud total."},
+    {"item": "Cables", "valor": "4 cables de acero galvanizado, de 15¾ pulgadas (40 cm) de diámetro y 5.434 alambres cada uno; el proyecto preveía 5.282."},
+    {"item": "Estampida", "valor": "El 30/05/1883, seis días después de la apertura, un tumulto en una escalera del lado de Nueva York mató a 12 personas. Heridos: 36 graves, según la guía de la Library of Congress; más de 40 pisoteados, según el New-York Tribune.", "nota": "Muertos y fecha, 2+; el número de heridos diverge."},
+    {"item": "Después", "valor": "Mayor puente colgante del mundo de 1883 a 1903, cuando lo superó el Williamsburg. Monumento histórico nacional en 1964 y municipal en 1967. En 2024, un promedio de 103.051 vehículos, 28.845 peatones y 5.504 ciclistas por día.", "nota": "Los números de tráfico vienen de una sola fuente, la alcaldía de Nueva York."}
+  ],
+  "historia": [
+    {
+      "titulo": "El proyectista que no vio empezar la obra",
+      "paragrafos": [
+        "John A. Roebling llegó a Estados Unidos en 1831, desde Mühlhausen, Prusia, y pasó más de dos décadas colgando puentes de cables: Pittsburgh, el río Delaware, el puente ferroviario del Niágara, Cincinnati. En 1867, con la ley estatal aprobada y la New York Bridge Company formada, presentó el plan del cruce del East River. Según la nominación del puente como monumento histórico nacional, de 1975, escribió que sería “el mayor puente existente” y “la mayor obra de ingeniería del continente, y de la época” (traducción nuestra).",
+        "El 28 de junio de 1869, durante un levantamiento topográfico en el muelle del Fulton Ferry, un transbordador chocó contra el embarcadero donde él estaba y le aplastó los dedos del pie derecho. Se los amputaron. Murió de tétanos el 22 de julio, antes de cualquier excavación.",
+        "La obra pasó al hijo, Washington A. Roebling, que entonces tenía 32 años. Empezó a comienzos de enero de 1870, del lado de Brooklyn. La estimación del padre era de US$ 7 millones, sin los terrenos, y cinco años de trabajo. Llevó más del doble de tiempo."
+      ]
+    },
+    {
+      "titulo": "Una caja de madera boca abajo en el fondo del río",
+      "paragrafos": [
+        "Para apoyar las torres había que llegar a suelo firme bajo el lecho del río. El método fue el cajón neumático: una enorme caja de madera sin fondo, boca abajo, llena de aire comprimido para mantener el agua afuera. Los hombres bajaban por esclusas de aire, cavaban debajo de los bordes, y la caja se hundía bajo el peso de la torre que se iba levantando encima. El cajón de Brooklyn medía 168 por 102 pies (51 por 31 m).",
+        "El 2 de diciembre de 1870, según la historia del puente publicada por S. W. Green en 1883, un obrero dejó una vela encendida cerca de una junta del techo. La llama fue aspirada hacia el calafateo de estopa y el fuego avanzó por dentro del maderamen, sin humo visible en la cámara. Después de horas de vapor, agua y gas carbónico, llamaron a los bomberos: 38 chorros de agua. El cajón se inundó a propósito y quedó anegado dos días y medio. La reparación atrasó la obra casi tres meses. Ninguna de las fuentes registra muertes en el incendio.",
+        "Washington pasó esa noche dentro del cajón. Fue el primer ataque de la enfermedad que más tarde lo sacaría de la obra. En marzo de 1871, el cajón de Brooklyn, detenido a 44 pies y 6 pulgadas (13,6 m) bajo la marea alta, donde encontró suelo firme, se rellenó de concreto."
+      ]
+    },
+    {
+      "titulo": "Casi 24 metros bajo la marea",
+      "paragrafos": [
+        "El cajón de Manhattan era un poco más grande, de 172 por 102 pies, y vino forrado de chapa de hierro por el incendio. El suelo bueno estaba mucho más hondo. Cuanto más bajaba el cajón, mayor era la presión del aire adentro: hasta 34 libras por pulgada cuadrada sobre la atmosférica, según Green; entre 18 y 36, en las notas del médico de la obra. Los turnos, que empezaron siendo dos de cuatro horas, se redujeron en el fondo a dos de dos horas.",
+        "El médico era Andrew H. Smith. Entre el 25 de enero y el 31 de mayo de 1872, solo en ese cajón, contó 110 casos de enfermedad causada por el aire comprimido, y 3 muertes. John Myers murió en su primer día de trabajo, el 22 de abril. Patrick McKay, irlandés de 50 años, se quedó media hora de más allá abajo y lo encontraron inconsciente en la esclusa el 30 de abril; Smith anotó que tenía una enfermedad renal avanzada y que el aire comprimido solo apresuró la muerte. Un hombre de apellido Reardon, de 38 años, entró el 17 de mayo y murió al día siguiente.",
+        "La enfermedad no se descubrió allí. El propio Smith registra los primeros casos en una mina de carbón en Francia, hacia 1841, y el estudio de los médicos Pol y Watelle en 1845; en el puente de St. Louis, cuyos cimientos se cavaron en la misma época, mató a más gente que en Brooklyn. Lo que Brooklyn le dio fue el nombre: Smith la llamó \"caisson disease\", la enfermedad de los cajones. Los obreros hablaban del \"Grecian bend\", la curvatura griega. Por qué los hombres enfermaban al subir, nadie sabía explicarlo.",
+        "El 18 de mayo de 1872, a 78 pies y 6 pulgadas (23,9 m), Washington Roebling ordenó parar. El cajón quedó sobre arena y grava compactadas, sin llegar a la roca. Juzgó la grava tan firme como la roca. La nominación de 1975 vincula la decisión con la tercera muerte; la excavación se detuvo el mismo día en que murió Reardon."
+      ]
+    },
+    {
+      "titulo": "El puente visto desde una ventana",
+      "paragrafos": [
+        "En la primavera de 1872, Washington tuvo el segundo ataque, en el cajón de Manhattan, y no volvió más a la obra. En 1873 pidió licencia y fue a tratarse a Europa; después vivió en Trenton, Nueva Jersey. En el verano de 1877 volvió al número 110 de Columbia Heights, en Brooklyn, a una casa desde donde se veía el puente. La historia de Green, de 1883, dice que seguía el avance “desde un mirador trasero, con un telescopio” (traducción nuestra), y que hasta la inauguración no había pisado la estructura terminada.",
+        "Quien hacía de puente entre la casa y la obra era su esposa, Emily Warren Roebling. Según el historiador David McCullough, toda la comunicación escrita de la casa a la oficina del puente salía con la letra de ella. En el discurso oficial de la inauguración, Abram Hewitt la describió como aquella por cuyo cerebro y cuyos dedos se mantenía la comunicación entre quienes dirigían la construcción y quienes la ejecutaban. Green escribió que el conocimiento que ella tenía de la obra era “minuciosísimo y preciso” (traducción nuestra).",
+        "En 1882, el directorio votó una propuesta para degradar a Washington a consultor. Perdió por 10 a 7, y él siguió como ingeniero jefe hasta el final. Según McCullough, Emily fue la primera en cruzar el tablero, en carruaje, a comienzos de mayo de 1883. La familia contaba, años después, que llevó un gallo vivo como símbolo de victoria."
+      ]
+    },
+    {
+      "titulo": "El alambre que no podía salir",
+      "paragrafos": [
+        "Los 4 cables del puente son de acero galvanizado, no de hierro, y se hilaron en el propio lugar: una rueda iba y venía de un anclaje al otro, llevando el alambre, hasta formar 19 cordones por cable. El contrato del alambre se le dio en 1877 a J. Lloyd Haigh, proveedor del sur de Brooklyn, por decisión del directorio, contra la preferencia de Roebling.",
+        "Entre junio y julio de 1878, el ingeniero asistente William Paine y sus ayudantes, vigilando la fábrica, descubrieron la estafa. El alambre aprobado por la inspección recibía su certificado y, camino a la obra, se cambiaba en otro galpón por alambre rechazado, que seguía con el papel del bueno. El alambre bueno volvía para ser aprobado otra vez.",
+        "Cuando apareció el fraude, unas 221 toneladas de alambre rechazado ya estaban enrolladas en los cables, y no había forma de sacarlas sin desarmarlos. La solución fue agregar alambres: 8 más en cada uno de los 19 cordones, 152 por cable, lo que llevó el total de 5.282 a 5.434. Haigh tuvo que suministrar el alambre extra gratis. El margen de seguridad quedó en unas cinco veces la carga. El directorio no hizo público el caso ni cambió de proveedor.",
+        "Haigh terminó preso, pero por otra cosa: en agosto de 1880 confesó haber falsificado aceptaciones bancarias y recibió cuatro años de prisión. El mismo año del fraude, el 14 de junio de 1878, uno de los cordones se soltó durante el hilado y mató a dos hombres."
+      ]
+    },
+    {
+      "titulo": "La cuenta de los muertos",
+      "paragrafos": [
+        "El día de la inauguración, el discurso oficial de W. C. Kingsley dijo que “veinte hombres perdieron la vida” (traducción nuestra) en el trabajo directo de la obra. Es el número que repite McCullough, sin contar a John A. Roebling; quien suma al padre llega a 21.",
+        "Otros conteos llegan a 27. El número se atribuye al ingeniero asistente C. C. Martin, en una entrevista con el Brooklyn Daily Eagle de ese mismo 24 de mayo de 1883, en la que admitió que no hubo lista: si hubieran sabido que tantos se iban a lastimar, lo habrían anotado. Una lista nominal armada después a partir de periódicos y certificados de defunción también tiene 27 nombres, incluido el proyectista. Según ella, la mayoría murió por caídas y accidentes con grúas; tres, por la enfermedad de los cajones.",
+        "Los informes oficiales no ayudan a cerrar la cuenta. El informe del ingeniero jefe de 1877 dice que tramos peligrosos se hicieron sin ningún accidente, mientras que McCullough, a partir del Brooklyn Daily Eagle, registra dos caídas fatales desde la torre de Brooklyn en 1875. No existe un total confiable, ni de muertos ni de obreros."
+      ]
+    },
+    {
+      "titulo": "24 de mayo de 1883, y lo que vino después",
+      "paragrafos": [
+        "El puente se abrió el 24 de mayo de 1883, con el presidente Chester A. Arthur. Washington no fue; lo vio desde la ventana. Costó cerca de US$ 15 millones de la época, contando los terrenos. Green atribuye el exceso de presupuesto a cimientos más profundos de lo previsto, al acero en lugar del hierro, a un tablero más ancho y más alto y a las expropiaciones.",
+        "Seis días después, el 30 de mayo, un atasco en lo alto de una escalera del lado de Nueva York, con miles de personas en el puente, se convirtió en tumulto. Hubo gente que cayó por la escalera y los de atrás le pasaron por encima. Murieron 12 personas. Según el New-York Tribune, una hora después se decía en la calle 42 que el puente se había caído con mil personas.",
+        "El 17 de mayo de 1884, el circo de P. T. Barnum cruzó el puente hacia Brooklyn con 21 elefantes, entre ellos Jumbo, y 17 camellos. Según The Sun, el cobrador del peaje les cobró a los hombres y a los caballos y dejó pasar gratis a los animales. El Tribune anotó que mucha gente los siguió para ver si Jumbo llegaba entero.",
+        "El puente fue el mayor puente colgante del mundo hasta 1903. Los cables con el alambre de Haigh adentro siguen en su lugar, y en 2024 recibía en promedio más de 100 mil vehículos por día."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "Emily Roebling fue la verdadera ingeniera jefe y diseñó el puente.", "registro": "El proyecto es de John A. Roebling y el ingeniero jefe fue Washington hasta el final, ratificado por votación en 1882. Emily fue la intermediaria indispensable y adquirió una competencia técnica real. La exageración ya aparece en 1883: un editorial de Frank Leslie's escribió que ella se había convertido en “la directora principal de la obra” (traducción nuestra), algo que ningún documento de la construcción sostiene."},
+    {"circula": "El incendio del cajón de Brooklyn, en 1870, mató a seis hombres.", "registro": "Ni la historia de Green, de 1883, ni McCullough registran muertes en el incendio. El cajón se inundó y se reparó en casi tres meses."},
+    {"circula": "La enfermedad de los cajones se descubrió en el Puente de Brooklyn.", "registro": "Ya había casos registrados en Francia desde hacia 1841 y había matado obreros en el puente de St. Louis. Brooklyn le dio el nombre: \"caisson disease\", de Andrew H. Smith, el médico de la obra."},
+    {"circula": "Los cimientos de Manhattan llegaron a la roca.", "registro": "El cajón se detuvo el 18 de mayo de 1872, a 78 pies y 6 pulgadas (23,9 m), sobre arena y grava compactadas. Washington Roebling decidió no bajar más."},
+    {"circula": "El número oficial de muertos en la obra es 27.", "registro": "El único número dicho en una ceremonia oficial fue 20, en el discurso de W. C. Kingsley en 1883. El 27 viene de otro conteo, atribuido al ingeniero asistente C. C. Martin el mismo día de la inauguración, y él mismo admitió que nadie hizo una lista."}
+  ],
+  "perguntas": [
+    {"p": "¿Cuándo se construyó el Puente de Brooklyn?", "r": "La obra empezó a comienzos de enero de 1870, y las fuentes dan el 2 o el 3 de enero, y el puente se inauguró el 24 de mayo de 1883. La estimación original era de 5 años; llevó más del doble."},
+    {"p": "¿Quién diseñó el Puente de Brooklyn?", "r": "El proyecto es de John A. Roebling, que murió de tétanos en 1869, antes del inicio de la obra. Su hijo, Washington Roebling, fue el ingeniero jefe hasta el final y, enfermo desde 1872, dirigió la obra desde su casa, con su esposa, Emily Warren Roebling, llevando las órdenes al equipo."},
+    {"p": "¿Cuántas personas murieron en la construcción del Puente de Brooklyn?", "r": "Las fuentes divergen: el discurso oficial de la inauguración habló de 20 muertos; otro conteo, atribuido al ingeniero asistente C. C. Martin, llega a 27, y él mismo admitió que nadie hizo una lista. No existe un total confiable."},
+    {"p": "¿Cuánto costó el Puente de Brooklyn?", "r": "Cerca de US$ 15 millones de la época, contando los terrenos. Según el discurso oficial de 1883, la construcción propiamente dicha, sin terrenos ni intereses, costó US$ 9 millones; la estimación del proyectista era de US$ 7 millones."},
+    {"p": "¿Cuánto mide el Puente de Brooklyn?", "r": "El vano central entre las torres mide 486,3 m. La longitud total es de 1.834 m o 1.825 m, según dónde se mida la rampa, y el tablero está a 41 m del agua en el centro del vano."}
+  ],
+  "fontes": [
+    {"texto": "Andrew H. Smith, The Effects of High Atmospheric Pressure, including the Caisson Disease, Brooklyn, Eagle Print, 1873"},
+    {"texto": "Opening Ceremonies of the New York and Brooklyn Bridge, May 24, 1883, Brooklyn, 1883"},
+    {"texto": "S. W. Green (comp.), A Complete History of the New York and Brooklyn Bridge, Nueva York, 1883"},
+    {"texto": "Washington A. Roebling, Report of the Chief Engineer of the New York & Brooklyn Bridge, January 1, 1877, Brooklyn, 1877"},
+    {"texto": "James B. Armstrong (HAER), The Brooklyn Bridge, nominación al National Register / National Historic Landmark, 1975"},
+    {"texto": "NYC Landmarks Preservation Commission, designación LP-0098, 1967"},
+    {"texto": "Historic American Engineering Record, HAER NY-18, Library of Congress"},
+    {"texto": "NYC Department of Transportation, Brooklyn Bridge"},
+    {"texto": "Frank Griggs Jr., Brooklyn Bridge, Part 2, STRUCTURE magazine, 2016"},
+    {"texto": "T. R. Witcher, New York's Brooklyn Bridge is an engineering marvel, Civil Engineering (ASCE), 2022"},
+    {"texto": "Frances Williams Browin, When They Built the Big Bridge, American Heritage, 1956"},
+    {"texto": "David McCullough, The Great Bridge, 1972"},
+    {"texto": "Linda Hall Library, Scientist of the Day: Washington A. Roebling"},
+    {"texto": "Richard Howe, reseña de Erica Wagner, Chief Engineer: Washington Roebling (2017), Gotham Center, 2018"},
+    {"texto": "New-York Tribune, Fatal panic on the Bridge, 31/05/1883"},
+    {"texto": "The Sun (Nueva York), 18/05/1884, p. 2"},
+    {"texto": "Frank Leslie's Illustrated Newspaper, 09/06/1883"},
+    {"texto": "Christopher Klein, Construction of the Brooklyn Bridge Took 14 Years—And Multiple Lives, History.com, 2019"}
+  ],
+  "imagens": [
+    {"alt": "Vista aérea del East River con el Puente de Brooklyn en diagonal en primer plano y el Puente de Manhattan justo detrás", "legenda": "El Puente de Brooklyn visto desde lo alto, con el Puente de Manhattan al fondo. Foto de Jet Lowe (Library of Congress).", "autor": "Jet Lowe (Library of Congress)"},
+    {"alt": "Torre de piedra del puente ya levantada, con arcos góticos y los primeros cabos de los cables, y la otra torre al fondo al otro lado del río", "legenda": "Las torres ya levantadas, con los primeros cabos de la fase de los cables, en una estereoscopía de época (mitad izquierda de la tarjeta).", "autor": "Autor desconocido (Robert N. Dennis collection, NYPL)"},
+    {"alt": "Grabado en corte del cimiento: la caja de madera boca abajo en el lecho del río, con la mampostería de la torre encima y los pozos de acceso", "legenda": "El cajón de Brooklyn en corte, con la mampostería encima. Harper's Weekly, 17 de diciembre de 1870, dos semanas después del incendio.", "autor": "Harper's Weekly, 17/12/1870"},
+    {"alt": "Pasarela provisional colgante que sale de lo alto de una torre de piedra, sobre techos de Brooklyn", "legenda": "La pasarela provisional de la fase de los cables, sujeta a la torre. Estereoscopía de época (mitad izquierda de la tarjeta).", "autor": "Autor desconocido (Robert N. Dennis collection, NYPL)"},
+    {"alt": "Cable principal pintado de blanco visto desde abajo, con la abrazadera y la péndola de alambres trenzados bajando hasta el tablero", "legenda": "Uno de los 4 cables principales y la unión de una péndola, en 1982. Foto de Jet Lowe para el Historic American Engineering Record (HAER NY-18).", "autor": "Jet Lowe (HAER NY-18, Library of Congress)"},
+    {"alt": "Litografía en color de los fuegos artificiales estallando sobre el puente iluminado, con barcos en el río", "legenda": "Los fuegos de la noche de la inauguración, 24 de mayo de 1883. Litografía de Currier & Ives.", "autor": "Currier & Ives (Library of Congress)"}
+  ]
+}

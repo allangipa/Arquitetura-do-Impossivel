@@ -259,8 +259,11 @@ CAMPOS_FIXOS = {"num", "slug", "regiao", "estreia", "proximo", "relacionados", "
 EXTRAS_TRAD = {"titulo_seo", "_excecoes_numeros", "_nota"}
 # Texto citado (título de obra, de artigo) pode ficar igual ao original.
 PODE_FICAR_IGUAL = re.compile(r"^fontes\[\d+\]\.texto$|\.autor$")
-BASTIDOR_TRAD = re.compile(r"\bTODO\b|\bTBD\b|\bFIXME\b|\[\?\]|\bto (?:check|verify|confirm)\b"
-                           r"|\bpor (?:verificar|confirmar)\b|\bpendiente\b", re.I)
+# TODO/TBD/FIXME só em caixa alta: em espanhol "todo" é palavra comum; e
+# "pendiente" sozinho também é "declive" (a serra, a rampa): só conta
+# "pendiente de verificar/confirmar".
+BASTIDOR_TRAD = re.compile(r"(?-i:\bTODO\b|\bTBD\b|\bFIXME\b)|\[\?\]|\bto (?:check|verify|confirm)\b"
+                           r"|\b(?:por|pendiente de) (?:verificar|confirmar)\b", re.I)
 
 MESES_NOMES = {
     "pt": ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto",
@@ -991,8 +994,19 @@ def seo_fixas():
 # Sobre, contato e privacidade em outros idiomas (desde 03/10/2026): o texto
 # mora aqui no build, como o português. Idioma que não está em FIXAS_IDIOMAS
 # continua caindo nas páginas em português.
-FIXAS_IDIOMAS = {"en"}
+FIXAS_IDIOMAS = {"en", "es"}
 FIXAS_SEO = {
+    "es": {
+        "sobre.html": (f"Acerca de {NOME}: cómo se investiga",
+                       f"Qué es {NOME}, proyecto independiente sobre grandes obras: cómo se investiga, "
+                       "el sello de confianza, las imágenes y quién lo hace."),
+        "contato.html": (f"Contacto · {NOME}",
+                         f"Cómo escribir a {NOME} por correo: correcciones con fuente, créditos y retiro de imágenes, "
+                         "solicitudes sobre tus datos (LGPD) y temas."),
+        "privacidade.html": (f"Política de privacidad · {NOME}",
+                             f"Cómo {NOME} trata datos, cookies y anuncios de Google AdSense, cómo revisar tu elección "
+                             "de cookies y tus derechos según la LGPD."),
+    },
     "en": {
         "sobre.html": (f"About {NOME}: how each page is researched",
                        f"What {NOME} is, an independent project on great structures: how pages are researched, "
@@ -1573,16 +1587,115 @@ CONTACT_EN = """<main id="conteudo"><div class="casca privacidade">
 </div></main>
 """
 
+# Espanhol (desde 03/10/2026): a privacidade diz exatamente o que a portuguesa
+# diz, parágrafo a parágrafo. Mudou uma, muda as outras.
+PRIVACIDAD_ES = """<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">Documento · actualizado el 3 de octubre de 2026</span>
+  <h1>Política de privacidad</h1>
+  <p class="lead">Un sitio que les exige fuentes a los demás debe ser claro sobre sí mismo. Aquí está lo que {{NOME}} recopila, lo que no recopila, quién más participa y lo que puedes exigir.</p>
+
+  <div class="resumo"><strong>En resumen.</strong> No pedimos registro, no tenemos formularios y no mantenemos lista de correos: si nos escribes, tu correo queda solo en nuestra bandeja de entrada, para la respuesta. Lo que sí existe son cookies publicitarias de Google, usadas para mostrar anuncios, que se cargan desde la primera página. Si rechazas en el aviso, el script de anuncios se retira y deja de cargarse a partir de la página siguiente; lo que ya haya leído o guardado en la página en la que estabas no se deshace. Puedes revisar tu elección en cualquier momento con el enlace “Revisar elección de cookies”, en el pie de página, y la publicidad personalizada puede desactivarse en la configuración de Google.</div>
+
+  <h2>1. Quién es el responsable</h2>
+  <p><strong>{{NOME}}</strong> es un proyecto editorial independiente, publicado en {{DOMINIO_NU}}, {{CANAL_FRASE}}. Para cualquier asunto de esta política —incluidas solicitudes de eliminación o de información—, el contacto es el correo indicado en la página de <a href="contato.html">contacto</a>.</p>
+
+  <h2>2. Qué recopilamos, y qué no</h2>
+  <p>No hay registro, inicio de sesión, comentarios, boletín ni formulario de contacto. Ninguna página pide tu nombre, correo, teléfono ni documento. No armamos perfiles de lectores y no vendemos ni compartimos listas de nadie, porque no existe ninguna lista.</p>
+  <p>Lo que existe es lo que cualquier sitio recibe por ser visitado: el servidor que aloja estas páginas registra la dirección IP, la fecha y la hora, la página solicitada y el navegador usado. Esos registros sirven para seguridad y diagnóstico de fallas, y no se usan para identificar personas.</p>
+
+  <h2>3. Cookies y publicidad</h2>
+  <p>Este sitio muestra anuncios a través de <strong>Google AdSense</strong>. Para ello, Google y sus socios usan cookies —pequeños archivos guardados en tu navegador— para seleccionar y medir los anuncios.</p>
+  <ul>
+    <li>Google, como proveedor externo, utiliza cookies para mostrar anuncios en este sitio.</li>
+    <li>Las cookies publicitarias de Google le permiten a Google y a sus socios mostrar anuncios basados en las visitas del usuario a este y a otros sitios de internet.</li>
+    <li>Socios y redes de terceros también pueden usar cookies, identificadores de dispositivo o tecnología similar para medir y personalizar los anuncios.</li>
+    <li>Ninguno de esos datos pasa por nosotros: el sitio no recibe, no almacena y no tiene acceso a lo que esas redes recopilan.</li>
+  </ul>
+  <p>Puedes desactivar la publicidad personalizada —en todos los sitios de la red de Google, no solo en este— en <a href="https://adssettings.google.com" rel="noopener">adssettings.google.com</a>. Las reglas completas de Google están en <a href="https://policies.google.com/technologies/ads?hl=es-419" rel="noopener">policies.google.com/technologies/ads</a>, y para excluirte de la publicidad basada en el comportamiento de varias redes a la vez existe <a href="https://www.aboutads.info/choices/" rel="noopener">aboutads.info/choices</a>.</p>
+  <p>Todo navegador también permite bloquear o borrar cookies. Hacerlo no impide leer nada: el contenido de este sitio no depende de cookies para funcionar.</p>
+
+  <h2>4. Qué guardamos en tu navegador</h2>
+  <p>Una sola cosa, y no sale de tu dispositivo: cuando respondes al aviso de cookies, tu elección queda registrada en el almacenamiento local del navegador, bajo la clave <code>{{CHAVE}}</code>. Sirve solo para no volver a preguntarte en cada página. No es una cookie, no se envía a ningún servidor y desaparece cuando borras los datos del sitio o haces clic en “Revisar elección de cookies”, en el pie de cualquier página: la elección guardada se borra y el aviso vuelve a aparecer.</p>
+
+  <h2>5. Contenido de terceros</h2>
+  <p>Un único servicio externo participa en la visualización de estas páginas: <strong>Google AdSense</strong>, que entrega los anuncios. El script de anuncios se carga desde la primera página, antes de cualquier respuesta. Si rechazas en el aviso, se retira y deja de cargarse a partir de la página siguiente; lo que ya haya mostrado, leído o guardado en la página en la que estabas no se deshace, y las cookies que Google ya haya guardado quedan en el navegador hasta que las borres.</p>
+  <p><strong>YouTube</strong> solo entra en escena si haces clic en un enlace al canal: ningún video está incrustado en estas páginas. Todo lo demás —las imágenes de las fichas de obra y las fuentes tipográficas— viene de este mismo dominio.</p>
+
+  <h2>6. Tus derechos según la LGPD</h2>
+  <p>La Ley General de Protección de Datos de Brasil (LGPD, Ley n.º 13.709/2018) te garantiza el derecho a confirmar si hay tratamiento de datos tuyos, a acceder a ellos, a corregirlos, a pedir su anonimización o eliminación, a solicitar su portabilidad, a saber con quién se compartieron y a revocar el consentimiento en cualquier momento.</p>
+  <p>Aquí el ejercicio de esos derechos es breve, porque la base de datos que podríamos entregar está prácticamente vacía. Aun así, toda solicitud hecha a través de la página de <a href="contato.html">contacto</a> será respondida. Para revocar la elección hecha en el aviso de cookies, usa el enlace “Revisar elección de cookies”, en el pie de cualquier página. Para los datos que Google recopila a través de los anuncios, la solicitud debe hacerse al propio Google: nosotros mostramos el espacio, pero es Google quien trata esos datos.</p>
+
+  <h2>7. Niños y adolescentes</h2>
+  <p>El contenido de este sitio no está dirigido a menores de 13 años, y no recopilamos a sabiendas datos de niños. Si eres responsable de un niño y crees que algún dato suyo llegó hasta aquí, ponte en contacto para que sea eliminado.</p>
+
+  <h2>8. Cambios en esta política</h2>
+  <p>Si algo cambia —una nueva red de anuncios, una herramienta de medición, una sección de comentarios—, esta página cambia también, y la fecha de arriba se actualiza.</p>
+
+  <div class="botoes" style="margin-top:2.5rem"><a class="botao cheio" href="index.html#obras">Ver las obras</a></div>
+</div></main>
+"""
+
+ACERCA_ES = """<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">Acerca de</span>
+  <h1>Acerca de {{NOME}}</h1>
+
+  <h2>1. Qué es</h2>
+  <p><strong>Arquitetura do Impossível</strong> (Arquitectura de lo Imposible) es un proyecto editorial independiente, hecho en Brasil, sobre grandes construcciones: cómo una obra que parecía imposible quedó en pie. Cada página de este sitio acompaña un episodio del canal de YouTube, {{CANAL}}, en portugués, y se publica antes del estreno, cuando el episodio todavía está por salir. Va más allá del video: trae la ficha técnica completa, las fuentes, las imágenes con crédito y las divergencias que no caben en un video.</p>
+  <p>La pregunta es siempre la misma: <em>qué hacía imposible esta obra, y quién lo resolvió</em> —con qué cálculo, con qué material, con qué improvisación—. El protagonista es el problema de ingeniería; las personas entran como quienes lo enfrentaron. Obras de Brasil y del resto del mundo, una por semana.</p>
+
+  <h2>2. Cómo se hace una página</h2>
+  <ul>
+    <li><strong>La ficha de cada obra cubre lo que suele faltar:</strong> cuántos obreros, cuánto tiempo, cuánto costó, quién se lesionó y quién murió, cada línea con su fuente.</li>
+    <li><strong>Cada cifra lleva un sello de confianza:</strong> confirmada en dos o más fuentes, fuente única (el texto dice cuál), divergencia (mostramos las versiones y no elegimos) o sin registro (decimos que nadie lo registró, en lugar de inventar).</li>
+    <li><strong>El mito desmontado es parte de la historia:</strong> el obrero enterrado en el concreto, la obra "hecha en X días", la cuenta de muertos que nadie verificó.</li>
+    <li><strong>Valor actual solo con método declarado.</strong> Convertir dinero antiguo sin decir cómo es inventar cifras.</li>
+    <li><strong>Textos íntegramente propios.</strong> Las fuentes quedan listadas al final de cada página.</li>
+  </ul>
+
+  <h2>3. Imágenes</h2>
+  <p>Solo se usan fotografías, planos y documentos reales, de acervos en dominio público o bajo una licencia Creative Commons que permite el uso comercial, con autor y licencia acreditados en cada página. En este sitio no se usan imágenes generadas por IA.</p>
+
+  <h2>4. Correcciones</h2>
+  <p>¿Hay una fecha, un nombre o una cifra equivocados? Escribe a través de la página de <a href="contato.html">contacto</a>, de preferencia con la fuente. El error confirmado se corrige aquí, y la corrección vale también para lo que venga después en el canal.</p>
+
+  <h2>5. Quién lo hace</h2>
+  <p>{{NOME}} se escribe, se investiga y se mantiene de forma independiente, sin vínculo con ninguna universidad, empresa u organismo público. Es del mismo creador de otros dos proyectos con el mismo cuidado por las fuentes: <a href="{{VO}}" rel="noopener">Vestígio Oculto</a>, sobre arqueología y misterio, y <a href="{{XB}}" rel="noopener">Xadrez Bélico</a>, sobre batallas explicadas como una partida de ajedrez (ambos en portugués).</p>
+  <p>El sitio se sostiene con anuncios de Google AdSense, descritos en la <a href="privacidade.html">política de privacidad</a>. Ningún anuncio interfiere en lo que se escribe.</p>
+</div></main>
+"""
+
+CONTACTO_ES = """<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">Contacto</span>
+  <h1>Escribe a {{NOME}}</h1>
+  <p class="lead">Una corrección, el crédito de una imagen, una solicitud sobre tus datos o cualquier otro asunto: el camino es uno solo.</p>
+  <div class="resumo"><strong>Correo:</strong> <a href="mailto:allangipa@gmail.com">allangipa@gmail.com</a></div>
+
+  <h2>Para qué escribir</h2>
+  <ul>
+    <li><strong>Correcciones.</strong> Una fecha, un nombre o una cifra equivocados. Envía la fuente: es lo que permite corregir rápido.</li>
+    <li><strong>Imágenes y créditos.</strong> Si eres autor de una imagen usada aquí y el crédito está incompleto, o quieres que se retire, escríbenos.</li>
+    <li><strong>Tus datos.</strong> Solicitudes según la LGPD, conforme a la <a href="privacidade.html">política de privacidad</a>.</li>
+    <li><strong>Temas, prensa y alianzas.</strong> Las sugerencias de temas también son bienvenidas.</li>
+  </ul>
+
+  <h2>Cómo respondemos</h2>
+  <p>No hay formulario ni registro: la conversación es por correo, y tu dirección no se usa para nada más que responder. La corrección confirmada entra en la página.</p>
+</div></main>
+"""
+
 
 def pagina_privacidade():
     """Escrita para ESTE site, não copiada de modelo: diz só o que ele faz.
     Adaptada da política do Vestígio Oculto, que tem o mesmo desenho. A versão
-    em inglês diz exatamente o mesmo: mudou uma, muda a outra."""
+    em inglês e a em espanhol dizem exatamente o mesmo: mudou uma, mudam as outras."""
     base = "" if L == BASE_IDIOMA else "../"
     yt = f'<a href="{CANAL}" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>'
     if L == "en":
         canal = f"with a matching YouTube channel, {yt}" if CANAL else "with a matching YouTube channel"
         modelo = PRIVACY_EN
+    elif L == "es":
+        canal = f"con un canal correspondiente en YouTube, {yt}" if CANAL else "con un canal correspondiente en YouTube"
+        modelo = PRIVACIDAD_ES
     else:
         canal = f"com canal correspondente no YouTube, {yt}" if CANAL else "com canal correspondente no YouTube"
         modelo = PRIVACIDADE
@@ -1599,9 +1712,9 @@ def pagina_privacidade():
 
 def pagina_sobre():
     base = "" if L == BASE_IDIOMA else "../"
-    canal = f'<a href="{CANAL}" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>' if CANAL else ("on YouTube" if L == "en" else "no YouTube")
-    if L == "en":
-        corpo = ABOUT_EN.replace("{{CANAL}}", canal).replace("{{NOME}}", NOME) \
+    canal = f'<a href="{CANAL}" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>' if CANAL else {"en": "on YouTube", "es": "en YouTube"}.get(L, "no YouTube")
+    if L in ("en", "es"):
+        corpo = {"en": ABOUT_EN, "es": ACERCA_ES}[L].replace("{{CANAL}}", canal).replace("{{NOME}}", NOME) \
             .replace("{{VO}}", SITE_IRMAO_VO).replace("{{XB}}", SITE_IRMAO_XB)
     else:
         corpo = SOBRE_PT(canal)
@@ -1647,7 +1760,8 @@ def SOBRE_PT(canal):
 
 def pagina_contato():
     base = "" if L == BASE_IDIOMA else "../"
-    corpo = CONTACT_EN.replace("{{NOME}}", NOME) if L == "en" else CONTATO_PT()
+    corpo = ({"en": CONTACT_EN, "es": CONTACTO_ES}[L].replace("{{NOME}}", NOME)
+             if L in ("en", "es") else CONTATO_PT())
     u = url_de(L, "contato.html")
     TITULO_CONTATO, DESC_CONTATO = seo_fixas()["contato.html"]
     return (cabeca(TITULO_CONTATO, DESC_CONTATO, u, f"{DOMINIO}/assets/img/og-home.jpg", base,

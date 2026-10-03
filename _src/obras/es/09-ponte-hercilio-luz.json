@@ -1,0 +1,300 @@
+{
+  "_nota": "Traducción fiel de ../09-ponte-hercilio-luz.json. Campos fijos vienen del original.",
+  "obra": "Puente Hercílio Luz",
+  "titulo_seo": "Cómo se construyó el Puente Hercílio Luz (1922–1926)",
+  "titulo_video": null,
+  "lugar": "Estrecho entre la Isla de Santa Catarina y el continente, Florianópolis, Santa Catarina, Brasil",
+  "periodo": "1922–1926",
+  "impossivel": "Colgar sobre el mar, con acero traído en barco desde Estados Unidos y dinero que el estado no tenía, un puente de 339,5 metros de luz sostenido por cadenas de barras de acero que, si una se rompía, podían no avisar.",
+  "resumo": "Cómo Florianópolis obtuvo el Puente Hercílio Luz, colgante de cadenas, en 1926, por qué estuvo 28 años cerrado y qué hubo que cambiar para reabrirlo.",
+  "abertura": [
+    "Hasta 1926, quien quisiera salir de la Isla de Santa Catarina, donde está el centro de Florianópolis, cruzaba en barco. Con viento sur fuerte, no cruzaba. El gobernador Hercílio Luz quiso un puente para sacar a la capital del aislamiento, en una época en que había quien proponía llevar la sede del gobierno a Lages, en la meseta.",
+    "La solución, diseñada en Nueva York por la firma Robinson & Steinman, fue un puente colgante en el que el cable no es cable: es una cadena de barras de acero con un ojo en cada extremo, unidas por pasadores, que en el centro del vano se convierte en parte de la propia celosía. De las tres soluciones comparadas, era la más barata para salvar 339,5 metros sobre el mar. Era también el tipo de puente que, en 1967, en Estados Unidos, se vino abajo entero cuando se rompió una sola barra."
+  ],
+  "numeros": [
+    {
+      "valor": "339,5 m",
+      "rotulo": "de vano central colgante sobre el mar"
+    },
+    {
+      "valor": "1922–1926",
+      "rotulo": "de la obra iniciada en noviembre de 1922 a la inauguración el 13/05/1926"
+    },
+    {
+      "valor": "819,5 · 821 m",
+      "rotulo": "de longitud total, según la medición"
+    },
+    {
+      "valor": "1978",
+      "rotulo": "el año en que Santa Catarina terminó de pagar los préstamos de la obra"
+    },
+    {
+      "valor": "28 años",
+      "rotulo": "cerrado desde 1991 hasta la reapertura, el 30/12/2019"
+    },
+    {
+      "valor": "360",
+      "rotulo": "barras de ojal nuevas, unas 800 toneladas, instaladas en la restauración"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por qué",
+      "valor": "Unir por primera vez la Isla de Santa Catarina con el continente y afianzar a Florianópolis, entonces con unos 40 mil habitantes, como capital del estado. El cruce se hacía en barcos y balsas, y el viento sur podía suspenderlo durante días."
+    },
+    {
+      "item": "Quién lo quiso",
+      "valor": "El gobernador Hercílio Luz. Murió de cáncer en octubre de 1924, doce días después de inaugurar, de forma simbólica, una réplica de madera del puente en el centro de la ciudad. El puente, que iba a llamarse de la Independencia, recibió su nombre.",
+      "nota": "la réplica medía 10 o 18 metros, según la fuente"
+    },
+    {
+      "item": "Proyecto",
+      "valor": "Robinson & Steinman, de Nueva York: Holton D. Robinson y David B. Steinman, con William G. Grove. Puente colgante con cadenas de barras de ojal en lugar de cables de alambre de acero; entre un cuarto y tres cuartos del vano, la cadena funciona como cordón superior de la celosía de rigidez."
+    },
+    {
+      "item": "Quién lo construyó",
+      "valor": "Byington & Sundstrom, de São Paulo, contratada en 1922, hizo las fundaciones. El acero, todo traído de Estados Unidos, lo fabricó y montó la American Bridge Company, con un equipo de técnicos estadounidenses.",
+      "nota": "la cifra de 19 técnicos estadounidenses aparece en una sola fuente"
+    },
+    {
+      "item": "El acero",
+      "valor": "Barras de ojal, elegidas por los proyectistas porque ahorraban material, de acero tratado térmicamente, una prueba que la American Bridge hizo en este puente. Unas 5 mil toneladas de estructura, según el gobierno del estado y un estudio de la UFMG; una reseña histórica de la UFSC habla de 4.400 toneladas montadas en un año."
+    },
+    {
+      "item": "Plazos",
+      "valor": "Obra iniciada en noviembre de 1922 (el día 14 o 21, según la fuente); fundaciones terminadas en 1924; torres entre diciembre de 1924 y febrero de 1925; cadenas cerradas en abril de 1925; tablero en marzo de 1926; inauguración oficial el 13/05/1926, bajo la lluvia.",
+      "nota": "el día de inicio varía entre las fuentes"
+    },
+    {
+      "item": "Obreros",
+      "valor": "Entre 381 y 400 en el punto máximo de la obra, según el ingeniero Wenceslau Diotallevy, fiscalizador de la restauración. Eran catarinenses de varias ciudades, gente de otros estados y los técnicos estadounidenses. El total de trabajadores no está registrado en las fuentes consultadas."
+    },
+    {
+      "item": "Muertes en la construcción",
+      "valor": "Ninguna fuente consultada registra muertos ni heridos en la obra de 1922 a 1926, ni cifra oficial ni cifra discutida."
+    },
+    {
+      "item": "Costo",
+      "valor": "Dos préstamos de US$ 5 millones, de 1919 y 1922, con bancos de Nueva York, rindieron 20.263 contos de réis, de los cuales 12.032 contos se fueron en gastos para recibirlos, según el Diario Oficial del estado de 1935. El primer banco quebró. El costo final, que circula en versiones distintas y mal escritas, se describe como prácticamente el doble del presupuesto anual del estado.",
+      "nota": "según el índice de precios al consumidor de EE. UU. (1922 = 16,8; 2025 = 321,9), los US$ 10 millones nominales de los préstamos equivalen a unos US$ 190 millones de 2025; el valor en contos no tiene una conversión confiable"
+    },
+    {
+      "item": "La cuenta pagada",
+      "valor": "Peaje de 100 réis por persona de 1926 a 1935, abolido por presión popular. Los préstamos solo se saldaron en 1978, más de 50 años después de la inauguración."
+    },
+    {
+      "item": "Medidas",
+      "valor": "Vano central de 339,5 m. Longitud total de 821 m según el gobierno del estado o 819,5 m según el estudio de la UFMG. Torres de 74,21 o 75 m sobre el mar; tablero a 30,86 o 32 m sobre el agua. 14.250 m³ de concreto."
+    },
+    {
+      "item": "Cierres y declaración de patrimonio",
+      "valor": "Cerrado al tránsito el 22/01/1982, después de un informe del IPT y del hallazgo de una barra con el ojo agrietado. Reabierto el 15/03/1988 solo para peatones, bicicletas, motos y carretas. Cerrado definitivamente en 1991 (el 04/07, en la mayoría de las fuentes). Declarado patrimonio por el municipio en 1992, por el estado en 1997 y por el IPHAN, con inscripción en el Libro del Tombo en 1998.",
+      "nota": "un estudio técnico de la UFMG habla de rotura de una barra, no de grieta; la fecha de 1991 tiene otras versiones"
+    },
+    {
+      "item": "Restauración",
+      "valor": "De 2006 a 2019, por etapas, con varias empresas y contratos rescindidos; la concluyó el grupo portugués Teixeira Duarte. El vano central se apoyó en una estructura provisional para retirar las cadenas antiguas y sustituirlas por 360 barras nuevas, fabricadas por Usiminas.",
+      "nota": "el número de barras y el fabricante vienen de una sola fuente"
+    },
+    {
+      "item": "Costo de la restauración",
+      "valor": "R$ 527 millones sumando todos los contratos, de 1981 a la iluminación escénica, según la cuenta de NSC; un reportaje del Diário Catarinense de 2018 llegó a al menos R$ 618 millones en valores actualizados."
+    },
+    {
+      "item": "Muertes en la restauración",
+      "valor": "Una: el buzo Sandro José Erben Saes, ahogado en enero de 2011 durante la inspección de un pilote de la fundación provisional.",
+      "nota": "según la serie de NSC sobre el centenario"
+    },
+    {
+      "item": "Reapertura y centenario",
+      "valor": "Reabierto el 30/12/2019 ante más de 200 mil personas. Cumplió 100 años el 13/05/2026. Desde fines de julio de 2026, y todavía en octubre de ese año, cerraba a los autos los martes y jueves, de 20 h a medianoche, por tiempo indeterminado, por obras en el tablero y en la rejilla."
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Una isla a merced del viento",
+      "paragrafos": [
+        "Florianópolis nació en la Isla de Santa Catarina, separada del continente por un estrecho de algunos cientos de metros. A comienzos del siglo XX, todo lo que la isla no producía llegaba en barco: el ganado, la comida, las personas. Cuando soplaba el viento sur, el cruce se detenía. Según el periodista Maurício Oliveira, el folclorista Franklin Cascaes recordaba que eso significaba, como mínimo, tres días sin barco.",
+        "El aislamiento tenía también un precio político. Había quien proponía trasladar la capital a Lages, en la meseta. Hercílio Luz, nacido en Desterro en 1860 y de vuelta en el gobierno del estado, hizo del puente su prioridad. Quería llamarlo Puente de la Independencia y, según Maurício Oliveira, inaugurarlo en el centenario del 7 de septiembre de 1922; los préstamos se retrasaron, y la obra solo empezó en noviembre de ese año."
+      ]
+    },
+    {
+      "titulo": "La cadena que se vuelve celosía",
+      "paragrafos": [
+        "El primer diseño, de la constructora Byington & Sundstrom, de São Paulo, era un puente de celosía, demasiado caro para el estado. En 1920, según la reseña histórica del profesor Narbal Marcellino, de la UFSC, la constructora consultó al ingeniero estadounidense Holton D. Robinson, que llamó a David B. Steinman. Los dos compararon tres soluciones y se quedaron con la más económica: un puente colgante en el que el cable es una cadena de barras de ojal, barras planas de acero con un agujero en cada extremo, unidas unas a otras por pasadores.",
+        "Las cadenas de ese tipo eran técnica del siglo XIX, ya reemplazada casi en todas partes por cables de alambre de acero. Lo que hizo Steinman fue ponerlas a trabajar dos veces. Entre un cuarto y tres cuartos del vano, la cadena baja hasta encontrar la celosía que rigidiza el tablero y pasa a ser su cordón superior; en los extremos, la celosía cuelga de la cadena mediante péndolas verticales. Menos acero en la viga, menos péndolas, menos carga. La American Bridge Company trajo barras de acero tratado térmicamente, y las torres se hicieron para oscilar sobre rótulas en la base. El puente se proyectó para llevar una carretera, una línea de tren eléctrico y la tubería de agua de la ciudad."
+      ]
+    },
+    {
+      "titulo": "Todo en barco",
+      "paragrafos": [
+        "Todo el material llegó de Estados Unidos y, según el arquitecto Joel Pacheco, los barcos eran demasiado grandes para atracar cerca de la isla: la carga se trasbordaba a embarcaciones más pequeñas. La obra se instaló en el continente, porque en la cabecera de la isla había un cementerio, que después se trasladó a Itacorubi.",
+        "Las fundaciones, con pilotes de camisa metálica que bajaban hasta la roca, quedaron listas en 1924. En julio de ese año llegó el equipo de montaje estadounidense. La torre del continente subió en seis semanas, hasta diciembre de 1924; la de la isla, en cinco, hasta febrero de 1925. En abril de 1925 las cadenas estaban cerradas, y en agosto la estructura principal estaba completa. En el punto máximo, según el ingeniero Wenceslau Diotallevy, trabajaban allí entre 381 y 400 personas. Cuántas pasaron por la obra en total, y si alguien murió en ella, las fuentes consultadas no lo registran.",
+        "Hercílio Luz no vio nada de eso terminado. Enfermo de cáncer, inauguró el 8 de octubre de 1924 una réplica de madera del puente, en el centro de la ciudad. Murió doce días después. El puente de verdad se inauguró el 13 de mayo de 1926, bajo la lluvia, a cargo del gobernador interino Antônio Vicente Bulcão Viana, todavía sin la pasarela de madera en el vano central. Llevó el nombre de Hercílio Luz."
+      ]
+    },
+    {
+      "titulo": "La cuenta de cincuenta años",
+      "paragrafos": [
+        "El dinero salió de dos préstamos de US$ 5 millones cada uno, tomados en 1919 y 1922 con banqueros de Nueva York. Según la reconstrucción publicada en el Diario Oficial del estado en 1935, rindieron 20.263 contos de réis, pero 12.032 contos se consumieron en tasas, comisiones y otros gastos. Quedaron 8.231. El primer banco quebró, y el estado terminó respondiendo por deudas de la institución quebrada. El costo final, que circula en versiones distintas y mal escritas, se describe como prácticamente el doble del presupuesto anual de Santa Catarina.",
+        "Para pagar se cobró peaje: 100 réis por persona, con recargo para vehículos y equipaje, de 1926 a 1935. Según Maurício Oliveira, en el segundo semestre de 1929 el puente recaudó 97 contos, alrededor del 1% de los ingresos del estado. El cobro cayó por presión popular. Los préstamos solo se saldaron en 1978."
+      ]
+    },
+    {
+      "titulo": "El puente hermano que se cayó",
+      "paragrafos": [
+        "El Hercílio Luz tenía dos parientes cercanos en Estados Unidos, ambos sobre el río Ohio: el Silver Bridge y el puente de St. Marys, del mismo tipo de cadena de barras de ojal. El 15 de diciembre de 1967, en hora punta, el Silver Bridge se vino abajo de golpe y mató a 46 personas. La causa fue una fractura en el ojo de una sola barra, corroída por dentro a lo largo de cuatro décadas. El de St. Marys fue desmontado. El de Florianópolis, el más antiguo de los tres, quedó como el único.",
+        "En Florianópolis, la noticia apuró un puente nuevo, el Colombo Salles, abierto en 1975. Pero en 1969 el piso de madera del Hercílio Luz ya se había cambiado por asfalto, más pesado, y seguía llevando casi la mitad del tránsito. Un informe del IPT de São Paulo señaló barras deterioradas, y apareció, en el ojo de una barra junto a la cima de una torre, una grieta de cinco centímetros, según la reseña histórica de la UFSC; un estudio técnico de la UFMG habla de rotura de la barra. El puente se cerró el 22 de enero de 1982. Reabrió para peatones y bicicletas en 1988 y se cerró definitivamente en 1991. En 1995, un informe del departamento de carreteras del estado concluyó que las barras podían provocar la caída abrupta del puente y que no había forma de reaprovecharlas."
+      ]
+    },
+    {
+      "titulo": "Cambiar las cadenas de un puente colgante",
+      "paragrafos": [
+        "Para cambiar la cadena de un puente que cuelga de ella, primero hay que quitarle el peso a la cadena. La solución fue construir bajo el vano central una estructura provisional con fundación propia y levantar el tablero con gatos hidráulicos hasta que las barras quedaran sin carga. La primera transferencia de peso se hizo en la madrugada del 12 de febrero de 2017, con el tránsito cortado y los vecinos llevados a hoteles. En noviembre de ese año se retiraron las cadenas entre las torres.",
+        "El camino hasta allí había llevado más de una década: la primera etapa, en los viaductos, empezó en 2006; la segunda se contrató en 2008 y el contrato se rescindió en 2014, seguido de disputas judiciales. En 2011, el buzo Sandro José Erben Saes murió ahogado mientras inspeccionaba un pilote de la fundación provisional. La American Bridge, invitada en 2015, rechazó el trabajo. El grupo portugués Teixeira Duarte se hizo cargo en 2016.",
+        "Según la serie de NSC sobre el centenario, las barras nuevas, 360, unas 800 toneladas, las fabricó Usiminas, en Minas Gerais; las sillas de la cima de las torres vinieron de España, y las péndolas, de Italia. La primera barra nueva se instaló en marzo de 2018. En agosto de 2019, el puente volvió a sostenerse solo por las cadenas. El costo de todo, de 1981 a la iluminación, supera los quinientos millones de reales según la cuenta de NSC; el Diário Catarinense llegó a al menos R$ 618 millones en valores actualizados hasta 2018."
+      ]
+    },
+    {
+      "titulo": "Cien años y dos noches por semana",
+      "paragrafos": [
+        "El Hercílio Luz reabrió el 30 de diciembre de 2019, ante más de 200 mil personas, con piso de rejilla metálica en lugar del asfalto. Recibió iluminación escénica en diciembre de 2024 y cumplió 100 años el 13 de mayo de 2026, con tres semanas de fiesta organizadas por el gobierno del estado y la alcaldía.",
+        "Dos meses después, el 28 de julio de 2026, el gobierno anunció que el puente pasaría a cerrar a los autos todos los martes y jueves, de 20 h a medianoche, por tiempo indeterminado, por trabajos de soldadura, apriete y ajuste en el tablero y en la rejilla. Peatones y ciclistas seguían pasando. En octubre de 2026, el puente que estuvo 28 años cerrado para no caerse cerraba dos noches por semana para seguir abierto."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Fue el puente colgante más grande del mundo cuando se terminó.",
+      "registro": "No. En 1926 había puentes colgantes de cable con vanos mayores. Lo que tuvo fue el mayor vano colgante de cadenas de barras de ojal del mundo en su época. Hoy es el puente colgante más grande de Brasil y el mayor puente colgante de barras de ojal que sigue en pie."
+    },
+    {
+      "circula": "Es un puente único en el mundo.",
+      "registro": "Fue uno de tres puentes de proyecto casi igual: los otros dos, el Silver Bridge y el de St. Marys, estaban sobre el río Ohio, en Estados Unidos. El Silver Bridge se cayó en 1967 y el de St. Marys fue desmontado. El de Florianópolis es el más antiguo de los tres y el único que quedó."
+    },
+    {
+      "circula": "Hercílio Luz inauguró el puente que lleva su nombre.",
+      "registro": "Murió en octubre de 1924, doce días después de inaugurar, de forma simbólica, una réplica de madera. El puente lo inauguró el 13 de mayo de 1926 el gobernador interino, Antônio Vicente Bulcão Viana."
+    },
+    {
+      "circula": "El puente se hizo para tener tren.",
+      "registro": "Se proyectó para llevar también una línea de tren eléctrico y la tubería de agua de la ciudad. Nunca se llegó a instalar en él ninguna línea de tren."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "¿Cuándo se construyó el Puente Hercílio Luz?",
+      "r": "La obra empezó en noviembre de 1922 y el puente se inauguró el 13 de mayo de 1926, bajo la lluvia. Las fundaciones quedaron listas en 1924, y las torres se levantaron entre diciembre de 1924 y febrero de 1925."
+    },
+    {
+      "p": "¿Cuánto mide el Puente Hercílio Luz?",
+      "r": "El vano central colgante mide 339,5 m sobre el mar. La longitud total es de 821 m según el gobierno del estado o 819,5 m según el estudio de la UFMG, y las torres miden 74,21 o 75 m sobre el mar, según la fuente."
+    },
+    {
+      "p": "¿Quién construyó el Puente Hercílio Luz?",
+      "r": "El proyecto es de la firma Robinson & Steinman, de Nueva York. Byington & Sundstrom, de São Paulo, hizo las fundaciones, y el acero, todo traído de Estados Unidos, lo fabricó y montó la American Bridge Company."
+    },
+    {
+      "p": "¿Por qué estuvo cerrado el Puente Hercílio Luz?",
+      "r": "Se cerró el 22 de enero de 1982, después de un informe del IPT y de que apareciera una grieta en el ojo de una barra, el mismo tipo de falla que derribó el Silver Bridge en 1967. Cerrado definitivamente en 1991, solo reabrió el 30 de diciembre de 2019, después de recibir 360 barras nuevas."
+    },
+    {
+      "p": "¿El Puente Hercílio Luz fue el puente colgante más grande del mundo?",
+      "r": "No. En 1926 había puentes colgantes de cable con vanos mayores; tuvo el mayor vano colgante de cadenas de barras de ojal del mundo en su época. Hoy es el puente colgante más grande de Brasil."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Hermes Carvalho, Ricardo Hallal Fakury y Paula Moura Leite Vilela (UFMG), \"The Challenges of Rehabilitating the Hercilio Luz Suspension Bridge\", Latin American Journal of Solids and Structures, 2017"
+    },
+    {
+      "texto": "Narbal Ataliba Marcellino (UFSC), \"Histórico da Ponte Hercílio Luz\""
+    },
+    {
+      "texto": "HistoricBridges.org, \"Ponte Hercílio Luz\""
+    },
+    {
+      "texto": "D. B. Steinman y W. G. Grove, \"The Eye-bar Cable Suspension Bridge at Florianopolis, Brazil\", Transactions of the American Society of Civil Engineers, paper 1662"
+    },
+    {
+      "texto": "Assembleia Legislativa de Santa Catarina, \"Ponte Hercílio Luz completa 90 anos em meio a expectativas sobre sua reabertura\", 2016"
+    },
+    {
+      "texto": "CREA-SC, \"Ponte Hercílio Luz completa 88 anos de história em Florianópolis\", 14/05/2014"
+    },
+    {
+      "texto": "NSC Total, \"Os 100 anos da velha senhora: da ideia de unir Ilha e Continente, nasce a Hercílio Luz\", 2026"
+    },
+    {
+      "texto": "NSC Total, \"Os 100 anos da velha senhora: como a revolução da engenharia entrou em colapso\", 2026"
+    },
+    {
+      "texto": "NSC Total, \"Os 100 anos da velha senhora: peça por peça, a Hercílio Luz volta a ganhar vida\", 2026"
+    },
+    {
+      "texto": "Maurício Oliveira, \"A velha ponte tem alma\", Portal Upiara, 28/07/2026"
+    },
+    {
+      "texto": "Economia SC, \"Livro sobre a ponte Hercílio Luz traz recorte do desenvolvimento econômico de SC no último século\", 23/07/2026"
+    },
+    {
+      "texto": "NSC Total, \"Obras irão fechar Ponte Hercílio Luz, em Florianópolis, duas vezes por semana\", 29/07/2026"
+    },
+    {
+      "texto": "ND+, \"Ponte Hercílio Luz passa a ser bloqueada duas vezes por semana durante a noite por tempo indeterminado\", 2026"
+    },
+    {
+      "texto": "NSC Total, \"100 anos da Ponte Hercílio Luz: confira a programação do centenário em Florianópolis\", 06/05/2026"
+    },
+    {
+      "texto": "TV Barriga Verde, \"Centenário da Ponte Hercílio Luz é celebrado com 'Parabéns' e programação especial\", 13/05/2026"
+    },
+    {
+      "texto": "Governo de Santa Catarina, \"Ponte Hercílio Luz chega aos 100 anos em 2026 com atrações especiais na programação\""
+    },
+    {
+      "texto": "Structure Magazine, \"Silver Bridge Failure 1967 (aka Point Pleasant Bridge)\""
+    },
+    {
+      "texto": "American Society of Civil Engineers, \"Silver Bridge Collapse and Creation of National Bridge Inspections Standards\""
+    },
+    {
+      "texto": "U.S. Bureau of Labor Statistics, índice de precios al consumidor (CPI-U), promedios anuales de 1922 y 2025"
+    },
+    {
+      "texto": "Wikipedia, \"Ponte Hercílio Luz\" (punto de partida)"
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Puente colgante de acero gris sobre agua en calma, con una torre de celosía alta a la derecha, la cadena bajando en curva hasta la celosía del vano central y una playa con piedras en primer plano",
+      "legenda": "El puente en 2009, todavía cerrado, con las cadenas originales de barras de ojal, visto desde una playa junto a una de las cabeceras.",
+      "autor": "Rodrigo Soldon"
+    },
+    {
+      "alt": "Fotografía antigua en blanco y negro: el puente visto desde abajo, desde el mar, con el tablero de celosía oscuro cruzando el cielo en diagonal y una torre a la izquierda; casas y cerros al fondo",
+      "legenda": "El puente visto desde el mar en 1958, cuando todavía era la única conexión entre la isla y el continente.",
+      "autor": "Autor não identificado (Arquivo Nacional, fundo Correio da Manhã)"
+    },
+    {
+      "alt": "El puente bajo un cielo nublado con grúas torre amarillas junto al vano central y estructuras de apoyo provisionales bajo el tablero",
+      "legenda": "Febrero de 2017, la mañana siguiente a la primera transferencia de peso del vano central a la estructura provisional.",
+      "autor": "Rachmaninoff"
+    },
+    {
+      "alt": "Vista de abajo hacia arriba de barras de acero gris cruzadas, llenas de remaches, con una torre de celosía y péndolas contra el cielo azul",
+      "legenda": "La torre y la celosía vistas desde el tablero en junio de 2019, en la fase final de la restauración, con las piezas unidas por remaches.",
+      "autor": "Andrew Richard Smith"
+    },
+    {
+      "alt": "Personas caminando sobre el piso de rejilla metálica del puente hacia una torre de celosía, bajo un cielo despejado",
+      "legenda": "Gente a pie sobre el tablero en la semana de la reapertura, en enero de 2020.",
+      "autor": "Filipeschaves"
+    },
+    {
+      "alt": "El puente de noche con las torres y la cadena contorneadas por luces verdes, faroles encendidos sobre la calzada y la ciudad a oscuras alrededor",
+      "legenda": "La iluminación escénica, inaugurada en diciembre de 2024, en una noche de mayo de 2025.",
+      "autor": "Thaismay"
+    }
+  ]
+}

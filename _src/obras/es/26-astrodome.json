@@ -1,0 +1,167 @@
+{
+  "_nota": "Traducción fiel de ../26-astrodome.json. Campos fijos vienen del original.",
+  "obra": "Astrodome",
+  "titulo_seo": "Astrodome de Houston: cómo se construyó el domo (1962–1965)",
+  "titulo_video": null,
+  "lugar": "NRG Park, en Houston, Texas, Estados Unidos",
+  "periodo": "1962–1965",
+  "impossivel": "Cubrir un estadio de béisbol entero con una cúpula de acero de casi 196 metros de luz, sin una sola columna en el medio, y mantener climatizado, sin niebla y sin humo, un volumen de aire donde cabían decenas de miles de personas fumando en el calor de Houston.",
+  "resumo": "Cómo Houston cubrió el Astrodome con una cúpula de 196 m en 1965, por qué la luz del techo mató el césped y qué se hace hoy con el edificio cerrado.",
+  "abertura": [
+    "En Houston, Texas, el verano es caluroso, húmedo y lleno de lluvias de fin de tarde. A comienzos de los años 1960, la ciudad quería un equipo de béisbol de las Grandes Ligas, y el político y empresario Roy Hofheinz prometió lo que nadie había hecho: un estadio de béisbol y fútbol americano totalmente cubierto, con aire acondicionado.",
+    "El resultado, inaugurado el 9 de abril de 1965, fue una cúpula de celosía de acero con 642 pies, unos 196 metros, de luz libre, sobre todo el campo. Los ingenieros calcularon el viento, el calor y hasta el riesgo de que se formara niebla adentro. Lo que nadie previó fue el sol: la luz que atravesaba el techo encandilaba a los jugadores, y el remedio terminó inventando un nombre que el mundo entero empezó a usar."
+  ],
+  "numeros": [
+    {"valor": "195,7 m", "rotulo": "de luz libre de la cúpula (642 pies), sin ninguna columna en el medio"},
+    {"valor": "4.596", "rotulo": "claraboyas de acrílico en el techo, pintadas después por el encandilamiento"},
+    {"valor": "1962–1965", "rotulo": "de la ceremonia de inicio, el 3/1/1962, a la inauguración, el 9/4/1965"},
+    {"valor": "US$ 31,6–45 M", "rotulo": "de costo en la época, según lo que suma cada fuente"},
+    {"valor": "6.000 · 6.600 TR", "rotulo": "toneladas de refrigeración de aire acondicionado, según la fuente"},
+    {"valor": "US$ 752,6 M", "rotulo": "para rehabilitar el edificio cerrado, frente a US$ 55 millones para demolerlo (estudio de 2025)"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "Dar a Houston un estadio para el béisbol de Grandes Ligas y para el rodeo de la ciudad, protegido del calor, la humedad y la lluvia. La National League concedió la franquicia en 1960; el equipo debutó en 1962 y jugó tres temporadas en un estadio provisional al lado mientras la cúpula subía."},
+    {"item": "Quién lo quiso", "valor": "Roy M. Hofheinz (1912–1982), exjuez del condado de Harris y exalcalde de Houston, al frente de la Houston Sports Association. El edificio pertenece al condado. El equipo pasó a llamarse Astros en 1965, por el centro de naves tripuladas de la NASA en la ciudad, y el estadio se convirtió en el Astrodome.", "nota": "el nombre oficial en la inauguración era Harris County Domed Stadium"},
+    {"item": "Proyecto", "valor": "Arquitectos Lloyd & Morgan, asociados con Wilson, Morris, Crain & Anderson. Estructura calculada por Walter P. Moore & Associates; la cúpula lamelar, por Roof Structures, Inc., de St. Louis. Cálculos revisados por consultores de Nueva York y por especialistas en cúpulas. Aire acondicionado diseñado por el ingeniero Israel A. Naman."},
+    {"item": "Quién lo construyó", "valor": "El contratista general fue H. A. Lott, Inc., de Houston. El acero lo fabricó y montó American Bridge, división de U.S. Steel."},
+    {"item": "La cúpula", "valor": "Celosía lamelar de acero: piezas iguales montadas en rombo, en 12 sectores de 30 grados, todas de 1,5 m de altura, apoyadas en un anillo de tracción que corre sobre 72 columnas. Las columnas se mueven un poco, para que el acero se dilate y se contraiga sin forzar el resto del edificio. Diseñada para ráfagas de 165 millas por hora (unos 266 km/h).", "nota": "el peso del anillo aparece como 376 o 750 toneladas cortas estadounidenses, según la fuente"},
+    {"item": "Medidas", "valor": "Luz libre de 642 pies (195,7 m); diámetro exterior de 710 pies (216,4 m); altura de 208 pies (63,4 m) según el registro histórico nacional, o 213 pies (64,9 m) según la firma de ingeniería; más de 3,6 hectáreas cubiertas."},
+    {"item": "Plazo", "valor": "Bonos aprobados por los votantes el 31/1/1961; ceremonia de inicio el 3/1/1962, con dirigentes disparando con revólver al suelo; obra del estadio desde el 18/3/1963; anillo de tracción cerrado en diciembre de 1963; cúpula liberada de las torres de apuntalamiento en febrero de 1964; inauguración el 9/4/1965, en un amistoso contra los New York Yankees.", "nota": "los hitos de diciembre de 1963 y febrero de 1964 vienen de una sola fuente"},
+    {"item": "Obreros", "valor": "El número de trabajadores, en total o en el pico de la obra, no se registró en las fuentes consultadas."},
+    {"item": "Muertes en la construcción", "valor": "Tres, según el Houston Chronicle: Leon Homer Wilson, en octubre de 1963, y dos hombres que cayeron en 1964, Frank Halliburton, en abril, y el soldador Homer P. Williams, en mayo. No hay cifra oficial en las fuentes institucionales."},
+    {"item": "Costo", "valor": "US$ 31,6 millones en bonos del condado; US$ 35,5 millones en total según el registro histórico nacional, sumando US$ 3,7 millones del estado y de la ciudad para calles, puentes y alcantarillado; más de US$ 40 millones según la enciclopedia de la Asociación Histórica de Texas, de los cuales US$ 20 millones fueron la estructura; poco más de US$ 45 millones según la firma de ingeniería.", "nota": "según el índice de precios al consumidor de EE. UU. (1965 = 31,5; 2025 = 321,9), US$ 31,6 a 45 millones equivalen a unos US$ 323 a 460 millones de 2025"},
+    {"item": "Quién pagó", "valor": "El condado de Harris, con bonos respaldados por impuestos y aprobados en votación en 1961 y 1962. La ciudad de Houston y el departamento estatal de carreteras pagaron las obras del entorno.", "nota": "los montos de cada emisión difieren entre las fuentes"},
+    {"item": "Aire acondicionado", "valor": "Unas 6.000 o 6.600 toneladas de refrigeración (unidad de potencia, no de peso), moviendo 2 o 2,5 millones de pies cúbicos de aire por minuto, con filtros electrostáticos y carbón activado. El caudal se dimensionó para el humo de cigarrillo y el calor del sol que entraba por el techo."},
+    {"item": "El césped", "valor": "Las claraboyas encandilaban a los jugadores en los partidos diurnos y se pintaron en abril de 1965. Con menos luz, el césped natural murió; el equipo terminó 1965 sobre tierra pintada de verde. En 1966 Monsanto instaló su césped sintético, primero en el infield, en abril, y en todo el campo el 19 de julio. El producto pasó a llamarse AstroTurf."},
+    {"item": "Lo que vino después", "valor": "Casa de los Astros hasta 1999 y del equipo de fútbol americano Oilers hasta 1996. Albergó a sobrevivientes del huracán Katrina en septiembre de 2005: 17.500 en el pico, según la Biblioteca Pública de Houston, o unos 25 mil, según otros conteos. Cerrado después de 2008 por fallas de seguridad contra incendios.", "nota": "el número de albergados durante el Katrina difiere entre las fuentes"},
+    {"item": "Protección y planes", "valor": "Los votantes rechazaron en 2013 bonos de US$ 217 millones para rehabilitarlo (53,5% en contra). Inscrito en el Registro Nacional de Lugares Históricos en 2014 y declarado hito de Texas en 2017. Un plan del condado de US$ 105 millones, aprobado entre 2016 y 2018, se suspendió en 2019."},
+    {"item": "Hoy", "valor": "Un estudio encargado por el condado y divulgado en diciembre de 2025 calculó US$ 752,6 millones para devolver el edificio a un funcionamiento básico y US$ 55 millones para demolerlo. En abril de 2026, el Servicio Nacional de Parques consideró que el Astrodome reunía los requisitos para ser National Historic Landmark; en octubre de 2026, la designación aún dependía de una nominación formal. En agosto de 2026, la Astrodome Conservancy abrió una convocatoria pública de ideas para el edificio."}
+  ],
+  "historia": [
+    {
+      "titulo": "Un estadio contra el clima",
+      "paragrafos": [
+        "Roy Hofheinz ya había sido juez del condado de Harris y alcalde de Houston cuando, a fines de los años 1950, pensó en cubrir un centro comercial con una cúpula. Según su biógrafo Edgar W. Ray, citado en el registro histórico nacional, consultó a Buckminster Fuller, el inventor de la cúpula geodésica, quien le dijo que se podía cubrir cualquier espacio, siempre que no se acabara el dinero. En 1960, cuando surgió la oportunidad de llevar el béisbol de Grandes Ligas a Houston, el centro comercial salió de escena y la cúpula pasó al estadio.",
+        "El argumento era el clima. Houston tiene calor, humedad y tormentas de verano, y la Houston Sports Association y los comisionados del condado creían que un estadio abierto no atraería público. Pero un estadio cubierto y climatizado era una idea tan nueva que los bonos de ingresos no atraerían inversionistas. El condado de Harris recurrió a bonos respaldados por impuestos, aprobados por los votantes en enero de 1961 y en diciembre de 1962. La National League concedió el equipo, los Colt .45s, que debutaron en 1962 en un estadio provisional al lado del terreno de la futura cúpula."
+      ]
+    },
+    {
+      "titulo": "Rombos de acero",
+      "paragrafos": [
+        "Nunca se había cubierto una luz de ese tamaño. Los proyectistas compararon armaduras en voladizo, una malla espacial de madera y la cúpula geodésica de Fuller, y se quedaron con una cúpula lamelar: una red de piezas de acero iguales, dispuestas en rombo, como un trenzado. El sistema, nacido en madera en Alemania en 1918, ya había funcionado en luces de hasta 285 pies, unos 87 metros. En Houston serían 642 pies, 195,7 metros.",
+        "La cúpula se dividió en 12 sectores de 30 grados, con todas las piezas de la misma altura, 1,5 metros. Descansa sobre un anillo de tracción de acero que rodea el estadio por encima de 72 columnas, y esas columnas se hicieron para moverse: el acero crece con el calor y se encoge con el frío, y las columnas se mueven para acompañarlo sin forzar la estructura de abajo. Con el viento de proyecto, la cúpula podía desplazarse unos 14 centímetros hacia cada lado. Una maqueta se probó en túnel de viento en la fábrica de aviones McDonnell, en St. Louis, en 48 condiciones de viento diferentes. Según el registro histórico nacional, todo se calculó sin modelos de computadora."
+      ]
+    },
+    {
+      "titulo": "Montada en el aire",
+      "paragrafos": [
+        "La ceremonia de inicio, el 3 de enero de 1962, tuvo a dirigentes del condado y del equipo disparando con revólveres Colt .45 al suelo, en lugar de cavar con pala. La obra del estadio propiamente dicha empezó el 18 de marzo de 1963, a cargo del contratista H. A. Lott, de Houston, con el acero de American Bridge. La cúpula se montó sobre 37 torres provisionales de apuntalamiento; las piezas más largas tenían 122 pies, unos 37 metros.",
+        "Según el historiador Kenneth Womack, en un libro de la Sociedad para la Investigación del Béisbol Estadounidense, el huracán Cindy pasó por la región en septiembre de 1963 sin dañar la estructura; el anillo de tracción se cerró en diciembre; diez soldaduras defectuosas se descubrieron por radiografía y se rehicieron; y, en febrero de 1964, la cúpula se liberó de las torres y empezó a sostenerse sola. En abril empezaron a colocarse las 4.596 claraboyas de acrílico.",
+        "Cuántos hombres trabajaron allí, las fuentes consultadas no lo registran. El Houston Chronicle registró tres muertes: Leon Homer Wilson, en octubre de 1963, y, en 1964, Frank Halliburton, que cayó en abril, y el soldador Homer P. Williams, que cayó en mayo."
+      ]
+    },
+    {
+      "titulo": "El miedo a la lluvia de adentro",
+      "paragrafos": [
+        "Encerrar 41 millones de pies cúbicos de aire, más de 1 millón de metros cúbicos, bajo un techo traía un problema que ningún estadio había tenido. El ingeniero Israel A. Naman, responsable del aire acondicionado, escribió en 1966 en la revista de la sociedad estadounidense de ingenieros de climatización que había relatos de lluvia dentro de grandes hangares de dirigibles, sin que lloviera afuera. Se especuló que el estadio pudiera tener niebla, nubes, turbulencia o incluso lluvia. Era un miedo real, pero ninguna de las fuentes registra lluvia adentro.",
+        "Lo que más preocupaba era el humo de cigarrillo. Naman armó una caja de vidrio con ingenieros adentro, frente a una película en color de un partido de béisbol, y fue llenando la caja de humo hasta que dejaron de ver el partido. De esa medida salió el caudal de aire: unos 2 a 2,5 millones de pies cúbicos por minuto, según la fuente, pasando por filtros electrostáticos y carbón activado. El mismo caudal resolvía lo demás. Según la Biblioteca Pública de Houston, cuando el sistema no quedaba encendido todo el tiempo, la condensación dejaba el interior brumoso. Naman concluyó que, con el sistema siempre encendido, invierno y verano, no habría bruma, nubes ni lluvia."
+      ]
+    },
+    {
+      "titulo": "El sol en el techo",
+      "paragrafos": [
+        "El Astrodome se inauguró el 9 de abril de 1965, en un amistoso entre los Astros y los New York Yankees. Las claraboyas se habían pensado para dejar entrar luz suficiente para el césped natural, una variedad desarrollada especialmente para el estadio. Pero, en los partidos diurnos, el brillo del acrílico detrás de la pelota encandilaba a los jugadores, que perdían los elevados contra el techo.",
+        "A partir del 21 de abril de 1965, las claraboyas se pintaron. Según la Biblioteca Pública de Houston, la pintura cortó entre el 25% y el 40% de la luz natural. El encandilamiento terminó, pero el césped empezó a morir en semanas; se pintó de verde y, al final de la temporada, el equipo jugaba sobre tierra pintada. La solución vino de Monsanto, que desde 1964 tenía un césped sintético, el ChemGrass, instalado en una escuela de Providence, Rhode Island. En abril de 1966 cubrió el infield del Astrodome y, el 19 de julio, todo el campo. El producto pasó a llamarse AstroTurf, y el nombre se volvió sinónimo de césped artificial."
+      ]
+    },
+    {
+      "titulo": "Del albergue al edificio cerrado",
+      "paragrafos": [
+        "Durante tres décadas el Astrodome recibió de todo: Muhammad Ali en 1966, el “Juego del Siglo” del básquetbol universitario en 1968, la “Batalla de los Sexos” entre Billie Jean King y Bobby Riggs en 1973, la Convención Republicana de 1992. Los Oilers se fueron después de 1996 y los Astros jugaron allí por última vez el 9 de octubre de 1999. En septiembre de 2005, el estadio albergó a sobrevivientes del huracán Katrina llevados en autobús desde Nueva Orleans: 17.500 en el pico, según la Biblioteca Pública de Houston, o unos 25 mil, según otros conteos.",
+        "En 2008, sin certificado de ocupación y con fallas en los sistemas contra incendios, el edificio dejó de recibir eventos. En 2013, los votantes rechazaron, por 53,5% contra 46,5%, bonos de US$ 217 millones para convertirlo en centro de eventos. Al año siguiente entró en el Registro Nacional de Lugares Históricos y, en 2017, fue declarado hito histórico de Texas. Un plan del condado de US$ 105 millones, que elevaría el piso y crearía un estacionamiento debajo, fue suspendido en 2019 por la jueza del condado, Lina Hidalgo."
+      ]
+    },
+    {
+      "titulo": "La cuenta 60 años después",
+      "paragrafos": [
+        "En diciembre de 2025, el condado divulgó un estudio de Kirksey Architecture, encargado por la corporación que administra el complejo deportivo: US$ 752,6 millones para devolver el Astrodome a un funcionamiento básico, con plomería, climatización y condiciones seguras de ocupación, sin restauración completa y sin capacidad para grandes eventos deportivos; o US$ 55 millones para demolerlo. El administrador interino del condado, Jesse Dickerman, dijo que no hay forma de rehabilitarlo sin una inversión privada significativa.",
+        "En abril de 2026, cerca del aniversario 61, el Servicio Nacional de Parques consideró que el edificio cumple los criterios para ser National Historic Landmark, la protección histórica más alta de Estados Unidos; en octubre de 2026, el proceso aún dependía de una nominación formal y del secretario del Interior. En agosto, la Astrodome Conservancy abrió una convocatoria pública de ideas para inversionistas y operadores. La cúpula que resistió el túnel de viento y el huracán sigue en pie; el primer rubro de la cuenta para reabrirla es, otra vez, el aire."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "La cúpula era tan grande que llovía dentro del estadio.",
+      "registro": "Ninguna de las fuentes registra lluvia adentro. El miedo existió: el ingeniero del aire acondicionado, Israel A. Naman, escribió en 1966 que se especuló con niebla, nubes y hasta lluvia, por relatos que venían de hangares de dirigibles. Lo que se registró fue condensación y bruma cuando se apagaba el aire acondicionado. Encendido todo el tiempo, el problema no aparecía."
+    },
+    {
+      "circula": "Un sistema de extracción calculado matemáticamente impidió las nubes.",
+      "registro": "Lo que se calculó fue la circulación de aire del sistema de climatización, dimensionada en un experimento con humo de cigarrillo: ingenieros en una caja de vidrio, frente a una película de béisbol, hasta que el humo ocultó el partido. El mismo caudal, con filtros y carbón activado, resolvía el calor, el humo y la bruma."
+    },
+    {
+      "circula": "El césped sintético se inventó para el Astrodome.",
+      "registro": "Monsanto ya había instalado su ChemGrass en 1964, en una escuela de Providence, Rhode Island. El Astrodome fue el primer gran estadio en usarlo, en 1966, y el producto tomó su nombre: AstroTurf."
+    },
+    {
+      "circula": "Fue el primer estadio techado del mundo.",
+      "registro": "Ya existían arenas techadas. El registro histórico nacional lo llama el primer estadio cerrado y climatizado de Estados Unidos, y la Asociación Histórica de Texas, el primer estadio deportivo multiuso totalmente climatizado y techado del mundo. Para béisbol y fútbol americano, fue el primero."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuándo se construyó el Astrodome?", "r": "La ceremonia de inicio fue el 3 de enero de 1962, pero la obra del estadio propiamente dicha empezó el 18 de marzo de 1963. La cúpula empezó a sostenerse sola en febrero de 1964, y el Astrodome se inauguró el 9 de abril de 1965, en un amistoso contra los New York Yankees."},
+    {"p": "¿Cuánto costó el Astrodome?", "r": "Las fuentes difieren según lo que suma cada una: US$ 31,6 millones en bonos del condado, US$ 35,5 millones en total según el registro histórico nacional, más de US$ 40 millones según la Asociación Histórica de Texas, o poco más de US$ 45 millones según la firma de ingeniería."},
+    {"p": "¿Cuántas personas murieron en la construcción del Astrodome?", "r": "Tres, según el Houston Chronicle: Leon Homer Wilson, en octubre de 1963, y dos hombres que cayeron en 1964, Frank Halliburton y el soldador Homer P. Williams. No hay cifra oficial en las fuentes institucionales, y el total de obreros de la obra no se registró."},
+    {"p": "¿Por qué el Astrodome cambió el césped natural por el sintético?", "r": "Las claraboyas del techo encandilaban a los jugadores y se pintaron en abril de 1965; con menos luz, el césped natural murió. En 1966 Monsanto instaló su césped sintético, que pasó a llamarse AstroTurf. No se inventó para el estadio: ya se había instalado en una escuela de Providence en 1964."},
+    {"p": "¿El Astrodome todavía existe?", "r": "Sí, la cúpula sigue en pie, pero el edificio está cerrado desde 2008 por fallas de seguridad contra incendios. Un estudio de diciembre de 2025 calculó US$ 752,6 millones para devolverlo a un funcionamiento básico y US$ 55 millones para demolerlo."}
+  ],
+  "fontes": [
+    {"texto": "National Park Service, National Register of Historic Places Registration Form, \"The Astrodome\", Texas Historical Commission, 2013"},
+    {"texto": "Wayne Chandler, \"Astrodome\", Handbook of Texas Online, Texas State Historical Association"},
+    {"texto": "Kenneth Womack, \"Houston Astrodome: Engineering the Eighth Wonder of the World\", Society for American Baseball Research, 2017"},
+    {"texto": "Robert Trumpbour, \"Astrodome (Houston, TX)\", SABR BioProject"},
+    {"texto": "Mark Armour, \"The Rise and Fall of Artificial Turf\", Society for American Baseball Research"},
+    {"texto": "Narendra K. Gosain, \"Houston Astrodome, The Eighth Wonder of the World\", Structure Magazine, 2023"},
+    {"texto": "Houston Public Library, Astrodome Memories, \"Construction challenges\""},
+    {"texto": "Houston Public Library, Astrodome Memories, \"Showtime! April 9, 1965\""},
+    {"texto": "Houston Public Library, Astrodome Memories, \"Housing Katrina's evacuees\""},
+    {"texto": "I. A. Naman, \"Domed Stadium Air-Conditioning Design\", ASHRAE Journal, 1966, citado por Dan Singer, \"The Astrodome's Heavy Weather Problem\", Swamplot, 12/02/2019"},
+    {"texto": "Historic American Engineering Record, \"Houston Astrodome\", HAER TX-108, Library of Congress"},
+    {"texto": "Houston Chronicle, \"This week 55 years ago construction started on the Astrodome\", 2018"},
+    {"texto": "ABC13 Houston, \"New study shows demolishing the Astrodome would cost $55 million, while renovating it would cost more than $750 million\", 23/12/2025"},
+    {"texto": "The Real Deal, \"Houston Astrodome math gets starker: $753M to revive, $55M to raze\", 23/12/2025"},
+    {"texto": "Click2Houston, \"61 years later, Houston's Astrodome may get top historic honor in the U.S.\", 08/04/2026"},
+    {"texto": "Bisnow, \"Astrodome Conservancy Solicits Redevelopment Ideas\", 18/08/2026"},
+    {"texto": "CultureMap Houston, \"Houston group seeks fresh ideas for the Astrodome — including a data center\", 19/08/2026"},
+    {"texto": "ABC13 Houston, \"Voters strike down proposal to save Astrodome\", 2013"},
+    {"texto": "National Trust for Historic Preservation, \"The Astrodome: Updates\""},
+    {"texto": "U.S. Bureau of Labor Statistics, índice de precios al consumidor (CPI-U), promedios anuales de 1965 y 2025"},
+    {"texto": "Wikipedia, \"Astrodome\" (punto de partida)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Vista aérea de un estadio redondo de cúpula baja y clara en medio de un enorme estacionamiento vacío, con barrios y autopistas de Houston al fondo bajo un cielo azul",
+      "legenda": "El Astrodome visto desde lo alto hacia 1999, rodeado por el estacionamiento del complejo deportivo, en el suroeste de Houston.",
+      "autor": "Carol M. Highsmith (Library of Congress)"
+    },
+    {
+      "alt": "Fotografía en color desteñida: la cúpula blanca del estadio sobre el muro circular oscuro, con un pabellón de techo bajo y estacionamiento en primer plano",
+      "legenda": "El estadio en los años 1970, antes de las ampliaciones de 1988 y 1989.",
+      "autor": "Drug Enforcement Administration (National Archives)"
+    },
+    {
+      "alt": "Fotografía en blanco y negro del interior: la cúpula entera vista desde adentro, una malla de vigas de acero en rombo que irradian desde una linterna central, sobre tribunas vacías y un campo de fútbol americano",
+      "legenda": "La celosía lamelar vista desde adentro en 2004, con las claraboyas pintadas desde 1965 para acabar con el encandilamiento.",
+      "autor": "Jet Lowe (Historic American Engineering Record)"
+    },
+    {
+      "alt": "Personas apoyadas en una reja frente a la entrada del estadio; una mujer sostiene un cartel verde escrito a mano buscando a un familiar",
+      "legenda": "Sobrevivientes del huracán Katrina buscan a sus familiares en la entrada del Astrodome el 1 de septiembre de 2005.",
+      "autor": "Andrea Booher (FEMA)"
+    },
+    {
+      "alt": "El estadio cerrado visto desde el estacionamiento, con la cúpula a rayas, el muro de concreto manchado y árboles al frente",
+      "legenda": "El Astrodome cerrado, en enero de 2014, el mes en que entró en el Registro Nacional de Lugares Históricos.",
+      "autor": "EricEnfermero"
+    }
+  ]
+}

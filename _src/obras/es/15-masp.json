@@ -1,0 +1,163 @@
+{
+  "_nota": "Traducción fiel de ../15-masp.json. Campos fijos vienen del original.",
+  "obra": "MASP (Museo de Arte de São Paulo)",
+  "titulo_seo": "Cómo se construyó el MASP y su vano libre (1960–1968)",
+  "titulo_video": null,
+  "lugar": "Avenida Paulista, barrio de Bela Vista, São Paulo, Brasil",
+  "periodo": "1960–1968",
+  "impossivel": "Suspender un museo entero ocho metros por encima de la Avenida Paulista, sobre cuatro pilares y un vano de más de 70 metros sin ninguna columna en el medio, con una técnica de concreto pretensado que el propio ingeniero tuvo que inventar.",
+  "resumo": "Cómo Lina Bo Bardi y Figueiredo Ferraz suspendieron el MASP sobre un vano libre en la Paulista, por qué terminó rojo y qué cambió allí en 2026.",
+  "abertura": [
+    "En medio de la Avenida Paulista, en São Paulo, Brasil, donde todos los edificios suben, uno de ellos está acostado en el aire. El Museo de Arte de São Paulo Assis Chateaubriand, el MASP, es una caja de concreto y vidrio de dos pisos, alzada ocho metros sobre el suelo, sobre cuatro pilares. Debajo de ella, donde cabrían columnas, hay una plaza abierta a la ciudad.",
+    "El diseño es de la arquitecta Lina Bo Bardi; el cálculo, del ingeniero José Carlos de Figueiredo Ferraz. Para salvar un vano de 70 o 74 metros, según la medición, él usó concreto de alta resistencia creado durante la propia obra y un sistema de pretensado de su invención. El edificio lo inauguró el 7 de noviembre de 1968 la reina Isabel II, y el plan de conservación de 2018 ordena medir las vigas cada seis meses, sin plazo para terminar, para ver cuánto han cedido."
+  ],
+  "numeros": [
+    {"valor": "70 · 74 m", "rotulo": "de vano libre entre los pilares, según la medición"},
+    {"valor": "8 m", "rotulo": "de altura entre la plaza y el volumen suspendido"},
+    {"valor": "4", "rotulo": "pilares que sostienen dos pares de vigas pretensadas"},
+    {"valor": "07/11/1968", "rotulo": "inauguración, con la reina Isabel II y el príncipe Felipe"},
+    {"valor": "1990", "rotulo": "el año en que pilares y vigas se pintaron de rojo"},
+    {"valor": "98 m", "rotulo": "de la obra de Beatriz Milhazes en el pasaje subterráneo abierto en 2026"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "El MASP, museo privado fundado en 1947 por Assis Chateaubriand y Pietro Maria Bardi, funcionaba en pisos del edificio de los Diários Associados, en la Rua Sete de Abril, en el centro de São Paulo, y pronto necesitó sede propia. El terreno elegido fue el del antiguo Belvedere Trianon, demolido en 1951, frente al Parque Trianon y con vista al valle de la Avenida Nove de Julho."},
+    {"item": "El terreno", "valor": "La versión más repetida dice que Joaquim Eugênio de Lima donó el terreno a la Alcaldía con la condición de preservar la vista del mirador, y que el vano libre nació de esa exigencia. El historiador Daniele Pisani, en un libro de 2019, sostiene que no hubo donación ni cláusula: el lote se lo vendió a la Alcaldía José Borges de Figueiredo, socio de Lima."},
+    {"item": "Proyecto", "valor": "Lina Bo Bardi (1914–1992). Un volumen suspendido a 8 m del suelo, que convierte la planta baja en una plaza pública, y un volumen semienterrado orientado hacia la Avenida Nove de Julho.", "nota": "el inicio del proyecto aparece como 1956, 1957 o 1958, según la fuente"},
+    {"item": "Estructura", "valor": "José Carlos de Figueiredo Ferraz (1918–1994), profesor de la Escuela Politécnica y de la Facultad de Arquitectura y Urbanismo (FAU) de la Universidad de São Paulo. Concreto armado de alta resistencia y pretensado con el Sistema Ferraz, de anclaje propio, una de las primeras patentes brasileñas de pretensado."},
+    {"item": "Cómo se sostiene", "valor": "Cuatro pilares de 2,5 × 4 m y dos pares de vigas cajón pretensadas, uno en la cubierta y otro entre los pisos. El primer piso cuelga de las vigas intermedias; el segundo, la Pinacoteca, se apoya sobre ellas.", "nota": "según el plan de conservación de la estructura elaborado por el museo con la Fundación Getty en 2018"},
+    {"item": "Quién pagó", "valor": "La Alcaldía de São Paulo, dueña del edificio y del terreno. La obra atravesó los mandatos de los alcaldes Ademar de Barros, Prestes Maia y Faria Lima.", "nota": "la propiedad municipal la declara la propia Alcaldía"},
+    {"item": "Costo", "valor": "Ninguna fuente consultada publica cuánto costó la obra."},
+    {"item": "Plazo", "valor": "Obra iniciada en 1958 o en 1960, según la fuente, con dificultades técnicas y financieras y varias paralizaciones. Inauguración el 7 de noviembre de 1968, con la reina Isabel II y el príncipe Felipe.", "nota": "la fecha de inauguración está confirmada; el inicio de la obra varía"},
+    {"item": "Obreros", "valor": "Ninguna fuente consultada registra cuántos trabajaron en la obra, ni en total ni en el pico."},
+    {"item": "Muertes y accidentes", "valor": "Ninguna fuente consultada registra muertos o heridos en la construcción."},
+    {"item": "Medidas", "valor": "Vano de 74 m según el plan de conservación del museo y la mayor parte de la prensa; 70 m según un artículo técnico de la revista AU (2014) y un estudio académico de 2015. Vigas de cubierta de 78 m de largo y sección de 2,5 × 3,5 m. Pilares de 35,35 m de altura total, 21,25 m por encima de la plaza."},
+    {"item": "Las vigas que cedieron", "valor": "Las vigas superiores se deformaron más de lo previsto desde que se retiró el apuntalamiento, en 1968. En 1999 recibieron un segundo pretensado, con cuatro cables nuevos dentro de cada viga cajón. El monitoreo continúa.", "nota": "según el plan de conservación de la estructura (2018)"},
+    {"item": "El rojo", "valor": "Hasta 1990 la estructura era de concreto a la vista. Para contener las filtraciones que bajaban por pilares y vigas hasta la Pinacoteca, los pilares y las vigas exteriores se pintaron con pintura impermeabilizante roja, solución aprobada con Lina Bo Bardi.", "nota": "la aprobación de Lina consta solo en el plan de conservación del museo (2018)"},
+    {"item": "Declaratoria de patrimonio", "valor": "Estatal (CONDEPHAAT) en 1982; municipal (CONPRESP) en 1991 o 1992; federal (IPHAN) en 2003 o 2008, según la fuente. La colección fue declarada patrimonio por el IPHAN en 1969."},
+    {"item": "Hoy", "valor": "Restauración de los pórticos de abril de 2024 a abril de 2025. Edificio Pietro Maria Bardi, anexo de 14 pisos pagado con R$ 250 millones en donaciones, abierto el 28/03/2025. Pasaje subterráneo entre los dos edificios abierto el 11/09/2026."}
+  ],
+  "historia": [
+    {
+      "titulo": "Un museo en busca de suelo",
+      "paragrafos": [
+        "El MASP nació en 1947, en el centro de São Paulo, en pisos del edificio de los Diários Associados, el imperio de diarios y radios de Assis Chateaubriand. Quien lo dirigía era el crítico italiano Pietro Maria Bardi, y quien diseñaba las salas y las exposiciones era su esposa, la arquitecta Lina Bo Bardi, llegada a Brasil en 1946. El museo creció rápido y necesitó casa.",
+        "La casa quedó en lo alto de la Avenida Paulista, en el terreno donde había estado el Belvedere Trianon, un mirador proyectado por Ramos de Azevedo, inaugurado en 1916 y demolido en 1951. Desde allí se veía el valle de la Avenida Nove de Julho, que pasa en túneles por debajo del terreno, en dirección al centro. El mismo lote recibió la primera Bienal de São Paulo, en 1951, y se lo disputó el Museo de Arte Moderno de Ciccillo Matarazzo, que llegó a encargar un proyecto a Affonso Eduardo Reidy, nunca construido.",
+        "Según el plan de conservación de la estructura elaborado por el museo, Lina empezó el proyecto en 1957, y la obra, municipal, comenzó en 1960; otras fuentes hablan de 1958."
+      ]
+    },
+    {
+      "titulo": "Dejar pasar a la ciudad por debajo",
+      "paragrafos": [
+        "La idea de Lina fue no ocupar el suelo. El museo sería una caja de vidrio de dos pisos, suspendida ocho metros sobre la vereda, y la planta baja quedaría libre, como una plaza cubierta con vista al valle. Abajo, encajado en el desnivel del terreno, un segundo volumen semienterrado albergaría auditorios y salas de exposición.",
+        "Durante mucho tiempo se contó que ese vano libre era una obligación: Joaquim Eugênio de Lima, creador de la Avenida Paulista, habría donado el terreno a la Alcaldía exigiendo que se preservara la vista del mirador. La historia aparece en libros, en páginas oficiales y hasta en expedientes de preservación. En 2019, el historiador Daniele Pisani publicó que no hubo donación ni cláusula: el lote se lo habría vendido a la Alcaldía José Borges de Figueiredo, socio de Lima, y la versión de la exigencia la habría difundido Pietro Maria Bardi. Si Pisani tiene razón, el vano no se le impuso a Lina. Fue una elección de ella."
+      ]
+    },
+    {
+      "titulo": "El cálculo de Figueiredo Ferraz",
+      "paragrafos": [
+        "Para sostener la caja sin columnas en el medio, el ingeniero José Carlos de Figueiredo Ferraz, que había sido secretario de Obras del municipio, propuso dos pórticos de concreto. Cada uno está formado por dos pilares y una viga gigante arriba, en la cubierta; un segundo par de vigas, entre los pisos, sostiene las losas. El vano entre los pilares aparece como 74 metros en el plan de conservación del museo y como 70 metros en un artículo técnico de la revista AU, de 2014. Las vigas de la cubierta tienen 78 metros de largo y sección hueca de 2,5 por 3,5 metros.",
+        "El secreto es el pretensado: cables de acero tensados dentro del concreto, que comprimen la viga y la hacen trabajar contra su propio peso. Según el plan de conservación, Ferraz no pudo usar el sistema francés de anclaje Freyssinet y creó el suyo, el Sistema Ferraz, en el que los alambres forman un lazo en el extremo fijo y vuelven por la misma vaina. El concreto de alta resistencia se desarrolló durante la obra y se calentaba tanto al fraguar que las vainas de los cables sirvieron también para extraer calor.",
+        "Según el artículo de AU, firmado por Marcelo Suzuki y Roberto Rochlitz, el pretensado llevó varias semanas, un poco cada día, en cientos de cables, y acortó las vigas unos cinco centímetros. Para que pudieran moverse mientras se tensaban, uno de los apoyos de cada viga es articulado, con un pivote escondido dentro del pilar."
+      ]
+    },
+    {
+      "titulo": "Ocho metros sobre la Paulista",
+      "paragrafos": [
+        "Los cuatro pilares tienen 2,5 por 4 metros de sección y 35,35 metros de altura total, de los cuales 14,10 están enterrados, sobre zapatas de 12,5 por 9,5 metros. El primer piso no se apoya en las vigas intermedias: cuelga de ellas mediante tirantes. El segundo, la Pinacoteca, descansa sobre ellas, en un salón único sin una sola división.",
+        "La obra fue lenta. El plan de conservación habla de dificultades técnicas y financieras y de varios momentos de paralización, y una foto del archivo de la Alcaldía, de noviembre de 1965, muestra el volumen superior todavía entero dentro de los andamios del apuntalamiento. Cuántos obreros pasaron por la obra, cuánto gastó la ciudad y si hubo accidentes, las fuentes consultadas no lo registran.",
+        "El museo lo inauguró el 7 de noviembre de 1968 la reina Isabel II, acompañada del príncipe Felipe, en su única visita a Brasil. En la Pinacoteca, los cuadros no estaban en las paredes: flotaban en láminas de vidrio sujetas a bloques de concreto, los caballetes de cristal de Lina."
+      ]
+    },
+    {
+      "titulo": "Las vigas que cedieron y el rojo",
+      "paragrafos": [
+        "Cuando se retiró el apuntalamiento, en 1968, las vigas superiores bajaron más de lo previsto. El plan de conservación lo atribuye a un desempeño parcial del pretensado original. La deformación hacía que el agua se encharcara en el techo, y una inspección de 1987 encontró concreto deteriorado en las vigas y los pilares. La cubierta se rehízo, pero el agua seguía entrando: atravesaba el concreto poroso de las vigas y pilares exteriores, se juntaba en el vacío dentro de ellos y bajaba hasta la Pinacoteca.",
+        "En 1990, la estructura exterior se pintó con pintura impermeabilizante roja, solución que, según el plan de conservación, se aprobó con Lina Bo Bardi. Uno de los argumentos fue la existencia de croquis de la arquitecta con la estructura en rojo, argumento que el propio plan de conservación considera discutible. El rojo, de todos modos, se convirtió en la imagen del edificio.",
+        "En 1999, el estudio que sucedió a Figueiredo Ferraz hizo un segundo pretensado en las vigas de la cubierta, con cuatro cables nuevos dentro de cada viga cajón. Al abrir las vigas, los técnicos encontraron el interior deteriorado y encofrados de madera con termitas, dejados allí dentro desde la construcción. Los caballetes de cristal salieron de la Pinacoteca en 1996 y volvieron en 2015."
+      ]
+    },
+    {
+      "titulo": "Gris, rojo y un túnel",
+      "paragrafos": [
+        "En abril de 2024 comenzó la restauración de los pórticos, que el museo describió como la primera significativa desde la inauguración. Se retiró la pintura, se trataron las armaduras oxidadas, y durante meses la Paulista vio grises los pórticos del MASP. El rojo volvió a partir de junio, con una pintura de AkzoNobel bautizada Vermelho MASP (Rojo MASP), y la restauración se entregó en abril de 2025.",
+        "En noviembre de 2024, la Alcaldía, dueña del edificio y del terreno, le concedió el vano libre al museo por 20 años. El 28 de marzo de 2025 abrió el Edificio Pietro Maria Bardi, un edificio vecino de los años 1950 transformado por el estudio METRO Arquitetos en un anexo de 14 pisos, pagado con R$ 250 millones en donaciones de personas físicas. El edificio de Lina pasó a llevar su nombre.",
+        "El 11 de septiembre de 2026, el museo abrió el pasaje subterráneo que une los dos edificios. En las paredes, Beatriz Milhazes hizo Pietrolina, una obra de 98 metros, con una pintura de 60 metros y elementos reflectantes en una pared de 38. El edificio que Lina levantó del suelo para dejar pasar a la ciudad por debajo ganó, 58 años después, un camino por debajo de la tierra, y el vano sigue libre."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "El vano libre existe porque el donante del terreno exigió que se preservara la vista del mirador.",
+      "registro": "Es la versión más repetida, incluso en páginas oficiales. El historiador Daniele Pisani sostiene, en un libro de 2019, que no hubo donación ni cláusula: el terreno se lo vendió a la Alcaldía José Borges de Figueiredo, y la historia de la exigencia la difundió Pietro Maria Bardi. Las dos versiones siguen circulando."
+    },
+    {
+      "circula": "El MASP siempre fue rojo.",
+      "registro": "De 1968 a 1990 la estructura era de concreto a la vista. El rojo llegó en 1990 como pintura impermeabilizante, para contener filtraciones, con la aprobación de Lina Bo Bardi, según el plan de conservación."
+    },
+    {
+      "circula": "Era el mayor vano libre del mundo cuando se inauguró.",
+      "registro": "La frase aparece en enciclopedias y en la prensa, pero ninguna de las fuentes técnicas consultadas la sostiene. Lo que confirman es un vano de 70 a 74 metros, según la medición, excepcional para un edificio suspendido en 1968."
+    },
+    {
+      "circula": "El museo entero está apoyado sobre las vigas.",
+      "registro": "Solo en parte. El segundo piso, la Pinacoteca, se apoya en las vigas intermedias; el primero cuelga de ellas mediante tirantes, según el plan de conservación de la estructura."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Quién diseñó el MASP de São Paulo?", "r": "La arquitecta Lina Bo Bardi diseñó el edificio: un volumen suspendido a 8 m del suelo, que convierte la planta baja en una plaza, y otro semienterrado. El cálculo estructural es del ingeniero José Carlos de Figueiredo Ferraz, profesor de la Escuela Politécnica y de la FAU de la Universidad de São Paulo."},
+    {"p": "¿Cuándo se construyó el MASP?", "r": "La obra comenzó en 1958 o en 1960, según la fuente, y tuvo dificultades técnicas y financieras y varias paralizaciones. El museo lo inauguró el 7 de noviembre de 1968 la reina Isabel II, acompañada del príncipe Felipe."},
+    {"p": "¿Cómo se construyó el vano libre del MASP?", "r": "El museo se apoya en cuatro pilares y dos pares de vigas cajón de concreto pretensado, uno en la cubierta y otro entre los pisos. Figueiredo Ferraz usó concreto de alta resistencia desarrollado durante la obra y un sistema de pretensado de su invención, el Sistema Ferraz; el primer piso cuelga de las vigas mediante tirantes."},
+    {"p": "¿Cuánto mide el vano libre del MASP?", "r": "Las mediciones difieren: 74 m según el plan de conservación del museo y la mayor parte de la prensa, 70 m según un artículo técnico de la revista AU, de 2014. El volumen suspendido está 8 m por encima de la plaza."},
+    {"p": "¿Por qué el MASP es rojo?", "r": "Hasta 1990 la estructura era de concreto a la vista. Ese año, los pilares y las vigas exteriores se pintaron con pintura impermeabilizante roja para contener las filtraciones que bajaban hasta la Pinacoteca, solución aprobada con Lina Bo Bardi, según el plan de conservación del museo."}
+  ],
+  "fontes": [
+    {"texto": "Silvio Oksman (coord.) y equipo Getty-MASP, “Plano de Conservação da Estrutura do MASP”, Fundación Getty, programa Keeping It Modern, 2018"},
+    {"texto": "Marcelo Suzuki y Roberto Rochlitz, “A estrutura do Masp, de Lina Bo Bardi”, revista AU, n.º 249, 2014 (reproducción del IAB-TO)"},
+    {"texto": "Rita Casaro, “Masp, uma singular obra de arte da engenharia”, Jornal do Engenheiro (SEESP), n.º 522, 2018"},
+    {"texto": "FGV-CPDOC, entrada “José Carlos de Figueiredo Ferraz”, Dicionário Histórico-Biográfico Brasileiro"},
+    {"texto": "Stephen Mark Caffey y Gabriela Campagnol, “Dis/Solution: Lina Bo Bardi's Museu de Arte de São Paulo”, Journal of Conservation and Museum Studies, 2015"},
+    {"texto": "Daniele Pisani, “O Trianon do MAM ao Masp: arquitetura e política em São Paulo (1946–1968)”, Editora 34, 2019"},
+    {"texto": "Folha de S.Paulo, “Historiador revela mentira sobre vão-livre do Masp antes da construção do museu”, 09/07/2019 (reproducción del Fórum Permanente)"},
+    {"texto": "Alcaldía de São Paulo, “Prefeitura concederá vão-livre do Masp ao próprio museu por 20 anos para atividades culturais”, 12/11/2024"},
+    {"texto": "Tribunal de Cuentas del Municipio de São Paulo, “MASP”"},
+    {"texto": "Poder360, “Rainha Elizabeth inaugurou prédio do Masp na Avenida Paulista”, 09/09/2022"},
+    {"texto": "Correio Braziliense, “Como foi construído o vão livre do Masp”"},
+    {"texto": "IstoÉ Dinheiro, “Masp abre mão do vermelho durante restauro do prédio de Lina Bo Bardi”, 23/04/2024"},
+    {"texto": "Cimento Itambé, “MASP realiza o maior projeto de restauro desde a sua inauguração”, 15/05/2024"},
+    {"texto": "CNN Brasil, “Cor vermelha volta a fazer parte da fachada do Masp”, 10/06/2024"},
+    {"texto": "Folha do ABC, “MASP entrega restauro dos pórticos com sistema de pintura da AkzoNobel”, 20/04/2025"},
+    {"texto": "Elle Brasil, “Nuevo edificio del MASP abrirá al público en marzo de 2025” (en portugués), 26/11/2024"},
+    {"texto": "Cidade de São Paulo, “MASP inaugura novo edifício Pietro Maria Bardi e expõe Cinco Ensaios sobre o MASP”, 2025"},
+    {"texto": "Portal Tela, “MASP inaugura túnel subterrâneo com instalação de quase 100 metros”, 10/09/2026"},
+    {"texto": "Portal Democrata, “Masp abre nova passagem subterrânea na Avenida Paulista”, 11/09/2026"},
+    {"texto": "Revista Business, “Beatriz Milhazes transforma passagem do MASP em obra imersiva de 98 metros na Avenida Paulista”, 17/09/2026"},
+    {"texto": "Wikipedia en portugués, “Museu de Arte de São Paulo” (punto de partida)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Caja de vidrio oscuro y concreto suspendida sobre la vereda, sujeta entre dos grandes pórticos rojos, con peatones que pasan por debajo y edificios altos al fondo",
+      "legenda": "El MASP visto desde la Avenida Paulista en 2017: el volumen suspendido, los pórticos rojos y la plaza abierta debajo.",
+      "autor": "Mike Peel"
+    },
+    {
+      "alt": "Tarjeta postal antigua en color: una avenida ancha con un tranvía y peatones con ropa de los años 1920, un pabellón amarillo con techo rojo a la izquierda y una pérgola de columnas a la derecha",
+      "legenda": "La Avenida Paulista en una tarjeta postal de alrededor de 1923, con el Belvedere Trianon a la izquierda, en el terreno donde hoy está el MASP.",
+      "autor": "Autor no identificado"
+    },
+    {
+      "alt": "Fotografía aérea en blanco y negro: un bloque rectangular cubierto de andamios sobre una base de concreto, junto a una rotonda, rodeado de árboles y edificios",
+      "legenda": "La obra en noviembre de 1965: el volumen superior todavía entero dentro de los andamios del apuntalamiento.",
+      "autor": "Autor no identificado (Arquivo Histórico de São Paulo, Alcaldía de São Paulo)"
+    },
+    {
+      "alt": "Vista desde abajo de una enorme losa de concreto oscuro sobre un piso de adoquines casi vacío, con dos pilares rojos al fondo y la avenida a la izquierda",
+      "legenda": "Debajo del volumen suspendido, en 2013: la plaza del vano libre, sin ninguna columna hasta los pilares del otro lado.",
+      "autor": "Harry Wood"
+    },
+    {
+      "alt": "La caja de vidrio con pórticos rojos del MASP, baja y alargada, junto a una torre estrecha y oscura de muchos pisos, en una avenida bajo cielo azul",
+      "legenda": "El MASP y el Edificio Pietro Maria Bardi, el anexo de 14 pisos, en febrero de 2025, semanas antes de la apertura.",
+      "autor": "Mauro Cateb"
+    }
+  ]
+}

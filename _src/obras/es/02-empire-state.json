@@ -1,0 +1,141 @@
+{
+  "_nota": "Traducción fiel de ../02-empire-state.json. Campos fijos vienen del original.",
+  "obra": "Empire State Building",
+  "titulo_seo": "Cómo se construyó el Empire State Building (1930–1931)",
+  "_excecoes_numeros": ["20"],
+  "titulo_video": "Empire State: 102 pisos en 410 días, y nadie anotó quién los levantó",
+  "lugar": "Manhattan, Nueva York, Estados Unidos",
+  "periodo": "1930–1931",
+  "impossivel": "Montar 86 pisos de acero y piedra en 410 días, en pleno Manhattan, con la obra empezando pocos meses después del crac bursátil de 1929.",
+  "resumo": "Cómo el Empire State subió 4,5 pisos por semana en 1930, cuánto costó, cuántos murieron y por qué nadie anotó el nombre de quienes lo levantaron.",
+  "abertura": [
+    "El 14 de agosto de 1930, según el diario de la constructora, 3.439 hombres trabajaban en la misma manzana de Manhattan, en Nueva York, Estados Unidos. La obra del Empire State Building es una de las mejor documentadas del siglo XX: toneladas de acero montadas, fechas de cada etapa, fotografías numeradas.",
+    "Y, aun así, nadie compiló la lista de los hombres que la levantaron. Esta página reconstruye la obra a partir de lo que registraron las fuentes, muestra dónde discrepan y dice con todas las letras lo que nadie anotó."
+  ],
+  "numeros": [
+    {"valor": "410 días", "rotulo": "del inicio de la obra (17/3/1930) a la inauguración (1/5/1931)"},
+    {"valor": "4,5", "rotulo": "pisos por semana, en promedio"},
+    {"valor": "3.439", "rotulo": "hombres en un solo día, 14/8/1930, según el diario de la constructora; otras fuentes dan de 3.000 a 5.000"},
+    {"valor": "US$ 40.948.900", "rotulo": "costo final, con la demolición del antiguo hotel"},
+    {"valor": "381 m", "rotulo": "hasta el piso 102; 443 m hasta la punta"},
+    {"valor": "5", "rotulo": "muertes registradas por la constructora en octubre de 1930"}
+  ],
+  "ficha": [
+    {"item": "Quién lo quiso", "valor": "Al Smith, exgobernador de Nueva York, anunció el edificio a fines de agosto de 1929; John J. Raskob y Pierre S. du Pont pusieron el capital. El 13/12/1929 la Metropolitan Life aprobó un préstamo de US$ 27.500.000."},
+    {"item": "Terreno", "valor": "El del hotel Waldorf-Astoria. Demolición iniciada el 1/10/1929 (New York Times de la época) × “1930” (informe de designación como monumento de 1981)."},
+    {"item": "Arquitecto", "valor": "William F. Lamb, del despacho Shreve, Lamb & Harmon"},
+    {"item": "Tiempo de diseño", "valor": "“Dos semanas” (Smithsonian, traducción nuestra) × cuatro semanas de estudio y el esquema básico trazado en unas dos horas, en una noche (el propio Lamb, Architectural Forum, ene./1931)"},
+    {"item": "Constructora", "valor": "Starrett Brothers & Eken; montaje del acero a cargo de Post & McCord", "nota": "Post & McCord: Architectural Forum, ago./1930"},
+    {"item": "Obreros en el pico", "valor": "3.439 en un solo día, 14/8/1930 (diario de Starrett) × cerca de 3.400 (ASCE) × 3.500 (Skyscraper Museum) × 5.000 “en el pico” (Popular Mechanics, dic./1930, traducción nuestra) × cerca de 3.000 (editorial del libro de Glenn Kurtz)", "nota": "Kurtz habla de cerca de 10.000 a lo largo de toda la obra"},
+    {"item": "Quiénes eran y cuánto ganaban", "valor": "Inmigrantes irlandeses e italianos, y montadores mohawk de Kahnawake, Quebec, Canadá. Escala sindical de Nueva York al 15/5/1930 para montador de acero: 192,5 centavos por hora, US$ 77 por semana de 40 horas, sábado libre, horas extra al doble.", "nota": "salario: Bureau of Labor Statistics, boletín 540; es la escala del sindicato, no la nómina de la obra"},
+    {"item": "Nombres de los obreros", "valor": "Nadie compiló la lista. Quedaron 32 nombres de artesanos premiados en una placa de bronce en el vestíbulo; el libro de Glenn Kurtz (nov./2025) fue el primero en reconstruir quiénes eran."},
+    {"item": "Plazo", "valor": "Obra iniciada el 17/3/1930; primeras columnas de acero el 7/4/1930; acero en la cima el 19/9/1930; inauguración el 1/5/1931, con Herbert Hoover encendiendo las luces con un botón en Washington", "nota": "acero en la cima: una fuente (Willis & Friedman, 1998)"},
+    {"item": "Ritmo", "valor": "4,5 pisos por semana, contra 3,5 del récord anterior para un edificio de esa altura", "nota": "el tramo más rápido diverge: 14 o 14 pisos y medio en 10 días hábiles"},
+    {"item": "Costo", "valor": "US$ 40.948.900, con la demolición del Waldorf. Presupuesto: US$ 50 millones × US$ 60 millones. Ajustado por inflación: cerca de US$ 867 millones de 2025 según el índice de precios al consumidor de EE. UU. (promedio de 1931 a promedio de 2025), o US$ 678 millones de 2024 según el deflactor del PIB.", "nota": "el presupuesto diverge entre las fuentes"},
+    {"item": "Muertes", "valor": "5 registradas por la constructora el 22/10/1930 (1 en la demolición, 1 en la excavación, 3 en la torre) × 14 (New York Daily News) × “hasta 42” (revista New Masses, traducción nuestra; los historiadores lo tratan como rumor). Ningún nombre se publicó en las fuentes disponibles."},
+    {"item": "Altura y pisos", "valor": "381 m hasta el piso 102; 443 m hasta la punta de la antena. Los 102 pisos son 86 pisos, más el mástil contado como 14, más 2 sótanos.", "nota": "la cuenta de los 102: informe de designación como monumento de 1981"},
+    {"item": "Material", "valor": "Acero: 57.480 toneladas cortas × 57.000 t × 60.000 t. Ladrillos: 10 millones.", "nota": "ladrillos: dos o más fuentes"},
+    {"item": "Ascensores y escalera", "valor": "73 ascensores hoy (los originales: 64 × 66); 1.576 escalones hasta el piso 86, 1.860 hasta el 102", "nota": "el número original de ascensores diverge"},
+    {"item": "Después", "valor": "23% alquilado el primer año; el mirador ayudó a evitar la quiebra. Primera ganancia: década de 1940 × comienzos de la de 1950. El 28/7/1945, un B-25 chocó entre los pisos 79 y 80: 14 muertos.", "nota": "el año de la primera ganancia diverge"}
+  ],
+  "historia": [
+    {
+      "titulo": "Un anuncio, y dos meses después el crac",
+      "paragrafos": [
+        "A fines de agosto de 1929, Al Smith, exgobernador de Nueva York, anunció el nuevo edificio. El dinero venía de John J. Raskob y de Pierre S. du Pont. El terreno era el del hotel Waldorf-Astoria, en Manhattan, y la demolición empezó, según el New York Times de la época, el 1 de octubre de 1929. El informe de designación como monumento de 1981 fecha la demolición en 1930.",
+        "El 24 de octubre de 1929, unos dos meses después del anuncio, se desplomó la Bolsa de Nueva York.",
+        "El proyecto no se detuvo. El 13 de diciembre de 1929, el directorio de la Metropolitan Life aprobó un préstamo de US$ 27.500.000 a Empire State, Inc. Un mes antes, Al Smith había dejado el directorio de la aseguradora justamente porque la empresa que presidía negociaba ese préstamo. La nota del periódico todavía hablaba de un edificio de “85 pisos” (traducción nuestra): el mástil de la cima aún no estaba en el diseño."
+      ]
+    },
+    {
+      "titulo": "Un proyecto que avanzaba junto con la obra",
+      "paragrafos": [
+        "El arquitecto fue William F. Lamb, del despacho Shreve, Lamb & Harmon. Cuánto tardó en diseñar el edificio depende de quién lo cuente. El Smithsonian habla de dos semanas. El propio Lamb, en la revista Architectural Forum de enero de 1931, contó cuatro semanas de estudio con el equipo y el esquema básico del edificio trazado en una sola noche, en unas dos horas.",
+        "Lo que muestran los documentos de 1930 es un diseño que iba pocas semanas por delante del acero. Los primeros planos de la estructura se entregaron a mediados de enero de 1930. El proyecto estructural no quedó terminado hasta la losa sobre el piso 85 sino a mediados de junio, cuando las columnas ya llevaban dos meses subiendo.",
+        "La obra empezó oficialmente el 17 de marzo de 1930, fecha grabada en un medallón del vestíbulo. El montaje del acero estaba programado para el 1 de abril; la fotografía n.º 133, publicada por el ingeniero de la estructura, muestra las primeras columnas asentándose en el sótano el 7 de abril."
+      ]
+    },
+    {
+      "titulo": "Treinta mil toneladas en nueve semanas",
+      "paragrafos": [
+        "El acero venía de Carnegie Steel, en Homestead, cerca de Pittsburgh. La fabricación se dividió entre dos empresas, American Bridge, en Ambridge, y McClintic-Marshall, en Rankin, que se alternaban en grupos de seis a ocho pisos. El montaje era de Post & McCord. En cada uno de los dos primeros meses se fabricaron 15.000 t.",
+        "Arriba, al principio giraban nueve grúas: cinco de 30 t y cuatro de 20 t. Entre el 7 de abril y el 9 de junio de 1930 se montaron casi 30.000 t de acero. El ingeniero de la estructura, J. L. Edwards, escribió en agosto de ese año que eso era cerca de 50% más que todo el acero del 40 Wall Street o del Chrysler Building, y llamó al ritmo un récord de velocidad por tonelada.",
+        "No había patio: la obra era el propio edificio. Más de 200 camiones llegaban por día. En cada piso, vagonetas sobre rieles repartían el material hasta donde iba a usarse, y había cafeterías en cinco pisos, para que nadie perdiera tiempo bajando.",
+        "El ritmo se volvió récord. El historiador John Tauranac registra el piso 26 el 20 de junio y la mitad de la estructura el 27 de julio. La revista ENR habla de 22 pisos en 22 días hábiles en julio, en horario normal. En promedio, fueron 4,5 pisos por semana, cuando el récord anterior para un edificio de esa altura era de 3,5. Una frase en primera persona, reproducida en libros sin autor confirmado, dice que una vez levantaron 14 pisos y medio en 10 días hábiles, “acero, concreto, piedra y todo” (traducción nuestra); otros historiadores hablan de 14 pisos en el mismo plazo. El acero llegó a la cima el 19 de septiembre de 1930, según el diario de la constructora publicado por Willis y Friedman. El programa divulgado en 1930 preveía la estructura del techo para el 1 de septiembre."
+      ]
+    },
+    {
+      "titulo": "Los hombres del acero",
+      "paragrafos": [
+        "Quienes estaban allá arriba eran, en buena parte, inmigrantes irlandeses e italianos, y una minoría de montadores mohawk de Kahnawake, Quebec, Canadá. El fotógrafo Lewis Hine siguió la obra, y algunas de sus fotos salieron en revistas ya en 1930.",
+        "Cuántos eran depende de la cuenta. El diario de la constructora registró 3.439 hombres en un solo día, el 14 de agosto de 1930. Popular Mechanics, en diciembre de 1930, habla de 5.000 “en el pico de la construcción” (traducción nuestra); el Skyscraper Museum, de 3.500; la editorial del libro de Glenn Kurtz, de cerca de 3.000; y el propio Kurtz, de cerca de 10.000 a lo largo de toda la obra. Probablemente sean cuentas distintas —el día más lleno y el total de hombres que pasaron por la obra—, pero las fuentes no las concilian.",
+        "Cuánto ganaban también tiene fuente oficial. El boletín 540 del Bureau of Labor Statistics registra la escala sindical de Nueva York al 15 de mayo de 1930: el montador de estructura de acero recibía 192,5 centavos por hora, US$ 77 por semana completa, con 8 horas por día, 40 por semana, sábado libre y horas extra pagadas al doble. El albañil tenía la misma escala; el peón de albañil, 112,5 centavos por hora. Es la tabla del sindicato, no la nómina de la obra.",
+        "Hubo turnos de 12 horas, pero en la excavación: de enero a marzo de 1930, dos turnos de 300 hombres cada uno, según el historiador Langmead (2009). En la demolición del hotel trabajaban, en promedio, 600 hombres."
+      ]
+    },
+    {
+      "titulo": "Cinco muertes, y quién hizo la cuenta",
+      "paragrafos": [
+        "El número oficial es cinco, y tiene fecha y autor. El 22 de octubre de 1930, Starrett Brothers & Eken, desmintiendo rumores de demasiadas muertes en la obra, anunció al New York Times que se habían registrado cinco: una en la demolición del Waldorf-Astoria, una en la excavación y tres en la construcción del edificio nuevo. La cuenta es de la constructora, poco más de seis meses antes de la inauguración.",
+        "El historiador John Tauranac describe cinco circunstancias: un obrero fue atropellado por un camión mientras serruchaba una tabla; otro entró en una zona de voladura; otro pisó fuera de un andamio; otro cayó por el hueco del ascensor; el último fue golpeado por un montacargas. Según su lista, ninguno cayó de la estructura de acero. Cómo encaja esa lista en la división de la constructora (demolición, excavación, torre), las fuentes no lo dicen.",
+        "Circularon otros números. El New York Daily News habló de 14 muertos. La revista New Masses llegó a “hasta 42” (traducción nuestra), cifra que los historiadores tratan como rumor. Y el nombre de ninguno de los cinco aparece en las fuentes disponibles."
+      ]
+    },
+    {
+      "titulo": "El mástil, las luces y el edificio vacío",
+      "paragrafos": [
+        "El 1 de mayo de 1931, en Washington, el presidente Herbert Hoover apretó un botón, y las luces del Empire State se encendieron en Nueva York. Habían pasado 410 días desde el 17 de marzo de 1930. Contando desde los contratos de los arquitectos, en septiembre de 1929, fueron cerca de 20 meses. El costo final quedó en US$ 40.948.900, con la demolición incluida: por debajo de un presupuesto que las fuentes dan como US$ 50 o US$ 60 millones.",
+        "El mástil de la cima se calculó para la fuerza del viento sumada al tirón de un dirigible amarrado: 318.000 libras, poco más del 7% de las 4.340.000 libras de carga de viento sobre la fachada, según Architectural Forum de agosto de 1930. En la práctica, casi no sirvió. El 15 de septiembre de 1931, un pequeño dirigible de la Marina de EE. UU. dio 25 vueltas con vientos de 45 millas por hora, soltó lastre y fue sacudido por la turbulencia; el historiador naval Norman Polmar lo identifica como el J-4 y habla de un contacto de 3 minutos. Una foto del New York World-Telegram fechada el 30/9/1931 registra al Goodyear-Zeppelin Columbia intentando llevarse sacos de correo del mástil: la cuerda llegó una vez a las manos de Andrew Kelly, y se le escapó. Un noticiero de Universal del 1º/10/1931 muestra, al contrario, un paquete entregado en brazos de un empleado de la torre. Pueden ser dos vuelos distintos.",
+        "El primer año, solo el 23% del edificio estaba alquilado, y Nueva York empezó a llamarlo Empty State Building. En 1936 no había ascensor por encima del piso 45. Quien sostenía las cuentas era el mirador: cerca de 1 millón de visitantes por año, a US$ 1 cada uno, lo que, según el informe de designación, salvó al edificio de la quiebra, en parte. Cuándo llegó la primera ganancia, las fuentes no coinciden: década de 1940 o comienzos de la de 1950. En 1951, el edificio se vendió por US$ 51 millones.",
+        "El 28 de julio de 1945, a las 9:40, con niebla, un bombardero B-25 chocó entre los pisos 79 y 80. Murieron 14 personas: los 3 tripulantes y 11 personas en el edificio. La ascensorista Betty Lou Oliver cayó 75 pisos dentro de un ascensor y sobrevivió, récord registrado por Guinness."
+      ]
+    },
+    {
+      "titulo": "Noventa y cuatro años después, los nombres",
+      "paragrafos": [
+        "Durante casi un siglo, los hombres de las fotos de Hine quedaron sin nombre. El Skyscraper Museum lo resume: no se compiló ninguna lista de obreros de esta obra. Los únicos nombres que quedaron en el edificio están en una placa de bronce en el vestíbulo, con 32 artesanos premiados por el New York Building Congress, entre ellos Michael Tierney, perforador de roca, y Vladimir Kozloff, demoledor.",
+        "En noviembre de 2025, el escritor Glenn Kurtz publicó Men at Work: The Empire State Building and the Untold Story of the Craftsmen Who Built It. Cruzando censos, registros de inmigración y de sindicatos, periódicos de la época y entrevistas con descendientes, el libro les dio nombre a los hombres que levantaron el edificio. El 1 de mayo de 2026, el Empire State cumplió 95 años."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "La foto de los once obreros almorzando sentados en una viga se tomó en el Empire State.", "registro": "No. La foto es del RCA Building, en el Rockefeller Center, en Nueva York, del 20/9/1932, y fue montada con fines publicitarios."},
+    {"circula": "Los dirigibles amarraban en el mástil del Empire State.", "registro": "El mástil funcionó como publicidad. En septiembre de 1931 hubo un contacto de minutos con un pequeño dirigible de la Marina y vuelos de un dirigible de Goodyear para pasar correo y paquetes por cuerda, registrados unas veces como fracaso y otras como entrega exitosa. La famosa foto del dirigible amarrado es un fotomontaje."},
+    {"circula": "Murieron cientos de obreros, y hay hombres enterrados en el concreto.", "registro": "La constructora registró 5 muertes hasta octubre de 1930, con circunstancias descritas por John Tauranac; ninguna de ellas involucra concreto ni caída desde la estructura de acero. El Daily News habló de 14; los 42 de New Masses se tratan como rumor."},
+    {"circula": "Los obreros ganaban US$ 1,25 por hora, en turnos de 12 horas, siete días a la semana.", "registro": "La escala sindical oficial de Nueva York, en mayo de 1930, daba al montador de acero 192,5 centavos por hora, 40 horas por semana, sábado libre y horas extra al doble. Turnos de 12 horas, solo en la excavación."},
+    {"circula": "Todo el edificio se hizo en 410 días.", "registro": "El número es correcto, pero mide del 17/3/1930 al 1/5/1931. Los contratos de los arquitectos son de septiembre de 1929 y la demolición del hotel empezó el 1/10/1929: del proyecto a la inauguración, fueron cerca de 20 meses."}
+  ],
+  "perguntas": [
+    {"p": "¿Cuánto tiempo tardó la construcción del Empire State Building?", "r": "Fueron 410 días, del inicio oficial de la obra, el 17 de marzo de 1930, a la inauguración, el 1 de mayo de 1931, a un promedio de 4,5 pisos por semana. Contando desde los contratos de los arquitectos, en septiembre de 1929, fueron cerca de 20 meses."},
+    {"p": "¿Cuántos obreros murieron en la construcción del Empire State?", "r": "Las fuentes divergen. La constructora registró 5 muertes hasta octubre de 1930: 1 en la demolición, 1 en la excavación y 3 en la torre; el New York Daily News habló de 14, y los “hasta 42” de la revista New Masses (traducción nuestra) los historiadores los tratan como rumor."},
+    {"p": "¿Cuánto costó el Empire State Building?", "r": "El costo final fue de US$ 40.948.900, con la demolición del hotel Waldorf-Astoria incluida, por debajo de un presupuesto que las fuentes dan como US$ 50 o US$ 60 millones. Ajustado por el índice de precios al consumidor de EE. UU., son cerca de US$ 867 millones de 2025."},
+    {"p": "¿Cuántos obreros trabajaron en el Empire State?", "r": "Las fuentes divergen. El diario de la constructora registró 3.439 hombres en un solo día, el 14 de agosto de 1930; otras cuentas van de cerca de 3.000 a 5.000 en el pico, y Glenn Kurtz habla de cerca de 10.000 a lo largo de toda la obra."},
+    {"p": "¿Cuánto mide el Empire State Building?", "r": "Mide 381 m hasta el piso 102 y 443 m hasta la punta de la antena. Los 102 pisos son 86 pisos, más el mástil contado como 14, más 2 sótanos."}
+  ],
+  "fontes": [
+    {"texto": "Anthony W. Robins, Landmarks Preservation Commission, informe de designación LP-2000, Nueva York, 1981"},
+    {"texto": "National Park Service, nominación del Empire State Building como National Historic Landmark"},
+    {"texto": "J. L. Edwards, “The Structural Frame”, Architectural Forum, agosto de 1930"},
+    {"texto": "Popular Mechanics, diciembre de 1930"},
+    {"texto": "Bureau of Labor Statistics, Bulletin 540, Union Scales of Wages and Hours of Labor, May 15, 1930"},
+    {"texto": "The New York Times, \"Approves $27,500,000 for Smith Project\", 14/12/1929, p. 3"},
+    {"texto": "The New York Times, “Few Fatalities on Smith's Building”, 23/10/1930, p. 25"},
+    {"texto": "Library of Congress, foto del New York World-Telegram & Sun sobre el dirigible Columbia, 30/9/1931"},
+    {"texto": "Empire State Building, Facts & Figures e History"},
+    {"texto": "John Tauranac, The Empire State Building: The Making of a Landmark, 2014"},
+    {"texto": "Carol Willis y Donald Friedman, Building the Empire State, 1998"},
+    {"texto": "Skyscraper Museum, The Empire State Building and the Untold Story of the Craftsmen Who Built It"},
+    {"texto": "Glenn Kurtz, Men at Work, Seven Stories Press, 2025"},
+    {"texto": "Glenn Kurtz, “Who Built the Empire State Building?”, Time, 28/3/2026"},
+    {"texto": "Architectural Record, sobre el libro de Glenn Kurtz, 1/5/2026"},
+    {"texto": "ASCE Metropolitan Section, Empire State Building"}
+  ],
+  "imagens": [
+    {"alt": "El Empire State Building visto desde lo alto, con la antena en la cima, entre los edificios de Manhattan en una mañana de bruma", "legenda": "El Empire State Building visto desde el norte, sobre Midtown Manhattan.", "autor": "Jorge Láscar"},
+    {"alt": "Excavación con las primeras columnas de acero clavadas sobre las zapatas, grúas al fondo", "legenda": "Las primeras columnas de acero asentándose en el sótano, el 7 de abril de 1930. Publicada en Architectural Forum de agosto de 1930.", "autor": "Knickerbocker, para Architectural Forum (1930)"},
+    {"alt": "Estructura de acero con varios pisos montados sobre una base ya hormigonada, grúas en lo alto", "legenda": "La estructura en la fase en que había casi 30.000 t de acero montadas, hasta el 9 de junio de 1930. Architectural Forum, agosto de 1930.", "autor": "Knickerbocker, para Architectural Forum (1930)"},
+    {"alt": "Esqueleto de acero con grúas en primer plano y el Chrysler Building al fondo", "legenda": "La estructura subiendo en el lugar del Waldorf-Astoria, con el Chrysler Building al fondo. Publicada en Mid-Week Pictorial del 5 de julio de 1930.", "autor": "Lewis Hine (Mid-Week Pictorial, 1930)"},
+    {"alt": "Obrero con gorra sentado en una viga, apretando una pieza, con Manhattan y el Chrysler Building allá abajo", "legenda": "Un montador en lo alto de la estructura, con el Chrysler Building a la derecha. Foto de Lewis Hine.", "autor": "Lewis Hine (National Archives, NARA 518290)"},
+    {"alt": "El edificio casi todo revestido, todavía sin la torre de la cima, por encima de las manzanas vecinas", "legenda": "El edificio el 16 de octubre de 1930, todavía sin la torre. Architectural Forum, noviembre de 1930.", "autor": "Knickerbocker, para Architectural Forum (1930)"}
+  ]
+}

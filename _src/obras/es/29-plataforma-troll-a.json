@@ -1,0 +1,143 @@
+{
+  "_nota": "Traducción fiel de ../29-plataforma-troll-a.json. Campos fijos vienen del original.",
+  "obra": "Plataforma Troll A",
+  "titulo_seo": "Plataforma Troll A: cómo se construyó y remolcó (1991–1996)",
+  "titulo_video": null,
+  "lugar": "Campo de gas de Troll, mar del Norte, al noroeste de Bergen, Vestland, Noruega",
+  "periodo": "1991–1996",
+  "impossivel": "Empezar, meses después de que otra base de la misma constructora se hundiera por un error de cálculo, una torre de concreto de 472 metros, levantarla en un fiordo, hacerla flotar de pie hasta mar abierto y asentarla sobre 303 metros de agua.",
+  "resumo": "Cómo Noruega llevó flotando la Troll A, 472 metros de concreto, al mar del Norte en 1995, y por qué la obra nació tras el hundimiento de la Sleipner A.",
+  "abertura": [
+    "La Troll A es una plataforma de gas que no está sujeta al fondo del mar con pilotes ni con anclas. Se sostiene en pie por su propio peso: una base de celdas de concreto asentada a 303 metros de profundidad, en el mar del Norte, al noroeste de Bergen, en Noruega, y cuatro columnas que suben hasta la cubierta. De la base a la cima mide 472 metros.",
+    "No se construyó donde está. Nació en un dique seco en Stavanger, creció flotando en un fiordo y, en mayo de 1995, fue remolcada durante siete días hasta el campo de Troll, de pie, con más de 200 metros de concreto bajo el agua. Es la estructura más alta que el ser humano haya movido jamás de su lugar. Y se empezó a construir en 1991, en los mismos meses en que la misma constructora vio cómo otra base de plataforma desaparecía en el fondo de un fiordo en unos dieciocho minutos."
+  ],
+  "numeros": [
+    {"valor": "472 m", "rotulo": "de altura, de la base en el lecho marino a la cima"},
+    {"valor": "303 m", "rotulo": "de agua en el punto donde fue asentada"},
+    {"valor": "7 días", "rotulo": "de remolque, del 10 al 17 de mayo de 1995"},
+    {"valor": "36 m", "rotulo": "de faldones de concreto hincados en el suelo del fondo marino"},
+    {"valor": "245 · 250 mil m³", "rotulo": "de concreto, según la fuente"},
+    {"valor": "100 mil t", "rotulo": "de acero de refuerzo dentro del concreto"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "Poner en producción el campo de Troll, descubierto en 1979, que guarda cerca del 40% al 60% de las reservas de gas de la plataforma continental noruega, según la fuente y la fecha de la estimación. En 1986, Noruega cerró contratos de venta del gas de Troll a compradores europeos valuados en 800 mil millones de coronas, lo que exigía una plataforma en 303 metros de agua.", "nota": "el valor de los contratos aparece en una sola fuente, el Museo del Petróleo de Noruega"},
+    {"item": "Quién la quiso", "valor": "Norske Shell, operadora del desarrollo del campo, que contrató la base de concreto en marzo de 1991. Statoil, hoy Equinor, asumió la operación de la producción en 1996.", "nota": "el año en que Statoil asumió la operación aparece en una enciclopedia y en un titular de la época"},
+    {"item": "Tipo", "valor": "Plataforma de gravedad de concreto armado del sistema Condeep: una base de celdas cilíndricas sobre el fondo y cuatro columnas huecas que sostienen la cubierta. No tiene pilotes ni anclas; se sostiene en pie por su propio peso."},
+    {"item": "Quién la construyó", "valor": "La base de concreto fue obra de Norwegian Contractors, la misma empresa que construía las demás plataformas Condeep, incluida la Sleipner A. La cubierta, de 22.500 toneladas, la construyó Aker Stord.", "nota": "el peso de la cubierta proviene de una sola fuente, la revista Offshore, de 1995"},
+    {"item": "Dónde se hizo", "valor": "La base se empezó en un dique seco en Hinnavågen, en Stavanger, y se terminó flotando en el fiordo junto a Vats, en el norte de Rogaland, donde recibió la cubierta."},
+    {"item": "Plazo", "valor": "Contrato en marzo de 1991; obra iniciada en el verano o en septiembre de 1991, según la fuente; cubierta acoplada el 25/01/1995; remolque del 10 al 17/05/1995; producción desde el 09/02/1996; inauguración oficial por el rey Harald V el 19/06/1996.", "nota": "la fecha del acoplamiento y la de la inauguración provienen de una fuente cada una"},
+    {"item": "Obreros", "valor": "Más de 2 mil personas en la construcción de la base, según Norcem, proveedora del cemento. Solo la cubierta consumió 3,4 millones de horas de trabajo en Aker Stord. El pico, la jornada y los salarios no quedaron registrados en las fuentes consultadas."},
+    {"item": "Muertes y accidentes", "valor": "Ninguna fuente consultada registra muertos ni accidentes graves en la construcción, de 1991 a 1995, ni cifra oficial ni cifra disputada."},
+    {"item": "Costo", "valor": "4,15 mil millones de coronas noruegas por el contrato de la base de concreto, en 1991, cerca de US$ 650 millones al tipo de cambio de la época. La cubierta y los equipos sumaron otros 3,5 mil millones de coronas.", "nota": "la conversión a US$ 650 millones proviene de una sola fuente; con ella y con el índice de precios al consumidor de EE. UU. (1991 = 136,2; 2025 = 321,9), la base equivale a cerca de US$ 1,5 mil millones de 2025; el costo de la cubierta también proviene de una sola fuente"},
+    {"item": "Medidas", "valor": "472 m de altura total, de los cuales 369 m son de concreto. Asentada en 303 m de agua, con faldones de 36 m en el suelo. 245 mil o 250 mil m³ de concreto, según la fuente, y 100 mil toneladas de armadura.", "nota": "una fuente da 302 m de profundidad; el volumen de concreto difiere entre fuentes"},
+    {"item": "Peso", "valor": "683.600 toneladas sin lastre, según Aker Solutions; 656 mil toneladas en el remolque, en otras fuentes; 565 mil toneladas de peso en seco, en una tercera. Con el agua de lastre, en operación, supera los 1,2 millones de toneladas."},
+    {"item": "El remolque", "valor": "Diez remolcadores, ocho tirando y dos gobernando desde atrás, a 1 o 2 nudos, a lo largo de más de 200 km. Durante el viaje, unos 245 metros quedaban por encima del agua y 225 por debajo. El 17/05/1995 fue lastrada y asentada en el fondo.", "nota": "el número de remolcadores y las alturas durante el remolque provienen del Museo del Petróleo de Noruega"},
+    {"item": "Energía", "valor": "En 2005 fue la primera plataforma del mundo en recibir energía desde tierra por corriente continua en alta tensión, procedente de Kollsnes, para accionar compresores. En 2015 se añadieron dos compresores de 50 MW."},
+    {"item": "Hoy", "valor": "Operada por Equinor, cumple 30 años de producción en 2026. Desde el 22/08/2026 recibe gas de un nuevo proyecto submarino, Troll Fase 3, etapa 2; en junio de 2026 los socios aprobaron otro, TWIN, previsto para 2028."}
+  ],
+  "historia": [
+    {
+      "titulo": "Un campo de gas en 303 metros de agua",
+      "paragrafos": [
+        "El campo de Troll fue descubierto en 1979, en el sector noruego del mar del Norte, al noroeste de Bergen. Tenía gas suficiente para abastecer a una parte de Europa durante décadas: según Equinor, en 2026 Troll todavía cubría cerca del 10% de la demanda europea. El problema era el agua. En el punto elegido para la plataforma había 303 metros de mar, más de lo que cualquier plataforma fija de concreto había enfrentado hasta entonces.",
+        "Noruega tenía una respuesta probada para el mar del Norte: las plataformas Condeep, de Norwegian Contractors. Desde 1975 la empresa levantaba en fiordos bases de concreto formadas por grandes celdas cilíndricas, de las que subían columnas huecas hasta la cubierta. La estructura se llevaba flotando hasta el campo y allí se hundía a propósito, llenando las celdas de agua, hasta posarse en el lecho. No necesitaba pilotes: el peso la mantenía en su lugar. La Troll A sería la última y la más alta de todas."
+      ]
+    },
+    {
+      "titulo": "Dieciocho minutos en el Gandsfjorden",
+      "paragrafos": [
+        "En marzo de 1991, Norske Shell firmó con Norwegian Contractors el contrato de la base de la Troll A: 4,15 mil millones de coronas. El 23 de agosto del mismo año, de madrugada, otra base de la misma constructora, la de la plataforma Sleipner A, hacía una prueba de lastre en el Gandsfjorden, junto a Stavanger. La estructura descendía en el agua de forma controlada cuando una pared de concreto se rompió. Entraron casi mil toneladas de agua por minuto. En unos dieciocho minutos la base estaba en el fondo del fiordo, a casi 200 metros. Las 22 personas a bordo salieron ilesas.",
+        "Las investigaciones, con asesoría técnica del instituto SINTEF, dieron con la causa: la unión entre las celdas, una pieza triangular llamada tricelda, había quedado subdimensionada por errores en el análisis de elementos finitos, el cálculo por computadora que divide la estructura en pequeños pedazos. La presión del agua venció una pared más delgada de lo que debía. La pérdida figura como 1,8 mil millones de coronas, según el Museo del Petróleo de Noruega, o US$ 700 millones, en otras fuentes. Shell, que tenía otra base en obra con la misma empresa, la de la plataforma Draugen, mandó detener la obra y revisar los cálculos; la construcción recién se reanudó tres meses después."
+      ]
+    },
+    {
+      "titulo": "Una torre que crece flotando",
+      "paragrafos": [
+        "La base de la Troll A se empezó a construir ese mismo año, en el verano o en septiembre de 1991, según la fuente, en un dique seco en Hinnavågen, en Stavanger. Cuando la parte inferior estuvo lista, la estructura salió flotando. El resto se levantó ya en el fiordo, junto a Vats, en el norte de Rogaland, con el concreto vaciado en cimbras deslizantes que suben sin parar, hasta que las columnas alcanzaron su altura final.",
+        "El conjunto consumió 245 mil o 250 mil metros cúbicos de concreto, según la fuente, y 100 mil toneladas de acero de refuerzo; el Museo del Petróleo de Noruega compara la armadura con el peso de trece Torres Eiffel. Según la proveedora del cemento, más de 2 mil personas trabajaron en la construcción. Cuántas en el pico, en qué turnos y con qué salarios, las fuentes consultadas no lo dicen. Tampoco registran muertes ni accidentes graves en la obra.",
+        "Había además un riesgo que apareció a mitad de camino. A comienzos de los años 1990, ensayos con modelos de otras plataformas noruegas mostraron que las olas empinadas podían hacer vibrar de golpe las columnas verticales, en un efecto bautizado como ringing, como una campana de iglesia después del golpe. Un artículo presentado en 1994 en la Offshore Technology Conference, en Houston, en Estados Unidos, relata que los ensayos de modelo de la Troll mostraron respuestas mayores de lo que preveía la práctica de diseño, y describe el trabajo hecho para verificar la integridad de la base."
+      ]
+    },
+    {
+      "titulo": "La cubierta y la espera",
+      "paragrafos": [
+        "Mientras la base crecía, Aker Stord construía la cubierta, con 22.500 toneladas de equipos de procesamiento y alojamiento, según la revista Offshore. El 25 de enero de 1995 la llevaron a Vats y la acoplaron a la parte superior de las columnas. Desde ese momento la plataforma estaba completa, de pie en el fiordo, y solo faltaba llevarla al mar.",
+        "El remolque estaba programado para el 2 de mayo de 1995. El clima no lo permitió. Según el Museo del Petróleo de Noruega, cada día de retraso costaba cerca de 2 millones de coronas."
+      ]
+    },
+    {
+      "titulo": "Siete días de remolque",
+      "paragrafos": [
+        "En la tarde del 10 de mayo de 1995, la Troll A dejó Vats. Diez remolcadores hacían el trabajo: ocho tiraban y dos, atrás, gobernaban el rumbo. La velocidad era de uno a dos nudos, pocos kilómetros por hora. Unos 245 metros de la plataforma quedaban por encima del agua y 225 por debajo, y la ruta tenía que evitar tramos en los que el fondo subía: el punto menos profundo tenía 237 metros, según los ingenieros responsables de la instalación. Al día siguiente el viento llegó a 40 nudos, con olas de cinco metros. Ochenta periodistas de nueve países siguieron el viaje.",
+        "El 15 de mayo, el convoy llevaba veinte horas de adelanto. El 17 de mayo, Día de la Constitución de Noruega, la plataforma fue lastrada sobre el campo y descendió hasta el fondo, a 303 metros. Los faldones de concreto bajo la base, hechos para sostenerla en un suelo blando, penetraron 36 metros en el lecho, una profundidad que los ingenieros describieron como récord. La producción de gas empezó el 9 de febrero de 1996, y el rey Harald V inauguró la plataforma en junio de ese año."
+      ]
+    },
+    {
+      "titulo": "Treinta años después",
+      "paragrafos": [
+        "Con el tiempo, el yacimiento perdió presión, y el gas empezó a necesitar ayuda para subir. En 2005, la Troll A se convirtió en la primera plataforma del mundo alimentada con energía desde tierra en corriente continua de alta tensión, por cables de unos 70 kilómetros procedentes de Kollsnes, para accionar compresores. En 2015 entraron en operación dos más, de 50 MW cada uno. En 2006, la cantante Katie Melua dio un concierto dentro de una de las columnas, a 303 metros bajo el nivel del mar.",
+        "En 2026, la plataforma cumplió 30 años de producción. El 22 de agosto entró en operación Troll Fase 3, etapa 2, un proyecto submarino que lleva a la Troll A el gas de otra parte del campo y adelanta la producción de 55 mil millones de metros cúbicos, casi dos años del consumo de Francia, según Equinor, que lo terminó antes de plazo y por debajo del presupuesto de 12,3 mil millones de coronas. En junio, los socios ya habían aprobado otro más, TWIN, de 4 mil millones de coronas, con producción prevista para 2028. El gas nuevo sigue subiendo por las mismas columnas de concreto que cruzaron el mar en mayo de 1995."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "La Troll A es el objeto más pesado jamás movido por el ser humano.", "registro": "El récord Guinness del objeto más pesado jamás movido pertenece a otra plataforma noruega de concreto, la Gullfaks C, remolcada en 1989 con 1,5 millones de toneladas de desplazamiento. El récord de la Troll A es de altura: es la estructura más alta jamás movida."},
+    {"circula": "Pesa 1,2 millones de toneladas.", "registro": "Ese es el peso con el agua de lastre, en operación. La estructura en sí pesa entre 565 mil y 684 mil toneladas, según la fuente y lo que se mida: peso en seco, peso en el remolque o peso sin lastre."},
+    {"circula": "El concreto fue sintonizado para evitar la resonancia acústica en el fondo del mar.", "registro": "Ninguna fuente técnica habla de resonancia acústica. El problema real fue el ringing, la vibración súbita de columnas golpeadas por olas empinadas, que llevó a los ingenieros a verificar la estructura en ensayos de modelo."},
+    {"circula": "La Troll A es una plataforma flotante.", "registro": "Solo flotó durante la construcción y el remolque. Desde el 17/05/1995 está asentada en el fondo del mar, a 303 metros, sujeta al suelo por faldones de concreto de 36 metros."}
+  ],
+  "perguntas": [
+    {"p": "¿Cuánto mide la plataforma Troll A?", "r": "Mide 472 metros de la base, en el lecho marino, a la cima, de los cuales 369 m son de concreto. Está asentada sobre 303 metros de agua, por eso la mayor parte de la estructura queda bajo la superficie."},
+    {"p": "¿Cuánto pesa la plataforma Troll A?", "r": "Las fuentes difieren según lo que se mida: 683.600 toneladas sin lastre, según Aker Solutions, 656 mil toneladas en el remolque o 565 mil toneladas de peso en seco. Con el agua de lastre, en operación, supera los 1,2 millones de toneladas."},
+    {"p": "¿Cómo se construyó la plataforma Troll A y cómo la llevaron al mar?", "r": "La base se empezó en un dique seco en Stavanger y se terminó flotando en un fiordo junto a Vats, donde recibió la cubierta. Del 10 al 17 de mayo de 1995, diez remolcadores la llevaron de pie hasta el campo de Troll, donde fue lastrada y asentada en el fondo, con faldones de concreto de 36 m hincados en el suelo."},
+    {"p": "¿Dónde está la plataforma Troll A?", "r": "En el campo de gas de Troll, en el sector noruego del mar del Norte, al noroeste de Bergen, en Noruega. No es flotante: está apoyada en el fondo, a 303 metros de profundidad, y se sostiene en pie por su propio peso, sin pilotes ni anclas."},
+    {"p": "¿Cuánto costó la plataforma Troll A?", "r": "El contrato de la base de concreto, en 1991, fue de 4,15 mil millones de coronas noruegas, cerca de US$ 650 millones al tipo de cambio de la época. La cubierta y los equipos sumaron otros 3,5 mil millones de coronas."}
+  ],
+  "fontes": [
+    {"texto": "Ole Jone Eide, Norsk Oljemuseum, \"Troll A – giant move from fjord to field\", 2022"},
+    {"texto": "Norsk Oljemuseum, \"How large is a troll?\""},
+    {"texto": "Björn Lindberg, Norsk Oljemuseum, \"Sleipner A GBS lost and replaced\""},
+    {"texto": "Finn Harald Sandberg, Norsk Oljemuseum, \"The Sleipner sinking and Draugen\", 2018"},
+    {"texto": "Norsk Oljemuseum, \"The ringing phenomenon\", 2018"},
+    {"texto": "R. V. Ahilan, Ø. M. Klaas y I. Langen, \"Analysis of Dynamic Transient Response (Ringing) in a Gravity-Base Structure\", Offshore Technology Conference, 1994"},
+    {"texto": "E. Andenæs, E. Skomedal y S. Lindseth, \"Installation of the Troll Phase I gravity base platform\", 1996"},
+    {"texto": "Aker Solutions, \"Troll A (Condeep) concrete gravity-based structure\""},
+    {"texto": "Heidelberg Materials (Norcem), \"Troll A\""},
+    {"texto": "Guinness World Records, \"Heaviest man-made object moved\""},
+    {"texto": "Store norske leksikon, \"Troll – petroleumsfelt\""},
+    {"texto": "Store norske leksikon, \"Norwegian Contractors\""},
+    {"texto": "Offshore Magazine, \"Troll and Heidrun: end of an era or forerunners of a modern world?\", 1995"},
+    {"texto": "ABB, \"ABB completes Troll A platform's second power-from-shore system\", 2015"},
+    {"texto": "Equinor, \"More gas for 30-year-old Troll A\", 25/08/2026"},
+    {"texto": "Equinor, \"Expanding Troll: more gas to Europe\", 19/06/2026"},
+    {"texto": "Offshore Technology, \"Equinor starts production at Troll phase three, stage 2 in North Sea\", 2026"},
+    {"texto": "Martin Jansen, Vi Menn, \"Slepet av Troll A – en utrolig norsk ingeniørbragd\", 2025"}
+  ],
+  "imagens": [
+    {
+      "alt": "Plataforma de gas en el mar en calma al atardecer, con cuatro columnas de concreto claras que salen del agua y una cubierta llena de módulos, grúa y torre, a la derecha de un cielo amplio",
+      "legenda": "La Troll A en el mar del Norte en julio de 2016. Lo que se ve es la parte menor: bajo la superficie, el concreto baja 303 metros hasta el fondo.",
+      "autor": "Norsk olje og gass"
+    },
+    {
+      "alt": "La plataforma vista de cerca bajo un cielo nublado: cuatro columnas gruesas gris claro sobre el mar oscuro sostienen una cubierta ancha con módulos blancos, grúas rojas y una pluma de celosía",
+      "legenda": "Las cuatro columnas y la cubierta en junio de 2008.",
+      "autor": "Swinsto101"
+    },
+    {
+      "alt": "Dos hombres con overol apoyados en la baranda roja de un barco miran la plataforma en el mar, a lo lejos, con las cuatro columnas y la cubierta",
+      "legenda": "Tripulantes de un barco frente a la plataforma, en julio de 2016.",
+      "autor": "Norsk olje og gass"
+    },
+    {
+      "alt": "Las columnas de concreto de la plataforma saliendo del agua, con la cubierta de módulos blancos y amarillos y una grúa de celosía en lo alto",
+      "legenda": "Más de cerca: las columnas de concreto se unen a la cubierta, en julio de 2016.",
+      "autor": "Norsk olje og gass"
+    },
+    {
+      "alt": "Vista gran angular de una obra a orillas de un fiordo: un grupo de grandes cilindros de concreto unidos, rodeados de grúas torre amarillas, con casas y mar al fondo",
+      "legenda": "La base de celdas de una plataforma Condeep en construcción en un dique seco de Stavanger, entre 1990 y 1992. El archivo identifica la obra como Sleipner.",
+      "autor": "Knudsens Fotosenter / DEXTRA Photo, Norsk Teknisk Museum"
+    }
+  ]
+}

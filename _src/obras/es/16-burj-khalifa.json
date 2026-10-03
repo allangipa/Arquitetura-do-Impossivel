@@ -1,0 +1,175 @@
+{
+  "_nota": "Traducción fiel de ../16-burj-khalifa.json. Campos fijos vienen del original. En numeros[5].valor, «US$ 1,5 bi» va como «US$ 1.500 M» (no hay abreviatura española de mil millones que el conferidor lea igual); de ahí las excepciones.",
+  "_excecoes_numeros": ["1,5", "1.500"],
+  "obra": "Burj Khalifa",
+  "titulo_seo": "Cómo se construyó el Burj Khalifa (2004–2010)",
+  "titulo_video": null,
+  "lugar": "Downtown Dubai, Dubái, Emiratos Árabes Unidos",
+  "periodo": "2004–2010",
+  "impossivel": "Levantar 828 metros de concreto y acero sobre roca débil y agua más salada que el mar, en un desierto de 50 °C, contra un viento que, a esa altura, haría oscilar cualquier forma que se repitiera piso tras piso.",
+  "resumo": "Cómo Dubái levantó el Burj Khalifa, la torre más alta del mundo: planta en Y contra el viento, concreto a 600 m y obreros que la prensa apenas contó.",
+  "abertura": [
+    "En enero de 2004 comenzó, en un terreno de arena junto a la Sheikh Zayed Road, en Dubái, en los Emiratos Árabes Unidos, la excavación de un edificio cuya altura final la dueña de la obra, Emaar, mantenía en secreto. Seis años después, el 4 de enero de 2010, se inauguró con 828 metros y un nombre que nadie esperaba: Burj Khalifa.",
+    "El problema no era solo subir. Era hacer que una torre tan esbelta resistiera el viento, apoyarla en un subsuelo de roca débil empapado de agua salada y llevar concreto, en el verano del Golfo, a más de 600 metros de altura antes de que fraguara dentro del tubo. La respuesta vino de Chicago, del estudio SOM, y de miles de obreros del sur de Asia cuyo número exacto de muertos nadie publicó."
+  ],
+  "numeros": [
+    {"valor": "828 m", "rotulo": "de altura arquitectónica, la mayor del mundo desde 2010"},
+    {"valor": "2004–2010", "rotulo": "de la excavación, en enero de 2004, a la inauguración, el 04/01/2010"},
+    {"valor": "601 · 606 m", "rotulo": "la altura a la que se bombeó el concreto, récord mundial, según la fuente"},
+    {"valor": "3,7 m", "rotulo": "de espesor de la losa de cimentación de concreto que apoya la torre sobre pilotes"},
+    {"valor": "10 mil · 12 mil", "rotulo": "obreros en el pico de la obra, según la fuente; el total que pasó por la obra no quedó registrado"},
+    {"valor": "US$ 1.500 M", "rotulo": "costo de la torre anunciado en la inauguración"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "Ser el edificio más alto del mundo y el centro del Downtown Burj Dubai, un barrio entero de la promotora inmobiliaria Emaar, en un momento en que Dubái apostaba por la construcción para convertirse en centro de negocios y turismo. La altura final fue secreta hasta la inauguración."},
+    {"item": "Quién lo quiso", "valor": "La promotora inmobiliaria Emaar Properties, presidida por Mohamed Alabbar. La torre se llamó Burj Dubai durante toda la obra."},
+    {"item": "Proyecto", "valor": "Skidmore, Owings & Merrill (SOM), de Chicago: el arquitecto Adrian Smith y el ingeniero estructural William F. Baker. Planta en Y, con un núcleo hexagonal apuntalado por tres alas, y retranqueos en espiral. Hyder Consulting fue el ingeniero responsable registrado; los ensayos de viento los hizo RWDI, en Canadá."},
+    {"item": "Quién lo construyó", "valor": "Un consorcio liderado por la surcoreana Samsung C&T, con la belga BESIX y la emiratí Arabtec. Gerencia del proyecto a cargo de la estadounidense Turner."},
+    {"item": "Plazo", "valor": "Excavación en enero de 2004; losa de cimentación hormigonada en una ceremonia el 20/09/2004; contrato de Samsung anunciado en diciembre de 2004; edificio más alto del mundo el 21/07/2007, con 141 pisos; coronación en enero de 2009; inauguración el 04/01/2010.", "nota": "algunas fuentes dan el 21/09/2004 como inicio de la construcción; la ceremonia de la losa, el contrato de Samsung y la fecha de coronación aparecen cada uno en una sola fuente"},
+    {"item": "Altura y pisos", "valor": "828 m de altura arquitectónica y 829,8 m hasta la punta, según el Council on Tall Buildings and Urban Habitat. Son 163 pisos según el mismo consejo, 162 según SOM y Turner.", "nota": "la altura es consenso; el número de pisos no"},
+    {"item": "Obreros", "valor": "En el pico, 12 mil según Associated Press y más de 12 mil, de más de 100 países, según Turner; Gulf News habló de 10 mil, de 59 empresas; en julio de 2007, Architectural Record contaba 6.800. Eran sobre todo migrantes del sur de Asia: India, Pakistán, Bangladés y Nepal. El total de personas que pasaron por la obra no quedó registrado.", "nota": "las cifras son de fechas distintas; Turner, gerente del proyecto, habla de 22 millones de horas-hombre"},
+    {"item": "Salarios y huelgas", "valor": "En 2006, según la AFP, los carpinteros ganaban US$ 7,60 por día y los peones, US$ 4. El 21/03/2006, unos 2.500 obreros se rebelaron en la obra. En 2007, obreros de Arabtec, con un promedio de 700 dírhams (US$ 190) al mes, hicieron huelga por un aumento. Las huelgas y los sindicatos están prohibidos en los Emiratos.", "nota": "los valores de salario vienen de una sola agencia en cada caso"},
+    {"item": "Muertes en la construcción", "valor": "No hay registro público de un total oficial. La prensa del Golfo informó de dos muertes durante la obra: un obrero que cayó del encofrado el 15/06/2007, muerte confirmada por Emaar, y el obrero Qiwen Li, aplastado por un panel de la fachada el 20/05/2008.", "nota": "la muerte de 2008 aparece en una sola fuente; la cifra de una sola muerte oficial que circula en internet no tiene documento"},
+    {"item": "Costo", "valor": "US$ 1.500 millones por la torre, según Associated Press en la inauguración; Architectural Record hablaba de US$ 1.400 millones en 2007, con la obra en curso.", "nota": "según el índice de precios al consumidor de EE. UU. (2010 = 218,1; 2025 = 321,9), US$ 1.500 millones de 2010 equivalen a unos US$ 2.200 millones de 2025"},
+    {"item": "Cimentación", "valor": "Losa de cimentación de concreto de 3,7 m de espesor sobre pilotes excavados de 1,5 m de diámetro y unos 43 m de largo, que trabajan por fricción en una roca débil. Son 194 pilotes según los ingenieros de SOM y 192 en otras fuentes.", "nota": "espesor, diámetro y largo coinciden; el número de pilotes no"},
+    {"item": "Agua en el subsuelo", "valor": "Con hasta un 4,5% de cloruros y un 0,6% de sulfatos, más agresiva que el agua de mar, según SOM. La cimentación recibió una impermeabilización especial, inhibidor de corrosión en el concreto y protección catódica con malla de titanio y corriente eléctrica.", "nota": "según el artículo de los ingenieros de SOM en el congreso del CTBUH de 2008"},
+    {"item": "Concreto", "valor": "Muros de concreto de 80 MPa abajo, que bajan a 60 MPa en los pisos altos. Todo el hormigonado vertical se hizo de noche; en verano, casi toda el agua de la mezcla era hielo en escamas. Bombeado en una sola etapa a 601 m, según el ingeniero del concreto James Aldred, o a 606 m, según el fabricante de la bomba, Putzmeister.", "nota": "el hormigonado nocturno está en dos fuentes; el hielo, en una"},
+    {"item": "La crisis y el nombre", "valor": "El 14/12/2009, Abu Dabi le dio a Dubái US$ 10.000 millones para que la estatal Dubai World pagara deudas. En la inauguración, la torre cambió de nombre y pasó a homenajear al jeque Khalifa bin Zayed Al Nahyan, gobernante de Abu Dabi y presidente de los Emiratos.", "nota": "Associated Press habla de US$ 25.000 millones de Abu Dabi en el último año, sumando más de una operación"},
+    {"item": "Hoy", "valor": "En octubre de 2026, seguía siendo el edificio más alto del mundo. La Jeddah Tower, en Arabia Saudita, diseñada por el mismo Adrian Smith, tenía 454 m y 113 pisos el 02/09/2026, según Arabian Business, y quiere superar los 1.000 m en 2028."}
+  ],
+  "historia": [
+    {
+      "titulo": "Una altura en secreto",
+      "paragrafos": [
+        "Cuando Emaar empezó a excavar el terreno, en enero de 2004, el edificio que acababa de convertirse en el más alto del mundo era el Taipei 101, en Taiwán, con 509 metros, inaugurado a fines de ese año. La torre de Dubái sería el centro de un barrio entero, el Downtown Burj Dubai, con centro comercial, lago artificial y edificios de departamentos, y tenía que superar al Taipei con holgura. Por cuánto, nadie lo decía. En 2008, los propios ingenieros escribieron que la altura final era un secreto bien guardado.",
+        "El proyecto salió del estudio Skidmore, Owings & Merrill, de Chicago. El arquitecto Adrian Smith dibujó una planta de tres brazos que, según SOM, se inspiraba en una flor del desierto y en la imagen espiral de la arquitectura islámica. La obra se adjudicó a un consorcio liderado por la surcoreana Samsung C&T, con la belga BESIX y la emiratí Arabtec, después de once meses de licitación, según Gulf News."
+      ]
+    },
+    {
+      "titulo": "Confundir al viento",
+      "paragrafos": [
+        "A más de 500 metros, el enemigo de un edificio no es el peso, es el viento. Cuando el aire rodea una torre, forma remolinos que se desprenden ora de un lado, ora del otro, y empujan el edificio de costado con un ritmo regular. Si ese ritmo se repite del suelo a la cima, la torre oscila. El ingeniero William F. Baker, de SOM, respondió con una estructura que llamó núcleo apuntalado: un núcleo hexagonal de concreto en el centro y tres alas, cada una con sus muros y columnas, apoyándose unas en otras como las patas de un trípode.",
+        "Las alas no suben iguales. Se retranquean en espiral, en el sentido de las agujas del reloj, y el ancho de la torre cambia con cada retranqueo. En palabras de Baker y sus colegas, la ventaja de la forma es confundir al viento: los remolinos nunca llegan a organizarse, porque en cada nivel el viento encuentra un edificio distinto. Los ensayos se hicieron en el túnel de viento de RWDI, en Guelph, Canadá, con modelos casi todos a escala de 1 a 500. Después de cada serie de ensayos, según los ingenieros, se analizaban los datos y se rediseñaba el edificio; cambiaron el número de retranqueos, la separación entre ellos y la forma de las alas."
+      ]
+    },
+    {
+      "titulo": "Roca débil y agua más salada que el mar",
+      "paragrafos": [
+        "Debajo de la arena de Dubái no hay roca firme a poca profundidad, sino arenisca y limolita débiles. La investigación del terreno llegó a una perforación de 140 metros. La solución fue una losa de cimentación de concreto armado de 3,7 metros de espesor, hormigonada en cuatro etapas de al menos 24 horas cada una, sobre pilotes excavados de 1,5 metros de diámetro y unos 43 metros de largo. No llegan a una roca dura: sostienen la torre por la fricción con el suelo que los rodea. Los ingenieros de SOM hablan de 194 pilotes; otras fuentes, de 192.",
+        "Lo peor era el agua. Según SOM, el agua del subsuelo tenía hasta un 4,5% de cloruros y un 0,6% de sulfatos, concentraciones mayores que las del agua de mar, que corroen el acero de las armaduras y deshacen el concreto común. La cimentación llevó impermeabilización especial, un recubrimiento de concreto más grueso sobre la armadura, inhibidor de corrosión en la mezcla y un sistema de protección catódica: una malla de titanio bajo la losa, conectada a una corriente eléctrica que hace que el metal de la estructura deje de ser el lado que se oxida."
+      ]
+    },
+    {
+      "titulo": "Concreto de noche, con hielo",
+      "paragrafos": [
+        "La torre es de concreto armado hasta unos 586 metros, y solo por encima de eso pasa a ser de acero. Llevar concreto hasta allá arriba, en el verano del Golfo, era otro problema: la temperatura supera los 50 °C a la sombra, y el concreto de alta resistencia puede fraguar de golpe dentro del tubo y taparlo. Una prueba en febrero de 2005 bombeó concreto por 600 metros de tubo tendido en el suelo, para medir la fricción antes de subir.",
+        "En la obra, todo el hormigonado de muros y columnas se hizo de noche. Según el ingeniero James Aldred, de GHD, la temperatura máxima permitida era de 33 °C, y en verano casi toda el agua de la mezcla era hielo en escamas. Tres bombas Putzmeister, conectadas a tubos de acero de 150 milímetros, empujaban el concreto con una presión de trabajo de 250 bar, que podía llegar a 350 o 400. Aldred registró 601 metros en una sola etapa, récord mundial; el fabricante habla de 606 metros, hasta el piso 156. El récord anterior de bombeo vertical, según Aldred, era de 532 metros, en una central hidroeléctrica italiana en 1994.",
+        "Con encofrados autotrepantes y armadura montada en el suelo en tramos de ocho metros, la estructura subió, en promedio, un piso cada tres días en 2007, según Architectural Record. El 21 de julio de 2007, con 141 pisos y 512,1 metros, Emaar anunció que el Burj Dubai pasaba a ser el edificio más alto del mundo. La torre todavía subiría más de 300 metros."
+      ]
+    },
+    {
+      "titulo": "Quién levantó la torre",
+      "paragrafos": [
+        "En el pico, había unas 12 mil personas en la obra, según Associated Press y Turner, gerente del proyecto; Gulf News habló de 10 mil, y Architectural Record contaba 6.800 en julio de 2007. Eran, en gran parte, migrantes del sur de Asia, de India, Pakistán, Bangladés y Nepal. En 2006, según la agencia AFP, un carpintero ganaba US$ 7,60 por día y un peón, US$ 4. Un informe de Human Rights Watch de ese año sobre la construcción en los Emiratos describió a obreros que pagaban hasta US$ 3.000 a agencias de reclutamiento y a quienes el patrón les retenía el pasaporte.",
+        "El 21 de marzo de 2006, unos 2.500 obreros de Al Naboodah Laing O'Rourke, que trabajaban en la obra del Burj y de los edificios de alrededor, se rebelaron al final del turno, destrozaron oficinas y destruyeron autos y máquinas. Al día siguiente volvieron y se cruzaron de brazos. En octubre de 2007 les tocó a los obreros de Arabtec, con un salario promedio de 700 dírhams al mes, en un país donde las huelgas y los sindicatos están prohibidos.",
+        "Cuántos murieron, no hay registro público. No se encontró publicado ningún total de Emaar ni del consorcio. La prensa del Golfo informó de dos muertes durante la obra: el 15 de junio de 2007, un obrero cayó del encofrado, y Emaar confirmó la muerte diciendo que no había habido violación de las normas de seguridad; el 20 de mayo de 2008, según Arabian Business, el obrero Qiwen Li murió aplastado por un panel de la fachada. El mismo informe de Human Rights Watch mostraba que, en los Emiratos de aquella época, la municipalidad de Dubái registraba algunas decenas de muertes por año en la construcción, mientras que un recuento independiente contó 880 muertes de migrantes en el país en 2004."
+      ]
+    },
+    {
+      "titulo": "La crisis y el nombre",
+      "paragrafos": [
+        "En enero de 2009 la torre llegó a la cima. Pero Dubái estaba en crisis. En noviembre de 2009 la estatal Dubai World pidió una moratoria de sus deudas, y el 14 de diciembre el emirato vecino de Abu Dabi entregó US$ 10.000 millones para que pagara US$ 4.100 millones en bonos que vencían ese día.",
+        "Tres semanas después, el 4 de enero de 2010, el jeque Mohammed bin Rashid Al Maktoum inauguró la torre y anunció el nombre: Burj Khalifa, en homenaje al jeque Khalifa bin Zayed Al Nahyan, gobernante de Abu Dabi y presidente de los Emiratos. La prensa leyó el cambio como gratitud por el rescate. Solo entonces se reveló la altura: 828 metros. La torre costó US$ 1.500 millones, según Associated Press."
+      ]
+    },
+    {
+      "titulo": "El autor contra su propia torre",
+      "paragrafos": [
+        "En enero de 2025, después de unos siete años parada, se reanudó en Yeda, Arabia Saudita, la obra de la Jeddah Tower, que quiere superar los 1.000 metros. El proyecto es del estudio Adrian Smith + Gordon Gill, del mismo Adrian Smith que diseñó el Burj Khalifa en SOM. Según Thornton Tomasetti, ingeniería de la obra, la torre saudí tiene estructura de concreto y una losa de cimentación de 5 metros sobre 270 pilotes.",
+        "El 2 de septiembre de 2026, según Arabian Business, llegó a 454 metros y 113 pisos, subiendo alrededor de un piso por semana, con conclusión prevista para 2028. En esa fecha, le faltaban más de 370 metros para alcanzar al Burj Khalifa. Si llega, el edificio más alto del mundo perderá el título ante una obra de su propio autor."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Oficialmente, solo un obrero murió en la construcción del Burj Khalifa.",
+      "registro": "No existe un documento público con ese total. No se encontró ninguna cifra publicada por Emaar ni por el consorcio. La prensa del Golfo informó de dos muertes durante la obra, en junio de 2007 y en mayo de 2008."
+    },
+    {
+      "circula": "El concreto del Burj Khalifa batió el récord de bombeo que tenía el Taipei 101.",
+      "registro": "Según el ingeniero del concreto de la obra, James Aldred, el récord de bombeo vertical antes del Burj era de 532 metros, en una central hidroeléctrica italiana en 1994. El Taipei 101 había bombeado concreto a más de 470 metros. El Burj llevó el récord a 601 o 606 metros, según la fuente."
+    },
+    {
+      "circula": "La altura de 828 metros estaba definida y anunciada desde el principio.",
+      "registro": "La altura final fue un secreto de Emaar durante la obra; los ingenieros de SOM la llamaban, en 2008, un secreto bien guardado. Solo se reveló en la inauguración, en enero de 2010."
+    },
+    {
+      "circula": "La torre lleva el nombre de Khalifa porque Abu Dabi pagó la obra.",
+      "registro": "Abu Dabi rescató al gobierno de Dubái y a la estatal Dubai World en 2009, con US$ 10.000 millones, para pagar deudas de Nakheel, empresa del grupo Dubai World. La torre es de Emaar. La relación entre el nombre y el rescate fue la lectura de la prensa en la inauguración."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuándo se construyó el Burj Khalifa?", "r": "Entre 2004 y 2010. La excavación comenzó en enero de 2004, la torre llegó a la cima en enero de 2009 y se inauguró el 04/01/2010; durante toda la obra se llamó Burj Dubai."},
+    {"p": "¿Cuántos metros mide el Burj Khalifa y cuántos pisos tiene?", "r": "828 m de altura arquitectónica, la mayor del mundo desde 2010, y 829,8 m hasta la punta. El número de pisos varía: 163 según el Council on Tall Buildings and Urban Habitat, 162 según SOM y Turner."},
+    {"p": "¿Cómo se construyó el Burj Khalifa?", "r": "Sobre una losa de cimentación de concreto de 3,7 m apoyada en pilotes que trabajan por fricción en una roca débil, con planta en Y y retranqueos en espiral para confundir al viento. El concreto de los muros se hizo de noche, con hielo en la mezcla en verano, y se bombeó a 601 o 606 m, según la fuente."},
+    {"p": "¿Cuánto costó el Burj Khalifa?", "r": "US$ 1.500 millones por la torre, según Associated Press en la inauguración. En 2007, con la obra en curso, Architectural Record hablaba de US$ 1.400 millones."},
+    {"p": "¿Cuántas personas murieron en la construcción del Burj Khalifa?", "r": "No hay registro público de un total, ni de Emaar ni del consorcio. La prensa del Golfo informó de dos muertes durante la obra: un obrero que cayó del encofrado el 15/06/2007 y el obrero Qiwen Li, aplastado por un panel de la fachada el 20/05/2008."}
+  ],
+  "fontes": [
+    {"texto": "William F. Baker, D. Stanton Korista y Lawrence C. Novak (SOM), “Engineering the World's Tallest — Burj Dubai”, CTBUH 8th World Congress, Dubái, 2008"},
+    {"texto": "James Aldred (GHD), “Pumping concrete to 601 metres in a single lift”, 2008"},
+    {"texto": "Lawrence C. Novak, “A Tall Adventure: The Burj Khalifa, the World's Tallest Structure”, Building Safety Journal, International Code Council"},
+    {"texto": "Council on Tall Buildings and Urban Habitat, The Skyscraper Center, “Burj Khalifa”"},
+    {"texto": "Skidmore, Owings & Merrill, “Burj Khalifa”"},
+    {"texto": "Turner Construction, “Burj Khalifa”"},
+    {"texto": "Putzmeister, “Concrete Pumps Reach Record-Breaking Heights at Burj Khalifa”, Pumps & Systems, 2015"},
+    {"texto": "Associated Press, “World's tallest building opens in Dubai”, enero de 2010"},
+    {"texto": "David Sadighian, “Burj Dubai Breaks Record... and Keeps Going”, Architectural Record, 24/07/2007"},
+    {"texto": "Gulf News, “Samsung gets Burj Dubai contract”, 09/12/2004"},
+    {"texto": "Gulf News, Aya Lowe, “Keeping the Burj Dubai site safe for workers”"},
+    {"texto": "Gulf News, “Burj Dubai renamed as Burj Khalifa”, 04/01/2010"},
+    {"texto": "Al Jazeera y AFP, “Asian workers riot in Dubai”, 23/03/2006"},
+    {"texto": "Al Jazeera, “Burj Dubai owners say strike over”, 12/11/2007"},
+    {"texto": "Human Rights Watch, “Building Towers, Cheating Workers: Exploitation of Migrant Construction Workers in the United Arab Emirates”, 2006"},
+    {"texto": "Construction Week, “Worker dies after fall on Burj Dubai”, junio de 2007"},
+    {"texto": "Arabian Business, “Burj worker crushed to death”, mayo de 2008"},
+    {"texto": "CNN, “Abu Dhabi gives Dubai $10 billion bailout”, 14/12/2009"},
+    {"texto": "Arabian Business, “Jeddah Tower set to become world's tallest building as construction advances towards 2028 completion”, septiembre de 2026"},
+    {"texto": "Adam Williams, “Future world's tallest skyscraper surpasses 100 floors in Saudi Arabia”, New Atlas, 04/06/2026"},
+    {"texto": "TechEBlog, “Jeddah Tower Crosses 430 Meters and Presses On Toward the One-Kilometer Mark”, 05/08/2026"},
+    {"texto": "U.S. Bureau of Labor Statistics, índice de precios al consumidor (CPI-U), promedios anuales de 2010 y 2025"},
+    {"texto": "Wikipedia, “Burj Khalifa” (punto de partida)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Vista aérea de una torre altísima en construcción, todavía sin fachada en la parte superior, que proyecta una sombra larga sobre un barrio de edificios nuevos, obras y el desierto al fondo",
+      "legenda": "La torre en obra vista desde un avión, en marzo de 2008, cuando ya era el edificio más alto del mundo y la altura final todavía era secreta.",
+      "autor": "Aheilner"
+    },
+    {
+      "alt": "La base de la torre en obra, con el núcleo de concreto y grúas en lo alto, en diciembre de 2005",
+      "legenda": "Diciembre de 2005, primer año de la estructura: el núcleo y las alas suben juntos, con las grúas montadas en lo alto.",
+      "autor": "Soonadracula"
+    },
+    {
+      "alt": "La torre vista desde el suelo contra el cielo azul, con paneles de vidrio plateado solo en la parte de abajo, el concreto a la vista por encima y grúas en lo alto; una señal de tránsito y un viaducto en primer plano",
+      "legenda": "Diciembre de 2007: la fachada de vidrio subía unos pisos por debajo del concreto, que iba adelante con las grúas.",
+      "autor": "Joi Ito"
+    },
+    {
+      "alt": "La parte superior de la torre en concreto, todavía en obra, con dos grúas altas y andamios, sobre una llanura de desierto y carreteras vistas desde arriba",
+      "legenda": "La cima de concreto en marzo de 2008, con las grúas que subían junto con la estructura.",
+      "autor": "Aheilner"
+    },
+    {
+      "alt": "Obreros con overoles naranjas y rojos sentados en el piso de una terraza alta, a la sombra de un murete, con la torre en construcción al fondo entre la bruma",
+      "legenda": "Obreros de la construcción de Dubái en la pausa del almuerzo, en junio de 2008, con la torre al fondo.",
+      "autor": "Piotr Zarobkiewicz"
+    },
+    {
+      "alt": "Camellos corriendo en una pista de arena en primer plano, con torres de alta tensión y edificios al fondo y la torre en construcción, con grúas en lo alto, destacándose entre la bruma",
+      "legenda": "Carrera de camellos en la pista de Nad Al Sheba, en marzo de 2007, con la torre en obra detrás.",
+      "autor": "Ryan Lackey"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "_nota": "Traducción fiel de ../18-farol-de-bell-rock.json. Campos fijos vienen del original.",
+  "obra": "Faro de Bell Rock",
+  "titulo_seo": "Cómo se construyó el Faro de Bell Rock (1807–1811)",
+  "titulo_video": null,
+  "lugar": "Arrecife de Bell Rock (Inchcape), mar del Norte, frente a Arbroath, Angus, Escocia, Reino Unido",
+  "periodo": "1807–1811",
+  "impossivel": "Levantar una torre de piedra de unos 35 metros sobre un arrecife que el mar cubre dos veces al día, a unos 18 kilómetros de la costa, trabajando solo en verano y, al principio, apenas unas dos horas en cada marea baja.",
+  "resumo": "Cómo se levantó entre 1807 y 1811 el Faro de Bell Rock, torre de piedras ensambladas, en un arrecife que cubre el mar del Norte, y quién merece el crédito.",
+  "abertura": [
+    "A unos 18 kilómetros de Arbroath, en la costa este de Escocia, en el Reino Unido, hay un arrecife que solo aparece con la marea baja. Se llama Bell Rock, o Inchcape, y hundía barcos en el camino hacia los estuarios del Tay y del Forth. En 1806, el Parlamento británico autorizó un faro de piedra plantado encima de él.",
+    "La torre se encendió el 01/02/1811 y sigue encendida. Es el faro marino más antiguo del mundo todavía en funcionamiento, construido piedra por piedra, con bloques encajados unos en otros en cola de milano, por hombres que solo podían trabajar mientras la marea lo permitía. Y hasta hoy se discute quién lo proyectó: Robert Stevenson, que lo construyó, o John Rennie, que era el ingeniero jefe."
+  ],
+  "numeros": [
+    {"valor": "01/02/1811", "rotulo": "la primera noche encendido, después de cuatro años de obra"},
+    {"valor": "2 horas", "rotulo": "de trabajo en cada marea baja, al principio de la obra"},
+    {"valor": "35 a 36 m", "rotulo": "de altura, según la fuente"},
+    {"valor": "£61.331", "rotulo": "de costo neto, frente a un presupuesto de unas £42.000"},
+    {"valor": "3", "rotulo": "hombres muertos en la obra, según el diario del ingeniero; otras fuentes cuentan al menos dos"},
+    {"valor": "1988", "rotulo": "el año en que los últimos fareros dejaron la torre"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "El arrecife queda cubierto con la marea alta y hundía barcos en la entrada de los estuarios del Tay y del Forth. Una tormenta en diciembre de 1799 se llevó unas 70 embarcaciones en la costa de Fife y Angus, y el naufragio del buque de guerra HMS York, con 491 hombres, se atribuyó al arrecife.", "nota": "la fecha del York aparece como 1799, 1803 o 1804, según la fuente"},
+    {"item": "Quién lo quiso", "valor": "Los comisionados de los Faros del Norte, hoy Northern Lighthouse Board. Robert Stevenson, ingeniero del organismo, propuso la torre de piedra después de visitar el arrecife en 1800. Una primera ley fracasó en la Cámara de los Lores en 1803; la segunda se aprobó en 1806, con un préstamo del gobierno.", "nota": "el préstamo de £25.000 aparece en una sola fuente"},
+    {"item": "Proyecto", "valor": "El 03/12/1806, el organismo nombró a John Rennie ingeniero jefe y a Stevenson su asistente, que dirigió la obra en el arrecife. El libro que Stevenson publicó en 1824 casi no le da crédito a Rennie, y la disputa entre las dos familias duró más de un siglo. El organismo de patrimonio escocés registra a Stevenson como proyectista y a Rennie como ingeniero consultor."},
+    {"item": "El modelo", "valor": "El faro de Eddystone, de John Smeaton, cerca de Plymouth, en Inglaterra (1759): una torre de piedra en la que cada hilada se ensambla en cola de milano. El barco de 40 toneladas construido para llevar las piedras al arrecife se llamó Smeaton, en su honor."},
+    {"item": "Cómo se sostiene", "valor": "Las piedras de cada hilada encajan unas en otras en cola de milano, del centro hacia afuera, y las hiladas se unen entre sí con clavijas de roble, cuñas y tacos de piedra. La base se asentó en un pozo excavado en el propio arrecife. Los primeros 30 pies (unos 9 m) son macizos."},
+    {"item": "Material", "valor": "Granito de Aberdeen en el revestimiento exterior de las primeras hiladas y arenisca en el núcleo y en el resto de la torre, según Stevenson. Las fuentes citan piedra de Aberdeen, Mylnefield (Dundee) y Craigleith (Edimburgo).", "nota": "el nombre de la cantera de arenisca varía entre las fuentes"},
+    {"item": "Plazo", "valor": "Trabajo en el arrecife a partir del 18/08/1807; primera piedra el 10/07/1808; parte maciza terminada el 25/08/1809; última piedra en el verano de 1810; encendido el 01/02/1811. Piedras asentadas solo en los veranos de 1808, 1809 y 1810.", "nota": "las fechas exactas vienen del diario de Stevenson; el año de inicio, la parte maciza de 30 pies y el encendido los confirman otras fuentes; la última piedra aparece como 30/07 o 02/09/1810"},
+    {"item": "Marea", "valor": "Al principio, unas dos horas de trabajo en cada marea baja. En 1810, con la torre ya por encima del agua, la jornada llegó a nueve horas, según Stevenson."},
+    {"item": "Obreros", "valor": "24 artesanos en el primer embarque, en agosto de 1807; 60 en el taller de Arbroath en mayo de 1808; hasta 52 personas a la vez sobre el arrecife; 31 viviendo en el barracón de madera en junio de 1810. El total de hombres que pasaron por la obra no quedó registrado con certeza.", "nota": "cifras del diario de Stevenson"},
+    {"item": "Salario", "valor": "3 chelines y 4 peniques por día, más 6 peniques por hora extra. En 1810, trabajando también los domingos, los artesanos sacaban más de dos guineas por semana, según Stevenson."},
+    {"item": "Muertes", "valor": "Tres, en el diario de Stevenson: el marinero James Scott, de 18 años, ahogado en el arrecife en septiembre de 1808; el peón William Walker, aplastado por una piedra en el taller de Arbroath en julio de 1809; y el herrero Charles Henderson, que cayó de la escala de cuerda entre el barracón y la torre en 1810.", "nota": "otras fuentes cuentan al menos dos muertes y describen la de Henderson en una tormenta"},
+    {"item": "Costo", "valor": "£61.331 9s. 2d. netos, según la rendición de cuentas de Stevenson; del gasto bruto de £77.089 se descontaron barcos, máquinas y barracas vendidos o transferidos y el buque faro. Los presupuestos eran de £41.844 (Rennie) y £42.685 (Stevenson).", "nota": "según el salario de la obra, el costo neto equivale a unos 368 mil jornales de artesano; no hay conversión confiable a libras de hoy"},
+    {"item": "Medidas", "valor": "Unos 35 o 36 m de altura, según la fuente; 42 pies (13 m) de diámetro en la base y 15 pies (4,5 m) en la cima; 96 escalones; unas 2.077 toneladas de piedra. El número de bloques aparece como 2.835, unos 2.800 o unos 2.500."},
+    {"item": "La luz", "valor": "Encendida el 01/02/1811, cuando se apagó el buque faro Pharos, fondeado al lado desde el 15/09/1807. La luz original tenía 24 reflectores y lámparas de aceite, giraba con un mecanismo de relojería y alternaba blanco y rojo. Hoy da un destello blanco cada 5 segundos, visible a 18 millas náuticas."},
+    {"item": "Accidentes posteriores", "valor": "El 15/12/1955, un helicóptero de la RAF chocó con el anemómetro de la cima y cayó al mar; los dos tripulantes murieron y la luz se apagó. El 03/09/1987, un incendio tomó los pisos de arriba, y los tres fareros fueron rescatados en helicóptero con la marea subiendo.", "nota": "el incendio de 1987 viene de una sola fuente, el diario The Courier"},
+    {"item": "Hoy", "valor": "Automatizado en octubre de 1988 y vigilado a distancia desde Edimburgo. En 2026, los Archivos Nacionales de Escocia expusieron documentos de la construcción, del 03/08 al 25/09, en Edimburgo.", "nota": "el día de la automatización aparece como 24 o 26/10/1988"}
+  ],
+  "historia": [
+    {
+      "titulo": "Un arrecife que desaparece dos veces al día",
+      "paragrafos": [
+        "Bell Rock es un arrecife de arenisca en el mar del Norte, a unos 18 kilómetros de Arbroath, en el condado de Angus, en Escocia, en el Reino Unido. Con la marea alta queda bajo cuatro a cinco metros de agua; con la baja, aparece durante algunas horas. Está en el camino de los barcos que entran en los estuarios del Tay, rumbo a Dundee, y del Forth, rumbo a Edimburgo. Una leyenda, repetida por los Archivos Nacionales de Escocia, dice que un abad de Arbroath colgó allí una campana de aviso en el siglo XIV, y que de ahí viene el nombre.",
+        "La campana no bastaba. En diciembre de 1799, una tormenta se llevó unas 70 embarcaciones en la costa de Fife y Angus. El naufragio del HMS York, un buque de guerra perdido con 491 hombres, se atribuyó al arrecife, y las fuentes no concuerdan sobre la fecha, que aparece como 1799, fines de 1803 o 1804. Robert Stevenson, ingeniero del organismo de los Faros del Norte, visitó el arrecife en 1800 y defendió una torre de piedra. La primera ley fracasó en la Cámara de los Lores en 1803. La segunda se aprobó en 1806."
+      ]
+    },
+    {
+      "titulo": "Quién diseñó la torre",
+      "paragrafos": [
+        "El 03/12/1806, el organismo decidió que la obra se haría bajo la dirección de John Rennie, nombrado ingeniero jefe, con Stevenson como asistente. En la práctica, Stevenson se quedó con el arrecife: vivió en los barcos y en el barracón, dirigió a los hombres y escribió el diario de obra. Rennie visitó el arrecife y envió instrucciones. Según la investigación del historiador Roland Paxton, publicada en 2011, fue Rennie quien dibujó el alzado y le dio a Stevenson los datos para trazar la curva del perfil de la torre, ancha abajo y delgada arriba.",
+        "En 1824, Stevenson publicó un libro sobre la obra, con grabados y cuentas, y en él Rennie aparece poco. Paxton descubrió que se recortaron cartas de los libros copiadores de Stevenson, y que un informe de Rennie de 1809 quedó fuera del libro, posiblemente a mediados del siglo XIX. Los hijos de ambos se disputaron el mérito hasta 1848, y las familias, durante mucho más tiempo. Hoy el organismo de patrimonio escocés registra el faro como proyecto de Stevenson, con Rennie como ingeniero consultor. Las dos lecturas siguen en pie."
+      ]
+    },
+    {
+      "titulo": "La cola de milano de Smeaton",
+      "paragrafos": [
+        "El modelo era el faro de Eddystone, que John Smeaton había levantado en 1759 sobre un peñasco frente a Plymouth, en Inglaterra. La idea de Smeaton era hacer que cada hilada de piedra funcionara como una sola pieza: los bloques tienen forma de cola de milano, más anchos en un extremo, y se traban unos con otros, del centro hacia el borde, como un rompecabezas. En Bell Rock fue igual, según el propio Stevenson, y además las hiladas se unían entre sí con clavijas de roble, cuñas y tacos de piedra.",
+        "La base no está pegada al arrecife: está dentro de él. Los hombres excavaron un pozo de cimentación en la roca, más hondo de lo previsto, y las primeras hiladas se asentaron allí, con mortero de puzolana. Los primeros 30 pies, unos 9 metros, son piedra maciza, granito de Aberdeen por fuera y arenisca por dentro. El resto es el peso: unas 2.078 toneladas, según las cuentas de Stevenson. Cada bloque se cortaba en tierra, en Arbroath, se montaba en una plataforma para probar el encaje y solo entonces se embarcaba. Según Stevenson, muchos bloques perdían la mitad de su volumen en el corte.",
+        "El barco de 40 toneladas que llevaba las piedras al arrecife se llamó Smeaton. Fue Stevenson quien sugirió el nombre, en homenaje al ingeniero cuyo relato, escribió, sería una especie de manual de la obra."
+      ]
+    },
+    {
+      "titulo": "Dos horas por marea",
+      "paragrafos": [
+        "La obra comenzó el 18/08/1807, cuando 24 artesanos desembarcaron en el arrecife. Solo se trabajaba en verano y, al principio, unas dos horas en cada marea baja. Los hombres vivían embarcados, sufrían mareos y, cuando la marea subía, volvían a los barcos. Un día de 1807, uno de los barcos se soltó de sus amarras con gente sobre el arrecife, y en el embarque siguiente 18 artesanos se negaron a ir.",
+        "La solución fue un barracón de madera sobre patas, levantado junto al lugar de la torre con vigas de 50 pies. Al principio servía de refugio y de fragua; a partir de 1809, los hombres pasaron a vivir allí, primero algunos, después 24, y en 1810 eran 31. Una escala de cuerda unía el barracón con la torre. Mientras tanto, un buque faro, el Pharos, permaneció fondeado cerca del arrecife desde el 15/09/1807 hasta la noche en que la torre se encendió.",
+        "La primera piedra se asentó el 10/07/1808. La parte maciza quedó terminada el 25/08/1809. En 1810, con la torre por encima del agua, la jornada llegó a nueve horas, y los artesanos, que ganaban 3 chelines y 4 peniques por día, más 6 peniques por hora extra, pasaron a sacar más de dos guineas por semana, según Stevenson. La Marina reclutaba por la fuerza en plena guerra contra Napoleón, y los hombres de la obra recibieron una medalla de protección para que no se los llevaran."
+      ]
+    },
+    {
+      "titulo": "Los tres que no volvieron",
+      "paragrafos": [
+        "El diario de Stevenson registra tres muertes. En septiembre de 1808, el marinero James Scott, de 18 años, amarraba un cabo a una boya cuando la cadena se soltó del fondo; la boya saltó, volcó el bote, y él, probablemente golpeado en la cabeza, fue arrastrado por la corriente. En julio de 1809, en el taller de Arbroath, una piedra resbaló del aparejo y cayó sobre el peón William Walker, que murió a las pocas horas y dejó esposa y dos hijos. En 1810, ya en el montaje de la linterna, el herrero Charles Henderson bajaba de la torre a oscuras, corriendo una carrera con un compañero, y cayó de la escala de cuerda. Nunca lo encontraron.",
+        "El organismo pagó una pensión a la madre de Scott y a la viuda de Walker. Otras fuentes hablan de al menos dos muertes y cuentan la de Henderson en una tormenta. El diario habla también de un hombre que quedó inválido en el taller y de otro que perdió un dedo."
+      ]
+    },
+    {
+      "titulo": "La cuenta y la luz",
+      "paragrafos": [
+        "Rennie había presupuestado la torre en £41.844, o £42.000, como él mismo redondeó. La rendición de cuentas de Stevenson llegó a £77.089 de gasto bruto y, descontado lo que se vendió o transfirió, incluido el buque faro, a £61.331 9s. 2d. netos, cerca de un 47% por encima del presupuesto de Rennie. Según el salario de la obra, la suma equivale a unos 368 mil jornales de artesano.",
+        "La última piedra se asentó en el verano de 1810: los Archivos Nacionales de Escocia dan el 30/07 para la última hilada, y el diario de Stevenson, el 02/09 para la última piedra. La luz se anunció en los periódicos en diciembre y se encendió el 01/02/1811. Eran 24 reflectores con lámparas de aceite, que giraban con un mecanismo de relojería y alternaban el blanco con el rojo. En 1819, el pintor J. M. W. Turner hizo una acuarela de la torre en medio de la tormenta para ilustrar el libro de Stevenson."
+      ]
+    },
+    {
+      "titulo": "Más de doscientos años en el mar",
+      "paragrafos": [
+        "En la Segunda Guerra Mundial, la torre fue ametrallada más de una vez y alcanzada por una bomba en 1941. El 15/12/1955, un helicóptero de la RAF que llevaba periódicos a los fareros golpeó con el rotor de cola el anemómetro de la cima y cayó al mar; los dos tripulantes murieron y la luz quedó fuera de servicio. El 03/09/1987, según el diario The Courier, de Dundee, una fuga de combustible se incendió en la cocina y el fuego tomó los pisos de arriba; los tres fareros bajaron al arrecife con la marea subiendo y fueron rescatados por un helicóptero.",
+        "En octubre de 1988, los últimos fareros dejaron la torre, que pasó a vigilarse desde Edimburgo. En 2026, los Archivos Nacionales de Escocia llevaron los documentos de la construcción a la exposición For the Safety of All, en Edimburgo, del 03/08 al 25/09. Bell Rock sigue allí, a unos 18 kilómetros de la costa, encendiéndose cada noche: el faro marino más antiguo del mundo todavía en funcionamiento."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Robert Stevenson proyectó y construyó el faro solo.",
+      "registro": "John Rennie fue nombrado ingeniero jefe en 1806, con Stevenson como asistente. La investigación del historiador Roland Paxton, publicada en 2011, atribuye a Rennie la curva del perfil; el libro de Stevenson de 1824 casi no lo menciona. El mérito se disputa desde entonces, y el organismo de patrimonio escocés registra a Stevenson como proyectista y a Rennie como consultor."
+    },
+    {
+      "circula": "La base del faro está fundida con la roca del arrecife.",
+      "registro": "No hay fusión. Se excavó un pozo de cimentación en el arrecife, las primeras hiladas se asentaron dentro de él con mortero, y las piedras se traban por el encaje en cola de milano, clavijas y tacos de piedra. El resto es peso: unas 2.077 toneladas."
+    },
+    {
+      "circula": "El encaje en cola de milano se inventó para Bell Rock.",
+      "registro": "Viene del faro de Eddystone, de John Smeaton (1759). El propio Stevenson escribió que siguió la manera de Eddystone."
+    },
+    {
+      "circula": "El faro se incendió en 1955.",
+      "registro": "En 1955, un helicóptero de la RAF chocó con la cima de la torre y cayó al mar, y murieron sus dos tripulantes, según el registro del Parlamento británico. El incendio fue en 1987, según el diario The Courier."
+    },
+    {
+      "circula": "Es el faro más antiguo del mundo.",
+      "registro": "Es el faro marino más antiguo, levantado sobre una roca batida por las olas, que sigue en funcionamiento. Hay faros en tierra firme mucho más viejos."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Quién construyó el Faro de Bell Rock?", "r": "Robert Stevenson dirigió la obra en el arrecife, pero en 1806 el organismo de los Faros del Norte nombró a John Rennie ingeniero jefe, con Stevenson como asistente. El mérito del proyecto se disputa hasta hoy: el organismo de patrimonio escocés registra a Stevenson como proyectista y a Rennie como ingeniero consultor."},
+    {"p": "¿Cómo se construyó el Faro de Bell Rock?", "r": "Piedra por piedra: los bloques se cortaban en Arbroath y encajan en cola de milano, como en el faro de Eddystone, de John Smeaton. La base se asentó en un pozo excavado en el propio arrecife, y al principio solo se trabajaba en verano, unas dos horas en cada marea baja."},
+    {"p": "¿Cuánto tiempo tomó construir el Faro de Bell Rock?", "r": "Unos cuatro años. El trabajo en el arrecife comenzó el 18/08/1807 y la torre se encendió el 01/02/1811; las piedras solo se asentaron en los veranos de 1808, 1809 y 1810."},
+    {"p": "¿Cuánto mide el Faro de Bell Rock?", "r": "Las fuentes difieren: unos 35 o 36 m. La torre tiene 13 m de diámetro en la base, 4,5 m en la cima y 96 escalones."},
+    {"p": "¿Cuántas personas murieron en la construcción del Faro de Bell Rock?", "r": "Las fuentes difieren. El diario de Stevenson registra tres muertes, la del marinero James Scott, la del peón William Walker y la del herrero Charles Henderson; otras fuentes cuentan al menos dos."}
+  ],
+  "fontes": [
+    {"texto": "Robert Stevenson, An Account of the Bell Rock Light-House, Edimburgo, 1824 (Project Gutenberg)"},
+    {"texto": "Northern Lighthouse Board, “Bell Rock”"},
+    {"texto": "National Library of Scotland, “Robert Stevenson and the building of Bell Rock Lighthouse”"},
+    {"texto": "National Records of Scotland, “'A ruddy gem of changeful light': the Bell Rock Lighthouse”, 2026"},
+    {"texto": "The Rochester Bridge Trust, “John Rennie – Bell Rock Lighthouse” (basado en Roland Paxton, Dynasty of Engineers, 2011)"},
+    {"texto": "Historic Environment Scotland, Bell Rock Lighthouse, LB45197"},
+    {"texto": "Cámara de los Comunes, “Helicopter Crash, Bell Rock Lighthouse”, Hansard, 20/12/1955"},
+    {"texto": "Encyclopaedia Britannica, 11.ª ed., artículo “Lighthouse”, 1911"},
+    {"texto": "The Courier, “When the Bell Rock Lighthouse fire left keepers trapped with waters rising”"},
+    {"texto": "Midlothian View, “Talks to shine a light on Scotland's lighthouses”, 29/06/2026"}
+  ],
+  "imagens": [
+    {
+      "alt": "Faro blanco de piedra con linterna oscura en lo alto y base ancha y oscura, sobre un arrecife bajo casi a ras del agua en calma, bajo un cielo gris azulado",
+      "legenda": "La torre y el arrecife expuesto con la marea baja, en 2013. Con la marea alta, el agua cubre la roca y llega hasta la base oscura.",
+      "autor": "Kognos"
+    },
+    {
+      "alt": "Grabado en blanco y negro: la torre de piedra casi terminada, con una grúa en lo alto, unida por un puente de madera a un barracón sobre patas de madera; hombres en el arrecife y botes de remo en el mar",
+      "legenda": "La obra en el arrecife: la torre, el barracón de madera donde vivían los hombres y el puente entre ambos. Grabado de William Miller sobre una pintura de Alexander Carse, publicado en el libro de Stevenson en 1824.",
+      "autor": "William Miller, según dibujo de G. C. Scott y pintura de Alexander Carse"
+    },
+    {
+      "alt": "Lámina técnica en blanco y negro con tres fases de la obra: la base con grúas en 1808, la base cónica con la escala de cuerda en 1809 y, a la derecha, la torre en corte, con pisos, escalera de caracol y grúa en lo alto, en 1810",
+      "legenda": "La obra en septiembre de 1808, agosto de 1809 y julio de 1810. Lámina IX del libro de Stevenson, grabada por William Miller sobre un dibujo de J. Slight.",
+      "autor": "William Miller, según dibujo de J. Slight"
+    },
+    {
+      "alt": "Acuarela: olas enormes y espuma blanca que suben por la torre del faro bajo un cielo oscuro de tormenta, con un velero escorado a la izquierda",
+      "legenda": "El faro en la tormenta, acuarela de J. M. W. Turner, de 1819, hecha para el grabado del libro de Stevenson.",
+      "autor": "J. M. W. Turner"
+    },
+    {
+      "alt": "Faro blanco con la base de piedra oscurecida y húmeda sobre un arrecife bajo, bajo un cielo azul despejado y un mar azul oscuro",
+      "legenda": "La torre en 2022. La parte oscura de abajo es la mampostería maciza que cubre la marea.",
+      "autor": "Ralph Greig"
+    }
+  ]
+}

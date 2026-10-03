@@ -1,0 +1,138 @@
+{
+  "_nota": "Traducción fiel de ../05-usina-de-itaipu.json. Campos fijos vienen del original.",
+  "obra": "Central Hidroeléctrica de Itaipú",
+  "titulo_seo": "Cómo se construyó la represa de Itaipú (1975–1984)",
+  "titulo_video": "Itaipú: sacaron el río de su lugar, y en 14 días desapareció una cascada",
+  "lugar": "Río Paraná, entre Foz do Iguaçu, Brasil, y Hernandarias, Paraguay",
+  "periodo": "1975–1984",
+  "impossivel": "Sacar el río Paraná de su propio cauce para levantar, en seco, una represa de 196 m de altura que pertenece en partes iguales a dos países.",
+  "resumo": "Cómo Brasil y Paraguay desviaron el río Paraná, levantaron Itaipú y cubrieron Sete Quedas en 14 días, y por qué la cifra de muertos sigue siendo estimada.",
+  "abertura": [
+    "En octubre de 1982 se cerraron las compuertas de una represa en el río Paraná. En 14 días, el agua subió hasta cubrir los saltos de Sete Quedas, una de las mayores cataratas del mundo por volumen de agua. Cuatro años antes, los mismos constructores habían hecho lo contrario: sacar el río de su cauce para trabajar en seco.",
+    "La Central Hidroeléctrica de Itaipú está entre Foz do Iguaçu, en Brasil, y Hernandarias, en Paraguay, y es mitad de cada país, por tratado. Esta página cuenta cómo se levantó, quién quedó en el camino y qué sigue sin tener hasta hoy un número firme."
+  ],
+  "numeros": [
+    {"valor": "7.919 m", "rotulo": "longitud total de la represa, sumados todos los tramos"},
+    {"valor": "196 m", "rotulo": "altura máxima de la represa"},
+    {"valor": "14.000 MW", "rotulo": "potencia, en 20 unidades de 700 MW"},
+    {"valor": "1.350 km²", "rotulo": "superficie del embalse"},
+    {"valor": "14 días", "rotulo": "para que se formara el lago y cubriera Sete Quedas, en octubre de 1982"},
+    {"valor": "+ de 100 mil", "rotulo": "trabajadores que pasaron por la obra, con la rotación"}
+  ],
+  "ficha": [
+    {"item": "Contexto", "valor": "En la década de 1960, Brasil y Paraguay se disputaban la zona de Sete Quedas, en la frontera. El Acta de Iguazú, del 22/06/1966, firmada en Foz do Iguaçu por los cancilleres Juracy Magalhães y Raúl Sapena Pastor, cerró la crisis y previó estudiar el aprovechamiento del río Paraná hasta la desembocadura del Iguazú."},
+    {"item": "Tratado", "valor": "Tratado de Itaipú, 26/04/1973, Brasilia, Brasil, firmado por Mário Gibson Barboza y Raúl Sapena Pastor. Crea una entidad binacional con un capital de US$ 100 millones en partes iguales (Eletrobras y ANDE) y divide la energía en partes iguales.", "nota": "capital y división de la energía leídos en el texto del Tratado"},
+    {"item": "Entidad", "valor": "Itaipú Binacional, constituida el 17/05/1974."},
+    {"item": "Constructoras", "valor": "Unicon (obras civiles de la margen brasileña), Conempa (margen paraguaya) e Itamon/CIE (montaje electromecánico).", "nota": "la composición exacta de cada consorcio no fue comprobada"},
+    {"item": "Plazo", "valor": "Obras a partir de 1975; río desviado el 20/10/1978; compuertas cerradas el 13/10/1982; primera unidad generando el 05/05/1984; inauguración el 25/10/1984. La unidad 18 entró en 1991; la 19 y la 20, en 2006 y 2007.", "nota": "el mes de inicio en 1975 diverge: enero u octubre"},
+    {"item": "Obreros en el pico", "valor": "Casi 32 mil en la obra en 1978, según los registros de las constructoras citados por investigadores y por la Agência Pública; cerca de 40 mil, según Itaipú, contando la obra y las oficinas de apoyo en Brasil y en Paraguay."},
+    {"item": "Obreros en total", "valor": "Más de 100 mil pasaron por la obra; entre 1978 y 1981 se contrataban hasta 5 mil por mes. Cerca de 70% brasileños y 30% paraguayos.", "nota": "la proporción por país y las 5 mil contrataciones por mes vienen, cada una, de una sola fuente"},
+    {"item": "Condiciones", "valor": "Villas separadas por cargo; vigilancia sobre los trabajadores por una asesoría de seguridad vinculada a los órganos de información de la dictadura; jornadas de hasta 16 horas relatadas por extrabajadores, sin documento; huelgas con tropas en la obra en 1987."},
+    {"item": "Muertes de obreros", "valor": "106, estimación de la propia Itaipú para 1978–1984. Para 1975–1977 y 1985–1991 no hay número oficial. Otros conteos: 40 en 1975–1979 (tesis de Ivone Lima, 2004); 56 en 1976–1981, solo en Unicon (boletín del consorcio); 138 (libro de Tão Gomes Pinto, 2009); hasta 800 (extécnico de seguridad de la obra); cerca de mil (fuente anónima de Itaipú a la agencia EFE, 2013).", "nota": "el número 149, que circula en sitios en inglés, no tiene origen"},
+    {"item": "Accidentes", "valor": "43.530 accidentes de trabajo entre 1978 y 1984, brasileños y paraguayos, según una estimación de Itaipú. El 17/12/1981, un accidente con una grúa Peiner, durante el mantenimiento de la pluma, mató a 5 obreros."},
+    {"item": "Costo", "valor": "Cerca de US$ 12 mil millones (Memória da Eletricidade) o cerca de US$ 14 mil millones (Itaipú, que habla de US$ 16 mil millones con los intereses y la inflación del período), en dólares de la época. La deuda, saldada el 28/02/2023, sumó cerca de US$ 63 mil millones pagados, de los cuales 27,9 mil millones en cargos financieros: no es el costo de la obra.", "nota": "ningún valor convertido a dinero de hoy"},
+    {"item": "Material", "valor": "Más de 12 millones de m³ de concreto (Itaipú da 12,3, 12,6 y 12,7 millones); 481.074 t de acero; más de 50 millones de m³ de tierra y roca excavados.", "nota": "el acero es dato técnico de Itaipú, fuente única"},
+    {"item": "Máquinas", "valor": "20 unidades de 700 MW: 10 en 50 Hz, la frecuencia de Paraguay, y 10 en 60 Hz, la de Brasil."},
+    {"item": "Expropiados", "valor": "En Brasil, 8.519 propiedades (6.913 rurales y 1.606 urbanas), cerca de 101 mil hectáreas y cerca de 42 mil personas; otras fuentes hablan de 40 mil o 60 mil afectados. En Paraguay, el número de expropiados no indígenas no consta en las fuentes consultadas."},
+    {"item": "Avá-Guaraní", "valor": "En 1977, un grupo de trabajo de la Funai y del Incra reconoció solo 11 familias, 27 personas. En 2025, un acuerdo homologado en el STF prevé 3 mil hectáreas y R$ 240 millones de Itaipú; el 29/10/2025, la Unión, la Funai, el Incra e Itaipú publicaron un pedido de disculpas.", "nota": "el conteo de 1977 viene del informe de la Comisión Estatal de la Verdad de Paraná"},
+    {"item": "Después", "valor": "Récord mundial de producción anual en 2016, con 103.098.366 MWh, superado por la china Tres Gargantas en 2020. La revisión del Anexo C del Tratado, prevista a partir de 2023, seguía sin acuerdo en septiembre de 2026."}
+  ],
+  "historia": [
+    {
+      "titulo": "Una frontera encima de la catarata",
+      "paragrafos": [
+        "El problema empezó como una disputa de mapas. En la década de 1960, Brasil y Paraguay se disputaban la zona de los saltos de Sete Quedas, entre Guaíra, en Paraná, Brasil, y Salto del Guairá, en Paraguay. La salida llegó el 22 de junio de 1966: el Acta de Iguazú, negociada desde Puerto Presidente Stroessner (hoy Ciudad del Este, Paraguay) y firmada en Foz do Iguaçu, Brasil, cambió la pelea por la frontera por un proyecto común, el aprovechamiento del río Paraná.",
+        "Siete años después, el 26 de abril de 1973, en Brasilia, los cancilleres Mário Gibson Barboza y Raúl Sapena Pastor firmaron el Tratado de Itaipú. El texto crea una entidad de doble dueño: Itaipú Binacional, constituida el 17 de mayo de 1974, con un capital de 100 millones de dólares dividido en partes iguales e intransferibles entre Eletrobras y la paraguaya ANDE. La energía también se dividiría a la mitad, y cada país tendría derecho a comprar lo que el otro no usara.",
+        "La división llegó a las máquinas. Paraguay usa corriente de 50 hercios; Brasil, de 60. Por eso la central tiene 20 unidades de 700 megavatios, la mitad girando a un ritmo y la mitad al otro, para un total de 14.000 megavatios."
+      ]
+    },
+    {
+      "titulo": "Sacar el río de su lugar",
+      "paragrafos": [
+        "Una represa no se construye dentro de la corriente. Para trabajar en el cauce del río Paraná, los ingenieros abrieron un canal de desvío en la margen: unos 2 km de largo, 150 m de ancho y 90 m de profundidad, según Itaipú. Dos ataguías, arcos de concreto, mantenían el agua fuera del canal mientras se excavaba.",
+        "El 20 de octubre de 1978, 58 toneladas de explosivos derribaron las dos ataguías, y el río pasó a correr por el camino nuevo. Los presidentes Ernesto Geisel y Alfredo Stroessner se encontraron en medio del Puente de la Amistad y accionaron juntos el interruptor. Con el cauce seco, empezó la represa propiamente dicha.",
+        "Al final, la obra excavó más de 50 millones de metros cúbicos de tierra y roca y consumió más de 12 millones de metros cúbicos de concreto. La propia Itaipú publica tres números para el concreto, 12,3, 12,6 y 12,7 millones, sin explicar la diferencia. La represa, sumados los tramos de concreto, de enrocado y de tierra, llega a 7.919 m de longitud y 196 m de altura."
+      ]
+    },
+    {
+      "titulo": "La obra",
+      "paragrafos": [
+        "Cuántos hombres trabajaron al mismo tiempo depende de quién cuente. Los registros de las constructoras, citados por los historiadores Pedro Henrique Pedreira Campos y Valdir Sessi y por la Agência Pública, dan casi 32 mil en la obra en 1978. Itaipú habla de cerca de 40 mil, sumando la obra y las oficinas de apoyo en los dos países. Por la rotación, más de 100 mil personas pasaron por la obra.",
+        "La obra era también una ciudad dividida. En Foz do Iguaçu, la Vila A alojaba a técnicos y administrativos; la Vila B, a la alta jefatura; la Vila C, a los obreros de menor calificación. Muchos no eran trabajadores de represas de carrera, sino campesinos de la región traídos por enganchadores.",
+        "Y estaba vigilada. Investigaciones académicas documentan que la Asesoría Especial de Seguridad e Información de Itaipú, presente a ambos lados de la frontera, espiaba a los trabajadores e intercambiaba información con órganos de inteligencia y represión de la dictadura, como el SNI y el DOPS. La guardia de la central vestía de marrón, y los obreros la llamaban Guardia Marrón. Las huelgas solo tomaron fuerza después de la fundación del sindicato local, en 1986; en las de 1987 hubo tropas y vehículos militares en la obra."
+      ]
+    },
+    {
+      "titulo": "La cuenta de los muertos",
+      "paragrafos": [
+        "No existe un número oficial de muertos para toda la obra. Lo que Itaipú Binacional informó, por escrito, a la Agência Pública en 2023 fue una estimación: 43.530 accidentes de trabajo entre 1978 y 1984, brasileños y paraguayos, de los cuales 106 fatales. Para 1975 a 1977 y para 1985 a 1991, cuando se siguieron montando las máquinas, la empresa no dio ningún número.",
+        "Hay otros conteos, todos parciales. La tesis de la historiadora Ivone Lima, de 2004, llega a 40 muertes entre 1975 y 1979; un boletín interno del consorcio Unicon suma 56 entre 1976 y 1981, solo en la margen brasileña; el periodista Tão Gomes Pinto habla de 138. Un extécnico de seguridad de la obra le dijo a la Pública que su equipo contó hasta 800, en un relevamiento que se perdió. Una fuente anónima de Itaipú habló a la agencia EFE, en 2013, de cerca de mil, sumando accidentes y enfermedades laborales.",
+        "Entre los casos con fecha está el del 17 de diciembre de 1981: un accidente con una grúa Peiner, durante el mantenimiento de la pluma, mató a 5 obreros. Los investigadores registraron también relatos de víctimas llevadas al hospital para que la muerte no constara como ocurrida en la obra, lo que dificultaba la indemnización."
+      ]
+    },
+    {
+      "titulo": "Catorce días",
+      "paragrafos": [
+        "Sete Quedas no eran siete saltos. Eran 18 o 19, según la fuente, agrupados en siete conjuntos, con un caudal citado de unos 13.300 m³ por segundo. El Parque Nacional que los protegía fue suprimido el 4 de julio de 1981. El 17 de enero de 1982, una pasarela sobrecargada sobre uno de los saltos se desplomó y mató a 32 turistas.",
+        "La despedida fue pública. En julio de 1982, según la prensa de Paraná, entidades ambientalistas reunieron a miles de personas en el parque, en el Quarup Adeus Sete Quedas. El 9 de septiembre, Carlos Drummond de Andrade publicó en el Jornal do Brasil la crónica “Adeus a Sete Quedas” (Adiós a Sete Quedas).",
+        "El 13 de octubre de 1982 se cerraron las compuertas del canal de desvío. Ayudada por una crecida, el agua llenó el embalse y, hacia el 27 de octubre, cubrió los saltos. El mismo día del cierre empezó la operación Mymba Kuera, “los animales” en guaraní, que hasta el 10 de enero de 1983 rescató más de 30 mil animales: 36 mil, según Itaipú; casi 39 mil, según BBC News Brasil, sumando los dos lados."
+      ]
+    },
+    {
+      "titulo": "Quién estaba en el camino",
+      "paragrafos": [
+        "El lago de 1.350 km² cubrió tierra habitada. Del lado brasileño, resultaron afectadas 8.519 propiedades, 6.913 rurales y 1.606 urbanas, cerca de 101 mil hectáreas. El número de personas varía según el método: cerca de 42 mil, 40 mil o 60 mil afectados, según la fuente. Según la Comisión Estatal de la Verdad de Paraná, Itaipú indemnizó primero a escuelas, iglesias, hospitales y comercios, vaciando las comunidades. Del lado paraguayo, el total de expropiados no indígenas no aparece en las fuentes consultadas.",
+        "Para los avá-guaraní, la cuenta fue todavía más corta. En 1977, un grupo de trabajo de la Funai y del Incra reconoció apenas 11 familias indígenas, 27 personas, cifra que la Comisión de la Verdad de Paraná califica de falseamiento de la realidad. Los guaraníes reclamaban 1.500 hectáreas; recibieron, en 1982, un área registrada de 231,88 hectáreas. Fotos de 1981, reveladas en 2017, muestran casas guaraníes en llamas ante funcionarios.",
+        "La reparación llegó cuatro décadas después. El 24 de marzo de 2025, el STF homologó un acuerdo que prevé la compra de 3 mil hectáreas para los avá-guaraní, con R$ 240 millones de Itaipú. El 29 de octubre de 2025, la Unión, la Funai, el Incra e Itaipú publicaron un pedido de disculpas por las violaciones de derechos humanos cometidas contra ese pueblo."
+      ]
+    },
+    {
+      "titulo": "La central y la cuenta que quedó",
+      "paragrafos": [
+        "La primera unidad generó energía el 5 de mayo de 1984, y la inauguración oficial, con Figueiredo y Stroessner, fue el 25 de octubre de ese año. La unidad 18 entró en 1991; las dos últimas, en 2006 y 2007. En 2016, Itaipú produjo 103.098.366 MWh, récord mundial anual en ese momento, superado por la china Tres Gargantas en 2020.",
+        "El costo de la construcción también tiene más de una versión: cerca de 12 mil millones de dólares, según Memória da Eletricidade, o cerca de 14 mil millones, según la propia Itaipú. La obra se financió casi por completo, y la deuda se saldó el 28 de febrero de 2023, después de pagar cerca de 63 mil millones de dólares en cincuenta años, de los cuales 27,9 mil millones en intereses y cargos.",
+        "A los cincuenta años de su entrada en vigor, en 2023, el Tratado preveía revisar las bases financieras de la central, el llamado Anexo C. En septiembre de 2026, Brasil y Paraguay todavía no habían llegado a un acuerdo."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "Murieron 149 obreros, número oficial.", "registro": "El 149 aparece en sitios en inglés sin ninguna fuente. El número que dio la propia Itaipú, en 2023, es una estimación de 106 muertes entre 1978 y 1984; para los demás años de la obra no hay número oficial."},
+    {"circula": "Hay obreros enterrados en el concreto de la represa.", "registro": "Es una memoria persistente entre extrabajadores, registrada como relato por investigadores y por la Comisión Estatal de la Verdad de Paraná. No hay nombre, caso ni documento."},
+    {"circula": "Itaipú costó 63 mil millones de dólares.", "registro": "Ese es el total pagado de la deuda en cincuenta años, con 27,9 mil millones de intereses y cargos. La construcción se estima en unos 12 a 14 mil millones de dólares de la época, según la fuente."},
+    {"circula": "Itaipú es la mayor central hidroeléctrica del mundo.", "registro": "En potencia, Tres Gargantas, en China, tiene 22.500 MW contra 14.000; en producción anual, tiene el récord desde 2020. Itaipú tuvo el récord anual en 2016."},
+    {"circula": "Sete Quedas era la mayor catarata del mundo por volumen.", "registro": "El caudal de 13.300 m³/s que repiten las fuentes brasileñas no tiene referencia primaria, y según el promedio citado otras caídas, como Boyoma, en el Congo, lo superan. Lo que se sostiene: una de las mayores del mundo por volumen de agua."}
+  ],
+  "perguntas": [
+    {"p": "¿Cuándo se construyó la represa de Itaipú?", "r": "Las obras empezaron en 1975, el río se desvió el 20 de octubre de 1978 y las compuertas se cerraron el 13 de octubre de 1982. La primera unidad generó el 5 de mayo de 1984, y la inauguración fue el 25 de octubre de 1984; las dos últimas unidades entraron en 2006 y 2007."},
+    {"p": "¿Cómo se construyó la represa de Itaipú?", "r": "Primero sacaron el río Paraná de su cauce: se abrió en la margen un canal de desvío de unos 2 km, y el 20 de octubre de 1978 58 toneladas de explosivos derribaron las ataguías. Con el cauce seco, se levantó la represa, con más de 12 millones de m³ de concreto."},
+    {"p": "¿Cuántos obreros murieron en la construcción de Itaipú?", "r": "No existe un número oficial para toda la obra. La propia Itaipú estima 106 muertes entre 1978 y 1984; otros conteos, parciales, van de 40 a 138, y relatos sin documento hablan de hasta 800 o de cerca de mil."},
+    {"p": "¿Es Itaipú la represa más grande del mundo?", "r": "No. En potencia, Tres Gargantas, en China, tiene 22.500 MW contra 14.000 de Itaipú, y tiene el récord de producción anual desde 2020. Itaipú tuvo ese récord en 2016."},
+    {"p": "¿Cuánto costó la represa de Itaipú?", "r": "Las fuentes divergen: cerca de 12 mil millones de dólares de la época, según Memória da Eletricidade, o cerca de 14 mil millones, según Itaipú. Los 63 mil millones que circulan son el total pagado de la deuda en cincuenta años, con 27,9 mil millones de intereses y cargos."}
+  ],
+  "fontes": [
+    {"texto": "Tratado de Itaipú, promulgado por el Decreto n.º 72.707, del 28/08/1973"},
+    {"texto": "Pedro Henrique Pedreira Campos y Rafael Vaz da Motta Brandão, “A construção da usina hidrelétrica de Itaipu durante a ditadura”, Projeto História (PUC-SP), v. 77, 2023"},
+    {"texto": "Pedro Henrique Pedreira Campos, “Violações cometidas contra trabalhadores/as durante a construção da usina hidrelétrica de Itaipu: o caso dos acidentes de trabalho”, Revista NEP (UFPR), v. 9, n. 2, 2023"},
+    {"texto": "André Borges, “Itaipu na ditadura: mais de 100 operários mortos e 43 mil acidentes na construção”, Agência Pública, 19/06/2023"},
+    {"texto": "Comisión Estatal de la Verdad de Paraná “Teresa Urban”, informe, 2017 (2.ª versión, 2019), vol. 1"},
+    {"texto": "Valdir Sessi, “O povo do abismo”: trabalhadores e o aparato repressivo durante a construção da Hidrelétrica de Itaipu (1974–1987), tesis de maestría, Unioeste, 2015"},
+    {"texto": "Eduardo Gonçalves Ueda, História e memória dos trabalhadores brasileiros na construção da Usina Hidrelétrica de Itaipu, trabajo de fin de grado, UNILA, 2019"},
+    {"texto": "Paulo Brandi, “Itaipu Binacional meio século”, Memória da Eletricidade, 16/05/2024"},
+    {"texto": "IEEE Milestone, “Itaipu Hydroelectric Power Plant, 1975–1984”, Engineering and Technology History Wiki"},
+    {"texto": "Itaipu Binacional, “Nossa história”"},
+    {"texto": "Itaipu Binacional, “Barragem”"},
+    {"texto": "Itaipu Binacional, “Itaipu em números”"},
+    {"texto": "H2FOZ, “Explosão do Canal de Desvio de Itaipu completa 40 anos”, 19/10/2018"},
+    {"texto": "BBC News Brasil, “Mymba Kuéra: como foi o monumental resgate de mais de 30 mil animais durante a construção de Itaipu”, 19/09/2026 (republicado por O Povo)"},
+    {"texto": "Portal da Crônica Brasileira (IMS y Fundação Casa de Rui Barbosa), Carlos Drummond de Andrade, “Adeus a Sete Quedas”, Jornal do Brasil, 09/09/1982"},
+    {"texto": "Gazeta do Povo, “Estado brasileiro e Itaipu pedem desculpas ao povo Avá-Guarani”, 29/10/2025"},
+    {"texto": "Agência Brasil, “Itaipu ultrapassa Três Gargantas e reassume liderança em produção”, diciembre de 2016"},
+    {"texto": "Robson Rodrigues, “Com negociação de Itaipu parada, Brasil avalia tarifa de US$ 15/kW em 2027”, CNN Brasil, 01/09/2026"}
+  ],
+  "imagens": [
+    {"alt": "Vista aérea de la Central Hidroeléctrica de Itaipú: el vertedero a la izquierda, la represa en curva y el embalse al fondo, con el río Paraná en primer plano", "legenda": "Itaipú vista desde lo alto, con el embalse detrás de la represa y el río Paraná aguas abajo.", "autor": "International Hydropower Association (IHA)"},
+    {"alt": "Fotografía antigua en sepia del río Paraná estrangulado entre paredones de roca en el Salto de Sete Quedas, con caídas de agua al fondo", "legenda": "El río Paraná en el Salto de Sete Quedas, fotografiado en 1929–1930, más de cincuenta años antes de que el lago cubriera los saltos.", "autor": "B. Rondon (Arquivo Nacional, Fundo Ministério da Guerra)"},
+    {"alt": "El vertedero de Itaipú con parte de las compuertas abiertas y el agua bajando por los canales de concreto", "legenda": "El vertedero de Itaipú con compuertas abiertas, en 2008.", "autor": "Cmasi"},
+    {"alt": "El embalse de Itaipú visto desde la orilla, con vegetación en primer plano y estructuras de la central al fondo", "legenda": "El embalse de Itaipú en 2020: 1.350 km² de agua donde antes corrían el río y los saltos.", "autor": "Falk2"}
+  ]
+}

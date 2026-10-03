@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Puente de Forth: cómo se construyó y cuántos murieron</title>
+<meta name="description" content="Cómo la caída del Puente del Tay originó el Puente de Forth, el cantiléver de acero de 1890, y por qué sus muertos solo tuvieron nombre un siglo más tarde.">
+<link rel="canonical" href="https://arquiteturadoimpossivel.com/es/obras/ponte-de-forth.html">
+<meta name="robots" content="max-image-preview:large">
+<link rel="alternate" hreflang="pt-BR" href="https://arquiteturadoimpossivel.com/obras/ponte-de-forth.html">
+<link rel="alternate" hreflang="en" href="https://arquiteturadoimpossivel.com/en/obras/ponte-de-forth.html">
+<link rel="alternate" hreflang="es" href="https://arquiteturadoimpossivel.com/es/obras/ponte-de-forth.html">
+<link rel="alternate" hreflang="x-default" href="https://arquiteturadoimpossivel.com/en/obras/ponte-de-forth.html">
+<meta name="theme-color" content="#0F2A44">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<link rel="preload" href="../../assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fontes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="../../assets/img/22-capa-800.webp 800w, ../../assets/img/22-capa.webp 1600w" imagesizes="100vw" fetchpriority="high">
+<meta name="google-adsense-account" content="ca-pub-4401770243539507">
+<link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+<style>@font-face{font-family:"Barlow Condensed";font-weight:600;font-display:swap;src:url(/assets/fontes/barlow-condensed-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Condensed";font-weight:700;font-display:swap;src:url(/assets/fontes/barlow-condensed-700.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-weight:500;font-display:swap;src:url(/assets/fontes/ibm-plex-mono-500.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-400-italic.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:400;font-style:italic;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-400-italic.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"IBM Plex Sans";font-weight:600;font-display:swap;src:url(/assets/fontes/ibm-plex-sans-latin-ext-600-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{
+  --ciano:#0F2A44;        
+  --ciano-fundo:#091B2D;  
+  --ciano-2:#13314F;      
+  --ciano-3:#183A5C;      
+  --grade:#22486A;        
+  --viga:#2B5C87;         
+  --concreto:#8E9AA3;     
+  --giz:#E9EEF0;          
+  --giz-2:#C9D3D9;        
+  --obra:#F2B705;         
+  --obra-fundo:rgba(242,183,5,.12);
+  --f-titulo:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-corpo:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --largura:1180px;
+  --texto:68ch;
+  --gutter:clamp(16px,4vw,40px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;background-color:var(--ciano);color:var(--giz);
+  font:400 1.0625rem/1.65 var(--f-corpo);
+  background-image:
+    linear-gradient(var(--grade) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grade) 1px,transparent 1px),
+    linear-gradient(rgba(34,72,106,.45) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,72,106,.45) 1px,transparent 1px);
+  background-size:120px 120px,120px 120px,24px 24px,24px 24px;
+  background-position:-1px -1px;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--giz);text-decoration-color:var(--obra);text-underline-offset:.2em;text-decoration-thickness:1px}
+a:hover{color:var(--obra)}
+:focus-visible{outline:2px solid var(--obra);outline-offset:3px}
+::selection{background:var(--obra);color:var(--ciano)}
+.pular{position:absolute;left:-999px;top:0;background:var(--obra);color:var(--ciano);padding:.6em 1em;z-index:50;font-weight:600}
+.pular:focus{left:16px;top:16px}
+.mono{font-family:var(--f-mono);font-weight:500;letter-spacing:.02em}
+.rotulo{font-family:var(--f-mono);font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.rotulo b{color:var(--obra);font-weight:500}
+.casca{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+.topo{position:sticky;top:0;z-index:20;background:rgba(9,27,45,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--viga)}
+.topo .casca{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--giz)}
+.marca svg{width:34px;height:auto;flex:none}
+.marca span{font:700 1.3rem/1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.marca span em{font-style:normal;color:var(--obra)}
+.nav{display:flex;gap:clamp(.8rem,2.4vw,1.8rem);align-items:center}
+.nav a{font:600 1rem/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;color:var(--giz-2)}
+.nav a:hover,.nav a[aria-current]{color:var(--obra)}
+.nav .yt{border:1px solid var(--obra);color:var(--obra);padding:.5em .8em}
+.nav .yt:hover{background:var(--obra);color:var(--ciano)}
+@media (max-width:720px){.nav a:not(.yt){display:none}.marca span{font-size:1.1rem}}
+@media (max-width:380px){.marca span em{display:none}}
+.marca-sub{display:block;margin-top:.3em;font:500 .62rem/1.15 var(--f-mono);letter-spacing:.12em;color:var(--concreto)}
+.idiomas{display:flex;gap:.1rem}
+.nav .idiomas a.idioma{display:inline-flex;align-items:center;justify-content:center;min-width:2.3rem;min-height:2.75rem;padding:0 .3em;font:500 .8rem/1 var(--f-mono);letter-spacing:.08em;color:var(--giz-2);border-bottom:2px solid transparent}
+.nav .idiomas a.idioma:hover{color:var(--obra)}
+.nav .idiomas a.idioma[aria-current]{color:var(--obra);border-bottom-color:var(--obra)}
+.nav .idiomas a.idioma:focus-visible{outline:2px solid var(--obra);outline-offset:2px}
+@media (max-width:720px){.nav{gap:.6rem}.nav .yt{padding:.5em .6em}}
+@media (max-width:420px){.marca-sub{display:none}}
+.em-portugues{margin:2rem 0 0;font:500 .85rem/1.4 var(--f-mono);letter-spacing:.06em}
+.em-portugues a{color:var(--obra)}
+h1,h2,h3{font-family:var(--f-titulo);font-weight:700;line-height:1.02;letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,7.4vw,5.6rem)}
+h2{font-size:clamp(1.9rem,4.2vw,2.9rem)}
+h3{font-size:1.5rem;letter-spacing:.03em}
+.destaque{color:var(--obra)}
+.cota{position:relative;height:18px;margin:0 0 1.4rem}
+.cota::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:2px solid var(--obra)}
+.cota::after{content:"";position:absolute;inset:0;border-left:2px solid var(--obra);border-right:2px solid var(--obra)}
+.cota span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:var(--ciano);padding:0 .6em;font:500 .72rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);text-transform:uppercase;white-space:nowrap}
+.abre{padding:clamp(3.5rem,10vw,7.5rem) 0 clamp(2.5rem,6vw,4.5rem);position:relative}
+.abre .casca{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.abre h1 em{font-style:normal;color:var(--obra)}
+.abre .lead{font-size:clamp(1.08rem,1.6vw,1.25rem);color:var(--giz-2);max-width:44ch;margin:1.4rem 0 2rem}
+.abre .simbolo{max-width:420px;justify-self:center;width:100%}
+.abre .simbolo svg{width:100%;height:auto;overflow:visible}
+.abre .simbolo .vigas polygon{opacity:0;animation:viga .7s cubic-bezier(.2,.7,.2,1) forwards}
+.abre .simbolo .vigas polygon:nth-child(3n+2){animation-delay:.12s}
+.abre .simbolo .vigas polygon:nth-child(3n){animation-delay:.24s}
+.abre .simbolo .cotas{opacity:0;animation:viga .6s .7s forwards}
+@keyframes viga{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (max-width:820px){.abre .casca{grid-template-columns:1fr}.abre .simbolo{max-width:220px;grid-row:1;justify-self:start}}
+.botoes{display:flex;flex-wrap:wrap;gap:.8rem}
+.botao{display:inline-flex;align-items:center;gap:.6em;font:600 1.05rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:.95em 1.3em;border:1.5px solid var(--giz);color:var(--giz)}
+.botao:hover{border-color:var(--obra);color:var(--obra)}
+.botao.cheio{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.botao.cheio:hover{background:var(--giz);border-color:var(--giz);color:var(--ciano)}
+.faixa{height:12px;background:repeating-linear-gradient(-45deg,var(--obra) 0 14px,var(--ciano-fundo) 14px 28px)}
+.secao{padding:clamp(3rem,8vw,6rem) 0}
+.secao>.casca>header{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.2rem}
+.secao>.casca>header p{color:var(--concreto);max-width:46ch;margin:.6rem 0 0}
+.filtros{display:flex;gap:.4rem;flex-wrap:wrap}
+.filtros button{font:500 .78rem/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;background:transparent;color:var(--giz-2);border:1px solid var(--viga);padding:.75em 1em;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.filtros button:hover{border-color:var(--obra)}
+.obras{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(1rem,2vw,1.6rem);list-style:none;margin:0;padding:0}
+.obra-card{position:relative;background:var(--ciano-2);border:1px solid var(--viga);display:flex;flex-direction:column;transition:transform .25s,border-color .25s,background .25s}
+.obra-card:hover{transform:translateY(-4px);border-color:var(--obra);background:var(--ciano-3)}
+.obra-card[hidden]{display:none}
+.obra-card .foto{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--ciano-fundo)}
+.obra-card .foto img{width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.05);transition:transform .6s,filter .4s}
+.obra-card:hover .foto img{transform:scale(1.04);filter:saturate(.95)}
+.obra-card .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(9,27,45,.85))}
+.obra-card .num{position:absolute;left:14px;bottom:10px;z-index:1;font:700 3.2rem/1 var(--f-titulo);color:var(--obra)}
+.obra-card .selo{position:absolute;right:12px;top:12px;z-index:1}
+.obra-card .corpo{padding:1.2rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.obra-card h3 a{text-decoration:none;color:var(--giz)}
+.obra-card h3 a::after{content:"";position:absolute;inset:0}
+.obra-card .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto);letter-spacing:.04em}
+.obra-card .imp{color:var(--giz-2);font-size:.98rem;margin:.2rem 0 0}
+.obra-card .pe{margin-top:auto;padding-top:.9rem;border-top:1px dashed var(--viga);display:flex;justify-content:space-between;gap:.6rem;font:500 .74rem/1.3 var(--f-mono);letter-spacing:.06em;color:var(--concreto);text-transform:uppercase}
+.obra-card.apuracao{border-style:dashed;background:transparent}
+.obra-card.apuracao .foto{display:grid;place-items:center;background:repeating-linear-gradient(-45deg,rgba(242,183,5,.06) 0 14px,transparent 14px 28px)}
+.obra-card.apuracao .foto::after{display:none}
+.obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
+.selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
+.metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.metodo p{color:var(--giz-2);max-width:52ch}
+.graus{display:grid;gap:.8rem;margin:0;padding:0;list-style:none}
+.graus li{display:grid;grid-template-columns:5.5rem 1fr;gap:1rem;align-items:start;padding:1rem 1.1rem;border:1px solid var(--viga);background:rgba(19,49,79,.6)}
+.graus li p{margin:0;font-size:.95rem}
+.graus li strong{display:block;font-family:var(--f-titulo);text-transform:uppercase;letter-spacing:.06em;font-size:1.12rem;margin-bottom:.15rem;color:var(--giz)}
+@media (max-width:820px){.metodo .casca{grid-template-columns:1fr}}
+.conf{display:inline-flex;align-items:center;justify-content:center;min-width:3.6rem;font:500 .7rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:.45em .55em;border:1px solid currentColor;white-space:nowrap}
+.conf-2{color:var(--obra)}
+.conf-1{color:var(--giz)}
+.conf-div{color:var(--obra);border-style:dashed}
+.conf-sem{color:var(--concreto);border-style:dotted}
+.rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
+.rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.rodape a{color:var(--giz-2)}
+.rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}
+@media (max-width:760px){.rodape .casca{grid-template-columns:1fr}}
+.capa{position:relative;min-height:min(88vh,820px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--viga)}
+picture{display:contents}
+.capa>img,.capa>picture>img{position:absolute;inset:0}
+.capa img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05)}
+.capa::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(9,27,45,.35) 0%,rgba(9,27,45,.25) 35%,rgba(15,42,68,.92) 82%,var(--ciano) 100%)}
+.capa .casca{position:relative;z-index:2;width:100%;padding-bottom:clamp(2rem,5vw,3.5rem);padding-top:8rem}
+.capa .rotulo{color:var(--giz-2)}
+.capa h1{margin:.6rem 0 .8rem;max-width:16ch}
+.capa .sub{font:500 clamp(.82rem,1.5vw,.95rem)/1.5 var(--f-mono);letter-spacing:.06em;color:var(--giz-2);text-transform:uppercase}
+.capa .imp{font-size:clamp(1.1rem,2vw,1.35rem);max-width:46ch;margin:1.2rem 0 0;color:var(--giz)}
+.capa .credito-capa{position:absolute;right:var(--gutter);top:5.2rem;z-index:2;font:500 .66rem/1.3 var(--f-mono);color:var(--giz-2);opacity:.75;max-width:40ch;text-align:right}
+.cotas{border-bottom:1px solid var(--viga);background:rgba(9,27,45,.55)}
+.cotas ul{list-style:none;margin:0 auto;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));max-width:var(--largura)}
+.cotas li{padding:1.6rem var(--gutter) 1.5rem;border-right:1px dashed var(--viga);position:relative}
+.cotas li:last-child{border-right:0}
+.cotas .valor{display:block;font:700 clamp(2rem,3.6vw,2.7rem)/1 var(--f-titulo);color:var(--obra);letter-spacing:.01em}
+.cotas .rot{display:block;margin-top:.5rem;font-size:.88rem;color:var(--giz-2);line-height:1.35}
+.cotas .conf{margin-top:.7rem}
+@media (max-width:560px){.cotas li{border-right:0;border-bottom:1px dashed var(--viga)}}
+.obra-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:clamp(2rem,5vw,4.5rem);padding-block:clamp(2.5rem,6vw,4.5rem)}
+@media (max-width:980px){.obra-layout{grid-template-columns:1fr}.indice{display:none}}
+.texto{max-width:var(--texto)}
+.texto p{color:var(--giz-2);margin:0 0 1.15em}
+.texto .abertura p:first-child{font-size:1.2rem;color:var(--giz)}
+.texto h2{margin:3.2rem 0 1.2rem;scroll-margin-top:90px}
+.texto h2 .n{display:block;font:500 .74rem/1 var(--f-mono);letter-spacing:.16em;color:var(--obra);margin-bottom:.6rem}
+.indice{position:sticky;top:92px;align-self:start;border-left:1px solid var(--viga);padding-left:1.3rem}
+.indice ol{list-style:none;margin:.9rem 0 0;padding:0;display:grid;gap:.15rem;counter-reset:i}
+.indice a{display:block;text-decoration:none;color:var(--concreto);font-size:.92rem;padding:.35rem 0;line-height:1.3}
+.indice a:hover,.indice a.ativo{color:var(--giz)}
+.indice a.ativo{box-shadow:-1.35rem 0 0 -1.2rem var(--obra)}
+.ficha{width:100%;border-collapse:collapse;margin:1.4rem 0 .6rem;font-size:.96rem}
+.ficha caption{text-align:left;padding-bottom:.8rem}
+.ficha th,.ficha td{text-align:left;vertical-align:top;padding:.85rem .9rem .85rem 0;border-top:1px dashed var(--viga)}
+.ficha tr:last-child>*{border-bottom:1px dashed var(--viga)}
+.ficha th{font:600 1rem/1.25 var(--f-titulo);letter-spacing:.06em;text-transform:uppercase;color:var(--giz);width:28%}
+.ficha td{color:var(--giz-2)}
+.ficha td.c{width:1%;padding-right:0;text-align:right}
+.ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+@media (max-width:640px){
+  .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
+  .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
+  .ficha th,.ficha td{border:0;padding:0}
+  .ficha td.v{grid-column:1/-1}
+  .ficha td.c{grid-row:1;grid-column:2}
+  .ficha tr:last-child>*{border:0}
+  .ficha tr:last-child{border-bottom:1px dashed var(--viga)}
+}
+.legenda-conf{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;font-size:.82rem;color:var(--concreto);margin:.4rem 0 0}
+.legenda-conf span{display:inline-flex;gap:.5rem;align-items:center}
+.fig{margin:2.4rem 0;max-width:none}
+.fig button{all:unset;cursor:zoom-in;display:block;position:relative;width:100%}
+.fig button:focus-visible{outline:2px solid var(--obra);outline-offset:4px}
+.fig img{width:100%;border:1px solid var(--viga);filter:saturate(.8)}
+.fig figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem .9rem;margin-top:.7rem;font-size:.88rem;color:var(--giz-2)}
+.fig figcaption .fn{font:500 .72rem/1.6 var(--f-mono);color:var(--obra);letter-spacing:.1em}
+.fig figcaption small{grid-column:2;font:500 .72rem/1.45 var(--f-mono);color:var(--concreto)}
+.fig figcaption small a{color:var(--concreto)}
+.fig .cantos::before,.fig .cantos::after{content:"";position:absolute;width:18px;height:18px;border-color:var(--obra);border-style:solid;pointer-events:none}
+.fig .cantos::before{top:-6px;left:-6px;border-width:2px 0 0 2px}
+.fig .cantos::after{bottom:-6px;right:-6px;border-width:0 2px 2px 0}
+.revela{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.revela.visto{opacity:1;transform:none}
+.mitos{display:grid;gap:1rem;margin:1.4rem 0;padding:0;list-style:none}
+.mitos li{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--viga)}
+.mitos li>div{padding:1.1rem 1.2rem}
+.mitos li>div:first-child{border-right:1px dashed var(--viga);color:var(--concreto)}
+.mitos li>div:first-child p{text-decoration:line-through;text-decoration-color:rgba(142,154,163,.55);text-decoration-thickness:1px}
+.mitos li>div:last-child{background:rgba(242,183,5,.05)}
+.mitos .rotulo{display:block;margin-bottom:.45rem}
+.mitos p{margin:0;font-size:.97rem;color:var(--giz-2)}
+@media (max-width:640px){.mitos li{grid-template-columns:1fr}.mitos li>div:first-child{border-right:0;border-bottom:1px dashed var(--viga)}}
+.fontes{margin:1rem 0;padding-left:1.4rem;color:var(--giz-2);font-size:.93rem}
+.fontes li{margin:.45rem 0;padding-left:.3rem}
+.fontes li::marker{font-family:var(--f-mono);color:var(--obra);font-size:.8rem}
+.fontes a{word-break:break-word}
+.creditos{font-size:.85rem;color:var(--concreto)}
+.creditos li{margin:.35rem 0}
+.video{margin:3rem 0 0;padding:1.6rem;border:1.5px solid var(--obra);background:var(--obra-fundo);display:grid;grid-template-columns:1fr auto;gap:1.2rem;align-items:center}
+.video p{margin:.4rem 0 0;color:var(--giz-2)}
+.video h3{font-size:1.6rem}
+@media (max-width:640px){.video{grid-template-columns:1fr}}
+.lado-card{border:1px solid var(--viga);padding:1.1rem;margin-bottom:1.2rem;background:rgba(19,49,79,.5)}
+.lado-card dl{margin:.8rem 0 0;display:grid;gap:.7rem}
+.lado-card dt{font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--concreto)}
+.lado-card dd{margin:.25rem 0 0;font-size:.95rem}
+.seguinte{border-top:1px solid var(--viga);display:grid;grid-template-columns:1fr 1fr}
+.seguinte a{padding:2rem var(--gutter);text-decoration:none;display:block;transition:background .25s}
+.seguinte a:hover{background:var(--ciano-3);color:var(--giz)}
+.seguinte a+a{border-left:1px solid var(--viga);text-align:right}
+.seguinte strong{display:block;font:700 clamp(1.4rem,3vw,2rem)/1.05 var(--f-titulo);text-transform:uppercase;margin-top:.5rem}
+.seguinte a:hover strong{color:var(--obra)}
+@media (max-width:640px){.seguinte{grid-template-columns:1fr}.seguinte a+a{border-left:0;border-top:1px solid var(--viga);text-align:left}}
+.progresso{position:fixed;left:0;top:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--obra);z-index:30}
+.lupa{position:fixed;inset:0;z-index:60;background:rgba(9,27,45,.96);display:none;align-items:center;justify-content:center;padding:4rem var(--gutter) 2rem}
+.lupa.aberta{display:flex}
+.lupa img{max-height:82vh;width:auto;border:1px solid var(--viga)}
+.lupa p{position:absolute;left:var(--gutter);right:var(--gutter);bottom:1rem;text-align:center;margin:0;font-size:.85rem;color:var(--giz-2)}
+.lupa button{position:absolute;top:1rem;right:var(--gutter);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;background:transparent;color:var(--giz);border:1px solid var(--giz);padding:.7em 1em;cursor:pointer}
+.lupa button:hover{border-color:var(--obra);color:var(--obra)}
+.simples{min-height:62vh;display:flex;align-items:center;padding:6rem 0}
+.simples p{color:var(--giz-2);max-width:56ch}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .abre .simbolo .vigas polygon,.abre .simbolo .cotas{opacity:1}
+  .revela{opacity:1;transform:none}
+}
+.consentimento{position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--ciano-fundo);border-top:2px solid var(--obra);box-shadow:0 -10px 30px rgba(0,0,0,.4)}
+.consentimento[hidden]{display:none}
+.consentimento .casca{display:flex;gap:1rem 1.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-block:1rem}
+.consentimento p{margin:0;font-size:.92rem;color:var(--giz-2);max-width:70ch}
+.consentimento .botoes{display:flex;gap:.6rem;flex-wrap:wrap}
+.consentimento button{font:600 .95rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;padding:.8em 1.1em;cursor:pointer;background:transparent;color:var(--giz);border:1.5px solid var(--giz)}
+.consentimento button.principal{background:var(--obra);border-color:var(--obra);color:var(--ciano)}
+.consentimento button:hover{border-color:var(--obra)}
+.privacidade{max-width:calc(var(--texto) + 2 * var(--gutter));padding-block:clamp(3rem,8vw,5rem)}
+.privacidade h1{font-size:clamp(2.2rem,5vw,3.6rem);margin:.6rem 0 1rem}
+.privacidade .lead{font-size:1.15rem;color:var(--giz)}
+.privacidade h2{font-size:1.6rem;margin:2.4rem 0 .8rem}
+.privacidade p,.privacidade li{color:var(--giz-2)}
+.privacidade li{margin:.4rem 0}
+.privacidade code{font-family:var(--f-mono);font-size:.9em;color:var(--obra)}
+.privacidade .resumo{border:1.5px solid var(--obra);background:var(--obra-fundo);padding:1.1rem 1.3rem;margin:1.6rem 0;color:var(--giz-2)}
+.privacidade .resumo strong{color:var(--giz)}
+.proximo-ep{display:grid;grid-template-columns:260px 1fr;margin:1.4rem 0 0;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.proximo-ep .foto{position:relative;overflow:hidden;min-height:170px;background:var(--ciano-fundo)}
+.proximo-ep .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+.proximo-ep .txt{padding:1.2rem 1.3rem;display:flex;flex-direction:column;gap:.4rem}
+.proximo-ep h3{font-size:1.7rem}
+.proximo-ep .onde{font:500 .78rem/1.4 var(--f-mono);color:var(--concreto)}
+.proximo-ep p{margin:.2rem 0 0;color:var(--giz-2);font-size:.97rem}
+.proximo-ep .ir{margin-top:auto;padding-top:.5rem;font:600 1rem/1 var(--f-titulo);letter-spacing:.1em;text-transform:uppercase;color:var(--obra)}
+.proximo-ep.sem-pagina{grid-template-columns:1fr;border-style:dashed;background:transparent}
+.proximo-ep.sem-pagina .ir{color:var(--concreto)}
+@media (max-width:640px){.proximo-ep{grid-template-columns:1fr}.proximo-ep .foto{min-height:0;aspect-ratio:16/9}}
+.leia{margin:2.4rem 0 0}
+.leia ul{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.leia a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1rem 1.1rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.leia a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
+.leia a:hover strong{color:var(--obra)}
+.leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}
+.perguntas{border-top:1px solid var(--viga);margin:1.2rem 0 0}
+.perguntas h3{font-size:1.25rem;line-height:1.15;margin:1.4rem 0 .5rem;color:var(--giz)}
+.perguntas p{margin:0 0 1.2rem;padding-bottom:1.2rem;border-bottom:1px dashed var(--viga)}
+.temas-link{margin:1rem 0 0;font-size:.95rem;color:var(--giz-2)}
+.temas-link .rotulo{margin-right:.4rem}
+.temas-link a{color:var(--obra)}
+.temas-lista{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:.8rem}
+.temas-lista a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1.1rem 1.2rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.temas-lista a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.temas-lista strong{font:700 1.4rem/1.1 var(--f-titulo);text-transform:uppercase}
+.temas-lista a:hover strong{color:var(--obra)}
+.tema-abre{padding:clamp(2.5rem,7vw,5rem) 0 clamp(2rem,5vw,3.5rem)}
+.tema-abre h1{font-size:clamp(2.4rem,6.4vw,4.6rem);margin:.6rem 0 1.4rem}
+.tema-abre .intro{max-width:var(--texto)}
+.tema-abre .intro p{color:var(--giz-2);font-size:1.05rem;margin:0 0 1.1em}
+.migalhas{font:500 .74rem/1.4 var(--f-mono);letter-spacing:.08em;color:var(--concreto);margin-bottom:1.4rem}
+.migalhas a{color:var(--concreto)}
+.migalhas span{color:var(--giz-2)}</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Arquitetura do Impossível — Arquitectura de lo Imposible">
+<meta property="og:locale" content="es_LA">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="Puente de Forth: cómo se construyó y cuántos murieron">
+<meta property="og:description" content="Cómo la caída del Puente del Tay originó el Puente de Forth, el cantiléver de acero de 1890, y por qué sus muertos solo tuvieron nombre un siglo más tarde.">
+<meta property="og:url" content="https://arquiteturadoimpossivel.com/es/obras/ponte-de-forth.html">
+<meta property="og:image" content="https://arquiteturadoimpossivel.com/assets/img/og-es-ponte-de-forth.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Puente de Forth (1882–1890): cómo se levantó", "description": "Cómo la caída del Puente del Tay originó el Puente de Forth, el cantiléver de acero de 1890, y por qué sus muertos solo tuvieron nombre un siglo más tarde.", "inLanguage": "es", "url": "https://arquiteturadoimpossivel.com/es/obras/ponte-de-forth.html", "image": {"@type": "ImageObject", "url": "https://arquiteturadoimpossivel.com/assets/img/og-es-ponte-de-forth.jpg", "width": 1200, "height": 630}, "datePublished": "2026-10-03", "dateModified": "2026-10-03", "author": {"@type": "Organization", "name": "Arquitetura do Impossível", "url": "https://arquiteturadoimpossivel.com/"}, "publisher": {"@type": "Organization", "name": "Arquitetura do Impossível", "url": "https://arquiteturadoimpossivel.com/", "logo": {"@type": "ImageObject", "url": "https://arquiteturadoimpossivel.com/assets/marca/logo-512.png", "width": 512, "height": 512}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arquiteturadoimpossivel.com/es/obras/ponte-de-forth.html"}, "about": {"@type": "LandmarksOrHistoricalBuildings", "name": "Puente de Forth", "address": "Estuario del río Forth, entre South Queensferry (Edimburgo) y North Queensferry (Fife), Escocia, Reino Unido"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Arquitetura do Impossível", "item": "https://arquiteturadoimpossivel.com/es/"}, {"@type": "ListItem", "position": 2, "name": "Obras", "item": "https://arquiteturadoimpossivel.com/es/#obras"}, {"@type": "ListItem", "position": 3, "name": "Puente de Forth", "item": "https://arquiteturadoimpossivel.com/es/obras/ponte-de-forth.html"}]}</script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Saltar al contenido</a>
+<div class="progresso" aria-hidden="true"></div><header class="topo">
+  <div class="casca">
+    <a class="marca" href="../../es/index.html" lang="pt-BR"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 886" class="" role="img" aria-label=""><polygon points="926.67,587.35 1010.00,731.69 176.67,731.69 93.33,587.35" fill="#8E9AA3" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="926.67,876.03 1010.00,731.69 176.67,731.69 93.33,876.03" fill="#2B5C87" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="10.00,731.69 93.33,587.35 176.67,731.69 93.33,876.03" fill="#E9EEF0" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="593.33,10.00 1010.00,731.69 843.33,731.69 426.67,10.00" fill="#8E9AA3" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="926.67,876.03 1010.00,731.69 843.33,731.69 760.00,876.03" fill="#2B5C87" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="343.33,154.34 426.67,10.00 843.33,731.69 760.00,876.03" fill="#E9EEF0" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="593.33,10.00 676.67,154.34 510.00,154.34 426.67,10.00" fill="#8E9AA3" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="260.00,876.03 676.67,154.34 510.00,154.34 93.33,876.03" fill="#2B5C87" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<polygon points="10.00,731.69 426.67,10.00 510.00,154.34 93.33,876.03" fill="#E9EEF0" stroke="#E9EEF0" stroke-width="4.2" stroke-linejoin="round"/>
+<line x1="10.0" y1="908.5" x2="10.0" y2="1038.9" stroke="#F2B705" stroke-width="6.0"/>
+<line x1="1010.0" y1="908.5" x2="1010.0" y2="1038.9" stroke="#F2B705" stroke-width="6.0"/>
+<line x1="10.0" y1="995.1" x2="1010.0" y2="995.1" stroke="#F2B705" stroke-width="12.0"/>
+<polygon points="10.0,995.1 87.9,968.3 87.9,1021.9" fill="#F2B705"/>
+<polygon points="1010.0,995.1 932.1,968.3 932.1,1021.9" fill="#F2B705"/></svg><span>Arquitetura <em>do Impossível</em><small class="marca-sub" lang="es">Arquitectura de lo Imposible</small></span></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="../../es/index.html#obras" aria-current="page">Obras</a>
+      <a href="../../es/index.html#metodo">Método</a>
+      <a href="../../es/sobre.html">Acerca de</a>
+      <a class="yt" href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">YouTube</a><div class="idiomas" role="group" aria-label="Idioma"><a class="idioma" href="../../obras/ponte-de-forth.html" hreflang="pt-BR" lang="pt-BR" aria-label="Português" title="Português">PT</a><a class="idioma" href="../../en/obras/ponte-de-forth.html" hreflang="en" lang="en" aria-label="English" title="English">EN</a><a class="idioma" href="../../es/obras/ponte-de-forth.html" hreflang="es" lang="es" aria-label="Español" title="Español" aria-current="true">ES</a></div>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
+<header class="capa">
+  <picture><source type="image/webp" srcset="../../assets/img/22-capa-800.webp 800w, ../../assets/img/22-capa.webp 1600w" sizes="100vw"><img src="../../assets/img/22-capa.jpg" srcset="../../assets/img/22-capa-800.jpg 800w, ../../assets/img/22-capa.jpg 1600w" sizes="100vw" width="1600" height="1103" alt="Puente de acero rojo con tres grandes estructuras en forma de rombo sobre agua en calma que las refleja, una pila de piedra a la derecha y un tren cruzando el viaducto bajo un cielo azul" loading="eager" fetchpriority="high" decoding="async" style="object-position:50% 55%"></picture>
+  <span class="credito-capa">El puente completo visto desde South Queensferry en febrero de 2013, con un tren en el viaducto de acceso. — <a href="https://commons.wikimedia.org/wiki/File:Forthbridge_feb_2013.jpg" rel="noopener">George Gastin</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener">CC BY-SA 3.0</a></span>
+  <div class="casca">
+    <span class="rotulo">Obra <b>22</b> · Mundo</span>
+    <h1>Puente de Forth</h1>
+    <div class="sub">Estuario del río Forth, entre South Queensferry (Edimburgo) y North Queensferry (Fife), Escocia, Reino Unido · 1882–1890</div>
+    <p class="imp">Cruzar en tren un estuario escocés de más de 1,5 km, con canales de más de 60 metros de profundidad, justo después de que otro puente escocés se hubiera caído en una tormenta llevándose un tren entero, y convencer al público de que el nuevo no se caería.</p>
+  </div>
+</header>
+<section class="cotas" aria-label="La obra en cifras"><ul><li><span class="valor">2 × 520 m</span><span class="rot">de vano principal en cantiléver, el mayor del mundo en 1890</span><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><span class="valor">110 m</span><span class="rot">de altura de las torres sobre la marea alta</span><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><span class="valor">6,5 millones</span><span class="rot">de remaches, según la cuenta de 1890, que el propio ingeniero de la obra consideraba baja</span><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><span class="valor">4.600</span><span class="rot">obreros en el punto máximo de la obra</span><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><span class="valor">57 · 73</span><span class="rot">muertos: la cifra oficial de 1890 y los nombres del memorial de 2012</span><span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span></li><li><span class="valor">1882–1890</span><span class="rot">del contrato, en diciembre de 1882, a la inauguración, el 04/03/1890</span><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li></ul></section>
+<div class="casca obra-layout">
+  <article class="texto">
+    <div class="abertura"><p>La noche del 28 de diciembre de 1879, durante una tormenta, los vanos centrales del puente ferroviario sobre el río Tay, en Dundee, Escocia, se cayeron con un tren. Nadie a bordo sobrevivió. El ingeniero del puente, Thomas Bouch, ya había empezado otro, todavía mayor, sobre el estuario del Forth, cerca de Edimburgo. Ese proyecto se abandonó.</p><p>En su lugar, John Fowler y Benjamin Baker diseñaron un puente que no se parecía a nada: tres torres de acero en voladizo, abiertas en la base para resistir el viento, unidas por vigas suspendidas, con dos vanos de 520 metros. Abierto el 4 de marzo de 1890, fue durante décadas el mayor vano en cantiléver del mundo. Costó al menos 57 vidas, según la cifra oficial de la época; la investigación hecha más de un siglo después llegó a 73 nombres.</p></div>
+
+    <h2 id="ficha"><span class="n">FICHA</span>Ficha de la obra</h2>
+    <table class="ficha">
+      <tbody><tr><th scope="row">Por qué</th><td class="v">Unir Edimburgo con el norte de Escocia por tren sin depender del transbordador de Queensferry. El puente era la pieza central de una red de líneas nuevas hacia Perth, Dundee y Aberdeen.</td><td class="c"><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></td></tr><tr><th scope="row">El desastre que vino antes</th><td class="v">El 28/12/1879, el puente del Tay, en Dundee, se cayó con un tren durante una tormenta, sin sobrevivientes. Su ingeniero, Thomas Bouch, había proyectado también un puente colgante para el Forth, con obras ya iniciadas; ese proyecto se abandonó.</td><td class="c"><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></td></tr><tr><th scope="row">Muertos en el Tay</th><td class="v">59 personas tienen nombre conocido y están en el memorial de 2013; la estimación más alta, repetida desde la época, es de 75.</td><td class="c"><span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span></td></tr><tr><th scope="row">Proyecto</th><td class="v">Sir John Fowler y Sir Benjamin Baker. Puente ferroviario cantiléver de acero, de vía doble: tres torres en doble voladizo, con brazos de 680 pies, y dos vigas centrales suspendidas de 350 pies.</td><td class="c"><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></td></tr><tr><th scope="row">Quién lo construyó</th><td class="v">Tancred, Arrol &amp; Co., de William Arrol, de Glasgow, contratada el 21/12/1882. Arrol también tenía el contrato del puente de Bouch. La dueña de la obra era la Forth Bridge Railway Company, respaldada por cuatro compañías ferroviarias.<span class="nota">las cuatro compañías ferroviarias y la garantía del 4% anual provienen del relato de Wilhelm Westhofen, ingeniero de la obra</span></td><td class="c"><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></td></tr><tr><th scope="row">El viento</th><td class="v">Bouch había calculado el puente del Tay para una presión de viento de 10 libras por pie cuadrado. Después del desastre, la Board of Trade pasó a exigir 56 libras en puentes expuestos, y el de Forth se calculó para eso.</td><td class="c"><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></td></tr><tr><th scope="row">El acero</th><td class="v">Todo de horno Siemens-Martin, de acerías de Escocia y de Gales. El tonelaje varía según la cuenta: 42 mil toneladas previstas más unas 16 mil de modificaciones, según el ingeniero de la obra; 53 mil según Network Rail; 55 mil en otras referencias.</td><td class="c"><span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span></td></tr><tr><th scope="row">Plazo</th><td class="v">Contrato en diciembre de 1882; cimentaciones a partir de febrero de 1883; superestructura a partir de 1886; obra terminada a fines de 1889 (noviembre o diciembre, según la fuente); prueba de carga el 21/01/1890; inauguración el 04/03/1890, a cargo del Príncipe de Gales.<span class="nota">el mes de conclusión difiere entre las fuentes</span></td><td class="c"><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></td></tr><tr><th scope="row">Obreros</th><td class="v">4.600 en el punto máximo, según el ingeniero Wilhelm Westhofen; 3.200 en la primavera de 1887 y más de 4.100 en septiembre de ese año. Cerca de un tercio eran irlandeses. El total de personas que pasaron por la obra no quedó registrado.<span class="nota">la proporción de irlandeses proviene de una sola fuente</span></td><td class="c"><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></td></tr><tr><th scope="row">Muertes en la construcción</th><td class="v">57 accidentes mortales entre julio de 1883 y la Navidad de 1889, según el recuento del club de accidentes del contratista, publicado en 1890. Investigadores locales confirmaron después 73 nombres, incluidos la pintura de 1890 y las obras de acceso; son los del memorial de 2012. Circularon también 78 y 98.</td><td class="c"><span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span></td></tr><tr><th scope="row">Heridos</th><td class="v">106 llevados a la enfermería de Edimburgo y 518 accidentes menores con atención médica, según Westhofen. Botes en el río salvaron de ahogarse a ocho hombres.<span class="nota">los ocho rescatados aparecen en más de una fuente</span></td><td class="c"><span class="conf conf-1" title="Una sola fuente; el texto dice cuál.">1 fuente</span></td></tr><tr><th scope="row">Costo</th><td class="v">Unos £3 millones, según Network Rail; una cuenta de 1913 los divide en £1,7 millones para el puente, £0,8 millones para instalaciones y gastos y £0,5 millones para los ferrocarriles de enlace. Otra suma llega a £3,2 millones, contando £250 mil gastadas en el puente de Bouch. El valor del contrato de 1882 no se confirmó en fuente primaria; el ingeniero de la obra registra solo que fue superado.<span class="nota">sin conversión a valores actuales: no hay índice confiable para una obra de 1890</span></td><td class="c"><span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span></td></tr><tr><th scope="row">Medidas</th><td class="v">Vanos de 1.710 pies entre los ejes de las columnas, o 1.700 pies libres (unos 520 m). Torres de 110 m sobre la marea alta. Riel a unos 46 m sobre el agua. Longitud total de 2.529 m según la medición de 1890, o 2.467 m según Network Rail.</td><td class="c"><span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span></td></tr><tr><th scope="row">Restauración</th><td class="v">De 2002 a diciembre de 2011, más de £130 millones, a cargo de Network Rail con Balfour Beatty: 240 mil litros de pintura epoxi, tres manos, cada remache pintado a mano. La pintura debe durar dos décadas o más.</td><td class="c"><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></td></tr><tr><th scope="row">Hoy</th><td class="v">Más de 200 trenes por día. Patrimonio Mundial de la UNESCO desde el 05/07/2015.</td><td class="c"><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></td></tr><tr><th scope="row">Ahora</th><td class="v">En agosto de 2026, el Consejo de Fife escuchó que solo cerca del 5% de las luces del puente funcionan y que Network Rail no piensa ocuparse de ello antes de 2030.<span class="nota">publicado por varios periódicos, probablemente a partir de un mismo texto</span></td><td class="c"><span class="conf conf-1" title="Una sola fuente; el texto dice cuál.">1 fuente</span></td></tr></tbody>
+    </table>
+    <div class="legenda-conf"><span><span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span> Confirmado en dos o más fuentes independientes.</span><span><span class="conf conf-1" title="Una sola fuente; el texto dice cuál.">1 fuente</span> Una sola fuente; el texto dice cuál.</span><span><span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span> Las fuentes no coinciden; mostramos las versiones y no elegimos.</span><span><span class="conf conf-sem" title="Nadie lo registró. Lo decimos en lugar de inventar.">sin registro</span> Nadie lo registró. Lo decimos en lugar de inventar.</span></div>
+
+    <h2 id="s1"><span class="n">01</span>Una noche en el Tay</h2><p>Hasta 1890, quien iba en tren de Edimburgo al norte de Escocia tropezaba con dos estuarios: el del Forth, justo al norte de la capital, y el del Tay, junto a Dundee. El ingeniero Thomas Bouch tenía una solución para los dos: el puente del Tay, que llegó a abrirse a los trenes, y, para el Forth, un puente colgante con dos vanos de 1.600 pies; en 1873 se formó la compañía, se aprobó la ley y se firmó el contrato con el constructor William Arrol, de Glasgow. En Inchgarvie, el islote en medio del estuario, llegó a levantarse una pila de ladrillo, después de una primera piedra colocada con ceremonia.</p><p>El 28 de diciembre de 1879, hacia las siete y cuarto de la noche, durante un vendaval, los vanos centrales del puente del Tay se cayeron con el tren que lo cruzaba. Nadie sobrevivió. Cuántos murieron nunca se cerró: los memoriales inaugurados en 2013 a ambos lados del río tienen 59 nombres, los conocidos; la estimación de 75 viene de la época. La investigación concluyó que el arriostramiento y las fijaciones eran insuficientes para resistir la fuerza del vendaval, y el informe del comisionado Henry Rothery señaló a Bouch como el principal culpable, por defectos de diseño, de construcción y de mantenimiento. Bouch sí había considerado el viento, pero con 10 libras por pie cuadrado. Murió en 1880.</p><figure class="fig revela">
+  <button type="button" class="cantos" data-grande="../../assets/img/22-tay-1880.jpg" data-legenda="Los vanos caídos del puente del Tay, en Dundee, fotografiados para la Board of Trade después del desastre del 28 de diciembre de 1879. — Board of Trade (Gran Bretaña), acervo de la National Library of Scotland, Dominio público" aria-label="Ampliar imagen: Fotografía antigua en sepia: vigas de hierro volcadas y retorcidas que salen del agua de un río ancho, con una fila de pilas de puente al fondo que termina en un vano vacío"><picture><source type="image/webp" srcset="../../assets/img/22-tay-1880-800.webp 800w, ../../assets/img/22-tay-1880.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../../assets/img/22-tay-1880.jpg" srcset="../../assets/img/22-tay-1880-800.jpg 800w, ../../assets/img/22-tay-1880.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="983" alt="Fotografía antigua en sepia: vigas de hierro volcadas y retorcidas que salen del agua de un río ancho, con una fila de pilas de puente al fondo que termina en un vano vacío" loading="lazy" decoding="async"></picture></button>
+  <figcaption><span class="fn">FIG. 02</span><span>Los vanos caídos del puente del Tay, en Dundee, fotografiados para la Board of Trade después del desastre del 28 de diciembre de 1879.</span><small><a href="https://commons.wikimedia.org/wiki/File:Fallen_girders,_Tay_Bridge.jpg" rel="noopener">Board of Trade (Gran Bretaña), acervo de la National Library of Scotland</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Dominio público</a></small></figcaption>
+</figure><h2 id="s2"><span class="n">02</span>Cincuenta y seis libras de viento</h2><p>Según Wilhelm Westhofen, ingeniero de la obra que vendría después, el desastre y lo que revelaron las investigaciones minaron la confianza pública en el proyecto de Bouch, y el puente colgante del Forth se abandonó. Las cuatro compañías ferroviarias interesadas en la ruta de la costa este, Great Northern, North Eastern, Midland y North British, pidieron a sus ingenieros consultores, Barlow, Harrison y John Fowler, que estudiaran de nuevo si valía la pena cruzar el Forth y con qué tipo de puente. Se compararon el puente de Bouch, tres formas de puente colgante reforzado, un cantiléver y hasta túneles.</p><p>Ganó el cantiléver de John Fowler y Benjamin Baker, presentado a los directores en mayo de 1881 y autorizado por el Parlamento en julio de 1882. Las reglas del juego eran ahora otras: la Board of Trade exigía que los puentes en lugares expuestos se calcularan para una presión de viento de 56 libras por pie cuadrado, más de cinco veces el valor usado en el Tay. Baker instaló medidores de viento en Inchgarvie, uno de ellos una placa de 300 pies cuadrados, para saber lo que el estuario hacía de verdad.</p><figure class="fig revela">
+  <button type="button" class="cantos" data-grande="../../assets/img/22-cantilever-humano.jpg" data-legenda="El modelo vivo del cantiléver: Kaichi Watanabe suspendido entre dos hombres identificados como John Fowler y Benjamin Baker. La foto se atribuye a 1887. — Fotógrafo no identificado, para Benjamin Baker, Dominio público" aria-label="Ampliar imagen: Fotografía antigua en blanco y negro: dos hombres con sombrero sentados en sillas extienden los brazos apoyados en varas y sostienen entre ellos a un tercer hombre sentado en una tabla suspendida; pilas de ladrillos en los extremos y el dibujo del puente en la pared de madera detrás"><picture><source type="image/webp" srcset="../../assets/img/22-cantilever-humano-800.webp 800w, ../../assets/img/22-cantilever-humano.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../../assets/img/22-cantilever-humano.jpg" srcset="../../assets/img/22-cantilever-humano-800.jpg 800w, ../../assets/img/22-cantilever-humano.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1134" alt="Fotografía antigua en blanco y negro: dos hombres con sombrero sentados en sillas extienden los brazos apoyados en varas y sostienen entre ellos a un tercer hombre sentado en una tabla suspendida; pilas de ladrillos en los extremos y el dibujo del puente en la pared de madera detrás" loading="lazy" decoding="async"></picture></button>
+  <figcaption><span class="fn">FIG. 03</span><span>El modelo vivo del cantiléver: Kaichi Watanabe suspendido entre dos hombres identificados como John Fowler y Benjamin Baker. La foto se atribuye a 1887.</span><small><a href="https://commons.wikimedia.org/wiki/File:Cantilever_bridge_human_model.jpg" rel="noopener">Fotógrafo no identificado, para Benjamin Baker</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Dominio público</a></small></figcaption>
+</figure><h2 id="s3"><span class="n">03</span>Tres hombres y un puente</h2><p>La idea es fácil de mostrar, y Baker la mostró. En una foto famosa, dos hombres sentados en sillas, identificados como Fowler y Baker, extienden los brazos apoyados en varas de madera; entre ellos, en una tabla suspendida, está sentado el ingeniero japonés Kaichi Watanabe, formado en Glasgow y capataz en la obra. Los brazos de los dos son los voladizos, Watanabe es la viga central suspendida, y pilas de ladrillos en los extremos hacen de contrapeso. La foto se atribuye a 1887; cuándo y dónde se tomó no es seguro. En 2007 llegó al billete de £20 del Bank of Scotland.</p><p>En el puente real, cada una de las tres torres es un par de brazos en voladizo de 680 pies, y entre ellas cuelgan vigas de 350 pies. Las torres se abren hasta 120 pies de ancho en la base, para que el viento tenga menos palanca sobre la estructura, y las columnas son pares de tubos de acero de hasta 3,7 metros de diámetro, inclinados uno hacia el otro. El objetivo, en palabras de Westhofen, era que el puente fuera no solo el mayor y el más fuerte, sino el más rígido del mundo, para ganarse la confianza del público. Era además de acero, en una época en que los puentes eran de hierro: todo el material se produjo por el proceso Siemens-Martin, en acerías de Escocia y de Gales.</p><figure class="fig revela">
+  <button type="button" class="cantos" data-grande="../../assets/img/22-tres-torres-1887.jpg" data-legenda="Las tres torres en pie el 17 de abril de 1887, el día en que la de Queensferry alcanzó su altura total, vistas desde la orilla sur. — Philip Phillips, acervo de la National Library of Scotland, Dominio público" aria-label="Ampliar imagen: Fotografía antigua en sepia: tres torres de celosía de acero en construcción levantadas sobre el agua de un estuario, todavía sin los brazos, vistas desde una playa con rocas cubiertas de algas"><picture><source type="image/webp" srcset="../../assets/img/22-tres-torres-1887-800.webp 800w, ../../assets/img/22-tres-torres-1887.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../../assets/img/22-tres-torres-1887.jpg" srcset="../../assets/img/22-tres-torres-1887-800.jpg 800w, ../../assets/img/22-tres-torres-1887.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1171" alt="Fotografía antigua en sepia: tres torres de celosía de acero en construcción levantadas sobre el agua de un estuario, todavía sin los brazos, vistas desde una playa con rocas cubiertas de algas" loading="lazy" decoding="async"></picture></button>
+  <figcaption><span class="fn">FIG. 04</span><span>Las tres torres en pie el 17 de abril de 1887, el día en que la de Queensferry alcanzó su altura total, vistas desde la orilla sur.</span><small><a href="https://commons.wikimedia.org/wiki/File:Forth_Bridge_-_Three_cantilevers_from_the_south_shore_on_the_occasion_of_Queensferry_superstructure_attaining_its_full_height.jpg" rel="noopener">Philip Phillips, acervo de la National Library of Scotland</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Dominio público</a></small></figcaption>
+</figure><h2 id="s4"><span class="n">04</span>Siete años sobre el estuario</h2><p>El contrato se firmó el 21 de diciembre de 1882 con Tancred, Arrol &amp; Co., y William Arrol reaprovechó los talleres que había levantado para el puente de Bouch. Las cimentaciones empezaron en febrero de 1883. Se hundieron seis cajones de aire comprimido, cuatro en Queensferry y dos en Inchgarvie, hasta 89 pies bajo la marea alta. La superestructura empezó a subir en 1886, y en 1887 las tres torres ya estaban en pie, todavía sin los brazos, como muestran las fotos que Philip Phillips hizo de la obra.</p><p>En el punto máximo, según Westhofen, trabajaban allí 4.600 personas; a lo largo de la obra, hubo gente a casi 90 pies bajo la marea alta, en los cajones, y a más de 300 pies por encima de ella, en las torres. Los remachadores trabajaban a destajo, en cuadrillas de cuatro, con un muchacho que calentaba los remaches; los muchachos consiguieron un mínimo de 20 a 24 chelines por semana. La cuenta de remaches, que empezó en 5 millones, llegó a 6,5 millones, y Westhofen escribió que dudaba que incluso eso cubriera el total: solo en Inchgarvie se contaron casi 2,7 millones.</p><p>La obra se terminó a fines de 1889. El 21 de enero de 1890, dos trenes con tres locomotoras cada uno, que arrastraban vagones de carbón, probaron el puente con unas 1.880 toneladas. El 4 de marzo de 1890, el Príncipe de Gales, futuro Eduardo VII, colocó un remache dorado y declaró abierto el puente, en un discurso acortado por el viento. Tanto el valor del contrato como el plazo se habían superado. El costo final aparece como de unos £3 millones, o £3,2 millones si se suma lo gastado en el puente de Bouch.</p><figure class="fig revela">
+  <button type="button" class="cantos" data-grande="../../assets/img/22-base-fife-1886.jpg" data-legenda="La base suroeste de la torre de Fife el 7 de septiembre de 1886, con los tubos de acero en montaje. — Philip Phillips, acervo de la National Library of Scotland, Dominio público" aria-label="Ampliar imagen: Fotografía antigua en sepia: enormes tubos de acero remachados, inclinados y horizontales, montándose sobre una base circular de piedra, bajo vigas y grúas; dos obreros pequeños de pie junto a la base"><picture><source type="image/webp" srcset="../../assets/img/22-base-fife-1886-800.webp 800w, ../../assets/img/22-base-fife-1886.webp 1600w" sizes="(max-width:980px) 100vw, 720px"><img src="../../assets/img/22-base-fife-1886.jpg" srcset="../../assets/img/22-base-fife-1886-800.jpg 800w, ../../assets/img/22-base-fife-1886.jpg 1600w" sizes="(max-width:980px) 100vw, 720px" width="1600" height="1026" alt="Fotografía antigua en sepia: enormes tubos de acero remachados, inclinados y horizontales, montándose sobre una base circular de piedra, bajo vigas y grúas; dos obreros pequeños de pie junto a la base" loading="lazy" decoding="async"></picture></button>
+  <figcaption><span class="fn">FIG. 05</span><span>La base suroeste de la torre de Fife el 7 de septiembre de 1886, con los tubos de acero en montaje.</span><small><a href="https://commons.wikimedia.org/wiki/File:Forth_Bridge_-_Fife_S.W._skewback_%26_tubes_in_construction,_7_Sept._1886.jpg" rel="noopener">Philip Phillips, acervo de la National Library of Scotland</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Dominio público</a></small></figcaption>
+</figure><h2 id="s5"><span class="n">05</span>Cincuenta y siete, setenta y tres</h2><p>La cifra oficial de muertos está en el mismo relato de Westhofen, publicado cuatro días antes de la inauguración. Entre julio de 1883 y la Navidad de 1889, cuando el club de accidentes del contratista dejó de existir, hubo 57 accidentes mortales, 106 casos llevados a la enfermería de Edimburgo y 518 accidentes menores. El peor año fue el de la subida de las torres centrales, con 17 muertes. Westhofen atribuyó tres cuartas partes de los accidentes graves a causas evitables y culpó a la indiferencia de los propios obreros, que tiraban herramientas desde los andamios; también afirmó que ninguna muerte podía atribuirse al aire comprimido de los cajones.</p><p>Más de un siglo después, a partir de 2005, un grupo de historiadores locales de Queensferry buscó actas de defunción y periódicos para ponerles nombre a los muertos. Llegó a 73: los 16 de más provienen de la pintura inicial, en 1890, y de las obras de acceso hechas por subcontratistas, que el club no contaba. El primero de la lista fue Thomas Joseph Harris, almacenista de 16 años, en noviembre de 1883. En 2012, dos monumentos de bronce, uno en cada extremo del puente, se inauguraron con el nombre, la edad y el oficio de cada uno. Circularon otras cifras, como 78 y 98, pero los nombres confirmados son 73.</p><figure class="fig revela">
+  <button type="button" class="cantos" data-grande="../../assets/img/22-memorial.jpg" data-legenda="Uno de los dos monumentos inaugurados en 2012, en North Queensferry, con el nombre, la edad y el oficio de los muertos en la construcción. — Rosser1954, CC BY 4.0" aria-label="Ampliar imagen: Monumento alto de bronce en forma de lámina, con columnas de nombres grabados, sobre un césped, con casas y árboles al fondo"><picture><source type="image/webp" srcset="../../assets/img/22-memorial-800.webp 800w, ../../assets/img/22-memorial.webp 1519w" sizes="(max-width:980px) 100vw, 720px"><img src="../../assets/img/22-memorial.jpg" srcset="../../assets/img/22-memorial-800.jpg 800w, ../../assets/img/22-memorial.jpg 1519w" sizes="(max-width:980px) 100vw, 720px" width="1519" height="3559" alt="Monumento alto de bronce en forma de lámina, con columnas de nombres grabados, sobre un césped, con casas y árboles al fondo" loading="lazy" decoding="async"></picture></button>
+  <figcaption><span class="fn">FIG. 06</span><span>Uno de los dos monumentos inaugurados en 2012, en North Queensferry, con el nombre, la edad y el oficio de los muertos en la construcción.</span><small><a href="https://commons.wikimedia.org/wiki/File:A_Memorial_to_workers_killed_during_the_construction_of_the_Forth_Bridge,_North_Queensferry,_Fife.jpg" rel="noopener">Rosser1954</a> · <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener">CC BY 4.0</a></small></figcaption>
+</figure><h2 id="s6"><span class="n">06</span>El puente que nunca deja de pintarse</h2><p>En inglés, “painting the Forth Bridge”, pintar el Puente de Forth, se volvió una expresión para un trabajo que nunca termina: cuando se acaba, hay que volver a empezar. El puente tuvo, de hecho, cuadrillas de pintura durante más de un siglo. Entre 2002 y 2011, Network Rail gastó más de £130 millones para envolver la estructura en andamios, quitar la pintura vieja con chorro abrasivo, reparar el acero y aplicar 240 mil litros de un recubrimiento epoxi del tipo usado en plataformas petroleras, con cada remache pintado a mano. Al terminar, en diciembre de 2011, anunció que la pintura duraría dos décadas o más.</p><p>El 5 de julio de 2015, el puente entró en la lista del Patrimonio Mundial de la UNESCO, como obra maestra de la exhibición franca y sin adornos de la estructura y como hito en el uso del acero. En agosto de 2026, al discutir el plan de gestión del sitio para 2026 a 2036, el Consejo de Fife escuchó que solo cerca del 5% de las luces que iluminaban el puente de noche todavía funcionan, y que Network Rail no piensa ocuparse de ello antes de 2030. El puente que nació de la caída de otro, en una noche de tormenta, sigue dando paso a más de 200 trenes por día, casi a oscuras.</p>
+    
+
+    <h2 id="mitos"><span class="n">MITOS</span>Lo que circula y lo que dice el registro</h2>
+    <ul class="mitos"><li><div><span class="rotulo">Lo que circula</span><p>El puente del Tay se cayó porque los ingenieros ignoraron el viento.</p></div><div><span class="rotulo"><b>Lo que dice el registro</b></span><p>Thomas Bouch sí consideró el viento, pero con 10 libras por pie cuadrado. La investigación culpó al arriostramiento y a las fijaciones insuficientes, y el informe de Henry Rothery responsabilizó a Bouch por defectos de diseño, construcción y mantenimiento. Después del desastre, la exigencia pasó a 56 libras.</p></div></li><li><div><span class="rotulo">Lo que circula</span><p>Murieron 57 obreros en la construcción.</p></div><div><span class="rotulo"><b>Lo que dice el registro</b></span><p>57 es el recuento de 1890, hecho por el club de accidentes del contratista hasta la Navidad de 1889. La investigación de los historiadores locales confirmó 73 nombres, que están en el memorial inaugurado en 2012.</p></div></li><li><div><span class="rotulo">Lo que circula</span><p>El puente se pinta sin parar: cuando la pintura termina en un extremo, vuelve a empezar en el otro.</p></div><div><span class="rotulo"><b>Lo que dice el registro</b></span><p>Hubo cuadrillas permanentes de pintura, pero el ciclo sin fin es una exageración que se volvió expresión. Desde la restauración terminada en 2011, el recubrimiento debe durar dos décadas o más.</p></div></li><li><div><span class="rotulo">Lo que circula</span><p>Fue la primera estructura de acero del mundo.</p></div><div><span class="rotulo"><b>Lo que dice el registro</b></span><p>La formulación más segura es la primera gran estructura de Gran Bretaña construida en acero, y no en hierro. El organismo de patrimonio de Escocia habla de la primera gran estructura de acero del mundo; otras fuentes oficiales lo limitan al Reino Unido, y en Estados Unidos el Puente Eads, de 1874, ya tenía el acero como metal principal.</p></div></li></ul>
+
+    <h2 id="perguntas"><span class="n">PREGUNTAS</span>Preguntas frecuentes</h2><div class="perguntas"><h3>¿Quién construyó el Puente de Forth?</h3><p>El proyecto es de Sir John Fowler y Sir Benjamin Baker. La construcción quedó a cargo de Tancred, Arrol &amp; Co., de William Arrol, de Glasgow, contratada el 21/12/1882; la dueña de la obra era la Forth Bridge Railway Company.</p><h3>¿Cuándo se construyó el Puente de Forth?</h3><p>Entre 1882 y 1890. El contrato se firmó en diciembre de 1882, las cimentaciones empezaron en febrero de 1883, la superestructura en 1886, y el puente lo inauguró el Príncipe de Gales el 04/03/1890.</p><h3>¿Por qué el Puente de Forth tiene esa forma?</h3><p>Porque nació de la caída del puente del Tay, el 28/12/1879. Fowler y Baker diseñaron un cantiléver de acero con tres torres abiertas en la base, para que el viento tenga menos palanca, calculado para un viento de 56 libras por pie cuadrado, más de cinco veces el valor usado en el Tay.</p><h3>¿Cuántas personas murieron en la construcción del Puente de Forth?</h3><p>Las fuentes divergen. La cifra oficial de 1890 es de 57 accidentes mortales; la investigación de historiadores locales confirmó después 73 nombres, que están en el memorial de 2012. Circularon también 78 y 98.</p><h3>¿Cuánto mide el Puente de Forth?</h3><p>Los dos vanos principales miden unos 520 m, y las torres se elevan 110 m sobre la marea alta. La longitud total difiere entre las fuentes: 2.529 m según la medición de 1890 o 2.467 m según Network Rail.</p></div>
+
+    <section class="video">
+      <div>
+        <span class="rotulo">Episodio 22 · <span class="selo-estreia" data-estreia="2027-03-04" data-no-ar="ya disponible">estreno 4 de marzo de 2027</span></span>
+        <h3>Episodio en producción</h3>
+        <p>Cada semana, una obra que no debería haber quedado en pie.</p>
+      </div>
+      <a class="botao cheio" href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">Ver en YouTube</a>
+    </section>
+
+    <a class="proximo-ep" href="../../es/obras/edificio-ingalls.html">
+      <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/23-capa-800.webp 800w, ../../assets/img/23-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../../assets/img/23-capa.jpg" srcset="../../assets/img/23-capa-800.jpg 800w, ../../assets/img/23-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="2133" alt="Edificio estrecho y alto de fachada clara, visto desde abajo a partir de la esquina, con base de piedra, filas regulares de ventanas y una cornisa saliente en lo alto, contra un cielo azul" loading="lazy" decoding="async" style="object-position:50% 35%"></picture></div>
+      <div class="txt">
+        <span class="rotulo">Próximo episodio · Obra <b>23</b> · <span class="selo-estreia" data-estreia="2027-03-11" data-no-ar="ya disponible">estreno 11 mar 2027</span></span>
+        <h3>Edificio Ingalls</h3>
+        <span class="onde">Esquina de las calles Fourth y Vine, centro de Cincinnati, Ohio, Estados Unidos · 1902–1904</span>
+        <p>Levantar 64 metros de oficinas sin ninguna viga de acero, solo con concreto y barras torcidas en su interior, cuando, según las fuentes, ningún edificio de concreto pasaba de seis pisos e ingenieros respetados juraban que nunca llegaría al techo.</p>
+        <span class="ir">Leer la obra →</span>
+      </div>
+    </a>
+
+    <section class="leia" aria-labelledby="leia"><h2 id="leia"><span class="n">MÁS</span>Lee también</h2><ul><li><a href="../../es/obras/ponte-de-tacoma-narrows.html"><span class="rotulo">Obra <b>24</b> · Estados Unidos</span><strong>Puente de Tacoma Narrows</strong><span class="onde">1938–1940</span></a></li><li><a href="../../es/obras/ponte-eads.html"><span class="rotulo">Obra <b>21</b> · Estados Unidos</span><strong>Puente Eads</strong><span class="onde">1867–1874</span></a></li><li><a href="../../es/obras/ponte-de-duge.html"><span class="rotulo">Obra <b>32</b> · China</span><strong>Puente Duge</strong><span class="onde">2013–2016</span></a></li></ul><p class="temas-link"><span class="rotulo">Tema</span> <a href="../../es/temas/pontes.html">Grandes puentes</a></p></section>
+
+    <h2 id="fontes"><span class="n">FUENTES</span>Fuentes</h2>
+    <ol class="fontes"><li>Wilhelm Westhofen, &quot;The Forth Bridge&quot;, reimpreso de Engineering, 28/02/1890 — <a href="https://archive.org/details/forthbridgethewe00westrich" rel="noopener">archive.org</a></li><li>Wilhelm Westhofen, &quot;The Forth Bridge: Wind Pressure and Wind Gauges&quot;, 1890 (Wikisource) — <a href="https://en.wikisource.org/wiki/The_Forth_Bridge/Wind_Pressure_and_Wind_Gauges" rel="noopener">en.wikisource.org</a></li><li>The Forth Bridges, &quot;Building the Forth Bridge&quot; — <a href="https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-history/building-the-forth-bridge/" rel="noopener">theforthbridges.org</a></li><li>The Forth Bridges, &quot;Forth Bridge History&quot; — <a href="https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-history/" rel="noopener">theforthbridges.org</a></li><li>The Forth Bridges, &quot;Forth Bridge Construction Statistics&quot; — <a href="https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-history/forth-bridge-construction-statistics/" rel="noopener">theforthbridges.org</a></li><li>The Forth Bridges, &quot;The Grand Opening of the Forth Bridge&quot; — <a href="https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-history/the-grand-opening-of-the-forth-bridge/" rel="noopener">theforthbridges.org</a></li><li>The Forth Bridges, &quot;War and Briggers Memorials&quot; — <a href="https://www.theforthbridges.org/visit-the-local-area-forth-bridges/see-do/north-queensferry/war-briggers-memorials/" rel="noopener">theforthbridges.org</a></li><li>Network Rail, archivo histórico, &quot;032 – Forth Bridge&quot; — <a href="https://history.networkrail.co.uk/uncategorized/SO_ec3b0fa6-be97-485a-84bb-c1d924154543/" rel="noopener">history.networkrail.co.uk</a></li><li>Network Rail, &quot;Forth Bridge makes final brush with a modern myth&quot;, 05/09/2011 — <a href="https://www.networkrailmediacentre.co.uk/news/forth-bridge-makes-final-brush-with-a-modern-myth" rel="noopener">networkrailmediacentre.co.uk</a></li><li>Historic Environment Scotland, &quot;The Forth Bridge&quot; — <a href="https://www.historicenvironment.scot/protect-and-care/protected-historic-places/world-heritage-sites/the-forth-bridge/" rel="noopener">historicenvironment.scot</a></li><li>UK National Commission for UNESCO, &quot;The Forth Bridge&quot; — <a href="https://unesco.org.uk/our-network/world-heritage-sites/the-forth-bridge" rel="noopener">unesco.org.uk</a></li><li>American Society of Civil Engineers, &quot;Firth of Forth Railway Bridge&quot; — <a href="https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/firth-of-forth-railway-bridge" rel="noopener">asce.org</a></li><li>Who Do You Think You Are? Magazine, &quot;How many people died building the Forth Rail Bridge?&quot;, 15/11/2023 — <a href="https://www.whodoyouthinkyouaremagazine.com/feature/125-years-on-the-men-who-died-building-the-forth-bridge" rel="noopener">whodoyouthinkyouaremagazine.com</a></li><li>Grace&#x27;s Guide to British Industrial History, &quot;Forth Bridge&quot; — <a href="https://www.gracesguide.co.uk/Forth_Bridge" rel="noopener">gracesguide.co.uk</a></li><li>Undiscovered Scotland, &quot;The Forth Bridge&quot; — <a href="https://www.undiscoveredscotland.co.uk/queensferry/forthrailbridge/index.html" rel="noopener">undiscoveredscotland.co.uk</a></li><li>Railway Wonders of the World, &quot;The Forth Bridge&quot; (c. 1913) — <a href="https://railwaywondersoftheworld.com/forth-bridge.html" rel="noopener">railwaywondersoftheworld.com</a></li><li>Tom Martin, &quot;Tay Bridge Disaster&quot; (páginas de investigación y memorial) — <a href="https://taybridgedisaster.com/" rel="noopener">taybridgedisaster.com</a></li><li>University of Glasgow Library, &quot;The University of Glasgow, Japan, and the Forth Rail Bridge&quot;, 04/09/2015 — <a href="https://universityofglasgowlibrary.wordpress.com/2015/09/04/the-university-of-glasgow-japan-and-the-forth-rail-bridge/" rel="noopener">universityofglasgowlibrary.wordpress.com</a></li><li>The Scotsman, &quot;Broken lights on the landmark Forth Bridge won&#x27;t be fixed until 2030&quot;, 2026 — <a href="https://www.scotsman.com/news/scottish-news/broken-lights-on-the-landmark-forth-bridge-wont-be-fixed-until-2030-8922032" rel="noopener">scotsman.com</a></li><li>Central Fife Times, &quot;Forth Bridge lighting so bad only 5 per cent of them work&quot;, 2026 — <a href="https://www.centralfifetimes.com/news/26463715.forth-bridge-lighting-bad-5-work/" rel="noopener">centralfifetimes.com</a></li><li>Wikipedia, &quot;Forth Bridge&quot; y &quot;Tay Bridge disaster&quot; (punto de partida) — <a href="https://en.wikipedia.org/wiki/Forth_Bridge" rel="noopener">en.wikipedia.org</a></li></ol>
+    <h3 style="margin-top:2rem">Imágenes</h3>
+    <ul class="creditos"><li>Fig. 01 — El puente completo visto desde South Queensferry en febrero de 2013, con un tren en el viaducto de acceso: <a href="https://commons.wikimedia.org/wiki/File:Forthbridge_feb_2013.jpg" rel="noopener">George Gastin</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener">CC BY-SA 3.0</a></li><li>Fig. 02 — Los vanos caídos del puente del Tay, en Dundee, fotografiados para la Board of Trade después del desastre del 28 de diciembre de 1879: <a href="https://commons.wikimedia.org/wiki/File:Fallen_girders,_Tay_Bridge.jpg" rel="noopener">Board of Trade (Gran Bretaña), acervo de la National Library of Scotland</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Dominio público</a></li><li>Fig. 03 — El modelo vivo del cantiléver: Kaichi Watanabe suspendido entre dos hombres identificados como John Fowler y Benjamin Baker. La foto se atribuye a 1887: <a href="https://commons.wikimedia.org/wiki/File:Cantilever_bridge_human_model.jpg" rel="noopener">Fotógrafo no identificado, para Benjamin Baker</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Dominio público</a></li><li>Fig. 04 — Las tres torres en pie el 17 de abril de 1887, el día en que la de Queensferry alcanzó su altura total, vistas desde la orilla sur: <a href="https://commons.wikimedia.org/wiki/File:Forth_Bridge_-_Three_cantilevers_from_the_south_shore_on_the_occasion_of_Queensferry_superstructure_attaining_its_full_height.jpg" rel="noopener">Philip Phillips, acervo de la National Library of Scotland</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Dominio público</a></li><li>Fig. 05 — La base suroeste de la torre de Fife el 7 de septiembre de 1886, con los tubos de acero en montaje: <a href="https://commons.wikimedia.org/wiki/File:Forth_Bridge_-_Fife_S.W._skewback_%26_tubes_in_construction,_7_Sept._1886.jpg" rel="noopener">Philip Phillips, acervo de la National Library of Scotland</a> · <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="license noopener">Dominio público</a></li><li>Fig. 06 — Uno de los dos monumentos inaugurados en 2012, en North Queensferry, con el nombre, la edad y el oficio de los muertos en la construcción: <a href="https://commons.wikimedia.org/wiki/File:A_Memorial_to_workers_killed_during_the_construction_of_the_Forth_Bridge,_North_Queensferry,_Fife.jpg" rel="noopener">Rosser1954</a> · <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener">CC BY 4.0</a></li></ul>
+  </article>
+  <aside class="indice" aria-label="En esta página">
+    <div class="lado-card">
+      <span class="rotulo">Ficha rápida</span>
+      <dl>
+        <div><dt>Dónde</dt><dd>Estuario del río Forth, entre South Queensferry (Edimburgo) y North Queensferry (Fife), Escocia, Reino Unido</dd></div>
+        <div><dt>Obra</dt><dd>1882–1890</dd></div>
+        <div><dt>Episodio</dt><dd>22 · 04 mar 2027</dd></div>
+      </dl>
+    </div>
+    <span class="rotulo">En esta página</span>
+    <ol><li><a href="#ficha">Ficha de la obra</a></li><li><a href="#s1">Una noche en el Tay</a></li><li><a href="#s2">Cincuenta y seis libras de viento</a></li><li><a href="#s3">Tres hombres y un puente</a></li><li><a href="#s4">Siete años sobre el estuario</a></li><li><a href="#s5">Cincuenta y siete, setenta y tres</a></li><li><a href="#s6">El puente que nunca deja de pintarse</a></li><li><a href="#mitos">Mitos y registro</a></li><li><a href="#perguntas">Preguntas frecuentes</a></li><li><a href="#fontes">Fuentes</a></li></ol>
+  </aside>
+</div>
+<nav class="seguinte" aria-label="Otras obras"><a href="../../es/obras/ponte-eads.html"><span class="rotulo">← Obra 21</span><strong>Puente Eads</strong></a><a href="../../es/obras/edificio-ingalls.html"><span class="rotulo">Obra 23 →</span><strong>Edificio Ingalls</strong></a></nav>
+</main>
+<div class="lupa" role="dialog" aria-modal="true" aria-label="Imagen ampliada"><button type="button">Cerrar</button><img alt=""><p></p></div>
+<footer class="rodape">
+  <div class="casca">
+    <div>
+      <h2>Arquitetura do Impossível — Arquitectura de lo Imposible</h2>
+      <p>Cómo una obra que parecía imposible quedó en pie: el proyecto, el cálculo, la obra, quién trabajó y quién murió. Aquí, cada cifra tiene fuente.</p>
+      <p><a href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">Míralo en YouTube (en portugués)</a></p>
+    </div>
+    <div>
+      <h2>Del mismo creador</h2>
+      <ul>
+        <li><a href="https://vestigiooculto.com.br" target="_blank" rel="noopener">Vestígio Oculto</a> — arqueología y misterio (en portugués)</li>
+        <li><a href="https://xadrezbelico.com/" target="_blank" rel="noopener">Xadrez Bélico</a> — batallas explicadas como una partida de ajedrez</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Este sitio</h2>
+      <ul>
+        <li><a href="../../es/sobre.html">Acerca de</a> · <a href="../../es/contato.html">Contacto</a></li>
+        <li>Muestra anuncios de Google AdSense. <a href="../../es/privacidade.html">Política de privacidad</a>. <a href="#" role="button" data-rever-cookies>Revisar elección de cookies</a>.</li>
+        <li>Fotos de terceros en dominio público o bajo Creative Commons, con crédito en cada página.</li>
+      </ul>
+    </div>
+    <div class="linha"><span>© 2026 Arquitetura do Impossível · textos propios</span><span>lo imposible, medido.</span></div>
+  </div>
+</footer>
+<div class="consentimento" id="consentimento" role="dialog" aria-live="polite" aria-label="Aviso de cookies" hidden>
+  <div class="casca">
+    <p>Este sitio usa cookies de Google AdSense para mostrar y medir anuncios. No pedimos registro ni correo electrónico. Detalles en la <a href="../../es/privacidade.html">política de privacidad</a>.</p>
+    <div class="botoes">
+      <button type="button" data-consent="recusar">Rechazar anuncios</button>
+      <button type="button" data-consent="aceitar" class="principal">Entendido</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  var CHAVE='ai-consentimento', PUB='pub-4401770243539507', BLOQUEIA=false;
+  function ler(){try{return localStorage.getItem(CHAVE)}catch(e){return null}}
+  function gravar(v){try{localStorage.setItem(CHAVE,v)}catch(e){}}
+  function carrega(){
+    if(!PUB||document.getElementById('ads-google'))return;
+    var s=document.createElement('script');s.id='ads-google';s.async=true;s.crossOrigin='anonymous';
+    s.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-'+PUB;
+    document.head.appendChild(s);
+  }
+  // "Rever escolha de cookies", no rodapé: apaga a escolha salva e recarrega,
+  // e a faixa volta a aparecer.
+  document.querySelectorAll('[data-rever-cookies]').forEach(function(a){
+    a.addEventListener('click',function(ev){
+      ev.preventDefault();
+      try{localStorage.removeItem(CHAVE)}catch(e){}
+      location.reload();
+    });
+  });
+  var escolha=ler();
+  if(escolha==='aceitar'||(escolha===null&&!BLOQUEIA))carrega();
+  var caixa=document.getElementById('consentimento');
+  if(escolha===null&&caixa){
+    caixa.hidden=false;
+    caixa.addEventListener('click',function(ev){
+      var b=ev.target.closest('[data-consent]');if(!b)return;
+      var v=b.dataset.consent;gravar(v);caixa.hidden=true;
+      if(v==='aceitar')carrega();else{var x=document.getElementById('ads-google');if(x)x.remove();}
+    });
+  }
+  // Europa, Reino Unido, Suíça: quem pergunta é a mensagem do Google (a
+  // plataforma certificada que o AdSense exige lá). Se ela diz que o GDPR se
+  // aplica, esta faixa sai da frente. Sem a mensagem publicada, não dispara.
+  if(escolha===null&&caixa){
+    var n=0,t=setInterval(function(){
+      if(typeof window.__tcfapi==='function'){
+        clearInterval(t);
+        window.__tcfapi('addEventListener',2,function(tc,ok){if(ok&&tc&&tc.gdprApplies)caixa.hidden=true;});
+      }else if(++n>40)clearInterval(t);
+    },250);
+  }
+})();
+</script>
+<script>
+(function(){
+  var hoje=new Date();hoje.setHours(0,0,0,0);
+  document.querySelectorAll('[data-estreia]').forEach(function(el){
+    var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+  });
+  var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
+  fs.forEach(function(b){b.addEventListener('click',function(){
+    fs.forEach(function(x){x.setAttribute('aria-pressed',x===b)});
+    var f=b.dataset.f;cs.forEach(function(c){c.hidden=!(f==='todas'||c.dataset.regiao===f)});
+  })});
+  var rv=document.querySelectorAll('.revela');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('visto');io.unobserve(x.target)}})},{rootMargin:'0px 0px -8% 0px'});
+    rv.forEach(function(x){io.observe(x)});
+  } else rv.forEach(function(x){x.classList.add('visto')});
+  var bar=document.querySelector('.progresso'),art=document.querySelector('.texto');
+  if(bar&&art){var up=function(){var r=art.getBoundingClientRect(),t=r.height-innerHeight;bar.style.transform='scaleX('+Math.min(1,Math.max(0,-r.top/(t>0?t:1)))+')'};addEventListener('scroll',up,{passive:true});up();}
+  var links=document.querySelectorAll('.indice a');
+  if(links.length&&'IntersectionObserver' in window){
+    var io2=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){links.forEach(function(a){a.classList.toggle('ativo',a.getAttribute('href')==='#'+x.target.id)})}})},{rootMargin:'-20% 0px -70% 0px'});
+    document.querySelectorAll('.texto h2[id]').forEach(function(h){io2.observe(h)});
+  }
+  var lupa=document.querySelector('.lupa');
+  if(lupa){
+    var li=lupa.querySelector('img'),lp=lupa.querySelector('p'),lb=lupa.querySelector('button'),ant=null;
+    var fecha=function(){lupa.classList.remove('aberta');document.body.style.overflow='';if(ant)ant.focus()};
+    document.querySelectorAll('.fig button').forEach(function(b){b.addEventListener('click',function(){
+      ant=b;var im=b.querySelector('img');li.src=b.dataset.grande;li.alt=im.alt;lp.textContent=b.dataset.legenda;
+      lupa.classList.add('aberta');document.body.style.overflow='hidden';lb.focus();
+    })});
+    lb.addEventListener('click',fecha);
+    lupa.addEventListener('click',function(ev){if(ev.target===lupa)fecha()});
+    addEventListener('keydown',function(ev){if(ev.key==='Escape'&&lupa.classList.contains('aberta'))fecha()});
+  }
+})();
+</script>
+</body>
+</html>

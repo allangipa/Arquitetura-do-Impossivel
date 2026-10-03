@@ -1,0 +1,158 @@
+{
+  "_nota": "Traducción fiel de ../23-edificio-ingalls.json. Campos fijos vienen del original.",
+  "obra": "Edificio Ingalls",
+  "titulo_seo": "Edificio Ingalls, el primer rascacielos de concreto armado",
+  "titulo_video": null,
+  "lugar": "Esquina de las calles Fourth y Vine, centro de Cincinnati, Ohio, Estados Unidos",
+  "periodo": "1902–1904",
+  "impossivel": "Levantar 64 metros de oficinas sin ninguna viga de acero, solo con concreto y barras torcidas en su interior, cuando, según las fuentes, ningún edificio de concreto pasaba de seis pisos e ingenieros respetados juraban que nunca llegaría al techo.",
+  "resumo": "Cómo Cincinnati levantó el Edificio Ingalls, de 1902 a 1904, el primer rascacielos de concreto armado del mundo, ante la desconfianza de los ingenieros.",
+  "abertura": [
+    "En 1902, en la esquina de las calles Fourth y Vine, en el centro de Cincinnati, en Ohio, Estados Unidos, empezó a subir un edificio de oficinas de 64 metros. Hasta entonces, según las fuentes que registran la historia de la obra, ningún edificio de concreto del mundo había pasado de seis pisos. Este tendría dieciséis, contando el ático, y ninguna viga de acero.",
+    "El inversionista era Melville E. Ingalls, presidente de un gran ferrocarril; los arquitectos, Elzner & Anderson; el ingeniero, Henry N. Hooper. El secreto estaba escondido en el concreto: barras de acero cuadradas, torcidas en frío, la técnica patentada en 1884 por el ingeniero Ernest L. Ransome. El concreto aguanta bien que lo aplasten y muy mal que lo estiren. La barra torcida existe para hacer la parte que él no hace."
+  ],
+  "numeros": [
+    {"valor": "64 m", "rotulo": "de altura sobre la acera, 210 pies en las medidas de la época"},
+    {"valor": "15 + ático", "rotulo": "pisos, “prácticamente dieciséis” (traducción nuestra), en palabras del arquitecto"},
+    {"valor": "20 cm", "rotulo": "de espesor de los muros de concreto, de la base a la cima"},
+    {"valor": "1884", "rotulo": "el año de la patente de Ernest Ransome para la barra de acero torcida"},
+    {"valor": "US$ 500 mil", "rotulo": "precio de contrato del edificio completo, según una revista de 1903"},
+    {"valor": "6 pisos", "rotulo": "la altura del edificio de concreto más alto antes que él, según las fuentes, que no dicen cuál era"}
+  ],
+  "ficha": [
+    {"item": "Qué es", "valor": "Edificio de oficinas de concreto armado, reconocido como el primer rascacielos del mundo construido con ese material. El propio arquitecto lo llamó, en 1904, “el primer rascacielos de concreto” (traducción nuestra)."},
+    {"item": "Quién lo quiso", "valor": "Melville E. Ingalls (1842–1914), presidente del ferrocarril Cleveland, Cincinnati, Chicago & St. Louis, el “Big Four”, y del Merchants National Bank. Fue el principal inversionista, y el edificio llevó su nombre."},
+    {"item": "Proyecto", "valor": "Los arquitectos Alfred O. Elzner y George M. Anderson, del despacho Elzner & Anderson, de Cincinnati. El cálculo estructural se atribuye a Henry N. Hooper, ingeniero jefe de la Ferro-Concrete Construction Company, también de Cincinnati.", "nota": "el artículo de Elzner de 1904 describe el sistema sin mencionar a Hooper ni a Ransome"},
+    {"item": "El sistema", "valor": "Pórtico monolítico de columnas, vigas y losas de concreto, armado con barras de acero cuadradas torcidas en frío, la técnica de la patente n.º 305.226 de Ernest L. Ransome, del 16/09/1884. Sin vigas en I, sin remaches, sin pernos."},
+    {"item": "Quién lo construyó", "valor": "La constructora W. H. Ellis & Co., que ganó con el precio más bajo, según la Saxby's Magazine de 1903. Otras fuentes dan como constructora a la Ferro-Concrete Construction Company, la empresa de Hooper."},
+    {"item": "Plazo", "valor": "Cerca de dos años para obtener la licencia municipal. El Hammond Building, que ocupaba el terreno, fue demolido en 1902, y la obra empezó en el otoño de 1902. La conclusión aparece como 1903 en las fuentes actuales; a mediados de 1904, el arquitecto escribía que el edificio “acaba de terminarse” (traducción nuestra)."},
+    {"item": "Ritmo de la obra", "valor": "Tres juegos de encofrados de madera, reutilizados de abajo hacia arriba. The Skyscraper Museum habla de una losa cada doce días; otras fuentes, de tres pisos por mes."},
+    {"item": "Obreros", "valor": "Ninguna fuente consultada registra cuántos trabajaron en la obra, ni el máximo, ni la jornada, ni el salario."},
+    {"item": "Muertes y accidentes", "valor": "Ninguna fuente consultada registra muertos ni heridos en la construcción, ni cifra oficial ni cuestionada."},
+    {"item": "Costo", "valor": "Unos US$ 500 mil por el edificio completo, precio de contrato publicado por la Saxby's Magazine en 1903, en un texto que elogiaba a la constructora. El arquitecto y la revista afirmaban que el concreto salió más barato que el acero.", "nota": "según el índice de precios al consumidor de EE. UU. de la serie del Federal Reserve de Minneapolis (1903 = 27; 2025 = 967,5), equivale a unos US$ 18 millones de 2025"},
+    {"item": "Medidas", "valor": "64 m (210 pies) sobre la acera; 71,6 m (235 pies) contando desde el fondo de la cimentación. Planta de 15 × 30 m, todo el terreno de la esquina. Muros de 20 cm, losas de 12,7 cm, paneles de 4,9 × 4,9 m.", "nota": "la altura desde la cimentación y el espesor de las losas provienen solo del artículo del arquitecto"},
+    {"item": "Pisos", "valor": "Quince pisos y un ático completo, “prácticamente dieciséis” (traducción nuestra), según el arquitecto. Por eso las fuentes hablan a veces de 15, a veces de 16."},
+    {"item": "Fachada", "valor": "Un revestimiento de 10 a 15 cm fijado al concreto: mármol blanco en los tres primeros pisos, ladrillo gris vidriado en los once siguientes y terracota blanca vidriada en el último piso y en la cornisa."},
+    {"item": "Reconocimiento", "valor": "Hito Histórico Nacional de la Ingeniería Civil de la American Society of Civil Engineers, en 1973 o 1974, según la fuente. Inscrito en el National Register of Historic Places el 07/03/1975."},
+    {"item": "Hoy", "valor": "Vendido en 2013, después de años de abandono se convirtió en hotel: el Courtyard by Marriott Cincinnati Downtown, de SREE Hotels, abierto en julio de 2021. El gimnasio está dentro de la antigua bóveda del banco."}
+  ],
+  "historia": [
+    {
+      "titulo": "Un edificio que nadie quería autorizar",
+      "paragrafos": [
+        "En el cambio al siglo XX, Cincinnati, en Ohio, era una ciudad de ferrocarriles y de bancos, y Melville E. Ingalls estaba en el centro de ambas cosas. Abogado formado en Harvard, había llegado a la ciudad en 1870 para hacerse cargo de un ferrocarril en apuros y, en 1889, se convirtió en presidente de la Cleveland, Cincinnati, Chicago & St. Louis, conocida como Big Four. Presidía también el Merchants National Bank. Para la esquina de las calles Fourth y Vine, donde estaba el viejo Hammond Building, quiso un edificio de oficinas de primera categoría, alto como los nuevos edificios de acero.",
+        "Solo que no sería de acero. Según la Saxby's Magazine, revista de Cincinnati, en 1903, los dueños compararon presupuestos de un esqueleto de acero y de una estructura de concreto, y el concreto salió más barato. El problema es que nadie había hecho algo así. La American Society of Civil Engineers registra que el edificio de concreto más alto de la época tenía seis pisos, y que Ingalls tardó dos años en conseguir la licencia municipal, cuyos técnicos dudaban del proyecto."
+      ]
+    },
+    {
+      "titulo": "La barra que se tuerce",
+      "paragrafos": [
+        "El concreto resiste muy bien la compresión y muy mal la tracción. En una viga, la parte de abajo está traccionada; en una torre, el viento empuja de lado y hace trabajar una cara a tracción. Sin ayuda, el concreto se agrieta. La ayuda es el acero en su interior, y el problema del acero en el interior es que se desliza: una barra lisa puede soltarse del concreto cuando este se fisura.",
+        "En 1884, el ingeniero inglés Ernest L. Ransome, radicado en California, patentó la solución: torcer barras cuadradas, para que la espiral agarrara el concreto en toda su longitud. En el libro que publicó en 1912, cuenta que la idea le vino al torcer una banda elástica de goma que tenía en el bolsillo, y que, cuando presentó el invento ante una sociedad técnica de California, lo ridiculizaron: decían que torcer arruinaba el hierro. El Edificio Ingalls usó barras torcidas en frío en todo el edificio. Ransome, sin embargo, no aparece como autor de la obra: el proyecto es de Elzner & Anderson, y el cálculo se atribuye a Henry N. Hooper."
+      ]
+    },
+    {
+      "titulo": "Un solo bloque, de arriba abajo",
+      "paragrafos": [
+        "En junio de 1904, el arquitecto Alfred O. Elzner describió el edificio en la revista The Architectural Record, en un artículo titulado “The First Concrete Skyscraper” (“El primer rascacielos de concreto”). La estructura, escribió, es “una caja de concreto de muros de 8 pulgadas” (traducción nuestra), sin vigas en I, sin ángulos, sin remaches y sin pernos: solo barras embebidas en el concreto, con los extremos entrelazados, que forman “un monolito completo de concreto” (traducción nuestra).",
+        "Las losas tienen 12,7 cm de espesor y cubren paneles de 4,9 por 4,9 metros. En las columnas, barras torcidas cerca de la superficie, en dos lados opuestos, reciben el esfuerzo del viento; en el centro, barras redondas y lisas ayudan a cargar el peso y van disminuyendo hasta desaparecer hacia el décimo piso, donde el concreto solo bastaba. La viga no se une a la columna con pieza alguna: las barras de una entran entre las de la otra, y el concreto es uno solo. Los propios muros, entre lo alto de una ventana y el antepecho de la de arriba, se calcularon como vigas, y son ellos los que traban el edificio contra el viento.",
+        "Elzner admitió que las columnas de los pisos de abajo salieron más grandes de lo necesario, por un “espíritu de conservadurismo” (traducción nuestra), natural en una ruptura tan radical. Por fuera, nadie veía el concreto: el edificio se revistió de mármol blanco abajo, ladrillo gris vidriado en el medio y terracota blanca arriba, como cualquier rascacielos de la época."
+      ]
+    },
+    {
+      "titulo": "Tres juegos de encofrados",
+      "paragrafos": [
+        "La obra empezó en el otoño de 1902. Para la cimentación se abrió una excavación de 7,6 metros y, según la Biblioteca Pública de Cincinnati, los obreros encontraron bajo el sótano antiguo siete pozos, bóvedas y cisternas de comienzos del siglo XIX. El concreto se mezclaba allí mismo, en mezcladoras a motor. Cuántos hombres trabajaron, y si alguno resultó herido, ninguna fuente consultada lo registra.",
+        "The Skyscraper Museum, de Nueva York, cuenta que la obra usó tres juegos de encofrados de madera, desmontados y vueltos a montar de abajo hacia arriba, y que se lograba colar una losa cada doce días. Era más lento que el acero: según el museo, un esqueleto de acero subía, en general, más del doble de rápido. Elzner replicó que el primer rascacielos de concreto había tardado “solo unos meses más” (traducción nuestra) que el edificio de acero más reciente de la época."
+      ]
+    },
+    {
+      "titulo": "Los que juraban que se caería",
+      "paragrafos": [
+        "En Cincinnati se cuenta hasta hoy que un reportero pasó la noche en vela frente al edificio, esperando verlo derrumbarse cuando quitaran el apuntalamiento. La propia Biblioteca Pública de la ciudad presenta el episodio como “una historia muy contada” (traducción nuestra), y la Society of Architectural Historians, como tradición local; ninguna fuente da el nombre del reportero ni del periódico.",
+        "Lo que quedó registrado es más duro. En el artículo de 1904, Elzner escribió que, durante la obra, “hombres de gran capacidad, que deberían haber sabido más” (traducción nuestra), predijeron que el edificio nunca llegaría al techo; que, si llegaba, se agrietaría entero por la retracción del concreto; y que no resistiría el viento. “Los hechos son que llegó al techo; que no hay grietas de retracción, y que el edificio no solo no ha sido derribado por el viento, sino que con los vientos más fuertes no hay siquiera un temblor perceptible” (traducción nuestra). Como prueba, señaló la bóveda del banco, de casi cien toneladas, apoyada en una losa de 12,7 centímetros en el segundo piso.",
+        "El argumento del fuego llegó al mismo tiempo. En febrero de 1904, el gran incendio de Baltimore destruyó el centro de esa ciudad, y Elzner abrió el artículo recordando que un edificio reformado con columnas, vigas y pisos de concreto había quedado en pie en medio del área quemada."
+      ]
+    },
+    {
+      "titulo": "De oficinas a hotel",
+      "paragrafos": [
+        "El edificio funcionó, y el concreto entró en los edificios altos de Estados Unidos, despacio: según el profesor Mir M. Ali, de la Universidad de Illinois, hasta alrededor de 1960 rara vez un edificio de concreto pasó de veinte pisos. En 1973 o 1974, según la fuente, la American Society of Civil Engineers declaró el Edificio Ingalls hito histórico nacional de la ingeniería civil; en 1975 entró en el National Register of Historic Places.",
+        "En el siglo XXI, el edificio se vació. Se vendió en 2013 y, cuando se anunció el proyecto de hotel, llevaba unos siete años vacío, según la televisora WCPO, de Cincinnati. En julio de 2021 abrió como Courtyard by Marriott Cincinnati Downtown, de SREE Hotels, con una reforma de HGC Construction. La puerta blindada de la antigua bóveda sigue allí. La sala que en 1904 servía de prueba de que una losa de concreto aguantaba casi cien toneladas es hoy el gimnasio del hotel."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Un reportero pasó la noche en vela esperando que el edificio se cayera, para ser el primero en dar la noticia.",
+      "registro": "Es tradición local, y las propias fuentes la tratan así: la Biblioteca Pública de Cincinnati habla de “una historia muy contada” (traducción nuestra), sin nombre de reportero ni de periódico. Lo que está documentado es al arquitecto Alfred O. Elzner, en 1904, contando que ingenieros respetados predijeron que el edificio no llegaría al techo, se agrietaría por la retracción y no resistiría el viento."
+    },
+    {
+      "circula": "El edificio se mantuvo en pie porque era flexible: la flexibilidad le ganó a la rigidez.",
+      "registro": "Es al revés. Se proyectó como un monolito rígido, con las losas funcionando como diafragmas y los muros como vigas contra el viento, según el arquitecto y la American Society of Civil Engineers. Elzner presumía de que, con los vientos más fuertes, no se percibía siquiera un temblor."
+    },
+    {
+      "circula": "Fue el primer edificio de concreto armado del mundo.",
+      "registro": "No. El concreto armado ya se usaba en edificios bajos, en Europa y en Estados Unidos, incluso por el propio Ernest Ransome, desde los años 1880. El Edificio Ingalls está reconocido como el primer rascacielos de concreto armado."
+    },
+    {
+      "circula": "Ernest Ransome proyectó el edificio.",
+      "registro": "Ransome inventó y patentó, en 1884, la barra de acero torcida usada en el edificio. El proyecto es de los arquitectos Elzner & Anderson, y el cálculo estructural se atribuye al ingeniero Henry N. Hooper."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Por qué es importante el Edificio Ingalls?", "r": "Está reconocido como el primer rascacielos de concreto armado del mundo: un edificio de oficinas de 64 m en Cincinnati, en Estados Unidos, levantado sin ninguna viga de acero cuando, según las fuentes, ningún edificio de concreto pasaba de seis pisos."},
+    {"p": "¿Cómo se construyó el Edificio Ingalls?", "r": "Como un monolito: columnas, vigas y losas de concreto coladas juntas, armadas con barras de acero cuadradas torcidas en frío, la técnica patentada por Ernest L. Ransome en 1884. No hay vigas en I, remaches ni pernos, y tres juegos de encofrados de madera se reutilizaron de abajo hacia arriba."},
+    {"p": "¿Quién construyó el Edificio Ingalls?", "r": "El inversionista fue Melville Ingalls, presidente del ferrocarril Big Four, y el proyecto es de los arquitectos Elzner & Anderson, con cálculo estructural atribuido al ingeniero Henry Hooper. Quién ejecutó la obra es motivo de divergencia: una revista de 1903 cita a la constructora W. H. Ellis & Co., que ganó con el precio más bajo; otras fuentes, a la Ferro-Concrete Construction Company, de Hooper."},
+    {"p": "¿Cuándo se construyó el Edificio Ingalls?", "r": "La obra empezó en el otoño de 1902. Las fuentes divergen sobre el final: la conclusión aparece como 1903 en las fuentes actuales, pero a mediados de 1904 el arquitecto escribía que el edificio acababa de terminarse."},
+    {"p": "¿Cuántos pisos tiene el Edificio Ingalls?", "r": "Quince pisos y un ático completo, “prácticamente dieciséis” (traducción nuestra), en palabras del arquitecto; por eso las fuentes hablan a veces de 15, a veces de 16. La altura es de 64 m sobre la acera."}
+  ],
+  "fontes": [
+    {"texto": "A. O. Elzner, \"The First Concrete Skyscraper\", The Architectural Record, vol. 15, junio de 1904"},
+    {"texto": "\"Armored Concrete Building Fifteen Stories High — The Ingalls Building at Cincinnati\", Saxby's Magazine, Cincinnati, 1903"},
+    {"texto": "Ernest L. Ransome, patente estadounidense n.º 305.226, \"Building Construction\", 16/09/1884"},
+    {"texto": "Ernest L. Ransome y Alexis Saurbrey, Reinforced Concrete Buildings, McGraw-Hill, 1912"},
+    {"texto": "American Society of Civil Engineers, \"Ingalls Building\", hitos históricos de la ingeniería civil"},
+    {"texto": "Society of Architectural Historians, SAH Archipedia, \"Ingalls Building\""},
+    {"texto": "Kevin Welch, \"Ingalls Building\", Biblioteca Pública de Cincinnati y del Condado de Hamilton, 2022"},
+    {"texto": "The Skyscraper Museum, \"The Modern Concrete Skyscraper\""},
+    {"texto": "Mir M. Ali, \"Evolution of Concrete Skyscrapers: from Ingalls to Jin Mao\", Electronic Journal of Structural Engineering, 2001"},
+    {"texto": "Council on Tall Buildings and Urban Habitat, The Skyscraper Center, \"Ingalls Building\""},
+    {"texto": "Indiana Historical Society, \"Melville E. Ingalls Papers, 1870–1907\""},
+    {"texto": "WCPO, \"Historic Ingalls Building to get new life as hotel\""},
+    {"texto": "SREE Hotels, \"SREE Hotels Opens Courtyard by Marriott in Downtown Cincinnati\", Hotel-Online, julio de 2021"},
+    {"texto": "Federal Reserve Bank of Minneapolis, \"Consumer Price Index, 1800–\""}
+  ],
+  "imagens": [
+    {
+      "alt": "Edificio estrecho y alto de fachada clara, visto desde abajo a partir de la esquina, con base de piedra, filas regulares de ventanas y una cornisa saliente en lo alto, contra un cielo azul",
+      "legenda": "El Edificio Ingalls en 2019, en la esquina de las calles Fourth y Vine, en Cincinnati.",
+      "autor": "Warren LeMay"
+    },
+    {
+      "alt": "Fotografía de periódico en blanco y negro: a la izquierda, un edificio alto y claro domina la escena; a la derecha, tres edificios altos más lejanos, la torre de una iglesia y un pequeño dirigible en el cielo",
+      "legenda": "El centro de Cincinnati fotografiado en mayo de 1904 desde el Chamber of Commerce Building; el Edificio Ingalls es el edificio de la izquierda.",
+      "autor": "Autor no identificado (The Cincinnati Post, 26/05/1904)"
+    },
+    {
+      "alt": "Tarjeta postal antigua en tono sepia: un edificio alto de esquina visto desde arriba, con un mástil en lo alto, la calle abajo y edificios más bajos alrededor",
+      "legenda": "Tarjeta postal de alrededor de 1910, que presentaba el edificio como el mayor edificio de concreto del mundo.",
+      "autor": "Autor no identificado (Columbus Metropolitan Library)"
+    },
+    {
+      "alt": "Detalle de lo alto de un edificio: cornisa saliente decorada, último piso con pilastras y ventanas y, debajo, filas de ventanas en un muro de ladrillo claro",
+      "legenda": "El último piso y la cornisa, revestidos de terracota blanca vidriada sobre la estructura de concreto.",
+      "autor": "Hhelvey"
+    },
+    {
+      "alt": "Puerta de bóveda de banco, rectangular y abierta, llena de cerrojos y engranajes, en una pared de mármol; dentro, una pequeña sala de gimnasia con mancuernas",
+      "legenda": "La puerta de la antigua bóveda del banco, en 2021; la sala blindada se convirtió en el gimnasio del hotel.",
+      "autor": "Antony-22"
+    },
+    {
+      "alt": "Retrato grabado en blanco y negro de un hombre de barba poblada, traje oscuro y cuello blanco, mirando hacia la derecha",
+      "legenda": "Melville E. Ingalls, el inversionista que dio nombre al edificio, en un retrato publicado a más tardar en 1902.",
+      "autor": "Franklin Co., Chicago"
+    }
+  ]
+}

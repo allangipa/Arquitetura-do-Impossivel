@@ -1,0 +1,292 @@
+{
+  "_nota": "Traducción fiel de ../11-congresso-nacional.json. Campos fijos vienen del original.",
+  "obra": "Congreso Nacional",
+  "titulo_seo": "Congreso Nacional de Brasil: cómo se construyó (1957–1960)",
+  "titulo_video": null,
+  "lugar": "Plaza de los Tres Poderes, Brasilia, Distrito Federal, Brasil",
+  "periodo": "1957–1960",
+  "impossivel": "Levantar, en poco más de dos años de obra y con fecha fija, una cúpula de concreto de 62 metros que parece apoyada sobre la losa, otra boca abajo y dos torres de 28 pisos, en una ciudad que todavía no existía.",
+  "resumo": "Cómo Niemeyer y el calculista Joaquim Cardozo hicieron las cúpulas y las torres del Congreso para el 21/04/1960, y qué faltaba el día de la inauguración.",
+  "abertura": [
+    "En la Plaza de los Tres Poderes, en Brasilia, en el Distrito Federal, una losa de 200 metros sostiene dos cúpulas: una convexa, la del Senado, y una cóncava, la de la Cámara de Diputados, que parece un cuenco apoyado sobre el concreto. Detrás de ellas, dos torres de 28 pisos unidas por una pasarela. El diseño es de Oscar Niemeyer. El cálculo es de Joaquim Cardozo, un ingeniero de Pernambuco que también era poeta y que hizo el cálculo en Río de Janeiro.",
+    "El edificio tenía fecha para estar en pie: el 21 de abril de 1960, el día de la inauguración de la nueva capital. Lo estuvo, pero no terminado. Las torres, que por dentro son un esqueleto de acero estadounidense escondido en el concreto, se inauguraron sin vidrios en las ventanas, y la obra solo terminó de verdad en 1964."
+  ],
+  "numeros": [
+    {
+      "valor": "62 m",
+      "rotulo": "de diámetro de la cúpula de la Cámara, la que parece apoyada sobre la losa"
+    },
+    {
+      "valor": "28",
+      "rotulo": "pisos en cada una de las dos torres"
+    },
+    {
+      "valor": "200 m",
+      "rotulo": "de longitud de la plataforma que sostiene las cúpulas"
+    },
+    {
+      "valor": "21/04/1960",
+      "rotulo": "inaugurado junto con Brasilia, todavía inconcluso"
+    },
+    {
+      "valor": "92 · 95 · 100 m",
+      "rotulo": "de altura de las torres, según la fuente"
+    },
+    {
+      "valor": "1964",
+      "rotulo": "el año en que terminaron la obra y los pagos a la constructora"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por qué",
+      "valor": "Albergar al Senado y a la Cámara de Diputados en la nueva capital y marcar, el día de la inauguración de Brasilia, el traslado del Poder Legislativo, que funcionaba en Río de Janeiro."
+    },
+    {
+      "item": "Arquitectura",
+      "valor": "Oscar Niemeyer, con Nauro Esteves en la coordinación técnica y un equipo que incluía a Sabino Barroso y Hermano Montenegro. La composición de plataforma, dos cúpulas y dos torres se definió entre marzo y julio de 1957, después de más de treinta estudios.",
+      "nota": "el número de estudios viene de una sola investigación"
+    },
+    {
+      "item": "Cálculo estructural",
+      "valor": "Joaquim Cardozo (1897–1978), con Samuel Rawet en el equipo. El proyecto de estructuras fue de noviembre de 1957 a octubre de 1959 y se hizo en Río de Janeiro.",
+      "nota": "Rawet, el lugar del cálculo y las fechas del proyecto de estructuras aparecen en una fuente cada uno"
+    },
+    {
+      "item": "Quién lo construyó",
+      "valor": "La Companhia Construtora Nacional hizo el concreto del bloque horizontal y, después, de las torres. El acero de las torres lo fabricó Bethlehem Steel, de Estados Unidos, dentro de un contrato de la NOVACAP con la estadounidense Raymond Concrete Pile; en mayo de 1959 la NOVACAP les quitó el montaje a los estadounidenses y pasó a hacerlo ella misma.",
+      "nota": "según la investigación de Elcio Gomes da Silva y Danilo Matoso Macedo sobre los contratos y el Diário Oficial de 1959"
+    },
+    {
+      "item": "Plazos",
+      "valor": "Obra iniciada en noviembre de 1957 o el 16/03/1958, según la fuente; proyecto aprobado por las comisiones de la Cámara y del Senado recién en noviembre de 1959, con la obra avanzada; inauguración el 21/04/1960, con la primera sesión ese mismo día.",
+      "nota": "la fecha de inicio varía; la de la inauguración no"
+    },
+    {
+      "item": "Lo que faltaba en 1960",
+      "valor": "Las torres se inauguraron sin vidrios en las ventanas y sin terminaciones por dentro. El proyecto, la obra y los pagos a la constructora siguieron hasta 1964.",
+      "nota": "el estado inconcluso tiene dos fuentes; el año 1964 viene de una (Carvalho, 2024)"
+    },
+    {
+      "item": "Cúpula de la Cámara",
+      "valor": "Cóncava, con 62 m de diámetro en lo alto y unos 10 m de altura. En lugar de una sola cáscara, tres: una zona de elipsoide de 60 a 86 cm de espesor, un tronco de cono y un casquete esférico de 52 m de diámetro y apenas 14 cm de espesor, que sostiene el cielorraso y la cubierta.",
+      "nota": "medidas de los planos originales, relevadas en la tesis de Elcio Gomes da Silva (UnB, 2012)"
+    },
+    {
+      "item": "Cúpula del Senado",
+      "valor": "Convexa, en paraboloide de revolución, con unos 10 m de altura y una cáscara de 10 cm en lo alto a 35 cm en la base. El diámetro aparece como 38 m o 39 m."
+    },
+    {
+      "item": "Plataforma",
+      "valor": "200 m por 87 m, unos 14.500 m² con la rampa. Losa doble nervada con casetones perdidos sobre una retícula de 10 por 15 m, con un espesor de 0,70 m en los bordes a 3 m en el centro.",
+      "nota": "la longitud tiene dos fuentes; las demás medidas vienen de un documento técnico del Senado de 2017"
+    },
+    {
+      "item": "Torres",
+      "valor": "28 pisos, 45 m de largo, esqueleto de columnas y vigas de acero remachadas y después revestidas de concreto. La pasarela entre ellas se agregó para arriostrar la estructura metálica. Altura de 92, 95 o 100 m, según la fuente.",
+      "nota": "los 28 pisos son consenso; la altura no"
+    },
+    {
+      "item": "Obreros",
+      "valor": "Nadie registró cuántos trabajaron en el Congreso, ni en total ni en el punto máximo. Toda Brasilia tenía 64.314 habitantes en el censo del 17/05/1959, la mayoría hombres llegados para la construcción. La jornada iba de 6 h a 18 h, con una hora de almuerzo, y había turnos que se extendían de día y de noche.",
+      "nota": "el censo y la jornada tienen dos fuentes; el número de obreros del Congreso no existe en las fuentes consultadas"
+    },
+    {
+      "item": "Muertes en la obra",
+      "valor": "No hay cifra, ni oficial ni discutida. Los obreros recuerdan caídas desde las torres, a las que llamaban «o 28» (el veintiocho); uno de ellos, Natalino Cavalcante de Melo, contó al Archivo Público del Distrito Federal en 1990 que a quien caía lo cubrían con una lona."
+    },
+    {
+      "item": "Costo",
+      "valor": "No registrado en las fuentes consultadas. Lo que se sabe es que el acero de las torres y de los ministerios se compró con un crédito inicial de US$ 10 millones del Eximbank, el banco de exportación de Estados Unidos.",
+      "nota": "las estimaciones que circulan para el costo de toda Brasilia no tienen método publicado y no se usaron"
+    },
+    {
+      "item": "Declaración de patrimonio",
+      "valor": "Brasilia fue inscrita como Patrimonio de la Humanidad por la Unesco en 1987; el Iphan declaró patrimonio al Congreso en 2007, junto con otras obras de Niemeyer."
+    },
+    {
+      "item": "Hoy",
+      "valor": "El 06/05/2026 el Congreso conmemoró los 200 años de la instalación de la Cámara y del Senado, del 06/05/1826, con una sesión solemne en el plenario de la cúpula cóncava e imágenes proyectadas sobre las cúpulas y las torres."
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Un edificio con fecha fija",
+      "paragrafos": [
+        "Cuando Lúcio Costa ganó el concurso del Plan Piloto, en marzo de 1957, el diseño de la nueva capital ya preveía, en la Plaza de los Tres Poderes, un edificio vertical para el Congreso. Brasilia tenía que inaugurarse el 21 de abril de 1960, y el Congreso era la pieza que daba sentido a la fecha: allí pasaría a funcionar el Poder Legislativo, hasta entonces en Río de Janeiro.",
+        "Oscar Niemeyer cerró la composición entre marzo y julio de 1957: una plataforma horizontal alargada, dos cúpulas encima y dos torres estrechas de 28 pisos detrás. La obra empezó antes de que el proyecto estuviera listo. Según Juliano Loureiro de Carvalho, investigador del Senado, el proyecto de estructuras se inició junto con las obras, en noviembre de 1957, y solo terminó en octubre de 1959; la comisión de diputados y senadores recién aprobó el proyecto en noviembre de 1959, con el edificio ya muy avanzado. Otra fuente, del propio Senado, da el inicio de la construcción el 16/03/1958."
+      ]
+    },
+    {
+      "titulo": "La losa que lo sostiene todo",
+      "paragrafos": [
+        "Antes de las cúpulas está la plataforma: 200 metros de largo por 87 de ancho, unos 14.500 m² de cubierta, según un relevamiento técnico del Senado hecho en 2017. Es una losa doble, con nervaduras que forman casetones vacíos por dentro, apoyada en una retícula de columnas de 10 por 15 metros. En los bordes tiene 70 centímetros de espesor; en el centro, 3 metros.",
+        "El diseño de esa losa cambió a mitad de camino. En el anteproyecto, el corredor que lleva al público a las galerías pasaba por encima de ella y creaba un lomo de 1,70 metros que cortaba la vista entre las cúpulas. Entre enero y septiembre de 1958 el corredor bajó al interior de la plataforma. Las plantas publicadas en 1958 mostraban la versión abandonada, y se copiaron en libros y trabajos académicos durante más de cincuenta años, como mostraron Elcio Gomes da Silva y José Manoel Morales Sánchez al comparar los dibujos con los planos originales guardados en la Cámara."
+      ]
+    },
+    {
+      "titulo": "El cuenco que no podía tocar",
+      "paragrafos": [
+        "La cúpula del Senado tenía una solución conocida: un paraboloide de revolución, con una cáscara de 10 centímetros en lo alto y 35 en la base, y un anillo de concreto alrededor para contener el empuje lateral. El problema era la otra. Niemeyer quería la cúpula de la Cámara boca arriba, con 62 metros de diámetro, como si solo estuviera apoyada sobre la losa, tocándola con una curva suave.",
+        "Cardozo probó primero una forma única, un paraboloide con curva de quinto grado, y esa forma creó dificultades de cálculo y de ejecución. La salida, descrita por el propio ingeniero, fue cambiar una cáscara por tres: una franja de elipsoide, donde se apoyan las gradas de las galerías, un tronco de cono y un casquete esférico muy aplanado, de 52 metros de diámetro y apenas 14 centímetros de espesor, que sostiene el cielorraso del plenario y la cubierta plana. Todo eso descansa sobre un anillo de concreto de 2,70 por 1,73 metros.",
+        "Para que el cuenco resistiera la tracción alrededor de la base, la armadura se cambió durante la obra. En el primer metro, barras de acero común soldadas de a pares; en los dos metros siguientes, barras más delgadas de un acero nuevo, el Torstahl, que tenía el doble de resistencia y acababa de llegar a Brasil. En la parte más densa, cerca de la base, el acero llega a cerca del 10% de la sección de concreto. Cardozo lo calculó todo en Río de Janeiro: según un testimonio registrado por Silva y Sánchez, «era muy mayor» (traducción nuestra) y no pudo mudarse a Brasilia. Tenía 60 años en 1957."
+      ]
+    },
+    {
+      "titulo": "Acero escondido en las torres",
+      "paragrafos": [
+        "Las torres parecen de concreto y no lo son. Por dentro, cada una es un esqueleto de columnas y vigas de acero, unidas con remaches y después envueltas en concreto, la misma solución de los ministerios de la Explanada. El acero llegó de Estados Unidos, fabricado por Bethlehem Steel, por un contrato que la NOVACAP firmó en julio de 1957 con la estadounidense Raymond Concrete Pile, como contrapartida de un préstamo del Eximbank, el banco de exportación estadounidense.",
+        "El montaje no avanzó al ritmo de Brasilia. Según la investigación de Elcio Gomes da Silva y Danilo Matoso Macedo, los estadounidenses trabajaban en turnos regulares y con normas de seguridad y, en palabras de los testimonios de la época, se construía muy despacio. El 2 de mayo de 1959 la NOVACAP asumió el montaje de los edificios que faltaban, incluidas las torres del Congreso, y entregó el trabajo a obreros que nunca habían montado una estructura de acero. El arquitecto Hermano Montenegro recordó, en un testimonio de 1989, a obreros del Nordeste sin ninguna experiencia que, en poco tiempo, pasaron a montar estructuras metálicas difíciles y a remachar «con la mayor rapidez del mundo» (traducción nuestra).",
+        "La pasarela que une las dos torres a media altura no estaba en el proyecto original. Según Nauro Esteves, coordinador técnico de la obra, se hizo para arriostrar la estructura metálica, por la altura de los edificios."
+      ]
+    },
+    {
+      "titulo": "Los hombres del 28",
+      "paragrafos": [
+        "Nadie registró cuántos hombres trabajaron en el Congreso. Toda Brasilia tenía 64.314 habitantes en el censo del 17 de mayo de 1959, casi dos hombres por cada mujer, y la mayoría estaba en la construcción. La jornada iba de 6 h al mediodía y de 13 h a 18 h, y muchos encadenaban turnos de día y de noche, porque el pago era por hora. Los accidentados atendidos por el hospital del IAPI pasaron de 1.974 en 1958 a 10.927 en 1959, según el historiador Hermes Aquino Teixeira.",
+        "Tampoco hay cifra de muertos en la obra del Congreso, ni oficial ni discutida. Los obreros llamaban al edificio «o 28» (el veintiocho), por los pisos de las torres, y le temían. En un testimonio al Archivo Público del Distrito Federal, en 1990, Natalino Cavalcante de Melo habló de obreros que caían de las torres mientras soldaban y a los que cubrían con una lona. En un subsuelo del Congreso quedó el mensaje de un obrero, José Silva Guerra, de Ceará, escrito el 22/04/1959: «Que los hombres del mañana que vengan aquí tengan compasión de nuestros hijos y que se cumpla la ley» (traducción nuestra).",
+        "El 8 de febrero de 1959, un domingo de carnaval, la Guardia Especial de Brasilia irrumpió de noche en el campamento de la constructora Pacheco Fernandes Dantas, que levantaba el Palacio del Planalto, después de una pelea por comida en mal estado. La investigación registró un muerto, Evaristo Soares Brandão, y 48 heridos. Un telegrama de la asociación de los obreros habló de nueve muertos, y candangos entrevistados décadas después hablaron de decenas. No se encontró ningún otro cuerpo. No fue en la obra del Congreso, pero fue en la misma carrera contra la misma fecha."
+      ]
+    },
+    {
+      "titulo": "Inaugurado a medias",
+      "paragrafos": [
+        "Seis meses antes de la inauguración, el Congreso y el Palacio del Planalto todavía eran esqueletos, según un reportaje del Correio Braziliense. Una fotografía del 31 de marzo de 1960, del archivo del diario Correio da Manhã, muestra las torres con plataformas de andamio y una grúa al lado, tres semanas antes de la fiesta. El 21 de abril de 1960 el Congreso celebró su primera sesión en Brasilia. Las torres estaban sin vidrios en las ventanas y sin terminaciones por dentro; el proyecto, la obra y los pagos a la constructora continuaron hasta 1964.",
+        "El edificio siguió cambiando. La plataforma se amplió en 1970 y 1971, con proyecto del propio Niemeyer, y Carvalho contó cien reformas en el edificio principal entre 1960 y 2020. La impermeabilización de la losa es un mosaico de épocas: en 2017, cerca de la mitad todavía era la original, hecha en el lugar con capas de asfalto, aluminio, fieltro y plomo. Joaquim Cardozo dejó de calcular después de 1971, cuando se derrumbó en Belo Horizonte el Pabellón de la Gameleira, otra obra suya con Niemeyer, y mató a 69 obreros; condenado en primera instancia, fue absuelto en apelación, y el peritaje señaló un error de ejecución, no de cálculo."
+      ]
+    },
+    {
+      "titulo": "Doscientos años después",
+      "paragrafos": [
+        "El 6 de mayo de 2026, el Congreso conmemoró los 200 años de la instalación de la Cámara de Diputados y del Senado, que se reunieron por primera vez el 6 de mayo de 1826. La sesión solemne fue en el Plenario Ulysses Guimarães, bajo la cúpula cóncava, y por la noche las cúpulas y las torres recibieron imágenes proyectadas. El edificio hecho a las apuradas para ser el símbolo de un Legislativo que cambiaba de ciudad se convirtió en la pantalla de la fiesta de dos siglos de ese Legislativo."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "La masacre de los candangos ocurrió en la obra del Congreso.",
+      "registro": "No. Fue el 08/02/1959, en el campamento de la constructora Pacheco Fernandes Dantas, que construía el Palacio del Planalto. El concreto del Congreso era de la Companhia Construtora Nacional. El número de muertos sigue en disputa: uno en la investigación, nueve en el telegrama de los obreros, decenas en el recuerdo de quienes estaban allí."
+    },
+    {
+      "circula": "El Congreso se terminó en menos de tres años.",
+      "registro": "Se inauguró el 21/04/1960, pero inconcluso: las torres estaban sin vidrios y sin terminaciones interiores, y la obra y los pagos a la constructora siguieron hasta 1964."
+    },
+    {
+      "circula": "Todo es de concreto armado.",
+      "registro": "Las cúpulas y la plataforma lo son. Las torres son un esqueleto de acero fabricado en Estados Unidos, remachado en Brasilia y solo después revestido de concreto."
+    },
+    {
+      "circula": "Hay obreros enterrados en el concreto del Congreso.",
+      "registro": "Es un relato que circula sin confirmación; ninguna fuente registra que se haya encontrado un cuerpo. Lo que existe son testimonios de caídas desde las torres y ninguna cifra de muertos, ni oficial ni discutida."
+    },
+    {
+      "circula": "Las torres miden 100 metros.",
+      "registro": "Es una de las medidas. Una investigación sobre los planos originales da 95 m de fachada, y la base de datos internacional de rascacielos registra 92 m."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "¿Cuándo se construyó el Congreso Nacional de Brasil?",
+      "r": "Entre 1957 y 1960. La fecha de inicio varía según la fuente: noviembre de 1957 o el 16/03/1958. El edificio se inauguró junto con Brasilia el 21/04/1960, todavía inconcluso, y la obra y los pagos a la constructora solo terminaron en 1964."
+    },
+    {
+      "p": "¿Quién diseñó el Congreso Nacional de Brasil?",
+      "r": "El arquitecto Oscar Niemeyer, que cerró la composición de plataforma, dos cúpulas y dos torres entre marzo y julio de 1957. El cálculo estructural es del ingeniero y poeta pernambucano Joaquim Cardozo, y se hizo en Río de Janeiro."
+    },
+    {
+      "p": "¿Cómo se construyó el Congreso Nacional de Brasil?",
+      "r": "Las cúpulas y la plataforma de 200 m son de concreto armado; la cúpula cóncava de la Cámara, de 62 m de diámetro, se hizo con tres cáscaras en lugar de una. Las torres de 28 pisos parecen de concreto, pero por dentro son un esqueleto de acero fabricado en Estados Unidos, remachado en Brasilia y revestido de concreto."
+    },
+    {
+      "p": "¿Cuánto miden las torres del Congreso Nacional de Brasil?",
+      "r": "Las fuentes no coinciden: 92, 95 o 100 m. Una investigación sobre los planos originales da 95 m de fachada, y la base de datos internacional de rascacielos registra 92 m. El único consenso son los 28 pisos de cada torre."
+    },
+    {
+      "p": "¿Cuántas personas murieron en la construcción del Congreso Nacional de Brasil?",
+      "r": "No hay cifra, ni oficial ni discutida. Los obreros recuerdan caídas desde las torres, a las que llamaban «o 28» (el veintiocho), pero nadie registró muertos ni cuántos hombres trabajaron en la obra. La masacre de los candangos de 1959 no fue en el Congreso, sino en el campamento de la constructora del Palacio del Planalto."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Elcio Gomes da Silva y José Manoel Morales Sánchez, \"Documentação estrutural do Palácio do Congresso Nacional em Brasília\", Paranoá, n.º 15, 2015"
+    },
+    {
+      "texto": "Elcio Gomes da Silva y Danilo Matoso Macedo, \"Estruturas metálicas no concreto de Brasília\", Thésis, v. 5, 2018"
+    },
+    {
+      "texto": "Elcio Gomes da Silva y José Manoel Morales Sánchez, \"Congresso Nacional: da documentação técnica à obra construída\", mdc, 2009"
+    },
+    {
+      "texto": "Elcio Gomes da Silva, Os palácios originais de Brasília, tesis doctoral, Universidade de Brasília, 2012"
+    },
+    {
+      "texto": "Dayane Torres Matos y Thamires de Souza Fernandes, \"As cúpulas do Palácio do Congresso Nacional\", Cadernos de Graduação — Ciências Exatas e Tecnológicas, v. 5, n.º 2, 2019"
+    },
+    {
+      "texto": "Juliano Loureiro de Carvalho, \"Palácio do Congresso Nacional — valor cultural de alterações em edifícios modernos\", Anais do Museu Paulista, v. 32, 2024"
+    },
+    {
+      "texto": "Senado Federal, \"Caracterização construtiva — Plataforma do Edifício Principal\", consulta pública sobre impermeabilización, 2017"
+    },
+    {
+      "texto": "Lucas Ferreira Santos, Cotidiano operário durante a construção de Brasília e o Massacre da Pacheco Fernandes em 1959, monografía de Historia, Universidade de Brasília, 2023"
+    },
+    {
+      "texto": "Mariana Machado, \"Massacre da Pacheco Fernandes completa 60 anos e continua sendo mistério\", Correio Braziliense, 08/02/2019"
+    },
+    {
+      "texto": "Renato Alves, \"1959, o ano em que Brasília não parou\", Correio Braziliense, 19/10/2009"
+    },
+    {
+      "texto": "Agência Senado, \"Brasília 60 anos — Candangos na construção da capital\", 2020"
+    },
+    {
+      "texto": "Renato Alves, \"Na construção de Brasília, operários temiam o '28', onde quedas seriam comuns\", O Tempo, 21/04/2024"
+    },
+    {
+      "texto": "Agência Brasil, \"Censo populacional de 1959 revela quem eram os candangos que construíram Brasília\", 2010"
+    },
+    {
+      "texto": "Câmara dos Deputados, \"Joaquim Cardozo, o poeta dos cálculos\", Plenarinho, 2020"
+    },
+    {
+      "texto": "Câmara dos Deputados, \"Congresso Nacional recebe projeção pelos 200 anos da Câmara dos Deputados e do Senado Federal\", 05/05/2026"
+    },
+    {
+      "texto": "Agência Senado, \"'Representação do povo' é destaque em sessão pelo bicentenário da Câmara\", 06/05/2026"
+    },
+    {
+      "texto": "Congresso Nacional, \"Arquitetura — Visite o Congresso\""
+    },
+    {
+      "texto": "Council on Tall Buildings and Urban Habitat, Skyscraper Center, \"Palacio do Congresso Nacional Anexo I\""
+    }
+  ],
+  "imagens": [
+    {
+      "alt": "Fotografía antigua en blanco y negro: la cúpula cóncava de la Cámara cubierta de andamios de tubos, sobre la losa de la plataforma sostenida por pilotes y una fachada de vidrio; detrás, el esqueleto de una de las torres en construcción",
+      "legenda": "La cúpula de la Cámara en obra, en 1959, sobre la plataforma ya con pilotes y fachada; detrás, el esqueleto de las torres.",
+      "autor": "Agência Nacional (Arquivo Nacional)"
+    },
+    {
+      "alt": "Fotografía antigua en blanco y negro: el esqueleto de columnas y vigas de las dos torres del Congreso, todavía sin muros, con grúas en lo alto, y un grupo de visitantes de traje y vestido en la obra en primer plano",
+      "legenda": "El esqueleto de acero de las torres en 1959, durante una visita de ingenieros a la obra.",
+      "autor": "Agência Nacional (Arquivo Nacional)"
+    },
+    {
+      "alt": "Fotografía antigua en blanco y negro: las dos torres vistas desde abajo, ya revestidas en los extremos, con plataformas de andamio colgadas en varios pisos, ventanas sin vidrio y una torre de grúa al lado a la derecha",
+      "legenda": "Las torres el 31/03/1960, tres semanas antes de la inauguración, todavía con andamios y sin vidrios en las ventanas.",
+      "autor": "Autor não identificado (Arquivo Nacional, fundo Correio da Manhã)"
+    },
+    {
+      "alt": "Fotografía antigua en blanco y negro del conjunto visto de lejos, sobre un césped: la cúpula convexa a la izquierda, las dos torres en el centro, la cúpula cóncava a la derecha y la rampa que sube a la plataforma",
+      "legenda": "El Congreso en 1960, con las dos cúpulas y las torres terminadas por fuera.",
+      "autor": "Agência Nacional (Arquivo Nacional)"
+    },
+    {
+      "alt": "El Congreso Nacional al atardecer, con las dos torres altas a la izquierda, la cúpula convexa del Senado en la esquina, la gran cúpula cóncava de la Cámara a la derecha y el conjunto reflejado en el espejo de agua",
+      "legenda": "El Congreso en 2015: las torres, la cúpula del Senado en la esquina y la cúpula de la Cámara reflejada en el espejo de agua.",
+      "autor": "Donatas Dabravolskas"
+    }
+  ]
+}

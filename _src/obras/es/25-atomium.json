@@ -1,0 +1,154 @@
+{
+  "_nota": "Traducción fiel de ../25-atomium.json. Campos fijos vienen del original.",
+  "obra": "Atomium",
+  "titulo_seo": "Atomium de Bruselas: qué representa y cómo se construyó",
+  "titulo_video": null,
+  "lugar": "Meseta del Heysel, Laeken, Bruselas, Bélgica",
+  "periodo": "1956–1958",
+  "impossivel": "Levantar, en dos años, un cristal de hierro de 102 metros: nueve esferas de acero de 18 metros unidas por tubos, en un cubo apoyado sobre uno de sus vértices, una forma que nadie sabía cómo iba a tratar el viento.",
+  "resumo": "Cómo Bélgica levantó para la Expo 58 un cristal de hierro de 102 m, por qué debía desmontarse y cómo cambió su piel de aluminio por acero inoxidable.",
+  "abertura": [
+    "En 1954, Bélgica preparaba la primera gran exposición universal de la posguerra, en la meseta del Heysel, en Bruselas, y pidió a sus industrias del metal un edificio que mostrara, de forma espectacular, lo que sabían hacer. El ingeniero André Waterkeyn respondió con una idea que no era un edificio en absoluto: la celda elemental de un cristal de hierro, nueve átomos, ampliada unas 165 mil millones de veces.",
+    "Convertir el dibujo de un libro de química en un edificio visitable significaba colgar ocho esferas de 18 metros en los vértices de un cubo de 47 metros de arista, con una novena en el centro, y poner el cubo de pie sobre uno de sus vértices. La forma se probó en túnel de viento antes de existir, se apoyó también en tres bípodes en forma de V invertida y quedó lista poco antes de la apertura de la Expo 58. Iba a desmontarse a fines de ese año. Sigue allí."
+  ],
+  "numeros": [
+    {"valor": "102 m", "rotulo": "de altura, del suelo a lo alto de la esfera superior"},
+    {"valor": "9 × 18 m", "rotulo": "nueve esferas de 18 metros de diámetro, seis de ellas abiertas al público"},
+    {"valor": "165 mil millones", "rotulo": "de veces, la ampliación del cristal de hierro que el edificio reproduce"},
+    {"valor": "2.400 t", "rotulo": "de acero y aluminio en 1958; unas 2.500 t después del cambio de revestimiento"},
+    {"valor": "5 m/s", "rotulo": "la velocidad del ascensor del tubo central, que lleva a 22 personas a la cima en 23 segundos"},
+    {"valor": "26 a 27,5 M€", "rotulo": "el costo de la renovación de 2004 a 2006, según la fuente"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "La Expo 58, primera gran exposición universal después de la Segunda Guerra Mundial, quería un símbolo. Según el inventario del patrimonio de Bruselas, el comisario general, barón Moens de Fernig, pidió en 1954 a las industrias metalúrgicas belgas un edificio de forma inédita que exhibiera su saber. El tema elegido fue el átomo y el uso pacífico de la energía nuclear.", "nota": "el nombre del barón viene de una sola fuente"},
+    {"item": "Quién pagó", "valor": "Una asociación sin fines de lucro formada por tres agrupaciones industriales: la de los altos hornos y acerías belgas, Fabrimétal (fabricaciones metálicas) y la unión de las industrias de metales no ferrosos, con apoyo de los poderes públicos."},
+    {"item": "La idea", "valor": "André Waterkeyn (1917–2005), ingeniero, director del departamento económico de Fabrimétal. Los Archivos de la Ciudad de Bruselas fechan la concepción en noviembre de 1954; el primer proyecto se presentó en enero de 1955."},
+    {"item": "Arquitectura y cálculo", "valor": "Los hermanos André y Jean Polak, arquitectos, transformaron el concepto en edificio. La estabilidad la calcularon los ingenieros consultores Artémy S. Joukoff y André Beckers."},
+    {"item": "Quién lo montó", "valor": "Los Ateliers de Construction de Jambes-Namur, con cabrestantes eléctricos y manuales y decenas de kilómetros de cable de acero, según la revista técnica Acier Stahl Steel, de 1958.", "nota": "el equipo viene de la revista; la empresa, de varias fuentes"},
+    {"item": "Plazo", "valor": "Estudios y ensayos desde enero de 1955; cimientos en marzo de 1956; primer mástil en enero de 1957; esferas montadas de octubre de 1957 a marzo de 1958. La asociación que administra el edificio da la conclusión el 25/03/1958, y el jefe de cuadrilla de la obra, a las 2 horas del 17/04/1958, día de la apertura de la Expo.", "nota": "la fecha de conclusión difiere; el inicio, no"},
+    {"item": "Obreros", "valor": "Nadie registró cuántos trabajaron en el Atomium. Los 15 mil obreros que cita la prensa belga son los de toda la Expo."},
+    {"item": "Muertes y accidentes", "valor": "Ninguna muerte registrada en las fuentes consultadas. El jefe de cuadrilla Frans Cools, en un testimonio publicado en 2023, decía que no hubo ningún accidente."},
+    {"item": "Costo de la construcción", "valor": "No hay una cifra confiable publicada. Los valores que circulan en francos belgas no citan fuente."},
+    {"item": "Estructura", "valor": "Un cubo de 47 metros de arista apoyado sobre un vértice. La esfera inferior se asienta sobre un pabellón circular de 26 metros; las tres esferas bajas descansan sobre bípodes en V invertida de unos 30 metros. Cada esfera tiene como esqueleto doce arcos semicirculares de chapa en cajón.", "nota": "la arista de 47 m viene de la revista técnica de 1958"},
+    {"item": "Medidas", "valor": "102 metros de altura; esferas de 18 metros; tubos de unos 3 metros de diámetro y 29 de largo; la escalera mecánica más larga, de 35 metros."},
+    {"item": "Revestimiento", "valor": "En 1958, chapas finas de aluminio anodizado, 48 triángulos esféricos por esfera, casi 9.000 placas en total. Desde 2006, paneles de acero inoxidable."},
+    {"item": "Lo que vino después", "valor": "No debía sobrevivir a la Expo; se quedó por su éxito. Los Archivos de la Ciudad de Bruselas registran una restauración entre 1988 y 1993. Según la asociación que lo administra, estuvo cerca de la demolición a fines de los años 1990.", "nota": "que era provisional tiene más de una fuente; el resto, una cada dato"},
+    {"item": "Renovación", "valor": "De marzo de 2004 a febrero de 2006, con proyecto del estudio Conix. Reabierto el 14/02/2006 en una ceremonia oficial y al público el 18/02/2006."},
+    {"item": "Costo de la renovación", "valor": "26 millones de euros, en una versión; 25 millones más 2,5 millones de sobrecosto del acero, en la cuenta de la RTBF, es decir, 27,5 millones. Pagaron la asociación, el gobierno federal, la Región de Bruselas-Capital y la Ciudad de Bruselas."},
+    {"item": "Hoy", "valor": "Récord de 850 mil visitantes en 2025, según el diario L'Avenir. En 2026, la programación por los 20 años de la renovación empezó el 14 de febrero.", "nota": "el récord viene de una fuente; la programación de 2026, de varias"}
+  ],
+  "historia": [
+    {
+      "titulo": "Un cristal en medio de la avenida",
+      "paragrafos": [
+        "Bruselas ya había recibido otras exposiciones internacionales cuando decidió hacer la de 1958, en la meseta del Heysel, en el barrio de Laeken, donde la de 1935 había dejado palacios y avenidas. Era la primera exposición universal después de la Segunda Guerra Mundial, y Bélgica vivía un momento de prosperidad. Los organizadores querían romper con el trazado simétrico de 1935 y organizar todo el recinto a partir de un punto focal.",
+        "Ese punto sería un edificio pagado por la industria del metal. Tres federaciones se unieron en una asociación sin fines de lucro, y un ingeniero de Fabrimétal, André Waterkeyn, presentó la idea: en lugar de un pabellón, un cristal de hierro. Más exactamente, la celda elemental del hierro, que los químicos llaman cúbica centrada en el cuerpo: ocho átomos en los vértices de un cubo y un noveno en el centro. Las esferas serían los átomos; los tubos, las fuerzas que los unen. El nombre, Atomium, hablaba de la era atómica, y el plan era ocupar las esferas con exposiciones sobre el uso pacífico de la energía nuclear."
+      ]
+    },
+    {
+      "titulo": "La cuenta de los 165 mil millones",
+      "paragrafos": [
+        "La cifra que acompaña al Atomium desde 1958 es la ampliación: el cristal estaría aumentado unas 165 mil millones de veces. El inventario de los Archivos de la Ciudad de Bruselas, de 2004, habla de más de 150 mil millones. La cuenta se sostiene. Según la revista técnica Acier Stahl Steel, de 1958, la arista del cubo mide 47 metros; en el hierro real, la arista de la celda mide poco menos de tres décimas de milmillonésima de metro. Dividir una por la otra da unos 164 mil millones.",
+        "La misma geometría explica la altura. Un cubo de 47 metros apoyado sobre un vértice tiene, de una punta a la otra, unos 81 metros entre los centros de las esferas. Se suman media esfera arriba y media abajo, de 18 metros de diámetro cada una, y el pabellón de entrada sobre el que se asienta la esfera inferior. El resultado son los 102 metros del edificio. A los hermanos André y Jean Polak, arquitectos, les tocó transformar el diagrama en un edificio que se pudiera visitar, y a los ingenieros Artémy S. Joukoff y André Beckers, hacer que se mantuviera en pie."
+      ]
+    },
+    {
+      "titulo": "En equilibrio sobre un vértice, a la espera del viento",
+      "paragrafos": [
+        "Una estructura de esferas y tubos apoyada en un solo punto no se parecía a nada que los ingenieros conocieran. La asociación que administra el Atomium afirma que los estudios empezaron en enero de 1955 con ensayos en túnel de viento, porque calcular la resistencia al viento de un conjunto de esferas era, según ella, una primicia mundial. El inventario del patrimonio de Bruselas registra una maqueta sometida a vientos artificiales para probar la estabilidad.",
+        "El edificio que salió de esos ensayos no se apoya solo en el vértice. Las tres esferas más bajas descansan sobre tres bípodes, estructuras en V invertida de unos 30 metros que llevan escaleras por dentro y servían de salida a los visitantes. En la versión más repetida de la historia, recogida en la Wikipedia en inglés a partir de la base de datos Structurae, el proyecto original no tenía esos apoyos, y el túnel de viento mostró que el conjunto se volcaría con vientos de 80 km/h, cuando en Bélgica ya se han registrado ráfagas de 140 km/h. Las fuentes institucionales confirman los ensayos y los bípodes, pero no detallan esa secuencia.",
+        "Por dentro, cada esfera tiene como esqueleto doce arcos semicirculares de chapa de acero en cajón, con una estructura secundaria que sostiene el revestimiento. Los tubos, de unos 3 metros de diámetro, llevan escaleras, escaleras mecánicas, la más larga de 35 metros, y, en el tubo vertical del centro, un ascensor de 5 metros por segundo, que el inventario de Bruselas describe como el más rápido de Europa en la época."
+      ]
+    },
+    {
+      "titulo": "Alpinistas colgados de cabrestantes",
+      "paragrafos": [
+        "Los cimientos empezaron en marzo de 1956, sobre grupos de pilotes hincados a 17,5 metros. El primer mástil vertical subió en enero de 1957, la esfera de base se montó en mayo, los bípodes y el mástil central entre junio y septiembre, y las esferas se cerraron de octubre de 1957 a marzo de 1958. El montaje estuvo a cargo de los Ateliers de Construction de Jambes-Namur. La revista Acier Stahl Steel registró el equipo: doce cabrestantes eléctricos, más de cuarenta cabrestantes manuales y 43 kilómetros de cable de acero. Cada bípode, de 115 toneladas según la revista, o de 100 según la RTBF, se montó en el suelo y se izó entero.",
+        "Cuántos hombres hicieron eso, nadie lo registró. La cifra de 15 mil obreros que aparece en la prensa belga se refiere a toda la Expo. Lo que existe es la memoria de uno de ellos. Frans Cools, jefe de cuadrilla de Jambes-Namur, contó al periódico Gazet van Laakdal, que publicó su obituario en 2023, que el equipo trabajaba colgado en cubetas sujetas a cabrestantes, como máximo cuatro por cubeta, y que se llamaban a sí mismos alpinistas. En los últimos nueve meses, dijo, trabajaron sin parar, incluso los fines de semana y feriados. Según él, no hubo ningún accidente, y la obra no terminó hasta las 2 de la madrugada del 17/04/1958, el mismo día en que el rey Balduino abrió la exposición. La asociación que administra el edificio da otra fecha de conclusión: el 25 de marzo."
+      ]
+    },
+    {
+      "titulo": "Seis meses que se volvieron casi setenta años",
+      "paragrafos": [
+        "La Expo 58 estuvo abierta del 17 de abril al 19 de octubre de 1958 y registró 41.454.412 entradas. El Atomium, despreciado en su momento por los críticos de arquitectura por su gigantismo y su forma, fue la atracción más buscada. Cuando la exposición cerró, los pabellones se desmontaron. El Atomium también debía desmontarse: según los Archivos de la Ciudad de Bruselas, no estaba destinado a sobrevivir a la exposición, y fue la Ciudad la que quiso conservarlo, por su éxito.",
+        "Quedarse no significó ser cuidado. Los Archivos registran una restauración entre 1988 y 1993, pero el revestimiento de aluminio de 1958 envejeció y la estructura empezó a dejar entrar agua. La asociación que administra el edificio afirma que estuvo cerca de ser demolido a fines de los años 1990, por falta de viabilidad. Las cifras de público de la época difieren: el inventario de 2004 habla de cerca de medio millón de visitantes por año; el diario L'Avenir, en 2026, de unos 150 mil por año antes de la renovación."
+      ]
+    },
+    {
+      "titulo": "La piel nueva",
+      "paragrafos": [
+        "La renovación duró de marzo de 2004 a febrero de 2006, con proyecto del estudio Conix. La estructura metálica se recuperó o se sustituyó, y el aluminio dio paso al acero inoxidable, más resistente a la corrosión y mejor aislante acústico, según la asociación. Cada esfera estaba cubierta por 48 grandes triángulos, y cada uno de ellos, en la versión de 1958, era un mosaico de chapas más pequeñas; por eso hay fuentes que cuentan 720 triángulos de aluminio por esfera. Los paneles nuevos reproducen el dibujo con juntas falsas. El edificio ganó unas 100 toneladas y pasó de 2.400 a 2.500 toneladas.",
+        "Para ayudar a pagar el revestimiento nuevo, se subastaron mil triángulos originales. El costo total aparece como 26 millones de euros en una versión y como 25 millones más 2,5 millones de sobrecosto del acero en la cuenta de la RTBF, la radiotelevisión pública belga. El Atomium reabrió el 14/02/2006, en una ceremonia oficial, y al público el 18 de febrero."
+      ]
+    },
+    {
+      "titulo": "Un cristal con derechos de autor",
+      "paragrafos": [
+        "El Atomium es también un caso conocido de derecho de imagen. En 2003, la sociedad belga de autores, SABAM, reclamaba derechos sobre las reproducciones del edificio en todo el mundo. Desde el 15 de julio de 2016, la ley belga permite reproducir obras de arquitectura situadas de forma permanente en un lugar público, siempre que eso no perjudique la explotación normal de la obra. La asociación que administra el Atomium sigue pidiendo que todo uso de la imagen, comercial o no, pase por autorización. Por eso las imágenes de esta página muestran el cristal que inspiró el edificio y la exposición que lo rodeó, y no el edificio.",
+        "En 2025, según L'Avenir, el Atomium recibió 850 mil visitantes, récord de su historia. El 14/02/2026 empezó la programación por los 20 años de la renovación, con tres instalaciones de arte digital en las esferas y un pódcast con obreros, arquitectos y vecinos de la obra; quien nació el 18/02/2006 entra gratis todo el año. En septiembre de 2026, las esferas acogieron un festival de ciencia abierto al público. El edificio que debía durar seis meses llegó a casi setenta años."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "El Atomium representa una molécula, o un átomo.",
+      "registro": "Representa un cristal: la celda elemental del hierro, con nueve átomos, ocho en los vértices de un cubo y uno en el centro. El nombre habla de la era atómica; la forma es de cristal."
+    },
+    {
+      "circula": "Siempre fue de acero inoxidable.",
+      "registro": "En 1958 el revestimiento era de aluminio anodizado. El acero inoxidable es de la renovación de 2004 a 2006."
+    },
+    {
+      "circula": "Se construyó para quedarse.",
+      "registro": "Según los Archivos de la Ciudad de Bruselas, no estaba destinado a sobrevivir a la Expo 58. Se quedó porque tuvo éxito."
+    },
+    {
+      "circula": "Quince mil obreros construyeron el Atomium.",
+      "registro": "Los 15 mil que cita la prensa belga son los de toda la Expo. Cuántos trabajaron en el Atomium, nadie lo registró."
+    },
+    {
+      "circula": "La ampliación de 165 mil millones de veces es una exageración publicitaria.",
+      "registro": "La cuenta cierra: la arista de 47 metros del edificio dividida por la arista de la celda del hierro, poco menos de tres décimas de nanómetro, da unos 164 mil millones."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Qué representa el Atomium?", "r": "Un cristal: la celda elemental del hierro, con nueve átomos, ocho en los vértices de un cubo y uno en el centro, ampliada unas 165 mil millones de veces. El nombre habla de la era atómica, pero la forma no es de molécula ni de átomo."},
+    {"p": "¿Quién diseñó el Atomium?", "r": "La idea es del ingeniero André Waterkeyn, de Fabrimétal. Los arquitectos André y Jean Polak transformaron el concepto en edificio, los ingenieros Artémy S. Joukoff y André Beckers calcularon la estabilidad, y el montaje estuvo a cargo de los Ateliers de Construction de Jambes-Namur."},
+    {"p": "¿Cuándo se construyó el Atomium?", "r": "Para la Expo 58, en Bruselas. Los cimientos empezaron en marzo de 1956 y las esferas se montaron de octubre de 1957 a marzo de 1958. Las fuentes difieren sobre la conclusión: el 25/03/1958 o la madrugada del 17/04/1958, día de la apertura de la Expo."},
+    {"p": "¿Cuánto mide el Atomium?", "r": "102 m, del suelo a lo alto de la esfera superior. Son nueve esferas de 18 metros de diámetro, en los vértices y en el centro de un cubo de 47 metros de arista apoyado sobre un vértice."},
+    {"p": "¿El Atomium iba a ser desmontado?", "r": "Sí. Según los Archivos de la Ciudad de Bruselas, no estaba destinado a sobrevivir a la Expo 58 y se quedó por su éxito. En la renovación de 2004 a 2006, el revestimiento de aluminio dio paso al acero inoxidable."}
+  ],
+  "fontes": [
+    {"texto": "Inventaire du patrimoine architectural, Région de Bruxelles-Capitale (urban.brussels), \"Atomium\", 2018"},
+    {"texto": "Virginie Coumans, Archives de l'Atomium, Inventaire n° 8, Archives de la Ville de Bruxelles, 2004"},
+    {"texto": "Patrimoine industriel Wallonie-Bruxelles, \"La construction de l'Atomium: un fameux défi\", 2010, a partir de la revista Acier Stahl Steel, julio y agosto de 1958"},
+    {"texto": "Atomium asbl, \"The construction of the Atomium\""},
+    {"texto": "Atomium asbl, \"Renovation of the Atomium\""},
+    {"texto": "Atomium asbl, \"Expo 58\""},
+    {"texto": "Atomium asbl, \"Copyright\""},
+    {"texto": "RTBF, \"L'Atomium, tout une histoire !\", 08/06/2020"},
+    {"texto": "RTBF, \"Patrimoine : avec une santé de fer, l'Atomium célèbre son 65e anniversaire\", 17/04/2023"},
+    {"texto": "Gazet van Laakdal, \"Atomiumbouwer Frans Cools\", 18/03/2023"},
+    {"texto": "L'Avenir, \"20 ans après sa rénovation, l'Atomium est prêt à écrire un nouveau chapitre\", 13/02/2026"},
+    {"texto": "VRT NWS, \"20 ans de rénovation de l'Atomium : entre sciences et innovations\", 16/02/2026"},
+    {"texto": "Wikimedia Commons, \"Copyright rules by territory/Belgium\", sección sobre libertad de panorama"},
+    {"texto": "Wikipedia en inglés, \"Atomium\" (punto de partida; el pasaje sobre el ensayo de viento cita la base de datos Structurae)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Diagrama en gris sobre fondo blanco: ocho esferas en los vértices de un cubo y una novena en el centro, unidas por barras, con las cuatro diagonales cruzándose en el medio",
+      "legenda": "La celda cúbica centrada en el cuerpo del hierro, la forma que reproduce el Atomium. En el edificio, el cubo está apoyado sobre uno de sus vértices.",
+      "autor": "Solid State"
+    },
+    {
+      "alt": "Fotografía en blanco y negro: obreros levantando paredes de ladrillo entre estructuras de madera de casas en construcción, en un terreno de obra lleno de material",
+      "legenda": "La obra de la Expo 58 el 11 de abril de 1957, cuando el Atomium tenía en pie apenas el primer mástil.",
+      "autor": "Daan Noske / Anefo (Nationaal Archief)"
+    },
+    {
+      "alt": "Fotografía en blanco y negro: un hombre de traje lee papeles en un escritorio en medio de un pabellón acristalado vacío, con el piso cubierto de escombros y virutas",
+      "legenda": "El desmontaje de la Expo el 25 de noviembre de 1958, un mes después del cierre. Los pabellones se deshicieron; el Atomium, que también debía irse, se quedó.",
+      "autor": "Harry Pot / Anefo (Nationaal Archief)"
+    }
+  ]
+}

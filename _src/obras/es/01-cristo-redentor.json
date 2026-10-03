@@ -1,0 +1,135 @@
+{
+  "_nota": "Traducción fiel de ../01-cristo-redentor.json. Campos fijos vienen del original.",
+  "obra": "Cristo Redentor",
+  "titulo_seo": "Cómo se construyó el Cristo Redentor (1922–1931)",
+  "titulo_video": "Cristo Redentor: 38 metros de concreto amarrados a la roca",
+  "lugar": "Corcovado, Río de Janeiro, Brasil",
+  "periodo": "1922–1931",
+  "impossivel": "Una figura de 38 m, con los brazos abiertos, en la cumbre de una aguja de granito a unos 700 m sobre el mar, con viento, rayos y casi ningún espacio para la obra.",
+  "resumo": "Cómo se levantó el Cristo Redentor en el Corcovado: concreto armado, cabeza modelada en París, piel de esteatita y los números que nadie anotó.",
+  "abertura": [
+    "En lo alto del cerro del Corcovado, en Río de Janeiro, Brasil, está la imagen más conocida del país. Inaugurada el 12 de octubre de 1931, cumple 95 años el 12 de octubre de 2026. Poca gente sabe cómo llegó a quedar en pie.",
+    "La historia documentada es mejor que la leyenda: una estatua de concreto armado, solución que los ingenieros de la época decían aplicada por primera vez a un monumento de ese tipo, con la cabeza y las manos modeladas en París, la piel pegada a mano por mujeres voluntarias y un registro de obra en el que varios números simplemente nunca se anotaron. Donde falta la fuente, esta página dice que falta."
+  ],
+  "numeros": [
+    {"valor": "38 m", "rotulo": "altura: 30 m de estatua sobre 8 m de pedestal"},
+    {"valor": "28 m", "rotulo": "de la punta de un brazo a la del otro"},
+    {"valor": "3,75 m", "rotulo": "altura de la cabeza, que pesa 30 t"},
+    {"valor": "1926–1931", "rotulo": "cerca de 5 años de obra en la cima del cerro"},
+    {"valor": "3 cm × 7 mm", "rotulo": "cada triángulo de esteatita de la piel"},
+    {"valor": "1.145 t o 635 t", "rotulo": "peso total: las fuentes divergen y nadie explica la diferencia"}
+  ],
+  "ficha": [
+    {"item": "Idea original", "valor": "El sacerdote lazarista Pedro Maria Boss, en la década de 1850", "nota": "el Santuario da el año 1859; otras fuentes, solo la década"},
+    {"item": "Quién lo quiso y por qué", "valor": "El Círculo Católico de Río de Janeiro, en 1921, para el Centenario de la Independencia (1922); una petición con más de 20 mil firmas"},
+    {"item": "Terreno", "valor": "Cedido por el gobierno"},
+    {"item": "Proyecto", "valor": "El ingeniero Heitor da Silva Costa, ganador entre tres propuestas; dibujos con la colaboración del pintor Carlos Oswald", "nota": "el año del concurso varía entre 1921, 1922 y 1923 según la fuente"},
+    {"item": "Escultura", "valor": "Paul Landowski, en París: contrato el 3/11/1924; cabeza y manos a tamaño real, en yeso", "nota": "según la cronología oficial de Landowski"},
+    {"item": "Estructura", "valor": "Concreto armado; en 1928 una comisión cambió la armazón metálica por una celosía interna de concreto", "nota": "fuentes francesas atribuyen el cálculo a Albert Caquot"},
+    {"item": "Dirección de la obra", "valor": "Heitor Levy, maestro de obras, vivió en el Corcovado de 1926 a 1931; Pedro Fernandes Viana da Silva, ingeniero inspector"},
+    {"item": "Obreros", "valor": "Nadie registró, en una fuente verificable, cuántos fueron, cuánto ganaban ni cuál fue el pico de la obra", "nota": "un texto de 2011 habla de casi mil personas, sin decir de dónde sacó el número"},
+    {"item": "Plazo", "valor": "Primera piedra en 1922; obra en la cima de 1926 a 1931"},
+    {"item": "Inauguración", "valor": "12/10/1931, con el cardenal Sebastião Leme y el presidente Getúlio Vargas"},
+    {"item": "Costo", "valor": "2.500 contos de réis, según el Santuario del Cristo Redentor; pagado con donaciones de fieles brasileños", "nota": "las conversiones a valores de hoy que circulan no informan el método; por eso no se incluyen aquí"},
+    {"item": "Muertes y accidentes", "valor": "No hay registro de muertes; la afirmación viene de la Arquidiócesis y del testimonio del maestro de obras, que dijo que no había habido “nada anormal” (traducción nuestra)", "nota": "ninguna fuente independiente lo confirma ni lo desmiente"},
+    {"item": "Peso total", "valor": "1.145 t según la cronología de Landowski y National Geographic; 635 t según New7Wonders y la prensa"},
+    {"item": "Altitud de la cima", "valor": "704 m según el ICMBio; de 709 a 710 m en otras fuentes; 700 m según New7Wonders"},
+    {"item": "Revestimiento", "valor": "Triángulos de esteatita de 3 cm de lado y 7 mm de espesor, pegados en tiras de tela; el número total de piezas nadie lo contó"},
+    {"item": "Después", "valor": "Restauraciones en 1980, 1990, 2010 y 2017–2021; estatua declarada patrimonio por el IPHAN en 2008; elegida una de las Nuevas Siete Maravillas el 7/7/2007"}
+  ],
+  "historia": [
+    {
+      "titulo": "Una idea de setenta años",
+      "paragrafos": [
+        "La idea es más vieja que la República. En la década de 1850, el sacerdote lazarista Pedro Maria Boss imaginó un monumento religioso en lo alto del Corcovado. No pasó del papel.",
+        "Volvió en 1921, de la mano del Círculo Católico de Río de Janeiro, con una fecha en la mira: el Centenario de la Independencia, en 1922. Una petición con más de 20 mil firmas llegó al presidente Epitácio Pessoa, y el gobierno cedió el terreno. Ese mismo 1922 se colocó la primera piedra en lo alto del cerro.",
+        "Faltaba lo principal. Nadie sabía todavía cómo sería la estatua, ni cómo ponerla allá arriba."
+      ]
+    },
+    {
+      "titulo": "El primer Cristo no abría los brazos",
+      "paragrafos": [
+        "El proyecto elegido, entre tres, fue el del ingeniero Heitor da Silva Costa. Y el primer Cristo que dibujó no era el que se conoce hoy: sostenía un globo en una mano y una cruz en la otra.",
+        "Ese dibujo se abandonó. En la versión final, en palabras del propio Silva Costa a la revista O Cruzeiro, en 1931, la cruz pasó a ser el cuerpo de la estatua, y el globo quedó bajo sus pies.",
+        "¿De dónde salió la pose de brazos abiertos? Según el propio Silva Costa, de una antena de radio que Westinghouse instaló en el Corcovado en 1922. El pintor Carlos Oswald trabajó con él en los dibujos, y hay quien le atribuye la pose a Oswald; eso nunca se demostró.",
+        "La elección tenía una consecuencia enorme. Una estatua de brazos abiertos en lo alto de un pico es una estatua con dos brazos en voladizo, enfrentando el viento sin nada debajo."
+      ]
+    },
+    {
+      "titulo": "El problema era el lugar",
+      "paragrafos": [
+        "El Corcovado es una aguja de granito en medio de la ciudad. La cima está a unos 700 m sobre el mar, y es pequeña. No había dónde montar una obra grande.",
+        "Había un tren. El Ferrocarril del Corcovado, abierto el 9 de octubre de 1884, sube 3.824 m por la selva, y en 1910 se convirtió en el primer ferrocarril eléctrico de Brasil. Por él subió el material de la obra.",
+        "Allá arriba, los obreros trabajaban en andamios sobre el precipicio, sin la protección que hoy sería obligatoria, según un reportaje de la Agência Brasil de 2021. El maestro de obras, Heitor Levy, vivió en lo alto del cerro durante los cinco años de obra, de 1926 a 1931."
+      ]
+    },
+    {
+      "titulo": "Concreto, y no bronce",
+      "paragrafos": [
+        "Un monumento así, en la década de 1920, habría sido de bronce, de piedra, o de chapa metálica sobre un esqueleto de hierro, como la Estatua de la Libertad. El Cristo no es ninguna de esas cosas: es de concreto armado, con una planta de concreto montada en la propia cumbre.",
+        "Silva Costa llamó al material “el exponente de nuestra época” (traducción nuestra). El ingeniero Arrojado Lisboa escribió en 1931 que era una solución aplicada por primera vez a un monumento de esa naturaleza.",
+        "En 1928, con la obra en marcha, una comisión técnica cambió la armazón metálica prevista por una celosía interna de concreto armado. Fuentes francesas atribuyen el cálculo al ingeniero Albert Caquot. Según Cimento Itambé, la estatua se apoya en cuatro pilares centrales, con una cimentación de 4 m dentro de la roca.",
+        "Por dentro, la estatua es hueca: 12 plataformas unidas por escaleras, con salidas en los brazos y en la cabeza, para el mantenimiento. Por fuera parece una escultura maciza. Por dentro, es un edificio."
+      ]
+    },
+    {
+      "titulo": "La cabeza vino de París, en pedazos",
+      "paragrafos": [
+        "La forma salió de un taller en Francia. Silva Costa se reunió con el escultor Paul Landowski en París en mayo de 1924, y el contrato se firmó en noviembre. Landowski trabajó en maquetas cada vez mayores: una de 40 cm, otra de 2,30 m y la final, de 4 m, enviada en barco para ampliarse en Brasil.",
+        "La cabeza y las manos las hizo a tamaño real, en yeso. La cabeza mide 3,75 m y pesa 30 t; cada mano mide 3,20 m. Cortadas en bloques, cruzaron el Atlántico en 1928. Según el Santuario, solo la cabeza llegó en 50 partes numeradas. La cronología de Landowski registra la cabeza montada en la cumbre el 10 de junio de 1930.",
+        "Algunas fuentes atribuyen el rostro al escultor rumano Gheorghe Leonida, del taller. La cronología oficial de Landowski no lo menciona, y la atribución sigue sin confirmarse."
+      ]
+    },
+    {
+      "titulo": "Una piel de triángulos",
+      "paragrafos": [
+        "El concreto no se ve. Toda la estatua está revestida de esteatita, y esa piel no está hecha de placas: está hecha de triángulos de 3 cm de lado y 7 mm de espesor, pegados en tiras de tela que después se aplicaban sobre el concreto.",
+        "Según la Arquidiócesis, Silva Costa sacó la idea de una fuente cubierta de mosaico en la Galerie des Arcades, en la avenida de los Campos Elíseos, en París, a comienzos de 1927. La técnica se probó ese mismo año en Gentil & Bourdet, en Boulogne-Billancourt, Francia.",
+        "Quienes pegaron los triángulos fueron señoras voluntarias. Algunas escribieron, en el reverso de las piezas, el nombre de maridos, hijos y parientes, del lado que quedaría vuelto hacia el concreto, según el libro de Maria Augusta Machado citado por Emerson Giumbelli. Si alguno de esos nombres sigue allí, después de tantas restauraciones, nadie lo sabe: solo arrancando la piedra se podría leer.",
+        "¿Cuántos triángulos en total? Nadie los contó. Y allí dentro hay otra pieza escondida: según el Santuario, un corazón de esteatita de 1,30 m."
+      ]
+    },
+    {
+      "titulo": "La noche del 12 de octubre, y lo que vino después",
+      "paragrafos": [
+        "El Cristo se inauguró el 12 de octubre de 1931, con el cardenal Sebastião Leme y el presidente Getúlio Vargas. El plan, articulado por Assis Chateaubriand, era encender las luces con una señal de radio enviada desde Europa, con Guglielmo Marconi en el otro extremo. Lo que ocurrió esa noche las fuentes no lo cuentan igual: unas dicen que la señal encendió la estatua; otras, que el mal tiempo impidió la transmisión y la luz se encendió en el propio Río.",
+        "Lo que se sabe con certeza ocurrió 50 años después: el 12 de octubre de 1981, el papa Juan Pablo II encendió las luces del Cristo por radio, desde Castel Gandolfo, en Italia, y recordó a Marconi en su discurso.",
+        "La estatua recibe rayos algunas veces al año: cerca de 6, según el INPE; 5, según el Santuario. En 2014, un rayo dañó un dedo de la mano derecha. Hubo restauraciones en 1980, 1990, 2010 (cuando se cambiaron más de 60 mil piedras) y de 2017 a 2021, con escaneo 3D. En 2012, la Justicia de Río negó a los herederos de Landowski los derechos sobre la imagen; el escultor habría anotado en su diario que cedió los derechos porque habría pocas reproducciones.",
+        "En 2026, cien años después del inicio de las obras, el Corcovado vuelve a ser una obra en construcción. Según el ICMBio, los trabajos, previstos de agosto de 2026 a mayo de 2027, cambian las cuatro escaleras mecánicas e instalan dos ascensores inclinados panorámicos; durante ese período, la capacidad en la cima se reduce a la mitad."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "El Cristo fue un regalo de Francia.", "registro": "Se pagó con donaciones de fieles brasileños, en campañas de la Arquidiócesis y del Círculo Católico; el gobierno cedió el terreno. Francés es el escultor, y el cálculo atribuido a Caquot."},
+    {"circula": "Marconi encendió las luces de la estatua desde Roma, en 1931.", "registro": "Las fuentes cuentan la noche de al menos cuatro maneras distintas, y varias dicen que el mal tiempo impidió la señal. Lo comprobado es el encendido por radio que hizo Juan Pablo II, desde Castel Gandolfo, en 1981."},
+    {"circula": "La estatua está cubierta por seis millones de triángulos de esteatita.", "registro": "Ninguna fuente sostiene el número, y la cuenta no cierra: seis millones de piezas de ese tamaño cubrirían un área mucho mayor que la de la estatua. Nadie los contó."},
+    {"circula": "El monumento se pensó para homenajear a la princesa Isabel.", "registro": "No hay base para eso. Cuando el padre Boss tuvo la idea, en la década de 1850, Isabel era una niña."},
+    {"circula": "Nadie murió en la construcción.", "registro": "No hay registro de muertes, pero la afirmación viene solo de la Iglesia y del maestro de obras. Puede ser verdad; no es prueba."}
+  ],
+  "perguntas": [
+    {"p": "¿Cómo se construyó el Cristo Redentor?", "r": "En concreto armado, con una planta de concreto montada en la propia cumbre y el material subiendo por el Ferrocarril del Corcovado. Por dentro hay una celosía de concreto y 12 plataformas; por fuera, una piel de triángulos de esteatita pegados en tiras de tela."},
+    {"p": "¿Cuándo se construyó el Cristo Redentor?", "r": "La primera piedra se colocó en 1922, y la obra en la cima del Corcovado funcionó de 1926 a 1931. La estatua se inauguró el 12 de octubre de 1931."},
+    {"p": "¿Quién construyó el Cristo Redentor?", "r": "El proyecto es del ingeniero Heitor da Silva Costa, con dibujos en colaboración con el pintor Carlos Oswald, y la escultura es de Paul Landowski, que modeló la cabeza y las manos en París. Heitor Levy fue el maestro de obras; cuántos obreros trabajaron nadie lo registró."},
+    {"p": "¿Cuánto mide el Cristo Redentor?", "r": "Mide 38 m: 30 m de estatua sobre 8 m de pedestal. De la punta de un brazo a la del otro, 28 m; solo la cabeza mide 3,75 m y pesa 30 t."},
+    {"p": "¿Cuánto pesa el Cristo Redentor?", "r": "Las fuentes divergen: 1.145 t según la cronología de Landowski y National Geographic, o 635 t según New7Wonders y la prensa. Nadie explica la diferencia."}
+  ],
+  "fontes": [
+    {"texto": "Emerson Giumbelli, “A Modernidade do Cristo Redentor”, Dados, v. 51, n. 1, 2008"},
+    {"texto": "Juliette Singer, cronología del Cristo de Río, sitio oficial de Paul Landowski"},
+    {"texto": "Santuário Cristo Redentor, Arquidiócesis de Río de Janeiro"},
+    {"texto": "Maria Augusta Machado, Cristo Redentor do Corcovado, Arquivo Público do Estado do Rio de Janeiro, 1997 (citado por Giumbelli)"},
+    {"texto": "O Cruzeiro, 10/10/1931, textos de Heitor da Silva Costa y Arrojado Lisboa (citados por Giumbelli)"},
+    {"texto": "ICMBio / Parque Nacional da Tijuca, obras de accesibilidad en el Corcovado, 2026"},
+    {"texto": "Agência Brasil, reportaje sobre los 90 años del Cristo Redentor, 2021"},
+    {"texto": "Cimento Itambé, sobre la estructura del Cristo Redentor, 2011"},
+    {"texto": "INPE/ELAT, incidencia de rayos en el Cristo Redentor"}
+  ],
+  "imagens": [
+    {"alt": "Vista aérea del Cristo Redentor en la cima del Corcovado, con la ciudad y las montañas de la zona sur de Río al fondo", "legenda": "El Cristo Redentor en la cumbre del Corcovado, Río de Janeiro, en 2014.", "autor": "Chensiyuan"},
+    {"alt": "Fotografía antigua del pico del Corcovado con la estatua en construcción, envuelta en andamios, y el Pan de Azúcar al fondo", "legenda": "La estatua dentro del andamio, en la cima del Corcovado, hacia 1930–1931. Al fondo, el Pan de Azúcar y la entrada de la bahía.", "autor": "Acervo Instituto Moreira Salles (013RJ009013)"},
+    {"alt": "Tranvía del Ferrocarril del Corcovado cruzando un viaducto metálico en medio de la selva", "legenda": "El Ferrocarril del Corcovado en el Viaducto do Silvestre. Por los rieles subió al cerro el material de la obra.", "autor": "Acervo Instituto Moreira Salles (013RJ009040)"},
+    {"alt": "Fotografía antigua del Cristo Redentor visto desde abajo, con los brazos abiertos", "legenda": "El Cristo visto desde el pie del pedestal, en una fotografía antigua de Alfredo Krausz.", "autor": "Alfredo Krausz / Acervo Instituto Moreira Salles (002037AAK5039)"},
+    {"alt": "Rostro del Cristo Redentor visto desde abajo contra el cielo, con la textura del revestimiento de esteatita", "legenda": "La cabeza, de 3,75 m, se modeló en yeso en el taller de Landowski, en París.", "autor": "Dkoukoul"},
+    {"alt": "Mano abierta del Cristo Redentor, en el extremo del brazo, contra el cielo", "legenda": "Cada mano mide 3,20 m. Como la cabeza, se modeló a tamaño real en París.", "autor": "Md mackinnon"}
+  ]
+}

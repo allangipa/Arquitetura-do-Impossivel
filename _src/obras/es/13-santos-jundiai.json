@@ -1,0 +1,173 @@
+{
+  "_nota": "Traducción fiel de ../13-santos-jundiai.json. Campos fijos vienen del original.",
+  "obra": "Ferrocarril Santos–Jundiaí",
+  "titulo_seo": "São Paulo Railway (Santos-Jundiaí) y la Serra do Mar",
+  "titulo_video": null,
+  "lugar": "Serra do Mar, entre Santos y Jundiaí, pasando por la ciudad de São Paulo, estado de São Paulo, Brasil",
+  "periodo": "1860–1867",
+  "impossivel": "Hacer subir un tren cerca de 800 metros de escarpa en 8 kilómetros de selva cerrada, con un capital fijo que no alcanzaba para ningún ferrocarril de locomotora hasta lo alto de la sierra.",
+  "resumo": "Cómo la São Paulo Railway, la Santos-Jundiaí, venció la Serra do Mar en 1867 con cuatro rampas, cable de acero y vapor, y por qué la idea volvió en 2026.",
+  "abertura": [
+    "A mediados del siglo XIX, el café del interior de São Paulo bajaba al puerto de Santos, en la costa paulista, a lomo de mula. En el camino estaba la Serra do Mar, una escarpa que sube casi de golpe hasta cerca de 800 metros, cubierta de Mata Atlántica. Una compañía inglesa, la São Paulo Railway, recibió la misión de tender allí un ferrocarril con un capital fijado en 2 millones de libras, sin garantía para un centavo más.",
+    "Una línea común de locomotora habría tenido que serpentear por más de 40 kilómetros solo para vencer la sierra. La solución fue otra: cortar la ladera en cuatro rampas de cerca del 10% e izar los trenes con cable de acero, con máquinas de vapor fijas en lo alto de cada rampa, un tren subiendo mientras otro bajaba en el otro extremo del mismo cable. La línea se abrió el 16 de febrero de 1867, diez meses antes del plazo."
+  ],
+  "numeros": [
+    {"valor": "762 a 808 m", "rotulo": "de desnivel vencido en la sierra, según la fuente y el punto de medición"},
+    {"valor": "4 planos", "rotulo": "inclinados de cerca del 10%, que suman unos 8 km, con una casa de máquinas de vapor en lo alto de cada uno"},
+    {"valor": "1860–1867", "rotulo": "de la primera palada, en mayo de 1860, a la apertura, el 16/02/1867"},
+    {"valor": "£ 1,745 M", "rotulo": "el contrato de la obra con Robert Sharpe & Sons, según el ingeniero residente"},
+    {"valor": "3.500", "rotulo": "hombres en el pico de la obra, según una estimación del propio ingeniero residente"},
+    {"valor": "139 km", "rotulo": "de Santos a Jundiaí, pasando por la ciudad de São Paulo"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "Llevar el café del interior paulista al puerto de Santos sin depender de las recuas de mulas que bajaban la Serra do Mar por caminos de tierra y calzadas de piedra."},
+    {"item": "Quién lo quiso", "valor": "El Barón de Mauá, el Marqués de Monte Alegre y el consejero José Antônio Pimenta Bueno, que recibieron la concesión del Imperio en abril de 1856, con intereses del 7% garantizados sobre un capital máximo de £ 2 millones; un decreto de octubre de 1859 extendió la garantía a 90 años. La compañía se constituyó en Londres en diciembre de 1859.", "nota": "el día del decreto aparece como 20 o 26 de abril, según la fuente"},
+    {"item": "Proyecto", "valor": "El ingeniero escocés James Brunlees, de Londres, optó por los planos inclinados. El trazado lo levantó a partir de 1856 Daniel Makinson Fox, que entonces tenía 26 años y después dirigió la obra como ingeniero residente. La mecánica de los planos la diseñó R. F. Welby, y las máquinas las fabricó Fairbairn & Co., de Mánchester.", "nota": "el nombre de Welby y el fabricante de las máquinas vienen de una sola fuente, la descripción de Fox"},
+    {"item": "Quién lo construyó", "valor": "La contratista inglesa Robert Sharpe & Sons, contratada el 08/02/1860, que subcontrató la mayor parte del trabajo en pequeños lotes; contratistas estadounidenses hicieron tramos pesados entre São Paulo y Jundiaí."},
+    {"item": "El sistema de la sierra", "valor": "Cuatro planos con pendiente de 1 en 9,75, cerca del 10%, con una casa de máquinas de vapor fijas en lo alto de cada uno. En el llamado sistema tail-end, un tren subía sujeto a un extremo del cable mientras otro bajaba en el otro. Cada viaje llevaba, en 1869, hasta 40 toneladas, en unos 15 minutos por plano.", "nota": "la carga y el tiempo por plano vienen de la descripción de Fox; más tarde la carga pasó a 60 toneladas"},
+    {"item": "Plazo", "valor": "Primera palada en mayo de 1860; viaducto de Grota Funda iniciado en julio de 1863 y cruzado por el primer tren en noviembre de 1865; rieles en Jundiaí en julio de 1866; apertura al tráfico el 16/02/1867, diez meses antes de que se cumplieran los ocho años del contrato.", "nota": "algunas fuentes dan el 15/03 o noviembre de 1860 como inicio de las obras"},
+    {"item": "Obreros", "valor": "Cerca de 3.500 en el pico, “de todas las nacionalidades y matices de color” (traducción nuestra), según el ingeniero residente Daniel Fox: portugueses e isleños de las Azores y de Madeira en mayor número, alemanes, brasileños, capataces ingleses. El total de trabajadores no quedó registrado. La concesión prohibía el uso de personas esclavizadas, pero documentos de 1863 muestran que trabajaron en la obra."},
+    {"item": "Salario", "valor": "De 4 chelines y 6 peniques a 6 chelines por día durante la obra, según Fox."},
+    {"item": "Muertes en la construcción", "valor": "Ninguna fuente consultada da un total. Los partes de accidentes del ingeniero fiscal del gobierno, de 1861 a 1863, registran muertes por ahogamiento, explosión de pólvora y aplastamiento, con el nombre de las víctimas, según la investigación del historiador Paulo Rodrigues de Andrade."},
+    {"item": "Costo", "valor": "Contrato de £ 1.745.000; con los adicionales, £ 1.817.917 pagadas a los contratistas, más una bonificación de £ 43.750 del gobierno por la entrega anticipada. Fox calculó £ 31.570 por milla incluyendo los intereses pagados durante la obra, lo que da alrededor de £ 2,7 millones; un estudio publicado en la revista Arquitextos habla de £ 2,75 millones.", "nota": "corregido solo por la inflación británica (índice de precios de la ONS, factor de cerca de 145 entre 1867 y 2026), el contrato equivale a unos £ 254 millones de 2026"},
+    {"item": "Medidas", "valor": "Desnivel de 2.557 pies (cerca de 779 m) desde el pie de la sierra, o 2.652 pies (cerca de 808 m) sobre el nivel del mar, según la medición de Fox; otras fuentes dan 762 m o 796,6 m. Planos de 1.781 a 2.139 m, que suman unos 8 km. Línea de 139 km, trocha de 1,60 m."},
+    {"item": "Serra Nova", "valor": "Hacia el cambio al siglo XX, la compañía duplicó la línea y abrió un segundo funicular, de cinco planos del 8%, con máquinas fijas de 1.000 caballos que movían un cable sin fin, al que se sujetaban, mediante una tenaza, pequeñas locomotoras que llevaban los vagones, los locobreques.", "nota": "el inicio de las obras y la inauguración aparecen como 1895 o 1896 y 1900 o 1901, según la fuente"},
+    {"item": "Estatización", "valor": "El 13/09/1946, al terminar los 90 años de la concesión, el Decreto-Ley n.º 9.869 pasó el ferrocarril a la Unión; se convirtió en la Estrada de Ferro Santos a Jundiaí."},
+    {"item": "Cremallera", "valor": "En 1974 la Rede Ferroviária Federal inauguró, sobre el lecho de los planos de 1867, un sistema de cremallera con locomotoras japonesas Hitachi; MRS Logística, que opera el tramo de carga, pasó a usar locomotoras suizas Stadler a partir de 2012. El primer funicular dejó de funcionar en 1970 o 1974, y el segundo en 1976 o 1982, según la fuente."},
+    {"item": "Paranapiacaba", "valor": "El campamento de obra del Alto da Serra, de 1861, se convirtió en la villa ferroviaria hoy llamada Paranapiacaba, en Santo André, con la Vila Martin Smith, abierta por la compañía en 1897. Fue declarada patrimonio por el Condephaat en 1987 y por el Iphan, y comprada por la Municipalidad de Santo André en 2002. Figura en la Lista Indicativa de Brasil ante la UNESCO desde 2014.", "nota": "la declaratoria del Iphan aparece como 2002 o 2008, según la fuente"},
+    {"item": "Hoy", "valor": "El 31/03/2026, el gobernador Tarcísio de Freitas dijo que restaurar el funicular abandonado parecía la opción más viable para el futuro tren de pasajeros São Paulo–Santos; el estudio sigue abierto, con una audiencia pública prevista para 2027. Desde julio de 2026, la pasarela metálica de la villa está en restauración."}
+  ],
+  "historia": [
+    {
+      "titulo": "Una pared entre el café y el mar",
+      "paragrafos": [
+        "La Serra do Mar corre paralela al litoral de São Paulo y sube casi de golpe. En la descripción que el ingeniero Daniel Makinson Fox presentó en 1870 ante la Institution of Civil Engineers, en Londres, se eleva “abruptamente” (traducción nuestra) hasta por lo menos 2.500 pies, unos 760 metros, cubierta de bosque. Por allí pasaban, desde hacía siglos, senderos indígenas, la Calçada do Lorena, de 1792, y la Estrada da Maioridade, de los años 1840, todos a pie o a lomo de mula.",
+        "Del otro lado estaba la meseta paulista, donde el café se extendía rápido. Fox calculaba la producción de la provincia en 80 millones de libras de peso por año. Todo tenía que bajar hasta Santos. La idea de un ferrocarril existía desde los años 1830, la retomó el Barón de Mauá en 1853 y 1854 y volvió a trabarse con la guerra de Crimea. En abril de 1856, el Imperio otorgó la concesión a Mauá, al Marqués de Monte Alegre y al consejero José Antônio Pimenta Bueno."
+      ]
+    },
+    {
+      "titulo": "Una cuenta que no cerraba",
+      "paragrafos": [
+        "La concesión garantizaba intereses del 7%, por un plazo después extendido a 90 años, sobre un capital máximo de 2 millones de libras esterlinas, y Fox deja constancia de que quedó “claramente entendido” (traducción nuestra) que no habría garantía para capital adicional. Mauá entregó el proyecto al ingeniero escocés James Brunlees, que envió a Fox, de 26 años, a Brasil a comienzos de 1856.",
+        "La orden de Londres era trazar una línea común de locomotora. Fox cuenta que le bastó ver el terreno para concluir que eso no cabía en el dinero. La comparación que hizo es con el Ferrocarril Dom Pedro II, que subía la sierra cerca de Río de Janeiro, donde la montaña es más baja: con el mismo patrón, la subida paulista exigiría al menos 26 millas, unos 42 kilómetros de rampa continua, y costaría solo en la sierra £ 1,5 millones. Brunlees optó por el atajo: planos inclinados, con pendiente de 1 en 10, accionados por máquinas fijas.",
+        "El levantamiento llevó unos quince meses. Según Fox, el equipo pasaba tres semanas seguidas dentro de la selva, en cabañas techadas con hojas de palmito, y salía de allí “descolorido por la falta de sol” (traducción nuestra)."
+      ]
+    },
+    {
+      "titulo": "Cuatro rampas y un cable",
+      "paragrafos": [
+        "Lo que se construyó fueron cuatro planos con pendiente de 1 en 9,75, poco más del 10%, con longitudes de entre 1.781 y 2.139 metros según la medición de Fox, que suman unos 8 kilómetros. En lo alto de cada uno, un descanso casi plano de unos 76 metros albergaba la casa de máquinas: un par de máquinas de vapor de 158 caballos nominales, alimentado por cinco calderas. El cable, de alambres de acero, se probaba para 35 toneladas y duraba unos dos años.",
+        "El sistema tenía nombre inglés, tail-end. Un tren se sujetaba a un extremo del cable y otro al extremo opuesto: mientras uno subía, el otro bajaba, y el peso del que bajaba ayudaba a la máquina. En el medio de cada plano los rieles se abrían en un desvío para que los dos se cruzaran. Cada composición llevaba tres vagones y un vagón freno con una pinza capaz de morder los rieles y detener el tren en pocos metros, que se usaba también en los días de neblina, cuando el riel quedaba resbaladizo.",
+        "En 1869, según Fox, cada viaje subía como máximo 40 toneladas y tardaba unos 15 minutos por plano, una hora en toda la sierra. Los locobreques, las pequeñas locomotoras que se aferraban al cable y que hoy se asocian al funicular, solo llegaron con el segundo sistema, hacia el cambio al siglo XX."
+      ]
+    },
+    {
+      "titulo": "La sierra que se deslizaba",
+      "paragrafos": [
+        "El problema mayor no fue la rampa, fue el suelo. Los cortes llegaron a 75 y 95 pies de profundidad, y los taludes, a 330 pies de largo. Fox escribe que “terraplén tras terraplén fue arrastrado durante la construcción” (traducción nuestra), a veces después de terminado. La salida fue drenarlo todo: recoger el agua de la ladera por encima de la línea y hacerla cruzar por canales de piedra, revestir los terraplenes y contener los cortes con muros de piedra seca de hasta 60 pies. En total fueron 1,2 millones de yardas cúbicas de excavación, cerca de 920 mil metros cúbicos.",
+        "Al pie del cuarto plano, un valle se salvó con el viaducto de Grota Funda, de unos 215 metros, con 185 pies de altura en el punto más hondo. No hubo andamio: se tendió un cable de un lado al otro del abismo y las columnas de hierro bajaron por él, pieza por pieza. La primera piedra se colocó en julio de 1863, y el primer tren pasó en noviembre de 1865. La línea completa se abrió el 16/02/1867. El contrato daba ocho años, hasta fines de 1867, y la contratista Robert Sharpe & Sons recibió del gobierno una bonificación de £ 43.750 por los diez meses de anticipación."
+      ]
+    },
+    {
+      "titulo": "Quién abrió la sierra",
+      "paragrafos": [
+        "Fox estimó que el mayor número de hombres en la obra al mismo tiempo fue “probablemente unos 3.500, de todas las nacionalidades y matices de color” (traducción nuestra). Los más numerosos, según él, eran portugueses e isleños de las Azores y de Madeira; había alemanes, brasileños que cambiaban el campo por el salario y volvían en la siembra, e ingleses como capataces y maquinistas. El salario iba de 4 chelines y 6 peniques a 6 chelines por día. El total de trabajadores no quedó registrado.",
+        "Fox también escribió que, aunque Brasil era esclavista, la concesión obligaba a usar trabajo libre. Los documentos cuentan otra historia. En un oficio de julio de 1863 al presidente de la provincia, el superintendente de la compañía, J. J. Aubertin, admitió que la obra usaba personas esclavizadas desde hacía más de tres años, “no sin algún permiso tácito” (traducción nuestra) del gobierno. Los partes de accidentes del ingeniero fiscal Wallace da Gama Cochrane, de 1861 a 1863, citan a diez trabajadores esclavizados por su nombre. El historiador Paulo Rodrigues de Andrade, que reunió esos papeles, concluye que la presencia de esclavos en la obra fue la regla, no la excepción.",
+        "Nadie publicó cuántos murieron. Lo que existe son nombres: João, ahogado en enero de 1861; Benedicto Cotovi, quemado por pólvora en septiembre del mismo año; dos esclavizados muertos en 1862, uno aplastado por una piedra, otro ahogado; el portugués José Fernandes, que murió dos días después de una explosión en una mina de la sierra, en octubre de 1862."
+      ]
+    },
+    {
+      "titulo": "El ferrocarril más rico y el segundo funicular",
+      "paragrafos": [
+        "La cuenta final quedó por encima de lo previsto, pero no muy lejos. El contrato con Sharpe fue de £ 1.745.000, y los contratistas recibieron £ 1.817.917. Con los intereses pagados durante la obra, Fox llegó a £ 31.570 por milla, lo que da cerca de £ 2,7 millones para la línea; el capital garantizado en 1869 era de £ 2.650.000. Con el café, la São Paulo Railway llegó a ser descrita en la prensa técnica inglesa como quizá el ferrocarril más rico del mundo.",
+        "El tráfico creció tanto que, hacia el cambio al siglo XX, la compañía duplicó la línea y abrió un segundo funicular, la Serra Nova: cinco planos del 8%, unos 10 kilómetros, máquinas de 1.000 caballos y un cable sin fin al que se aferraban los locobreques. Los dos sistemas trabajaron lado a lado durante décadas. El 13/09/1946, al terminar los 90 años de la concesión, el ferrocarril pasó a la Unión y se convirtió en la Estrada de Ferro Santos a Jundiaí.",
+        "En los años 1970, la Rede Ferroviária Federal desmontó el primer funicular y, en 1974, inauguró sobre el mismo lecho un sistema de cremallera, con locomotoras japonesas. El segundo funicular se detuvo definitivamente en 1976 o en 1982, según la fuente. Es sobre los planos de 1867 que los trenes de carga de MRS todavía bajan la sierra."
+      ]
+    },
+    {
+      "titulo": "La villa en lo alto y el regreso del funicular",
+      "paragrafos": [
+        "En lo alto de la sierra, el campamento de obra de 1861 se convirtió en villa. La compañía necesitaba mantener allí a quienes operaban las máquinas, y en 1897 abrió la Vila Martin Smith, trazada en damero, con casas de madera distribuidas según la jerarquía de la empresa. El Alto da Serra es hoy Paranapiacaba, distrito de Santo André. Fue declarado patrimonio por el Condephaat en 1987 y por el Iphan, comprado por la municipalidad en 2002 e incluido por Brasil en la Lista Indicativa de la UNESCO en 2014. En julio de 2026 comenzó la restauración de la pasarela metálica que une las dos partes de la villa, presupuestada en R$ 18 millones.",
+        "El 31/03/2026, el gobernador Tarcísio de Freitas habló del tren de pasajeros que el estado estudia entre São Paulo y Santos: “Por increíble que parezca, lo que está pareciendo más viable es restaurar el funicular que está abandonado desde hace mucho tiempo” (traducción nuestra). El estudio sigue abierto, con una audiencia pública prevista para 2027, y no hay trazado definido. La idea de subir trenes por la sierra con cable, que los ingleses eligieron por falta de dinero, volvió a la mesa un siglo y medio después."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "El ferrocarril se construyó solo con trabajo libre, porque la concesión prohibía los esclavos.",
+      "registro": "La prohibición existía, y el ingeniero residente escribió que se cumplió. Pero en un oficio de 1863 el superintendente de la compañía admitió ante el gobierno que usaba personas esclavizadas “no sin algún permiso tácito” (traducción nuestra), y los partes de accidentes de 1861 a 1863 citan a diez de ellas por su nombre."
+    },
+    {
+      "circula": "Los planos inclinados tenían 10 grados de inclinación.",
+      "registro": "La pendiente era de 1 en 9,75, es decir, cerca del 10%: el tren subía 1 metro por cada 9,75 recorridos. Diez grados serían casi un 18%."
+    },
+    {
+      "circula": "Desde 1867 los trenes eran arrastrados por los locobreques.",
+      "registro": "En el primer sistema, el cable iba sujeto a un vagón freno sin motor. Los locobreques, pequeñas locomotoras con una tenaza para aferrarse al cable, se compraron para el segundo funicular, la Serra Nova, abierto hacia el cambio al siglo XX."
+    },
+    {
+      "circula": "El ferrocarril se abrió sin explosivos, por la inestabilidad de la ladera.",
+      "registro": "La descripción de la obra habla de minas y túneles, y los partes de accidentes registran trabajadores quemados por pólvora y un muerto por una explosión en una mina de la sierra, en 1862."
+    },
+    {
+      "circula": "El presupuesto era de 200 mil libras y el costo se duplicó.",
+      "registro": "El capital garantizado era de 2 millones de libras. El contrato fue de £ 1.745.000, y el costo total, con los intereses pagados durante la obra, quedó cerca de £ 2,7 millones."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuándo se construyó el ferrocarril Santos-Jundiaí?", "r": "Entre 1860 y 1867. La primera palada fue en mayo de 1860, y la línea de 139 km, de Santos a Jundiaí pasando por São Paulo, se abrió al tráfico el 16/02/1867, diez meses antes del plazo del contrato."},
+    {"p": "¿Quién construyó la São Paulo Railway?", "r": "La compañía inglesa São Paulo Railway, constituida en Londres en 1859 a partir de la concesión otorgada al Barón de Mauá, al Marqués de Monte Alegre y a Pimenta Bueno. El ingeniero escocés James Brunlees optó por los planos inclinados, Daniel Makinson Fox dirigió la obra y la contratista fue Robert Sharpe & Sons."},
+    {"p": "¿Cómo subía el tren la Serra do Mar en la Santos-Jundiaí?", "r": "Con cable de acero. La ladera se cortó en cuatro planos inclinados de cerca del 10%, que suman unos 8 km, con una casa de máquinas de vapor fijas en lo alto de cada uno; un tren subía sujeto a un extremo del cable mientras otro bajaba en el otro."},
+    {"p": "¿Cuántas personas murieron en la construcción del ferrocarril Santos-Jundiaí?", "r": "Nadie publicó un total. Los partes de accidentes del ingeniero fiscal del gobierno, de 1861 a 1863, registran muertes por ahogamiento, explosión de pólvora y aplastamiento, con el nombre de las víctimas, entre ellas trabajadores esclavizados."},
+    {"p": "¿Cuánto costó el ferrocarril Santos-Jundiaí?", "r": "El contrato de la obra fue de £ 1.745.000, y los contratistas recibieron £ 1.817.917 con los adicionales. Con los intereses pagados durante la obra, el costo total queda cerca de £ 2,7 millones según la cuenta del ingeniero residente; un estudio de la revista Arquitextos habla de £ 2,75 millones."}
+  ],
+  "fontes": [
+    {"texto": "Daniel Makinson Fox, “Description of the Line and Works of the São Paulo Railway in the Empire of Brazil”, Minutes of Proceedings of the Institution of Civil Engineers, vol. 30, 1870"},
+    {"texto": "Paulo Rodrigues de Andrade, “Trabalhadores escravos nas obras de construção da SPR na década de 1860”, Aedos (UFRGS), v. 7, n. 17, 2015"},
+    {"texto": "Cecília Rodrigues dos Santos, Claudia Lage y Gustavo Secco, “Patrimônio: São Paulo Railway 150 anos”, Arquitextos, Vitruvius, 2017"},
+    {"texto": "Thaís Fátima dos Santos Cruz (FAU-USP), “Funiculares da vila ferroviária de Paranapiacaba: reminiscências, remanescentes e permanências”, 2011"},
+    {"texto": "Thaís Fátima dos Santos Cruz, “No meio do caminho... uma serra, a ferrovia, o café e uma vila”, Seminario de Patrimonio Agroindustrial, IAU-USP"},
+    {"texto": "Grace's Guide, “Sao Paulo Railway”"},
+    {"texto": "Grace's Guide, “James Brunlees”"},
+    {"texto": "Decreto-Ley n.º 9.869, del 13 de septiembre de 1946, Cámara de Diputados de Brasil"},
+    {"texto": "Municipalidad de Santo André, “A Vila” (Paranapiacaba)"},
+    {"texto": "Municipalidad de Santo André, “Paranapiacaba terá passarela restaurada com investimento de R$ 18 milhões”, 2026"},
+    {"texto": "Metrô CPTM, “Tarcísio cita reativação de funicular como alternativa para Trem Intercidades até Santos”, 31/03/2026"},
+    {"texto": "Via Trolebus, “O que sabemos sobre o Trem SP-Santos (Atualizado 2026)”, 2026"},
+    {"texto": "UNESCO, Lista Indicativa, “Cultural Landscape of Paranapiacaba: Village and railway systems in the Serra do Mar Mountain Range, São Paulo”"},
+    {"texto": "Office for National Statistics (vía officialdata.org), índice de precios al consumidor del Reino Unido, 1867–2026"},
+    {"texto": "Wikipedia en portugués, “São Paulo Railway” y “Funicular de Paranapiacaba” (punto de partida)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Fotografía antigua en sepia: un ferrocarril de vía doble corre en curva por una ladera empinada, con un muro de piedra a la izquierda, un túnel al fondo, postes de telégrafo y el valle cubierto de niebla a la derecha",
+      "legenda": "La línea de la São Paulo Railway en la ladera de la Serra do Mar, hacia 1900, fotografiada por Guilherme Gaensly.",
+      "autor": "Guilherme Gaensly (Museu Paulista da USP)"
+    },
+    {
+      "alt": "Tarjeta postal antigua en blanco y negro: en lo alto de una ladera, rieles con baranda de hierro sobre un muro alto de piedra, una chimenea, tanques y una pequeña casa de mampostería, con la sierra y el valle al fondo",
+      "legenda": "Una de las casas de máquinas en lo alto de un plano inclinado, en una tarjeta postal de comienzos del siglo XX. Desde aquí la máquina de vapor tiraba del cable.",
+      "autor": "Autor no identificado (tarjeta postal, Museu Paulista da USP)"
+    },
+    {
+      "alt": "Tarjeta postal antigua en blanco y negro: vista desde lo alto de una ladera desmontada, con dos líneas férreas cortadas a distintos niveles, la boca de un túnel y un vagón pequeño en medio de la rampa",
+      "legenda": "Vista general de los planos inclinados en la sierra, en una tarjeta postal de comienzos del siglo XX: los cortes en la ladera, un túnel y un vagón en plena rampa.",
+      "autor": "Autor no identificado (tarjeta postal, Museu Paulista da USP)"
+    },
+    {
+      "alt": "Tarjeta postal antigua en blanco y negro: un viaducto de hierro sobre pilares de celosía cruza un valle de selva, apoyado a la derecha en un gran muro de piedra; un hombre con quepis aparece en la esquina inferior izquierda",
+      "legenda": "Uno de los viaductos de hierro de los planos inclinados, en una tarjeta postal de comienzos del siglo XX.",
+      "autor": "Autor no identificado (tarjeta postal, Museu Paulista da USP)"
+    },
+    {
+      "alt": "Galpón de ladrillo con dos arcos y frontón amarillo con la inscripción SPR 1900, un vagón antiguo dentro de uno de los arcos, rieles cubiertos de pasto al frente y pórticos metálicos rojos",
+      "legenda": "Galpón con la marca de la São Paulo Railway y el año 1900, en Paranapiacaba, fotografiado en 2020.",
+      "autor": "Lima Marcos Antonio"
+    },
+    {
+      "alt": "Vista aérea de un patio ferroviario entre cerros de selva, con muchas vías, locomotoras azules y amarillas, una torre de reloj de ladrillo en el centro y andenes vacíos a la derecha",
+      "legenda": "El patio de Paranapiacaba y la torre del reloj en 2018, en lo alto de la sierra, donde los trenes comenzaban el descenso.",
+      "autor": "Igor Rando"
+    }
+  ]
+}

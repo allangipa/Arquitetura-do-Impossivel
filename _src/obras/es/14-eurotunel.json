@@ -1,0 +1,178 @@
+{
+  "_nota": "Traducción fiel de ../14-eurotunel.json. Campos fijos vienen del original.",
+  "obra": "Eurotúnel",
+  "titulo_seo": "Eurotúnel: cómo se construyó el túnel del Canal de la Mancha",
+  "titulo_video": null,
+  "lugar": "Bajo el estrecho de Dover, entre Folkestone, Kent, Inglaterra, y Coquelles, Paso de Calais, Francia",
+  "periodo": "1987–1994",
+  "impossivel": "Excavar tres túneles de 50 kilómetros, casi 40 de ellos bajo el mar, desde dos costas y dos países con mapas distintos, siguiendo una única capa de roca blanda, para que las máquinas se encontraran en el medio sin ningún dinero público.",
+  "resumo": "Cómo Inglaterra y Francia abrieron el Eurotúnel bajo el Canal de la Mancha: 11 tuneladoras, un encuentro medido en milímetros y un 80% de sobrecosto.",
+  "abertura": [
+    "Los ingleses empezaron a cavar un túnel hacia Francia en 1880, desde los acantilados de Dover, en el condado de Kent, y se detuvieron por miedo a una invasión. Lo intentaron de nuevo en 1974 y se detuvieron por el costo. La tercera vez, entre 1987 y 1994, ningún gobierno puso un centavo: el tratado entre los dos países lo prohibía.",
+    "Lo que hizo posible la obra fue una franja de roca. Entre la creta dura de arriba y la arcilla de abajo, bajo el fondo del mar, corre una capa de creta margosa, lo bastante blanda para cortarla y lo bastante impermeable para contener el agua del Canal. Once tuneladoras siguieron esa capa, seis desde Inglaterra y cinco desde Francia, y el 1 de diciembre de 1990 los dos extremos del túnel de servicio se encontraron a 22,3 kilómetros de la costa inglesa."
+  ],
+  "numeros": [
+    {"valor": "50 km", "rotulo": "de longitud de cada uno de los tres túneles, unos 38 de ellos bajo el mar"},
+    {"valor": "11", "rotulo": "tuneladoras: seis partieron de Inglaterra y cinco de Francia"},
+    {"valor": "36 cm", "rotulo": "de desvío lateral, y 58 mm en altura, cuando los dos lados del túnel de servicio se encontraron"},
+    {"valor": "13 mil · 15 mil", "rotulo": "trabajadores en el auge de la obra, según la fuente"},
+    {"valor": "10 · 11", "rotulo": "muertos en la construcción: la cifra más citada y los nombres de la placa en su memoria"},
+    {"valor": "+80%", "rotulo": "de sobrecosto: de £ 2,6 mil millones previstos a £ 4,65 mil millones, ambos a precios de 1985"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "Unir Gran Bretaña al continente por tierra, con trenes de pasajeros y trenes que transportan autos y camiones. La idea era antigua: el primer proyecto es de 1802, del ingeniero francés Albert Mathieu-Favier, y la empresa que hoy opera el túnel cuenta 139 proyectos estudiados desde entonces.", "nota": "el número de proyectos es de la propia operadora"},
+    {"item": "Los intentos anteriores", "valor": "En 1880–1882, la máquina de aire comprimido de Beaumont y English excavó cerca de 2 km desde Shakespeare Cliff, en Dover, y hubo también una galería en Sangatte, en Francia; la obra se detuvo por temor militar. En 1974 las obras se reanudaron y, el 20/01/1975, el gobierno británico desistió por el costo.", "nota": "cuánto se excavó en 1974 varía: de 250 metros a una milla, según la fuente"},
+    {"item": "Quién decidió", "valor": "Margaret Thatcher y François Mitterrand eligieron en enero de 1986 la propuesta de Eurotunnel: tres túneles solo ferroviarios, presupuestada en £ 2,6 mil millones, una de las dos más baratas entre las cuatro finalistas. Tratado de Canterbury el 12/02/1986; concesión el 14/03/1986."},
+    {"item": "Quién lo construyó", "valor": "TransManche Link (TML), consorcio de diez constructoras, cinco británicas y cinco francesas, con cinco bancos fundadores. Dos tercios del túnel se excavaron desde el lado inglés, a partir de Shakespeare Cliff, y un tercio desde el lado francés, a partir de un pozo gigante en Sangatte."},
+    {"item": "Los túneles", "valor": "Dos túneles ferroviarios de vía única, de 7,6 m de diámetro interior, y un túnel de servicio de 4,8 m entre ellos, unidos por 270 galerías transversales. Pasan a unos 40 m bajo el fondo del mar, en una capa de creta margosa."},
+    {"item": "Las tuneladoras", "valor": "Once: seis británicas, abiertas, y cinco francesas, cerradas y selladas para 11 bar de presión, porque del lado francés la creta estaba fracturada y llena de agua. Las francesas tenían nombre de mujer: Brigitte, Europa, Catherine, Virginie y Pascaline, que pasó a llamarse Séverine al volver para el último túnel.", "nota": "la presión de diseño viene de la ficha técnica de los constructores franceses"},
+    {"item": "Plazo", "valor": "Excavación iniciada en diciembre de 1987 del lado inglés y el 28/02/1988 del lado francés. Encuentro del túnel de servicio el 01/12/1990; de los ferroviarios, el 22/05 y el 28/06/1991. Entregado a Eurotunnel el 10/12/1993 e inaugurado el 06/05/1994.", "nota": "el día de inicio del lado inglés varía entre el 1 y el 15 de diciembre de 1987"},
+    {"item": "El encuentro", "valor": "El 01/12/1990, a las 12:12, a 22,3 km de Inglaterra y 15,6 km de Francia, el británico Graham Fagg y el francés Philippe Cozette se dieron la mano en el túnel de servicio. Las máquinas se habían detenido a 100 m una de otra; el desvío medido fue de unos 36 cm de lado y 58 mm de altura.", "nota": "dos mediciones técnicas: 358 mm y 361 mm de desvío lateral"},
+    {"item": "Obreros", "valor": "Más de 13 mil en el auge, según la operadora y la Institution of Civil Engineers; 15 mil, según otras fuentes. Solo la obra francesa llegó a 5.234 personas en agosto de 1990. Se trabajaba 24 horas al día, en los dos lados."},
+    {"item": "Muertes en la construcción", "valor": "La cifra más repetida es de 10 muertos, 8 de ellos británicos. La placa en memoria de los trabajadores en Samphire Hoe, Dover, colocada por la operadora y la constructora, lleva 11 nombres, entre 1986 y 1992. Dos son franceses: Guy Joly, aplastado por la máquina bajo el mar en 1989, y René Saint-Georges, atropellado por un vehículo en la obra en 1990. En 1990, el gerente de seguridad de la constructora dijo que había al menos cinco muertes del lado francés, tres no divulgadas."},
+    {"item": "Costo", "valor": "Presupuestado en £ 2,6 mil millones en 1985, terminó en £ 4,65 mil millones a los mismos precios de 1985, un sobrecosto de cerca del 80%. En libras corrientes de 1994, unos £ 9,5 mil millones, según un estudio de caso del Global Infrastructure Hub.", "nota": "según el índice de precios al por menor británico (1985 = 373,2; 2025 = 1.588,6), los £ 4,65 mil millones de 1985 equivalen a unos £ 20 mil millones de 2025"},
+    {"item": "Quién pagó", "valor": "Solo dinero privado: el artículo 1 del tratado prohíbe fondos y garantías públicas. Hubo cinco emisiones de acciones, que sumaron £ 2,43 mil millones hasta 1994, y un préstamo repartido entre más de 200 bancos.", "nota": "el total en acciones viene de un artículo del gerente financiero de la propia empresa"},
+    {"item": "La crisis", "valor": "El 14/09/1995 Eurotunnel suspendió el pago de intereses. Hubo reestructuraciones en 1997, cuando la concesión se extendió hasta 2086, y en 2006–2007, bajo protección judicial en París, con la deuda reducida de unos € 9 mil millones a unos € 4 mil millones."},
+    {"item": "Incendios", "valor": "El 18/11/1996, un tren de camiones se incendió con 34 personas a bordo, sin muertos. El 11/09/2008, otro incendio duró unas 16 horas; se cambiaron 650 m de revestimiento y el servicio completo solo volvió en febrero de 2009.", "nota": "las cifras del incendio de 2008 aparecen en una sola fuente"},
+    {"item": "Hoy", "valor": "Lo opera Getlink, nombre de Eurotunnel desde 2017. Unos 400 trenes por día y quinientos millones de pasajeros en 30 años, según la operadora. En junio de 2026, la empresa se negó a que el caminante Karl Bushby cruzara a pie el túnel de servicio para cerrar una vuelta al mundo de 28 años.", "nota": "las cifras de tráfico son de la operadora"}
+  ],
+  "historia": [
+    {
+      "titulo": "Cien años de túneles interrumpidos",
+      "paragrafos": [
+        "La primera excavación seria comenzó en 1880. Una máquina movida por aire comprimido, diseñada por el capitán Thomas English y atribuida al coronel Frederick Beaumont, cortó la creta desde Abbot's Cliff y Shakespeare Cliff, cerca de Dover, en Inglaterra. En 1882, la galería de Shakespeare Cliff tenía casi dos kilómetros, y los franceses cavaban la suya desde Sangatte, cerca de Calais. La obra se detuvo por un miedo que no tenía nada de geológico: en la prensa y en el Parlamento británicos, el túnel se convirtió en la puerta de entrada de un ejército enemigo.",
+        "El intento siguiente llegó casi un siglo después. Edward Heath y Georges Pompidou firmaron un tratado en 1973, y las obras se reanudaron en Shakespeare Cliff en 1974. El 20 de enero de 1975, el ministro Anthony Crosland anunció en la Cámara de los Comunes que el gobierno de Harold Wilson desistía. La conexión ferroviaria del lado inglés se había vuelto demasiado cara, y abandonar le costaría al contribuyente unos £ 20 millones. Cuánto se excavó aquella vez, las fuentes no concuerdan: algunas hablan de 250 metros de túnel de prueba, otras de una milla."
+      ]
+    },
+    {
+      "titulo": "Sin un centavo público",
+      "paragrafos": [
+        "Cuando el tema volvió, en los años 1980, Margaret Thatcher impuso una condición. El Tratado de Canterbury, firmado con François Mitterrand el 12 de febrero de 1986, dice en el artículo 1 que el túnel se financiará sin recurrir a fondos ni garantías públicas. Según Michael Grant, que se ocupaba de las finanzas de Eurotunnel, era la única base sobre la que Thatcher aceptaría el proyecto.",
+        "Cuatro propuestas llegaron a la final: un puente colgante, una combinación de puente y túnel, cuatro túneles con carretera y vía férrea, y la de Eurotunnel, con tres túneles solo ferroviarios, en la que autos y camiones viajan dentro del tren. Presupuestada en £ 2,6 mil millones, poco por encima de los cuatro túneles de la propuesta rival y muy por debajo de los dos puentes, fue la elegida, en enero de 1986. Dos de los túneles llevan los trenes, uno en cada sentido. El tercero, más pequeño, pasa entre ellos: es el túnel de servicio, por donde circulan el mantenimiento y el auxilio, y donde se refugia quien tenga que salir de un tren detenido."
+      ]
+    },
+    {
+      "titulo": "Una franja de creta bajo el mar",
+      "paragrafos": [
+        "El trazado no se eligió en el mapa, se eligió en la roca. Sondeos hechos desde el siglo XIX, más de cien perforaciones en el fondo del mar y unos mil kilómetros de líneas sísmicas mostraron una capa de creta margosa: una roca calcárea con arcilla, débil, homogénea y prácticamente impermeable. Por encima está la creta dura y fracturada; por debajo, arcilla. Los túneles pasan a unos 40 metros bajo el fondo del mar, siguiendo esa capa.",
+        "Del lado inglés la capa se comporta bien. Del lado francés, en los primeros kilómetros bajo el mar, la creta está agrietada y empapada. Por eso las dos orillas usaron máquinas diferentes. Las seis tuneladoras británicas eran abiertas. Las cinco francesas eran cerradas, con la cámara de corte sellada para soportar 11 bar de presión de agua, y la creta excavada pasaba por una esclusa antes de llegar a los vagones. En Sangatte, lejos de la playa, los franceses abrieron un pozo impermeable de unos 50 metros de ancho y más de 60 de profundidad, del que partieron todas sus máquinas.",
+        "Dos tercios del túnel se excavaron desde Inglaterra y un tercio desde Francia. Los tres túneles, sumados, dan unos 150 kilómetros, excavados 24 horas al día, y la tolerancia de alineación exigida a los constructores era de 15 centímetros."
+      ]
+    },
+    {
+      "titulo": "El encuentro del 1 de diciembre de 1990",
+      "paragrafos": [
+        "El túnel de servicio fue adelante, como sonda de los otros dos. Los topógrafos tenían un problema invisible: los mapas británicos y franceses usaban sistemas de proyección diferentes, y ni siquiera el nivel del mar coincidía en las dos costas. Después del encuentro, la diferencia medida entre los niveles del mar de las dos costas fue de unos 36 centímetros.",
+        "Las dos máquinas se detuvieron a 100 metros una de otra. Se midió el desvío: 358 milímetros de lado y 58 de altura, según la ficha técnica de los constructores franceses, o 361 y 58, según una medición alemana publicada en 1991. La máquina inglesa avanzó otros 50 metros por una línea corregida, se desvió en una curva cerrada y quedó enterrada allí mismo; la francesa se desmontó, y el último tramo se cavó con herramientas de mano.",
+        "El 1 de diciembre de 1990, a las 12:12, a 22,3 kilómetros de Inglaterra y 15,6 de Francia, el británico Graham Fagg y el francés Philippe Cozette se dieron la mano a través de la abertura. Los túneles ferroviarios se encontraron el 22 de mayo y el 28 de junio de 1991. Para que las máquinas no chocaran de frente, cada tuneladora inglesa se desvió hacia abajo del piso y quedó sepultada en concreto, y la francesa pasó por encima."
+      ]
+    },
+    {
+      "titulo": "Cuántos trabajaron y cuántos murieron",
+      "paragrafos": [
+        "La operadora habla de más de 13 mil trabajadores en el auge, reclutados sobre todo en las regiones de ambos lados del Canal; otras fuentes hablan de 15 mil. Solo la obra francesa llegó a 5.234 personas, entre empleados y subcontratistas, en agosto de 1990.",
+        "El número de muertos también tiene dos versiones. La más repetida es de diez, ocho de ellos británicos, la mayoría en los primeros meses de excavación. La placa que la operadora y la constructora colocaron en Samphire Hoe, a orillas del mar en Dover, lleva once nombres, con fechas de 1986 a 1992. Dos de ellos son franceses: Guy Joly, de 29 años, muerto en agosto de 1989 en el kilómetro 4,1 del túnel de servicio bajo el mar, y René Saint-Georges, de 56, atropellado por un vehículo en el patio de la fábrica de dovelas en mayo de 1990. En octubre de 1990, el gerente de seguridad de la constructora afirmó que el lado francés tenía al menos cinco muertos, tres de ellos no divulgados, porque Francia registraba los accidentes de otra manera.",
+        "Samphire Hoe es, en sí misma, un pedazo de la obra: un terreno de unas 30 hectáreas hecho con 4,9 millones de metros cúbicos de la creta excavada del lado inglés, al pie de los acantilados. Del lado francés, el lodo de creta se bombeó a un valle detrás de un dique."
+      ]
+    },
+    {
+      "titulo": "La cuenta que se disparó",
+      "paragrafos": [
+        "A precios de 1985, el túnel presupuestado en £ 2,6 mil millones costó £ 4,65 mil millones, cerca de un 80% más, según la evaluación del economista Richard Anguera. En libras de 1994, eso da cerca de £ 9,5 mil millones. Según el índice de precios al por menor británico, los £ 4,65 mil millones de 1985 equivalen a algo así como £ 20 mil millones de 2025.",
+        "Según la propia empresa, las tuneladoras avanzaron más despacio de lo previsto al principio, la logística se subestimó y los trenes costaron mucho más de lo que se pensaba. En 1992, la constructora reclamó unos £ 1,5 mil millones adicionales, y Eurotunnel tuvo que pagar £ 50 millones por mes mientras el arbitraje no decidía. Hubo cinco emisiones de acciones y un préstamo repartido entre más de 200 bancos. En septiembre de 1995, poco más de un año después de la inauguración, la empresa suspendió el pago de intereses. Vinieron reestructuraciones en 1997 y en 2006–2007, esta bajo protección de la justicia en París, con la deuda recortada de unos € 9 mil millones a unos € 4 mil millones. Para Anguera, a la economía británica le habría ido mejor si el túnel nunca se hubiera construido."
+      ]
+    },
+    {
+      "titulo": "Fuego, frontera y un hombre a pie",
+      "paragrafos": [
+        "La reina Isabel II y el presidente Mitterrand inauguraron el túnel el 6 de mayo de 1994. Dos años después, el 18 de noviembre de 1996, un tren de camiones se incendió camino a Inglaterra, con 34 personas a bordo; nadie murió. El 11 de septiembre de 2008, otro incendio duró unas 16 horas y obligó a cambiar 650 metros de revestimiento. En el verano de 2015, migrantes intentaban entrar en la terminal de Coquelles por centenares y, en una noche de julio, entre 1.500 y 2.000 veces; cerca de diez murieron cerca de la terminal en pocas semanas. Desde el Brexit, la carga volvió a pasar por aduana.",
+        "El 30 de diciembre de 2025, una falla en la alimentación eléctrica y un tren detenido cerraron el túnel en vísperas de Año Nuevo, y Eurostar canceló los trenes desde y hacia Londres de ese día. En junio de 2026, la operadora rechazó el pedido del británico Karl Bushby, que caminaba desde 1998 a partir de Chile, de cruzar el Canal a pie por el túnel de servicio: cerrarlo durante 15 horas, dijo la empresa, pondría en riesgo los trenes de pasajeros y el mantenimiento. El túnel del apretón de manos de 1990 sigue siendo, todos los días, la salida de emergencia de los otros dos."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "El túnel fue una obra pública de los gobiernos británico y francés.",
+      "registro": "El tratado de 1986 prohíbe dinero y garantías públicas. La obra la pagaron accionistas y un préstamo de más de 200 bancos, y la empresa pasó más de una década renegociando la deuda, de 1995 a 2007."
+    },
+    {
+      "circula": "Los dos lados se encontraron con un error de pocos centímetros.",
+      "registro": "El desvío medido en el túnel de servicio fue de unos 36 centímetros de lado y 58 milímetros de altura, después de 22,3 km de un lado y 15,6 km del otro. Es una precisión notable, pero no de pocos centímetros, y los “58 centímetros” que a veces aparecen para la altura son un error de unidad."
+    },
+    {
+      "circula": "Murieron diez obreros en la construcción.",
+      "registro": "Diez es la cifra más citada, con ocho británicos. La placa en memoria de los trabajadores, en Dover, tiene once nombres, y el gerente de seguridad de la constructora dijo en 1990 que había muertes del lado francés que no se habían divulgado."
+    },
+    {
+      "circula": "Costó £ 4,65 mil millones. O £ 9,5. O más de 10.",
+      "registro": "Las tres cifras circulan y miden cosas distintas: el costo a precios de 1985, el mismo costo en libras de 1994 y la cuenta con el financiamiento. A precios constantes, el sobrecosto sobre el presupuesto de 1985 fue de cerca del 80%."
+    },
+    {
+      "circula": "Los ingleses nunca quisieron el túnel.",
+      "registro": "Cavaron en 1880 y en 1974. La primera vez se detuvieron por miedo a una invasión militar; la segunda, por el costo."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuándo se construyó el Eurotúnel?", "r": "Entre 1987 y 1994. La excavación comenzó en diciembre de 1987 del lado inglés y el 28/02/1988 del lado francés; el túnel de servicio se encontró el 01/12/1990, y la inauguración fue el 06/05/1994."},
+    {"p": "¿Cuánto mide el Eurotúnel y a qué profundidad está?", "r": "Cada uno de los tres túneles tiene 50 km, unos 38 de ellos bajo el mar. Pasan a unos 40 m bajo el fondo del mar, siguiendo una capa de creta margosa entre la creta dura de arriba y la arcilla de abajo."},
+    {"p": "¿Cómo se construyó el Eurotúnel bajo el mar?", "r": "Once tuneladoras, seis desde Inglaterra y cinco desde Francia, cavaron dos túneles ferroviarios y un túnel de servicio entre ellos, siguiendo una capa de creta margosa blanda e impermeable. Cuando los dos lados del túnel de servicio se encontraron, el desvío fue de unos 36 cm de lado y 58 mm de altura."},
+    {"p": "¿Cuántas personas murieron en la construcción del Eurotúnel?", "r": "Las versiones difieren: la cifra más citada es de 10 muertos, 8 de ellos británicos, pero la placa en memoria de los trabajadores en Dover lleva 11 nombres. En 1990, el gerente de seguridad de la constructora dijo que había al menos cinco muertes del lado francés, tres no divulgadas."},
+    {"p": "¿Cuánto costó el Eurotúnel?", "r": "Presupuestado en £ 2,6 mil millones en 1985, terminó en £ 4,65 mil millones a los mismos precios de 1985, un sobrecosto de cerca del 80%. En libras de 1994, unos £ 9,5 mil millones, pagados solo con dinero privado, porque el tratado prohibía los fondos públicos."}
+  ],
+  "fontes": [
+    {"texto": "Pierre-Jean Pompée, “Channel Tunnel — 3 tunnels”, Amicale des Bâtisseurs du Tunnel sous la Manche, 1995"},
+    {"texto": "N. Korittke, “Vorgehensweise und Genauigkeit beim Durchschlag des Eurotunnels”, Glückauf 127, 1991 (resumen)"},
+    {"texto": "Michael Grant, “Financing Eurotunnel”, Japan Railway & Transport Review 11, abril de 1997"},
+    {"texto": "Getlink, “The Group's history”"},
+    {"texto": "Getlink, “1994–2024 The Channel Tunnel — 30 years of unique history”, 06/05/2024"},
+    {"texto": "Getlink Press, “First historic breakthrough under the Channel”"},
+    {"texto": "Amicale des Bâtisseurs du Tunnel sous la Manche, “The tunnel builders remember”"},
+    {"texto": "Richard Anguera, “The Channel Tunnel — an ex post economic evaluation”, Transportation Research Part A 40(4), 2006"},
+    {"texto": "Global Infrastructure Hub, “The Channel Tunnel (United Kingdom – France)”, estudio de caso"},
+    {"texto": "Institution of Civil Engineers, “How was the Channel Tunnel built?”"},
+    {"texto": "Cámara de los Comunes del Reino Unido, declaración de Anthony Crosland sobre el túnel, 20/01/1975 (Hansard)"},
+    {"texto": "Cámara de los Lores del Reino Unido, “Channel Tunnel Workforce: Health and Safety”, 20/06/1990 (Hansard)"},
+    {"texto": "Cámara de los Lores del Reino Unido, “Channel Tunnel: Fire”, 19/11/1996 (Hansard)"},
+    {"texto": "Construction News, “Five deaths on French side of Channel Tunnel, says Transmanche Link's safety manager”, 04/10/1990"},
+    {"texto": "Subterranea Britannica, “Channel Tunnel 1880 attempt”"},
+    {"texto": "Office for National Statistics, “Retail Prices Index: long run series” (CDKO)"},
+    {"texto": "CNBC, “Eurostar hit by power outage during height of New Year travel season”, 30/12/2025"},
+    {"texto": "RTÉ, “Some Channel Tunnel services resume after power failure”, 30/12/2025"},
+    {"texto": "ExplorersWeb, “Karl Bushby refused entry into Channel Tunnel”, 19/06/2026"},
+    {"texto": "Euro Weekly News, “Karl Bushby's 28-year walk home to Hull hits Channel Tunnel block”, 07/08/2026"},
+    {"texto": "Railway Gazette International, “Virgin Trains' Channel Tunnel plans are 'moving at pace' as access to High Speed 1 is approved”, 17/08/2026"},
+    {"texto": "Wikipedia, “Channel Tunnel” y “Construction du tunnel sous la Manche” (punto de partida)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Tuneladora blanca y cilíndrica expuesta en el jardín de una rotonda, con la cabeza de corte roja en forma de rueda a la izquierda y la inscripción en francés Hommage aux bâtisseurs du tunnel en el cuerpo",
+      "legenda": "La tuneladora T4 “Virginie”, que excavó el túnel de servicio francés bajo tierra, expuesta en Coquelles en 2013: 320 toneladas y 5,59 m de diámetro, según su placa.",
+      "autor": "Lionel Allorge"
+    },
+    {
+      "alt": "Cabeza de corte circular de una tuneladora, con brazos radiales llenos de dientes, expuesta al aire libre junto a un pabellón con el logotipo de Eurotunnel",
+      "legenda": "Cabeza de corte de una tuneladora en el centro de exposiciones de Eurotunnel en Folkestone, en septiembre de 1992, con la obra todavía en marcha.",
+      "autor": "Ben Brooksbank"
+    },
+    {
+      "alt": "Obra amplia con rieles, pilas de durmientes, vagones y locomotoras de obra, viaductos de concreto en construcción y grúas frente a un cerro verde",
+      "legenda": "La obra del lado inglés, en Kent, en mayo de 1991, con trenes de obra y viaductos todavía en construcción.",
+      "autor": "Terry Foulger (publicado por The Basingstoker)"
+    },
+    {
+      "alt": "Vista desde lo alto de un acantilado blanco sobre el mar gris: abajo, una plataforma de tierra rodeada por un dique avanza sobre el agua, con galpones azules y grúas",
+      "legenda": "Abril de 1991: el terreno de Samphire Hoe formándose con la creta excavada del túnel, al pie de los acantilados de Dover.",
+      "autor": "Anthony Parkes"
+    },
+    {
+      "alt": "Tren plateado que arrastra vagones de camiones sale de un portal de concreto blanco abierto en una ladera, bajo cables de catenaria, con una carretera curva a la derecha",
+      "legenda": "Un tren de camiones sale del túnel por el portal francés, en Coquelles, en agosto de 2014.",
+      "autor": "Florian Fèvre"
+    },
+    {
+      "alt": "Placa metálica sobre un bloque de concreto junto al mar, con el texto en inglés y francés en memoria de quienes murieron en la construcción del túnel y una lista de once nombres",
+      "legenda": "El memorial a los trabajadores muertos en la construcción, en Samphire Hoe, Dover: once nombres, entre 1986 y 1992.",
+      "autor": "Nilfanion"
+    }
+  ]
+}

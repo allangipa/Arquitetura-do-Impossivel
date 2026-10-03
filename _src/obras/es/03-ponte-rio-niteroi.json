@@ -1,0 +1,134 @@
+{
+  "_nota": "Traducción fiel de ../03-ponte-rio-niteroi.json. Campos fijos vienen del original.",
+  "obra": "Puente Río–Niterói",
+  "titulo_seo": "Cómo se construyó el Puente Río-Niterói (1969–1974)",
+  "titulo_video": "Puente Río–Niterói: 13 km sobre la bahía, y una cuenta de muertos que nunca cerró",
+  "lugar": "Bahía de Guanabara, entre Río de Janeiro y Niterói, Brasil",
+  "periodo": "1969–1974",
+  "impossivel": "Cruzar la bahía con más de 13 km de puente, casi 9 de ellos sobre el agua, con la roca firme a 50 metros bajo el mar, un vano lo bastante alto para los petroleros y lo bastante bajo para los aviones, con un plazo político en pleno auge de la dictadura.",
+  "resumo": "Cómo se construyó el Puente Río-Niterói: más de 13 km sobre la Guanabara, un vano de acero entre barcos y aviones y una cuenta de muertos que nunca cerró.",
+  "abertura": [
+    "El 24 de marzo de 1970, según O Globo, una plataforma de prueba cargada con más de 2.000 toneladas de agua se desplomó en la bahía de Guanabara, en Río de Janeiro, Brasil. El Puente Río–Niterói todavía no existía. La prueba servía para demostrar que iba a quedar en pie, y mató a ocho hombres.",
+    "La obra que salió de allí tiene más de 13 kilómetros, un vano de acero de 300 metros a 72 metros de altura y cimientos apoyados en una roca a 50 metros bajo el mar. Fue medida, calculada y contada en cada pilote tubular y cada dovela. Solo una cuenta nunca cerró: cuántos hombres murieron para levantarla."
+  ],
+  "numeros": [
+    {"valor": "300 m", "rotulo": "vano central, en viga continua de acero"},
+    {"valor": "72 m", "rotulo": "altura en el punto más alto, el techo impuesto por los aviones"},
+    {"valor": "50–60 m", "rotulo": "profundidad de la roca bajo el nivel del mar"},
+    {"valor": "1.138", "rotulo": "pilotes tubulares de cimentación en el mar"},
+    {"valor": "560 mil m³", "rotulo": "de concreto estructural"},
+    {"valor": "≈ 10 mil", "rotulo": "obreros, además de 200 ingenieros"}
+  ],
+  "ficha": [
+    {"item": "Nombre oficial", "valor": "Puente Presidente Costa e Silva, por la Ley 5.595, del 28/07/1970, siete meses después de la muerte del presidente"},
+    {"item": "Quién lo quiso", "valor": "El régimen militar: Costa e Silva envió el proyecto al Congreso en agosto de 1968; el ministro de Transportes, Mário Andreazza, condujo la obra. La Ley 5.512, del 17/10/1968, autorizó la construcción"},
+    {"item": "Por qué", "valor": "Antes del puente, el cruce en auto era en la barcaza, de hasta 2 horas"},
+    {"item": "Proyecto", "valor": "Concreto: despacho Noronha (Antonio Alves Noronha Filho y Benjamin Ernani Diaz). Vano de acero: Howard, Needles, Tammen & Bergendoff (HNTB), de Kansas City, EE. UU."},
+    {"item": "Constructoras", "valor": "Consórcio Construtor Rio-Niterói (contrato del 04/12/1968), expropiado por el Decreto 68.110, del 26/01/1971; después, Consórcio Construtor Guanabara (Camargo Corrêa, Mendes Júnior, Rabello). Acero: Redpath Dorman Long y Cleveland Bridge, de Inglaterra, con Montreal Engenharia"},
+    {"item": "Obreros", "valor": "Cerca de 10 mil, y 200 ingenieros. Nadie registró cuántos trabajaban al mismo tiempo en el pico", "nota": "el número del pico no tiene fuente"},
+    {"item": "Jornada", "valor": "11 horas en tierra (8 normales y 3 obligatorias) y turnos de 24 por 24 horas en las embarcaciones, según O Globo (2014)"},
+    {"item": "Plazo", "valor": "Prometido para marzo de 1971; inaugurado el 04/03/1974, unos tres años después", "nota": "la duración de la obra aparece como 4 años y medio, 5 o 6 años, según la fuente"},
+    {"item": "Costo autorizado", "valor": "NCr$ 255.368.800, a precios de julio de 1968 (Ley 5.512)", "nota": "texto de la ley"},
+    {"item": "Préstamo inglés", "valor": "£ 31 millones (O Globo, BBC) o £ 32,2 millones (Campos, 2025), de bancos ingleses encabezados por N. M. Rothschild & Sons"},
+    {"item": "Costo final", "valor": "Cerca de Cr$ 800 millones (O Globo, 2014), US$ 400 millones (Arquivo Nacional) o US$ 674 millones (BBC). Todas las cuentas quedan varias veces por encima de lo contratado", "nota": "no hay conversión a valores de hoy con método declarado"},
+    {"item": "Muertes", "valor": "33 es el número oficial atribuido al gobierno, sin documento publicado. O Globo contó 18 en los periódicos hasta noviembre de 1972; el ingeniero Bruno Contarini dice “30 como máximo”; el ingeniero Carlos Henrique Siqueira, cerca de 40; el Arquivo Nacional, “al menos 40” (citas en traducción nuestra); estimaciones no oficiales llegan a 400"},
+    {"item": "Accidente de 1970", "valor": "La prueba de carga se desplomó el 24/03/1970 (O Globo; otras fuentes dan el día 25). 8 muertos, según O Globo y Contarini; 12, según el reportero Romildo Guerrante, de memoria"},
+    {"item": "Longitud", "valor": "13,29 km (concesionaria) o 13,2 km (Ibracon); sobre el agua, entre 8,6 y 8,9 km"},
+    {"item": "Estructura", "valor": "Vano central de 300 m entre dos de 200 m, en vigas cajón de acero; gálibo de navegación de 60 m; 72 m en el punto más alto; acero del vano: 13.100 t (Upstone, 1974) o 14.000 t (CBCA)", "nota": "el peso del acero diverge"},
+    {"item": "Después", "valor": "Administrado por el DNER hasta 1995, luego concesionado; concesionaria Ecovias Ponte (nombre en 2026), con contrato hasta 2045/2046. Peaje de R$ 6,60 a partir del 18/03/2026"}
+  ],
+  "historia": [
+    {
+      "titulo": "Cien años de bahía sin puente, y el puente del régimen",
+      "paragrafos": [
+        "Hasta 1974, quien quisiera ir en auto de Río de Janeiro a Niterói tenía dos opciones. Esperar la barcaza, que llevaba poco más de 50 autos y podía tardar hasta dos horas en el cruce, o rodear la bahía de Guanabara por unos 100 kilómetros de carretera. La idea de unir las orillas es antigua. En 1875, el ingeniero inglés Hamilton Lindsay-Bucknall le presentó a D. Pedro II un túnel ferroviario bajo la bahía, de unos 6 metros de diámetro. No prosperó, por falta de dinero. En 1935 se dibujó un proyecto de puente colgante que hoy está en el Arquivo Nacional. Vinieron otros, de puente y de túnel, un grupo de trabajo en 1963 y una comisión ejecutiva en 1965. La bahía siguió sin nada.",
+        "Quien sacó el puente del papel fue el régimen militar. El 23 de agosto de 1968, el proyecto de ley del presidente Costa e Silva se leyó en el Congreso. El 17 de octubre, la Ley 5.512 autorizó la obra con NCr$ 255.368.800, a precios de julio de ese año. El 13 de diciembre, el AI-5 cerró el mismo Congreso que la había aprobado.",
+        "Entre una fecha y otra, el 9 de noviembre de 1968, la reina Isabel II del Reino Unido, en su única visita a Brasil, descubrió la placa del inicio de las obras. El dinero inglés era parte del arreglo: un préstamo de más de 30 millones de libras, de bancos encabezados por N. M. Rothschild & Sons, con la condición de que firmas inglesas hicieran el vano central.",
+        "Costa e Silva murió en diciembre de 1969. La Ley 5.595, de julio de 1970, le dio a la obra el nombre oficial de Puente Presidente Costa e Silva. Casi nadie lo llama así."
+      ]
+    },
+    {
+      "titulo": "Entre el barco y el avión",
+      "paragrafos": [
+        "El primer problema estaba en el aire. Los petroleros que iban a la terminal de Petrobras, en el fondo de la bahía, necesitaban 60 metros libres para pasar: era la exigencia de la Marina. Pero el puente cruza la ruta de aproximación del Galeão y del Santos Dumont, los dos aeropuertos de Río, y la Fuerza Aérea no admitía nada por encima de 72 metros.",
+        "Entre el casco y el ala quedaron 12 metros para que cupieran la calzada y la estructura que la sostiene. El vano central quedó, en el punto más alto, a 72 metros. Para salvar el ancho del canal de navegación, HNTB proyectó una viga continua de acero con 300 metros de vano entre dos vanos de 200. El propio proyectista, H. J. Graham, escribió en 1976 que el vano superaba en 39 metros al mayor rival de la época."
+      ]
+    },
+    {
+      "titulo": "La roca allá abajo, y la prueba que cayó",
+      "paragrafos": [
+        "El segundo problema estaba en el fondo. En los pilares principales, el agua tiene de 21 a 22 metros de profundidad; debajo hay lodo y arena, y la roca firme solo aparece a 50 o 60 metros bajo el nivel del mar. La respuesta fueron 1.138 pilotes tubulares: 477 hincados y perforados en la roca con el método Bade-Wirth, 199 mixtos con pilotes de acero y 462 excavados por dentro, por hombres, con el tubo lleno de aire comprimido para mantener el agua afuera.",
+        "Antes de confiar en los pilotes, había que demostrar que aguantaban. La prueba de carga era una exigencia contractual del Ministerio de Transportes. Según el relato de O Globo, una plataforma con 34 pilotes tubulares de 22 metros, llenos de agua, sumaba más de 2.000 toneladas cuando, faltando llenar el último, se oyó un estruendo y la plataforma se desplomó. Se hundieron una barcaza y una grúa.",
+        "O Globo sitúa el accidente en la tarde del 24 de marzo de 1970; el reportero Romildo Guerrante, que cubrió la obra, habla del 25. O Globo, el Arquivo Nacional, la revista del Ibracon y el ingeniero Bruno Contarini, que trabajó en la obra, cuentan 8 muertos, tres ingenieros y cinco obreros. Guerrante, de memoria, habla de 12. El accidente salió en las portadas de los periódicos al día siguiente. La obra se detuvo hasta febrero de 1971."
+      ]
+    },
+    {
+      "titulo": "El gobierno toma la obra",
+      "paragrafos": [
+        "El primer consorcio se había contratado en diciembre de 1968. En enero de 1971, el gobierno admitió que solo el 20% del puente estaba hecho; según la revista del Ibracon, el consorcio ya había consumido el 70% del precio. El 26 de enero de 1971, el Decreto 68.110 declaró de utilidad pública los bienes del propio Consórcio Construtor Rio-Niterói, para su expropiación urgente.",
+        "La obra pasó a una empresa pública creada para ello, la ECEX, dirigida por el coronel João Carlos Guedes, y a un nuevo grupo, el Consórcio Construtor Guanabara. El MDB intentó abrir una comisión parlamentaria de investigación en 1971 y la mayoría de la Arena la bloqueó. Para entregar el puente antes del fin del gobierno de Médici, según el Ibracon, Andreazza y Guedes se fueron a vivir a la obra de la Ilha do Fundão, en Río de Janeiro.",
+        "En el Fundão funcionaba la fábrica del tramo de concreto. El tablero sobre el mar se hizo con dovelas prefabricadas, segmentos de unas 100 toneladas pegados con epoxi y pretensados con cables de acero. Fueron 3.250 dovelas. Según el Ibracon, cuatro cerchas de montaje avanzaban 13 metros por día, contra 3,2 metros si el concreto se hubiera colado en el lugar."
+      ]
+    },
+    {
+      "titulo": "Los hombres bajo presión",
+      "paragrafos": [
+        "En el puente trabajaron cerca de 10 mil obreros y 200 ingenieros. El historiador Pedro Campos, de la UFRRJ, describe a la mayoría como hombres jóvenes, negros y mulatos, muchos migrantes del Nordeste; los menos calificados ganaban de uno a dos salarios mínimos. Todos trabajaban bajo un régimen de disciplina y vigilancia particularmente intenso. Según O Globo, eran 11 horas por día en tierra y turnos de 24 por 24 horas en las embarcaciones, con una guardia de 400 hombres y prohibición de hablar con extraños. Fotos de la época muestran obreros en sandalias y bermudas, sin casco.",
+        "Los 462 pilotes de aire comprimido cobraron otro precio. Quien baja a una cámara presurizada y sube demasiado rápido forma burbujas de nitrógeno en la sangre: dolor en las articulaciones, parálisis y, años después, necrosis de los huesos del hombro y de la cadera. Es la antigua enfermedad de los cajones. En que afectó en masa a los obreros del puente, las fuentes coinciden. En cuántos, no: los números publicados van de 1.226 casos a cerca de 2.000 y llegan a 45 mil, y ninguno es verificable hoy."
+      ]
+    },
+    {
+      "titulo": "El vano que vino de Inglaterra",
+      "paragrafos": [
+        "La pieza del medio se fabricó en Inglaterra y cruzó el Atlántico en barco hasta la obra de la Ilha do Caju, en Río de Janeiro. Allí, el tramo central de 176 metros, con más de 3.000 toneladas, se montó en tierra, se llevó flotando hasta el vano y se izó unos 67 metros con gatos hidráulicos. Según el proyectista, los vanos laterales subieron en tres días y medio del lado de Niterói y en tres del lado de Río. La única fecha que se tiene para el cierre es un pie de foto de O Globo: 1973.",
+        "El 4 de enero de 1974, dos meses antes de la inauguración, un cable de acero se rompió en el pilar 21 y una pasarela cayó desde 32 metros con ocho hombres; seis murieron, según O Globo. El 4 de marzo de 1974, el presidente Médici cruzó el puente con Andreazza y lo inauguró. Hubo una misa por los muertos de la obra. Según el Arquivo Nacional, sus familias no fueron invitadas.",
+        "El número que quedó es 33, atribuido al gobierno y repetido desde entonces, sin que se haya publicado ningún documento oficial con ese conteo. El único conteo con método, el relevamiento de O Globo en los periódicos, llegó a 18 muertos en ocho accidentes hasta noviembre de 1972, y se detiene allí: según un estudio de la UFF, a partir de 1971 las noticias de accidentes desaparecen de las páginas. Los testimonios van de “30 como máximo” a “cerca de 40” (traducción nuestra); las estimaciones sin documento, a 400."
+      ]
+    },
+    {
+      "titulo": "Cada chapa medida",
+      "paragrafos": [
+        "Medio siglo después, el puente se inspecciona pieza por pieza. Un informe entregado a la ANTT en marzo de 2024 midió las camisas de acero de los pilotes de una de las líneas de pilares: en una de las chapas, la corrosión ya había consumido el 90,35% del espesor. El mismo informe recuerda que la camisa se hizo como encofrado, no como estructura, y que todavía queda mucha sección por consumir, pero advierte que de ahí en adelante el avance será mucho más rápido. El responsable técnico es Carlos Henrique Siqueira, el mismo ingeniero que trabajó en la obra en los años 1970.",
+        "En 2023, la concesionaria empezó a reforzar las dovelas con nuevos cables de pretensado en 70 líneas de pilares, cerca de 700 de las 3.250, porque parte de los cables originales perdió tensión con el tiempo; en junio de 2025, la obra seguía en curso. En junio de 2026, el video de un kayakista que mostraba corrosión en el pilar 84 circuló en las redes; Ecovias Ponte respondió que se trata de un pilar desactivado, sin función estructural, y monitoreado. La explicación técnica es solo de ella."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "Hubo obreros sepultados en el concreto de los pilares.", "registro": "Es un relato, repetido por un profesor jubilado de la UFRJ y por el reportero Romildo Guerrante. No hay nombre, caso ni documento que lo sostenga."},
+    {"circula": "Murieron 400 hombres en la obra.", "registro": "Es una estimación no oficial, sin documento. El número oficial, 33, tampoco tiene documento publicado. Los conteos conocidos van de 18, en los periódicos hasta 1972, a “al menos 40” (traducción nuestra), según el Arquivo Nacional."},
+    {"circula": "La reina Isabel II inauguró el puente.", "registro": "Descubrió la placa del inicio de las obras, el 9 de noviembre de 1968. Quien inauguró el puente fue Médici, el 4 de marzo de 1974."},
+    {"circula": "El puente es obra de los ingleses.", "registro": "Inglés es el vano central de acero, y el préstamo. El proyecto del resto es del despacho brasileño Noronha, y la construcción es brasileña."},
+    {"circula": "Son 13 km de puente sobre el mar.", "registro": "Son cerca de 13,3 km en total, de los cuales unos 8,8 km sobre el agua."}
+  ],
+  "perguntas": [
+    {"p": "¿Cuándo se construyó el Puente Río-Niterói?", "r": "La reina Isabel II descubrió la placa del inicio de las obras el 9 de noviembre de 1968, y el presidente Médici inauguró el puente el 4 de marzo de 1974. Se había prometido para marzo de 1971, unos tres años antes."},
+    {"p": "¿Cuántas personas murieron en la construcción del Puente Río-Niterói?", "r": "La cuenta nunca cerró. El número oficial, 33, se atribuye al gobierno sin documento publicado; O Globo contó 18 en los periódicos hasta noviembre de 1972, el Arquivo Nacional habla de “al menos 40” (traducción nuestra) y estimaciones sin documento llegan a 400."},
+    {"p": "¿Hay obreros enterrados en los pilares del Puente Río-Niterói?", "r": "Es un relato, repetido por un profesor jubilado de la UFRJ y por el reportero Romildo Guerrante. No hay nombre, caso ni documento que lo sostenga."},
+    {"p": "¿Cuánto mide el Puente Río-Niterói?", "r": "Las fuentes divergen: 13,29 km según la concesionaria o 13,2 km según el Ibracon, de los cuales entre 8,6 y 8,9 km sobre el agua. El vano central de acero mide 300 m y llega a 72 m de altura."},
+    {"p": "¿Cuánto costó el Puente Río-Niterói?", "r": "La ley autorizó NCr$ 255.368.800, a precios de julio de 1968. El costo final diverge entre las fuentes: cerca de Cr$ 800 millones, US$ 400 millones o US$ 674 millones, todas cuentas varias veces superiores a lo contratado."}
+  ],
+  "fontes": [
+    {"texto": "Ley n.º 5.512, del 17/10/1968, autoriza la construcción del Puente Río-Niterói"},
+    {"texto": "Ley n.º 5.595, del 28/07/1970, da al puente el nombre de “Presidente Costa e Silva”"},
+    {"texto": "Decreto n.º 68.110, del 26/01/1971, expropiación del Consórcio Construtor Rio-Niterói"},
+    {"texto": "Pedro Henrique Pedreira Campos, “A ponte da ditadura”, Tempo v.31 n.2, 2025"},
+    {"texto": "Pedro Henrique Pedreira Campos, entrada LMT#99, Laboratório de Estudos de História dos Mundos do Trabalho, 2021"},
+    {"texto": "Fábio Luís Pedroso, “Soluções pioneiras no projeto e execução da Ponte Rio-Niterói”, Concreto & Construções n.113, Ibracon, 2024"},
+    {"texto": "H. J. Graham (HNTB), “Design of the Rio-Niteroi Bridge”, Transportation Research Record 607, 1976"},
+    {"texto": "T. J. Upstone, artículo sobre el montaje del vano de acero, Building With Steel, 1974, reproducido por New Steel Construction"},
+    {"texto": "T. J. Upstone y D. Reily, “Construction of the navigation spans of the Rio Niteroi bridge”, Proc. Institution of Civil Engineers v.66, 1979"},
+    {"texto": "O Globo, “Travessia: Ponte Rio-Niterói, 40 anos”, especial, 2014"},
+    {"texto": "Arquivo Nacional, “Ponte Rio-Niterói: obra de sangue, silêncio e concreto”, serie Que República é essa?, 2025"},
+    {"texto": "Ana Beatriz Camarinha y Matheus Sinder (UFF), “Nas águas da Guanabara, a Ponte Rio-Niterói: o AI-5 como política econômica”, Seminário de Diamantina, 2024"},
+    {"texto": "Ecoponte/ANTT, informe de monitoreo de los cimientos de aire comprimido, marzo de 2024"},
+    {"texto": "Agência Brasil, “Com fluxo diário de 150 mil veículos, Ponte Rio-Niterói faz 50 anos”, 2024 (republicado por el Clube de Engenharia)"},
+    {"texto": "Norwil Veloso, “A saga da Ponte Rio-Niterói”, Revista M&T n.259, 2021"}
+  ],
+  "imagens": [
+    {"alt": "Vista aérea del Puente Río–Niterói cruzando la bahía de Guanabara, con la Ilha de Mocanguê y barcos en primer plano", "legenda": "El puente sobre la bahía de Guanabara, visto desde el lado de Niterói, con la Ilha de Mocanguê en primer plano.", "autor": "Diego Baravelli"},
+    {"alt": "El vano central de acero del Puente Río–Niterói visto desde abajo, desde el agua, con el sol al fondo", "legenda": "El vano central de acero, de 300 metros, visto desde el agua.", "autor": "Marinelson Almeida"},
+    {"alt": "Fotografía en blanco y negro de pilares del Puente Río–Niterói en construcción en medio de la bahía, con una grúa", "legenda": "Pilares en construcción, el 10 de mayo de 1971. Agência Nacional.", "autor": "Agência Nacional (Arquivo Nacional, BR_RJANRIO_EH_0_FOT_EVE_07338_0012)"},
+    {"alt": "Un petrolero fondeado en la bahía de Guanabara, con el Puente Río–Niterói al fondo", "legenda": "Petrolero en la bahía: los barcos exigían 60 metros libres bajo el vano.", "autor": "Diego Baravelli"},
+    {"alt": "Hilera de pilares de concreto del Puente Río–Niterói sobre el agua, en perspectiva", "legenda": "Los pilares del tramo de concreto, que sostienen el tablero de dovelas.", "autor": "Gian Cornachini"}
+  ]
+}

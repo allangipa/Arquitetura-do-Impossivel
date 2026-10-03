@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "pontes",
+    "nome": "Grandes puentes",
+    "titulo": "Grandes puentes: cómo se construyeron, de Brooklyn a Duge",
+    "resumo": "Cómo se levantaron ocho puentes que parecían imposibles: Brooklyn, Golden Gate, Hercílio Luz, Río-Niterói, Forth, Eads, Duge y la caída de Tacoma.",
+    "intro": [
+      "Todo gran puente resuelve el mismo problema de una manera distinta: cruzar un vano donde no se puede apoyar nada en el medio. Los colgantes suspenden el tablero de cables. El de Brooklyn (1870–1883) asentó sus torres con hombres excavando dentro de cajones de aire comprimido; el Golden Gate (1933–1937) hiló en el propio lugar los cables del mayor vano colgante del mundo, 1.280 m; el Hercílio Luz, en Florianópolis, colgó su vano sobre el mar de cadenas de barras de acero.",
+      "Tacoma Narrows muestra el otro lado: se abrió en julio de 1940 con una viga de apenas 2,4 m de altura y cayó cuatro meses después, con un viento de 68 km/h. El Puente de Forth (1882–1890) nació poco después de que otro puente escocés se derrumbara en una tormenta, y respondió con voladizos de acero. El Eads, sobre el Misisipi, apostó por arcos de un metal que nunca había sido el material principal de una gran estructura.",
+      "En Brasil, el Río-Niterói cruzó la bahía de Guanabara con más de 13 km de puente y un vano central de acero de 300 m. En China, el Duge puso su tablero a 565 m sobre un río y fue el puente más alto del mundo de 2016 a 2025. Cada página trae la ficha de la obra, con el grado de confianza de cada cifra."
+    ]
+  },
+  {
+    "slug": "arranha-ceus",
+    "nome": "Rascacielos",
+    "titulo": "Rascacielos: cómo se construyeron, del Ingalls al Burj",
+    "resumo": "Cómo se levantaron el Edificio Ingalls, el Martinelli, el Empire State, el Burj Khalifa y el 111 West 57th: concreto, acero, viento, plazos y obreros.",
+    "intro": [
+      "Levantar un edificio es vencer el peso, el viento y el plazo. En Cincinnati, el Edificio Ingalls (1902–1904) llegó a 64 m sin ninguna viga de acero, solo con concreto y barras torcidas por dentro, cuando ingenieros respetados juraban que nunca llegaría al techo. En São Paulo, el Martinelli subió a 30 pisos en una ciudad donde casi ningún edificio pasaba de cinco, y la obra llegó a ser embargada en 1928.",
+      "El Empire State montó 86 pisos de acero y piedra en 410 días, a 4,5 pisos por semana, empezando pocos meses después del crac bursátil de 1929. En Dubái, el Burj Khalifa llegó a 828 m con una forma en Y pensada contra el viento. Y en Nueva York el 111 West 57th Street levantó 435 m sobre unos 18 m de ancho, el rascacielos más esbelto del mundo.",
+      "Cada página muestra cómo la torre quedó en pie, cuánto costó y cuántos trabajaron en ella, y dice dónde divergen las fuentes o dónde nadie lo registró."
+    ]
+  },
+  {
+    "slug": "tuneis-e-ferrovias",
+    "nome": "Túneles y ferrocarriles",
+    "titulo": "Túneles y ferrocarriles: cómo se construyeron",
+    "resumo": "Túnel del Támesis, Eurotúnel, San Gotardo, Santos-Jundiaí y Madeira-Mamoré: cómo se abrió paso bajo ríos, mares y montañas, y cuánto costó.",
+    "intro": [
+      "Abrirse paso por debajo de un río, de un mar o de una montaña, o hacer que el tren atraviese lo que parecía infranqueable. En Londres, Marc Brunel excavó el Túnel del Támesis (1825–1843) con una jaula de 36 celdas, una para cada minero, bajo un río lleno de barcos, y tardó 18 años. El Eurotúnel (1987–1994) usó 11 tuneladoras, seis desde Inglaterra y cinco desde Francia, y los dos lados del túnel de servicio se encontraron con 36 cm de desvío lateral.",
+      "En Suiza, el Túnel de base de San Gotardo atravesó los Alpes a lo largo de 57 km, con hasta 2.300 m de roca encima: es el túnel ferroviario más largo del mundo. En Brasil, el Santos-Jundiaí hizo subir el tren por la Serra do Mar con cuatro planos inclinados, cable de acero y vapor, y el Madeira-Mamoré tendió rieles por más de 360 km de selva, pantano y rápidos en la Amazonía, donde casi todos los obreros caían con malaria.",
+      "En varias de ellas, la cuenta de los muertos es la parte más difícil: en el Madeira-Mamoré va de menos de 2 mil a 6 mil o más, según la fuente. Cada página muestra las versiones y no elige."
+    ]
+  },
+  {
+    "slug": "estadios",
+    "nome": "Estadios",
+    "titulo": "Grandes estadios: Maracaná, Astrodome y Múnich",
+    "resumo": "Cómo se construyeron el Maracaná de 1950, el Astrodome con su cúpula sin columnas y el techo de cables y acrílico del Estadio Olímpico de Múnich.",
+    "intro": [
+      "Un estadio tiene que albergar a decenas de miles de personas y, casi siempre, estar listo en una fecha fijada. El Maracaná se levantó en menos de dos años para la Copa del Mundo de 1950: un anillo de concreto para más de 150 mil personas, cubierto por una marquesina en voladizo sin un solo pilar debajo, demolida en 2011.",
+      "En Houston, el Astrodome (1962–1965) cubrió un estadio de béisbol entero con una cúpula de acero de 195,7 m de luz, sin columna en el medio, y la luz de los tragaluces terminó matando el césped. En Múnich, el Estadio Olímpico (1969–1972) colgó más de 70 mil metros cuadrados de acrílico de una red de cables que nadie sabía calcular, y el techo solo quedó en pie con ayuda de una computadora.",
+      "Cada página trae la ficha de la obra, el costo y lo que pasó con el estadio después."
+    ]
+  },
+  {
+    "slug": "agua-e-eclusas",
+    "nome": "Represas, canales y esclusas",
+    "titulo": "Represas, canales y esclusas: cómo se construyeron",
+    "resumo": "Represa Hoover, Itaipú, Canal de Panamá y Rueda de Falkirk: cómo se desvió un río, se cortó una cordillera y se hizo subir un barco sin esclusas.",
+    "intro": [
+      "Mover un río, o hacer que un barco suba una montaña. La Represa Hoover (1931–1936) desvió el río Colorado por cuatro túneles abiertos dentro de la montaña y necesitó 937 km de tubos de agua helada para enfriar su propio concreto. Itaipú (1975–1984) sacó al río Paraná de su cauce para levantar, en seco, una represa de 196 m que pertenece en partes iguales a Brasil y Paraguay; el lago cubrió los saltos de Sete Quedas en 14 días.",
+      "El Canal de Panamá (1904–1914) cortó una cordillera que se derrumbaba de vuelta dentro del corte, en un istmo donde la fiebre amarilla y la malaria ya habían derrotado a los franceses, y sube los barcos 26 m hasta un lago hecho de lluvia. En Escocia, la Rueda de Falkirk sustituyó once esclusas por un elevador de barcos giratorio, que levanta los barcos 24 m gastando 1,5 kWh por media vuelta.",
+      "En la Hoover, en Itaipú y en Panamá, la cuenta de los muertos depende de quién cuente. Cada página muestra las versiones, y no elige."
+    ]
+  },
+  {
+    "slug": "brasil",
+    "nome": "Grandes obras de Brasil",
+    "titulo": "Grandes obras de Brasil: cómo se construyeron",
+    "resumo": "Diez obras brasileñas y cómo se levantaron: Cristo Redentor, Puente Río-Niterói, Itaipú, Madeira-Mamoré, Maracaná, MASP, Congreso Nacional y otras.",
+    "intro": [
+      "De lo alto del Corcovado a la selva de Rondônia, las obras brasileñas de este sitio tienen en común un problema que parecía no tener solución. El Cristo Redentor (1922–1931) es una figura de 38 m de concreto armado, con piel de esteatita, en la cumbre de una aguja de granito. El Maracaná estuvo listo en menos de dos años para la Copa de 1950, y el Congreso Nacional se inauguró con Brasilia, el 21 de abril de 1960, todavía inconcluso.",
+      "En São Paulo, el Santos-Jundiaí venció la Serra do Mar en 1867, el Martinelli subió a 30 pisos cuando casi ningún edificio de la ciudad pasaba de cinco y el MASP suspendió un museo entero 8 m por encima de la Avenida Paulista. En Florianópolis, el Puente Hercílio Luz estuvo 28 años cerrado antes de reabrir en 2019. En la Amazonía, el Madeira-Mamoré tendió rieles por más de 360 km de selva, pantano y rápidos.",
+      "Sobre el agua, el Puente Río-Niterói cruzó la bahía de Guanabara con más de 13 km de puente, e Itaipú desvió el río Paraná para levantar una represa de 196 m en la frontera con Paraguay. Cada página trae la ficha completa, con el grado de confianza de cada cifra."
+    ]
+  }
+]

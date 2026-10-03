@@ -194,15 +194,23 @@ O que existe em cada idioma decide tudo sozinho:
 
 Marca no inglês: **"Arquitetura do Impossível — Impossible Architecture"**
 (`marca_sub` em `_src/i18n/en.json`; aparece no cabeçalho, no rodapé, no
-`og:site_name` e como `alternateName` no JSON-LD). Proposta para o espanhol:
-"Arquitectura de lo Imposible". O `<title>` continua com o nome em português no fim, para caber
+`og:site_name` e como `alternateName` no JSON-LD). No espanhol (no ar desde
+03/10/2026, `_src/i18n/es.json`): **"Arquitetura do Impossível — Arquitectura
+de lo Imposible"**. O `<title>` continua com o nome em português no fim, para caber
 em 60.
 
-Sobre, contato e privacidade existem em português e em inglês (o texto mora
-no build: `PRIVACIDADE`/`PRIVACY_EN`, `SOBRE_PT`/`ABOUT_EN`, `CONTATO_PT`/`CONTACT_EN`,
-e o título/description em `FIXAS_SEO`). Idioma fora de `FIXAS_IDIOMAS` cai nas
-páginas em português. **A privacidade em inglês diz exatamente o que a portuguesa
-diz**: mudou uma, mude a outra. O 404 é um só, em português.
+Sobre, contato e privacidade existem em português, inglês e espanhol (o texto
+mora no build: `PRIVACIDADE`/`PRIVACY_EN`/`PRIVACIDAD_ES`, `SOBRE_PT`/`ABOUT_EN`/`ACERCA_ES`,
+`CONTATO_PT`/`CONTACT_EN`/`CONTACTO_ES`, e o título/description em `FIXAS_SEO`).
+Idioma fora de `FIXAS_IDIOMAS` cai nas páginas em português. **As privacidades
+em inglês e em espanhol dizem exatamente o que a portuguesa diz**: mudou uma,
+mude as outras. O 404 é um só, em português.
+
+Espanhol: as 33 obras em `_src/obras/es/` e os temas em `_src/temas.es.json`.
+A conferência de números trata o espanhol como o português (`1.145`, `3,75`);
+"bilhão" é **"mil millones"** (nunca "billón", que é 10¹²). A trava de bastidor
+só pega `TODO` em caixa alta (em espanhol "todo" é palavra comum) e
+"pendiente de verificar/confirmar" (sozinho, "pendiente" também é declive).
 
 ### Traduzir uma obra (o fluxo)
 
@@ -224,11 +232,3 @@ diz**: mudou uma, mude a outra. O 404 é um só, em português.
 
 Detalhes das travas, da conferência de números e do dicionário da interface
 em `_src/obras/ESQUEMA.md`, seção "Traduções".
-
-### Ligar o espanhol
-
-Crie `_src/i18n/es.json` (copie o `en.json`, troque `_idioma` —
-`"nome": "Español", "curto": "ES", "hreflang": "es", "og_locale": "es_LA"`,
-`marca_sub`, meses, `"data_longa": "{dia} de {mes} de {ano}"` — e traduza
-cada valor de `textos`) e ponha a primeira obra em `_src/obras/es/`.
-Sem nenhuma obra traduzida, o idioma fica fora do ar mesmo com o dicionário.

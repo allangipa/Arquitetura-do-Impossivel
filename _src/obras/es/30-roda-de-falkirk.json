@@ -1,0 +1,145 @@
+{
+  "_nota": "Traducción fiel de ../30-roda-de-falkirk.json. Campos fijos vienen del original.",
+  "obra": "Rueda de Falkirk",
+  "titulo_seo": "Rueda de Falkirk (Falkirk Wheel): cómo funciona",
+  "titulo_video": null,
+  "lugar": "Tamfourhill, Falkirk, Escocia, Reino Unido",
+  "periodo": "2000–2002",
+  "impossivel": "Unir dos canales separados por 35 metros de desnivel, donde antes había once esclusas, con una máquina de más de mil toneladas que gira entera llevando barcos y agua en dos góndolas que quedan siempre en horizontal.",
+  "resumo": "Cómo Escocia cambió once esclusas por la Rueda de Falkirk, un elevador giratorio de barcos, en 2002, por qué gasta poco y qué hizo el sabotaje de abril.",
+  "abertura": [
+    "En Falkirk, en Escocia, en el Reino Unido, dos canales abiertos entre los siglos XVIII y XIX se encuentran con 35 metros de diferencia de altura. Hasta 1933 una escalera de once esclusas salvaba ese desnivel; después fue desmontada, y en los años 1960 los dos canales cerraron. Cuando British Waterways decidió reabrirlos de costa a costa, en el proyecto llamado Millennium Link, faltaba justamente el nudo del medio.",
+    "La respuesta fue la Falkirk Wheel: dos brazos de acero en forma de hélice, fijados a un eje, que giran media vuelta en unos cinco minutos llevando dos góndolas llenas de agua, una subiendo y otra bajando. El truco es antiguo. Por el principio de Arquímedes, un barco que entra en la góndola desplaza exactamente su propio peso en agua, así que los dos extremos pesan siempre lo mismo, y la máquina entera queda en equilibrio."
+  ],
+  "numeros": [
+    {"valor": "24 m", "rotulo": "que la rueda eleva los barcos; dos esclusas hacen el resto de los 35 m entre los canales"},
+    {"valor": "1,5 kWh", "rotulo": "de energía por media vuelta"},
+    {"valor": "250 t", "rotulo": "de agua en cada una de las dos góndolas"},
+    {"valor": "35 m", "rotulo": "de diámetro de la rueda"},
+    {"valor": "1.300 a 1.900 t", "rotulo": "de peso total, según la fuente y si la rueda está vacía o llena"},
+    {"valor": "24/05/2002", "rotulo": "inauguración por la reina Isabel II, cerca de un mes después de lo previsto"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "Reconectar el Forth & Clyde Canal (1790) y el Union Canal (1822), separados desde que las once esclusas de Falkirk fueron desmontadas en 1933. El Forth & Clyde cerró en 1963 y el Union en 1965."},
+    {"item": "Quién la quiso", "valor": "British Waterways, dentro del Millennium Link, la restauración de los dos canales de punta a punta, 110 km entre Glasgow y Edimburgo, con obras a partir de 1999."},
+    {"item": "Arquitectura", "valor": "Tony Kettle, del estudio RMJM."},
+    {"item": "Proyecto y fabricación", "valor": "Butterley Engineering, de Ripley, en Derbyshire, Inglaterra, que diseñó, fabricó y montó la rueda; Arup como consultora estructural; Tony Gee & Partners y Bennetts en la estructura y la mecánica."},
+    {"item": "Contratista principal", "valor": "Consorcio (joint venture) Morrison–Bachy Soletanche."},
+    {"item": "Obreros", "valor": "Cerca de mil personas según una fuente; más de quinientas según otra. Ningún registro de la época da la cifra."},
+    {"item": "Plazo", "valor": "Obras civiles desde 2000; piezas fabricadas y montadas a modo de prueba en la fábrica en el primer semestre de 2001, llevadas a Falkirk en 35 camiones e izadas en agosto de 2001; inauguración el 24/05/2002."},
+    {"item": "Desnivel", "valor": "35 metros según Scottish Canals y la historia local: 24 de la rueda y cerca de 11 de dos esclusas. Reportajes de la época dan 34 m o 25 m."},
+    {"item": "Costo de la rueda", "valor": "£17 millones, £17,5 millones o £20 millones, según la fuente.", "nota": "la diferencia puede estar en lo que incluye cada cuenta (dársena y accesos)"},
+    {"item": "Costo del Millennium Link", "valor": "£78 millones en el presupuesto divulgado en 2001; la dueña de los canales habla hoy de £83,5 millones, y otra fuente de £84,5 millones. La lotería nacional, a través de la Millennium Commission, aportó £32 millones."},
+    {"item": "Muertes y accidentes", "valor": "Ninguna muerte registrada en las fuentes consultadas. En abril de 2002, un sabotaje soltó más de 80 millones de litros de agua sobre el foso de la rueda y dañó la hidráulica y la electrónica.", "nota": "el daño se estimó en £200 mil en mayo de 2002; otra fuente da £350 mil"},
+    {"item": "Equilibrio", "valor": "Las dos góndolas pesan siempre lo mismo, con o sin barco, por el principio de Arquímedes."},
+    {"item": "Energía", "valor": "1,5 kWh por media vuelta. La dueña lo compara con hervir ocho teteras; un ingeniero de la Institution of Civil Engineers escribió tres o cuatro.", "nota": "la comparación con teteras varía; el kWh no"},
+    {"item": "Motores", "valor": "Diez motores hidráulicos según la mayoría de las fuentes; doce según un reportaje de 2001."},
+    {"item": "Piezas", "valor": "Cerca de 15.000 pernos y 45.000 agujeros: las juntas están atornilladas, no soldadas, para aguantar la fatiga de un brazo que pasa de tracción a compresión en cada vuelta."},
+    {"item": "Público", "valor": "Cerca de 400 mil a 500 mil visitantes por año, según la fuente."}
+  ],
+  "historia": [
+    {
+      "titulo": "Once peldaños desmontados",
+      "paragrafos": [
+        "El Forth & Clyde Canal abrió en 1790 y atravesaba Escocia desde Grangemouth, en el estuario del Forth, hasta el río Clyde. En 1822 llegó a Falkirk el Union Canal, que venía de Edimburgo. En el encuentro de los dos, una escalera de once esclusas, repartidas a lo largo de casi una milla, salvaba los 35 metros de diferencia.",
+        "El ferrocarril les quitó el movimiento a los canales. Las esclusas de Falkirk fueron desmontadas en 1933. El Forth & Clyde cerró a la navegación el 1 de enero de 1963, y el Union en 1965. Algunos tramos fueron rellenados, cortados por carreteras y conjuntos habitacionales. Cuando empezó el Millennium Link, en 1999, la idea era rehacer más de 120 estructuras, entre esclusas, puentes y tramos enterrados, y reabrir 110 km de canal entre Glasgow y Edimburgo. En 2001 los canales ya volvían a tener barcos. Faltaba Falkirk."
+      ]
+    },
+    {
+      "titulo": "Una licitación que ni el cliente quería",
+      "paragrafos": [
+        "La convocatoria, de diseño y construcción, sugería una noria de estilo victoriano, con cuatro góndolas colgadas, y todos los concursantes presupuestaron eso. Según la revista Construction News, en mayo de 2001, ni al cliente le gustaba. El ingeniero jefe de British Waterways en Escocia, George Ballinger, admitió a la revista que esperaba proyectos más audaces, pero que no les dio a los concursantes tiempo ni incentivo suficientes para ello.",
+        "El equipo elegido, el consorcio Morrison–Bachy Soletanche con Butterley Engineering, fue convocado a una reunión y se le indicó que dejara atrás los dibujos. Siguieron sesiones de lluvia de ideas de cerca de un mes, con unas dos decenas de personas, en las que aparecieron ruedas horizontales, grúas, un funicular y hasta un globo lleno de agua que se volcaba. Lo que salió fue la forma actual, conducida por el arquitecto Tony Kettle, de RMJM. En 2001 él describía la rueda como un barco vikingo con hélice o la caja torácica de un pez; otras descripciones hablan de un hacha celta y de costillas de ballena."
+      ]
+    },
+    {
+      "titulo": "Arquímedes hace el trabajo",
+      "paragrafos": [
+        "Cada brazo tiene un orificio circular en cada extremo, y en los orificios encajan las dos góndolas, canaletas de acero con unas 250 toneladas de agua y espacio para cuatro barcos cada una. Cuando la rueda gira, un sistema de engranajes hace girar las góndolas en sentido contrario y a la misma velocidad, de modo que el agua y los barcos quedan siempre en horizontal.",
+        "El equilibrio viene de una regla de más de dos mil años. Un barco que entra en la góndola desplaza su propio peso en agua, que sale por la compuerta. Por eso los dos extremos pesan igual, con barco o sin él. La máquina no necesita levantar peso, solo vencer el rozamiento y la inercia: media vuelta lleva unos cinco minutos y consume 1,5 kWh. Para eso, las góndolas tienen que estar con el nivel de agua exacto. Según New Civil Engineer, en 2001, la tolerancia era de 37,5 milímetros; fuera de ella, la computadora no deja girar la rueda.",
+        "La rueda eleva los barcos 24 metros. El resto del desnivel queda a cargo de dos esclusas nuevas en el Union Canal. En el camino hasta la rueda, los barcos atraviesan además un acueducto de 100 metros y un túnel, el Rough Castle, que pasa bajo una carretera, bajo el ferrocarril Edimburgo–Glasgow y bajo el Muro de Antonino, la frontera romana del siglo II."
+      ]
+    },
+    {
+      "titulo": "Pernos, no soldadura",
+      "paragrafos": [
+        "En cada vuelta, partes de los brazos pasan de tracción total a compresión total. Esa inversión completa y repetida del esfuerzo es lo que más fatiga el acero, y Butterley respondió atornillando las juntas en lugar de soldarlas, porque la unión atornillada resiste mejor la fatiga. La cuenta de New Civil Engineer: 15 mil pernos y 45 mil agujeros, el equivalente a 7,5 toneladas de acero perforado.",
+        "Los pernos tenían otra ventaja: la rueda podía montarse entera en la fábrica de Butterley, en Ripley, en Derbyshire, Inglaterra, revisarse y desmontarse. Las piezas se llevaron a Falkirk en 35 camiones, entre junio y julio de 2001, se volvieron a montar en el suelo en cinco grandes conjuntos y se izaron en agosto con una grúa de mil toneladas, con una precisión de diez milímetros. Al hacer dos izajes de góndola el mismo día, la empresa ahorró diez horas de grúa y £10 mil, contó a la revista el gerente de contratos Paul Hudson."
+      ]
+    },
+    {
+      "titulo": "La noche de la inundación",
+      "paragrafos": [
+        "Ninguna de las fuentes consultadas registra un muerto en la obra. El desastre llegó con la rueda terminada. A fines de abril de 2002, según New Civil Engineer, alguien forzó compuertas cerradas con candado y soltó más de 80 millones de litros de agua del canal sobre el foso seco de la rueda. La inundación duró cuatro horas sin que nadie la notara y cubrió una de las góndolas con tres metros de agua. El fluido hidráulico se contaminó, se perdieron bombas y la electrónica tuvo que secarse.",
+        "La policía trató el caso como daño intencional, obra de al menos dos personas que conocían el lugar. La estimación del daño en mayo de 2002 era de £200 mil; otra fuente habla de £350 mil. La apertura se atrasó cerca de un mes, y la reina Isabel II inauguró la rueda el 24 de mayo de 2002, el año de su Jubileo de Oro."
+      ]
+    },
+    {
+      "titulo": "Veinticinco años después, las esclusas otra vez",
+      "paragrafos": [
+        "La rueda pasó por la mayor reforma de su historia entre noviembre de 2023 y marzo de 2024: £2,7 millones en hidráulica, paneles de control, sensores, cables y sellos nuevos, con 17 semanas de parada, según el diario The Scotsman. El sistema pasó a apagarse entre un movimiento y otro.",
+        "En 2026, Scottish Canals, dueña de los canales, celebró los 25 años del Millennium Link y anunció para fines de septiembre un espectáculo de luz y agua en la dársena de la rueda. Pero la noticia mayor está justo debajo de ella. Las compuertas de roble instaladas en la reapertura duran en promedio 25 años, y todas las de la escalera de esclusas del Forth & Clyde en Falkirk son de aquella época. Desde febrero de 2025, un tramo de cuatro kilómetros está drenado para cambiarlas. En julio de 2026 la obra se extendió hasta el inicio de la temporada de 2027, con una inversión de más de £8 millones, la mayor en los canales escoceses desde el propio Millennium Link, según Scottish Canals. La máquina hecha para reemplazar esclusas sigue girando; la mayor obra de los canales, un cuarto de siglo después, es reparar esclusas."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "La rueda gira con la energía de diez teteras.", "registro": "Ninguna fuente encontrada dice diez. Scottish Canals lo compara con ocho teteras; un ingeniero de la Institution of Civil Engineers escribió tres o cuatro. La cifra firme es 1,5 kWh por media vuelta."},
+    {"circula": "La rueda eleva los barcos 35 metros.", "registro": "Los 35 metros son el desnivel total entre los canales. La rueda hace 24 metros; un acueducto, dos esclusas y un túnel completan el camino hasta el Union Canal."},
+    {"circula": "Cada góndola pesa 500 toneladas.", "registro": "Lo que las fuentes confirman es el agua, unas 250 toneladas por góndola, y el peso de la góndola vacía difiere entre ellas. El dato que importa es otro: las dos pesan siempre lo mismo, con o sin barco, por el principio de Arquímedes."},
+    {"circula": "La forma fue el encargo original.", "registro": "La convocatoria sugería una noria de estilo victoriano. La forma actual nació después de la elección del equipo, en un mes de lluvia de ideas, según reportajes de 2001 de Construction News y de New Civil Engineer."}
+  ],
+  "perguntas": [
+    {"p": "¿Cómo funciona la Rueda de Falkirk?", "r": "Dos brazos de acero fijados a un eje giran media vuelta en unos cinco minutos llevando dos góndolas llenas de agua, una subiendo y otra bajando, siempre en horizontal. Por el principio de Arquímedes, el barco desplaza su propio peso en agua, así que los dos extremos pesan siempre lo mismo y la media vuelta consume solo 1,5 kWh."},
+    {"p": "¿Cuánto eleva los barcos la Rueda de Falkirk?", "r": "La rueda eleva los barcos 24 metros. El desnivel total entre el Forth & Clyde Canal y el Union Canal es de 35 metros, y el resto queda a cargo de dos esclusas, después de un acueducto y de un túnel."},
+    {"p": "¿Cuándo se construyó la Rueda de Falkirk?", "r": "Las obras civiles empezaron en 2000; las piezas se fabricaron y montaron a modo de prueba en Inglaterra en 2001 y se izaron en Falkirk en agosto de ese año. La reina Isabel II inauguró la rueda el 24 de mayo de 2002, cerca de un mes después de lo previsto, por un sabotaje en abril."},
+    {"p": "¿Cuánto costó la Rueda de Falkirk?", "r": "Las fuentes difieren: £17 millones, £17,5 millones o £20 millones, posiblemente por lo que incluye cada cuenta. El Millennium Link entero, la restauración de los dos canales, figura con £78 millones en el presupuesto de 2001 y hoy con £83,5 millones o £84,5 millones."},
+    {"p": "¿Por qué se construyó la Rueda de Falkirk?", "r": "Para reconectar el Forth & Clyde Canal y el Union Canal, separados desde que las once esclusas de Falkirk fueron desmontadas en 1933. Fue el nudo del medio del Millennium Link, que reabrió 110 km de canal entre Glasgow y Edimburgo."}
+  ],
+  "fontes": [
+    {"texto": "David Hayward, \"The wheel thing\", New Civil Engineer, 13/09/2001"},
+    {"texto": "\"Police close to catching Falkirk Wheel vandals\", New Civil Engineer, 02/05/2002"},
+    {"texto": "David Hayward, \"The wheel of fortune\", Construction News, 17/05/2001"},
+    {"texto": "Engineering Timelines, \"Falkirk Wheel\" (basado en la ficha técnica de Bachy Soletanche)"},
+    {"texto": "John Laverick, \"The Falkirk Wheel: building a waterway wonder\", The History Press, 2018"},
+    {"texto": "John Kosowatz, \"Symbol of the Millennium: The Falkirk Wheel\", ASME, 2011"},
+    {"texto": "William B. Ashworth Jr., \"The Falkirk Wheel\", Linda Hall Library"},
+    {"texto": "Scottish Canals, \"The Falkirk Wheel\""},
+    {"texto": "Scottish Canals, \"Scottish Canals Mark 25 Years of the Millennium Link Transformation\", 12/05/2026"},
+    {"texto": "Scottish Canals, \"Scottish Canals extends major engineering programme on the Forth & Clyde Canal in Falkirk\", 29/07/2026"},
+    {"texto": "The Scotsman, \"Falkirk Wheel: behind-the-scenes tours to follow unique canal boat lift's biggest overhaul\", 28/02/2024"},
+    {"texto": "Falkirk Local History Society, \"Falkirk Wheel\""},
+    {"texto": "Forth & Clyde Canal Society, \"Canal history\""}
+  ],
+  "imagens": [
+    {
+      "alt": "Gran estructura de acero gris claro con dos brazos curvos girando junto a un acueducto de concreto sostenido por pilares en forma de anillo; una góndola con un barco está a mitad de camino, hay un edificio de techo inclinado a la derecha y personas mirando desde un césped",
+      "legenda": "La rueda a medio giro, en 2015: a la izquierda, el acueducto que viene del Union Canal; en el centro, una de las góndolas camino de lo alto.",
+      "autor": "Colin"
+    },
+    {
+      "alt": "Obra vista desde lo alto: un largo lecho de tierra excavada entre muros de concreto, dos grúas de celosía y obreros con chaleco amarillo, con campos y montañas al fondo",
+      "legenda": "Mayo de 2001: el nuevo tramo del Union Canal en obra, en el camino que llevaría los barcos hasta la rueda.",
+      "autor": "Sarah Charlesworth"
+    },
+    {
+      "alt": "Dársena de agua turbia con una excavadora sobre una balsa; al fondo, un pilar de concreto envuelto en andamios, una grúa y la cáscara curva y vidriada de un edificio en construcción",
+      "legenda": "La dársena inferior en obra, con uno de los pilares de la rueda entre andamios y la estructura del centro de visitantes al fondo, en 2001.",
+      "autor": "Sarah Charlesworth"
+    },
+    {
+      "alt": "Panorama de un acueducto de concreto sobre pilares con aberturas circulares, que termina en una gran rueda de acero a orillas de una dársena, con césped y cielo azul",
+      "legenda": "Agosto de 2002, tres meses después de la inauguración: el acueducto llega por lo alto y termina en la rueda, sobre la dársena del Forth & Clyde.",
+      "autor": "KlausFoehl"
+    },
+    {
+      "alt": "Detalle de cerca de grandes engranajes de acero con dientes alrededor de un anillo, junto al extremo de una góndola y a una pared de paneles",
+      "legenda": "Los engranajes que hacen girar la góndola en sentido contrario a la rueda, para que el agua y los barcos queden siempre en horizontal (2003).",
+      "autor": "Sarah Charlesworth"
+    },
+    {
+      "alt": "Vista aérea: un canal sale de un túnel entre árboles, sigue por un acueducto sobre pilares hasta la rueda, que baja a una dársena circular con barcos; al lado, el centro de visitantes y un estacionamiento",
+      "legenda": "El conjunto visto desde el aire en 2006: del túnel, arriba, al acueducto, a la rueda y a la dársena del Forth & Clyde.",
+      "autor": "Ranald McIntyre"
+    }
+  ]
+}

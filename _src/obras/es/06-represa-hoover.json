@@ -1,0 +1,149 @@
+{
+  "_nota": "Traducción fiel de ../06-represa-hoover.json. Campos fijos vienen del original.",
+  "obra": "Represa Hoover",
+  "titulo_seo": "Represa Hoover: cómo se construyó y cuántos murieron",
+  "titulo_video": "Represa Hoover: 96 muertos en la placa, 213 en las tablas del propio gobierno",
+  "lugar": "Black Canyon, río Colorado, límite entre Nevada y Arizona, Estados Unidos",
+  "periodo": "1931–1936",
+  "impossivel": "Levantar la represa más alta del mundo en el fondo de un cañón del desierto, con el río Colorado desviado por dentro de la montaña y un concreto que, vertido de una sola vez, habría tardado 125 años en enfriarse.",
+  "resumo": "Cómo la Represa Hoover sacó al río Colorado del cañón y venció el calor de su propio concreto, y por qué la cuenta de muertos va de 96 a 213.",
+  "abertura": [
+    "En el Black Canyon del río Colorado, en el límite entre Nevada y Arizona, en Estados Unidos, a unos 48 km al sureste de Las Vegas, el gobierno estadounidense mandó levantar, entre 1931 y 1936, la represa más alta del mundo de la época: 221 metros de concreto, de la roca de la cimentación a la coronación. Para eso hubo que sacar a un río entero de su cauce, hacerlo pasar por cuatro túneles abiertos en la roca y enfriar el concreto con agua helada, bloque por bloque.",
+    "La obra terminó unos dos años antes del plazo, en plena Gran Depresión. El precio en vidas es otra historia, y depende de quién cuente: la placa conmemorativa habla de 96 muertos; las tablas del propio gobierno, sumando todas las causas, llegan a 213 hasta fines de 1935."
+  ],
+  "numeros": [
+    {"valor": "221 m", "rotulo": "de altura, de la roca de la cimentación a la coronación (726,4 pies)"},
+    {"valor": "2,48 millones de m³", "rotulo": "de concreto solo en la represa"},
+    {"valor": "4 túneles", "rotulo": "de 15 m de diámetro para sacar el río del cañón"},
+    {"valor": "937 km", "rotulo": "de tubos de agua helada dentro del concreto"},
+    {"valor": "5.200+", "rotulo": "obreros al mismo tiempo en el pico, en 1934"},
+    {"valor": "96 × 213", "rotulo": "muertos: accidentes en la obra × todas las causas en las tablas del gobierno"}
+  ],
+  "ficha": [
+    {"item": "Quién la quiso", "valor": "El Congreso de Estados Unidos, mediante la Boulder Canyon Project Act, firmada por el presidente Calvin Coolidge el 21/12/1928, para regular el río Colorado, controlar crecidas, almacenar agua y generar energía."},
+    {"item": "Fondos autorizados", "valor": "US$ 165 millones para todo el proyecto: represa y embalse (US$ 70,6 millones), central (US$ 38,2 millones), Canal All-American (US$ 38,5 millones) e intereses (US$ 17,7 millones).", "nota": "división según el Project History de 1934 y 1935"},
+    {"item": "Dueño de la obra", "valor": "Bureau of Reclamation, del Departamento del Interior; ingeniero de construcción Walker R. Young."},
+    {"item": "Constructora", "valor": "Six Companies, Inc., consorcio de seis firmas del oeste estadounidense; superintendente Frank Crowe. Oferta de US$ 48.890.995, contrato adjudicado el 11/03/1931."},
+    {"item": "Costo de la represa con la central", "valor": "Cerca de US$ 108 millones, en palabras de Franklin D. Roosevelt en la dedicación, en 1935. La obra se pagó con la venta de energía hasta 1987, salvo los US$ 25 millones de control de crecidas.", "nota": "valores de la época, sin conversión"},
+    {"item": "Plazo", "valor": "Inicio en abril de 1931; río desviado el 13 y 14/11/1932; primer concreto el 06/06/1933; último el 29/05/1935; dedicación el 30/09/1935; obra aceptada el 01/03/1936, unos dos años antes del plazo."},
+    {"item": "Obreros", "valor": "21.000 en total y un promedio de 3.500 por día, según el Bureau of Reclamation. Pico de 5.251 en un día (20/07/1934); el promedio mensual más alto fue 5.218, en junio de 1934.", "nota": "el total y el promedio vienen de una sola fuente; el pico, de dos"},
+    {"item": "Salario", "valor": "De US$ 0,50 por hora (peón, turno de 8 horas) a US$ 1,25 (operador de pala mecánica), con un descuento de US$ 1,60 por día de cama y comida para los solteros."},
+    {"item": "Calor", "valor": "En el verano de 1931, más de 46 °C de día según el Bureau of Reclamation (otras fuentes hablan de 49 °C); dentro de los túneles, hasta 60 °C."},
+    {"item": "Muertes", "valor": "96 muertes en accidentes en la obra, número que el gobierno llama oficial y que está en la placa conmemorativa. Las tablas anuales del propio gobierno, con todas las causas, suman 213 hasta el 31/12/1935 y 215 con 1936. El número 112, que también circula, no tiene un origen explicado.", "nota": "los 96 excluyen calor, neumonía y enfermedades"},
+    {"item": "Muertes por calor", "valor": "16 entre el 25/06 y el 26/07/1931, fuera de la cuenta de accidentes. Dos eran mujeres que vivían en la zona y no trabajaban en la obra."},
+    {"item": "Neumonía", "valor": "42 muertes registradas como neumonía, todas fuera de la cuenta de accidentes. Los obreros culpaban al gas de los camiones a gasolina en los túneles; nunca se probó."},
+    {"item": "Medidas", "valor": "221,4 m de altura; 201 m de espesor en la base y 13,7 m en la coronación; 379 m de longitud en la coronación. Represa de concreto de arco-gravedad."},
+    {"item": "Material", "valor": "2,48 millones de m³ de concreto en la represa; más de 5 millones de barriles de cemento; 937 km de tubo de acero de una pulgada para enfriar el concreto."},
+    {"item": "Exclusión", "valor": "La ley de 1902 que rige las obras del Bureau prohibía la mano de obra “mongólica” (traducción nuestra), es decir, china. Menos de 50 negros entre más de 20 mil hombres, y ninguno podía vivir en Boulder City."},
+    {"item": "Después", "valor": "Represa más alta del mundo cuando se terminó y mayor central hidroeléctrica del mundo durante unos diez años, hasta Grand Coulee. Potencia instalada de cerca de 2.000 MW. El 06/08/2026 el lago Mead marcó su récord de nivel bajo, y el Bureau of Reclamation informa que la generación ya cayó cerca de 30%."}
+  ],
+  "historia": [
+    {
+      "titulo": "Un río, una ley y seis empresas",
+      "paragrafos": [
+        "El 21 de diciembre de 1928, el presidente Calvin Coolidge firmó la Boulder Canyon Project Act, que autorizaba US$ 165 millones para domar el río Colorado: una represa con embalse, una central, el Canal All-American y los intereses de la construcción. La represa debía almacenar el caudal medio del río de dos años enteros.",
+        "El lugar elegido fue el Black Canyon, y no el Boulder Canyon que dio nombre al proyecto, en el límite entre Nevada y Arizona. Según la revista Invention & Technology, la licitación exigía una garantía de US$ 5 millones, y eso fue lo que obligó a las constructoras a asociarse. Seis firmas formaron Six Companies, Inc., y su oferta, de US$ 48.890.995, fue la más baja. El contrato salió el 11 de marzo de 1931, y el trabajo empezó en abril.",
+        "El dueño de la obra era el Bureau of Reclamation, del Departamento del Interior. En la obra, el superintendente de Six Companies era Frank Crowe; por el gobierno, el ingeniero de construcción Walker R. Young."
+      ]
+    },
+    {
+      "titulo": "La ciudad del gobierno y el verano de 1931",
+      "paragrafos": [
+        "Para alojar a los obreros, el gobierno levantó Boulder City en tierra federal, con portón, pase y guardaparques federales en lugar de policía. El administrador, Sims Ely, nombrado en el otoño de 1931, podía expulsar a cualquier residente de la reserva. En un aviso del 28 de diciembre de 1932, recordaba que la embriaguez costaba la expulsión y el empleo. Los negros, que nunca pasaron de 50 entre los más de 20 mil hombres de la obra, no podían vivir adentro.",
+        "Antes de que la ciudad estuviera lista, mucha gente acampaba en barracas a la orilla del río. El verano de 1931 pasó de los 46 °C a la sombra, según el registro del Bureau of Reclamation, y llegó a 60 °C dentro de los túneles. Entre el 25 de junio y el 26 de julio, 16 personas murieron de calor, con nombre y apellido en las tablas del gobierno. Siete trabajaban para Six Companies, siete para otras empresas, entre ellas la proveedora del comedor y de los alojamientos, y dos eran mujeres que vivían en la zona sin trabajar en la obra.",
+        "El 7 de agosto de 1931, los obreros de los túneles se declararon en huelga. El detonante fue un recorte de salario: los muckers, que cargaban el escombro, pasarían de US$ 5 a US$ 4 por día. Pedían agua limpia y fría, retretes con descarga, jornada de ocho horas y respeto a las leyes mineras de Nevada y Arizona. Six Companies despidió a todos y volvió a contratar el 13 de agosto. La huelga duró cerca de una semana; el recorte se mantuvo, y llegaron el agua, la luz y la prisa por terminar Boulder City."
+      ]
+    },
+    {
+      "titulo": "Cuatro túneles en la roca",
+      "paragrafos": [
+        "Antes de cualquier concreto, había que secar el fondo del cañón. La solución fueron cuatro túneles de desvío, dos de cada lado, excavados con unos 17 metros de diámetro y revestidos con casi un metro de concreto, hasta quedar en 15 metros. Sumados, daban casi 5 km. Según el Bureau of Reclamation, se gastaba una tonelada de dinamita cada 4,3 metros de túnel.",
+        "Los high scalers hacían otro trabajo peligroso: bajaban por las paredes colgados de cuerdas, con martillo neumático y dinamita, para arrancar la roca suelta. El Bureau registra que la causa de muerte más común en la obra era la caída de objetos. Según el mismo registro, los obreros sumergían sombreros de tela en brea para protegerse, y después Six Companies compró cascos industriales para todos. Fotos del gobierno, de octubre de 1932, muestran a indígenas apaches entre los high scalers.",
+        "El 12 de noviembre de 1932, el presidente Herbert Hoover visitó el túnel n.º 2. Al día siguiente, las barreras de tierra frente a los túneles del lado de Arizona se volaron con explosivos y el río entró en el primero de ellos. El 14 de noviembre, el Colorado entero pasaba por dentro de la montaña, por los túneles 3 y 4. Detrás de dos ataguías, el cauce quedó seco para excavar la cimentación."
+      ]
+    },
+    {
+      "titulo": "Neumonía o gas",
+      "paragrafos": [
+        "En los túneles circulaban camiones a gasolina. El 7 de noviembre de 1931, el inspector de minas de Nevada, A. J. Stinson, ordenó a Six Companies que dejara de usarlos. La empresa recurrió a la Justicia federal, y el propio gobierno federal se sumó al caso a su favor. En la decisión del 28 de abril de 1932, el tribunal dejó constancia de que todas las partes admitían que el monóxido de carbono en el aire podía causar enfermedad o muerte. Aun así, le dio la razón a la empresa, y el 15 de febrero de 1933 decidió en forma definitiva: la prohibición de la gasolina venía de una ley de 1911 hecha para minas, y un túnel de obra no era una mina.",
+        "Las tablas del gobierno registran 42 muertes por neumonía, todas fuera de la cuenta de accidentes. Quince caen entre fines de noviembre de 1932 y marzo de 1933, un invierno en el que el propio informe anual registra una epidemia de gripe, con cientos de enfermos y la escuela cerrada una semana. La explicación oficial de la época, en un aviso de Sims Ely, culpaba a la baja resistencia de quienes tomaban bebida clandestina.",
+        "Los obreros decían otra cosa: que era el gas de los camiones. Demandaron a Six Companies, y los casos terminaron en un acuerdo por un monto nunca divulgado, después de denuncias de manipulación del jurado. Ningún documento prueba que las neumonías hayan sido monóxido de carbono, y ninguno prueba que no lo fueran."
+      ]
+    },
+    {
+      "titulo": "El concreto que hervía",
+      "paragrafos": [
+        "El concreto se calienta al fraguar. Según el Bureau of Reclamation, si la represa se hubiera vertido de una sola vez, el calor habría tardado 125 años en salir, y se habría agrietado en el camino. Por eso subió en unas 215 columnas separadas, de 7,6 a 18 metros de lado, en capas de 1,5 metro, como máximo una capa cada 72 horas.",
+        "Dentro de cada capa iba un tubo de acero de una pulgada. Primero pasaba agua del río; después, agua helada de una planta de amoníaco capaz de producir mil toneladas de hielo por día. En total fueron 582 millas de tubo, unos 937 km. En medio de la represa quedó una ranura de 2,4 metros de ancho para los colectores del enfriamiento, rellenada con concreto a medida que los bloques vecinos se enfriaban. Después, los tubos y las juntas se inyectaron con lechada de cemento.",
+        "El primer cubo, de 8 yardas cúbicas (unos 6 m³), bajó del cablevía a las 11:20 del 6 de junio de 1933. El último concreto se vertió el 29 de mayo de 1935. El enfriamiento se suspendió en marzo de 1935 y terminó el 20 de mayo. El 1 de febrero de ese año, una compuerta de más de mil toneladas cerró el túnel 4, y el lago empezó a llenarse."
+      ]
+    },
+    {
+      "titulo": "La cuenta de los muertos",
+      "paragrafos": [
+        "La placa conmemorativa del escultor Oskar Hansen homenajea a 96 hombres que murieron en la construcción. El Bureau of Reclamation llama oficial a ese número y explica qué cuenta: solo muertes en la obra, por ahogamiento, explosión, caída de roca, caída desde la pared del cañón, máquinas o camiones. El calor, la neumonía y las enfermedades del corazón quedan fuera.",
+        "Las tablas anuales del propio gobierno cuentan otra cosa. Sumando todas las causas, llegan a 213 muertes hasta el 31 de diciembre de 1935, y a 215 con 1936: entre ellas, los 16 del calor, 42 de neumonía, 36 de otras causas naturales y 10 de automóvil. A partir de 1933, advierten que no hay registro de muertes de quienes no eran empleados del gobierno o de las constructoras. Y el documento original de la época y la versión corregida que el Bureau publica en internet no coinciden ni en el número de accidentes de 1935.",
+        "Un tercer número, 112, aparece en la historia oficial del Bureau y en muchas otras fuentes como el total de muertos por accidente o enfermedad. Ningún documento explica la cuenta. El historiador Dennis McBride, consultado por el Las Vegas Review-Journal en 2016, resumió que no existe un número confiable."
+      ]
+    },
+    {
+      "titulo": "Hoover o Boulder, y el anillo blanco",
+      "paragrafos": [
+        "En septiembre de 1930, el secretario del Interior Ray Lyman Wilbur anunció el nombre Hoover Dam, y cinco leyes del Congreso entre 1931 y 1933 usaron ese nombre. El 8 de mayo de 1933, Harold Ickes, secretario del Interior de Franklin D. Roosevelt, ordenó llamarla Boulder Dam. Roosevelt la dedicó el 30 de septiembre de 1935 sin pronunciar ni una vez el nombre de Hoover. El 30 de abril de 1947, Harry Truman promulgó la ley que ordenó volver al nombre Hoover.",
+        "Cuando se terminó, era la represa más alta del mundo. El primer generador entró en operación el 26 de octubre de 1936, y la central fue la mayor hidroeléctrica del mundo durante unos diez años, hasta que la superó Grand Coulee. Tiene 17 turbinas principales y cerca de 2.000 MW de potencia instalada, que el lago bajo ya no permite usar por completo.",
+        "El lago que embalsa, el Mead, se está secando. El 6 de agosto de 2026, el agua bajó a 1.040,50 pies (unos 317,1 m), por debajo del récord de 2022 y en el punto más bajo desde que se llenó el lago. El 30 de septiembre de 2026, el boletín del Bureau marcaba 1.037,80 pies (unos 316,3 m). En las paredes del cañón, la roca que dejó el agua forma un anillo blanco.",
+        "El gobierno estadounidense informa que la generación ya cayó cerca de 30%, y que en la cota de 1.035 pies (unos 315,5 m) la capacidad de la central puede bajar de 1.302 a 382 MW. En mayo de 2026 anunció US$ 52 millones para cambiar hasta tres turbinas antiguas por modelos que funcionan con el lago más bajo."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "Hay hombres enterrados en el concreto de la represa.", "registro": "El Bureau of Reclamation dice que no hay ninguno. La represa subió en bloques, en capas de 1,5 metro; cada cubo elevaba el nivel apenas unos centímetros, y cinco o seis hombres pisaban y vibraban el concreto en cada bloque."},
+    {"circula": "El concreto todavía está fraguando y tardará más de cien años en enfriarse.", "registro": "Los 125 años son la cuenta de lo que habría pasado sin los tubos de agua helada. El enfriamiento artificial terminó en 1935. Lo que continúa es la lenta ganancia de resistencia: testigos extraídos en la década de 1990 mostraron más del doble de la resistencia medida durante la obra."},
+    {"circula": "El número oficial de muertos es 112.", "registro": "El número que el gobierno llama oficial es 96, solo accidentes en la obra. El 112 aparece en la historia del propio Bureau sin explicación. Las tablas de la época, con todas las causas, suman 213 hasta fines de 1935."},
+    {"circula": "Los Tierney, padre e hijo, fueron el primer y el último muerto de la obra, el mismo día, 14 años después.", "registro": "J. G. Tierney murió en el río durante un estudio hecho antes de que se autorizara la obra, y no está entre los 96. El año de su muerte diverge: 1922 en la tabla del gobierno, 1921 en un periódico de enero de 1922. El hijo, Patrick, cayó de una torre de toma de agua el 20/12/1935 y es la última muerte por accidente en las listas nominales del gobierno; la lista de 1936 no trae ningún accidente, aunque un informe del mismo año habla de dos muertes industriales, sin nombre. Y, según la tabla del gobierno, otro hombre del Bureau, Harold Connelly, ya había muerto en el río en mayo de 1921."},
+    {"circula": "Roosevelt inauguró la Represa Hoover, en el Boulder Canyon.", "registro": "Roosevelt dedicó la \"Boulder Dam\" y no pronunció el nombre de Hoover. Y la represa está en el Black Canyon; Boulder era el nombre del proyecto original."}
+  ],
+  "perguntas": [
+    {"p": "¿Cuántos obreros murieron en la construcción de la Represa Hoover?", "r": "Depende de quién cuente. El número que el gobierno llama oficial, el de la placa conmemorativa, es 96, solo accidentes en la obra; las tablas anuales del propio gobierno, con todas las causas, suman 213 hasta fines de 1935 y 215 con 1936. El 112 que también circula no tiene un origen explicado."},
+    {"p": "¿Hay cuerpos enterrados en el concreto de la Represa Hoover?", "r": "No, según el Bureau of Reclamation. La represa subió en bloques, en capas de 1,5 metro, cada cubo elevaba el nivel apenas unos centímetros, y cinco o seis hombres pisaban y vibraban el concreto en cada bloque."},
+    {"p": "¿Cuánto tiempo tardó la construcción de la Represa Hoover?", "r": "La obra empezó en abril de 1931 y fue aceptada el 1 de marzo de 1936, unos dos años antes del plazo. El primer concreto se vertió el 6 de junio de 1933, y el último, el 29 de mayo de 1935."},
+    {"p": "¿Cómo se construyó la Represa Hoover?", "r": "Primero se desvió el río Colorado por cuatro túneles de 15 m de diámetro abiertos en la roca, lo que dejó el cauce seco. Después la represa subió en unas 215 columnas separadas, enfriadas por 937 km de tubos con agua helada para que el concreto no se agrietara."},
+    {"p": "¿El concreto de la Represa Hoover todavía se está secando?", "r": "No. Los 125 años que circulan son la cuenta de lo que habría pasado sin los tubos de agua helada, y el enfriamiento artificial terminó en 1935. Lo que continúa es la lenta ganancia de resistencia del concreto."}
+  ],
+  "fontes": [
+    {"texto": "Bureau of Reclamation, \"Fatalities at Hoover Dam\" (actualizado en 2015)"},
+    {"texto": "Bureau of Reclamation, tablas anuales de muertes del Hoover Dam Project History, 1931–1935"},
+    {"texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1932 (NARA)"},
+    {"texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1935 (NARA)"},
+    {"texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1936 (NARA)"},
+    {"texto": "Wm. Joe Simonds, \"The Boulder Canyon Project — Hoover Dam\", Bureau of Reclamation"},
+    {"texto": "Bureau of Reclamation, \"Hoover Dam — Frequently Asked Questions and Answers\""},
+    {"texto": "Bureau of Reclamation, \"The Story of Hoover Dam — Concrete\""},
+    {"texto": "Bureau of Reclamation, ensayo sobre los túneles de desvío"},
+    {"texto": "Bureau of Reclamation, \"High Scalers\""},
+    {"texto": "National Register of Historic Places, formulario de inscripción de la Hoover Dam, 1979 (rev. 1985)"},
+    {"texto": "National Park Service, \"'The Greatest Dam in the World': Building Hoover Dam\""},
+    {"texto": "Franklin D. Roosevelt, discurso en la dedicación de la Boulder Dam, 30/09/1935 (American Presidency Project)"},
+    {"texto": "Six Companies, Inc. v. Stinson, 58 F.2d 649 (D. Nev., 1932)"},
+    {"texto": "Six Companies, Inc. v. Stinson, 2 F. Supp. 689 (D. Nev., 1933)"},
+    {"texto": "Tom Huntington, \"Desert Colossus\", Invention & Technology, 2006"},
+    {"texto": "American Experience (PBS), \"Workers' Strike at Hoover Dam\""},
+    {"texto": "Henry Brean, \"Father and son died on the same day, 14 years apart while working on Hoover Dam\", Las Vegas Review-Journal, 2016"},
+    {"texto": "Amy Alonzo, \"How Hoover Dam hiring discrimination set back growth of Nevada's Black community\", The Nevada Independent"},
+    {"texto": "Bureau of Reclamation, \"What's In A Name?\""},
+    {"texto": "Spencer Howard, \"What's in a Name? The Saga of the Hoover Dam\", Herbert Hoover Presidential Library, 2021"},
+    {"texto": "Bureau of Reclamation, \"Enhancing Hoover Dam's Infrastructure and Energy Reliability\", 21/05/2026"},
+    {"texto": "Bureau of Reclamation, niveles diarios del lago Mead"},
+    {"texto": "ABC News, récord de nivel bajo del lago Mead, 07/08/2026"},
+    {"texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1933 (NARA)"},
+    {"texto": "Bureau of Reclamation, Project History — Boulder Canyon Project — Boulder Dam, 1934 (NARA)"}
+  ],
+  "imagens": [
+    {"alt": "La Represa Hoover vista desde arriba, con el paredón curvo de concreto entre las rocas del Black Canyon, la central al pie y el lago Mead al fondo", "legenda": "La Represa Hoover y el Black Canyon vistos desde el puente Mike O'Callaghan–Pat Tillman, en abril de 2026. En el lago, al fondo, la franja clara en la roca marca hasta dónde llegó el agua.", "autor": "Christian David"},
+    {"alt": "Interior de un túnel de desvío ya revestido de concreto, con un andamio metálico y dos hombres en el piso", "legenda": "Revestimiento de concreto terminado en la boca de entrada del túnel de desvío n.º 4, octubre de 1932.", "autor": "U.S. Bureau of Reclamation, 1932 (NARA 293757)"},
+    {"alt": "Agua del río saliendo por un portal de túnel de concreto en la pared del cañón, con un hombre de camisa blanca mirando de cerca", "legenda": "La primera agua del río Colorado sale por el túnel de desvío n.º 3, el 13 de noviembre de 1932.", "autor": "U.S. Bureau of Reclamation, 1932 (NARA 293776)"},
+    {"alt": "Hombres colgados de cuerdas en una pared vertical de roca del cañón", "legenda": "High scalers limpian la pared por encima del sitio de la central del lado de Nevada, mayo de 1933.", "autor": "U.S. Bureau of Reclamation, 1933 (NARA 293863)"},
+    {"alt": "Obreros alrededor de un gran cubo cilíndrico de concreto dentro de un encofrado de madera", "legenda": "Concreto vertido en un bloque en el centro de la represa con el cubo de 8 yardas cúbicas del cablevía, julio de 1933.", "autor": "U.S. Bureau of Reclamation, 1933 (NARA 293921)"},
+    {"alt": "Vista desde lo alto del fondo del cañón con los bloques de concreto de la represa subiendo a distintas alturas", "legenda": "Los bloques de la represa suben a alturas desiguales, vistos desde el puente colgante sobre la obra, 1933.", "autor": "U.S. Bureau of Reclamation, 1933 (NARA 293916)"}
+  ]
+}

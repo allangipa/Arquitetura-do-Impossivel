@@ -1,0 +1,169 @@
+{
+  "_nota": "Traducción fiel de ../24-ponte-de-tacoma-narrows.json. Campos fijos vienen del original.",
+  "obra": "Puente de Tacoma Narrows",
+  "titulo_seo": "Puente de Tacoma Narrows: por qué cayó, y no fue resonancia",
+  "titulo_video": null,
+  "lugar": "Estrecho de Tacoma Narrows, entre Tacoma y la península de Kitsap, Washington, Estados Unidos",
+  "periodo": "1938–1940",
+  "impossivel": "Colgar 853 metros de calzada sobre un estrecho de vientos fuertes con una viga de apenas 2,4 metros de altura, en una época en que la ingeniería sabía calcular el empuje del viento, pero no sabía calcular el viento torciendo un puente hasta partirlo.",
+  "resumo": "El Puente de Tacoma Narrows abrió en julio de 1940 y cayó cuatro meses después, con viento de 68 km/h. Por qué la explicación de la resonancia falla.",
+  "abertura": [
+    "El 1 de julio de 1940, el estado de Washington, en Estados Unidos, inauguró el puente colgante con el tercer vano más largo del mundo, sobre el estrecho de Tacoma Narrows, entre la ciudad de Tacoma y la península de Kitsap. Era delgado y elegante como ningún otro. Desde la obra se balanceaba tanto que los obreros lo apodaron Galloping Gertie, la Gertie Galopante.",
+    "El 7 de noviembre de 1940, cuatro meses después, un viento de unos 68 km/h lo hizo torcerse hasta que el tablero se partió y cayó al agua. En el derrumbe no murió ninguna persona, solo un perro. El desastre quedó filmado, y la película se volvió material de clase en escuelas de ingeniería de todo el mundo: la prueba de que un puente calculado para resistir el viento podía ser destruido por él de una manera que los cálculos de la época no preveían."
+  ],
+  "numeros": [
+    {"valor": "853 m", "rotulo": "de vano central, el tercer vano colgante más largo del mundo en 1940"},
+    {"valor": "2,4 m", "rotulo": "de altura de la viga que rigidizaba el tablero; el proyecto anterior preveía una armadura de 7,6 m"},
+    {"valor": "19 meses", "rotulo": "de obra, del 23/11/1938 al 30/06/1940"},
+    {"valor": "4 meses", "rotulo": "de vida, de la inauguración el 01/07/1940 al derrumbe el 07/11/1940"},
+    {"valor": "68 km/h", "rotulo": "de viento la mañana del derrumbe, fuerte, pero común en el estrecho"},
+    {"valor": "US$ 6,4 M", "rotulo": "de costo final, con fondos federales del New Deal"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "Unir Tacoma con la península de Kitsap, que dependía del transbordador: en 1939, el transbordador llevó 205.842 vehículos, un promedio de 564 por día. Un cruce ferroviario se había considerado ya en 1889, y la Cámara de Comercio de Tacoma financiaba estudios desde los años 1920.", "nota": "las cifras del transbordador vienen del departamento de transporte de Washington"},
+    {"item": "Quién lo quiso", "valor": "La Washington State Toll Bridge Authority, creada por la Legislatura estatal en enero de 1937 para construir puentes pagados con peaje. El dinero vino de la Public Works Administration, la agencia de obras públicas del New Deal, aprobado el 23/06/1938."},
+    {"item": "Proyecto", "valor": "El ingeniero de puentes del estado, Clark Eldridge, diseñó un puente con una armadura de rigidez de 7,6 m de altura, estimado en US$ 11 millones. Los fondos federales exigieron consultores externos, y Leon Moisseiff, de Nueva York, cambió la armadura por una viga de alma llena de 2,4 m, alargó el vano y bajó la estimación a unos US$ 7 millones."},
+    {"item": "Quién lo construyó", "valor": "La Pacific Bridge Company, de San Francisco, con la General Construction Company, de Seattle, y la Columbia Construction Company. El acero de la superestructura vino de Bethlehem Steel; el alambre de los cables, de John A. Roebling's Sons."},
+    {"item": "Plazo", "valor": "Obra iniciada el 23/11/1938 y terminada el 30/06/1940, en 19 meses. Inaugurado el 01/07/1940, ante 7 mil o 10 mil personas, según la fuente.", "nota": "el público de la inauguración difiere entre las fuentes"},
+    {"item": "Obreros", "valor": "Más de 200 hombres como cuadrilla habitual y unos 225 en los últimos meses, según el departamento de transporte del estado, con un salario promedio de US$ 1,35 por hora. Había una mujer, Marie Guske. El total de trabajadores que pasaron por la obra no se registró."},
+    {"item": "Muertes en la construcción", "valor": "Una, según el departamento de transporte de Washington: el carpintero Fred Wilde, que tropezó y cayó desde 3,7 m el 27/06/1940, cuatro días antes de la inauguración. Al día siguiente, el pintor Pete Kreller cayó 58 m al estrecho y sobrevivió."},
+    {"item": "Costo", "valor": "US$ 6,4 millones. La división entre donación y préstamo federal varía entre las fuentes: 45% a fondo perdido, según el estado; US$ 2,8 millones de donación y US$ 3,3 millones de préstamo, según una historia publicada por la ASCE. El peaje era de 75 centavos por auto en cada sentido.", "nota": "según el índice de precios al consumidor de EE. UU. (1940 = 14,0; 2025 = 321,9), US$ 6,4 millones equivalen a unos US$ 147 millones de 2025"},
+    {"item": "Medidas", "valor": "Vano central de 853 m y 1.810 m de longitud con los accesos. Ancho de 11,9 m entre los cables, con calzada de dos carriles. Torres de 129,5 m sobre las pilas. Relación entre la altura de la viga y el vano de 1 a 350, sin precedentes en la época."},
+    {"item": "El derrumbe", "valor": "El 07/11/1940, con viento de 68 km/h, el tablero empezó a torcerse, con hasta 8,5 m de desnivel entre los bordes. Hacia las 11 de la mañana, un tramo de 183 m del vano central se soltó y cayó desde casi 60 m al estrecho.", "nota": "la altura de la caída aparece como 59 o 58 m"},
+    {"item": "Víctimas del derrumbe", "valor": "Ninguna persona. Murió Tubby, el perro de la familia del periodista Leonard Coatsworth, que se quedó en el auto abandonado en medio del puente."},
+    {"item": "Causa", "valor": "Flameo torsional (flutter): una vibración autoexcitada, en la que la torsión del puente cambiaba el aire a su alrededor y el viento pasaba a empujar la torsión en el mismo sentido. La junta federal de investigación, formada por Othmar Ammann, Theodore von Kármán y Glenn Woodruff, señaló en 1941 la flexibilidad excesiva."},
+    {"item": "La pérdida", "valor": "Acuerdo de US$ 4 millones con las aseguradoras en agosto de 1941. El salvamento del acero, hasta mayo de 1943, dejó una pérdida de US$ 350.933.", "nota": "el valor del seguro viene del departamento de transporte del estado; la pérdida del salvamento aparece en más de una fuente"},
+    {"item": "El puente nuevo", "valor": "Abierto el 14/10/1950 sobre las pilas y anclajes de 1940, con una armadura alta y calada, probada antes en túnel de viento. Costó US$ 14.011.384,28. Tres o cuatro obreros murieron en la obra, según la fuente.", "nota": "la fecha está confirmada; el costo, de una sola fuente; las muertes difieren"},
+    {"item": "El segundo puente paralelo", "valor": "Abierto al tránsito el 16/07/2007, junto al de 1950. Costó US$ 849 millones y lleva el tránsito en dirección a Tacoma, con peaje; el de 1950 lleva el tránsito en sentido contrario, gratis."},
+    {"item": "Hoy", "valor": "Los restos de 1940 están en el fondo del estrecho y entraron en el Registro Nacional de Lugares Históricos de EE. UU. en 1992. El puente de 1950 tuvo una reparación de emergencia en una junta el 22/04/2026; el estado prevé cambiar las juntas grandes en 2027."}
+  ],
+  "historia": [
+    {
+      "titulo": "Un puente demasiado delgado",
+      "paragrafos": [
+        "El estrecho de Tacoma Narrows es un brazo del Puget Sound, en el estado de Washington, en el noroeste de Estados Unidos. De un lado está Tacoma; del otro, la península de Kitsap. Hasta 1940, el cruce se hacía en transbordador. Una autoridad estatal de peaje, creada en 1937, quedó a cargo de hacer el puente, y el dinero vino de la Public Works Administration, la agencia de obras públicas del New Deal.",
+        "El primer proyecto fue del ingeniero de puentes del estado, Clark Eldridge: un puente colgante con una armadura de acero de 7,6 m de altura bajo la calzada, para dar rigidez al tablero. Costaría US$ 11 millones. Los fondos federales, según el departamento de transporte del estado, llegaron con la exigencia de contratar consultores externos. El consultor de la superestructura fue Leon Moisseiff, de Nueva York, uno de los ingenieros de puentes colgantes más respetados del país, principal defensor en Estados Unidos de la teoría de la deflexión y consultor del Golden Gate, en San Francisco.",
+        "La teoría de la deflexión, que Moisseiff aplicaba, sostenía que, en un puente colgante largo, el propio peso de los cables y del tablero absorbe buena parte de las cargas, y por eso la viga puede ser más liviana y más flexible. Cambió la armadura de 7,6 m por una viga de chapa de acero de alma llena, de 2,4 m, alargó el vano a 853 m y bajó la estimación a unos US$ 7 millones. La relación entre la altura de la viga y el vano quedó en 1 a 350, sin precedentes en la época. El ancho, de 11,9 m entre los cables, era 1/72 del vano. Según el departamento de transporte del estado, el puente se calculó para aguantar el empuje lateral de un viento de 193 km/h."
+      ]
+    },
+    {
+      "titulo": "Diecinueve meses de obra",
+      "paragrafos": [
+        "La obra empezó el 23 de noviembre de 1938, con la Pacific Bridge Company, de San Francisco, al frente. El cajón de la pila este bajó 32 m por debajo del fondo del estrecho, y las dos pilas se posicionaron con anclas de concreto de 570 toneladas cada una. El 13 de noviembre de 1939, un terremoto de magnitud 6,2 sacudió la región sin dañar las torres. El hilado de los cables, con el alambre de Roebling's Sons, empezó en enero de 1940.",
+        "Según el departamento de transporte del estado, la cuadrilla superó los 200 hombres y llegó a unos 225 en los últimos meses, en su mayoría montadores de puentes itinerantes, con un salario promedio de US$ 1,35 por hora. Cuántos pasaron por la obra en total, nadie lo registró. El 27 de junio de 1940, cuatro días antes de la inauguración, el carpintero Fred Wilde tropezó, cayó desde 3,7 m y murió, la única muerte de la obra en el registro del estado. Al día siguiente, el pintor Pete Kreller, de 26 años, cayó 58 m al estrecho y sobrevivió con heridas leves.",
+        "El puente quedó listo el 30 de junio de 1940, en 19 meses, por US$ 6,4 millones, y lo inauguró al día siguiente el gobernador Clarence Martin. El peaje era de 75 centavos por auto en cada sentido."
+      ]
+    },
+    {
+      "titulo": "Gertie Galopante",
+      "paragrafos": [
+        "El tablero ya ondulaba antes de la inauguración. Según el departamento de transporte, fue a comienzos de mayo de 1940, mientras se colaba el concreto de la calzada, cuando los obreros empezaron a llamar al puente Galloping Gertie. Con viento moderado, las ondas subían y bajaban por la calzada; quien manejaba veía desaparecer y reaparecer el auto de adelante. Había quien cruzaba solo para sentirlo.",
+        "Los ingenieros intentaron sujetar el puente. Ataron los vanos laterales a bloques de concreto de 50 toneladas con cables de acero, que se rompieron; pusieron tirantes diagonales en el centro del vano y amortiguadores hidráulicos entre las torres y el tablero. El profesor F. Bert Farquharson, de la Universidad de Washington, estudió el puente con modelos a escala y propuso perforar las vigas, para que pasara el viento, o cubrirlas con carenados curvos de acero. Su estudio se entregó a comienzos de noviembre de 1940. No hubo tiempo."
+      ]
+    },
+    {
+      "titulo": "La mañana del 7 de noviembre",
+      "paragrafos": [
+        "La mañana del 7 de noviembre de 1940, el viento en el estrecho superaba los 60 km/h y llegó a 68 km/h. Según la cronología del departamento de transporte del estado, hacia las 10 el tablero dejó de subir y bajar y empezó a torcerse: las dos mitades del vano central giraban en sentidos opuestos, como si la calzada fuera una cinta, con hasta 8,5 m de diferencia de altura entre un borde y otro e inclinaciones de hasta 45 grados. Un ciclo completo tardaba unos cinco segundos.",
+        "El periodista Leonard Coatsworth, del Tacoma News Tribune, estaba en el puente con el auto y el perro de la familia, Tubby. Abandonó el auto y salió arrastrándose, a gatas la mayor parte del tiempo, a lo largo de unos 450 m. El profesor Farquharson, que filmaba el puente, intentó sacar al perro del auto y no lo logró. Hacia las 11, un tramo de 183 m del vano central se soltó y cayó desde casi 60 m al estrecho, llevándose el auto y a Tubby. No murió ninguna persona.",
+        "Barney Elliott, de una tienda de fotografía de Tacoma, filmó el puente de cerca mientras se torcía. Las imágenes dieron la vuelta al mundo; las películas rodadas aquella mañana, incluida la de Farquharson, siguen siendo hoy material de clase en escuelas de ingeniería."
+      ]
+    },
+    {
+      "titulo": "No fue resonancia",
+      "paragrafos": [
+        "La explicación que se difundió en los libros de texto de física es la resonancia: el viento habría golpeado al mismo ritmo que la frecuencia natural del puente, como quien empuja un columpio en el momento justo. En 1991, los ingenieros K. Yusuf Billah y Robert Scanlan publicaron en el American Journal of Physics un artículo que mostraba que esa versión no se sostiene. El viento turbulento no tiene un ritmo fijo. Y los remolinos que se desprenden detrás de la viga, los vórtices, en los que el propio Theodore von Kármán pensó al principio, se formaban con el viento de aquella mañana a razón de una vez por segundo, aproximadamente, mientras que la torsión que derribó el puente tardaba cinco segundos por ciclo.",
+        "Lo que derribó el puente, según la explicación aceptada hoy, fue el flameo torsional: cuando el tablero se torcía, cambiaba el ángulo con que el viento lo golpeaba, y la fuerza del viento pasaba a empujar la torsión en el mismo sentido en que ya iba. El puente, en movimiento, alimentaba su propio movimiento, hasta que el acero se rompió. Los vórtices pueden haber contribuido a las ondas verticales de los meses anteriores, pero no explican la torsión final. El debate técnico sobre los detalles continúa, pero la resonancia simple quedó descartada.",
+        "La junta designada por el gobierno federal, con Othmar Ammann, Theodore von Kármán y Glenn Woodruff, concluyó en 1941 que la causa principal había sido la flexibilidad excesiva del puente. Ingenieros estructurales evaluaron después que el proyecto original de Eldridge, con la armadura alta y calada, habría resistido aquel viento. La lección se volvió regla: desde entonces, todo puente colgante pasa por una prueba con modelo en túnel de viento antes de construirse."
+      ]
+    },
+    {
+      "titulo": "Dos puentes en lugar de uno",
+      "paragrafos": [
+        "El estado recibió US$ 4 millones de las aseguradoras en 1941 y recuperó 7 mil toneladas de chatarra de acero hasta 1943, con pérdida. Moisseiff, a quien dejaron de buscar para nuevos encargos, murió en 1943. Eldridge se fue a trabajar para la Marina en Guam y pasó tres años y medio como prisionero de guerra de los japoneses.",
+        "El puente nuevo, sobre las mismas pilas y anclajes, se abrió el 14 de octubre de 1950, tras 29 meses de obra y pruebas en túnel de viento en la Universidad de Washington. Tiene una armadura alta y calada, ranuras en el tablero para que pase el aire y amortiguadores hidráulicos. Costó US$ 14 millones, y la obra mató a tres o cuatro obreros, según la fuente. Recibió el apodo de Sturdy Gertie, la Gertie Robusta. En 2007 se abrió a su lado un segundo puente colgante, de US$ 849 millones. Los restos del primero siguen en el fondo del estrecho y, desde 1992, están protegidos como lugar histórico."
+      ]
+    },
+    {
+      "titulo": "Ochenta y cinco años después",
+      "paragrafos": [
+        "El derrumbe cumplió 85 años el 7 de noviembre de 2025. En 2026, el que da trabajo es el puente que reemplazó a la Gertie. El 22 de abril de 2026, el departamento de transporte de Washington cerró dos carriles del puente de 1950 para una reparación de emergencia en una junta de dilatación, las piezas que dejan que el tablero se encoja y se estire con la temperatura.",
+        "En septiembre de 2026, el propio departamento informó que tres de las cuatro juntas grandes cercanas a las torres llegaron al final de su vida útil: desde 2024 hubo diez reparaciones de emergencia en el puente, ocho de ellas en esas juntas. Un reemplazo parcial quedó programado para octubre de 2026, y el cambio completo para 2027, dentro de un programa de más de US$ 300 millones en conservación hasta 2031. El puente de 1950, hecho para no balancearse, necesita rodillas nuevas."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "El puente cayó por resonancia: el viento golpeó al ritmo de su frecuencia natural.",
+      "registro": "La literatura técnica descarta esa versión. El viento turbulento no tiene un ritmo fijo, y los vórtices que se desprendían de la viga tenían una frecuencia unas cinco veces mayor que la de la torsión que derribó el puente. La explicación aceptada es el flameo torsional, una vibración autoexcitada, como mostraron Billah y Scanlan en 1991."
+    },
+    {
+      "circula": "Cayó en medio de un huracán.",
+      "registro": "El viento de aquella mañana fue de unos 68 km/h, fuerte, pero común en el estrecho. El puente se había calculado para el empuje de un viento de 193 km/h. Lo que el cálculo no preveía era el efecto del viento sobre un tablero que se torcía."
+    },
+    {
+      "circula": "Nadie murió por culpa del puente, solo un perro.",
+      "registro": "En el derrumbe, efectivamente, no murió ninguna persona, y el perro Tubby murió en el auto abandonado. Pero el departamento de transporte del estado registra una muerte en la obra: el carpintero Fred Wilde, el 27 de junio de 1940."
+    },
+    {
+      "circula": "El proyectista era un aficionado.",
+      "registro": "Leon Moisseiff era uno de los ingenieros de puentes colgantes más respetados de Estados Unidos y fue consultor del Golden Gate. La tendencia a puentes cada vez más livianos y flexibles era de toda la profesión, que había olvidado los puentes derribados por el viento en el siglo XIX."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Por qué se cayó el puente de Tacoma Narrows?", "r": "Por flameo torsional: al torcerse, el tablero cambiaba el ángulo con que el viento lo golpeaba, y el viento pasaba a empujar la torsión en el mismo sentido, hasta que el acero se rompió. La junta federal de investigación señaló en 1941 la flexibilidad excesiva del puente, cuya viga tenía solo 2,4 m de altura."},
+    {"p": "¿El puente de Tacoma Narrows se cayó por resonancia?", "r": "No, según la explicación aceptada hoy. El viento turbulento no tiene un ritmo fijo, y los vórtices que se desprendían de la viga tenían una frecuencia unas cinco veces mayor que la de la torsión que derribó el puente, como mostraron Billah y Scanlan en 1991."},
+    {"p": "¿Cuándo se cayó el puente de Tacoma Narrows?", "r": "El 07/11/1940, cuatro meses después de la inauguración, con un viento de unos 68 km/h, fuerte, pero común en el estrecho. Hacia las 11, un tramo de 183 m del vano central se soltó y cayó al estrecho."},
+    {"p": "¿Murió alguien en el derrumbe del puente de Tacoma Narrows?", "r": "Ninguna persona. Murió Tubby, el perro del periodista Leonard Coatsworth, que se quedó en el auto abandonado en el puente. En la obra, el estado registra una muerte: el carpintero Fred Wilde, el 27/06/1940."},
+    {"p": "¿Cómo está hoy el puente de Tacoma Narrows?", "r": "Un puente nuevo, con armadura alta y calada y probado en túnel de viento, se abrió el 14/10/1950 sobre las mismas pilas, y otro, paralelo, en 2007. Los restos de 1940 siguen en el fondo del estrecho, protegidos como lugar histórico desde 1992."}
+  ],
+  "fontes": [
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: The machine\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Creating the Narrows\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Collapse\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Lessons from failure\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Aftermath\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: The 1940 Narrows Bridge\""},
+    {"texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Weird facts\""},
+    {"texto": "K. Y. Billah y R. H. Scanlan, \"Resonance, Tacoma Narrows bridge failure, and undergraduate physics textbooks\", American Journal of Physics, vol. 59, 1991"},
+    {"texto": "Tom Irvine, \"The Tacoma Narrows Bridge Failure\", 2009"},
+    {"texto": "Frank Griggs Jr., \"Tacoma Narrows Bridge Failure 1940\", Structure Magazine, 2022"},
+    {"texto": "American Society of Civil Engineers, \"Tacoma Narrows Bridges\" (Historic Civil Engineering Landmarks)"},
+    {"texto": "Priscilla Long, \"Tacoma Narrows Bridge collapses on November 7, 1940\", HistoryLink.org, 2003"},
+    {"texto": "Priscilla Long, \"Tacoma Narrows Bridge is dedicated on July 1, 1940\", HistoryLink.org, 2004"},
+    {"texto": "Priscilla Long, \"New Tacoma Narrows Bridge is dedicated on July 15, 2007\", HistoryLink.org, 2007"},
+    {"texto": "FOX 13 Seattle, \"Tacoma Narrows Bridge: 'Galloping Gertie' collapsed 85 years ago\", 07/11/2025"},
+    {"texto": "April Leigh y Cara Mitchell, \"Aging bridge joints: Sturdy Gertie in Tacoma needs a total knee replacement\", The WSDOT Blog, 28/09/2026"},
+    {"texto": "PNW Daily, \"Tacoma Narrows Bridge Lane Closures Ahead for Emergency Repairs\", 23/04/2026"},
+    {"texto": "Washington State Transportation Commission, \"2026 Annual Tolling Report & Tacoma Narrows Bridge Loan Update\", 2026"},
+    {"texto": "U.S. Bureau of Labor Statistics, índice de precios al consumidor (CPI-U), promedios anuales de 1940 y 2025"},
+    {"texto": "Wikipedia, \"Tacoma Narrows Bridge (1940)\" (punto de partida)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Fotograma antiguo en blanco y negro: la calzada del puente inclinada y torcida, con un auto detenido e inclinado en el medio, postes de luz torcidos y las péndolas verticales a los dos lados",
+      "legenda": "El tablero torciéndose la mañana del 7 de noviembre de 1940, visto desde la torre este, en un cuadro de la película de 16 mm del profesor F. Bert Farquharson, de la Universidad de Washington.",
+      "autor": "F. B. Farquharson, Universidad de Washington (reproducción: Historic American Engineering Record, Library of Congress)"
+    },
+    {
+      "alt": "Fotografía antigua: plaza de peaje con cuatro casetas bajo una marquesina con las palabras Stop, Pay, Toll, algunos autos de los años 1940 detenidos y la torre delgada del puente al fondo, entre la niebla",
+      "legenda": "La plaza de peaje y la torre del puente el 29 de agosto de 1940, dos meses después de la inauguración.",
+      "autor": "Informe final de proyecto y construcción del puente, de Clark H. Eldridge, 1941 (reproducción: Historic American Engineering Record, Library of Congress)"
+    },
+    {
+      "alt": "Fotograma antiguo en blanco y negro: la calzada del puente arqueada como una ola oscura, vista de cerca desde la torre, con el cable principal bajando en curva y la otra torre al fondo",
+      "legenda": "La calzada en ondas el día del derrumbe, vista de cerca desde una de las torres, en otro cuadro de la película de Farquharson.",
+      "autor": "F. B. Farquharson, Universidad de Washington (reproducción: Historic American Engineering Record, Library of Congress)"
+    },
+    {
+      "alt": "Fotografía en blanco y negro de un puente colgante largo sobre agua tranquila, con una torre reticulada a la izquierda en primer plano, la calzada apoyada en una armadura alta y la segunda torre a la derecha, a lo lejos",
+      "legenda": "El puente de 1950, construido sobre las pilas del anterior, fotografiado en 1993: en lugar de la viga delgada, una armadura alta y calada.",
+      "autor": "Jet Lowe, Historic American Engineering Record"
+    },
+    {
+      "alt": "Dos puentes colgantes paralelos sobre un estrecho de agua azul, bajo un cielo con nubes blancas, vistos desde una playa con vegetación; el más cercano tiene torres claras de concreto y el de atrás, torres verdes de acero",
+      "legenda": "Los dos puentes de hoy, en 2024: el de 2007, adelante, y el de 1950, atrás.",
+      "autor": "Bmzuckerman"
+    }
+  ]
+}

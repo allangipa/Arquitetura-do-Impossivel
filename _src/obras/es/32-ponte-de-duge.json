@@ -1,0 +1,144 @@
+{
+  "_nota": "Traducción fiel de ../32-ponte-de-duge.json. Campos fijos vienen del original.",
+  "obra": "Puente Duge",
+  "titulo_seo": "Puente Duge, el más alto del mundo durante nueve años",
+  "titulo_video": null,
+  "lugar": "Límite entre Duge, en el distrito de Shuicheng, Liupanshui, provincia de Guizhou, y Puli, en Xuanwei, provincia de Yunnan, China",
+  "periodo": "2013–2016",
+  "impossivel": "Tender una carretera de 720 metros de luz libre a 565 metros sobre un río, entre dos paredones de caliza llena de cavernas donde no había forma de levantar una pila desde el fondo ni, según el Economic Daily, un lugar seguro para anclar los cables de un puente colgante.",
+  "resumo": "Cómo China puso el Puente Duge a 565 metros sobre un río, entre Guizhou y Yunnan, y por qué el puente más alto del mundo durante nueve años es atirantado.",
+  "abertura": [
+    "En el límite entre las provincias de Guizhou y Yunnan, en el suroeste de China, la autopista G56, que va de Hangzhou, en el este, hasta Ruili, en la frontera con Myanmar, tenía que atravesar un desfiladero de paredones de hasta 500 metros. En auto, quien iba de Xuanwei a Liupanshui rodeaba la montaña y tardaba de cuatro a cinco horas, según la fuente.",
+    "La respuesta, abierta al tráfico el 29 de diciembre de 2016, fue un puente atirantado de 720 metros de vano central, con el tablero a 565 metros sobre el agua. De 2016 a 2025 fue el puente más alto del mundo. Y el detalle que casi nadie cuenta es lo que los ingenieros descartaron para llegar a él: el puente colgante, porque, según el Economic Daily, no había roca confiable donde sujetar los cables."
+  ],
+  "numeros": [
+    {"valor": "565 m", "rotulo": "del tablero al agua, el equivalente oficial a 200 pisos"},
+    {"valor": "720 m", "rotulo": "de vano central, sin ningún apoyo sobre el desfiladero"},
+    {"valor": "269 m", "rotulo": "de altura de la torre del lado de Guizhou"},
+    {"valor": "112 pares", "rotulo": "de tirantes, todos sujetos a las torres y a la viga, ninguno a la roca"},
+    {"valor": "264", "rotulo": "pilotes de cimentación, excavados a mano en la caliza llena de cavernas"},
+    {"valor": "2016–2025", "rotulo": "el período en que fue el puente más alto del mundo"}
+  ],
+  "ficha": [
+    {"item": "Nombre", "valor": "En chino, Primer Puente del Río Beipan (北盘江第一桥), o Puente del Beipan. Fuera de China, Puente Duge, por el nombre del pueblo del lado de Guizhou. Durante la obra, Yunnan propuso llamarlo Puente del Río Nizhu, el curso de agua que cruza, en la cuenca del Beipan.", "nota": "la disputa por el nombre solo aparece en la Wikipedia en chino, sin fuente primaria leída"},
+    {"item": "Por qué", "valor": "Completar el tramo entre Bijie y Duge de la autopista G56 Hangzhou–Ruili y unir Xuanwei, en Yunnan, con Liupanshui, en Guizhou. El viaje bajó a poco más de una hora.", "nota": "el tiempo antes del puente figura como más de 4 horas o como 5 horas, según la fuente"},
+    {"item": "Tipo", "valor": "Puente atirantado con viga continua en celosía de acero, en siete vanos de 80, 88, 88, 720, 88, 88 y 80 metros. Torres de concreto en forma de H."},
+    {"item": "Proyecto", "valor": "CCCC Highway Consultants, del grupo estatal China Communications Construction, con un equipo dirigido por Peng Yundong. La oficina recibió el encargo en 2009, según el Economic Daily.", "nota": "el año 2009 aparece en una sola fuente"},
+    {"item": "Quién lo construyó", "valor": "CCCC Second Harbor Engineering, que llevó adelante la obra del lado de Guizhou; el Guizhou Expressway Group figura como dueño de la obra. Las dos provincias pagaron juntas.", "nota": "el dueño de la obra aparece en una sola fuente"},
+    {"item": "Plazo", "valor": "Inicio a fines de 2012 o en 2013, según la fuente; vano central cerrado el 10 de septiembre de 2016; apertura al tráfico el 29 de diciembre de 2016, a las 9 horas.", "nota": "el Economic Daily da el 27/12/2012; el People's Daily y otros, 2013; hay quien cita 2011"},
+    {"item": "Altura", "valor": "565 metros del tablero al agua, o 565,4 metros en las fuentes oficiales más recientes. Las fuentes no miden desde el mismo punto: el Economic Daily mide hasta el agua en la estación seca, el gobierno de Guizhou habla del fondo del valle, y el Guinness del nivel medio de crecida.", "nota": "la cifra de 565 está confirmada; el punto de referencia difiere"},
+    {"item": "Medidas", "valor": "1.341,4 metros de largo y 720 metros de vano central. Torre de 269 metros del lado de Guizhou y de 247 metros del lado de Yunnan; su cima queda a unos 740 metros sobre el río.", "nota": "la torre de Yunnan aparece también con 246,5 y 248 metros"},
+    {"item": "Material", "valor": "Más de 24 mil toneladas de acero y unos 180 mil metros cúbicos de concreto, según el People's Daily; 112 pares de tirantes en abanico; 850 mil juegos de pernos de alta resistencia, según Jiemian."},
+    {"item": "Cimentación", "valor": "264 pilotes, excavados a mano porque la perforadora no podía trabajar en el karst. Casi todos atravesaron cavernas, y donde había filtraciones y arena movediza había que inyectar lechada mientras se excavaba. Pilotes de 40 metros, según el gobierno de Guizhou."},
+    {"item": "Obreros", "valor": "Ninguna fuente consultada publica el total de trabajadores. La única cifra es la de más de mil ingenieros y técnicos.", "nota": "la cifra de ingenieros y técnicos proviene de una sola fuente"},
+    {"item": "Muertes en la construcción", "valor": "Ninguna fuente consultada registra muertos ni heridos en la obra, y ninguna afirma que no hubo accidentes."},
+    {"item": "Costo", "valor": "Cerca de 1,03 mil millones de yuanes, o 1,028 mil millones, según la prensa china; también hay registro de 778,86 millones de yuanes. Ninguna fuente explica la diferencia, que puede ser la obra entera frente al puente solo.", "nota": "sin un costo nominal único, no hay conversión a valores de hoy"},
+    {"item": "Reconocimiento", "valor": "Medalla Gustav Lindenthal de la International Bridge Conference, en Estados Unidos, en mayo de 2018, y certificado Guinness de puente más alto del mundo en septiembre de 2018."},
+    {"item": "Lo que vino después", "valor": "Perdió el título el 28 de septiembre de 2025 ante el Huajiang Grand Canyon Bridge, también en Guizhou, con 625 metros. Desde entonces es el segundo puente más alto del mundo."}
+  ],
+  "historia": [
+    {
+      "titulo": "Un desfiladero en el límite",
+      "paragrafos": [
+        "El suroeste de China es karst: caliza disuelta por el agua a lo largo de millones de años, con paredones verticales, cavernas y ríos encajonados en el fondo de cañones. En Guizhou, una autopista que quisiera ir recta tendría que saltar de un paredón a otro. La G56, que une Hangzhou, en el este, con Ruili, en la frontera con Myanmar, llegaba allí al límite con Yunnan frente a un desfiladero de paredones de hasta 500 metros.",
+        "El puente sería la obra crítica del tramo entre Bijie y Duge, la que define el plazo de todo lo demás. La obra estaba a unos 1.500 metros de altitud, en una región donde las heladas, la niebla, las tormentas y la nieve son frecuentes, según el Economic Daily. Antes de fijar el lugar, un equipo pasó casi dos años midiendo el viento, cuenta el People's Daily, y el gobierno de Guizhou registra una torre de medición, una estación meteorológica y ensayos en túnel de viento. El estudio geológico llevó medio año, según la agencia Xinhua.",
+        "Guizhou y Yunnan se repartieron la cuenta. Según registros de la época reunidos en la enciclopedia china, Yunnan llegó a proponer el nombre Puente del Río Nizhu, el curso de agua que cruza, y Guizhou mantuvo Primer Puente del Beipan."
+      ]
+    },
+    {
+      "titulo": "El puente colgante que quedó en el papel",
+      "paragrafos": [
+        "Para salvar 720 metros de una vez, había dos caminos. Un puente colgante suspende el tablero de dos cables principales que pasan por encima de las torres y terminan sujetos en bloques de anclaje, macizos de concreto excavados en el terreno de cada orilla. Un puente atirantado prescinde de esos bloques: cada cable, el tirante, sale de la torre y va directo a la viga, y las fuerzas se cierran dentro de la propia estructura.",
+        "El equipo de proyecto consideró el colgante, cuenta el Economic Daily, y lo descartó. La gran excavación del anclaje afectaría la estabilidad y la seguridad de las laderas, en una orilla de paredones de 500 metros. Y el lecho era de carbonato soluble, cortado por fisuras de disolución: sería difícil encontrar un lugar donde el anclaje pudiera confiar en la roca. Para vanos de 500 a 800 metros en montaña, concluyeron, el atirantado con celosía de acero también salía más barato.",
+        "Por eso la imagen que circula, de cables que se hunden decenas de metros en la roca, describe justamente el puente que no se hizo. En el Puente Duge, los 112 pares de tirantes salen de dos torres de concreto, una de 269 metros del lado de Guizhou y otra de unos 247 metros del lado de Yunnan, y terminan sujetos a la celosía. Ninguno toca el suelo."
+      ]
+    },
+    {
+      "titulo": "Excavar a mano sobre cavernas",
+      "paragrafos": [
+        "Lo que de verdad bajó decenas de metros en la roca fue la cimentación. Según el People's Daily, el puente tiene 264 pilotes, y la perforadora no lograba trabajar en el karst: las cavernas eran tantas y tan imprevisibles que la salida fue excavar a mano. Casi todos los pilotes atravesaron cavernas. El peor caso era encontrar filtraciones con arena movediza, y entonces había que inyectar lechada para consolidar el terreno mientras se excavaba. Los pilotes tenían 40 metros, según el gobierno de Guizhou.",
+        "Antes de eso hubo que subir la montaña. La obra abrió unos 23 kilómetros de accesos y una línea eléctrica de casi cien postes, en un trabajo de más de tres meses. Un transformador de más de una tonelada fue llevado cuesta arriba por 32 obreros, en casi un mes, según el Economic Daily. El subgerente de la obra, Yu Wenhao, gastó tres pares de zapatos subiendo y bajando a pie durante la apertura de los accesos, cuenta el People's Daily.",
+        "Las torres se levantaron con concreto autocompactante de alto desempeño, bombeado hasta 269 metros de altura. Pasados los 230 metros, la dosificación del concreto tenía que ajustarse casi cada 20 metros de subida, cuenta el People's Daily."
+      ]
+    },
+    {
+      "titulo": "Dos brazos sobre el vacío",
+      "paragrafos": [
+        "Sin poder apoyar nada en el fondo del desfiladero, la viga solo podía nacer de los bordes. Los tramos laterales, sobre tierra firme, fueron empujados hasta su posición, un método que el gobierno de Guizhou describe como aplicado por primera vez en un puente atirantado. El vano central creció en voladizo desde las dos torres, segmento a segmento, cada uno colgado de su par de tirantes antes de que avanzara el siguiente.",
+        "Para montar esos segmentos, CCCC Second Harbor Engineering usó un método en el que cada pieza se llevaba a lo largo de la viga ya terminada y se izaba en la punta. Cada segmento estándar llevaba cuatro días, la mitad del ciclo con la grúa de tablero convencional, y la obra ganó tres meses, según el gobierno de Guizhou y el perfil del ingeniero jefe Liao Wanhui, que entonces tenía 30 años. Fotos de julio de 2016 muestran los dos brazos rojos de celosía avanzando uno hacia el otro sobre el cañón, todavía separados.",
+        "Se encontraron el 10 de septiembre de 2016. La precisión exigida en la junta de dilatación da la medida del cuidado: la diferencia de altura entre las vigas centrales y las de borde tenía que quedar dentro de medio milímetro, por encima o por debajo, o un cuarto del grosor de una moneda, en palabras del Economic Daily. El puente se abrió al tráfico el 29 de diciembre de 2016."
+      ]
+    },
+    {
+      "titulo": "Lo que no quedó registrado",
+      "paragrafos": [
+        "La cuenta de la obra no cierra en una sola cifra. La prensa china habla de cerca de 1,03 mil millones de yuanes de inversión total, y otro registro da 778,86 millones. Ninguna fuente consultada explica la diferencia, que puede ser la del proyecto entero frente a la del puente aislado. Sin un valor nominal confiable, no hay cómo llevarlo a dinero de hoy.",
+        "Tampoco existe el total de trabajadores. La única cifra publicada es la de más de mil ingenieros y técnicos, según Jiemian, que no cuenta a los obreros. Y no hay registro de muertos ni heridos en la obra en ninguna fuente consultada, ni oficial, ni disputado, ni la afirmación contraria de que no hubo accidentes. Para una obra de 2016, el silencio dice más sobre lo que se publica que sobre lo que pasó."
+      ]
+    },
+    {
+      "titulo": "Nueve años de récord",
+      "paragrafos": [
+        "En la apertura, la prensa china anunció que el puente superaba los 560 metros del puente del río Sidu, en Hubei. La comparación depende de dónde se mida: el investigador estadounidense Eric Sakowski, que mantiene el principal catálogo de puentes altos, mide el Sidu en 496 metros hasta el agua, y con esa regla el Puente Duge fue el primer cruce del mundo en pasar de los 500 metros. En 2018 llegaron el certificado Guinness y la Medalla Gustav Lindenthal, uno de los principales premios internacionales de puentes.",
+        "El récord duró nueve años. El 28 de septiembre de 2025, el Huajiang Grand Canyon Bridge, también en Guizhou, abrió con 625 metros del tablero al agua y 1.420 metros de vano. Es un puente colgante, justamente el tipo que el Puente Duge descartó. Un año después, en septiembre de 2026, Xinhua contaba más de 3 millones de visitas al complejo turístico montado alrededor del nuevo récord.",
+        "Guizhou tiene casi la mitad de los cien puentes más altos del mundo, según la agencia Xinhua en 2025. El Puente Duge, segundo de la lista desde 2025, sigue llevando la G56 sobre el mismo desfiladero, y el pueblo de Duge se convirtió en mirador, con posadas abiertas por los vecinos; uno de ellos le contó a Xinhua que antes tardaba cuatro horas en llegar a la ciudad."
+      ]
+    }
+  ],
+  "mitos": [
+    {"circula": "Los cables del puente se hunden decenas de metros en la roca.", "registro": "El Puente Duge es atirantado: los 112 pares de tirantes terminan en las torres y en la viga, ninguno en la roca. El anclaje en roca es propio del puente colgante, y el proyecto colgante se descartó justamente porque la excavación del anclaje amenazaría la estabilidad de los paredones de caliza fisurada, según el Economic Daily. Lo que bajó en la roca fueron los 264 pilotes de cimentación, excavados a mano."},
+    {"circula": "El cañón tiene 565 metros de profundidad.", "registro": "Los 565 metros van del tablero hasta el agua. El borde de los paredones queda por debajo del tablero, y la cima de las torres llega a unos 740 metros sobre el río."},
+    {"circula": "Es el puente más alto del mundo.", "registro": "Lo fue, del 29 de diciembre de 2016 al 28 de septiembre de 2025. Desde entonces es el segundo, detrás del Huajiang Grand Canyon Bridge, de 625 metros, también en Guizhou."},
+    {"circula": "Batió el récord anterior por apenas cinco metros.", "registro": "Los 560 metros atribuidos al puente del río Sidu, en China, son de la prensa china. Medido hasta el agua, el Sidu tiene 496 metros, según el catálogo HighestBridges; otras fuentes dan 500 o 550 metros, sin decir desde dónde miden."}
+  ],
+  "perguntas": [
+    {"p": "¿Cuál es la altura del Puente Duge?", "r": "El tablero está a 565 metros sobre el agua, o 565,4 metros en las fuentes oficiales más recientes; las fuentes no miden desde el mismo punto de referencia. La cima de las torres llega a unos 740 metros sobre el río."},
+    {"p": "¿El Puente Duge sigue siendo el puente más alto del mundo?", "r": "No. Fue el más alto del 29 de diciembre de 2016 al 28 de septiembre de 2025, cuando perdió el título ante el Huajiang Grand Canyon Bridge, también en Guizhou, con 625 metros. Desde entonces es el segundo puente más alto del mundo."},
+    {"p": "¿Dónde está el Puente Duge?", "r": "En el límite entre las provincias de Guizhou y Yunnan, en el suroeste de China, entre Duge, en Liupanshui, y Puli, en Xuanwei. Lleva la autopista G56 sobre un desfiladero y, en chino, se llama Primer Puente del Río Beipan."},
+    {"p": "¿Cómo se construyó el Puente Duge?", "r": "Es un puente atirantado: el vano central de 720 metros creció en voladizo desde las dos torres, segmento a segmento, hasta que los dos brazos se encontraron el 10 de septiembre de 2016. Los 264 pilotes de cimentación se excavaron a mano, porque la perforadora no podía trabajar en la caliza llena de cavernas."},
+    {"p": "¿Cuánto costó el Puente Duge?", "r": "Las fuentes difieren: cerca de 1,03 mil millones de yuanes, según la prensa china, o 778,86 millones de yuanes, en otro registro. Ninguna fuente explica la diferencia, que puede ser la del proyecto entero frente a la del puente aislado."}
+  ],
+  "fontes": [
+    {"texto": "Departamento de Transporte de la Provincia de Guizhou, \"杭瑞高速贵州段北盘江大桥建成通车\", 30/12/2016"},
+    {"texto": "Departamento de Transporte de la Provincia de Guizhou, entrevista sobre la tecnología de construcción del puente, 09/10/2016"},
+    {"texto": "Zhao Hao, \"世界第一高桥'炼'成记\", People's Daily, edición internacional, 01/12/2023"},
+    {"texto": "Wu Bingze y Wang Xinwei, \"世界第一高桥见证中国质量\", Economic Daily, 08/05/2019"},
+    {"texto": "Xinhua, \"北盘江大桥：让天堑变通途的'世界高度'\", 23/09/2022"},
+    {"texto": "China Daily, \"Beipanjiang set Guinness record as highest bridge\", 20/09/2018"},
+    {"texto": "Guinness World Records, \"Highest cable-stayed bridge\""},
+    {"texto": "Jiemian, \"这架连接云贵两省的全球第一高桥\", 2017"},
+    {"texto": "Sina, perfil del ingeniero jefe Liao Wanhui, 10/01/2017"},
+    {"texto": "Daily Economic News, vía 21jingji, sobre la inversión y la obra conjunta, 02/01/2017"},
+    {"texto": "Eric Sakowski, HighestBridges.com, \"Beipanjiang Bridge Duge\""},
+    {"texto": "Xinhua, \"World's tallest bridge opens to traffic in southwest China's Guizhou\", 28/09/2025"},
+    {"texto": "Xinhua, \"世界第一高桥通车一年 变身热门文旅打卡地\", 28/09/2026"},
+    {"texto": "Wikimedia Commons, \"Copyright rules by territory/China\" (libertad de panorama)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Vista aérea de un puente atirantado con viga de celosía roja entre dos torres blancas, que pasa muy por encima de un desfiladero verde, con un río estrecho en el fondo",
+      "legenda": "El Puente Duge visto desde un dron, con el río cientos de metros por debajo del tablero.",
+      "autor": "Glabb"
+    },
+    {
+      "alt": "Desfiladero cubierto de vegetación con dos torres blancas en los bordes y, saliendo de cada una, un brazo de celosía roja que avanza sobre el vacío, todavía sin encontrarse",
+      "legenda": "Julio de 2016: los dos brazos del vano central avanzan en voladizo desde las torres, dos meses antes de encontrarse.",
+      "autor": "Eric Sakowski (HighestBridges)"
+    },
+    {
+      "alt": "Foto vertical de un valle profundo con un río turbio en el fondo y, allá arriba, las dos torres y los brazos de celosía del puente en construcción",
+      "legenda": "Desde la ladera del valle, en julio de 2016: el río allá abajo y el puente todavía abierto en lo alto.",
+      "autor": "Eric Sakowski (HighestBridges)"
+    },
+    {
+      "alt": "Vista aérea cercana de una torre de concreto en forma de H con abanicos de cables blancos sujetos a la viga de celosía naranja, junto a un paredón de roca",
+      "legenda": "Una de las torres y los tirantes en abanico sujetos a la viga de celosía, al borde del paredón.",
+      "autor": "Glabb"
+    },
+    {
+      "alt": "Puente atirantado de torres blancas y viga roja iluminado por el sol bajo, con montañas azuladas al fondo y casas en la ladera en primer plano",
+      "legenda": "El puente al atardecer, en diciembre de 2018.",
+      "autor": "ShakyIsles"
+    }
+  ]
+}

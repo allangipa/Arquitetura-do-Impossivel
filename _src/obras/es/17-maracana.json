@@ -1,0 +1,174 @@
+{
+  "_nota": "Traducción fiel de ../17-maracana.json. Campos fijos vienen del original.",
+  "obra": "Estadio Maracaná",
+  "titulo_seo": "Cómo se construyó el estadio Maracaná (1948–1950)",
+  "titulo_video": null,
+  "lugar": "Barrio de Maracanã, Río de Janeiro, estado de Río de Janeiro, Brasil",
+  "periodo": "1948–1950",
+  "impossivel": "Levantar en menos de dos años, para un Mundial con fecha fija, un anillo de concreto para más de 150 mil personas cubierto por una marquesina en voladizo sin un solo pilar debajo.",
+  "resumo": "Cómo Río alzó el Maracaná en menos de dos años, el mayor estadio de su época, para el Mundial de 1950, y por qué derribó su marquesina sin pilares en 2011.",
+  "abertura": [
+    "En 1946, Brasil fue elegido sede del Mundial, y Río de Janeiro, entonces capital del país, no tenía dónde jugar la final. La alcaldía del Distrito Federal decidió construir, en el terreno de un antiguo hipódromo en el barrio de Maracanã, en la Zona Norte de la ciudad, un estadio proyectado para 155.250 personas.",
+    "La obra comenzó en agosto de 1948 y el estadio se inauguró el 16 de junio de 1950, ocho días antes del inicio del Mundial. No estaba terminado: la gran marquesina de concreto armado, un anillo en voladizo sin columnas debajo, todavía estaba apoyada en andamios cuando rodó la pelota."
+  ],
+  "numeros": [
+    {"valor": "155.250", "rotulo": "lugares previstos en el proyecto, entre asientos, lugares de pie y asientos vitalicios"},
+    {"valor": "1948–1950", "rotulo": "de la obra iniciada en agosto de 1948 a la inauguración el 16/06/1950"},
+    {"valor": "173.850", "rotulo": "espectadores con entrada pagada en la final del Mundial de 1950, el público oficial; las estimaciones superan los 199 mil"},
+    {"valor": "80 mil m³", "rotulo": "de concreto y 500 mil bolsas de cemento en la obra original"},
+    {"valor": "3", "rotulo": "muertos y 82 heridos cuando cedió una baranda de la gradería, el 19/07/1992"},
+    {"valor": "2011", "rotulo": "el año en que se demolió la marquesina original de concreto"}
+  ],
+  "ficha": [
+    {"item": "Por qué", "valor": "Recibir el Mundial de 1950, que la FIFA le otorgó a Brasil en 1946. Río de Janeiro era la capital del país y no tenía un estadio a la altura de una final."},
+    {"item": "Quién lo quiso", "valor": "La alcaldía del Distrito Federal, bajo la gestión de Ângelo Mendes de Moraes, empujada por la campaña del periodista Mário Filho. El concejal Ary Barroso defendió el terreno del Derby Club, en Maracanã; Carlos Lacerda prefería Jacarepaguá.", "nota": "la defensa de Ary Barroso la registran varias fuentes; la preferencia de Carlos Lacerda por Jacarepaguá, una sola; el estadio lleva el nombre de Mário Filho desde 1966"},
+    {"item": "Proyecto", "valor": "Un grupo de arquitectos brasileños que incluye a Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro y Miguel Feldman; algunas fuentes agregan a Waldir Ramos y Oscar Valdetaro.", "nota": "la lista de autores tiene cinco o siete nombres, según la fuente"},
+    {"item": "Cálculo de la marquesina", "valor": "El ingeniero Antônio Alves de Noronha, uno de los nombres del concreto armado en Brasil, integró el equipo del estadio. Según su familia, el cálculo estructural de la marquesina fue suyo.", "nota": "la participación en el equipo la registra la Academia Nacional de Ingeniería de Brasil; el cálculo de la marquesina, su nieto, en un reportaje de la Agência Pública"},
+    {"item": "Plazo", "valor": "Primera piedra el 20/01/1948; obra iniciada en agosto de 1948 (el día 2 o el 10, según la fuente); inauguración el 16/06/1950 y primer partido el día 17. La marquesina seguía apuntalada durante el Mundial, y la conclusión total se fecha en 1965.", "nota": "el día de inicio y el año de conclusión vienen de fuentes que difieren o no se confirman entre sí"},
+    {"item": "Obreros", "valor": "Según el Archivo Nacional de Brasil, 3.500 por día, hasta 5 mil en el auge y unos 11 mil en total a lo largo de la obra. Otras fuentes hablan de 2.800, o de 1.500 más 2.000 en los últimos meses. La jornada y el salario no quedaron registrados en las fuentes consultadas."},
+    {"item": "Muertes en la construcción", "valor": "Ninguna fuente consultada da número ni nombres de muertos o heridos en la obra de 1948 a 1950."},
+    {"item": "Costo", "valor": "Circulan estimaciones de 200 millones y de 250 millones de cruzeiros, ninguna con documento de origen. Según una de las fuentes, parte del dinero vino de la venta anticipada de 30 mil asientos vitalicios.", "nota": "sin fuente primaria, el valor no se convierte a moneda actual"},
+    {"item": "Medidas y material", "valor": "Ejes de 317 × 279 m y 32 m de altura. 80 mil m³ de concreto, 500 mil bolsas de cemento y unas 10 mil toneladas de hierro."},
+    {"item": "La marquesina", "valor": "Un anillo de concreto armado en voladizo sobre la gradería superior, sin columnas debajo. Fuentes de ingeniería extranjeras dan unos 30 m de voladizo.", "nota": "la ausencia de pilares la confirman varias fuentes; la medida del voladizo, solo fuentes de divulgación técnica"},
+    {"item": "Público de 1950", "valor": "En la final Brasil 1 × 2 Uruguay, el 16/07/1950, el público oficial fue de 173.850 espectadores con entrada pagada. Las estimaciones que suman a quienes entraron sin entrada van de 199.854 a 210 mil."},
+    {"item": "1992", "valor": "El 19/07/1992, antes de la final del Campeonato Brasileño entre Flamengo y Botafogo, una baranda de protección de la gradería cedió en unos 13 m. Tres hinchas murieron y 82 resultaron heridos. El peritaje señaló barandas mal instaladas, piezas corroídas y sobrecupo.", "nota": "una fuente en inglés habla de 50 heridos"},
+    {"item": "Declaratoria de patrimonio", "valor": "Inscrito por el Iphan en el Libro del Registro Arqueológico, Etnográfico y Paisajístico en 2000."},
+    {"item": "Reforma de 2010 a 2013", "valor": "Para el Mundial de 2014, la marquesina se demolió en 2011 y se reemplazó por una cubierta de membrana sobre una estructura de cables; los dos anillos de graderías se convirtieron en uno. Reabierto el 02/06/2013. El costo supera los R$ 1.000 millones: R$ 1.200 millones según el Tribunal de Cuentas del Estado, que señaló R$ 211 millones de sobreprecio; más de R$ 1.300 millones según la Agência Pública."},
+    {"item": "Concesión y venta", "valor": "Administrado por Flamengo y Fluminense, mediante un contrato de 20 años firmado en septiembre de 2024. En octubre de 2025, la comisión de Constitución y Justicia de la Asamblea de Río incluyó el Complejo del Maracanã en la lista de inmuebles que el Estado puede vender; la votación en el pleno se aplazó para 2026."}
+  ],
+  "historia": [
+    {
+      "titulo": "Un Mundial sin estadio",
+      "paragrafos": [
+        "Cuando la FIFA confirmó a Brasil como sede del Mundial, en 1946, Río de Janeiro era la capital del país y no tenía un estadio a la altura de una final mundialista. El periodista Mário Filho, del Jornal dos Sports, hizo del nuevo estadio una campaña, y la alcaldía del Distrito Federal asumió la obra.",
+        "La pelea siguiente fue por el lugar. El concejal y compositor Ary Barroso defendía el terreno del Derby Club, donde había carreras de caballos, en el barrio de Maracanã; según una investigación de historia del fútbol, Carlos Lacerda quería el estadio en Jacarepaguá. Ganó el Derby. La construcción se aprobó en noviembre de 1947, y la primera piedra se colocó el 20 de enero de 1948."
+      ]
+    },
+    {
+      "titulo": "Un anillo para 155 mil",
+      "paragrafos": [
+        "El proyecto, de un grupo de arquitectos brasileños que incluye a Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro y Miguel Feldman, preveía 155.250 lugares: 93 mil asientos, 31 mil lugares de pie, 30 mil asientos vitalicios, 500 lugares en el palco de honor y 250 palcos. Los vitalicios se vendieron por adelantado y, según una de las fuentes, ayudaron a pagar la obra.",
+        "La forma era una elipse de 317 por 279 metros y 32 metros de altura, toda de concreto armado, con dos anillos de graderías. Sobre el anillo superior, el diseño pedía una marquesina continua sujeta solo por la parte de atrás, en voladizo, sin ninguna columna que estorbara la vista del campo. Fuentes de ingeniería extranjeras le dan a esa marquesina unos 30 metros de voladizo. Según la familia del ingeniero Antônio Alves de Noronha, que integró el equipo del estadio, fue él quien hizo su cálculo estructural."
+      ]
+    },
+    {
+      "titulo": "Veintidós meses de concreto",
+      "paragrafos": [
+        "La obra comenzó en agosto de 1948. Según el Archivo Nacional, en el primer reclutamiento, el 11 de junio de ese año, se presentaron 200 candidatos en el Derby; después, la obra llegó a 3.500 trabajadores por día y 5 mil en el auge, con un total estimado de 11 mil al final. Otras fuentes hablan de cifras menores, de 2.800 o de 1.500 más otros 2.000 en los meses finales. Cuántos se hirieron o murieron, las fuentes consultadas no lo registran.",
+        "Fueron 500 mil bolsas de cemento, 80 mil metros cúbicos de concreto y unas 10 mil toneladas de hierro. La marquesina solo empezó a tomar forma en febrero de 1950. Según la revista Grandes Construções, el responsable de la obra, el coronel Herculano Gomes, habría mandado agregar al concreto una resina para acelerar el secado. Según el recuerdo de la familia de Noronha, obreros e ingenieros tenían miedo de quedarse bajo ese techo sin pilares.",
+        "El estadio se inauguró el 16 de junio de 1950, con el presidente Eurico Gaspar Dutra y el alcalde Mendes de Moraes. El primer partido, al día siguiente, fue entre selecciones juveniles de Río y de São Paulo. El Mundial comenzó el 24 de junio. La marquesina seguía apoyada en andamios."
+      ]
+    },
+    {
+      "titulo": "El día más lleno",
+      "paragrafos": [
+        "El 16 de julio de 1950, Uruguay le ganó a Brasil 2 a 1 en el partido decisivo del Mundial. El público oficial fue de 173.850 espectadores con entrada pagada; sumando a quienes entraron sin entrada, las estimaciones van de 199.854 a 210 mil personas. Guinness registra el partido como el de mayor público en la historia de los Mundiales.",
+        "No fue, sin embargo, el mayor público pagante del propio estadio. Ese récord es del 31 de agosto de 1969, cuando 183.341 personas pagaron para ver a Brasil ganarle 1 a 0 a Paraguay en las eliminatorias. En un Fla-Flu de diciembre de 1963, según el Archivo Nacional, había 194.603 personas, el mayor público entre clubes. En 1966, el estadio recibió el nombre de Jornalista Mário Filho."
+      ]
+    },
+    {
+      "titulo": "La baranda de 1992",
+      "paragrafos": [
+        "El 19 de julio de 1992, unos 20 minutos antes de la final del Campeonato Brasileño entre Flamengo y Botafogo, la baranda de protección del primer escalón de la gradería del sector norte, donde estaba la hinchada de Flamengo, cedió en un tramo de unos 13 metros. Los hinchas cayeron al sector de abajo. Murieron Frederico Castilho de Oliveira, de 16 años, Cláudio José Rocha Galda, de 17, y Sérgio de Souza Marques, de 25; 82 personas resultaron heridas.",
+        "El peritaje señaló barandas mal instaladas, piezas corroídas por la oxidación y sobrecupo. El estadio fue clausurado y solo volvió a recibir partidos meses después. Vinieron reformas en serie: asientos en las graderías para el Mundial de Clubes de 2000, año en que el Iphan lo declaró patrimonio, según la revista Vitruvius por su valor etnográfico; y el fin de la geral, la zona de pie a ras del campo, reemplazada por asientos en 2005, en la preparación para los Juegos Panamericanos de 2007."
+      ]
+    },
+    {
+      "titulo": "La marquesina que cayó a propósito",
+      "paragrafos": [
+        "Para el Mundial de 2014, el gobierno del Estado decidió rehacer el estadio por dentro. Los dos anillos de graderías se convirtieron en uno, y la marquesina de 1950, con fisuras, armaduras corroídas y concreto abombado, entró en debate. Un informe técnico de Coppetec, de la Universidad Federal de Río de Janeiro (UFRJ), recomendó demolerla por costo-beneficio. La ingeniera española María del Carmen Andrade, contratada por el propio gobierno, concluyó que se podía reparar, con una durabilidad de 10 a 20 años. En abril de 2011, la superintendencia del Iphan en Río autorizó la demolición, y en mayo las máquinas empezaron a cortar el concreto en piezas de 20 toneladas.",
+        "En su lugar quedó una cubierta de 46.500 metros cuadrados de membrana de fibra de vidrio revestida de PTFE, proyectada por el estudio alemán schlaich bergermann partner, sostenida por un anillo de compresión y tres anillos de tracción apoyados sobre la estructura antigua. El estadio reabrió el 2 de junio de 2013, con Brasil 2 × 2 Inglaterra. La reforma, del consorcio Odebrecht, Andrade Gutierrez y Delta, costó R$ 1.200 millones según el Tribunal de Cuentas del Estado, que señaló R$ 211 millones de sobreprecio; la Agência Pública habla de más de R$ 1.300 millones."
+      ]
+    },
+    {
+      "titulo": "¿En venta?",
+      "paragrafos": [
+        "Flamengo y Fluminense administran el Maracaná desde 2019, primero de forma provisoria; en septiembre de 2024, firmaron con el Estado un contrato de concesión de 20 años, que incluye el Maracanãzinho. El 22 de octubre de 2025, la comisión de Constitución y Justicia de la Asamblea Legislativa de Río incluyó el Complejo del Maracanã en la lista de inmuebles que el gobierno del Estado puede vender para hacer frente a su deuda con la Unión; los diputados estimaron su valor en unos R$ 2.000 millones. En noviembre, la votación en el pleno se aplazó para 2026.",
+        "Mientras tanto, el campo también cambia. En septiembre de 2026, el consorcio de los dos clubes anunció que, después del fin del Campeonato Brasileño, el césped natural dará paso a un césped híbrido, con fibras sintéticas, para aguantar la seguidilla de partidos y las lluvias. El estadio que se terminó con la cubierta todavía apuntalada perdió la cubierta original en 2011 y, en 2025, entró en la lista de inmuebles que el Estado puede vender."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "El Maracaná se construyó para 200 mil personas.",
+      "registro": "El proyecto preveía 155.250 lugares, sumando asientos, lugares de pie, asientos vitalicios, palco de honor y palcos. Los 200 mil son el aforo estimado de días de partido, con gente que entró sin entrada."
+    },
+    {
+      "circula": "La final de 1950 es el récord de público pagante del Maracaná.",
+      "registro": "El público oficial de la final de 1950 fue de 173.850 espectadores con entrada pagada. El récord de público pagante del estadio es de Brasil 1 × 0 Paraguay, el 31/08/1969, con 183.341. El partido de 1950 es el de mayor público en la historia de los Mundiales."
+    },
+    {
+      "circula": "El estadio estaba terminado para el Mundial de 1950.",
+      "registro": "Se inauguró incompleto: la marquesina de concreto seguía apuntalada sobre andamios durante el Mundial, y la conclusión total de la obra se fecha en 1965."
+    },
+    {
+      "circula": "La marquesina se demolió porque se iba a caer.",
+      "registro": "Los informes técnicos difirieron. Coppetec, de la UFRJ, recomendó demolerla por costo-beneficio; la especialista española contratada por el gobierno del Estado concluyó que la estructura podía repararse, con una vida útil de 10 a 20 años."
+    }
+  ],
+  "perguntas": [
+    {"p": "¿Cuándo se construyó el estadio Maracaná?", "r": "Entre 1948 y 1950, para el Mundial. La obra comenzó en agosto de 1948 y el estadio se inauguró el 16/06/1950, ocho días antes del inicio del Mundial, todavía con la marquesina apoyada en andamios; la conclusión total se fecha en 1965."},
+    {"p": "¿Cuál era la capacidad del Maracaná en 1950?", "r": "El proyecto preveía 155.250 lugares, entre asientos, lugares de pie, asientos vitalicios, palco de honor y palcos. En la final del Mundial de 1950, el público oficial fue de 173.850 espectadores con entrada pagada, y las estimaciones que suman a quienes entraron sin entrada van de 199.854 a 210 mil."},
+    {"p": "¿Quién diseñó el estadio Maracaná?", "r": "Un grupo de arquitectos brasileños que incluye a Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro y Miguel Feldman; algunas fuentes agregan a Waldir Ramos y Oscar Valdetaro. Según la familia del ingeniero Antônio Alves de Noronha, el cálculo de la marquesina fue suyo."},
+    {"p": "¿Cuántos obreros trabajaron en la construcción del Maracaná?", "r": "Las fuentes difieren. Según el Archivo Nacional de Brasil, fueron 3.500 por día, hasta 5 mil en el auge y unos 11 mil en total; otras fuentes hablan de 2.800, o de 1.500 más 2.000 en los últimos meses. Ninguna fuente consultada registra muertos o heridos en la obra."},
+    {"p": "¿Por qué se demolió la marquesina del Maracaná?", "r": "En la reforma para el Mundial de 2014, con fisuras, armaduras corroídas y concreto abombado, la marquesina de 1950 se demolió en 2011. Los informes técnicos difirieron: Coppetec, de la UFRJ, recomendó demolerla por costo-beneficio, y una especialista contratada por el gobierno concluyó que podía repararse."}
+  ],
+  "fontes": [
+    {"texto": "Arquivo Nacional (Archivo Nacional de Brasil), exposición virtual “Histórias do Maracanã antigo”"},
+    {"texto": "Rogério Daflon, “Anatomia de um crime”, Agência Pública, 23/03/2017"},
+    {"texto": "“Maracanã: destruir ou preservar”, Projetos 133.08, Vitruvius, 2012"},
+    {"texto": "Academia Nacional de Ingeniería de Brasil, “Antônio Alves de Noronha”"},
+    {"texto": "Revista Grandes Construções, “Maracanã 1950: a história da construção se repetiu depois de 63 anos”"},
+    {"texto": "Votorantim Cimentos, “Maracanã, o gigante das arquibancadas”"},
+    {"texto": "João Guilherme Vargas Netto, “A construção do Maracanã”, 04/02/2014"},
+    {"texto": "Designing Buildings Wiki, “Maracana Stadium”"},
+    {"texto": "schlaich bergermann partner, “Stadium Maracanã (Estádio Jornalista Mário Filho)”"},
+    {"texto": "Revista O Empreiteiro, “Coberturas do Maracanã e do Mineirão ganham soluções diferentes”"},
+    {"texto": "“Cobertura do Maracanã é demolida com sistema de corte com disco diamantado”, a partir de PINIweb, 2011"},
+    {"texto": "Guinness World Records, “World Cup Rewind: largest attendance at a match in the 1950 Brazil final”, 2014"},
+    {"texto": "Santos Futebol Clube, “Seis santistas jogaram no recorde de público do Maracanã”"},
+    {"texto": "Lance!, “Há 25 anos, uma tragédia acontecia em final de Brasileiro no Maracanã”, 19/07/2017"},
+    {"texto": "Museu da Pelada, “Tragédia de 1992”"},
+    {"texto": "Denaldo Alchorne de Souza, “'Maracanã, adeus?' História e memórias de um lugar”, Ludopédio, 13/02/2026"},
+    {"texto": "“Maracanã: 75 anos do templo do futebol”, História(dora) do Futebol"},
+    {"texto": "Exame, “Reforma do Maracanã foi superfaturada em R$ 211 milhões, diz TCE”, 13/03/2017"},
+    {"texto": "Fluminense Football Club, “Maracanã: contrato de concessão é assinado”, 27/09/2024"},
+    {"texto": "Lance!, “Como fica a concessão do Maracanã caso o estádio vá a leilão?”, 23/10/2025"},
+    {"texto": "Brasil de Fato, “Maracanã é incluído em lista de vendas de imóveis do estado do RJ”, 25/11/2025"},
+    {"texto": "Diário do Rio, “Alerj adia para 2026 votação de projeto que autoriza venda de imóveis públicos”, 27/11/2025"},
+    {"texto": "Estadio Maracaná, “Maracanã vai trocar de gramado para 2027 e adotará tecnologia híbrida para aumentar resistência”, 13/09/2026"},
+    {"texto": "Wikipedia en portugués, “Estádio do Maracanã” (punto de partida)"}
+  ],
+  "imagens": [
+    {
+      "alt": "Vista aérea en color de un estadio ovalado de concreto con el campo verde en el centro, graderías llenas y una marquesina continua dividida en gajos claros en todo el contorno; al fondo, un gimnasio de cúpula redonda y edificios de la ciudad",
+      "legenda": "El estadio en 1976, todavía con la marquesina original de concreto armado en voladizo; al fondo, el Maracanãzinho.",
+      "autor": "Fortepan / Kátai Gyuláné"
+    },
+    {
+      "alt": "Fotografía antigua en tono sepia, panorámica: graderías de concreto en curva todavía desnudas, rodeadas de altas torres de andamio de madera, con cerros al fondo",
+      "legenda": "La obra en abril de 1949: el anillo de graderías ya dibujado y las torres de andamio que sostendrían la marquesina.",
+      "autor": "Autor no identificado (revista Estadio, Santiago, 16/04/1949)"
+    },
+    {
+      "alt": "Fotografía en blanco y negro: estadio lleno visto desde lo alto de la gradería, con el campo a la izquierda, jugadores y un arco, y la marquesina oscura bordeando el anillo superior; cerros al fondo",
+      "legenda": "El estadio lleno en junio de 1950, días antes del Mundial, con la marquesina sobre el anillo superior.",
+      "autor": "Autor no identificado (Arquivo Nacional, fondo Agência Nacional)"
+    },
+    {
+      "alt": "Hinchas celebrando en la geral del Maracaná, con los sombreros en alto, en 1950",
+      "legenda": "Hinchas en la geral del Maracaná, la zona de pie a ras del campo, durante el Mundial de 1950.",
+      "autor": "Autor no identificado (Arquivo Nacional)"
+    },
+    {
+      "alt": "Vista aérea del estadio ovalado sin cubierta, con grúas amarillas en el centro del campo de tierra, rodeado de edificios de la ciudad y cerros verdes al fondo",
+      "legenda": "Diciembre de 2012: la marquesina de 1950 ya demolida y el estadio abierto, a la espera de la nueva cubierta.",
+      "autor": "Portal da Copa (Gobierno Federal de Brasil)"
+    },
+    {
+      "alt": "Vista aérea del estadio con una cubierta blanca continua en anillo alrededor del campo, junto al gimnasio de cúpula redonda del Maracanãzinho",
+      "legenda": "El estadio en 2013, después de la reforma, con la cubierta de membrana que reemplazó a la marquesina.",
+      "autor": "Gobierno Federal de Brasil (copa2014.gov.br)"
+    }
+  ]
+}
