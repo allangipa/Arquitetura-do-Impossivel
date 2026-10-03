@@ -1,0 +1,372 @@
+{
+  "num": "08",
+  "slug": "canal-do-panama",
+  "obra": "Canal do Panamá",
+  "titulo_video": null,
+  "lugar": "Istmo do Panamá, entre Colón e a Cidade do Panamá, Panamá",
+  "regiao": "mundo",
+  "periodo": "1904–1914",
+  "estreia": "2026-11-26",
+  "impossivel": "Cortar uma cordilheira que desmoronava de volta para dentro do corte, num istmo onde a febre amarela e a malária já tinham derrotado os franceses, e subir navios 26 metros até um lago feito de chuva.",
+  "resumo": "Como o Canal do Panamá venceu a montanha que desabava, o mosquito e a água, e por que a conta dos mortos depende de quem conta.",
+  "abertura": [
+    "No istmo do Panamá, na América Central, uns 80 km de terra separam o Atlântico do Pacífico. Os franceses de Ferdinand de Lesseps, o homem do Canal de Suez, tentaram cortá-los ao nível do mar entre 1881 e 1889, gastaram US$ 287 milhões e pararam com o trabalho pela metade. As estimativas de mortos daquela década ficam em torno de vinte mil.",
+    "Os Estados Unidos assumiram em 1904 e terminaram em 1914, com outro projeto: em vez de rasgar o istmo até o nível do mar, represaram um rio, criaram um lago 26 metros acima do mar e subiram os navios até ele por eclusas. No caminho, tiraram quase 239 milhões de jardas cúbicas de terra e rocha, enfrentaram uma encosta que não parava de desabar e um mosquito que ninguém, até pouco antes, sabia ser o culpado."
+  ],
+  "numeros": [
+    {
+      "valor": "1904–1914",
+      "rotulo": "a obra americana, da posse à inauguração em 15/08/1914; antes, os franceses em 1881–1889",
+      "conf": "2+"
+    },
+    {
+      "valor": "238.845.587 jd³",
+      "rotulo": "de terra e rocha escavadas pelos americanos, cerca de 183 milhões de m³",
+      "conf": "2+"
+    },
+    {
+      "valor": "305 × 33,5 m",
+      "rotulo": "cada uma das 12 câmaras das eclusas originais (1.000 × 110 pés)",
+      "conf": "2+"
+    },
+    {
+      "valor": "5.609",
+      "rotulo": "mortos nos registros hospitalares da obra americana",
+      "conf": "2+"
+    },
+    {
+      "valor": "20 mil · 22 mil",
+      "rotulo": "mortos na tentativa francesa, conforme a estimativa",
+      "conf": "DIV"
+    },
+    {
+      "valor": "US$ 375 mi",
+      "rotulo": "custo para os EUA segundo a Autoridade do Canal; há conta que chega perto de 500 milhões",
+      "conf": "DIV"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Encurtar a viagem entre o Atlântico e o Pacífico, que dava a volta pelo sul da América do Sul. Antes do canal, a travessia do istmo já era feita por terra, pela ferrovia do Panamá, concluída em 1855.",
+      "conf": "2+"
+    },
+    {
+      "item": "A tentativa francesa",
+      "valor": "1881–1889, Compagnie Universelle du Canal Interocéanique, de Ferdinand de Lesseps. Plano ao nível do mar; a companhia passou a trabalhar com eclusas em 1888, com contrato das eclusas para a empresa de Gustave Eiffel, e parou em 15/05/1889.",
+      "conf": "2+",
+      "nota": "a data da quebra varia entre dezembro de 1888 e maio de 1889, conforme o marco"
+    },
+    {
+      "item": "Quem quis a obra americana",
+      "valor": "O governo de Theodore Roosevelt. A Colômbia recusou o tratado; o Panamá se separou dela em 03/11/1903, e em 18/11/1903 o tratado Hay–Bunau-Varilla deu aos EUA direitos permanentes sobre uma zona do canal. Os EUA pagaram US$ 10 milhões ao Panamá e US$ 40 milhões à companhia francesa.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem dirigiu",
+      "valor": "Engenheiros-chefes John F. Wallace (1904–1905), John F. Stevens (1905–1907) e o coronel George W. Goethals (1907–1914). David D. Gaillard comandou o corte da cordilheira; William C. Gorgas, o saneamento.",
+      "conf": "2+"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Canal de eclusas, decidido pelo Congresso americano em junho de 1906 (Senado, 36 a 31, em 21/06; Câmara, em 27/06). Uma barragem no rio Chagres, em Gatún, forma um lago a 26 m acima do mar; três conjuntos de eclusas (Gatún, com 3 degraus; Pedro Miguel, com 1; Miraflores, com 2) sobem e descem os navios.",
+      "conf": "2+",
+      "nota": "as datas das votações vêm da Autoridade do Canal"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Posse americana em 04/05/1904; obra das eclusas a partir de 24/08/1909; fundo do Corte Culebra alcançado em 20/05/1913; primeira travessia completa em 07/01/1914, pelo guindaste flutuante Alexandre La Valley; inauguração em 15/08/1914, com o vapor Ancon.",
+      "conf": "2+"
+    },
+    {
+      "item": "Operários",
+      "valor": "No auge, mais de 40 mil ao mesmo tempo: 44.733 em 26/03/1913 pela Autoridade do Canal, 46.000 em dezembro de 1907 por outra cronologia. Contando todos os anos, os totais vão de 42 mil a 56.307, conforme a fonte e o que se conta.",
+      "conf": "DIV"
+    },
+    {
+      "item": "De onde vinham",
+      "valor": "A maioria das Antilhas: 31.071 afro-antilhanos contratados, cerca de 20 mil só de Barbados; também Martinica, Guadalupe, Jamaica e Trinidad. Da Europa vieram sobretudo espanhóis, italianos e gregos. Os americanos eram, em média, pouco mais de 5 mil.",
+      "conf": "2+"
+    },
+    {
+      "item": "Gold roll e silver roll",
+      "valor": "Duas folhas de pagamento. A de ouro, de brancos, sobretudo americanos, pagos em moeda de ouro dos EUA; a de prata, de antilhanos e também de europeus do sul, pagos em moeda de prata, dez centavos por hora, dez horas por dia, seis dias por semana. A divisão valia também para casa, refeitório e entrada de prédio.",
+      "conf": "2+",
+      "nota": "a moeda exata da prata é dada como panamenha ou colombiana, conforme a fonte"
+    },
+    {
+      "item": "Custo",
+      "valor": "Cerca de US$ 375 milhões para os EUA, incluídos os US$ 10 milhões ao Panamá e os US$ 40 milhões aos franceses, mais cerca de US$ 12 milhões em fortificações, pela Autoridade do Canal. Outras contas de gasto total chegam perto de US$ 500 milhões. Os franceses tinham gastado US$ 287 milhões.",
+      "conf": "DIV",
+      "nota": "pelo índice de preços ao consumidor dos EUA (1914 = 10,0; 2025 = 321,9), US$ 375 milhões de 1914 equivalem a cerca de US$ 12 bilhões de 2025"
+    },
+    {
+      "item": "Mortes, obra americana",
+      "valor": "5.609 de doença e acidente nos registros hospitalares de 1904 a 1914. Pelo historiador David McCullough, uns 350 eram americanos brancos e uns 4.500, trabalhadores negros, quase todos antilhanos. Historiadores como Caroline Lieffers acham o número real várias vezes maior.",
+      "conf": "2+",
+      "nota": "o total tem duas fontes; a divisão por cor vem de McCullough"
+    },
+    {
+      "item": "Mortes, tentativa francesa",
+      "valor": "Cerca de 22.000 na conta de McCullough; 20.000 em outras. A Autoridade do Canal fala em uns 25.000 somando as duas épocas. É estimativa: os registros franceses são parciais.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Doença",
+      "valor": "Febre amarela e malária. Gorgas atacou o mosquito: telas, drenagem de mais de 100 milhas quadradas de pântano, mato cortado em volta das vilas. O último caso de febre amarela é dado em 11/11/1905 ou em dezembro de 1906, conforme a fonte. A mortalidade por malária caiu de 7,45 por mil empregados em 1906 para 0,30 em 1913.",
+      "conf": "DIV",
+      "nota": "erradicação da febre amarela até 1906: várias fontes; queda da malária: Autoridade do Canal"
+    },
+    {
+      "item": "Medidas",
+      "valor": "Canal de uns 80 km. Câmaras de 1.000 × 110 pés (304,8 × 33,5 m). Lago Gatún com 163,38 milhas quadradas (cerca de 423 km²), o maior lago artificial do mundo na época. Corte Culebra de 12,6 a 14,1 km, conforme a fonte, cruzando a divisória em seu ponto mais baixo, a 333,5 pés (cerca de 102 m).",
+      "conf": "DIV",
+      "nota": "comprimento do canal e do corte variam entre as fontes; câmaras e lago, não"
+    },
+    {
+      "item": "O depois",
+      "valor": "Tratados Torrijos-Carter, assinados em 07/09/1977; a Zona do Canal acabou em 01/10/1979 e o canal passou ao Panamá em 31/12/1999. Um terceiro conjunto de eclusas, para navios Neopanamax, foi inaugurado em 26/06/2016, ao custo de US$ 5,25 bilhões.",
+      "conf": "2+"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Na seca de 2026, com o El Niño, a Autoridade do Canal cortou em degraus o calado máximo das eclusas Neopanamax, de 50 para 48 pés, e as vagas diárias, para 9 Neopanamax e 23 Panamax. Em 28/09/2026, com chuva perto da média, subiu o calado para 49 pés e anunciou a volta da 10ª vaga Neopanamax a partir de 15/10, avisando que a bacia continuava em déficit de água.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "O canal ao nível do mar",
+      "paragrafos": [
+        "Em 1879, um congresso internacional em Paris aprovou a ideia de Ferdinand de Lesseps, que dez anos antes tinha aberto o Canal de Suez: um canal no istmo do Panamá, então parte da Colômbia, cortado ao nível do mar, sem eclusas, como Suez. Os primeiros homens da Compagnie Universelle chegaram a Colón no fim de janeiro de 1881.",
+        "Suez atravessava areia. O Panamá tinha uma cordilheira no meio, um rio, o Chagres, que enchia de repente na estação das chuvas, e uma doença que matava sem que ninguém soubesse como. A primeira morte por febre amarela entre os empregados veio em junho de 1881, com as chuvas. Pelos números da Autoridade do Canal, morreram de doença cerca de 60 em 1881, o dobro em 1882 e 420 em 1883. Jules Dingler, o diretor-geral que chegou em 1883, perdeu a filha, o filho, o noivo da filha e a esposa para a febre amarela.",
+        "Em 1888 a companhia desistiu do nível do mar e passou a trabalhar num canal de eclusas, com a empresa de Gustave Eiffel contratada para elas. Era tarde. Em 15 de maio de 1889, toda a atividade parou. Os franceses tinham gastado US$ 287 milhões. As estimativas de mortos da década ficam em torno de vinte mil: 22 mil na conta do historiador David McCullough, 20 mil em outras. O escândalo da quebra chegou aos tribunais: Eiffel foi condenado em 1893, e a condenação foi anulada em recurso."
+      ]
+    },
+    {
+      "titulo": "Um país em quinze dias",
+      "paragrafos": [
+        "Os Estados Unidos queriam o canal, e o Congresso escolheu a rota do Panamá em 1902. Faltava a Colômbia, cujo Senado rejeitou o tratado. Em 3 de novembro de 1903, o Panamá se declarou independente, com o apoio do governo de Theodore Roosevelt. Quinze dias depois, em 18 de novembro, o tratado Hay–Bunau-Varilla deu aos Estados Unidos direitos permanentes sobre uma zona em torno do canal. Quem assinou pelo Panamá foi o engenheiro francês Philippe Bunau-Varilla, que, segundo o Departamento de Estado americano, não vivia no Panamá havia dezessete anos e negociou sem autorização formal do novo governo.",
+        "Os americanos pagaram US$ 10 milhões ao Panamá e US$ 40 milhões à companhia francesa. Em 4 de maio de 1904, o tenente Mark Brooke recebeu as chaves dos armazéns e do hospital de Ancon. Herdaram também uns 30 milhões de jardas cúbicas de escavação francesa aproveitável."
+      ]
+    },
+    {
+      "titulo": "Primeiro, o mosquito",
+      "paragrafos": [
+        "O primeiro engenheiro-chefe, John F. Wallace, ficou cerca de um ano. Quem o substituiu, em 1905, John F. Stevens, fez algo que parecia recuo: parou a escavação. Reconstruiu a velha ferrovia do Panamá, montou o sistema de trens que levaria o entulho para fora do corte. E defendeu um canal de eclusas, contra a ideia de repetir o nível do mar. Em junho de 1906, o Senado aprovou as eclusas por 36 votos a 31, e a Câmara confirmou.",
+        "Ao mesmo tempo, o médico William C. Gorgas aplicava no istmo o que se tinha aprendido pouco antes: que a febre amarela e a malária vinham do mosquito. Telas de cobre nas casas, mais de 100 milhas quadradas de pântano drenadas, faixas de mato cortado em volta das vilas. O último caso de febre amarela é dado em 11 de novembro de 1905 por algumas fontes e em dezembro de 1906 por outras; de todo modo, a doença que tinha derrotado os franceses acabou antes da obra. A malária resistiu mais: em 1906 ainda atingia 82% da força de trabalho, segundo um levantamento sobre os relatórios de Gorgas, e a mortalidade por ela só caiu de 7,45 para 0,30 por mil empregados entre 1906 e 1913.",
+        "Em novembro de 1906, Roosevelt foi ver a obra, na primeira viagem de um presidente americano em exercício ao exterior, e se deixou fotografar na cabine de uma escavadeira a vapor. Stevens deixou o cargo no início de 1907. Em seu lugar entrou um coronel do Exército, George W. Goethals, que ficou até o fim."
+      ]
+    },
+    {
+      "titulo": "A montanha que voltava",
+      "paragrafos": [
+        "O coração da obra era o Corte Culebra, depois chamado Corte Gaillard, por onde o canal atravessa a divisória continental, no ponto mais baixo dela, a 333,5 pés acima do mar. As escavadeiras Bucyrus, com caçambas de cinco jardas cúbicas, enchiam trens que saíam do corte um atrás do outro; em março de 1909 havia 68 delas ali. Só em 1908 saíram mais de 37 milhões de jardas cúbicas.",
+        "O problema era que a encosta descia de volta. Em 4 de outubro de 1907, o deslizamento de Cucaracha empurrou 500 mil jardas cúbicas para dentro do corte, avançando cerca de 14 pés por dia durante dez dias. Outros vieram em Gold Hill e na margem oeste, junto à vila de Culebra, cada um com milhões de jardas cúbicas. A estimativa do que era preciso tirar só do corte foi de 53,8 milhões de jardas cúbicas em 1906 para cerca de 100 milhões em 1913. E o trabalho com explosivos tinha seu preço: em Bas Obispo, em 12 de dezembro de 1908, uma carga detonou antes da hora e matou 23 homens, ou 26, conforme o relato.",
+        "Em 20 de maio de 1913, duas escavadeiras se encontraram no fundo do corte. Ao todo, até 1º de julho de 1914, os americanos tinham escavado 238.845.587 jardas cúbicas. David D. Gaillard, que comandou o corte, morreu em 5 de dezembro de 1913, antes da inauguração."
+      ]
+    },
+    {
+      "titulo": "Um lago feito de chuva",
+      "paragrafos": [
+        "A ideia que tornou o canal possível foi não cavar até o mar. Em Gatún, uma barragem de terra fechou o rio Chagres e formou um lago de 163,38 milhas quadradas, cerca de 423 km², o maior lago artificial do mundo na época, 26 metros acima do mar. Os navios sobem até ele e descem do outro lado por três conjuntos de eclusas: Gatún, com três degraus, no Atlântico; Pedro Miguel, com um, e Miraflores, com dois, no Pacífico.",
+        "As doze câmaras têm o mesmo tamanho, 1.000 por 110 pés, ou 304,8 por 33,5 metros. A água do lago enche as câmaras por aquedutos de 18 pés de diâmetro, e cada travessia de um navio Panamax gasta de 51 a 55 milhões de galões de água doce. A obra das eclusas começou em 24 de agosto de 1909; Pedro Miguel ficou pronta em 1911, Miraflores em maio de 1913 e Gatún em junho de 1913.",
+        "Em 7 de janeiro de 1914, o guindaste flutuante Alexandre La Valley fez a primeira travessia completa. A inauguração oficial foi em 15 de agosto de 1914, com o vapor Ancon. Pela conta da Autoridade do Canal, a obra americana custou cerca de US$ 375 milhões, US$ 23 milhões abaixo da estimativa de 1907; outras contas de gasto total chegam perto de US$ 500 milhões."
+      ]
+    },
+    {
+      "titulo": "Ouro e prata",
+      "paragrafos": [
+        "Quem cavou o canal veio, na maior parte, das Antilhas. Foram contratados 31.071 afro-antilhanos, cerca de 20 mil só de Barbados, onde a Comissão do Canal mantinha um recrutador-chefe. No auge, a força de trabalho passou de 40 mil homens ao mesmo tempo: 44.733 em março de 1913, pela Autoridade do Canal. Os americanos eram, em média, pouco mais de 5 mil.",
+        "O pagamento separava todos em duas folhas. O gold roll, de brancos, sobretudo americanos, era pago em moeda de ouro dos Estados Unidos. O silver roll, de antilhanos e também de espanhóis, italianos e gregos, era pago em moeda de prata: dez centavos por hora, dez horas por dia, seis dias por semana. A Biblioteca Linda Hall resume que a divisão, pensada para separar trabalho qualificado e não qualificado, virou rapidamente um sistema de segregação, com moradia, refeitório e entradas de prédio separados. Os espanhóis do silver roll ganhavam o dobro dos antilhanos.",
+        "A mesma divisão aparece nas mortes. Os registros hospitalares contam 5.609 mortos de doença e acidente de 1904 a 1914. Pela conta de McCullough, uns 350 eram americanos brancos e uns 4.500, trabalhadores negros. Em 1906, segundo os dados de Gorgas, a taxa de morte entre não brancos foi de 59 por mil, contra 17 entre brancos. E há historiadores, como Caroline Lieffers, para quem o número real foi várias vezes maior."
+      ]
+    },
+    {
+      "titulo": "A água agora",
+      "paragrafos": [
+        "Os tratados Torrijos-Carter, assinados em 7 de setembro de 1977, acabaram com a Zona do Canal em 1979 e entregaram o canal ao Panamá em 31 de dezembro de 1999. Em 26 de junho de 2016, um terceiro conjunto de eclusas, para navios maiores, foi inaugurado com a passagem do Cosco Shipping Panama, ao custo de US$ 5,25 bilhões.",
+        "O que o canal não deixou de precisar é chuva. Em 2026, com o El Niño, choveu menos que a média na bacia, e o lago Gatún baixou. A Autoridade do Canal cortou em degraus o calado máximo das eclusas novas, de 50 para 48 pés entre julho e setembro, e reduziu as vagas diárias, a partir de 3 de setembro, para 9 navios Neopanamax e depois 23 Panamax. Em 28 de setembro, com a chuva de volta perto da média e o lago subindo de 84,04 para 84,74 pés no mês, ela recuou: calado de 49 pés e a décima vaga Neopanamax de volta a partir de 15 de outubro, com o aviso de que a bacia continuava em déficit de água. Para os anos seguintes, o canal prepara uma represa nova, no rio Indio, para mandar mais água ao lago."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "O canal foi obra dos americanos.",
+      "registro": "Os americanos o terminaram, mas os franceses escavaram por oito anos antes, e uns 30 milhões de jardas cúbicas daquela escavação foram aproveitados. E quem cavou foram, na maior parte, trabalhadores das Antilhas: 31.071 afro-antilhanos contratados, cerca de 20 mil só de Barbados."
+    },
+    {
+      "circula": "Morreram dezenas de milhares de americanos construindo o canal.",
+      "registro": "Os registros da obra americana contam 5.609 mortos ao todo, e, pela conta de David McCullough, uns 350 eram americanos brancos. A maioria dos mortos eram trabalhadores negros vindos das Antilhas. As estimativas de vinte mil ou mais são da tentativa francesa, nos anos 1880."
+    },
+    {
+      "circula": "Os franceses fracassaram por incompetência diante da febre amarela.",
+      "registro": "Nos anos 1880 ninguém sabia que a febre amarela e a malária eram transmitidas pelo mosquito. Os americanos chegaram depois dessa descoberta e começaram pelo saneamento. O plano francês ao nível do mar também pesou: foi abandonado tarde, em 1888."
+    },
+    {
+      "circula": "O Canal do Panamá é ao nível do mar, como o de Suez.",
+      "registro": "Não. Ele sobe os navios 26 metros, por eclusas, até o lago Gatún, e os desce do outro lado. O nível do mar era o plano francês, e o Congresso americano o recusou em 1906."
+    },
+    {
+      "circula": "Gorgas acabou com a malária no Panamá.",
+      "registro": "Ele acabou com a febre amarela, até 1906. A malária caiu muito, de 7,45 para 0,30 mortes por mil empregados entre 1906 e 1913, mas em 1906 ainda atingia a grande maioria da força de trabalho."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Autoridad del Canal de Panamá, \"End of the Construction\"",
+      "url": "https://pancanal.com/en/end-of-the-construction/"
+    },
+    {
+      "texto": "Autoridad del Canal de Panamá, \"The French Canal Construction\"",
+      "url": "https://pancanal.com/en/the-french-canal-construction/"
+    },
+    {
+      "texto": "Autoridad del Canal de Panamá, \"American Canal Construction\"",
+      "url": "https://pancanal.com/en/american-canal-construction/"
+    },
+    {
+      "texto": "Autoridad del Canal de Panamá, \"Work Force\"",
+      "url": "https://pancanal.com/en/work-force/"
+    },
+    {
+      "texto": "Autoridad del Canal de Panamá, \"Design of the Locks\"",
+      "url": "https://pancanal.com/en/design-of-the-locks/"
+    },
+    {
+      "texto": "Autoridad del Canal de Panamá, \"Culebra Cut\"",
+      "url": "https://pancanal.com/en/culebra-cut/"
+    },
+    {
+      "texto": "Autoridad del Canal de Panamá, \"Preguntas Frecuentes\"",
+      "url": "https://pancanal.com/preguntas-frecuentes/"
+    },
+    {
+      "texto": "Autoridad del Canal de Panamá, \"Panama Canal Adopts Additional Measures to Address Reduced Precipitation in the Canal Watershed\", 20/08/2026",
+      "url": "https://pancanal.com/en/panama-canal-adopts-additional-measures-to-address-reduced-precipitation-in-the-canal-watershed/"
+    },
+    {
+      "texto": "U.S. Department of State, Office of the Historian, \"The Panama Canal and the Torrijos-Carter Treaties\"",
+      "url": "https://history.state.gov/milestones/1977-1980/panama-canal"
+    },
+    {
+      "texto": "Barbados Department of Archives e Barbados Museum and Historical Society, \"The Silver Men: West Indian Labourers at the Panama Canal\", candidatura ao registro Memória do Mundo da UNESCO",
+      "url": "https://media.unesco.org/sites/default/files/webform/mow001/panama_silvermen.pdf"
+    },
+    {
+      "texto": "Linda Hall Library, The Land Divided, The World United: \"Making the Dirt Fly\"",
+      "url": "https://www.lindahall.org/experience/digital-exhibitions/the-land-divided-the-world-united/07-making-the-dirt-fly/"
+    },
+    {
+      "texto": "Linda Hall Library, The Land Divided, The World United: \"Life in the Zone\"",
+      "url": "https://www.lindahall.org/experience/digital-exhibitions/the-land-divided-the-world-united/09-life-in-the-zone"
+    },
+    {
+      "texto": "PBS American Experience, \"TR and the Panama Canal\"",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/general-article/tr-panama"
+    },
+    {
+      "texto": "PBS American Experience, \"Creating the Canal\"",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/paNama-canal-creating-canal/"
+    },
+    {
+      "texto": "\"Death, disease, and discrimination during the construction of the Panama Canal (1904–1914)\", Hektoen International, 2021",
+      "url": "https://hekint.org/2021/09/17/death-disease-and-discrimination-during-the-construction-of-the-panama-canal-1904-1914/"
+    },
+    {
+      "texto": "Caroline Lieffers, \"The Panama Canal's forgotten casualties\", The Conversation, 2018",
+      "url": "https://theconversation.com/the-panama-canals-forgotten-casualties-93536"
+    },
+    {
+      "texto": "David McCullough, The Path Between the Seas: The Creation of the Panama Canal, 1870–1914, Simon & Schuster, 1977",
+      "url": null
+    },
+    {
+      "texto": "\"Panama Canal to Tighten Draft Limits Again as Water Levels Continue to Fall\", gCaptain, 06/08/2026",
+      "url": "https://gcaptain.com/panama-canal-to-tighten-draft-limits-again-as-water-levels-continue-to-fall/"
+    },
+    {
+      "texto": "\"Panama Canal Authority Adopts New Transit Restrictions\", DTN, 02/09/2026",
+      "url": "https://www.dtnpf.com/agriculture/web/ag/columns/cash-market-moves/article/2026/09/02/panama-canal-authority-adopts-new"
+    },
+    {
+      "texto": "\"Panama Canal Adds Transit Capacity as Rainfall Brings Relief\", gCaptain, 28/09/2026",
+      "url": "https://gcaptain.com/panama-canal-adds-transit-capacity-as-rainfall-brings-relief/"
+    },
+    {
+      "texto": "\"Panama Canal Eases Restrictions Adding Transit Slot and Maximum Draft\", The Maritime Executive, 28/09/2026",
+      "url": "https://maritime-executive.com/article/panama-canal-eases-restrictions-adding-transit-slot-and-maximum-draft"
+    },
+    {
+      "texto": "\"Panama Canal Seeks Program Manager for $1.6B Rio Indio Reservoir\", ENR",
+      "url": "https://www.enr.com/articles/63550-panama-canal-seeks-program-manager-for-16b-rio-indio-reservoir"
+    },
+    {
+      "texto": "U.S. Bureau of Labor Statistics, \"Consumer Price Index: 2025 in review\"",
+      "url": "https://www.bls.gov/opub/ted/2026/consumer-price-index-2025-in-review.htm"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "08-capa.jpg",
+      "alt": "Vale profundo e seco aberto entre duas encostas de rocha, com várias linhas de trilho no fundo, uma escavadeira a vapor à direita e guindastes à esquerda",
+      "legenda": "O Corte Culebra visto para o sul, ainda seco, com as linhas de trem que levavam o entulho para fora.",
+      "autor": "Bain News Service (Biblioteca do Congresso dos EUA)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Panama_Canal,_Culebra_Cut_looking_south_LCCN2014689073.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "08-cucaracha.jpg",
+      "alt": "Canal estreito entre encostas altas, com uma encosta clara e desmoronada à direita e várias dragas a vapor trabalhando na água",
+      "legenda": "Dragas trabalhando no deslizamento de Cucaracha, no Corte Culebra, já com água no canal.",
+      "autor": "Bain News Service (Biblioteca do Congresso dos EUA)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Cucaracha_Slide,_Culebra_Cut_LCCN2014697545.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "08-eclusa.jpg",
+      "alt": "Câmara de eclusa vazia e muito longa entre duas paredes de concreto, com trilhos no fundo, uma torre metálica à direita e um pórtico de guindaste ao longe",
+      "legenda": "Uma câmara das eclusas em 1912, antes da instalação das comportas: 1.000 pés de comprimento por 110 de largura.",
+      "autor": "Biblioteca do Congresso dos EUA",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Looking_through_locks_before_gates_were_placed,_Panama_Canal_Zone_LCCN96521994.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "08-roosevelt.jpg",
+      "alt": "Grande escavadeira a vapor com caçamba e correntes, marcada I.C.C. 114, cercada por homens de chapéu; na cabine, um homem de terno branco",
+      "legenda": "Theodore Roosevelt, de branco, na cabine de uma escavadeira a vapor da Comissão do Canal Ístmico, durante as obras.",
+      "autor": "Autor não identificado (Biblioteca do Congresso dos EUA)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Pres._Theodore_Roosevelt_on_steam-powered_digging_machine_during_construction_of_the_Panama_Canal_LCCN2002714444.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "08-ancon.jpg",
+      "alt": "Navio a vapor com passageiros no convés dentro de uma câmara de eclusa estreita, com pequenas locomotivas nos muros laterais e pessoas observando",
+      "legenda": "O vapor Ancon numa das câmaras das eclusas de Gatún, em 1914.",
+      "autor": "Bain News Service (Biblioteca do Congresso dos EUA)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:%22ANCON%22_in_Gatun_locks_LCCN2014697346.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "08-cocoli.jpg",
+      "alt": "Navio porta-contêineres muito carregado dentro das eclusas novas, atrás de edifícios brancos e de uma torre de controle, com água em primeiro plano",
+      "legenda": "Um porta-contêineres entra pelas eclusas de Cocolí, do lado do Pacífico, abertas na ampliação de 2016.",
+      "autor": "David Brossard, 2020",
+      "licenca": "CC BY-SA 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Container_ship_entering_the_new_Cocoli_locks_of_the_Panama_Canal.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": null
+}

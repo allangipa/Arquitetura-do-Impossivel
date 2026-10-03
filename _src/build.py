@@ -55,12 +55,12 @@ BORDAO = "Toda semana, uma obra que não deveria ter ficado de pé."
 # "em apuração", sem link. Quando o JSON da obra existir, tire daqui.
 EM_APURACAO = [
     {
-        "num": "08",
-        "obra": "Canal do Panamá",
-        "lugar": "Istmo do Panamá, Panamá",
-        "regiao": "mundo",
-        "impossivel": "Ligar dois oceanos atravessando o istmo do Panamá: a obra que a França abandonou e os Estados Unidos terminaram.",
-        "estreia": "2026-11-26",
+        "num": "09",
+        "obra": "Ponte Hercílio Luz",
+        "lugar": "Florianópolis, Santa Catarina, Brasil",
+        "regiao": "brasil",
+        "impossivel": "A ponte pênsil que ligou a ilha de Florianópolis ao continente em 1926, passou quase três décadas fechada e voltou a abrir em 2019.",
+        "estreia": "2026-12-03",
     },
 ]
 
