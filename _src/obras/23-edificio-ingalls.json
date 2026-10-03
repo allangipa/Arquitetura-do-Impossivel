@@ -1,0 +1,314 @@
+{
+  "num": "23",
+  "slug": "edificio-ingalls",
+  "obra": "Edifício Ingalls",
+  "titulo_video": null,
+  "lugar": "Esquina das ruas Fourth e Vine, centro de Cincinnati, Ohio, Estados Unidos",
+  "regiao": "mundo",
+  "periodo": "1902–1904",
+  "estreia": "2027-03-11",
+  "impossivel": "Erguer 64 metros de escritórios sem nenhuma viga de aço, só com concreto e barras torcidas por dentro, quando nenhum prédio de concreto passava de seis andares e engenheiros respeitados juravam que ele racharia antes de chegar ao telhado.",
+  "resumo": "Como Cincinnati ergueu, de 1902 a 1904, o primeiro arranha-céu de concreto armado do mundo, sob a desconfiança de engenheiros, e o que restou da prova.",
+  "abertura": [
+    "Em 1902, na esquina das ruas Fourth e Vine, no centro de Cincinnati, em Ohio, nos Estados Unidos, começou a subir um prédio de escritórios de 64 metros. Até então, segundo as fontes que registram a história da obra, nenhum edifício de concreto no mundo tinha passado de seis andares. Este teria dezesseis, contando o ático, e nenhuma viga de aço.",
+    "O investidor era Melville E. Ingalls, presidente de uma grande ferrovia; os arquitetos, Elzner & Anderson; o engenheiro, Henry N. Hooper. O segredo estava escondido no concreto: barras de aço quadradas, torcidas a frio, a técnica patenteada em 1884 pelo engenheiro Ernest L. Ransome. O concreto aguenta bem ser esmagado e muito mal ser puxado. A barra torcida existe para fazer a parte que ele não faz."
+  ],
+  "numeros": [
+    {
+      "valor": "64 m",
+      "rotulo": "de altura acima da calçada, 210 pés nas medidas da época",
+      "conf": "2+"
+    },
+    {
+      "valor": "15 + ático",
+      "rotulo": "andares, “praticamente dezesseis”, nas palavras do arquiteto",
+      "conf": "DIV"
+    },
+    {
+      "valor": "20 cm",
+      "rotulo": "de espessura das paredes de concreto, da base ao topo",
+      "conf": "2+"
+    },
+    {
+      "valor": "1884",
+      "rotulo": "o ano da patente de Ernest Ransome para a barra de aço torcida",
+      "conf": "2+"
+    },
+    {
+      "valor": "US$ 500 mil",
+      "rotulo": "preço de contrato do prédio completo, segundo uma revista de 1903",
+      "conf": "1"
+    },
+    {
+      "valor": "6 andares",
+      "rotulo": "o prédio de concreto mais alto que existia antes dele",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "O que é",
+      "valor": "Prédio de escritórios de concreto armado, reconhecido como o primeiro arranha-céu do mundo construído com esse material. O próprio arquiteto chamou-o, em 1904, de “o primeiro arranha-céu de concreto”.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "Melville E. Ingalls (1842–1914), presidente da ferrovia Cleveland, Cincinnati, Chicago & St. Louis, a “Big Four”, e do Merchants National Bank. Foi o principal investidor, e o prédio levou o nome dele.",
+      "conf": "2+"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Os arquitetos Alfred O. Elzner e George M. Anderson, do escritório Elzner & Anderson, de Cincinnati. O cálculo estrutural é atribuído a Henry N. Hooper, engenheiro-chefe da Ferro-Concrete Construction Company, também de Cincinnati.",
+      "conf": "2+",
+      "nota": "o artigo de Elzner de 1904 descreve o sistema sem citar Hooper nem Ransome"
+    },
+    {
+      "item": "O sistema",
+      "valor": "Pórtico monolítico de colunas, vigas e lajes de concreto, armado com barras de aço quadradas torcidas a frio, a técnica da patente nº 305.226 de Ernest L. Ransome, de 16/09/1884. Sem vigas em I, sem rebites, sem parafusos.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem construiu",
+      "valor": "A construtora W. H. Ellis & Co., que venceu pelo menor preço, segundo a Saxby's Magazine de 1903. Outras fontes dão como construtora a Ferro-Concrete Construction Company, a empresa de Hooper.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Cerca de dois anos para obter a licença da prefeitura. O Hammond Building, que ocupava o terreno, foi demolido em 1902, e a obra começou no outono de 1902. A conclusão aparece como 1903 nas fontes atuais; em meados de 1904, o arquiteto escrevia que o prédio “acaba de ser concluído”.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Ritmo da obra",
+      "valor": "Três jogos de fôrmas de madeira, reaproveitados de baixo para cima. O Skyscraper Museum fala em uma laje a cada doze dias; outras fontes, em três andares por mês.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Operários",
+      "valor": "Nenhuma fonte consultada registra quantos trabalharam na obra, nem pico, jornada ou salário.",
+      "conf": "sem"
+    },
+    {
+      "item": "Mortes e acidentes",
+      "valor": "Nenhuma fonte consultada registra mortos ou feridos na construção, nem número oficial, nem contestado.",
+      "conf": "sem"
+    },
+    {
+      "item": "Custo",
+      "valor": "Cerca de US$ 500 mil pelo prédio completo, preço de contrato publicado pela Saxby's Magazine em 1903, num texto que elogiava a construtora. Arquiteto e revista afirmavam que o concreto saiu mais barato que o aço.",
+      "conf": "1",
+      "nota": "pelo índice de preços ao consumidor dos EUA da série do Federal Reserve de Minneapolis (1903 = 27; 2025 = 967,5), equivale a cerca de US$ 18 milhões de 2025"
+    },
+    {
+      "item": "Medidas",
+      "valor": "64 m (210 pés) acima da calçada; 71,6 m (235 pés) contando do fundo da fundação. Planta de 15 × 30 m, o terreno inteiro da esquina. Paredes de 20 cm, lajes de 12,7 cm, painéis de 4,9 × 4,9 m.",
+      "conf": "2+",
+      "nota": "a altura desde a fundação e a espessura das lajes vêm só do artigo do arquiteto"
+    },
+    {
+      "item": "Andares",
+      "valor": "Quinze andares e um ático completo, “praticamente dezesseis”, segundo o arquiteto. Por isso as fontes falam ora em 15, ora em 16.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Fachada",
+      "valor": "Uma placa de 10 a 15 cm presa ao concreto: mármore branco nos três primeiros andares, tijolo cinza vidrado nos onze seguintes e terracota branca vidrada no último andar e na cornija.",
+      "conf": "2+"
+    },
+    {
+      "item": "Reconhecimento",
+      "valor": "Marco Histórico Nacional da Engenharia Civil da American Society of Civil Engineers, em 1973 ou 1974, conforme a fonte. Inscrito no National Register of Historic Places em 07/03/1975.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Depois de anos vazio, foi vendido em 2013 e convertido em hotel: o Courtyard by Marriott Cincinnati Downtown, da SREE Hotels, aberto em julho de 2021. A academia fica dentro do antigo cofre do banco.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Um prédio que ninguém queria licenciar",
+      "paragrafos": [
+        "Na virada do século XX, Cincinnati, em Ohio, era uma cidade de ferrovias e de bancos, e Melville E. Ingalls estava no centro das duas coisas. Advogado formado em Harvard, ele chegara à cidade em 1870 para cuidar de uma ferrovia em apuros e, em 1889, tornou-se presidente da Cleveland, Cincinnati, Chicago & St. Louis, conhecida como Big Four. Presidia também o Merchants National Bank. Para a esquina das ruas Fourth e Vine, onde ficava o velho Hammond Building, ele quis um prédio de escritórios de primeira linha, alto como os novos edifícios de aço.",
+        "Só que não seria de aço. Segundo a Saxby's Magazine, revista de Cincinnati, em 1903, os donos compararam orçamentos de um esqueleto de aço e de uma estrutura de concreto, e o concreto saiu mais barato. O problema é que ninguém tinha feito aquilo. A American Society of Civil Engineers registra que o prédio de concreto mais alto da época tinha seis andares, e que Ingalls levou dois anos para conseguir a licença da prefeitura, cujos técnicos duvidavam do projeto."
+      ]
+    },
+    {
+      "titulo": "A barra que torce",
+      "paragrafos": [
+        "O concreto resiste muito bem a ser comprimido e muito mal a ser puxado. Numa viga, a parte de baixo é puxada; numa torre, o vento empurra de lado e faz uma face trabalhar à tração. Sem ajuda, o concreto racha. A ajuda é o aço por dentro, e o problema do aço por dentro é escorregar: uma barra lisa pode se soltar do concreto quando ele fissura.",
+        "Em 1884, o engenheiro inglês Ernest L. Ransome, radicado na Califórnia, patenteou a solução: torcer barras quadradas, para que a espiral prendesse o concreto em todo o comprimento. No livro que publicou em 1912, ele conta que a ideia veio ao torcer um elástico de borracha que tinha no bolso, e que, quando apresentou o invento a uma sociedade técnica da Califórnia, foi ridicularizado: diziam que torcer estragava o ferro. O Edifício Ingalls usou barras torcidas a frio em todo o prédio. Ransome, porém, não aparece como autor da obra: o projeto é de Elzner & Anderson, e o cálculo é atribuído a Henry N. Hooper."
+      ]
+    },
+    {
+      "titulo": "Um bloco só, de cima a baixo",
+      "paragrafos": [
+        "Em junho de 1904, o arquiteto Alfred O. Elzner descreveu o prédio na revista The Architectural Record, num artigo intitulado “O primeiro arranha-céu de concreto”. A estrutura, escreveu, é “uma caixa de concreto de paredes de 8 polegadas”, sem vigas em I, sem cantoneiras, sem rebites e sem parafusos: só barras embutidas no concreto, com as pontas entrelaçadas, formando “um monólito completo”.",
+        "As lajes têm 12,7 cm de espessura e vencem painéis de 4,9 por 4,9 metros. Nas colunas, barras torcidas perto da superfície, em dois lados opostos, recebem o esforço do vento; no centro, barras redondas e lisas ajudam a carregar o peso e vão diminuindo até desaparecer por volta do décimo andar, onde o concreto sozinho bastava. A viga não se prende à coluna com peça nenhuma: as barras de uma entram entre as da outra, e o concreto é um só. As próprias paredes, entre o alto de uma janela e o peitoril da de cima, foram calculadas como vigas, e são elas que travam o prédio contra o vento.",
+        "Elzner admitiu que as colunas dos andares de baixo saíram maiores do que precisavam, por “espírito de conservadorismo”, natural numa ruptura tão radical. Por fora, ninguém via o concreto: o prédio foi revestido de mármore branco embaixo, tijolo cinza vidrado no meio e terracota branca no topo, como qualquer arranha-céu da época."
+      ]
+    },
+    {
+      "titulo": "Três jogos de fôrmas",
+      "paragrafos": [
+        "A obra começou no outono de 1902. Para a fundação, a construtora W. H. Ellis & Co. abriu uma cava de 7,6 metros e, segundo a Biblioteca Pública de Cincinnati, encontrou sob o porão antigo sete poços, abóbadas e cisternas do começo do século XIX. O concreto era misturado ali mesmo, em betoneiras a motor. Quantos homens trabalharam, e se algum se feriu, nenhuma fonte consultada registra.",
+        "O Skyscraper Museum, de Nova York, conta que a obra usou três jogos de fôrmas de madeira, desmontados e remontados de baixo para cima, e que se conseguia concretar uma laje a cada doze dias. Era mais lento que o aço: segundo o museu, um esqueleto de aço subia, em geral, mais de duas vezes mais rápido. Elzner rebateu que o primeiro arranha-céu de concreto tinha levado “só alguns meses a mais” que o prédio de aço mais recente da época."
+      ]
+    },
+    {
+      "titulo": "Os que juravam que ele cairia",
+      "paragrafos": [
+        "Em Cincinnati conta-se até hoje que um repórter passou a noite acordado diante do prédio, esperando vê-lo desabar quando tirassem o escoramento. A própria Biblioteca Pública da cidade apresenta o episódio como “uma história muito contada”, e a Society of Architectural Historians, como tradição local; nenhuma fonte dá o nome do repórter ou do jornal.",
+        "O que ficou registrado é mais duro. No artigo de 1904, Elzner escreveu que, durante a obra, “homens de grande capacidade, que deveriam saber mais”, previram que o prédio nunca chegaria ao telhado; que, se chegasse, racharia inteiro com a retração do concreto; e que não resistiria ao vento. “Os fatos são que ele chegou ao telhado, que não há fissuras de retração e que o prédio não só não foi derrubado pelo vento, como nos ventos mais fortes não se percebe nem um tremor.” Como prova, apontou o cofre do banco, de quase cem toneladas, apoiado numa laje de 12,7 centímetros no segundo andar.",
+        "O argumento do fogo chegou junto. Em fevereiro de 1904, o grande incêndio de Baltimore destruiu o centro daquela cidade, e Elzner abriu o artigo lembrando que um prédio reformado com colunas, vigas e pisos de concreto ficara de pé no meio da área queimada."
+      ]
+    },
+    {
+      "titulo": "De escritório a hotel",
+      "paragrafos": [
+        "O prédio deu certo, e o concreto entrou nos edifícios altos dos Estados Unidos, devagar: segundo o professor Mir M. Ali, da Universidade de Illinois, até por volta de 1960 raramente um prédio de concreto passou de vinte andares. Em 1973 ou 1974, conforme a fonte, a American Society of Civil Engineers declarou o Edifício Ingalls marco histórico nacional da engenharia civil; em 1975, ele entrou no National Register of Historic Places.",
+        "No século XXI, o prédio esvaziou. Foi vendido em 2013 e, depois de cerca de sete anos vazio, segundo a emissora WCPO, de Cincinnati, ganhou um projeto de hotel. Em julho de 2021 abriu como Courtyard by Marriott Cincinnati Downtown, da SREE Hotels, com reforma da HGC Construction. A porta blindada do antigo cofre continua lá. A sala que em 1904 servia de prova de que uma laje de concreto aguentava cem toneladas hoje é a academia do hotel."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Um repórter passou a noite acordado esperando o prédio cair, para ser o primeiro a dar a notícia.",
+      "registro": "É tradição local, e as próprias fontes a tratam assim: a Biblioteca Pública de Cincinnati fala em “uma história muito contada”, sem nome de repórter nem de jornal. O que está documentado é o arquiteto Alfred O. Elzner, em 1904, contando que engenheiros respeitados previram que o prédio não chegaria ao telhado, racharia com a retração e não resistiria ao vento."
+    },
+    {
+      "circula": "O prédio ficou de pé porque era flexível: a flexibilidade venceu a rigidez.",
+      "registro": "É o contrário. Ele foi projetado como um monólito rígido, com as lajes funcionando como diafragmas e as paredes como vigas contra o vento, segundo o arquiteto e a American Society of Civil Engineers. Elzner se gabava de que, nos ventos mais fortes, não se percebia nem um tremor."
+    },
+    {
+      "circula": "Foi o primeiro prédio de concreto armado do mundo.",
+      "registro": "Não. O concreto armado já era usado em prédios baixos, na Europa e nos Estados Unidos, inclusive pelo próprio Ernest Ransome, desde os anos 1880. O Edifício Ingalls é reconhecido como o primeiro arranha-céu de concreto armado."
+    },
+    {
+      "circula": "Ernest Ransome projetou o prédio.",
+      "registro": "Ransome inventou e patenteou, em 1884, a barra de aço torcida usada no prédio. O projeto é dos arquitetos Elzner & Anderson, e o cálculo estrutural é atribuído ao engenheiro Henry N. Hooper."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "A. O. Elzner, \"The First Concrete Skyscraper\", The Architectural Record, vol. 15, junho de 1904",
+      "url": "https://archive.org/details/architecturalrec1904unse"
+    },
+    {
+      "texto": "\"Armored Concrete Building Fifteen Stories High — The Ingalls Building at Cincinnati\", Saxby's Magazine, Cincinnati, 1903",
+      "url": "https://digital.cincinnatilibrary.org/digital/collection/p16998coll17/id/52430/rec/1"
+    },
+    {
+      "texto": "Ernest L. Ransome, patente americana nº 305.226, \"Building Construction\", 16/09/1884",
+      "url": "https://patents.google.com/patent/US305226A/en"
+    },
+    {
+      "texto": "Ernest L. Ransome e Alexis Saurbrey, Reinforced Concrete Buildings, McGraw-Hill, 1912",
+      "url": "https://archive.org/details/reinforcedconcre00ransuoft"
+    },
+    {
+      "texto": "American Society of Civil Engineers, \"Ingalls Building\", marcos históricos da engenharia civil",
+      "url": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/ingalls-building"
+    },
+    {
+      "texto": "Society of Architectural Historians, SAH Archipedia, \"Ingalls Building\"",
+      "url": "https://sah-archipedia.org/buildings/OH-01-061-0054"
+    },
+    {
+      "texto": "Kevin Welch, \"Ingalls Building\", Biblioteca Pública de Cincinnati e do Condado de Hamilton, 2022",
+      "url": "https://digital.cincinnatilibrary.org/digital/api/collection/p16998coll39/id/836/download"
+    },
+    {
+      "texto": "The Skyscraper Museum, \"The Modern Concrete Skyscraper\"",
+      "url": "https://www.skyscraper.org/the-modern-concrete-skyscraper/"
+    },
+    {
+      "texto": "Mir M. Ali, \"Evolution of Concrete Skyscrapers: from Ingalls to Jin Mao\", Electronic Journal of Structural Engineering, 2001",
+      "url": "https://ejsei.com/EJSE/article/download/11/11/19"
+    },
+    {
+      "texto": "Council on Tall Buildings and Urban Habitat, The Skyscraper Center, \"Ingalls Building\"",
+      "url": "https://www.skyscrapercenter.com/building/ingalls-building/46538"
+    },
+    {
+      "texto": "Indiana Historical Society, \"Melville E. Ingalls Papers, 1870–1907\"",
+      "url": "https://indianahistory.org/wp-content/uploads/melville-e-ingalls-papers-1870-1907.pdf"
+    },
+    {
+      "texto": "WCPO, \"Historic Ingalls Building to get new life as hotel\"",
+      "url": "https://www.wcpo.com/news/transportation-development/development/historic-ingalls-building-to-get-new-life-as-hotel"
+    },
+    {
+      "texto": "SREE Hotels, \"SREE Hotels Opens Courtyard by Marriott in Downtown Cincinnati\", Hotel-Online, julho de 2021",
+      "url": "https://www.hotel-online.com/press_releases/release/sree-hotels-opens-courtyard-by-marriott-in-downtown-cincinnati/"
+    },
+    {
+      "texto": "Federal Reserve Bank of Minneapolis, \"Consumer Price Index, 1800–\"",
+      "url": "https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1800-"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "23-capa.jpg",
+      "alt": "Prédio estreito e alto de fachada clara, visto de baixo a partir da esquina, com base de pedra, fileiras regulares de janelas e uma cornija saliente no topo, contra céu azul",
+      "legenda": "O Edifício Ingalls em 2019, na esquina das ruas Fourth e Vine, em Cincinnati.",
+      "autor": "Warren LeMay",
+      "licenca": "CC0",
+      "licenca_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ingalls_Building,_Cincinnati,_OH_(32278877497).jpg",
+      "recriacao": false,
+      "foco": "50% 35%"
+    },
+    {
+      "arquivo": "23-skyline-1904.jpg",
+      "alt": "Fotografia de jornal em preto e branco: à esquerda, um prédio alto e claro domina a cena; à direita, três prédios altos mais distantes, a torre de uma igreja e um pequeno dirigível no céu",
+      "legenda": "O centro de Cincinnati fotografado em maio de 1904 do Chamber of Commerce Building; o Edifício Ingalls é o prédio à esquerda.",
+      "autor": "Autor não identificado (The Cincinnati Post, 26/05/1904)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Cincinnati_skyline_1904.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "23-postal-1910.jpg",
+      "alt": "Cartão-postal antigo em tom sépia: um prédio alto de esquina visto do alto, com um mastro no topo, a rua lá embaixo e prédios mais baixos ao redor",
+      "legenda": "Cartão-postal de cerca de 1910, que apresentava o prédio como o maior edifício de concreto do mundo.",
+      "autor": "Autor não identificado (Columbus Metropolitan Library)",
+      "licenca": "Domínio público",
+      "licenca_url": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ingall%27s_Building,_Largest_Concrete_Building_in_the_World,_Cincinnati,_O._-_DPLA_-_270fe3db3049bfb284684c70500b189c_(page_1).jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "23-cornija.jpg",
+      "alt": "Detalhe do topo de um prédio: cornija saliente decorada, último andar com pilastras e janelas e, abaixo, fileiras de janelas em parede de tijolo claro",
+      "legenda": "O último andar e a cornija, revestidos de terracota branca vidrada sobre a estrutura de concreto.",
+      "autor": "Hhelvey",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ingalls_Building,_Cincinnati.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "23-cofre.jpg",
+      "alt": "Porta de cofre de banco, retangular e aberta, cheia de ferrolhos e engrenagens, numa parede de mármore; lá dentro, uma pequena sala de ginástica com halteres",
+      "legenda": "A porta do antigo cofre do banco, em 2021; a sala blindada virou a academia do hotel.",
+      "autor": "Antony-22",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ingalls_Building_2021a.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "23-melville-ingalls.jpg",
+      "alt": "Retrato gravado em preto e branco de um homem de barba cheia, terno escuro e colarinho branco, olhando para a direita",
+      "legenda": "Melville E. Ingalls, o investidor que deu nome ao prédio, em retrato publicado até 1902.",
+      "autor": "Franklin Co., Chicago",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Melville_E._Ingalls.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "ponte-de-tacoma-narrows"
+}

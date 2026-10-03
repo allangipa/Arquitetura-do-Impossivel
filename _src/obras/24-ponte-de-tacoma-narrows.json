@@ -1,0 +1,341 @@
+{
+  "num": "24",
+  "slug": "ponte-de-tacoma-narrows",
+  "obra": "Ponte de Tacoma Narrows",
+  "titulo_video": null,
+  "lugar": "Estreito de Tacoma Narrows, entre Tacoma e a península de Kitsap, Washington, Estados Unidos",
+  "regiao": "mundo",
+  "periodo": "1938–1940",
+  "estreia": "2027-03-18",
+  "impossivel": "Pendurar 853 metros de pista sobre um estreito de ventos fortes com uma viga de apenas 2,4 metros de altura, num tempo em que a engenharia calculava o empurrão do vento, mas não sabia que o vento também podia torcer uma ponte até parti-la.",
+  "resumo": "A ponte pênsil que abriu em julho de 1940 e caiu quatro meses depois, num vento de 68 km/h, e por que a explicação por ressonância não se sustenta.",
+  "abertura": [
+    "Em 1º de julho de 1940, o estado de Washington, nos Estados Unidos, abriu a terceira ponte pênsil de maior vão do mundo, sobre o estreito de Tacoma Narrows, entre a cidade de Tacoma e a península de Kitsap. Era fina e elegante como nenhuma outra. Desde a obra, balançava tanto que os operários a apelidaram de Galloping Gertie, a Gertie Galopante.",
+    "Em 7 de novembro de 1940, quatro meses depois, um vento de cerca de 68 km/h a fez torcer até o tabuleiro se partir e cair no mar. Não morreu ninguém, só um cachorro. O desastre foi filmado, e o filme virou a aula mais vista da história da engenharia: a prova de que uma ponte calculada para resistir ao vento podia ser destruída por ele de um jeito que ninguém tinha previsto."
+  ],
+  "numeros": [
+    {
+      "valor": "853 m",
+      "rotulo": "de vão central, o terceiro maior vão pênsil do mundo em 1940",
+      "conf": "2+"
+    },
+    {
+      "valor": "2,4 m",
+      "rotulo": "de altura da viga que enrijecia o tabuleiro; o projeto anterior previa uma treliça de 7,6 m",
+      "conf": "2+"
+    },
+    {
+      "valor": "19 meses",
+      "rotulo": "de obra, de 23/11/1938 a 30/06/1940",
+      "conf": "2+"
+    },
+    {
+      "valor": "4 meses",
+      "rotulo": "de vida, da inauguração em 01/07/1940 à queda em 07/11/1940",
+      "conf": "2+"
+    },
+    {
+      "valor": "68 km/h",
+      "rotulo": "de vento na manhã da queda; a ponte fora calculada para 193 km/h",
+      "conf": "2+"
+    },
+    {
+      "valor": "US$ 6,4 mi",
+      "rotulo": "de custo final, com verba federal do New Deal",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Ligar Tacoma à península de Kitsap, que dependia de balsa: em 1939, a balsa levou 205.842 veículos, média de 564 por dia. Uma travessia ferroviária fora cogitada já em 1889, e a Câmara de Comércio de Tacoma financiava estudos desde os anos 1920.",
+      "conf": "1",
+      "nota": "os números da balsa vêm do departamento de transportes de Washington"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "A Washington State Toll Bridge Authority, criada pelo Legislativo estadual em janeiro de 1937 para construir pontes pagas com pedágio. O dinheiro veio da Public Works Administration, a agência de obras do New Deal, aprovado em 23/06/1938.",
+      "conf": "2+"
+    },
+    {
+      "item": "Projeto",
+      "valor": "O engenheiro de pontes do estado, Clark Eldridge, desenhou uma ponte com treliça de enrijecimento de 7,6 m de altura, estimada em US$ 11 milhões. A verba federal exigiu consultores de fora, e Leon Moisseiff, de Nova York, trocou a treliça por uma viga de alma cheia de 2,4 m, alongou o vão e baixou a estimativa para cerca de US$ 7 milhões.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem construiu",
+      "valor": "A Pacific Bridge Company, de São Francisco, com a General Construction Company, de Seattle, e a Columbia Construction Company. O aço da superestrutura veio da Bethlehem Steel; o fio dos cabos, da John A. Roebling's Sons.",
+      "conf": "1"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Obra iniciada em 23/11/1938 e concluída em 30/06/1940, em 19 meses. Inaugurada em 01/07/1940, diante de 7 mil ou 10 mil pessoas, conforme a fonte.",
+      "conf": "2+",
+      "nota": "o público da inauguração diverge"
+    },
+    {
+      "item": "Operários",
+      "valor": "Mais de 200 homens como equipe típica e cerca de 225 nos meses finais, segundo o departamento de transportes do estado, ganhando em média US$ 1,35 por hora. Havia uma mulher, Marie Guske. O total de trabalhadores que passaram pela obra não foi registrado.",
+      "conf": "1"
+    },
+    {
+      "item": "Mortes na construção",
+      "valor": "Uma, segundo o departamento de transportes de Washington: o carpinteiro Fred Wilde, que tropeçou e caiu de 3,7 m em 27/06/1940, quatro dias antes da inauguração. No dia seguinte, o pintor Pete Kreller caiu 58 m no estreito e sobreviveu.",
+      "conf": "1"
+    },
+    {
+      "item": "Custo",
+      "valor": "US$ 6,4 milhões. A divisão entre doação e empréstimo federal varia entre as fontes: 45% a fundo perdido, segundo o estado; US$ 2,8 milhões de doação e US$ 3,3 milhões de empréstimo, segundo um histórico publicado pela ASCE. O pedágio era de 75 centavos por carro em cada sentido.",
+      "conf": "DIV",
+      "nota": "pelo índice de preços ao consumidor dos EUA (1940 = 14,0; 2025 = 321,9), US$ 6,4 milhões equivalem a cerca de US$ 147 milhões de 2025"
+    },
+    {
+      "item": "Medidas",
+      "valor": "Vão central de 853 m e 1.810 m de comprimento com os acessos. Largura de 11,9 m entre os cabos, com pista de duas faixas. Torres de 129,5 m acima dos pilares. Relação entre a altura da viga e o vão de 1 para 350, sem precedente na época.",
+      "conf": "2+"
+    },
+    {
+      "item": "A queda",
+      "valor": "Em 07/11/1940, com vento de 68 km/h, o tabuleiro passou a torcer, com até 8,5 m de desnível entre as bordas. Por volta das 11h, um trecho de 183 m do vão central se soltou e caiu de quase 60 m no estreito.",
+      "conf": "2+",
+      "nota": "a altura da queda aparece como 59 ou 58 m"
+    },
+    {
+      "item": "Vítimas da queda",
+      "valor": "Nenhuma pessoa. Morreu Tubby, o cão da família do jornalista Leonard Coatsworth, que ficou no carro abandonado no meio da ponte.",
+      "conf": "2+"
+    },
+    {
+      "item": "Causa",
+      "valor": "Flutter torsional: uma vibração autoexcitada, em que a torção da ponte mudava o ar em volta dela e o vento passava a empurrar a torção no mesmo sentido. A junta federal de investigação, de Othmar Ammann, Theodore von Kármán e Glenn Woodruff, apontou em 1941 a flexibilidade excessiva.",
+      "conf": "2+"
+    },
+    {
+      "item": "O prejuízo",
+      "valor": "Acordo de US$ 4 milhões com as seguradoras em agosto de 1941. O salvamento do aço, até maio de 1943, deu prejuízo de US$ 350.933.",
+      "conf": "1",
+      "nota": "o valor do seguro vem do departamento de transportes do estado; o prejuízo do salvamento aparece em mais de uma fonte"
+    },
+    {
+      "item": "A ponte nova",
+      "valor": "Aberta em 14/10/1950 sobre os pilares e ancoragens de 1940, com treliça funda e vazada, testada antes em túnel de vento. Custou US$ 14.011.384,28. Três ou quatro operários morreram na obra, conforme a fonte.",
+      "conf": "DIV",
+      "nota": "a data é confirmada; custo de fonte única; mortes divergem"
+    },
+    {
+      "item": "A segunda paralela",
+      "valor": "Aberta ao tráfego em 16/07/2007, ao lado da de 1950. Custou US$ 849 milhões e leva o tráfego em direção a Tacoma, com pedágio; a de 1950 leva o tráfego no sentido oposto, de graça.",
+      "conf": "1"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Os destroços de 1940 estão no fundo do estreito e entraram no Registro Nacional de Lugares Históricos dos EUA em 1992. A ponte de 1950 teve reparo emergencial numa junta em 22/04/2026; o estado prevê trocar as juntas grandes em 2027.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Uma ponte fina demais",
+      "paragrafos": [
+        "O estreito de Tacoma Narrows é um braço do Puget Sound, no estado de Washington, no noroeste dos Estados Unidos. De um lado fica Tacoma; do outro, a península de Kitsap. Até 1940, a travessia era de balsa. Uma autoridade estadual de pedágio, criada em 1937, ficou encarregada de fazer a ponte, e o dinheiro veio da Public Works Administration, a agência de obras do New Deal.",
+        "O primeiro projeto foi do engenheiro de pontes do estado, Clark Eldridge: uma ponte pênsil com uma treliça de aço de 7,6 m de altura debaixo da pista, para dar rigidez ao tabuleiro. Custaria US$ 11 milhões. A verba federal, segundo o departamento de transportes do estado, veio com a exigência de contratar consultores de fora. O consultor da superestrutura foi Leon Moisseiff, de Nova York, um dos engenheiros de pontes pênseis mais respeitados do país, autor da teoria da deflexão e consultor da Golden Gate, em São Francisco.",
+        "A teoria de Moisseiff dizia que, numa ponte pênsil longa, o próprio peso dos cabos e do tabuleiro absorve boa parte das cargas, e por isso a viga pode ser mais leve e mais flexível. Ele trocou a treliça de 7,6 m por uma viga de chapa de aço de alma cheia, de 2,4 m, alongou o vão para 853 m e baixou a estimativa para cerca de US$ 7 milhões. A relação entre a altura da viga e o vão ficou em 1 para 350, sem precedente na época. A largura, de 11,9 m entre os cabos, era 1/72 do vão. A ponte foi calculada para aguentar o empurrão lateral de um vento de 193 km/h."
+      ]
+    },
+    {
+      "titulo": "Dezenove meses de obra",
+      "paragrafos": [
+        "A obra começou em 23 de novembro de 1938, com a Pacific Bridge Company, de São Francisco, à frente. O caixão do pilar leste desceu 32 m abaixo do fundo do estreito, e os dois pilares foram posicionados com âncoras de concreto de 570 toneladas cada. Em 13 de novembro de 1939, um terremoto de magnitude 6,2 sacudiu a região sem danificar as torres. A fiação dos cabos, com o fio da Roebling's Sons, começou em janeiro de 1940.",
+        "Segundo o departamento de transportes do estado, a equipe passou de 200 homens e chegou a cerca de 225 nos meses finais, a maioria montadores itinerantes de ponte, com salário médio de US$ 1,35 por hora. Quantos passaram pela obra ao todo, ninguém registrou. Em 27 de junho de 1940, quatro dias antes da inauguração, o carpinteiro Fred Wilde tropeçou, caiu de 3,7 m e morreu, a única morte da obra no registro do estado. No dia seguinte, o pintor Pete Kreller, de 26 anos, caiu 58 m no estreito e sobreviveu com ferimentos leves.",
+        "A ponte ficou pronta em 30 de junho de 1940, em 19 meses, por US$ 6,4 milhões, e foi inaugurada no dia seguinte pelo governador Clarence Martin. O pedágio era de 75 centavos por carro em cada sentido."
+      ]
+    },
+    {
+      "titulo": "Gertie Galopante",
+      "paragrafos": [
+        "O tabuleiro já ondulava antes da inauguração. Segundo o departamento de transportes, foi no começo de maio de 1940, quando concretavam a pista, que os operários começaram a chamar a ponte de Galloping Gertie. Com vento moderado, ondas subiam e desciam pela pista; quem dirigia via o carro da frente sumir e reaparecer. Havia quem atravessasse só para sentir.",
+        "Os engenheiros tentaram segurar a ponte. Amarraram os vãos laterais a blocos de concreto de 50 toneladas com cabos de aço, que arrebentaram; puseram estais diagonais no meio do vão e amortecedores hidráulicos entre as torres e o tabuleiro. O professor F. Bert Farquharson, da Universidade de Washington, estudou a ponte em modelos reduzidos e propôs furar as vigas, para o vento passar, ou cobri-las com carenagens curvas de aço. O estudo dele foi entregue no começo de novembro de 1940. Não deu tempo."
+      ]
+    },
+    {
+      "titulo": "A manhã de 7 de novembro",
+      "paragrafos": [
+        "Na manhã de 7 de novembro de 1940, o vento no estreito passava de 60 km/h e chegou a 68 km/h. Pela cronologia do departamento de transportes do estado, por volta das 10h o tabuleiro deixou de subir e descer e passou a torcer: as duas metades do vão central giravam em sentidos opostos, como se a pista fosse uma fita, com até 8,5 m de diferença de altura entre uma borda e outra e inclinações de até 45 graus. Uma volta completa levava cerca de cinco segundos.",
+        "O jornalista Leonard Coatsworth, do Tacoma News Tribune, estava na ponte com o carro e o cão da família, Tubby. Abandonou o carro e saiu rastejando, de quatro a maior parte do tempo, por cerca de 450 m. O professor Farquharson, que filmava a ponte, tentou tirar o cachorro do carro e não conseguiu. Por volta das 11h, um trecho de 183 m do vão central se soltou e caiu de quase 60 m no estreito, levando o carro e Tubby. Nenhuma pessoa morreu.",
+        "Barney Elliott, de uma loja de fotografia de Tacoma, filmou de cima da própria ponte enquanto ela torcia. As imagens correram o mundo; os filmes feitos naquela manhã, inclusive o de Farquharson, são até hoje material de aula em escolas de engenharia."
+      ]
+    },
+    {
+      "titulo": "Não foi ressonância",
+      "paragrafos": [
+        "A explicação que se espalhou pelos livros didáticos de física é a ressonância: o vento teria batido no mesmo ritmo da frequência natural da ponte, como um empurrão de balanço no tempo certo. Em 1991, os engenheiros K. Yusuf Billah e Robert Scanlan publicaram no American Journal of Physics um artigo mostrando que essa versão não se sustenta. Vento turbulento não tem ritmo fixo. E os redemoinhos que se desprendem atrás da viga, os vórtices, nos quais o próprio Theodore von Kármán pensou de início, se formavam com o vento daquela manhã a cerca de uma vez por segundo, enquanto a torção que derrubou a ponte levava cinco segundos por ciclo.",
+        "O que derrubou a ponte, pela explicação aceita hoje, foi o flutter torsional: quando o tabuleiro torcia, mudava o ângulo com que o vento o atingia, e a força do vento passava a empurrar a torção no mesmo sentido em que ela já ia. A ponte, em movimento, alimentava o próprio movimento, até o aço romper. Os vórtices podem ter contribuído para as ondas verticais dos meses anteriores, mas não explicam a torção final. O debate técnico sobre os detalhes continua, mas a ressonância simples saiu da conta.",
+        "A junta nomeada pelo governo federal, com Othmar Ammann, Theodore von Kármán e Glenn Woodruff, concluiu em 1941 que a causa principal tinha sido a flexibilidade excessiva da ponte. Engenheiros estruturais avaliaram depois que o projeto original de Eldridge, com a treliça funda e vazada, teria resistido àquele vento. A lição virou regra: desde então, ponte pênsil passa por teste de modelo em túnel de vento antes de ser construída."
+      ]
+    },
+    {
+      "titulo": "Duas pontes no lugar de uma",
+      "paragrafos": [
+        "O estado recebeu US$ 4 milhões das seguradoras em 1941 e recuperou 7 mil toneladas de sucata de aço até 1943, com prejuízo. Moisseiff, cujos serviços deixaram de ser procurados, morreu em 1943. Eldridge foi trabalhar para a Marinha em Guam e passou três anos e meio como prisioneiro de guerra dos japoneses.",
+        "A ponte nova, sobre os mesmos pilares e ancoragens, foi aberta em 14 de outubro de 1950, depois de 29 meses de obra e de testes em túnel de vento na Universidade de Washington. Tem treliça funda e vazada, rasgos no tabuleiro para o ar passar e amortecedores hidráulicos. Custou US$ 14 milhões, e a obra matou três ou quatro operários, conforme a fonte. Ganhou o apelido de Sturdy Gertie, a Gertie Robusta. Em 2007, uma segunda ponte pênsil, de US$ 849 milhões, foi aberta ao lado dela. Os destroços da primeira continuam no fundo do estreito e, desde 1992, são protegidos como lugar histórico."
+      ]
+    },
+    {
+      "titulo": "Oitenta e cinco anos depois",
+      "paragrafos": [
+        "A queda completou 85 anos em 7 de novembro de 2025. Agora quem dá trabalho é a ponte que substituiu a Gertie. Em 22 de abril de 2026, o departamento de transportes de Washington fechou duas faixas da ponte de 1950 para um reparo de emergência numa junta de dilatação, as peças que deixam o tabuleiro encolher e esticar com a temperatura.",
+        "Em setembro de 2026, o próprio departamento informou que três das quatro juntas grandes perto das torres chegaram ao fim da vida útil: desde 2024 foram dez reparos de emergência na ponte, oito deles nessas juntas. Uma substituição parcial ficou marcada para outubro de 2026, e a troca completa, para 2027, dentro de um programa de mais de US$ 300 milhões em preservação até 2031. A ponte feita para não balançar, aos 76 anos, precisa de joelhos novos."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "A ponte caiu por ressonância: o vento bateu no ritmo da frequência natural dela.",
+      "registro": "A literatura técnica descarta essa versão. Vento turbulento não tem ritmo fixo, e os vórtices que se desprendiam da viga tinham frequência cerca de cinco vezes maior que a da torção que derrubou a ponte. A explicação aceita é o flutter torsional, uma vibração autoexcitada, como mostraram Billah e Scanlan em 1991."
+    },
+    {
+      "circula": "Ela caiu num furacão.",
+      "registro": "O vento daquela manhã foi de cerca de 68 km/h, forte, mas comum no estreito. A ponte tinha sido calculada para o empurrão de um vento de 193 km/h. O que o cálculo não previa era o efeito do vento sobre um tabuleiro que torcia."
+    },
+    {
+      "circula": "Ninguém morreu por causa da ponte, só um cachorro.",
+      "registro": "Na queda, de fato, nenhuma pessoa morreu, e o cão Tubby morreu no carro abandonado. Mas o departamento de transportes do estado registra uma morte na obra: o carpinteiro Fred Wilde, em 27 de junho de 1940."
+    },
+    {
+      "circula": "O projetista era um amador.",
+      "registro": "Leon Moisseiff era um dos engenheiros de pontes pênseis mais respeitados dos Estados Unidos e foi consultor da Golden Gate. A tendência a pontes cada vez mais leves e flexíveis era da profissão inteira, que tinha esquecido as pontes derrubadas pelo vento no século XIX."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: The machine\"",
+      "url": "https://wsdot.wa.gov/tnbhistory/1940-bridge.htm"
+    },
+    {
+      "texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Creating the Narrows\"",
+      "url": "https://www.wsdot.wa.gov/TNBHistory/creating.htm"
+    },
+    {
+      "texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Collapse\"",
+      "url": "https://www.wsdot.wa.gov/tnbhistory/collapse.htm"
+    },
+    {
+      "texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Lessons from failure\"",
+      "url": "https://wsdot.wa.gov/tnbhistory/bridges-failure.htm"
+    },
+    {
+      "texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: Aftermath\"",
+      "url": "https://www.wsdot.wa.gov/TNBHistory/aftermath.htm"
+    },
+    {
+      "texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: The 1940 Narrows Bridge\" e \"Weird facts\"",
+      "url": "https://www.wsdot.wa.gov/TNBhistory/weird-facts.htm"
+    },
+    {
+      "texto": "K. Y. Billah e R. H. Scanlan, \"Resonance, Tacoma Narrows bridge failure, and undergraduate physics textbooks\", American Journal of Physics, vol. 59, 1991",
+      "url": "https://www.ketchum.org/ajp1.html"
+    },
+    {
+      "texto": "Tom Irvine, \"The Tacoma Narrows Bridge Failure\", 2009",
+      "url": "https://www.vibrationdata.com/Tacoma.pdf"
+    },
+    {
+      "texto": "Frank Griggs Jr., \"Tacoma Narrows Bridge Failure 1940\", Structure Magazine, 2022",
+      "url": "https://www.structuremag.org/article/tacoma-narrows-bridge-failure-1940/"
+    },
+    {
+      "texto": "American Society of Civil Engineers, \"Tacoma Narrows Bridges\" (Historic Civil Engineering Landmarks)",
+      "url": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/tacoma-narrows-bridges"
+    },
+    {
+      "texto": "Priscilla Long, \"Tacoma Narrows Bridge collapses on November 7, 1940\", HistoryLink.org, 2003",
+      "url": "https://www.historylink.org/file/5048"
+    },
+    {
+      "texto": "Priscilla Long, \"Tacoma Narrows Bridge is dedicated on July 1, 1940\", HistoryLink.org, 2004",
+      "url": "https://www.historylink.org/File/7139"
+    },
+    {
+      "texto": "Priscilla Long, \"New Tacoma Narrows Bridge is dedicated on July 15, 2007\", HistoryLink.org, 2007",
+      "url": "https://www.historylink.org/File/8214"
+    },
+    {
+      "texto": "FOX 13 Seattle, \"Tacoma Narrows Bridge: 'Galloping Gertie' collapsed 85 years ago\", 07/11/2025",
+      "url": "https://www.fox13seattle.com/news/tacoma-narrows-bridge-galloping-gertie-collapsed-85-years-ago"
+    },
+    {
+      "texto": "April Leigh e Cara Mitchell, \"Aging bridge joints: Sturdy Gertie in Tacoma needs a total knee replacement\", The WSDOT Blog, 28/09/2026",
+      "url": "https://wsdotblog.blogspot.com/2026/09/aging-bridge-joints-sturdy-gertie-in.html"
+    },
+    {
+      "texto": "PNW Daily, \"Tacoma Narrows Bridge Lane Closures Ahead for Emergency Repairs\", 23/04/2026",
+      "url": "https://pnwdaily.com/2026/04/23/tacoma-narrows-bridge-lane-closures-ahead-for-emergency-repairs/"
+    },
+    {
+      "texto": "Washington State Transportation Commission, \"2026 Annual Tolling Report & Tacoma Narrows Bridge Loan Update\", 2026",
+      "url": "https://wstc.wa.gov/wp-content/uploads/2026/01/2026-0109-AnnualTollingReport.pdf"
+    },
+    {
+      "texto": "U.S. Bureau of Labor Statistics, índice de preços ao consumidor (CPI-U), médias anuais de 1940 e 2025",
+      "url": "https://www.bls.gov/opub/ted/2026/consumer-price-index-2025-in-review.htm"
+    },
+    {
+      "texto": "Wikipédia, \"Tacoma Narrows Bridge (1940)\" (ponto de partida)",
+      "url": "https://en.wikipedia.org/wiki/Tacoma_Narrows_Bridge_(1940)"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "24-capa.jpg",
+      "alt": "Fotograma antigo em preto e branco: a pista da ponte inclinada e torcida, com um carro parado e tombado de lado no meio, postes de luz tortos e os pendurais verticais dos dois lados",
+      "legenda": "O tabuleiro torcendo na manhã de 7 de novembro de 1940, visto da torre leste, num quadro do filme de 16 mm do professor F. Bert Farquharson, da Universidade de Washington.",
+      "autor": "F. B. Farquharson, Universidade de Washington (reprodução: Historic American Engineering Record, Library of Congress)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:VERTICAL_AND_TORSIONAL_MOTION_VIEWED_FROM_EAST_TOWER,_7_NOVEMBER_1940,_FROM_16MN_FILM_SHOT_BY_PROFESSOR_F.B._FARQUHARSON,_UNIVERSITY_OF_WASHINGTON._(LABORATORY_STUDIES_ON_THE_HAER_WASH,27-TACO,11-35.tif",
+      "recriacao": false,
+      "foco": "55% 60%"
+    },
+    {
+      "arquivo": "24-pedagio-1940.jpg",
+      "alt": "Fotografia antiga: praça de pedágio com quatro cabines sob uma marquise com as palavras Stop, Pay, Toll, alguns carros dos anos 1940 parados e a torre fina da ponte ao fundo, na névoa",
+      "legenda": "A praça de pedágio e a torre da ponte em 29 de agosto de 1940, dois meses depois da inauguração.",
+      "autor": "Relatório final de projeto e construção da ponte, de Clark H. Eldridge, 1941 (reprodução: Historic American Engineering Record, Library of Congress)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:TACOMA_NARROWS_BRIDGE,_LOOKING_EAST_THROUGH_TOLL_LANES,_29_AUGUST_1940._(ELDRIDGE,_CLARK_H._TACOMA_NARROWS_BRIDGE,_TACOMA,_WASHINGTON,_FINAL_REPORT_ON_DESIGN_AND_CONSTRUCTION,_HAER_WASH,27-TACO,11-30.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "24-ondas.jpg",
+      "alt": "Fotograma antigo em preto e branco: a pista da ponte arqueada como uma onda escura, vista de perto da torre, com o cabo principal descendo em curva e a outra torre ao fundo",
+      "legenda": "A pista em onda no dia da queda, vista de perto da torre leste, em outro quadro do filme de Farquharson.",
+      "autor": "F. B. Farquharson, Universidade de Washington (reprodução: Historic American Engineering Record, Library of Congress)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:VERTICAL_OSCILLATIONS,_3-4_VIEW,_7_NOVEMBER_1940,_FROM_16MM_FILM_SHOT_PROFESSOR_F.B._FARQUHARSON,_UNIVERSITY_OF_WASHINGTON._(LABORATORY_STUDIES_ON_THE_TACOMA_NARROWS_BRIDGE,_AT_HAER_WASH,27-TACO,11-33.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "24-ponte-1950.jpg",
+      "alt": "Fotografia em preto e branco de uma ponte pênsil longa sobre água calma, com uma torre treliçada à esquerda em primeiro plano, a pista apoiada numa treliça funda e a segunda torre à direita, ao longe",
+      "legenda": "A ponte de 1950, construída sobre os pilares da anterior, fotografada em 1993: no lugar da viga fina, uma treliça funda e vazada.",
+      "autor": "Jet Lowe, Historic American Engineering Record",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:TACOMA_NARROWS_BRIDGE_IN_PERSPECTIVE_LOOKING_WEST_FROM_THE_MILLERS_ADDITION_SUBDIVISION_-_Tacoma_Narrows_Bridge,_Spanning_Narrows_at_State_Route_16,_Tacoma,_Pierce_County,_WA_HAER_WASH,27-TACO,11-1.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "24-duas-pontes.jpg",
+      "alt": "Duas pontes pênseis paralelas sobre um estreito de água azul, sob céu com nuvens brancas, vistas de uma praia com vegetação; a mais próxima tem torres de concreto claras e a de trás, torres verdes de aço",
+      "legenda": "As duas pontes de hoje, em 2024: a de 2007, à frente, e a de 1950, atrás.",
+      "autor": "Bmzuckerman",
+      "licenca": "CC BY 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Bridges_-_Tacoma,_WA_-_Tacoma_Narrows_Bridge_(1).jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "atomium"
+}

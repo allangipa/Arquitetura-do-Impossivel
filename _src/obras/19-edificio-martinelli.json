@@ -1,0 +1,307 @@
+{
+  "num": "19",
+  "slug": "edificio-martinelli",
+  "obra": "Edifício Martinelli",
+  "titulo_video": null,
+  "lugar": "Rua São Bento, Avenida São João e Rua Líbero Badaró, centro de São Paulo, São Paulo, Brasil",
+  "regiao": "brasil",
+  "periodo": "1924–1934",
+  "estreia": "2027-02-11",
+  "impossivel": "Levantar 30 andares de concreto armado numa cidade onde quase nenhum prédio passava de cinco, enquanto a Prefeitura embargava a obra, a imprensa falava em desabamento e o público mudava de calçada para não passar embaixo.",
+  "resumo": "Como um imigrante italiano subiu o Martinelli de 12 ou 14 para 30 andares, enfrentou embargo e desconfiança, morou no topo e perdeu o prédio na crise de 1929.",
+  "abertura": [
+    "Em 1924, quando Giuseppe Martinelli começou a obra no triângulo entre a Rua São Bento, a Avenida São João e a Rua Líbero Badaró, no centro de São Paulo, quase nenhum prédio da cidade passava de cinco andares. O dele foi projetado para 12 ou 14, conforme a fonte. Chegou a 30.",
+    "No caminho, a Prefeitura embargou a obra, a briga foi parar na Justiça, os jornais falaram em risco de desabamento e uma comissão técnica teve de dizer se aquilo ficava de pé. O dono respondeu construindo a própria casa, de cinco andares, no alto do prédio, e se mudando para lá com a família em 1929."
+  ],
+  "numeros": [
+    {
+      "valor": "30",
+      "rotulo": "andares, contando os cinco da casa do dono no topo",
+      "conf": "2+"
+    },
+    {
+      "valor": "105,65 m",
+      "rotulo": "de altura, o número publicado em 1929; há quem dê 130 m",
+      "conf": "DIV"
+    },
+    {
+      "valor": "1928",
+      "rotulo": "o ano do embargo, quando a obra chegava a 24 andares",
+      "conf": "2+"
+    },
+    {
+      "valor": "1924–1934",
+      "rotulo": "da primeira obra à conclusão; o prédio abriu, ainda inacabado, em 1929",
+      "conf": "2+"
+    },
+    {
+      "valor": "103",
+      "rotulo": "proprietários depois do leilão de 1944",
+      "conf": "2+"
+    },
+    {
+      "valor": "1975–1979",
+      "rotulo": "da desapropriação pela Prefeitura à reinauguração, em 04/05/1979",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Quem quis",
+      "valor": "Giuseppe Martinelli (1870–1946), imigrante de Lucca, na Itália, que começou no Brasil como açougueiro e mascate e enriqueceu com uma casa de navegação em Santos, sobretudo durante a Primeira Guerra.",
+      "conf": "2+",
+      "nota": "o ano da chegada ao Brasil aparece como 1889 ou 1892"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Arquiteto húngaro William (Vilmos) Fillinger (1888–1968), formado na Academia de Belas-Artes de Viena. As ampliações foram decididas pelo próprio Martinelli; o cálculo estrutural foi do sobrinho dele, o engenheiro Ítalo Martinelli; a fachada, dos irmãos Lacombe.",
+      "conf": "2+"
+    },
+    {
+      "item": "Estrutura e material",
+      "valor": "Concreto armado com paredes de tijolo. Cimento importado da Suécia e da Noruega pela própria importadora de Martinelli, mármore de Carrara, pinho-de-riga, elevadores suíços. Fachada em massa cor-de-rosa com vidro moído, cristal de rocha e pó de mica.",
+      "conf": "2+"
+    },
+    {
+      "item": "Andares",
+      "valor": "Planejado para 12 andares, segundo o condomínio e a Prefeitura, ou para 14, podendo chegar a 18, segundo a Enciclopédia Itaú Cultural, a Biblioteca Nacional e a historiadora Maria Cecília Naclério Homem. Chegou a 24 antes do embargo e terminou com 30.",
+      "conf": "DIV",
+      "nota": "há quem conte 26 ou 28 andares, ou 27 pavimentos e mais três no ático"
+    },
+    {
+      "item": "Embargo",
+      "valor": "Em 1928, com a obra perto dos 24 andares, a Prefeitura embargou a construção, sob a acusação de falta de licença e de risco de desabamento. O caso foi à Justiça. Segundo o condomínio do prédio, uma comissão técnica atestou a segurança e limitou a altura a 25 andares.",
+      "conf": "2+",
+      "nota": "o limite de 25 andares e a comissão vêm de uma fonte só; os nomes dos membros não foram encontrados"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Obra iniciada em 1924. Em abril de 1929 os jornais contavam 25 andares prontos; o Cine Rosário, no térreo, abriu em 02/09/1929. A conclusão aparece como 1934.",
+      "conf": "DIV",
+      "nota": "algumas fontes dizem que o prédio abriu em 1929 com só 12 andares, o que a imprensa da época desmente; outras falam em cinco anos de obra, contando só até 1929"
+    },
+    {
+      "item": "Operários",
+      "valor": "Mais de 600, além de 90 artesãos italianos e espanhóis no acabamento, segundo o condomínio do prédio. Total, salário e jornada não foram registrados nas fontes consultadas.",
+      "conf": "1"
+    },
+    {
+      "item": "Mortes na construção",
+      "valor": "Um registro: um operário que caiu do décimo andar em 1927, sem nome conhecido, segundo o pesquisador Douglas Nascimento, do Instituto São Paulo Antiga. Não há número oficial.",
+      "conf": "1"
+    },
+    {
+      "item": "Custo",
+      "valor": "Não registrado nas fontes consultadas. Sabe-se que Martinelli se endividou para terminar a obra.",
+      "conf": "sem"
+    },
+    {
+      "item": "Altura",
+      "valor": "105,65 m, o número publicado pela revista O Cruzeiro em 1929 e repetido pela maioria das fontes. O condomínio do prédio fala em 130 m; uma ficha da USP dá 63 m pela Rua São Bento e 72,5 m pela Líbero Badaró, provavelmente medidos de outro modo.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Incêndio",
+      "valor": "Em 24/11/1929, um curto-circuito junto aos motores dos elevadores incendiou o 26º andar, ainda cheio de madeira de obra. As mangueiras dos bombeiros não alcançavam o alto; o fogo foi combatido com baldes passados de mão em mão. Não houve mortos. O prejuízo foi estimado em 200 contos de réis.",
+      "conf": "1",
+      "nota": "segundo o Instituto São Paulo Antiga, a partir dos jornais da época"
+    },
+    {
+      "item": "A perda",
+      "valor": "Endividado e atingido pela crise de 1929, Martinelli vendeu o prédio ao Istituto Nazionale di Credito per il Lavoro Italiano all'Estero, ligado ao governo da Itália. Em 1943, com o Brasil em guerra contra o Eixo, a União confiscou o edifício; em 1944 ele foi leiloado e acabou dividido entre 103 proprietários.",
+      "conf": "2+",
+      "nota": "a venda aparece em 1933 ou em 1934"
+    },
+    {
+      "item": "Decadência e reforma",
+      "valor": "Entre os anos 1950 e 1970 virou cortiço vertical, com elevadores parados, lixo acumulado e crimes nas páginas policiais. Desapropriado em 1975 pelo prefeito Olavo Setúbal, foi reformado e reinaugurado em 04/05/1979 como sede de órgãos municipais.",
+      "conf": "2+"
+    },
+    {
+      "item": "Proteção",
+      "valor": "Volumetria e fachadas tombadas a partir dos anos 1980 pelo Conpresp, municipal, e pelo Condephaat, estadual.",
+      "conf": "1",
+      "nota": "segundo a SP Urbanismo"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Os quatro últimos andares e o terraço do 26º foram concedidos em 2023, por 15 anos, ao Grupo Tokyo, para um mirante com museu, bares e restaurante. Em julho de 2026 o terraço voltou a receber visitas guiadas gratuitas às terças, durante as obras, que continuavam.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Uma cidade de cinco andares",
+      "paragrafos": [
+        "Na São Paulo do começo dos anos 1920, a cidade crescia com o dinheiro do café, mas crescia para os lados. Eram raros os prédios com mais de cinco andares. O mais alto, o Sampaio Moreira, inaugurado em 1924 na Rua Líbero Badaró, tinha uns 12. Foi na mesma região, no triângulo formado pela Rua São Bento, pela Avenida São João e pela própria Líbero Badaró, que Giuseppe Martinelli decidiu erguer o seu prédio.",
+        "Martinelli nasceu em 1870 na região de Lucca, na Itália, numa família de pedreiros, e chegou ao Brasil no fim do século XIX. Começou como açougueiro e mascate, montou uma casa de despachos em Santos e, durante a Primeira Guerra, quando faltavam navios, formou uma frota própria. Nos anos 1920 era um dos homens mais ricos do país e queria deixar uma marca que não fosse só uma empresa: o prédio mais alto da América do Sul.",
+        "O projeto foi encomendado ao arquiteto húngaro William Fillinger, formado em Viena. A fachada coube aos irmãos Lacombe. O material veio quase todo de fora: cimento da Suécia e da Noruega, trazido pela própria importadora de Martinelli, mármore de Carrara, portas de pinho-de-riga, elevadores suíços."
+      ]
+    },
+    {
+      "titulo": "Mais um andar, e mais outro",
+      "paragrafos": [
+        "A obra começou em 1924. Quantos andares o prédio teria no papel depende de quem conta: 12, segundo o condomínio do edifício e a Prefeitura; 14, com possibilidade de chegar a 18, segundo a historiadora Maria Cecília Naclério Homem, a Enciclopédia Itaú Cultural e a Biblioteca Nacional. O que todas dizem é que o número não parou de subir. O próprio Martinelli, que antes de emigrar tinha estudado construção em Lucca, passou a decidir as ampliações, e o sobrinho, o engenheiro Ítalo Martinelli, refazia os cálculos da estrutura de concreto armado.",
+        "O condomínio do prédio conta que Martinelli fiscalizava a obra todos os dias e chegava a trabalhar como pedreiro ao lado dos operários, que passaram de 600, com mais 90 artesãos italianos e espanhóis no acabamento. Conta também que as fundações abalaram um prédio vizinho, e que o problema foi resolvido com a compra do vizinho. São informações que vêm de uma fonte só.",
+        "Segundo o Instituto São Paulo Antiga, a pior notícia daquele canteiro veio em 1927: um operário caiu do décimo andar e morreu. O nome dele não ficou registrado nas fontes consultadas, nem há um número oficial de feridos ou mortos na obra. Também não ficou registrado quanto o prédio custou."
+      ]
+    },
+    {
+      "titulo": "O embargo de 1928",
+      "paragrafos": [
+        "Quando a estrutura chegava aos 24 andares, em 1928, a Prefeitura embargou a obra. A acusação, segundo o condomínio, era de falta de licença e de desrespeito às leis municipais; segundo a Itaú Cultural e a Biblioteca Nacional, havia denúncias de que o prédio podia ruir. Um artigo do Instituto São Paulo Antiga acrescenta que arquitetos afastados da obra foram aos jornais dizer que as fundações tinham sido feitas para 14 andares, e não para 24.",
+        "A cidade acreditou no pior. Registros da época contam que pedestres mudavam de calçada para não passar embaixo da construção. O caso foi parar na Justiça e virou assunto político, usado pela oposição contra Martinelli e contra a Prefeitura. Os jornais do Rio de Janeiro e de São Paulo acompanharam a disputa entre maio e outubro de 1928.",
+        "A saída, segundo o condomínio do prédio, foi uma comissão técnica, que examinou a obra, atestou que ela era segura e autorizou até 25 andares. Quem eram os membros dessa comissão e o que dizia o laudo não aparece nas fontes consultadas. Em abril de 1929, o jornal O Paiz já contava 25 andares construídos."
+      ]
+    },
+    {
+      "titulo": "A casa no último andar",
+      "paragrafos": [
+        "Martinelli não parou nos 25. Nos cinco andares de cima construiu um palacete para a própria família, que ficou conhecido como Casa do Comendador. Mudou-se para lá em 1929. O primeiro morador do prédio, porém, tinha sido outro italiano, o professor de dança Arturo Patrizi, instalado no quarto andar desde 1928, com a obra ainda em andamento.",
+        "A explicação mais repetida é que Martinelli foi morar no topo para provar que o prédio não cairia. Ela aparece na Itaú Cultural, na Prefeitura e em quase todo texto sobre o edifício, mas nenhuma das fontes consultadas traz uma frase dele dizendo isso. O condomínio do prédio conta outra versão: a casa de cinco andares foi a forma de passar do limite de 25 andares fixado pela comissão e chegar aos 30, como Gustave Eiffel, que tinha um apartamento no alto da sua torre.",
+        "Em 1929 o Martinelli abriu as portas, ainda inacabado. O Cine Rosário, o cinema de luxo do térreo, foi inaugurado em 02/09/1929, e a revista O Cruzeiro o chamou de a maior obra de cimento armado do mundo, título que o Edifício A Noite, no Rio de Janeiro, disputava ao mesmo tempo. A altura publicada era de 105,65 metros. Em 24/11/1929, um curto-circuito no 26º andar, onde ficavam os motores dos elevadores e ainda havia muita madeira de obra, provocou um incêndio que as mangueiras dos bombeiros não alcançavam. O fogo foi combatido com baldes passados de mão em mão e não deixou mortos."
+      ]
+    },
+    {
+      "titulo": "A crise, a guerra e o leilão",
+      "paragrafos": [
+        "O ano da inauguração foi também o da quebra da Bolsa de Nova York. A crise atingiu a empresa de navegação de Martinelli, e os apartamentos e salas não foram vendidos como ele esperava. Com as dívidas da obra, ele vendeu o prédio, em 1933 ou 1934, conforme a fonte, ao Istituto Nazionale di Credito per il Lavoro Italiano all'Estero, uma instituição do governo italiano. A obra foi dada como concluída em 1934.",
+        "Nos anos seguintes o Martinelli foi o endereço da alta sociedade paulistana, com o Hotel São Bento, salões de baile, partidos políticos e clubes de futebol. Em 1943, quando o Brasil entrou na guerra contra o Eixo, a União confiscou os bens italianos, e o prédio, rebatizado Edifício América, foi leiloado em 1944. Pouco depois, já tinha 103 donos."
+      ]
+    },
+    {
+      "titulo": "Do cortiço à reforma",
+      "paragrafos": [
+        "Sem administração que desse conta de tantos proprietários, o edifício virou um cortiço vertical a partir dos anos 1950. Elevadores pararam, o lixo se acumulou nos poços, e o prédio passou das colunas sociais para as páginas policiais, com crimes que nunca foram esclarecidos.",
+        "Em 1975, o prefeito Olavo Setúbal desapropriou o Martinelli e retirou os moradores. A reforma trocou as instalações elétricas e hidráulicas, instalou elevadores novos e um sistema contra incêndio e limpou a fachada; as pinturas internas originais se perderam. O prédio foi reinaugurado em 04/05/1979 como sede de secretarias municipais, uso que mantém. A partir dos anos 1980, a volumetria e as fachadas foram tombadas pelo Conpresp e pelo Condephaat."
+      ]
+    },
+    {
+      "titulo": "O topo, cem anos depois",
+      "paragrafos": [
+        "A cobertura foi restaurada a partir de 2008 e o terraço do 26º andar ficou aberto a visitas de 2010 ao começo de 2017. Em 2023, a Prefeitura concedeu os andares 25 a 28, o terraço, uma loja do térreo e o subsolo ao Grupo Tokyo, por 15 anos, para um mirante com museu, bares e restaurante. Em 2024, ano do centenário do início da obra, o prédio recebeu mais de 100 mil visitantes, segundo a concessionária.",
+        "Em julho de 2026, as visitas guiadas gratuitas ao terraço voltaram, às terças-feiras, durante as obras de modernização, que continuavam. Quase cem anos depois do embargo, o topo que a Prefeitura tentou barrar é o lugar para onde a Prefeitura leva os turistas."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Martinelli foi morar no topo do prédio para provar que ele não cairia.",
+      "registro": "A casa no alto existe e a família se mudou para lá em 1929. O motivo é repetido por quase todas as fontes, mas nenhuma traz uma declaração dele. O condomínio do prédio dá outra explicação: a casa de cinco andares foi o jeito de passar do limite de 25 andares fixado depois do embargo e chegar aos 30."
+    },
+    {
+      "circula": "O Martinelli foi o primeiro arranha-céu do Brasil.",
+      "registro": "Depende do que se chama de arranha-céu. Antes dele, São Paulo já tinha o Sampaio Moreira, de 1924, e o Edifício A Noite, no Rio de Janeiro, foi erguido ao mesmo tempo, entre 1928 e 1929. O Martinelli foi o prédio que levou São Paulo para o alto e o mais alto do país por mais de uma década."
+    },
+    {
+      "circula": "O prédio abriu em 1929 com só 12 andares.",
+      "registro": "Em abril de 1929 o jornal O Paiz já contava 25 andares construídos. O que abriu em 1929 foi um prédio ainda em obras, concluído em 1934."
+    },
+    {
+      "circula": "Foi o primeiro edifício de concreto armado do Brasil.",
+      "registro": "Não. Foi um dos primeiros grandes prédios de concreto armado do país, e em 1929 a revista O Cruzeiro o chamou de maior obra de cimento armado do mundo, título que o Edifício A Noite também reivindicava."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Andrea C. T. Wanderley, \"O Edifício Martinelli, antigo referencial e símbolo de São Paulo\", Brasiliana Fotográfica, Biblioteca Nacional, 2022",
+      "url": "https://brasilianafotografica.bn.gov.br/?p=27521"
+    },
+    {
+      "texto": "\"Edifício Martinelli\", Enciclopédia Itaú Cultural, 2024",
+      "url": "https://enciclopedia.itaucultural.org.br/obra69058/edificio-martinelli"
+    },
+    {
+      "texto": "Prefeitura de São Paulo, Secretaria Municipal de Habitação, \"A história de Martinelli, o imigrante que sonhou subir aos céus\", 2006",
+      "url": "https://prefeitura.sp.gov.br/web/habitacao/w/noticias/4230"
+    },
+    {
+      "texto": "Maria Cecília Naclério Homem, O Prédio Martinelli: a ascensão do imigrante e a verticalização de São Paulo, Projeto Editores, 1984",
+      "url": null
+    },
+    {
+      "texto": "Condomínio Prédio Martinelli, \"História do Prédio Martinelli\"",
+      "url": "http://www.prediomartinelli.com.br/historia-do-predio-martinelli-2/"
+    },
+    {
+      "texto": "IAU-USP, Arquitetura Italiana em São Paulo, ficha \"Edifício Martinelli\", 2022",
+      "url": "https://arquitalianasaopaulo.iau.usp.br/obras/edificio-martinelli/"
+    },
+    {
+      "texto": "Silvia A. P. Zakia, \"Edifício Santana, o primeiro arranha-céu de Campinas\", Oculum Ensaios, 2011",
+      "url": "https://www.redalyc.org/pdf/3517/351732215003.pdf"
+    },
+    {
+      "texto": "Douglas Nascimento, \"O incêndio do Martinelli\", São Paulo Antiga, 2019",
+      "url": "https://saopauloantiga.com.br/o-incendio-do-martinelli/"
+    },
+    {
+      "texto": "\"O real legado do Edifício Martinelli para o céu de São Paulo\", São Paulo Antiga, 2016",
+      "url": "https://saopauloantiga.com.br/o-real-legado-do-edificio-martinell/"
+    },
+    {
+      "texto": "Claudia Crescente, \"Edifício Martinelli guarda mistérios e assombrações\", Folha de S.Paulo (reproduzido pelo Jornal GGN, 2014)",
+      "url": "https://jornalggn.com.br/cultura/os-misterios-do-edificio-martinelli/"
+    },
+    {
+      "texto": "SP Urbanismo, \"Prefeitura vai conceder terraço do Edifício Martinelli para implantação de observatório\", 2019",
+      "url": "https://gestaourbana.prefeitura.sp.gov.br/noticias/prefeitura-vai-conceder-terraco-do-edificio-martinelli-para-implantacao-de-observatorio/"
+    },
+    {
+      "texto": "SP Urbanismo, \"Concessão transforma Terraço Martinelli em novo espaço cultural e de lazer no centro de SP\", 2023",
+      "url": "https://gestaourbana.prefeitura.sp.gov.br/noticias/concessao-transforma-terraco-martinelli-em-novo-espaco-cultural-e-de-lazer-no-centro-de-sp/"
+    },
+    {
+      "texto": "Revista PROJETO, \"Edifício Martinelli reabre visitas guiadas gratuitas ao terraço\", 2026",
+      "url": "https://revistaprojeto.com.br/noticias/edificio-martinelli-reabre-visitas-guiadas-gratuitas-ao-terraco/"
+    },
+    {
+      "texto": "Prefeitura de São Paulo, \"Edifício Martinelli retoma visitas guiadas gratuitas para o público\", 2025",
+      "url": "https://prefeitura.sp.gov.br/w/edif%C3%ADcio-martinelli-na-regi%C3%A3o-central-retoma-programa%C3%A7%C3%A3o-de-visitas-guiadas-gratuitas-para-o-p%C3%BAblico"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "19-capa.jpg",
+      "alt": "Prédio alto e largo de fachada rosada, com quatro blocos escalonados e coroamento claro com pináculos, visto de baixo de uma rua de pedestres com palmeiras e um relógio de rua",
+      "legenda": "O Martinelli em 2016, visto da Rua São Bento. Os blocos claros do alto incluem os andares da antiga casa do dono.",
+      "autor": "Wilfredor",
+      "licenca": "CC0",
+      "licenca_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Edif%C3%ADcio_Martinelli,_S%C3%A3o_Paulo_(0001_103).jpg",
+      "recriacao": false,
+      "foco": "45% 30%"
+    },
+    {
+      "arquivo": "19-centro-1939.jpg",
+      "alt": "Fotografia antiga em preto e branco: telhados baixos do centro de São Paulo em primeiro plano e, ao fundo, um único prédio muito mais alto que todos os outros",
+      "legenda": "O Martinelli em 1939, ainda sem rival à altura no centro de São Paulo.",
+      "autor": "Autor não identificado (Museu Paulista da USP, coleção cartões-postais)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:S%C3%A3o_Paulo_-_1939_(1)_-_1-15787-0000-0000,_Acervo_do_Museu_Paulista_da_USP.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "19-avenida-sao-joao.jpg",
+      "alt": "Cartão-postal antigo em sépia: avenida com carros dos anos 1940, um prédio largo com estrutura de anúncio no topo ao centro e, atrás dele, uma torre branca mais alta e escalonada",
+      "legenda": "A Avenida São João num cartão-postal sem data: o Martinelli ao centro e, atrás, a torre do Edifício Altino Arantes, que tirou dele o posto de mais alto da cidade.",
+      "autor": "Foto-Postal Colombo, autor não identificado (Museu Paulista da USP)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:34._Brasil._S%C3%A3o_Paulo._Avenida_S._Jo%C3%A3o_(1)_-_1-07375-0000-0000,_Acervo_do_Museu_Paulista_da_USP.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "19-casa-do-comendador.jpg",
+      "alt": "Varandas com colunas e balaústres de uma casa rosada no alto de um prédio, com pináculos de pedra em fila e a cidade e montanhas ao fundo sob céu azul",
+      "legenda": "As varandas da Casa do Comendador, a residência que Martinelli construiu nos últimos andares do prédio, em 2015.",
+      "autor": "Wilfredor",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Martinelli_building_Terrace,_S%C3%A3o_Paulo_downtown,_Brazil.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "tunel-do-tamisa"
+}

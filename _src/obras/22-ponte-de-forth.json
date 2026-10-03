@@ -1,0 +1,344 @@
+{
+  "num": "22",
+  "slug": "ponte-de-forth",
+  "obra": "Ponte de Forth",
+  "titulo_video": null,
+  "lugar": "Estuário do rio Forth, entre South Queensferry (Edimburgo) e North Queensferry (Fife), Escócia, Reino Unido",
+  "regiao": "mundo",
+  "periodo": "1882–1890",
+  "estreia": "2027-03-04",
+  "impossivel": "Atravessar de trem um estuário escocês de mais de 1,5 km, com canais de mais de 60 metros de fundo, logo depois de outra ponte escocesa ter caído numa tempestade levando um trem inteiro, e convencer o público de que a nova não cairia.",
+  "resumo": "Como a queda da Ponte do Tay fez nascer a Ponte de Forth, o cantiléver de aço de 1890, e por que seus mortos só ganharam nome um século depois.",
+  "abertura": [
+    "Na noite de 28 de dezembro de 1879, durante uma tempestade, os vãos centrais da ponte ferroviária sobre o rio Tay, em Dundee, na Escócia, caíram com um trem. Ninguém a bordo sobreviveu. O engenheiro da ponte, Thomas Bouch, já tinha começado outra, ainda maior, sobre o estuário do Forth, perto de Edimburgo. Ela foi abandonada.",
+    "No lugar dela, John Fowler e Benjamin Baker desenharam uma ponte que não se parecia com nada: três torres de aço em balanço, abertas na base para resistir ao vento, ligadas por vigas suspensas, com dois vãos de 520 metros. Aberta em 4 de março de 1890, foi por décadas o maior vão em cantiléver do mundo. Custou ao menos 57 vidas, pelo número oficial da época; a pesquisa feita mais de um século depois chegou a 73 nomes."
+  ],
+  "numeros": [
+    {
+      "valor": "2 × 520 m",
+      "rotulo": "de vão principal em cantiléver, o maior do mundo em 1890",
+      "conf": "2+"
+    },
+    {
+      "valor": "110 m",
+      "rotulo": "de altura das torres acima da maré alta",
+      "conf": "2+"
+    },
+    {
+      "valor": "6,5 milhões",
+      "rotulo": "de rebites, pela conta de 1890, que o próprio engenheiro da obra achava baixa",
+      "conf": "2+"
+    },
+    {
+      "valor": "4.600",
+      "rotulo": "operários no pico da obra",
+      "conf": "2+"
+    },
+    {
+      "valor": "57 · 73",
+      "rotulo": "mortos: o número oficial de 1890 e os nomes do memorial de 2012",
+      "conf": "DIV"
+    },
+    {
+      "valor": "1882–1890",
+      "rotulo": "do contrato, em dezembro de 1882, à inauguração, em 04/03/1890",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Ligar Edimburgo ao norte da Escócia por trem sem depender da balsa de Queensferry. A ponte era a peça central de uma rede de linhas novas para Perth, Dundee e Aberdeen.",
+      "conf": "2+"
+    },
+    {
+      "item": "O desastre que veio antes",
+      "valor": "Em 28/12/1879, a ponte do Tay, em Dundee, caiu com um trem durante uma tempestade, sem sobreviventes. Seu engenheiro, Thomas Bouch, tinha projetado também uma ponte pênsil para o Forth, já com obras iniciadas; ela foi abandonada.",
+      "conf": "2+"
+    },
+    {
+      "item": "Mortos no Tay",
+      "valor": "59 pessoas têm nome conhecido e estão no memorial de 2013; a estimativa mais alta, repetida desde a época, é de 75.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Sir John Fowler e Sir Benjamin Baker. Ponte ferroviária de cantiléver em aço, linha dupla: três torres em balanço duplo, com braços de 680 pés, e duas vigas centrais suspensas de 350 pés.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem construiu",
+      "valor": "Tancred, Arrol & Co., de William Arrol, de Glasgow, contratada em 21/12/1882. Arrol também tinha o contrato da ponte de Bouch. A dona da obra era a Forth Bridge Railway Company, sustentada por quatro companhias ferroviárias.",
+      "conf": "2+",
+      "nota": "as quatro ferrovias e a garantia de 4% ao ano vêm do relato de Wilhelm Westhofen, engenheiro da obra"
+    },
+    {
+      "item": "O vento",
+      "valor": "Bouch tinha calculado a ponte do Tay para uma pressão de vento de 10 libras por pé quadrado. Depois do desastre, a Board of Trade passou a exigir 56 libras em pontes expostas, e a Forth foi calculada para isso.",
+      "conf": "2+"
+    },
+    {
+      "item": "O aço",
+      "valor": "Todo de forno Siemens-Martin, de usinas na Escócia e no País de Gales. A tonelagem varia com a conta: 42 mil toneladas previstas mais cerca de 16 mil de alterações, segundo o engenheiro da obra; 53 mil pela Network Rail; 55 mil em outras referências.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Contrato em dezembro de 1882; fundações a partir de fevereiro de 1883; superestrutura a partir de 1886; obra concluída no fim de 1889 (novembro ou dezembro, conforme a fonte); prova de carga em 21/01/1890; inauguração em 04/03/1890, pelo Príncipe de Gales.",
+      "conf": "2+",
+      "nota": "o mês de conclusão diverge entre as fontes"
+    },
+    {
+      "item": "Operários",
+      "valor": "4.600 no pico, segundo o engenheiro Wilhelm Westhofen; 3.200 na primavera de 1887 e mais de 4.100 em setembro daquele ano. Cerca de um terço eram irlandeses. O total de pessoas que passaram pela obra não foi registrado.",
+      "conf": "2+",
+      "nota": "a proporção de irlandeses vem de uma fonte só"
+    },
+    {
+      "item": "Mortes na construção",
+      "valor": "57 acidentes fatais entre julho de 1883 e o Natal de 1889, pela contagem do clube de acidentes do empreiteiro, publicada em 1890. Pesquisadores locais confirmaram depois 73 nomes, incluindo a pintura de 1890 e as obras de acesso; são os do memorial de 2012. Circularam também 78 e 98.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Feridos",
+      "valor": "106 levados à enfermaria de Edimburgo e 518 acidentes menores com atendimento médico, segundo Westhofen. Barcos no rio salvaram oito homens de afogamento.",
+      "conf": "1",
+      "nota": "os oito salvos aparecem em mais de uma fonte"
+    },
+    {
+      "item": "Custo",
+      "valor": "Cerca de £3 milhões, segundo a Network Rail; uma conta de 1913 divide em £1,7 milhão para a ponte, £0,8 milhão para instalações e despesas e £0,5 milhão para as ferrovias de ligação. Outra soma chega a £3,2 milhões, contando £250 mil gastos na ponte de Bouch. O contrato de 1882 era de £1,6 milhão.",
+      "conf": "DIV",
+      "nota": "sem conversão para valores de hoje: não há índice confiável para obra de 1890"
+    },
+    {
+      "item": "Medidas",
+      "valor": "Vãos de 1.710 pés de centro a centro das colunas, ou 1.700 pés livres (cerca de 520 m). Torres de 110 m acima da maré alta. Trilho a cerca de 46 m sobre a água. Comprimento total de 2.529 m pela medição de 1890, ou 2.467 m pela Network Rail.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Restauro",
+      "valor": "De 2002 a dezembro de 2011, mais de £130 milhões, pela Network Rail com a Balfour Beatty: 240 mil litros de tinta epóxi, três demãos, cada rebite pintado à mão. A pintura deve durar duas décadas ou mais.",
+      "conf": "2+"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Mais de 200 trens por dia. Patrimônio Mundial da UNESCO desde 05/07/2015. Em agosto de 2026, o Conselho de Fife ouviu que só cerca de 5% das luzes da ponte funcionam e que a Network Rail não pretende tratar disso antes de 2030.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Uma noite no Tay",
+      "paragrafos": [
+        "Até 1890, quem ia de trem de Edimburgo para o norte da Escócia esbarrava em dois estuários: o do Forth, logo ao norte da capital, e o do Tay, junto a Dundee. O engenheiro Thomas Bouch tinha uma solução para os dois. A ponte do Tay já levava trens. Para o Forth, ele desenhou uma ponte pênsil com dois vãos de 1.600 pés; em 1873 formou-se a companhia, a lei foi aprovada e o contrato foi assinado com o construtor William Arrol, de Glasgow. Em Inchgarvie, a ilhota no meio do estuário, chegou a subir um pilar de tijolo, depois de uma pedra fundamental lançada com cerimônia.",
+        "Em 28 de dezembro de 1879, por volta das sete e quinze da noite, durante um vendaval, os vãos centrais da ponte do Tay caíram com o trem que a atravessava. Ninguém sobreviveu. Quantos morreram nunca se fechou: os memoriais inaugurados em 2013 dos dois lados do rio têm 59 nomes, os conhecidos; a estimativa de 75 vem da época. O inquérito concluiu que o contraventamento e as fixações eram insuficientes para resistir à força do vendaval, e o relatório do comissário Henry Rothery apontou Bouch como o principal culpado, por defeitos de projeto, de construção e de manutenção. Bouch tinha considerado o vento, mas com 10 libras por pé quadrado. Morreu em 1880."
+      ]
+    },
+    {
+      "titulo": "Cinquenta e seis libras de vento",
+      "paragrafos": [
+        "Segundo Wilhelm Westhofen, engenheiro da obra que viria depois, o desastre e o que se revelou nas investigações abalaram a confiança pública no projeto de Bouch, e a ponte pênsil do Forth foi abandonada. As quatro companhias ferroviárias interessadas na rota da costa leste, Great Northern, North Eastern, Midland e North British, pediram a seus engenheiros consultores, Barlow, Harrison e John Fowler, que estudassem de novo se valia a pena atravessar o Forth e com que tipo de ponte. Foram comparadas a ponte de Bouch, três formas de ponte pênsil reforçada, um cantiléver e até túneis.",
+        "Venceu o cantiléver de John Fowler e Benjamin Baker, submetido aos diretores em maio de 1881 e autorizado pelo Parlamento em julho de 1882. A regra do jogo agora era outra: a Board of Trade exigia que pontes em locais expostos fossem calculadas para uma pressão de vento de 56 libras por pé quadrado, mais de cinco vezes o valor usado no Tay. Baker instalou medidores de vento em Inchgarvie, um deles uma placa de 300 pés quadrados, para saber o que o estuário fazia de verdade."
+      ]
+    },
+    {
+      "titulo": "Três homens e uma ponte",
+      "paragrafos": [
+        "A ideia é simples de mostrar, e Baker mostrou. Numa foto famosa, dois homens sentados em cadeiras, identificados como Fowler e Baker, estendem os braços apoiados em varas de madeira; entre eles, numa tábua suspensa, está sentado o engenheiro japonês Kaichi Watanabe, formado em Glasgow e contramestre na obra. Os braços dos dois são os cantiléveres, Watanabe é a viga central suspensa, e pilhas de tijolos nas pontas fazem de contrapeso. A foto é atribuída a 1887; quando e onde foi tirada não é certo. Em 2007, ela foi parar na cédula de £20 do Bank of Scotland.",
+        "Na ponte real, cada uma das três torres é um par de braços em balanço de 680 pés, e entre elas pendem vigas de 350 pés. As torres se abrem até 120 pés de largura na base, para que o vento tenha menos alavanca sobre a estrutura, e as colunas são pares de tubos de aço de até 3,7 metros de diâmetro, inclinados um para o outro. O objetivo, nas palavras de Westhofen, era que a ponte fosse não só a maior e mais forte, mas a mais rígida do mundo, para ganhar a confiança do público. Era também de aço, num tempo em que as pontes eram de ferro: todo o material foi produzido pelo processo Siemens-Martin, em usinas da Escócia e do País de Gales."
+      ]
+    },
+    {
+      "titulo": "Sete anos sobre o estuário",
+      "paragrafos": [
+        "O contrato foi assinado em 21 de dezembro de 1882 com a Tancred, Arrol & Co., e William Arrol reaproveitou as oficinas que tinha erguido para a ponte de Bouch. As fundações começaram em fevereiro de 1883. Em Queensferry, seis caixões de ar comprimido desceram até 89 pés abaixo da maré alta; em Inchgarvie, as bases foram assentadas sobre a ilhota. A superestrutura começou a subir em 1886, e em 1887 as três torres já estavam de pé, ainda sem os braços, como mostram as fotos que Philip Phillips fez do canteiro.",
+        "No pico, segundo Westhofen, trabalhavam ali 4.600 pessoas, de quase 100 pés abaixo da água a mais de 300 pés acima dela. Os rebitadores trabalhavam por empreitada, em equipes de quatro, com um menino aquecendo os rebites; os meninos conseguiram um mínimo de 20 a 24 xelins por semana. A conta de rebites, que começou em 5 milhões, chegou a 6,5 milhões, e Westhofen escreveu que duvidava que mesmo isso cobrisse o total: só em Inchgarvie foram contados quase 2,7 milhões.",
+        "A obra foi concluída no fim de 1889. Em 21 de janeiro de 1890, dois trens com três locomotivas cada, puxando vagões de carvão, testaram a ponte com cerca de 1.880 toneladas. Em 4 de março de 1890, o Príncipe de Gales, futuro Eduardo VII, fixou um rebite dourado e declarou a ponte aberta, num discurso encurtado pelo vento. Tanto o valor do contrato quanto o prazo tinham sido ultrapassados. O custo final aparece como cerca de £3 milhões, ou £3,2 milhões quando se soma o que foi gasto na ponte de Bouch."
+      ]
+    },
+    {
+      "titulo": "Cinquenta e sete, setenta e três",
+      "paragrafos": [
+        "O número oficial de mortos está no mesmo relato de Westhofen, publicado quatro dias antes da inauguração. Entre julho de 1883 e o Natal de 1889, quando o clube de acidentes do empreiteiro deixou de existir, houve 57 acidentes fatais, 106 casos levados à enfermaria de Edimburgo e 518 acidentes menores. O pior ano foi o da subida das torres centrais, com 17 mortes. Westhofen atribuiu três quartos dos acidentes graves a causas evitáveis e culpou a indiferença dos próprios operários, que jogavam ferramentas dos andaimes; ele também afirmou que nenhuma morte podia ser atribuída ao ar comprimido dos caixões.",
+        "Mais de um século depois, a partir de 2005, um grupo de historiadores locais de Queensferry procurou certidões de óbito e jornais para dar nome aos mortos. Chegou a 73: os 16 a mais vêm da pintura inicial, em 1890, e das obras de acesso feitas por subempreiteiros, que o clube não contava. Entre eles há um morto por doença dos caixões, e o primeiro foi Thomas Joseph Harris, almoxarife de 16 anos, em novembro de 1883. Em 2012, dois monumentos de bronze, um em cada ponta da ponte, foram inaugurados com nome, idade e ofício de cada um. Outras cifras circularam, como 78 e 98, mas os nomes confirmados são 73."
+      ]
+    },
+    {
+      "titulo": "A ponte que nunca para de ser pintada",
+      "paragrafos": [
+        "Em inglês, painting the Forth Bridge virou expressão para trabalho que nunca acaba: quando se termina, é preciso recomeçar. A ponte teve, de fato, equipes de pintura por mais de um século. Entre 2002 e 2011, a Network Rail gastou mais de £130 milhões para encapsular a estrutura em andaimes, jatear a tinta antiga, consertar o aço e aplicar 240 mil litros de um revestimento epóxi do tipo usado em plataformas de petróleo, com cada rebite pintado à mão. Ao terminar, em dezembro de 2011, anunciou que a pintura duraria duas décadas ou mais.",
+        "Em 5 de julho de 2015, a ponte entrou na lista do Patrimônio Mundial da UNESCO, como obra-prima da exibição franca e sem adornos da estrutura e marco no uso do aço. Em agosto de 2026, ao discutir o plano de gestão do sítio para 2026 a 2036, o Conselho de Fife ouviu que só cerca de 5% das luzes que iluminavam a ponte à noite ainda funcionam, e que a Network Rail não pretende tratar disso antes de 2030. A ponte que nasceu da queda de outra, numa noite de tempestade, segue passando mais de 200 trens por dia, quase no escuro."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "A ponte do Tay caiu porque os engenheiros ignoraram o vento.",
+      "registro": "Thomas Bouch considerou o vento, mas com 10 libras por pé quadrado. O inquérito culpou o contraventamento e as fixações insuficientes, e o relatório de Henry Rothery responsabilizou Bouch por defeitos de projeto, construção e manutenção. Depois do desastre, a exigência passou a 56 libras."
+    },
+    {
+      "circula": "Morreram 57 operários na construção.",
+      "registro": "57 é a contagem de 1890, feita pelo clube de acidentes do empreiteiro até o Natal de 1889. A pesquisa dos historiadores locais confirmou 73 nomes, que estão no memorial inaugurado em 2012."
+    },
+    {
+      "circula": "A ponte é pintada sem parar: quando a pintura termina numa ponta, recomeça na outra.",
+      "registro": "Houve equipes permanentes de pintura, mas o ciclo sem fim é exagero que virou expressão. Desde o restauro concluído em 2011, o revestimento deve durar duas décadas ou mais."
+    },
+    {
+      "circula": "Foi a primeira estrutura de aço do mundo.",
+      "registro": "A formulação mais segura é a primeira grande estrutura da Grã-Bretanha construída em aço, e não em ferro. O órgão de patrimônio da Escócia fala em primeira grande estrutura de aço do mundo; outras fontes oficiais limitam ao Reino Unido."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Wilhelm Westhofen, \"The Forth Bridge\", reimpresso de Engineering, 28/02/1890",
+      "url": "https://archive.org/details/forthbridgethewe00westrich"
+    },
+    {
+      "texto": "Wilhelm Westhofen, \"The Forth Bridge: Wind Pressure and Wind Gauges\", 1890 (Wikisource)",
+      "url": "https://en.wikisource.org/wiki/The_Forth_Bridge/Wind_Pressure_and_Wind_Gauges"
+    },
+    {
+      "texto": "The Forth Bridges, \"Building the Forth Bridge\"",
+      "url": "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-history/building-the-forth-bridge/"
+    },
+    {
+      "texto": "The Forth Bridges, \"Forth Bridge History\"",
+      "url": "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-history/"
+    },
+    {
+      "texto": "The Forth Bridges, \"Forth Bridge Construction Statistics\"",
+      "url": "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-history/forth-bridge-construction-statistics/"
+    },
+    {
+      "texto": "The Forth Bridges, \"The Grand Opening of the Forth Bridge\"",
+      "url": "https://www.theforthbridges.org/about-the-forth-bridges/forth-bridge/forth-bridge-history/the-grand-opening-of-the-forth-bridge/"
+    },
+    {
+      "texto": "The Forth Bridges, \"War and Briggers Memorials\"",
+      "url": "https://www.theforthbridges.org/visit-the-local-area-forth-bridges/see-do/north-queensferry/war-briggers-memorials/"
+    },
+    {
+      "texto": "Network Rail, arquivo histórico, \"032 – Forth Bridge\"",
+      "url": "https://history.networkrail.co.uk/uncategorized/SO_ec3b0fa6-be97-485a-84bb-c1d924154543/"
+    },
+    {
+      "texto": "Network Rail, \"Forth Bridge makes final brush with a modern myth\", 05/09/2011",
+      "url": "https://www.networkrailmediacentre.co.uk/news/forth-bridge-makes-final-brush-with-a-modern-myth"
+    },
+    {
+      "texto": "Historic Environment Scotland, \"The Forth Bridge\"",
+      "url": "https://www.historicenvironment.scot/protect-and-care/protected-historic-places/world-heritage-sites/the-forth-bridge/"
+    },
+    {
+      "texto": "UK National Commission for UNESCO, \"The Forth Bridge\"",
+      "url": "https://unesco.org.uk/our-network/world-heritage-sites/the-forth-bridge"
+    },
+    {
+      "texto": "American Society of Civil Engineers, \"Firth of Forth Railway Bridge\"",
+      "url": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/firth-of-forth-railway-bridge"
+    },
+    {
+      "texto": "Who Do You Think You Are? Magazine, \"How many people died building the Forth Rail Bridge?\", 15/11/2023",
+      "url": "https://www.whodoyouthinkyouaremagazine.com/feature/125-years-on-the-men-who-died-building-the-forth-bridge"
+    },
+    {
+      "texto": "Grace's Guide to British Industrial History, \"Forth Bridge\"",
+      "url": "https://www.gracesguide.co.uk/Forth_Bridge"
+    },
+    {
+      "texto": "Undiscovered Scotland, \"The Forth Bridge\"",
+      "url": "https://www.undiscoveredscotland.co.uk/queensferry/forthrailbridge/index.html"
+    },
+    {
+      "texto": "Railway Wonders of the World, \"The Forth Bridge\" (c. 1913)",
+      "url": "https://railwaywondersoftheworld.com/forth-bridge.html"
+    },
+    {
+      "texto": "Tom Martin, \"Tay Bridge Disaster\" (páginas de pesquisa e memorial)",
+      "url": "https://taybridgedisaster.com/"
+    },
+    {
+      "texto": "University of Glasgow Library, \"The University of Glasgow, Japan, and the Forth Rail Bridge\", 04/09/2015",
+      "url": "https://universityofglasgowlibrary.wordpress.com/2015/09/04/the-university-of-glasgow-japan-and-the-forth-rail-bridge/"
+    },
+    {
+      "texto": "The Scotsman, \"Broken lights on the landmark Forth Bridge won't be fixed until 2030\", 2026",
+      "url": "https://www.scotsman.com/news/scottish-news/broken-lights-on-the-landmark-forth-bridge-wont-be-fixed-until-2030-8922032"
+    },
+    {
+      "texto": "Central Fife Times, \"Forth Bridge lighting so bad only 5 per cent of them work\", 2026",
+      "url": "https://www.centralfifetimes.com/news/26463715.forth-bridge-lighting-bad-5-work/"
+    },
+    {
+      "texto": "Wikipédia, \"Forth Bridge\" e \"Tay Bridge disaster\" (ponto de partida)",
+      "url": "https://en.wikipedia.org/wiki/Forth_Bridge"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "22-capa.jpg",
+      "alt": "Ponte de aço vermelha com três grandes estruturas em losango sobre água calma que as reflete, um pilar de pedra à direita e um trem atravessando o viaduto sob céu azul",
+      "legenda": "A ponte inteira vista de South Queensferry em fevereiro de 2013, com um trem no viaduto de acesso.",
+      "autor": "George Gastin",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Forthbridge_feb_2013.jpg",
+      "recriacao": false,
+      "foco": "50% 55%"
+    },
+    {
+      "arquivo": "22-tay-1880.jpg",
+      "alt": "Fotografia antiga em sépia: vigas de ferro tombadas e retorcidas saindo da água de um rio largo, com uma fileira de pilares de ponte ao fundo terminando num vão vazio",
+      "legenda": "Os vãos caídos da ponte do Tay, em Dundee, fotografados para a Board of Trade depois do desastre de 28 de dezembro de 1879.",
+      "autor": "Board of Trade (Grã-Bretanha), acervo da National Library of Scotland",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Fallen_girders,_Tay_Bridge.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "22-cantilever-humano.jpg",
+      "alt": "Fotografia antiga em preto e branco: dois homens de chapéu sentados em cadeiras estendem os braços apoiados em varas, sustentando entre eles um terceiro homem sentado numa tábua suspensa; pilhas de tijolos nas pontas e o desenho da ponte na parede de madeira atrás",
+      "legenda": "O modelo vivo do cantiléver: Kaichi Watanabe suspenso entre John Fowler e Benjamin Baker. A foto é atribuída a 1887.",
+      "autor": "Fotógrafo não identificado, para Benjamin Baker",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Cantilever_bridge_human_model.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "22-tres-torres-1887.jpg",
+      "alt": "Fotografia antiga em sépia: três torres de treliça de aço em construção erguidas sobre a água de um estuário, ainda sem os braços, vistas de uma praia com rochas cobertas de algas",
+      "legenda": "As três torres de pé em 17 de abril de 1887, no dia em que a de Queensferry atingiu a altura total, vistas da margem sul.",
+      "autor": "Philip Phillips, acervo da National Library of Scotland",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Forth_Bridge_-_Three_cantilevers_from_the_south_shore_on_the_occasion_of_Queensferry_superstructure_attaining_its_full_height.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "22-base-fife-1886.jpg",
+      "alt": "Fotografia antiga em sépia: enormes tubos de aço rebitados, inclinados e horizontais, sendo montados sobre uma base circular de pedra, sob vigas e guindastes; dois operários pequenos de pé junto à base",
+      "legenda": "A base sudoeste da torre de Fife em 7 de setembro de 1886, com os tubos de aço em montagem.",
+      "autor": "Philip Phillips, acervo da National Library of Scotland",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Forth_Bridge_-_Fife_S.W._skewback_%26_tubes_in_construction,_7_Sept._1886.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "22-memorial.jpg",
+      "alt": "Monumento alto de bronze em forma de lâmina, com colunas de nomes gravados, sobre um gramado, com casas e árvores ao fundo",
+      "legenda": "Um dos dois monumentos inaugurados em 2012, em North Queensferry, com nome, idade e ofício dos mortos na construção.",
+      "autor": "Rosser1954",
+      "licenca": "CC BY 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:A_Memorial_to_workers_killed_during_the_construction_of_the_Forth_Bridge,_North_Queensferry,_Fife.jpg",
+      "recriacao": false,
+      "foco": "50% 30%"
+    }
+  ],
+  "proximo": "edificio-ingalls"
+}

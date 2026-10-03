@@ -55,12 +55,12 @@ BORDAO = "Toda semana, uma obra que não deveria ter ficado de pé."
 # "em apuração", sem link. Quando o JSON da obra existir, tire daqui.
 EM_APURACAO = [
     {
-        "num": "18",
-        "obra": "Farol de Bell Rock",
-        "lugar": "Recife de Inchcape, Escócia, Reino Unido",
+        "num": "26",
+        "obra": "Astrodome",
+        "lugar": "Houston, Texas, Estados Unidos",
         "regiao": "mundo",
-        "impossivel": "Um farol de pedra erguido sobre um recife que passa a maior parte do tempo debaixo do mar do Norte, trabalhando só nas marés baixas.",
-        "estreia": "2027-02-04",
+        "impossivel": "Cobrir um estádio inteiro com uma cúpula de aço e climatizá-lo, em 1965 — e descobrir que a grama não crescia lá dentro.",
+        "estreia": "2027-04-01",
     },
 ]
 

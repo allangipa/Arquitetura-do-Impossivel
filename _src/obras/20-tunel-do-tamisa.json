@@ -1,0 +1,340 @@
+{
+  "num": "20",
+  "slug": "tunel-do-tamisa",
+  "obra": "Túnel do Tâmisa",
+  "titulo_video": null,
+  "lugar": "Sob o rio Tâmisa, entre Rotherhithe e Wapping, Londres, Inglaterra, Reino Unido",
+  "regiao": "mundo",
+  "periodo": "1825–1843",
+  "estreia": "2027-02-18",
+  "impossivel": "Abrir um corredor de tijolo debaixo de um rio cheio de navios, num leito de lodo e areia encharcada de esgoto, quando a única tentativa anterior no mesmo lugar tinha sido engolida pela água.",
+  "resumo": "Como Marc Brunel cavou o primeiro túnel terminado sob um rio navegável, com uma gaiola de ferro de 36 células, e por que levou 18 anos.",
+  "abertura": [
+    "No começo do século XIX, o porto de Londres crescia rio abaixo, e entre as docas das duas margens do Tâmisa não havia ponte: uma ponte baixa fecharia o rio aos navios. A saída era passar por baixo. Entre 1805 e 1808, mineiros da Cornualha tentaram, entre Rotherhithe e Wapping, e a galeria inundou quando faltavam poucas centenas de pés.",
+    "O engenheiro Marc Isambard Brunel, francês radicado na Inglaterra, apostou numa invenção sua, patenteada em 1818: uma gaiola de ferro dividida em 36 células, cada uma com um mineiro, que avançava rente à frente da escavação enquanto pedreiros revestiam de tijolo o trecho recém-aberto. A obra começou em 1825 e só foi inaugurada em 25 de março de 1843. No meio, o rio entrou várias vezes, seis homens morreram numa só manhã e o túnel ficou anos emparedado."
+  ],
+  "numeros": [
+    {
+      "valor": "36",
+      "rotulo": "células no escudo de ferro, uma para cada mineiro",
+      "conf": "2+"
+    },
+    {
+      "valor": "1825–1843",
+      "rotulo": "18 anos do início do poço à inauguração, em 25/03/1843",
+      "conf": "2+"
+    },
+    {
+      "valor": "366 · 396 m",
+      "rotulo": "de comprimento: 1.200 ou 1.300 pés, conforme a fonte",
+      "conf": "DIV"
+    },
+    {
+      "valor": "6",
+      "rotulo": "mortos na inundação de 12/01/1828; o total da obra ninguém somou",
+      "conf": "2+"
+    },
+    {
+      "valor": "£634.000",
+      "rotulo": "custo total, com o acabamento",
+      "conf": "2+"
+    },
+    {
+      "valor": "1869",
+      "rotulo": "o ano em que passou o primeiro trem; hoje é parte do London Overground",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Ligar as docas das duas margens do Tâmisa, no leste de Londres, sem fechar o rio aos navios. O túnel foi pensado para carroças de carga e pedestres.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "A Thames Tunnel Company, de investidores privados, entre eles o Duque de Wellington. O Ato do Parlamento que autorizou a obra é de junho de 1824.",
+      "conf": "2+"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Marc Isambard Brunel, engenheiro-chefe, autor do escudo de tunelamento patenteado em janeiro de 1818. O filho, Isambard Kingdom Brunel, foi o engenheiro residente a partir de 1826–1827.",
+      "conf": "2+"
+    },
+    {
+      "item": "O escudo",
+      "valor": "Doze armações de ferro lado a lado, cada uma com três células em andares: 36 mineiros protegidos ao mesmo tempo. Cada um tirava algumas polegadas de terra da frente, escorava com tábuas, e a armação era empurrada adiante por macacos apoiados no tijolo já assentado. O primeiro escudo foi trocado por um novo em 1835–1836.",
+      "conf": "2+",
+      "nota": "o peso aparece como cerca de 7 toneladas por armação ou 80 toneladas no total"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Poço de Rotherhithe iniciado em março de 1825; primeira inundação em maio de 1827; segunda em 12/01/1828; túnel emparedado em agosto de 1828; obra retomada com dinheiro do Tesouro a partir de dezembro de 1834; escavação concluída em 1841; inauguração em 25/03/1843.",
+      "conf": "2+",
+      "nota": "a paralisação é contada como 6, 7 ou 8 anos, conforme a data de retomada adotada"
+    },
+    {
+      "item": "Operários",
+      "valor": "36 no escudo a cada turno. Cerca de 500 trabalhando ao mesmo tempo no túnel, entre mineiros, pedreiros, ferreiros e carpinteiros, segundo o livro Iron Men, de David Waller. Muitos vinham das minas da Cornualha. O total não foi registrado.",
+      "conf": "1"
+    },
+    {
+      "item": "Condições",
+      "valor": "A água do rio, carregada de esgoto, infiltrava na frente de escavação; o metano pegava fogo nas lamparinas. Operários e o próprio Isambard adoeceram.",
+      "conf": "2+"
+    },
+    {
+      "item": "Mortes",
+      "valor": "Seis homens morreram na inundação de 12/01/1828: Thomas Ball, J. Long, Thomas Collins, Jeptha Cook, George Evans e um operário chamado Lincoln. Há registro de mais um mineiro morto na inundação de novembro de 1837 e de um engenheiro morto de febre. O total dos 18 anos de obra não aparece em nenhuma fonte consultada.",
+      "conf": "sem",
+      "nota": "os seis de 1828 são confirmados por várias fontes; os demais casos vêm de uma fonte cada"
+    },
+    {
+      "item": "Custo",
+      "valor": "£634.000, somando £454.000 de escavação e £180.000 de acabamento. O governo emprestou à companhia £270.000, segundo o arquivo da TfL; outras fontes falam em £247.000.",
+      "conf": "DIV",
+      "nota": "não há conversão para valores de hoje com método publicado"
+    },
+    {
+      "item": "Medidas",
+      "valor": "Duas galerias paralelas de tijolo em cimento romano, ligadas por arcos. Comprimento de 1.200 pés (366 m) ou 1.300 pés (396 m), conforme a fonte; seção de 35 × 20 pés ou 38 × 22 pés. Cerca de 23 m abaixo da superfície do rio na maré alta.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Visitantes",
+      "valor": "Pedágio de 1 pêni. Na abertura, 10 mil pessoas pagaram nas primeiras 24 horas, segundo o arquivo da TfL, ou 50 mil, segundo outras fontes. Um milhão de visitantes em poucos meses; a rainha Vitória esteve lá em julho de 1843.",
+      "conf": "DIV"
+    },
+    {
+      "item": "A ferrovia",
+      "valor": "Vendido à East London Railway, companhia criada em 1865, por £200.000 segundo a TfL (outra fonte diz £800.000). Primeiro trem em 07/12/1869. Eletrificado em 1913, ligado ao metrô em 1933, no London Overground desde 2010; desde novembro de 2024 é a linha Windrush.",
+      "conf": "2+",
+      "nota": "o preço da venda diverge"
+    },
+    {
+      "item": "Tombamento",
+      "valor": "Patrimônio Grade II* da Historic England desde 24/03/1995. Marco internacional da engenharia civil pela ASCE desde 1991.",
+      "conf": "2+"
+    },
+    {
+      "item": "Hoje",
+      "valor": "O poço de entrada de Rotherhithe e a casa de máquinas das bombas formam o Brunel Museum. A reforma do museu, com £2,1 milhões do National Lottery Heritage Fund, foi cancelada em dezembro de 2025. Em setembro de 2026, a coleção do túnel recebeu o Designated Status da Arts Council England.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Um rio que não aceitava ponte",
+      "paragrafos": [
+        "Na virada do século XIX, o movimento do porto de Londres descia o Tâmisa para além da London Bridge, na direção das docas novas. Quem precisava ir de uma margem à outra nesse trecho tomava barco. Uma ponte baixa bloquearia os navios altos que subiam o rio; uma ponte alta, com a técnica da época, era inviável. Restava passar por baixo.",
+        "Tentaram antes. Em 1798–1799, Ralph Dodd quis abrir um túnel rio abaixo, entre Gravesend e Tilbury, e desistiu. Entre 1805 e 1808, a Thames Archway Company levou mineiros da Cornualha, com o engenheiro Richard Trevithick, para cavar uma galeria estreita justamente entre Rotherhithe e Wapping. Chegaram a cerca de 1.000 dos 1.200 pés previstos antes que a água entrasse. A conclusão de muitos engenheiros foi que o leito do Tâmisa, de lodo e areia solta, não deixava cavar."
+      ]
+    },
+    {
+      "titulo": "O verme e a gaiola",
+      "paragrafos": [
+        "Marc Isambard Brunel, engenheiro nascido na França em 1769, contou como teve a ideia. Numa carta à neta, de março de 1842, guardada hoje no arquivo do Royal Museums Greenwich, ele lembra que, por volta de 1812, quando trabalhava no estaleiro de Chatham, viu um pedaço de madeira de navio condenado, perfurado pelo teredo, o molusco que rói cascos. Se aqueles bichos faziam pequenos túneis protegidos, escreveu, os homens também poderiam, com uma proteção equivalente. É o relato do próprio Brunel, feito trinta anos depois; o Brunel Museum o trata como a versão que costuma ser contada.",
+        "Em janeiro de 1818 ele patenteou um método para abrir túneis sob o chão. A peça central era o escudo: doze armações de ferro postas lado a lado, cada uma dividida em três andares, somando 36 células. Em cada célula, um mineiro retirava algumas polegadas de terra atrás de tábuas que seguravam a frente, uma de cada vez. Quando todas avançavam, a armação era empurrada adiante por macacos apoiados no revestimento já pronto, e os pedreiros assentavam o tijolo logo atrás. O chão nunca ficava sem apoio por mais do que alguns palmos. A obra seria dividida em duas galerias paralelas em arco, ligadas por aberturas, num bloco de tijolo e cimento romano."
+      ]
+    },
+    {
+      "titulo": "Debaixo do esgoto de Londres",
+      "paragrafos": [
+        "A Thames Tunnel Company, com investidores como o Duque de Wellington, obteve autorização do Parlamento em junho de 1824. Em março de 1825 começou, em Rotherhithe, a margem sul, o poço de entrada: um anel de alvenaria de 50 pés de diâmetro, erguido na superfície e afundado aos poucos à medida que se escavava por dentro. No fim daquele ano o escudo começou a avançar na horizontal, rumo ao norte.",
+        "O avanço era de poucos pés por dia, quando havia avanço. A água do rio, que recebia o esgoto de Londres, vazava pela frente da escavação; o ar era fétido, e o metano que saía do lodo pegava fogo nas lamparinas. Operários adoeciam com tontura, dores e infecções. Isambard Kingdom Brunel, o filho de Marc, assumiu na prática a direção do canteiro em 1826 e foi confirmado como engenheiro residente em 1827.",
+        "Em maio de 1827, com 549 pés escavados, o leito cedeu e o rio entrou. Para tapar o buraco, Isambard desceu num sino de mergulho e mandou lançar sacos de argila sobre o leito. O túnel foi esvaziado, e, em novembro daquele ano, ele ofereceu um banquete lá dentro."
+      ]
+    },
+    {
+      "titulo": "A manhã de 12 de janeiro de 1828",
+      "paragrafos": [
+        "Pouco antes das seis da manhã de 12 de janeiro de 1828, a frente do túnel cedeu de novo. Seis homens morreram: Thomas Ball, J. Long, Thomas Collins, Jeptha Cook, que deixou seis filhos, George Evans e um recém-contratado chamado Lincoln. Isambard, que estava na frente da escavação, foi arrastado pela água até o poço de Rotherhithe, tirado de lá inconsciente e reanimado. Com ferimentos internos graves, passou meses se recuperando, primeiro em Brighton e depois em Clifton, perto de Bristol.",
+        "O dinheiro acabou antes do conserto. Uma nova emissão de ações fracassou, e em agosto de 1828 a frente do túnel foi fechada com uma parede de tijolo. A obra que deveria provar que se podia cavar sob um rio virou, por anos, um corredor emparedado debaixo do Tâmisa."
+      ]
+    },
+    {
+      "titulo": "O governo paga o resto",
+      "paragrafos": [
+        "A retomada veio com dinheiro público. Em dezembro de 1834 saiu a primeira parcela de um empréstimo do Tesouro, de £270.000 segundo o arquivo da Transport for London, ou parte de £247.000 levantados, segundo outras fontes. O escudo velho, gasto e deformado, foi desmontado em 1835, e um novo, mais robusto, começou a trabalhar em março de 1836. A paralisação durou seis, sete ou oito anos, conforme a data que se toma como retomada.",
+        "O rio continuou entrando: houve inundações em agosto e novembro de 1837, em março de 1838 e em abril de 1840. Segundo um levantamento baseado na biografia escrita por L. T. C. Rolt, a de novembro de 1837 matou mais um mineiro. Também há registro de um engenheiro morto de febre atribuída à água do túnel. Quantos morreram ao todo nos dezoito anos de obra, nenhuma fonte consultada soma. Em 1839 o escudo chegou à margem de Wapping, Marc Brunel foi feito cavaleiro em 1841, e a escavação chegou ao poço do lado norte em novembro de 1841."
+      ]
+    },
+    {
+      "titulo": "A atração de um pêni",
+      "paragrafos": [
+        "O túnel foi aberto ao público em 25 de março de 1843, com cerimônia e cortejo. Custou £634.000 com o acabamento. As rampas em espiral que levariam carroças até o fundo nunca foram construídas por falta de dinheiro, e a passagem de carga virou passagem de pedestres, por escadas longas dentro dos poços, a 1 pêni por pessoa. Nas primeiras 24 horas, 10 mil pessoas pagaram para entrar, segundo o arquivo da TfL; outras fontes falam em 50 mil. Em poucos meses passou de um milhão de visitantes, e a rainha Vitória o visitou em julho de 1843. As arcadas entre as galerias ganharam bancas de lembranças, e uma feira anual com músicos e equilibristas.",
+        "A novidade passou. No fim da década de 1850 o túnel tinha fama de lugar decadente. Em 1865 a recém-criada East London Railway o comprou, por £200.000 segundo a TfL, e em 7 de dezembro de 1869 passou o primeiro trem. Marc Brunel morreu em 1849, e Isambard, dez anos depois."
+      ]
+    },
+    {
+      "titulo": "Um túnel que ainda carrega trens",
+      "paragrafos": [
+        "O túnel de Brunel nunca deixou de ser usado. Foi eletrificado em 1913, incorporado ao metrô de Londres em 1933, fechado para reforma em 1995, quando uma proposta de cobrir o tijolo com concreto projetado gerou protesto e levou ao tombamento, e reaberto em 1998. Desde 2010 faz parte do London Overground, e desde novembro de 2024 é o trecho sob o rio da linha Windrush. A ideia do escudo seguiu adiante: a partir de 1869, Peter W. Barlow e James Henry Greathead o refizeram em forma de cilindro, o desenho do qual descendem, de longe, as máquinas de escavar túneis de hoje.",
+        "O poço de Rotherhithe e a casa das bombas de drenagem formam o Brunel Museum. O museu tinha £2,1 milhões do National Lottery Heritage Fund para restaurar os dois prédios e erguer um pavilhão de entrada a tempo dos 200 anos do início da obra. Os estudos sobre o túnel da linha Windrush, logo abaixo, atrasaram tudo, a TfL levantou objeções ao local do pavilhão, e em dezembro de 2025 o fundo decidiu não seguir com as obras. Duzentos anos depois de Brunel, mexer no chão em cima daquele túnel ainda é problema de engenharia. Em setembro de 2026, a coleção do museu sobre o túnel recebeu da Arts Council England o Designated Status, reservado a acervos de importância excepcional."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Foi o primeiro túnel construído debaixo de um rio.",
+      "registro": "As fontes dizem com mais cuidado: o primeiro que se sabe ter sido terminado com sucesso sob um rio navegável. A tentativa de 1805–1808, no mesmo lugar, chegou a cerca de 1.000 pés antes de inundar, e há um relato antigo, de comprovação incerta, de um túnel sob o Eufrates, na Babilônia."
+    },
+    {
+      "circula": "O escudo de Brunel é a base de todos os metrôs modernos.",
+      "registro": "O conceito, uma proteção que avança enquanto o revestimento é feito logo atrás, é a base do tunelamento de hoje, como registra o arquivo da TfL. Mas o escudo de Brunel era retangular; as máquinas atuais descendem do escudo cilíndrico de Barlow e Greathead, usado a partir de 1869."
+    },
+    {
+      "circula": "Brunel inventou o escudo depois de observar um verme.",
+      "registro": "É a versão do próprio Brunel, numa carta de 1842 sobre algo que teria visto por volta de 1812 no estaleiro de Chatham. O teredo, aliás, é um molusco, não um verme. O Brunel Museum apresenta a história como a que costuma ser contada."
+    },
+    {
+      "circula": "O túnel foi feito para carruagens.",
+      "registro": "Foi projetado para carroças de carga, mas as rampas em espiral de acesso nunca foram construídas por falta de dinheiro. De 1843 a 1869, foi uma passagem de pedestres, com escadas nos poços e pedágio de 1 pêni."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "TfL Corporate Archives, Research Guide No 25: The Thames Tunnel, 2024",
+      "url": "https://content.tfl.gov.uk/research-guide-25-the-thames-tunnel.pdf"
+    },
+    {
+      "texto": "Historic England, Thames Tunnel, list entry 1242119 (Grade II*), 1995",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1242119"
+    },
+    {
+      "texto": "American Society of Civil Engineers, \"Thames Tunnel\", International Historic Civil Engineering Landmark",
+      "url": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/thames-tunnel"
+    },
+    {
+      "texto": "London Museum, \"The Thames Tunnel: Marc Brunel's engineering marvel\"",
+      "url": "https://www.londonmuseum.org.uk/collections/london-stories/thames-tunnel-marc-brunels-engineering-marvel/"
+    },
+    {
+      "texto": "Royal Museums Greenwich, \"Musing on a mollusc: Brunel's inspiration for the Thames Tunnel\" (carta de Marc Brunel, 10/03/1842)",
+      "url": "https://www.rmg.co.uk/stories/art-culture/library-archive/musing-on-mollusc-brunels-inspiration-thames-tunnel"
+    },
+    {
+      "texto": "Brunel Museum, \"1828 Tunnel Flood\"",
+      "url": "https://thebrunelmuseum.com/1828-tunnel-flood/"
+    },
+    {
+      "texto": "Brunel Museum, \"Tunnel Shaft\"",
+      "url": "https://thebrunelmuseum.com/visiting-us/tunnel-shaft/"
+    },
+    {
+      "texto": "Brunel Museum, \"Working at the Face – Inspiration\"",
+      "url": "https://thebrunelmuseum.com/working-at-the-face-inspiration/"
+    },
+    {
+      "texto": "Brunel Museum, \"New Insights into the Thames Tunnel Designs\"",
+      "url": "https://thebrunelmuseum.com/new-insights-into-the-thames-tunnel-designs/"
+    },
+    {
+      "texto": "Brunel Museum, notícias de 2026",
+      "url": "https://thebrunelmuseum.com/news/"
+    },
+    {
+      "texto": "Linda Hall Library, \"Scientist of the Day: Marc Isambard Brunel\"",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/marc-isambard-brunel-2/"
+    },
+    {
+      "texto": "National Transport Trust, \"Thames Tunnel\"",
+      "url": "https://www.nationaltransporttrust.org.uk/heritage-sites/heritage-detail/thames-tunnel"
+    },
+    {
+      "texto": "Guinness World Records, \"First tunnel under a navigable waterway\"",
+      "url": "https://www.guinnessworldrecords.com/world-records/113231-first-tunnel-under-a-navigable-waterway"
+    },
+    {
+      "texto": "PBS, Building Big, \"Thames Tunnel\"",
+      "url": "https://www.pbs.org/wgbh/buildingbig/wonder/structure/thames.html"
+    },
+    {
+      "texto": "Mark Cartwright, \"Thames Tunnel\", World History Encyclopedia, 2023",
+      "url": "https://www.worldhistory.org/Thames_Tunnel/"
+    },
+    {
+      "texto": "Andie Byrnes, \"Marc Brunel in Rotherhithe: the construction of the Thames Tunnel 1825–1843\", A Rotherhithe Blog, 2015",
+      "url": "http://russiadock.blogspot.com/2015/09/marc-brunel-in-rotherhithe-construction.html"
+    },
+    {
+      "texto": "ianVisits, \"Brunel Museum's expansion put on hold after railway tunnel complications\", 29/05/2026",
+      "url": "https://www.ianvisits.co.uk/articles/brunel-museums-expansion-put-on-hold-after-railway-tunnel-complications-90065/"
+    },
+    {
+      "texto": "Tom de Castella, \"Tate + Co's expansion of Brunel Museum runs out of steam\", Architects' Journal, 14/07/2026",
+      "url": "https://www.architectsjournal.co.uk/news/tate-cos-expansion-of-brunel-museum-runs-out-of-steam"
+    },
+    {
+      "texto": "Evie Flynn, \"Rotherhithe museum for first underwater tunnel gains Designated Status\", Southwark News, 17/09/2026",
+      "url": "https://southwarknews.co.uk/area/rotherhithe/rotherhithe-museum-for-first-underwater-tunnel-gains-designated-status/"
+    },
+    {
+      "texto": "Wikipédia, \"Thames Tunnel\" e \"Tunnelling shield\" (ponto de partida)",
+      "url": "https://en.wikipedia.org/wiki/Thames_Tunnel"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "20-capa.jpg",
+      "alt": "Gravura antiga em preto e branco: galeria de tijolo em arco que se perde ao fundo, com arcadas laterais iluminadas por lampiões, pedestres de cartola e dois homens puxando uma carreta no piso de pedra",
+      "legenda": "O túnel como atração para pedestres, em gravura publicada na Alemanha em 1839, quatro anos antes da inauguração.",
+      "autor": "Bibliographisches Institut, Hildburghausen (Meyer's Universum, vol. 6)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Meyers_Universum_Band_06_35.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "20-escudo.jpg",
+      "alt": "Xilogravura antiga de uma grade retangular de armações de madeira e ferro em três andares e doze colunas, com tábuas na frente de cada célula e alguns mineiros trabalhando dentro delas; dois arcos desenhados por cima marcam o contorno das galerias",
+      "legenda": "O escudo visto de frente, com as 36 células em três andares, numa revista popular inglesa de novembro de 1832.",
+      "autor": "Autor não identificado (The Penny Magazine)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Penny_Magazine_1832_341_Shield_used_in_the_Excavation_of_the_Thames_Tunnel.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "20-galeria.jpg",
+      "alt": "Litografia de uma galeria clara em arcos sucessivos, com uma mulher de vestido branco e um menino à esquerda e cavalheiros de cartola junto às arcadas e aos lampiões à direita",
+      "legenda": "Visitantes numa das galerias, em litografia do século XIX que dá ao túnel 1.300 pés de comprimento, 38 de largura e 22 de altura.",
+      "autor": "Autor não identificado (Library of Congress, Popular Graphic Arts)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:The_Thames_Tunnel_LCCN98507755.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "20-trilhos.jpg",
+      "alt": "Interior de um túnel em arco com trilhos de trem que seguem até uma luz forte ao fundo; à esquerda, as colunas e arcos originais de tijolo pintado",
+      "legenda": "A galeria norte em 2007, já como túnel ferroviário, com os arcos originais de Brunel à esquerda.",
+      "autor": "Steve McSherry",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Thames_Tunnel_(ELL).jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "20-visita.jpg",
+      "alt": "Pessoas caminhando sobre os trilhos na entrada escura de duas galerias de túnel lado a lado, iluminadas ao fundo",
+      "legenda": "As duas galerias, lado a lado, numa visita a pé com a linha fechada, em maio de 2014.",
+      "autor": "Martyn Pattison",
+      "licenca": "CC BY-SA 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Northbound_and_Southbound_tracks_in_the_Thames_Tunnel_-_geograph.org.uk_-_6487327.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "20-poco.jpg",
+      "alt": "Interior escuro de um poço circular de tijolo enegrecido, com uma escada metálica em zigue-zague contornada por luz vermelha e cadeiras no piso",
+      "legenda": "O poço de entrada de Rotherhithe, começado em 1825, hoje parte do Brunel Museum, com a escada instalada em 2016.",
+      "autor": "Z22",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Thames_Tunnel_Shaft_interior.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "ponte-eads"
+}

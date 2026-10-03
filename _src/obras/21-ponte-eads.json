@@ -1,0 +1,311 @@
+{
+  "num": "21",
+  "slug": "ponte-eads",
+  "obra": "Ponte Eads",
+  "titulo_video": null,
+  "lugar": "Rio Mississippi, entre St. Louis, Missouri, e East St. Louis, Illinois, Estados Unidos",
+  "regiao": "mundo",
+  "periodo": "1867–1874",
+  "estreia": "2027-02-25",
+  "impossivel": "Apoiar na rocha, sob dezenas de metros de areia que o Mississippi arrastava, três arcos de mais de 150 metros feitos de um metal que nunca tinha sido o principal de uma grande estrutura, sem escorar nada no rio e sem parar os vapores.",
+  "resumo": "Como um homem sem diploma de engenheiro ergueu sobre o Mississippi uma ponte de arcos de aço em 1874, e o que custou cavar até a rocha em ar comprimido.",
+  "abertura": [
+    "Em 1867, St. Louis, no Missouri, nos Estados Unidos, via o rio Mississippi como uma barreira. O trem chegava à margem e a carga descia para balsas, enquanto Chicago, mais ao norte, já se firmava como o centro ferroviário do país. Os barqueiros exigiam que qualquer ponte deixasse passar os vapores por baixo e não bloqueasse o rio durante a obra.",
+    "Quem se propôs a fazê-la foi James Buchanan Eads, um homem que nunca tinha estudado engenharia nem projetado uma ponte. O que ele tinha era outra coisa: anos no fundo daquele mesmo rio, dentro de um sino de mergulho, resgatando cargas de vapores afundados. Sabia que a areia do leito se movia, e decidiu que a ponte só ficaria de pé se descesse até a rocha."
+  ],
+  "numeros": [
+    {
+      "valor": "502 + 520 + 502 pés",
+      "rotulo": "os três arcos, cerca de 153, 158 e 153 metros",
+      "conf": "2+"
+    },
+    {
+      "valor": "1867–1874",
+      "rotulo": "da primeira ensecadeira, em 21/08/1867, à inauguração em 04/07/1874",
+      "conf": "2+"
+    },
+    {
+      "valor": "123 a 136 pés",
+      "rotulo": "a fundação mais funda, no lado de Illinois, conforme o nível de referência de cada fonte",
+      "conf": "DIV"
+    },
+    {
+      "valor": "13 a 16",
+      "rotulo": "mortos na obra, quase todos pela doença dos caixões; a conta mais citada é 14",
+      "conf": "DIV"
+    },
+    {
+      "valor": "2.390 t",
+      "rotulo": "de aço, ao lado de 3.156 t de ferro forjado",
+      "conf": "2+"
+    },
+    {
+      "valor": "14",
+      "rotulo": "locomotivas no teste de carga de 02/07/1874, dois dias antes da inauguração",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Ligar por trilho as ferrovias que chegavam a East St. Louis, Illinois, às que partiam de St. Louis, Missouri. Sem ponte, a carga dos trens cruzava o Mississippi em balsas, o que encarecia a rota e empurrava o comércio para Chicago.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem projetou",
+      "valor": "James Buchanan Eads (1820–1887), engenheiro-chefe da companhia da ponte. Não tinha formação em engenharia: fora caixeiro, dono de uma empresa de resgate de naufrágios e construtor de canhoneiras blindadas na Guerra Civil. Foi a primeira ponte que projetou e a única que construiu.",
+      "conf": "2+"
+    },
+    {
+      "item": "Tipo",
+      "valor": "Três arcos de tabuleiro, cada um com quatro costelas formadas por pares de tubos de aço contraventados com ferro forjado. Dois tabuleiros: ferrovia embaixo, estrada em cima. Os arcos foram montados em balanço a partir dos pilares, presos por cabos a torres provisórias, sem escoramento no rio.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem construiu",
+      "valor": "A superestrutura foi da Keystone Bridge Company, de Pittsburgh, de Andrew Carnegie. O aço, especificado com rigor por Eads, passou da Butcher Steel Works, de Filadélfia, para a Chrome Steel Works, de Nova York.",
+      "conf": "2+",
+      "nota": "a troca de fornecedor do aço vem de uma fonte só (American Heritage, 1969)"
+    },
+    {
+      "item": "Fundações",
+      "valor": "Dois pilares no rio e o encontro do lado de Illinois foram afundados em caixões pneumáticos: câmaras sem fundo, cheias de ar comprimido para segurar a água, onde homens cavavam a areia até a rocha. Eram os maiores caixões já feitos e o trabalho em ar comprimido mais profundo do mundo na época.",
+      "conf": "2+"
+    },
+    {
+      "item": "Profundidade",
+      "valor": "O pilar leste tocou a rocha em 28/02/1870, a 93 ou 95 pés abaixo da superfície do rio. O encontro leste foi o mais fundo: 127 pés segundo a tabela de C. M. Woodward, 136 pés abaixo da cheia segundo o Serviço Nacional de Parques, 123 pés segundo a ASCE.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Operários",
+      "valor": "O total não foi registrado nas fontes consultadas. Em abril de 1870 havia 80 homens nas câmaras do pilar leste, em turmas de 8 a 10, americanos, irlandeses e alemães em partes quase iguais, segundo o médico da obra. No caixão ganhava-se 4 dólares por dia, o dobro da superfície, segundo o Serviço Nacional de Parques.",
+      "conf": "1"
+    },
+    {
+      "item": "Mortes",
+      "valor": "14 mortos e 119 doentes pela doença dos caixões, segundo o registro do Serviço Nacional de Parques de 1975 e a tabela de Woodward; 15 mortos, 2 inválidos e 77 casos graves, segundo o mesmo serviço em 2001; 13 mortos nos pilares, segundo a American Heritage. Um tornado em março de 1871 matou mais um operário.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Ensecadeira do encontro oeste em 21/08/1867; caixão do pilar leste afundado em outubro de 1869; rocha alcançada em 28/02/1870; primeiras costelas do arco fechadas em setembro de 1873; pedestres em maio de 1874; elefante em 14/06/1874; 14 locomotivas em 02/07; inauguração em 04/07/1874.",
+      "conf": "2+",
+      "nota": "o dia do fechamento do arco e o da abertura a pedestres variam um ou dois dias entre as fontes"
+    },
+    {
+      "item": "Custo",
+      "valor": "US$ 6.536.729,99 de custo final segundo a American Heritage; US$ 6,5 milhões segundo o Missouri Historical Society; US$ 7 milhões segundo a ASCE; US$ 10 milhões segundo o registro do Serviço Nacional de Parques e a Missouri Encyclopedia.",
+      "conf": "DIV",
+      "nota": "pelo índice de preços ao consumidor dos EUA (1874 = 34; 2025 = 967,5; base 1967 = 100), 6,5 milhões equivalem a cerca de US$ 186 milhões de 2025 e 10 milhões a cerca de US$ 285 milhões"
+    },
+    {
+      "item": "Materiais",
+      "valor": "2.390 toneladas de aço, 3.156 de ferro forjado, 806 de madeira, 4.556 jardas cúbicas de concreto e 97.571 de alvenaria de pedra.",
+      "conf": "2+"
+    },
+    {
+      "item": "Medidas",
+      "valor": "Arcos de 502, 520 e 502 pés. Comprimento total, com os acessos, de 6.442 pés, cerca de 1,96 km. Altura livre de 50 pés acima da cheia, a exigência dos barqueiros.",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "Boicotada pelas ferrovias, a companhia entrou em intervenção judicial em menos de um ano. A ponte foi a leilão em 1878 e vendida por US$ 2 milhões; passou a Jay Gould em 1881 e à Terminal Railroad Association em 1889. Os trilhos saíram em 1974.",
+      "conf": "2+"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Estrada fechada de 1991 a 2003; trens do MetroLink no tabuleiro inferior desde 1993, cerca de 300 por dia. Restauro de 2012 a 2016, por US$ 48 milhões, para mais 75 anos de uso. Um operário morreu na obra, em julho de 2015, quando um empurrador bateu na ponte.",
+      "conf": "2+"
+    },
+    {
+      "item": "Agora",
+      "valor": "Em agosto de 2026, depois de um acidente fatal no tabuleiro rodoviário, a prefeitura de St. Louis disse ter gasto US$ 200 mil em reparos de iluminação por causa de furto de fio de cobre e vandalismo.",
+      "conf": "1",
+      "nota": "segundo a FOX 2 St. Louis"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "O homem que andava no fundo do rio",
+      "paragrafos": [
+        "James Buchanan Eads nasceu em 1820, em Lawrenceburg, Indiana, e chegou a St. Louis aos 13 anos, sem dinheiro. Foi caixeiro e, segundo o Serviço Nacional de Parques, lia na biblioteca do patrão. O Mississippi daquele tempo era um cemitério de vapores: troncos submersos, bancos de areia e caldeiras que explodiam afundavam barcos com a carga inteira.",
+        "Aos 22 anos, Eads montou um barco de resgate de casco duplo e um sino de mergulho improvisado com um barril de uísque de 40 galões, com uma mangueira por onde se bombeava ar da superfície. Descia ao leito do rio e caminhava na lama, contra a correnteza, para amarrar a carga dos naufrágios. Fez fortuna com isso e, na Guerra Civil, construiu canhoneiras blindadas para a União nos rios do Oeste. Quando a ponte de St. Louis voltou à pauta, depois da guerra, ninguém conhecia aquele fundo de rio como ele."
+      ]
+    },
+    {
+      "titulo": "Uma ponte que os engenheiros recusavam",
+      "paragrafos": [
+        "O problema era maior que a largura do rio. Os barqueiros queriam vão central largo, altura livre de 50 pés acima da cheia e nenhum andaime atrapalhando a navegação durante a obra. Segundo o Serviço Nacional de Parques, um construtor de Chicago, Lucius Boomer, tinha obtido de Illinois o direito exclusivo de fazer a ponte sem a intenção de fazê-la, só para atrasar St. Louis.",
+        "Eads apresentou um projeto que fugia do que se fazia: em vez de treliça ou ponte pênsil, três arcos de mais de 150 metros, em costelas de aço, um metal que até então não tinha sido o principal de nenhuma grande estrutura. Segundo a revista American Heritage, o engenheiro J. H. Linville, de Filadélfia, chamado para avaliar o desenho, recusou-se a assiná-lo e o chamou de inseguro e impraticável. Eads manteve o projeto e foi nomeado engenheiro-chefe em 1867."
+      ]
+    },
+    {
+      "titulo": "Até a rocha, em ar comprimido",
+      "paragrafos": [
+        "Eads achava que a fundação era a parte crítica e que ela precisava apoiar na rocha, abaixo de cerca de 80 pés de areia que a correnteza revolvia. No lado de St. Louis, o encontro foi feito numa ensecadeira, a 47 pés. Para os pilares no meio do rio, ele adotou o que tinha visto numa viagem à Europa: o caixão pneumático, uma caixa enorme sem fundo, cheia de ar comprimido para manter a água fora, sobre a qual se erguia o pilar enquanto homens cavavam por baixo.",
+        "O caixão do pilar leste media 82 por 60 pés, tinha sete eclusas de ar e uma câmara de trabalho de 9 pés de altura. A areia saía por uma bomba que o próprio Eads inventou, movida a ar. Lá dentro, à luz de lampião, o ar chiava sem parar e a voz saía fina. Em 28/02/1870 o caixão tocou a rocha, a 93 ou 95 pés abaixo da superfície do rio, conforme a fonte. O encontro do lado de Illinois desceu ainda mais, para perto de 40 metros, e foi o trabalho em ar comprimido mais fundo feito até então."
+      ]
+    },
+    {
+      "titulo": "A doença que ninguém entendia",
+      "paragrafos": [
+        "Quanto mais fundo, maior a pressão, e os homens começaram a sair das câmaras com dor no ventre, nas juntas e, depois, paralisados. Em 19/03/1870 morreram os primeiros: James Riley caiu morto quinze minutos depois de um turno de duas horas, e James Moran, irlandês de 35 anos, morreu no hospital no mesmo dia. Dois dias depois, vinte doentes já tinham ido para o hospital, e cinco morreram. Ninguém sabia que o ar comprimido dissolvia gás no sangue e que a subida rápida o soltava em bolhas.",
+        "Eads chamou seu médico, Alphonse Jaminet. Em 28/02/1870, no dia em que o pilar leste chegou à rocha, Jaminet tinha descido para observar os homens e, ao subir, parou quatro vezes na escada; em casa, 45 minutos depois, estava paralisado, e levou uma semana para se recuperar. Ele conta o próprio caso no relatório que publicou em 1871. Ao assumir, em 31/03/1870, encurtou os turnos conforme a pressão, mandou descomprimir mais devagar e montou um barco-hospital. Segundo uma revisão de 2004 na revista Undersea and Hyperbaric Medicine, houve 11 mortes nos cinco meses anteriores a ele e 3 nos catorze meses seguintes.",
+        "Quantos morreram no total, as fontes não concordam: 14 segundo o registro do Serviço Nacional de Parques e a tabela do engenheiro C. M. Woodward, de 1881; 15 segundo o mesmo serviço numa publicação de 2001; 13 segundo a American Heritage. A conta de doentes mais citada é 119. Poucos anos depois, a Ponte do Brooklyn, em Nova York, usou o mesmo recurso e foi menos fundo."
+      ]
+    },
+    {
+      "titulo": "O aço e o arco que não fechava",
+      "paragrafos": [
+        "O aço era o outro risco. Eads especificou resistência e elasticidade com um rigor que os fornecedores não estavam acostumados a cumprir; nas pranchas do projeto, ele registra o módulo de elasticidade que adotou para o aço fundido, 27 milhões de libras por polegada quadrada, e o quanto a peça dilataria com o calor. Segundo a American Heritage, Andrew Carnegie, cuja Keystone Bridge Company montava a superestrutura, reclamou que nada que agradasse aos engenheiros era bom o bastante para aquela obra. A primeira siderúrgica desistiu, e a segunda cobrou mais.",
+        "A montagem começou em 1873, com os arcos crescendo em balanço a partir de cada pilar, segurados por cabos presos a torres provisórias, sem nada apoiado no rio. Em setembro, na hora de unir as metades do primeiro arco, o calor tinha dilatado o aço e as peças não encaixavam. Segundo a American Heritage, a equipe chegou a cobrir os tubos com gelo antes de recorrer a uma junta rosqueada que Eads tinha previsto. Ao fim, a ponte levou 2.390 toneladas de aço e 3.156 de ferro forjado: foi a primeira grande estrutura com o aço como metal principal, mas não toda de aço."
+      ]
+    },
+    {
+      "titulo": "Um elefante e catorze locomotivas",
+      "paragrafos": [
+        "St. Louis precisava acreditar na ponte. Em 14/06/1874, um elefante atravessou o tabuleiro: dizia-se que o animal não pisava em estrutura insegura. A prova de engenharia veio em 02/07/1874, quando 14 locomotivas, somando cerca de 550 toneladas, passaram e repassaram sobre os arcos durante cinco horas. Em 04/07/1874 a ponte foi inaugurada com salva de canhões, desfile e fogos; segundo o Serviço Nacional de Parques, 150 mil pessoas assistiram.",
+        "O sucesso de engenharia não pagou a conta. As ferrovias boicotaram a ponte, a companhia entrou em intervenção judicial em menos de um ano e, em 1878, a obra foi a leilão por US$ 2 milhões, uma fração do que custara. Eads seguiu para os molhes da foz do Mississippi e, em 1884, recebeu em Londres a Medalha Albert. Morreu em 1887, em Nassau, nas Bahamas."
+      ]
+    },
+    {
+      "titulo": "Cento e cinquenta anos depois",
+      "paragrafos": [
+        "A ponte perdeu os trilhos em 1974 e a estrada fechou em 1991. Em 1993 os trens do MetroLink voltaram ao tabuleiro de baixo, e em 2003 os carros voltaram ao de cima. De 2012 a 2016, um restauro de US$ 48 milhões tirou as camadas de tinta antigas, trocou aço de reforço e preparou a ponte para mais 75 anos. Hoje passam por ela cerca de 300 trens por dia.",
+        "Em 2024 ela fez 150 anos, e o Missouri History Museum manteve uma exposição sobre a obra até novembro de 2025. A notícia mais recente é menor e mais prosaica: em agosto de 2026, depois que uma motorista morreu num acidente no tabuleiro, a FOX 2 St. Louis mostrou trechos às escuras, e a prefeitura disse ter gasto US$ 200 mil consertando luzes cujos fios de cobre tinham sido furtados."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Foi a primeira ponte de aço do mundo.",
+      "registro": "Foi a primeira grande estrutura com o aço como metal principal, segundo o Serviço Nacional de Parques. Mas leva mais ferro forjado que aço: 3.156 contra 2.390 toneladas. A primeira ponte inteiramente de aço é de 1879, em Glasgow, no próprio Missouri."
+    },
+    {
+      "circula": "Foi a primeira obra com caixões pneumáticos.",
+      "registro": "Não. O ar comprimido já era usado em fundações na França e na Inglaterra desde as décadas de 1840 e 1850. O que a Ponte Eads teve foram os maiores caixões já feitos e o trabalho em ar comprimido mais profundo do mundo na época."
+    },
+    {
+      "circula": "A doença dos caixões foi descoberta na Ponte do Brooklyn.",
+      "registro": "Ela já era descrita na França e matou em St. Louis antes do Brooklyn. O médico da Ponte Eads, Alphonse Jaminet, publicou seu relatório em 1871, inclusive sobre o próprio caso; o do Brooklyn é de 1873."
+    },
+    {
+      "circula": "O elefante provou que a ponte aguentava.",
+      "registro": "O elefante atravessou em 14/06/1874 como demonstração para o público, apoiada numa crença popular. O teste de carga foi o de 02/07/1874, com 14 locomotivas durante cinco horas."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "National Park Service, National Register of Historic Places Inventory, Nomination Form: Eads Bridge, 1975",
+      "url": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/66000946_text"
+    },
+    {
+      "texto": "National Park Service, Jefferson National Expansion Memorial, \"James B. Eads and His Amazing Bridge at St. Louis\", Museum Gazette, 2001",
+      "url": "https://npshistory.com/publications/jeff/newsletters/museum-gazette/james-eads-bridge.pdf"
+    },
+    {
+      "texto": "Alphonse Jaminet, Physical Effects of Compressed Air… Illinois and St. Louis Bridge, St. Louis, 1871",
+      "url": "https://archive.org/details/physicaleffectso00jami"
+    },
+    {
+      "texto": "James B. Eads, Illinois and St. Louis Bridge (pranchas), c. 1880, Smithsonian Libraries",
+      "url": "https://archive.org/details/IllinoisStLouis00Eads"
+    },
+    {
+      "texto": "W. P. Butler, \"Caisson disease during the construction of the Eads and Brooklyn Bridges: A review\", Undersea and Hyperbaric Medicine 31(4), 2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15686275/"
+    },
+    {
+      "texto": "American Society of Civil Engineers, \"Eads Bridge\", Historic Civil Engineering Landmark",
+      "url": "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/eads-bridge/"
+    },
+    {
+      "texto": "\"Mr. Eads Spans the Mississippi\", American Heritage, vol. 20, nº 5, agosto de 1969",
+      "url": "https://www.americanheritage.com/mr-eads-spans-mississippi"
+    },
+    {
+      "texto": "David P. Billington e J. Wayman Williams, \"James Buchanan Eads (1820–1887)\", Missouri Encyclopedia",
+      "url": "https://missouriencyclopedia.org/people/eads-james-buchanan"
+    },
+    {
+      "texto": "PBS American Experience, \"James Eads Timeline\" e \"St. Louis Bridge Opening and Disasters\"",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/eads-james-eads-timeline/"
+    },
+    {
+      "texto": "Linda Hall Library, Centuries of Civil Engineering, \"Missouri Bridges\"",
+      "url": "https://www.lindahall.org/experience/digital-exhibitions/centuries-of-civil-engineering/04-bridges/b-missouri-bridges/"
+    },
+    {
+      "texto": "Bi-State Development, \"Region Celebrates Completion of the Rehabilitation of the Historic Eads Bridge\", 2016",
+      "url": "https://www.bistatedev.org/2016/10/11/region-celebrates-completion-rehabilitation-historic-eads-bridge/"
+    },
+    {
+      "texto": "The Waterways Journal, \"Eads Bridge Remains An Engineering Marvel\", 2024",
+      "url": "https://www.waterwaysjournal.net/2024/07/01/eads-bridge-remains-an-engineering-marvel/"
+    },
+    {
+      "texto": "FOX 2 St. Louis, \"Drivers question Eads Bridge safety after fatal accident\", agosto de 2026",
+      "url": "https://fox2now.com/news/illinois/drivers-question-eads-bridge-safety-after-fatal-accident/"
+    },
+    {
+      "texto": "Federal Reserve Bank of Minneapolis, Consumer Price Index, 1800–",
+      "url": "https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1800-"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "21-capa.jpg",
+      "alt": "Ponte de três arcos de aço escuro sobre um rio largo, com pilares de pedra, um trem azul passando no tabuleiro inferior, céu limpo e margem coberta de neve em primeiro plano",
+      "legenda": "A ponte em fevereiro de 2025, vista da margem de St. Louis, com um trem do MetroLink no tabuleiro inferior e gelo no Mississippi.",
+      "autor": "Antony-22",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Eads_Bridge_2025b.jpg",
+      "recriacao": false,
+      "foco": "45% 45%"
+    },
+    {
+      "arquivo": "21-pilar-leste-1870.jpg",
+      "alt": "Fotografia antiga em preto e branco: um bloco de alvenaria emergindo da água entre barcos-oficina de madeira, sob grandes armações inclinadas de madeira com roldanas, chaminés e homens sobre as pedras",
+      "legenda": "O pilar leste em 1870, crescendo sobre o caixão pneumático que o levava até a rocha, entre os barcos e as cábreas do canteiro.",
+      "autor": "Autor não identificado (Missouri History Museum)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Eads_Bridge_construction_sinking_the_east_pier.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "21-arcos-setembro-1873.jpg",
+      "alt": "Fotografia antiga: à esquerda, um pilar de pedra com andaimes e meio arco avançando sobre o rio; ao fundo, outro pilar com dois meios arcos em balanço e torres provisórias",
+      "legenda": "Setembro de 1873: os arcos crescem em balanço a partir dos pilares, sem nenhum escoramento no rio.",
+      "autor": "Autor não identificado (Missouri History Museum)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Eads_Bridge_construction._Erection_of_west_and_center_arches,_view_looking_northeast,_September_1873.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "21-arco-oeste-cabos.jpg",
+      "alt": "Fotografia antiga: na margem calçada de pedras, um meio arco de aço sai do encontro de alvenaria preso por cabos a uma torre; no rio, um pilar com dois meios arcos e um vapor atracado",
+      "legenda": "O arco oeste em montagem, preso por cabos a torres provisórias, em prancha do livro de C. M. Woodward de 1881.",
+      "autor": "C. M. Woodward, A History of the St. Louis Bridge (1881) / Library of Congress",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Erection_of_west_arch_(of_the_St._Louis_Bridge),_showing_cables_to_joints_6,_9,_and_12_LCCN2003656236.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "21-pronta-julho-1874.jpg",
+      "alt": "Fotografia antiga em sépia: a ponte de três arcos vista de uma praia de areia com tábuas soltas, o encontro de pedra com arcadas à esquerda e a cidade de St. Louis ao fundo",
+      "legenda": "A ponte pronta, vista do lado de Illinois em julho de 1874, mês da inauguração.",
+      "autor": "Robert Benecke (Missouri History Museum)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Eads_Bridge_from_the_Illinois_side,_completed._July_1874.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "ponte-de-forth"
+}

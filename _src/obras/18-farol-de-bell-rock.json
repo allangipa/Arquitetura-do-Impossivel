@@ -1,0 +1,310 @@
+{
+  "num": "18",
+  "slug": "farol-de-bell-rock",
+  "obra": "Farol de Bell Rock",
+  "titulo_video": null,
+  "lugar": "Recife de Bell Rock (Inchcape), Mar do Norte, ao largo de Arbroath, Angus, Escócia, Reino Unido",
+  "regiao": "mundo",
+  "periodo": "1807–1811",
+  "estreia": "2027-02-04",
+  "impossivel": "Erguer uma torre de pedra de uns 35 metros sobre um recife que o mar cobre duas vezes por dia, a cerca de 18 quilômetros da costa, trabalhando só no verão e, no começo, só umas duas horas a cada maré baixa.",
+  "resumo": "Como uma torre de pedra encaixada foi erguida, entre 1807 e 1811, num recife que o Mar do Norte cobre, e quem fica com o crédito por ela.",
+  "abertura": [
+    "A uns 18 quilômetros de Arbroath, na costa leste da Escócia, no Reino Unido, existe um recife que só aparece na maré baixa. Chama-se Bell Rock, ou Inchcape, e afundava navios no caminho dos estuários do Tay e do Forth. Em 1806, o Parlamento britânico autorizou o que muita gente achava impossível: um farol de pedra plantado em cima dele.",
+    "A torre foi acesa em 01/02/1811 e continua acesa. É o mais antigo farol de mar do mundo ainda em funcionamento, construído pedra por pedra, com blocos encaixados uns nos outros em cauda de andorinha, por homens que só podiam trabalhar enquanto a maré deixava. E até hoje se discute quem a projetou: Robert Stevenson, que a construiu, ou John Rennie, que era o engenheiro-chefe."
+  ],
+  "numeros": [
+    {
+      "valor": "01/02/1811",
+      "rotulo": "a primeira noite acesa, depois de quatro anos de obra",
+      "conf": "2+"
+    },
+    {
+      "valor": "2 horas",
+      "rotulo": "de trabalho a cada maré baixa, no começo da obra",
+      "conf": "2+"
+    },
+    {
+      "valor": "35 a 36 m",
+      "rotulo": "de altura, conforme a fonte",
+      "conf": "DIV"
+    },
+    {
+      "valor": "£61.331",
+      "rotulo": "de custo líquido, contra um orçamento de cerca de £42.000",
+      "conf": "2+"
+    },
+    {
+      "valor": "3",
+      "rotulo": "homens mortos na obra, segundo o diário do engenheiro",
+      "conf": "1"
+    },
+    {
+      "valor": "1988",
+      "rotulo": "o ano em que os últimos faroleiros deixaram a torre",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "O recife fica coberto na maré cheia e afundava navios na entrada dos estuários do Tay e do Forth. Uma tempestade em dezembro de 1799 levou cerca de 70 embarcações na costa de Fife e Angus, e o naufrágio do navio de guerra HMS York, com 491 homens, foi atribuído ao recife.",
+      "conf": "2+",
+      "nota": "a data do York aparece como 1803 ou 1804, conforme a fonte"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "Os comissários dos Faróis do Norte, hoje Northern Lighthouse Board. Robert Stevenson, engenheiro do conselho, propôs a torre de pedra depois de visitar o recife em 1800. Uma primeira lei caiu na Câmara dos Lordes em 1803; a segunda passou em 1806, com um empréstimo do governo.",
+      "conf": "2+",
+      "nota": "o empréstimo de £25.000 aparece numa fonte só"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Em 03/12/1806, o conselho nomeou John Rennie engenheiro-chefe e Stevenson seu assistente, que dirigiu a obra no recife. O livro que Stevenson publicou em 1824 quase não dá crédito a Rennie, e a disputa entre as duas famílias durou mais de um século. O órgão de patrimônio escocês registra Stevenson como projetista e Rennie como engenheiro consultor.",
+      "conf": "DIV"
+    },
+    {
+      "item": "O modelo",
+      "valor": "O farol de Eddystone, de John Smeaton, perto de Plymouth, na Inglaterra (1759): uma torre de pedra em que cada fiada se encaixa em cauda de andorinha. O barco de 40 toneladas construído para levar as pedras ao recife se chamou Smeaton, em homenagem a ele.",
+      "conf": "2+"
+    },
+    {
+      "item": "Como fica de pé",
+      "valor": "As pedras de cada fiada se encaixam umas nas outras em cauda de andorinha, do centro para fora, e as fiadas se prendem entre si por cavilhas de carvalho, cunhas e tacos de pedra. A base foi assentada num poço escavado no próprio recife. Os primeiros 30 pés (cerca de 9 m) são maciços.",
+      "conf": "2+"
+    },
+    {
+      "item": "Material",
+      "valor": "Granito de Aberdeen no revestimento externo das primeiras fiadas e arenito no miolo e no resto da torre, segundo Stevenson. As fontes citam pedra de Aberdeen, Mylnefield (Dundee) e Craigleith (Edimburgo).",
+      "conf": "2+",
+      "nota": "o nome da pedreira de arenito varia entre as fontes"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Trabalho no recife a partir de 18/08/1807; pedra fundamental em 10/07/1808; parte maciça pronta em 25/08/1809; última pedra no verão de 1810; acesa em 01/02/1811. Pedras assentadas só nos verões de 1808, 1809 e 1810.",
+      "conf": "2+",
+      "nota": "a última pedra aparece como 30/07 ou 02/09/1810"
+    },
+    {
+      "item": "Maré",
+      "valor": "No começo, umas duas horas de trabalho a cada maré baixa. Quando a torre passou do nível da água, em 1809, o dia de trabalho chegou a nove horas, segundo Stevenson.",
+      "conf": "2+"
+    },
+    {
+      "item": "Operários",
+      "valor": "24 artífices no primeiro embarque, em agosto de 1807; 60 no canteiro de Arbroath em maio de 1808; até 52 pessoas ao mesmo tempo sobre o recife; 31 morando no alojamento de madeira em junho de 1810. O total de homens que passaram pela obra não foi registrado com segurança.",
+      "conf": "1",
+      "nota": "números do diário de Stevenson"
+    },
+    {
+      "item": "Salário",
+      "valor": "3 xelins e 4 pence por dia, mais 6 pence por hora extra. Em 1810, trabalhando também aos domingos, os artífices tiravam mais de dois guinéus por semana, segundo Stevenson.",
+      "conf": "1"
+    },
+    {
+      "item": "Mortes",
+      "valor": "Três, no diário de Stevenson: o marinheiro James Scott, de 18 anos, afogado no recife em setembro de 1808; o servente William Walker, esmagado por uma pedra no canteiro de Arbroath em julho de 1809; e o ferreiro Charles Henderson, que caiu da escada de corda entre o alojamento e a torre em 1810.",
+      "conf": "DIV",
+      "nota": "outras fontes contam pelo menos duas mortes e descrevem a de Henderson numa tempestade"
+    },
+    {
+      "item": "Custo",
+      "valor": "£61.331 9s. 2d. líquidos, pela prestação de contas de Stevenson; o gasto bruto foi de £77.089, descontados barcos, máquinas e barracões vendidos e o barco-farol. Os orçamentos eram de £41.844 (Rennie) e £42.685 (Stevenson).",
+      "conf": "2+",
+      "nota": "pelo salário da obra, o custo líquido equivale a cerca de 368 mil diárias de artífice; não há conversão confiável para libras de hoje"
+    },
+    {
+      "item": "Medidas",
+      "valor": "Cerca de 35 ou 36 m de altura, conforme a fonte; 42 pés (13 m) de diâmetro na base e 15 pés (4,5 m) no topo; 96 degraus; cerca de 2.077 toneladas de pedra. O número de blocos aparece como 2.835, cerca de 2.800 ou cerca de 2.500.",
+      "conf": "DIV"
+    },
+    {
+      "item": "A luz",
+      "valor": "Acesa em 01/02/1811, quando o barco-farol Pharos, ancorado ao lado desde 15/09/1807, foi apagado. A luz original tinha 24 refletores e lâmpadas de óleo, girava por mecanismo de relógio e alternava branco e vermelho. Hoje dá um lampejo branco a cada 5 segundos, visível a 18 milhas náuticas.",
+      "conf": "2+"
+    },
+    {
+      "item": "Acidentes depois",
+      "valor": "Em 15/12/1955, um helicóptero da RAF bateu no anemômetro do topo e caiu no mar; os dois tripulantes morreram e a luz apagou. Em 03/09/1987, um incêndio tomou os andares de cima, e os três faroleiros foram resgatados de helicóptero com a maré subindo.",
+      "conf": "2+",
+      "nota": "o incêndio de 1987 vem de uma fonte só, o jornal The Courier"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Automatizado em outubro de 1988 e vigiado à distância de Edimburgo. Em 2026, os Arquivos Nacionais da Escócia expuseram documentos da construção, de 03/08 a 25/09, em Edimburgo.",
+      "conf": "2+",
+      "nota": "o dia da automação aparece como 24 ou 26/10/1988"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Um recife que some duas vezes por dia",
+      "paragrafos": [
+        "Bell Rock é um recife de arenito no Mar do Norte, a cerca de 18 quilômetros de Arbroath, no condado de Angus, na Escócia, no Reino Unido. Na maré cheia, fica debaixo de quatro a cinco metros de água; na baixa, aparece por algumas horas. Fica no caminho dos navios que entram nos estuários do Tay, rumo a Dundee, e do Forth, rumo a Edimburgo. Uma lenda, repetida pelos Arquivos Nacionais da Escócia, diz que um abade de Arbroath pendurou ali um sino de aviso no século XIV, e que daí vem o nome.",
+        "Sino não resolvia. Em dezembro de 1799, uma tempestade levou cerca de 70 embarcações na costa de Fife e Angus. O naufrágio do HMS York, um navio de guerra perdido com 491 homens, foi atribuído ao recife, e as fontes não concordam se ele afundou no fim de 1803 ou em 1804. Robert Stevenson, engenheiro do conselho dos Faróis do Norte, visitou o recife em 1800 e defendeu uma torre de pedra. A primeira lei caiu na Câmara dos Lordes em 1803. A segunda passou em 1806."
+      ]
+    },
+    {
+      "titulo": "Quem desenhou a torre",
+      "paragrafos": [
+        "Em 03/12/1806, o conselho decidiu que a obra seria feita sob a direção de John Rennie, nomeado engenheiro-chefe, com Stevenson como assistente. Na prática, Stevenson ficou com o recife: morou nos barcos e no alojamento, dirigiu os homens e escreveu o diário de obra. Rennie visitou o recife e mandou instruções. Segundo a pesquisa do historiador Roland Paxton, publicada em 2011, foi Rennie quem traçou a curva do perfil da torre, larga embaixo e fina em cima.",
+        "Em 1824, Stevenson publicou um livro sobre a obra, com gravuras e contas, e nele Rennie aparece pouco. Paxton descobriu que cartas em que Rennie agia como chefe foram recortadas dos copiadores de Stevenson, possivelmente em meados do século XIX. Os filhos dos dois brigaram pelo mérito até 1848, e as famílias, por muito mais tempo. Hoje o órgão de patrimônio escocês registra o farol como projeto de Stevenson, com Rennie como engenheiro consultor. As duas leituras continuam de pé."
+      ]
+    },
+    {
+      "titulo": "A cauda de andorinha de Smeaton",
+      "paragrafos": [
+        "O modelo era o farol de Eddystone, que John Smeaton tinha erguido em 1759 num rochedo ao largo de Plymouth, na Inglaterra. A ideia de Smeaton era fazer cada fiada de pedra funcionar como uma peça só: os blocos têm o formato de cauda de andorinha, mais largos numa ponta, e se travam uns nos outros, do centro para a borda, como um quebra-cabeça. No Bell Rock foi igual, segundo o próprio Stevenson, e as fiadas ainda se prendiam umas às outras por cavilhas de carvalho, cunhas e tacos de pedra.",
+        "A base não está colada ao recife: está dentro dele. Os homens escavaram um poço de fundação na rocha, mais fundo do que o previsto, e as primeiras fiadas foram assentadas ali, com argamassa de pozolana. Os primeiros 30 pés, cerca de 9 metros, são pedra maciça, granito de Aberdeen por fora e arenito por dentro. O resto é o peso: cerca de 2.077 toneladas, segundo as contas de Stevenson. Cada bloco era cortado em terra, em Arbroath, montado numa plataforma para testar o encaixe e só então embarcado. Segundo Stevenson, muitos blocos perdiam metade do volume no corte.",
+        "O barco de 40 toneladas que levava as pedras ao recife se chamou Smeaton. Foi Stevenson quem sugeriu o nome, em homenagem ao engenheiro cuja narrativa, escreveu ele, seria uma espécie de manual da obra."
+      ]
+    },
+    {
+      "titulo": "Duas horas por maré",
+      "paragrafos": [
+        "A obra começou em 18/08/1807, quando 24 artífices desembarcaram no recife. Só se trabalhava no verão e, no começo, umas duas horas a cada maré baixa. Os homens viviam embarcados, sofriam de enjoo e, quando a maré subia, voltavam aos barcos. Num dia de 1807, um dos barcos se soltou das amarras com gente sobre o recife, e no embarque seguinte 18 artífices se recusaram a ir.",
+        "A solução foi um alojamento de madeira sobre pernas, erguido ao lado do lugar da torre com vigas de 50 pés. No começo servia de abrigo e de forja; a partir de 1809, os homens passaram a morar lá, primeiro alguns, depois 24, e em 1810 eram 31. Uma escada de corda ligava o alojamento à torre. Enquanto isso, um barco-farol, o Pharos, ficou ancorado perto do recife de 15/09/1807 até a noite em que a torre acendeu.",
+        "A pedra fundamental foi assentada em 10/07/1808. A parte maciça ficou pronta em 25/08/1809. Em 1810, com a torre acima da água, o dia de trabalho chegou a nove horas, e os artífices, que ganhavam 3 xelins e 4 pence por dia, mais 6 pence por hora extra, passaram a tirar mais de dois guinéus por semana, segundo Stevenson. A Marinha recrutava à força em plena guerra contra Napoleão, e os homens da obra receberam uma medalha de proteção para não serem levados."
+      ]
+    },
+    {
+      "titulo": "Os três que não voltaram",
+      "paragrafos": [
+        "O diário de Stevenson registra três mortes. Em setembro de 1808, o marinheiro James Scott, de 18 anos, amarrava um cabo a uma boia quando a corrente se soltou do fundo; a boia saltou, virou o bote, e ele, provavelmente atingido na cabeça, foi levado pela corrente. Em julho de 1809, no canteiro de Arbroath, uma pedra escorregou da talha e caiu sobre o servente William Walker, que morreu em poucas horas, deixando mulher e dois filhos. Em 1810, já na montagem da lanterna, o ferreiro Charles Henderson descia da torre no escuro, apostando corrida com um colega, e caiu da escada de corda. Nunca foi achado.",
+        "O conselho pagou pensão à mãe de Scott e à viúva de Walker. Outras fontes falam em pelo menos duas mortes e contam a de Henderson numa tempestade. O diário fala também de um homem que ficou inválido no canteiro e de outro que perdeu um dedo."
+      ]
+    },
+    {
+      "titulo": "A conta e a luz",
+      "paragrafos": [
+        "Rennie tinha orçado a torre em £41.844, ou £42.000, como ele mesmo arredondou. A prestação de contas de Stevenson chegou a £77.089 de gasto bruto e, descontado o que foi vendido ou transferido, inclusive o barco-farol, a £61.331 9s. 2d. líquidos, cerca de 47% acima do orçamento de Rennie. Pelo salário da obra, a quantia equivale a cerca de 368 mil diárias de artífice.",
+        "A última pedra foi assentada no verão de 1810: os Arquivos Nacionais da Escócia dão 30/07 para a última fiada, e o diário de Stevenson, 02/09 para a última pedra. A luz foi anunciada nos jornais em dezembro e acesa em 01/02/1811. Eram 24 refletores com lâmpadas de óleo, que giravam por mecanismo de relógio e alternavam o branco com o vermelho. Em 1819, o pintor J. M. W. Turner fez uma aquarela da torre no meio da tempestade para ilustrar o livro de Stevenson."
+      ]
+    },
+    {
+      "titulo": "Mais de duzentos anos no mar",
+      "paragrafos": [
+        "A torre passou por duas guerras e foi metralhada na segunda, em 1941. Em 15/12/1955, um helicóptero da RAF que levava jornais aos faroleiros bateu com o rotor de cauda no anemômetro do topo e caiu no mar; os dois tripulantes morreram e a luz ficou fora de ação. Em 03/09/1987, segundo o jornal The Courier, de Dundee, um vazamento de combustível pegou fogo na cozinha e tomou os andares de cima; os três faroleiros desceram para o recife com a maré subindo e foram tirados por um helicóptero.",
+        "Em outubro de 1988, os últimos faroleiros deixaram a torre, que passou a ser vigiada de Edimburgo. Em 2026, os Arquivos Nacionais da Escócia levaram os documentos da construção para a exposição For the Safety of All, em Edimburgo, de 03/08 a 25/09. O Bell Rock continua lá, a cerca de 18 quilômetros da costa, acendendo toda noite: o mais antigo farol de mar do mundo ainda em funcionamento."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Robert Stevenson projetou e construiu o farol sozinho.",
+      "registro": "John Rennie foi nomeado engenheiro-chefe em 1806, com Stevenson como assistente. Pesquisas publicadas em 2011 atribuem a Rennie a curva do perfil; o livro de Stevenson de 1824 quase não o menciona. O crédito é disputado desde então, e o órgão de patrimônio escocês registra Stevenson como projetista e Rennie como consultor."
+    },
+    {
+      "circula": "A base do farol é fundida à rocha do recife.",
+      "registro": "Não há fusão. Escavou-se um poço de fundação no recife, as primeiras fiadas foram assentadas dentro dele com argamassa, e as pedras se travam por encaixe em cauda de andorinha, cavilhas e tacos de pedra. O resto é peso: cerca de 2.077 toneladas."
+    },
+    {
+      "circula": "O encaixe em cauda de andorinha foi inventado para o Bell Rock.",
+      "registro": "Ele vem do farol de Eddystone, de John Smeaton (1759). O próprio Stevenson escreveu que seguiu a maneira de Eddystone."
+    },
+    {
+      "circula": "O farol pegou fogo em 1955.",
+      "registro": "Em 1955, um helicóptero da RAF bateu no topo da torre e caiu no mar, matando os dois tripulantes, segundo o registro do Parlamento britânico. O incêndio foi em 1987, segundo o jornal The Courier."
+    },
+    {
+      "circula": "É o farol mais antigo do mundo.",
+      "registro": "É o mais antigo farol de mar, erguido sobre rocha batida pelas ondas, ainda em funcionamento. Há faróis em terra firme muito mais velhos."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Robert Stevenson, An Account of the Bell Rock Light-House, Edimburgo, 1824 (Project Gutenberg)",
+      "url": "https://www.gutenberg.org/files/48414/48414-h/48414-h.htm"
+    },
+    {
+      "texto": "Northern Lighthouse Board, \"Bell Rock\"",
+      "url": "https://www.nlb.org.uk/lighthouses/bell-rock/"
+    },
+    {
+      "texto": "National Library of Scotland, \"Robert Stevenson and the building of Bell Rock Lighthouse\"",
+      "url": "https://www.nls.uk/collections/stories/science-technology-and-engineering/building-the-bell-rock-lighthouse/"
+    },
+    {
+      "texto": "National Records of Scotland, \"'A ruddy gem of changeful light': the Bell Rock Lighthouse\", 2026",
+      "url": "https://nrscotland.gov.uk/learning-and-events/all-features-and-articles/a-ruddy-gem-of-changeful-light-the-bell-rock-lighthouse"
+    },
+    {
+      "texto": "The Rochester Bridge Trust, \"John Rennie – Bell Rock Lighthouse\" (a partir de Roland Paxton, Dynasty of Engineers, 2011)",
+      "url": "https://rbt.org.uk/john-rennie/projects/bell-rock-lighthouse/"
+    },
+    {
+      "texto": "Historic Environment Scotland, Bell Rock Lighthouse, LB45197",
+      "url": "https://portal.historicenvironment.scot/designation/LB45197"
+    },
+    {
+      "texto": "Câmara dos Comuns, \"Helicopter Crash, Bell Rock Lighthouse\", Hansard, 20/12/1955",
+      "url": "https://api.parliament.uk/historic-hansard/written-answers/1955/dec/20/helicopter-crash-bell-rock-lighthouse"
+    },
+    {
+      "texto": "Encyclopaedia Britannica, 11ª ed., verbete \"Lighthouse\", 1911",
+      "url": "https://en.wikisource.org/wiki/Page:EB1911_-_Volume_16.djvu/649"
+    },
+    {
+      "texto": "The Courier, \"When the Bell Rock Lighthouse fire left keepers trapped with waters rising\"",
+      "url": "https://www.thecourier.co.uk/fp/past-times/3651748/bell-rock-lighthouse-fire/"
+    },
+    {
+      "texto": "Midlothian View, \"Talks to shine a light on Scotland's lighthouses\", 29/06/2026",
+      "url": "https://midlothianview.com/news/talks-to-shine-a-light-on-scotlands-lighthouses"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "18-capa.jpg",
+      "alt": "Farol branco de pedra com lanterna escura no topo e base larga e escura, sobre um recife baixo quase rente à água calma, sob céu cinza-azulado",
+      "legenda": "A torre e o recife exposto na maré baixa, em 2013. Na maré cheia, a água cobre a rocha e chega à base escura.",
+      "autor": "Kognos",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Bell_Rock_Lighthouse_showing_reef.jpg",
+      "recriacao": false,
+      "foco": "31% 50%"
+    },
+    {
+      "arquivo": "18-vista-do-canteiro.jpg",
+      "alt": "Gravura em preto e branco: a torre de pedra quase pronta, com um guindaste no topo, ligada por uma ponte de madeira a um alojamento sobre pernas de madeira; homens no recife e barcos a remo no mar",
+      "legenda": "O canteiro no recife: a torre, o alojamento de madeira onde os homens moravam e a ponte entre os dois. Gravura de William Miller sobre pintura de Alexander Carse, publicada no livro de Stevenson em 1824.",
+      "autor": "William Miller, sobre desenho de G. C. Scott e pintura de Alexander Carse",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:General_View_of_the_Bell_Rock_Works_engraving_by_William_Miller_after_A_Carse.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "18-progresso-das-obras.jpg",
+      "alt": "Prancha técnica em preto e branco com três fases da obra: a base com guindastes em 1808, a base cônica com a escada de corda em 1809 e, à direita, a torre em corte, com andares, escada em caracol e guindaste no topo, em 1810",
+      "legenda": "A obra em setembro de 1808, agosto de 1809 e julho de 1810. Prancha IX do livro de Stevenson, gravada por William Miller sobre desenho de J. Slight.",
+      "autor": "William Miller, sobre desenho de J. Slight",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Progress_of_the_Bell_Rock_Works_engraving_by_William_Miller_after_J_Slight.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "18-turner-1819.jpg",
+      "alt": "Aquarela: ondas enormes e espuma branca subindo pela torre do farol sob céu escuro de tempestade, com um veleiro inclinado à esquerda",
+      "legenda": "O farol na tempestade, aquarela de J. M. W. Turner, de 1819, feita para a gravura do livro de Stevenson.",
+      "autor": "J. M. W. Turner",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Bell_Rock_Lighthouse_-_Google_Art_Project.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "18-farol-2022.jpg",
+      "alt": "Farol branco com a base de pedra escurecida e úmida sobre um recife baixo, sob céu azul limpo e mar azul-escuro",
+      "legenda": "A torre em 2022. A parte escura embaixo é a alvenaria maciça que a maré cobre.",
+      "autor": "Ralph Greig",
+      "licenca": "CC BY-SA 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Bell_Rock_Lighthouse_-_geograph.org.uk_-_7427165.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "edificio-martinelli"
+}
