@@ -4,6 +4,21 @@ ErrorDocument 404 /404.html
 # raiz sem /index.html
 DirectoryIndex index.html
 
+# Domínio principal: arquiteturadoimpossivel.com, sem www (desde 03/10/2026). O .com.br e o
+# www.arquiteturadoimpossivel.com servem os mesmos arquivos e redirecionam 301, caminho a
+# caminho e com a query string, para https://arquiteturadoimpossivel.com. Só os hosts
+# listados: o domínio temporário da Hostinger e o resto ficam como estão.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^(www\.)?arquiteturadoimpossivel\.com\.br\.?(:\d+)?$ [NC,OR]
+  RewriteCond %{HTTP_HOST} ^www\.arquiteturadoimpossivel\.com\.?(:\d+)?$ [NC]
+  RewriteRule ^ https://arquiteturadoimpossivel.com%{REQUEST_URI} [R=301,L,NE]
+  # http -> https no domínio principal (a Hostinger também força; aqui vai num salto só)
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP_HOST} ^arquiteturadoimpossivel\.com\.?(:\d+)?$ [NC]
+  RewriteRule ^ https://arquiteturadoimpossivel.com%{REQUEST_URI} [R=301,L,NE]
+</IfModule>
+
 # o código-fonte vai no repositório, mas não é servido
 RedirectMatch 404 ^/(_src|\.claude|\.git)(/|$)
 # com o deploy por Git o repositório inteiro vai para public_html:

@@ -90,3 +90,64 @@ Imagens: o build gera sozinho a cópia `.webp` de cada JPEG (e da versão
   compartilhamento própria (`og-tema-<slug>.jpg`), põe no sitemap, lista na
   home (seção `#temas`) e linka o tema no bloco "Leia também" de cada obra do
   grupo. Para se um slug não existir, repetir, ou se o texto tiver bastidor.
+
+## Traduções (03/10/2026)
+
+Arquivos paralelos, **mesmo nome** do original:
+
+```
+_src/obras/NN-slug.json        português (a fonte; manda sempre)
+_src/obras/en/NN-slug.json     inglês
+_src/obras/es/NN-slug.json     espanhol
+_src/temas.en.json                    temas em inglês (opcional)
+_src/i18n/en.json                     textos da interface em inglês
+```
+
+**A tradução tem os mesmos campos e as mesmas listas, na mesma ordem e com o
+mesmo número de itens** (mesmas seções, mesmos parágrafos, mesmas linhas de
+ficha, mesmas imagens). O build confere campo a campo (`fundir_traducao`).
+
+- **Campos fixos** — num, slug, regiao, estreia, proximo, relacionados, conf, arquivo, licenca, licenca_url, origem_url, recriacao, foco, url: não se traduzem. Podem ser omitidos
+  (vêm do original); se estiverem, têm de ser idênticos.
+- **Opcionais só da tradução**: `titulo_seo` (o nome como se busca naquele
+  idioma), `_nota` (comentário, não publicado) e `_excecoes_numeros`.
+- `autor` das imagens e `texto` das fontes podem ficar iguais ao original
+  (nome próprio, título de obra citada); o resto, com 25 caracteres ou mais,
+  igual ao português é tratado como "não traduzido" e para o build.
+
+### Conferência de números
+
+Todo número do original tem de aparecer no mesmo campo da tradução, e a
+tradução não pode ter número que o original não tem. A comparação normaliza:
+
+| português | inglês | conta como |
+|---|---|---|
+| `1.145` / `3,75` | `1,145` / `3.75` | 1145 / 3.75 |
+| `20 mil`, `1,5 milhão` | `20,000`, `1.5 million` | 20000, 1500000 |
+| `250–300 mil` | `250,000–300,000` | 250000 e 300000 |
+| `3/11/1924` | `3 November 1924` | 3, mês 11, 1924 |
+| `12 de outubro` | `12 October` / `October 12` | 12, mês 10 |
+
+O mês por extenso conta como número (só na caixa da ortografia: minúsculo em
+pt/es, maiúsculo em en — "Rio de Janeiro" não é janeiro). Número escrito por
+extenso ("cinco anos") não é conferido: mantenha por extenso. Exceção legítima
+(raro): liste o número em `"_excecoes_numeros": ["1.000"]` na tradução — ele
+deixa de ser conferido nos dois lados.
+
+### Textos da interface: `_src/i18n/<id>.json`
+
+```json
+{
+  "_idioma": {"nome": "English", "curto": "EN", "hreflang": "en", "og_locale": "en_US",
+              "marca_sub": "Impossible Architecture",
+              "meses": ["January", "…"], "meses_curtos": ["Jan", "…"],
+              "data_longa": "{mes} {dia}, {ano}", "data_curta": "{mes} {dia:02d}, {ano}"},
+  "textos": {"Leia também": "Read next", "Detalhes na {politica}.": "Details in our {politica} (in Portuguese)."}
+}
+```
+
+A **chave é o próprio texto em português** que está no build. Mudou o texto
+em português, a tradução deixa de casar e o build para listando o que falta
+(e avisa das chaves que ficaram sobrando). Os marcadores `{…}` têm de ser os
+mesmos dos dois lados. Datas por extenso saem de `data_longa`/`data_curta`.
+
