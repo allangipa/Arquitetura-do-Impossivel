@@ -66,11 +66,32 @@ Da `Identidade Visual\` do canal: cianotipia `#0F2A44` com grade de
 prancheta, giz `#E9EEF0`, concreto `#8E9AA3`, viga `#2B5C87` e o **amarelo
 de obra `#F2B705` como acento único**. Barlow Condensed nos títulos, IBM Plex
 Mono nas cotas e IBM Plex Sans no corpo. Fontes servidas daqui
-(`assets/fontes/`, SIL OFL), sem Google Fonts: o site não chama nenhum
-servidor de terceiros e não usa cookies.
+(`assets/fontes/`, SIL OFL), sem Google Fonts. O único serviço de terceiros
+é o AdSense (seção abaixo).
 
 O símbolo (triângulo de Penrose) vai inline a partir de
 `_src/marca/simbolo-escuro.svg`; no cabeçalho e no favicon, sem a cota.
+
+## AdSense
+
+Mesma conta e mesmo publisher do Vestígio Oculto: `pub-4401770243539507`.
+Tudo sai de três constantes no topo do `_src/build.py`:
+
+- `ADSENSE_LIGADO` — interruptor geral. `False` tira a meta e a faixa de
+  todas as páginas e apaga o `ads.txt`.
+- `ADSENSE_PUB` — o publisher; o `ads.txt` é gerado a partir dele.
+- `CONSENTIMENTO_BLOQUEIA` — `False` (igual ao Vestígio): o anúncio carrega
+  na hora e quem clica em "Recusar anúncios" deixa de receber. `True`: nada
+  de anúncio até "Entendi".
+
+O `<head>` de cada página leva só a meta `google-adsense-account` (é por ela
+que o AdSense verifica o site). O script `adsbygoogle.js` **não** vai escrito
+no HTML: a faixa de consentimento o injeta, e só quando pode. Os anúncios
+são os automáticos, configurados no painel do AdSense — não há bloco de
+anúncio posicionado à mão.
+
+A página `privacidade.html` é gerada pelo build e descreve só o que este site
+faz. Mudou algo (outra rede, medição, comentários): muda o texto e a data.
 
 ## Publicar
 
