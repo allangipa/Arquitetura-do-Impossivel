@@ -173,7 +173,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 /* ---- canais irmãos / rodapé ------------------------------------------ */
 .rodape{background:var(--ciano-fundo);border-top:1px solid var(--viga);padding:3rem 0 2rem;margin-top:0;color:var(--concreto);font-size:.92rem}
 .rodape .casca{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2rem}
-.rodape h4{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
+.rodape h2{font:600 1rem/1 var(--f-titulo);letter-spacing:.12em;text-transform:uppercase;color:var(--giz);margin:0 0 .9rem}
 .rodape ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
 .rodape a{color:var(--giz-2)}
 .rodape .linha{grid-column:1/-1;border-top:1px dashed var(--viga);padding-top:1.4rem;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;font:500 .74rem/1.5 var(--f-mono);letter-spacing:.06em}

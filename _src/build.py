@@ -24,6 +24,7 @@ import html
 import json
 import re
 import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -226,7 +227,11 @@ def consentimento(base):
 </script>
 """
 
-def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website"):
+def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website", indexar=True):
+    # 404: noindex e sem canonical (é servido em qualquer endereço)
+    canon = f'<link rel="canonical" href="{e(url)}">' if indexar else '<meta name="robots" content="noindex, follow">'
+    lds = jsonld if isinstance(jsonld, list) else [jsonld]
+    ld = "\n".join(f'<script type="application/ld+json">{json.dumps(j, ensure_ascii=False)}</script>' for j in lds)
     return f"""<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -234,7 +239,7 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website"):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(titulo)}</title>
 <meta name="description" content="{e(descricao)}">
-<link rel="canonical" href="{e(url)}">
+{canon}
 <meta name="theme-color" content="#0F2A44">
 <link rel="icon" href="{base}favicon.svg" type="image/svg+xml">
 <link rel="preload" href="{base}assets/fontes/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
@@ -250,7 +255,7 @@ def cabeca(titulo, descricao, url, imagem, base, jsonld, tipo="website"):
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>
+{ld}
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -279,19 +284,19 @@ def rodape(base):
     return f"""<footer class="rodape">
   <div class="casca">
     <div>
-      <h4>Arquitetura do Impossível</h4>
+      <h2>Arquitetura do Impossível</h2>
       <p>Como uma obra que parecia impossível ficou de pé: o projeto, o cálculo, o canteiro, quem trabalhou e quem morreu. Aqui, número tem fonte.</p>
       <p><a href="{CANAL}" target="_blank" rel="noopener">Assista no YouTube</a></p>
     </div>
     <div>
-      <h4>Do mesmo criador</h4>
+      <h2>Do mesmo criador</h2>
       <ul>
         <li><a href="https://vestigiooculto.com.br" target="_blank" rel="noopener">Vestígio Oculto</a> — arqueologia e mistério</li>
         <li><a href="https://xadrezbelico.com.br/" target="_blank" rel="noopener">Xadrez Bélico</a> — batalhas explicadas como partida</li>
       </ul>
     </div>
     <div>
-      <h4>Este site</h4>
+      <h2>Este site</h2>
       <ul>
         <li><a href="{base}sobre.html">Sobre</a> · <a href="{base}contato.html">Contato</a></li>
         <li>Exibe anúncios do Google AdSense. <a href="{base}privacidade.html">Política de privacidade</a>.{rever}</li>
@@ -413,6 +418,88 @@ def og_home():
     return destino.name
 
 
+# --- SEO -------------------------------------------------------------------
+TITULO_MAX = 60
+DESCRICAO_MIN, DESCRICAO_MAX = 120, 155
+LOGO = f"{DOMINIO}/assets/marca/logo-512.png"
+ORG = {"@type": "Organization", "name": NOME, "url": DOMINIO + "/",
+       "logo": {"@type": "ImageObject", "url": LOGO, "width": 512, "height": 512}}
+
+TITULO_HOME = f"{NOME}: como isto foi erguido"
+DESC_HOME = ("Grandes construções que pareciam impossíveis: o projeto, o cálculo, o canteiro, quantos "
+             "trabalharam, quanto custou e quem morreu. Número com fonte.")
+TITULO_SOBRE = f"Sobre o {NOME}: como cada obra é apurada"
+DESC_SOBRE = (f"O que é o {NOME}, projeto independente sobre grandes obras: como cada página é apurada, "
+              "o selo de confiança, as imagens e quem faz.")
+TITULO_CONTATO = f"Contato · {NOME}"
+DESC_CONTATO = (f"Como falar com o {NOME} por e-mail: correções com fonte, créditos e retirada de imagens, "
+                "pedidos sobre seus dados (LGPD) e pautas.")
+TITULO_PRIV = f"Política de privacidade · {NOME}"
+DESC_PRIV = (f"Como o {NOME} trata dados, cookies e anúncios do Google AdSense, como rever a escolha de "
+             "cookies e seus direitos sob a LGPD.")
+
+
+def titulo_seo(o):
+    """Assunto primeiro, marca no fim, até 60 caracteres. O período sai se não
+    couber, antes da marca."""
+    for t in (f"{o['obra']} ({o['periodo']}) · {NOME}", f"{o['obra']} · {NOME}"):
+        if len(t) <= TITULO_MAX:
+            return t
+    falha(f"{o['slug']}: não há título de até {TITULO_MAX} caracteres")
+
+
+def data_git(caminho, primeira=False):
+    """Data (AAAA-MM-DD) do primeiro ou do último commit do arquivo; hoje se
+    ele ainda tem mudança não publicada (ou não está no git)."""
+    rel = str(Path(caminho).relative_to(RAIZ)).replace("\\", "/")
+    try:
+        if not primeira:
+            sujo = subprocess.run(["git", "status", "--porcelain", "--", rel], cwd=RAIZ,
+                                  capture_output=True, text=True).stdout.strip()
+            if sujo:
+                return dt.date.today().isoformat()
+        args = ["git", "log", "--format=%cs", "--", rel]
+        if primeira:
+            args[2:2] = ["--diff-filter=A"]
+        datas = subprocess.run(args, cwd=RAIZ, capture_output=True, text=True).stdout.split()
+        if datas:
+            return datas[-1] if primeira else datas[0]
+    except OSError:
+        pass
+    return dt.date.today().isoformat()
+
+
+def migalhas(*itens):
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList",
+            "itemListElement": [{"@type": "ListItem", "position": i, "name": n, "item": u}
+                                for i, (n, u) in enumerate(itens, start=1)]}
+
+
+def conferir_seo(paginas):
+    """Porteiro: título até 60 e único; descrição de 120 a 155 e única."""
+    erros, vt, vd = [], {}, {}
+    for nome, (t, d) in paginas.items():
+        if len(t) > TITULO_MAX:
+            erros.append(f"{nome}: título com {len(t)} caracteres ({t!r})")
+        if not DESCRICAO_MIN <= len(d) <= DESCRICAO_MAX:
+            erros.append(f"{nome}: descrição com {len(d)} caracteres ({DESCRICAO_MIN}–{DESCRICAO_MAX})")
+        if t in vt:
+            erros.append(f"{nome}: título igual ao de {vt[t]}")
+        if d in vd:
+            erros.append(f"{nome}: descrição igual à de {vd[d]}")
+        vt[t], vd[d] = nome, nome
+    if erros:
+        falha("SEO\n  " + "\n  ".join(erros))
+
+
+def logo_png():
+    """Logo quadrado (PNG) que o JSON-LD do publisher pede: o avatar do canal."""
+    destino = RAIZ / "assets" / "marca" / "logo-512.png"
+    destino.parent.mkdir(exist_ok=True)
+    (Image.open(SRC / "marca" / "avatar-800x800.png").convert("RGB")
+     .resize((512, 512), Image.LANCZOS).save(destino, "PNG", optimize=True))
+
+
 # --- home ------------------------------------------------------------------
 def card(o, base):
     capa = o["imagens"][0]
@@ -447,13 +534,12 @@ def card_apuracao(a):
 def home(obras, og):
     base = ""
     graus = "".join(f"<li>{conf_selo(k)}<p><strong>{ {'2+':'Confirmado','1':'Fonte única','DIV':'Divergência','sem':'Sem registro'}[k] }</strong>{e(v[2])}</p></li>" for k, v in CONF.items())
-    jsonld = {"@context": "https://schema.org", "@type": "WebSite", "name": NOME, "url": DOMINIO + "/",
-              "inLanguage": "pt-BR", "description": "Como grandes obras que pareciam impossíveis ficaram de pé.",
-              "publisher": {"@type": "Organization", "name": NOME, "sameAs": [CANAL]}}
+    jsonld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "name": NOME, "url": DOMINIO + "/", "inLanguage": "pt-BR",
+         "description": DESC_HOME, "publisher": {"@id": DOMINIO + "/#org"}},
+        dict(ORG, **{"@id": DOMINIO + "/#org", "sameAs": [CANAL] if CANAL else []})]}
     cards = "\n".join(card(o, base) for o in obras) + "\n" + "\n".join(card_apuracao(a) for a in EM_APURACAO)
-    return (cabeca(f"{NOME} — como isto foi erguido",
-                   "Grandes construções que pareciam impossíveis: o projeto, o cálculo, o canteiro, quantos trabalharam, quanto custou e quem morreu. Número com fonte.",
-                   DOMINIO + "/", f"{DOMINIO}/assets/img/{og}", base, jsonld)
+    return (cabeca(TITULO_HOME, DESC_HOME, DOMINIO + "/", f"{DOMINIO}/assets/img/{og}", base, jsonld)
             + topo(base) + f"""<main id="conteudo">
 <section class="abre">
   <div class="casca">
@@ -584,14 +670,18 @@ def pagina_obra(o, obras, og):
       </div>
     </div>"""
 
-    jsonld = {
-        "@context": "https://schema.org", "@type": "Article", "headline": f"{o['obra']}: como foi erguido",
+    arq = SRC / "obras" / f"{o['num']}-{o['slug']}.json"
+    jsonld = [{
+        "@context": "https://schema.org", "@type": "Article",
+        "headline": f"{o['obra']} ({o['periodo']}): como a obra ficou de pé",
         "description": o["resumo"], "inLanguage": "pt-BR", "url": url,
-        "image": f"{DOMINIO}/assets/img/{og}",
-        "author": {"@type": "Organization", "name": NOME}, "publisher": {"@type": "Organization", "name": NOME},
+        "image": {"@type": "ImageObject", "url": f"{DOMINIO}/assets/img/{og}", "width": 1200, "height": 630},
+        "datePublished": data_git(arq, primeira=True), "dateModified": data_git(arq),
+        "author": {"@type": "Organization", "name": NOME, "url": DOMINIO + "/"}, "publisher": ORG,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "about": {"@type": "LandmarksOrHistoricalBuildings", "name": o["obra"], "address": o["lugar"]},
-    }
-    return (cabeca(f"{o['obra']}: como foi erguido — {NOME}", o["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article")
+    }, migalhas((NOME, DOMINIO + "/"), ("Obras", DOMINIO + "/#obras"), (o["obra"], url))]
+    return (cabeca(titulo_seo(o), o["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld, "article")
             + '<div class="progresso" aria-hidden="true"></div>' + topo(base, "obras") + f"""<main id="conteudo">
 <header class="capa">
   {img_tag(capa['arquivo'], capa['alt'], base, '100vw', 'eager', foco=capa.get('foco'))}
@@ -657,8 +747,9 @@ def pagina_obra(o, obras, og):
 
 def pagina_404():
     base = "/"  # o 404 é servido em qualquer caminho: endereços absolutos
-    return (cabeca(f"Página não encontrada — {NOME}", "Esta página não existe.", DOMINIO + "/404.html",
-                   f"{DOMINIO}/assets/img/og-home.jpg", base, {"@context": "https://schema.org", "@type": "WebPage", "name": "404"})
+    return (cabeca(f"Página não encontrada · {NOME}", "Esta página não existe.", DOMINIO + "/404.html",
+                   f"{DOMINIO}/assets/img/og-home.jpg", base, {"@context": "https://schema.org", "@type": "WebPage", "name": "404"},
+                   indexar=False)
             + topo(base) + f"""<main id="conteudo" class="simples"><div class="casca">
   <div class="cota"><span>erro 404</span></div>
   <h1>Esta viga <span class="destaque">não fecha</span></h1>
@@ -727,10 +818,11 @@ def pagina_privacidade():
         canal = "com canal correspondente no YouTube"
     corpo = (PRIVACIDADE.replace("{{NOME}}", NOME).replace("{{CANAL_FRASE}}", canal)
              .replace("{{CHAVE}}", CHAVE_CONSENTIMENTO))
-    return (cabeca(f"Política de privacidade — {NOME}",
-                   f"Como o {NOME} trata dados, cookies e publicidade, e quais são os seus direitos sob a LGPD.",
-                   DOMINIO + "/privacidade.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
-                   {"@context": "https://schema.org", "@type": "WebPage", "name": "Política de privacidade"})
+    u = DOMINIO + "/privacidade.html"
+    return (cabeca(TITULO_PRIV, DESC_PRIV, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   [{"@context": "https://schema.org", "@type": "WebPage", "name": TITULO_PRIV, "description": DESC_PRIV,
+                     "url": u, "inLanguage": "pt-BR"},
+                    migalhas((NOME, DOMINIO + "/"), ("Política de privacidade", u))])
             + topo(base) + corpo + rodape(base) + consentimento(base) + SCRIPT)
 
 
@@ -765,9 +857,11 @@ def pagina_sobre():
   <p>O site se mantém com anúncios do Google AdSense, descritos na <a href="privacidade.html">política de privacidade</a>. Nenhum anúncio interfere no que é escrito.</p>
 </div></main>
 """
-    return (cabeca(f"Sobre — {NOME}", f"O que é o {NOME}, como cada página é apurada, de onde vêm as imagens e quem faz o projeto.",
-                   DOMINIO + "/sobre.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
-                   {"@context": "https://schema.org", "@type": "AboutPage", "name": f"Sobre — {NOME}"})
+    u = DOMINIO + "/sobre.html"
+    return (cabeca(TITULO_SOBRE, DESC_SOBRE, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   [{"@context": "https://schema.org", "@type": "AboutPage", "name": TITULO_SOBRE, "description": DESC_SOBRE,
+                     "url": u, "inLanguage": "pt-BR"},
+                    migalhas((NOME, DOMINIO + "/"), ("Sobre", u))])
             + topo(base, "sobre") + corpo + rodape(base) + consentimento(base) + SCRIPT)
 
 
@@ -791,13 +885,19 @@ def pagina_contato():
   <p>Não há formulário nem cadastro: a conversa é por e-mail, e o seu endereço não é usado para mais nada além de responder. Correção confirmada entra na página.</p>
 </div></main>
 """
-    return (cabeca(f"Contato — {NOME}", f"Como falar com o {NOME}: correções, créditos de imagem, pedidos sobre dados e pautas.",
-                   DOMINIO + "/contato.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
-                   {"@context": "https://schema.org", "@type": "ContactPage", "name": f"Contato — {NOME}"})
+    u = DOMINIO + "/contato.html"
+    return (cabeca(TITULO_CONTATO, DESC_CONTATO, u, f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   [{"@context": "https://schema.org", "@type": "ContactPage", "name": TITULO_CONTATO, "description": DESC_CONTATO,
+                     "url": u, "inLanguage": "pt-BR"},
+                    migalhas((NOME, DOMINIO + "/"), ("Contato", u))])
             + topo(base, "contato") + corpo + rodape(base) + consentimento(base) + SCRIPT)
 
 def main():
     obras = carregar()
+    seo = {"home": (TITULO_HOME, DESC_HOME), "sobre": (TITULO_SOBRE, DESC_SOBRE),
+           "contato": (TITULO_CONTATO, DESC_CONTATO), "privacidade": (TITULO_PRIV, DESC_PRIV)}
+    seo.update({o["slug"]: (titulo_seo(o), o["resumo"]) for o in obras})
+    conferir_seo(seo)
     (RAIZ / "obras").mkdir(exist_ok=True)
     (RAIZ / "assets").mkdir(exist_ok=True)
 
@@ -805,6 +905,7 @@ def main():
     (RAIZ / "assets" / "arquitetura.css").write_text(css, encoding="utf-8")
     (RAIZ / "favicon.svg").write_text(simbolo("0 0 1020 886", rotulo=NOME), encoding="utf-8")
 
+    logo_png()
     og = {o["slug"]: og_obra(o) for o in obras}
     (RAIZ / "index.html").write_text(home(obras, og_home()), encoding="utf-8")
     gerados = {"index.html"}
@@ -827,11 +928,16 @@ def main():
     elif ads.exists():
         ads.unlink()
 
-    hoje = dt.date.today().isoformat()
-    urls = [DOMINIO + "/", DOMINIO + "/sobre.html", DOMINIO + "/contato.html", DOMINIO + "/privacidade.html"] + [f"{DOMINIO}/obras/{o['slug']}.html" for o in obras]
+    # lastmod: obra = último commit do JSON dela (hoje, se mudou e não foi
+    # publicado); páginas fixas = último commit do build.py; home = a mais nova.
+    fixas = data_git(Path(__file__).resolve())
+    datas = {f"{DOMINIO}/obras/{o['slug']}.html": data_git(SRC / "obras" / f"{o['num']}-{o['slug']}.json") for o in obras}
+    for pg in ("sobre", "contato", "privacidade"):
+        datas[f"{DOMINIO}/{pg}.html"] = fixas
+    datas = {DOMINIO + "/": max([fixas, *datas.values()]), **datas}
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "".join(f"  <url><loc>{u}</loc><lastmod>{hoje}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+        + "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in datas.items()) + "</urlset>\n", encoding="utf-8")
     (RAIZ / "robots.txt").write_text(f"User-agent: *\nAllow: /\nDisallow: /_src/\n\nSitemap: {DOMINIO}/sitemap.xml\n", encoding="utf-8")
 
     print(f"ok: {len(obras)} obras, {len(EM_APURACAO)} em apuração")
