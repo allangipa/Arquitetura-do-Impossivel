@@ -14,30 +14,124 @@
     "Transformar o desenho de um livro de química num edifício visitável significava pendurar oito esferas de 18 metros nos vértices de um cubo de 47 metros de aresta, com uma nona no centro, e equilibrar tudo sobre um único vértice. A estrutura foi a túnel de vento antes de existir, ganhou três apoios em forma de V e ficou pronta pouco antes da abertura da Expo 58. Era para ser desmontada no fim daquele ano. Continua lá."
   ],
   "numeros": [
-    {"valor": "102 m", "rotulo": "de altura, do chão ao alto da esfera de cima", "conf": "2+"},
-    {"valor": "9 × 18 m", "rotulo": "nove esferas de 18 metros de diâmetro, das quais seis abertas ao público", "conf": "2+"},
-    {"valor": "165 bilhões", "rotulo": "de vezes, a ampliação do cristal de ferro que o edifício reproduz", "conf": "2+"},
-    {"valor": "2.400 t", "rotulo": "de aço e alumínio em 1958; cerca de 2.500 t depois da troca do revestimento", "conf": "2+"},
-    {"valor": "5 m/s", "rotulo": "a velocidade do elevador do tubo central, que leva 22 pessoas ao topo em 23 segundos", "conf": "2+"},
-    {"valor": "26 a 27,5 mi €", "rotulo": "o custo da renovação de 2004 a 2006, conforme a fonte", "conf": "DIV"}
+    {
+      "valor": "102 m",
+      "rotulo": "de altura, do chão ao alto da esfera de cima",
+      "conf": "2+"
+    },
+    {
+      "valor": "9 × 18 m",
+      "rotulo": "nove esferas de 18 metros de diâmetro, das quais seis abertas ao público",
+      "conf": "2+"
+    },
+    {
+      "valor": "165 bilhões",
+      "rotulo": "de vezes, a ampliação do cristal de ferro que o edifício reproduz",
+      "conf": "2+"
+    },
+    {
+      "valor": "2.400 t",
+      "rotulo": "de aço e alumínio em 1958; cerca de 2.500 t depois da troca do revestimento",
+      "conf": "2+"
+    },
+    {
+      "valor": "5 m/s",
+      "rotulo": "a velocidade do elevador do tubo central, que leva 22 pessoas ao topo em 23 segundos",
+      "conf": "2+"
+    },
+    {
+      "valor": "26 a 27,5 mi €",
+      "rotulo": "o custo da renovação de 2004 a 2006, conforme a fonte",
+      "conf": "DIV"
+    }
   ],
   "ficha": [
-    {"item": "Por quê", "valor": "A Expo 58, primeira grande exposição universal depois da Segunda Guerra, queria um símbolo. Segundo o inventário do patrimônio de Bruxelas, o comissário-geral, barão Moens de Fernig, pediu em 1954 às indústrias metalúrgicas belgas um edifício de forma inédita que exibisse o seu saber. O tema escolhido foi o átomo e o uso pacífico da energia nuclear.", "conf": "2+", "nota": "o nome do barão vem de uma fonte só"},
-    {"item": "Quem pagou", "valor": "Uma associação sem fins lucrativos formada por três grupamentos industriais: o dos altos-fornos e aciarias belgas, a Fabrimétal (fabricações metálicas) e a união das indústrias de metais não ferrosos, com apoio dos poderes públicos.", "conf": "2+"},
-    {"item": "A ideia", "valor": "André Waterkeyn (1917–2005), engenheiro, diretor do departamento econômico da Fabrimétal. Os Arquivos da Cidade de Bruxelas datam a concepção de novembro de 1954; o primeiro projeto foi apresentado em janeiro de 1955.", "conf": "2+"},
-    {"item": "Arquitetura e cálculo", "valor": "Os irmãos André e Jean Polak, arquitetos, fizeram a transposição do conceito em edifício. A estabilidade foi calculada pelos engenheiros-consultores Artémy S. Joukoff e André Beckers.", "conf": "2+"},
-    {"item": "Quem montou", "valor": "Os Ateliers de Construction de Jambes-Namur, com guinchos elétricos e manuais e dezenas de quilômetros de cabo de aço, segundo a revista técnica Acier Stahl Steel, de 1958.", "conf": "2+", "nota": "o equipamento vem da revista; a empresa, de várias fontes"},
-    {"item": "Prazo", "valor": "Estudos e ensaios a partir de janeiro de 1955; fundações em março de 1956; primeiro mastro em janeiro de 1957; esferas montadas de outubro de 1957 a março de 1958. A conclusão é dada em 25/03/1958 pela associação que administra o edifício e às 2 horas de 17/04/1958, dia da abertura da Expo, pelo chefe de turma da obra.", "conf": "DIV", "nota": "a data de conclusão diverge; o início não"},
-    {"item": "Operários", "valor": "Ninguém registrou quantos trabalharam no Atomium. Os 15 mil operários citados pela imprensa belga são os da Expo inteira.", "conf": "sem"},
-    {"item": "Mortes e acidentes", "valor": "Nenhuma morte registrada nas fontes consultadas. O chefe de turma Frans Cools, em depoimento publicado em 2023, dizia que não houve acidente nenhum.", "conf": "1"},
-    {"item": "Custo da construção", "valor": "Não há número confiável publicado. Os valores que circulam em francos belgas não trazem fonte.", "conf": "sem"},
-    {"item": "Estrutura", "valor": "Um cubo de 47 metros de aresta apoiado num vértice. A esfera de baixo pousa sobre um pavilhão circular de 26 metros; as três esferas baixas descansam sobre bipés em V invertido de uns 30 metros. Cada esfera tem doze arcos semicirculares de chapa em caixão como ossatura.", "conf": "2+", "nota": "a aresta de 47 m vem da revista técnica de 1958"},
-    {"item": "Medidas", "valor": "102 metros de altura; esferas de 18 metros; tubos de cerca de 3 metros de diâmetro e 29 de comprimento; escada rolante mais longa com 35 metros.", "conf": "2+"},
-    {"item": "Revestimento", "valor": "Em 1958, chapas finas de alumínio anodizado, 48 triângulos esféricos por esfera, quase 9.000 placas no total. Desde 2006, painéis de aço inoxidável.", "conf": "2+"},
-    {"item": "O depois", "valor": "Não era para sobreviver à Expo; ficou pelo sucesso. Os Arquivos da Cidade de Bruxelas registram uma restauração entre 1988 e 1993. Segundo a associação que o administra, esteve perto da demolição no fim dos anos 1990.", "conf": "1", "nota": "que era provisório tem mais de uma fonte; o resto, uma cada"},
-    {"item": "Renovação", "valor": "De março de 2004 a fevereiro de 2006, com projeto do escritório Conix. Reaberto em 14/02/2006 em cerimônia oficial e ao público em 18/02/2006.", "conf": "2+"},
-    {"item": "Custo da renovação", "valor": "26 milhões de euros, numa versão; 25 milhões mais 2,5 milhões de sobrecusto do aço, na conta da RTBF, ou seja, 27,5 milhões. Pagaram a associação, o governo federal, a Região de Bruxelas-Capital e a Cidade de Bruxelas.", "conf": "DIV"},
-    {"item": "Hoje", "valor": "Recorde de 850 mil visitantes em 2025, segundo o jornal L'Avenir. Em 2026, a programação dos 20 anos da renovação começou em 14 de fevereiro.", "conf": "1", "nota": "o recorde vem de uma fonte; a programação de 2026, de várias"}
+    {
+      "item": "Por quê",
+      "valor": "A Expo 58, primeira grande exposição universal depois da Segunda Guerra, queria um símbolo. Segundo o inventário do patrimônio de Bruxelas, o comissário-geral, barão Moens de Fernig, pediu em 1954 às indústrias metalúrgicas belgas um edifício de forma inédita que exibisse o seu saber. O tema escolhido foi o átomo e o uso pacífico da energia nuclear.",
+      "conf": "2+",
+      "nota": "o nome do barão vem de uma fonte só"
+    },
+    {
+      "item": "Quem pagou",
+      "valor": "Uma associação sem fins lucrativos formada por três grupamentos industriais: o dos altos-fornos e aciarias belgas, a Fabrimétal (fabricações metálicas) e a união das indústrias de metais não ferrosos, com apoio dos poderes públicos.",
+      "conf": "2+"
+    },
+    {
+      "item": "A ideia",
+      "valor": "André Waterkeyn (1917–2005), engenheiro, diretor do departamento econômico da Fabrimétal. Os Arquivos da Cidade de Bruxelas datam a concepção de novembro de 1954; o primeiro projeto foi apresentado em janeiro de 1955.",
+      "conf": "2+"
+    },
+    {
+      "item": "Arquitetura e cálculo",
+      "valor": "Os irmãos André e Jean Polak, arquitetos, fizeram a transposição do conceito em edifício. A estabilidade foi calculada pelos engenheiros-consultores Artémy S. Joukoff e André Beckers.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem montou",
+      "valor": "Os Ateliers de Construction de Jambes-Namur, com guinchos elétricos e manuais e dezenas de quilômetros de cabo de aço, segundo a revista técnica Acier Stahl Steel, de 1958.",
+      "conf": "2+",
+      "nota": "o equipamento vem da revista; a empresa, de várias fontes"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Estudos e ensaios a partir de janeiro de 1955; fundações em março de 1956; primeiro mastro em janeiro de 1957; esferas montadas de outubro de 1957 a março de 1958. A conclusão é dada em 25/03/1958 pela associação que administra o edifício e às 2 horas de 17/04/1958, dia da abertura da Expo, pelo chefe de turma da obra.",
+      "conf": "DIV",
+      "nota": "a data de conclusão diverge; o início não"
+    },
+    {
+      "item": "Operários",
+      "valor": "Ninguém registrou quantos trabalharam no Atomium. Os 15 mil operários citados pela imprensa belga são os da Expo inteira.",
+      "conf": "sem"
+    },
+    {
+      "item": "Mortes e acidentes",
+      "valor": "Nenhuma morte registrada nas fontes consultadas. O chefe de turma Frans Cools, em depoimento publicado em 2023, dizia que não houve acidente nenhum.",
+      "conf": "1"
+    },
+    {
+      "item": "Custo da construção",
+      "valor": "Não há número confiável publicado. Os valores que circulam em francos belgas não trazem fonte.",
+      "conf": "sem"
+    },
+    {
+      "item": "Estrutura",
+      "valor": "Um cubo de 47 metros de aresta apoiado num vértice. A esfera de baixo pousa sobre um pavilhão circular de 26 metros; as três esferas baixas descansam sobre bipés em V invertido de uns 30 metros. Cada esfera tem doze arcos semicirculares de chapa em caixão como ossatura.",
+      "conf": "2+",
+      "nota": "a aresta de 47 m vem da revista técnica de 1958"
+    },
+    {
+      "item": "Medidas",
+      "valor": "102 metros de altura; esferas de 18 metros; tubos de cerca de 3 metros de diâmetro e 29 de comprimento; escada rolante mais longa com 35 metros.",
+      "conf": "2+"
+    },
+    {
+      "item": "Revestimento",
+      "valor": "Em 1958, chapas finas de alumínio anodizado, 48 triângulos esféricos por esfera, quase 9.000 placas no total. Desde 2006, painéis de aço inoxidável.",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "Não era para sobreviver à Expo; ficou pelo sucesso. Os Arquivos da Cidade de Bruxelas registram uma restauração entre 1988 e 1993. Segundo a associação que o administra, esteve perto da demolição no fim dos anos 1990.",
+      "conf": "1",
+      "nota": "que era provisório tem mais de uma fonte; o resto, uma cada"
+    },
+    {
+      "item": "Renovação",
+      "valor": "De março de 2004 a fevereiro de 2006, com projeto do escritório Conix. Reaberto em 14/02/2006 em cerimônia oficial e ao público em 18/02/2006.",
+      "conf": "2+"
+    },
+    {
+      "item": "Custo da renovação",
+      "valor": "26 milhões de euros, numa versão; 25 milhões mais 2,5 milhões de sobrecusto do aço, na conta da RTBF, ou seja, 27,5 milhões. Pagaram a associação, o governo federal, a Região de Bruxelas-Capital e a Cidade de Bruxelas.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Recorde de 850 mil visitantes em 2025, segundo o jornal L'Avenir. Em 2026, a programação dos 20 anos da renovação começou em 14 de fevereiro.",
+      "conf": "1",
+      "nota": "o recorde vem de uma fonte; a programação de 2026, de várias"
+    }
   ],
   "historia": [
     {
@@ -92,27 +186,84 @@
     }
   ],
   "mitos": [
-    {"circula": "O Atomium representa uma molécula, ou um átomo.", "registro": "Representa um cristal: a célula elementar do ferro, com nove átomos, oito nos vértices de um cubo e um no centro. O nome fala da era atômica; a forma é de cristal."},
-    {"circula": "Sempre foi de aço inoxidável.", "registro": "Em 1958 o revestimento era de alumínio anodizado. O aço inoxidável é da renovação de 2004 a 2006."},
-    {"circula": "Foi construído para ficar.", "registro": "Segundo os Arquivos da Cidade de Bruxelas, não estava destinado a sobreviver à Expo 58. Ficou porque fez sucesso."},
-    {"circula": "Quinze mil operários construíram o Atomium.", "registro": "Os 15 mil citados pela imprensa belga são os da Expo inteira. Quantos trabalharam no Atomium, ninguém registrou."},
-    {"circula": "A ampliação de 165 bilhões de vezes é exagero de propaganda.", "registro": "A conta fecha: a aresta de 47 metros do edifício dividida pela aresta da célula do ferro, pouco menos de três décimos de nanômetro, dá cerca de 164 bilhões."}
+    {
+      "circula": "O Atomium representa uma molécula, ou um átomo.",
+      "registro": "Representa um cristal: a célula elementar do ferro, com nove átomos, oito nos vértices de um cubo e um no centro. O nome fala da era atômica; a forma é de cristal."
+    },
+    {
+      "circula": "Sempre foi de aço inoxidável.",
+      "registro": "Em 1958 o revestimento era de alumínio anodizado. O aço inoxidável é da renovação de 2004 a 2006."
+    },
+    {
+      "circula": "Foi construído para ficar.",
+      "registro": "Segundo os Arquivos da Cidade de Bruxelas, não estava destinado a sobreviver à Expo 58. Ficou porque fez sucesso."
+    },
+    {
+      "circula": "Quinze mil operários construíram o Atomium.",
+      "registro": "Os 15 mil citados pela imprensa belga são os da Expo inteira. Quantos trabalharam no Atomium, ninguém registrou."
+    },
+    {
+      "circula": "A ampliação de 165 bilhões de vezes é exagero de propaganda.",
+      "registro": "A conta fecha: a aresta de 47 metros do edifício dividida pela aresta da célula do ferro, pouco menos de três décimos de nanômetro, dá cerca de 164 bilhões."
+    }
   ],
   "fontes": [
-    {"texto": "Inventaire du patrimoine architectural, Région de Bruxelles-Capitale (urban.brussels), \"Atomium\", 2018", "url": "https://monument.heritage.brussels/fr/Bruxelles_Laeken/Square_de_l_Atomium/A001/38328"},
-    {"texto": "Virginie Coumans, Archives de l'Atomium, Inventaire n° 8, Archives de la Ville de Bruxelles, 2004", "url": "http://archives.brucity.be/docs/0100/AVB_INV_008.pdf"},
-    {"texto": "Patrimoine industriel Wallonie-Bruxelles, \"La construction de l'Atomium: un fameux défi\", 2010, a partir da revista Acier Stahl Steel, julho e agosto de 1958", "url": "https://patrimoineindustriel.be/fr/publications/actualite/+la-construction-de-l-atomium-un-fameux-defi"},
-    {"texto": "Atomium asbl, \"The construction of the Atomium\"", "url": "https://atomium.be/construction_of_the_atomium"},
-    {"texto": "Atomium asbl, \"Renovation of the Atomium\"", "url": "https://atomium.be/renovation_of_the_atomium"},
-    {"texto": "Atomium asbl, \"Expo 58\"", "url": "https://atomium.be/expo58"},
-    {"texto": "Atomium asbl, \"Copyright\"", "url": "https://atomium.be/copyright"},
-    {"texto": "RTBF, \"L'Atomium, tout une histoire !\", 08/06/2020", "url": "https://www.rtbf.be/article/l-atomium-tout-une-histoire-10517624"},
-    {"texto": "RTBF, \"Patrimoine : avec une santé de fer, l'Atomium célèbre son 65e anniversaire\", 17/04/2023", "url": "https://www.rtbf.be/article/patrimoine-avec-une-sante-de-fer-l-atomium-celebre-son-65e-anniversaire-11184378"},
-    {"texto": "Gazet van Laakdal, \"Atomiumbouwer Frans Cools\", 18/03/2023", "url": "https://www.gazetvanlaakdal.be/archieven/73044"},
-    {"texto": "L'Avenir, \"20 ans après sa rénovation, l'Atomium est prêt à écrire un nouveau chapitre\", 13/02/2026", "url": "https://www.lavenir.net/lifestyle/2026/02/13/20-ans-apres-sa-renovation-latomium-est-pret-a-ecrire-un-nouveau-chapitre-FAEINOC2ZFA5VF3NKAOBMV7SCY/"},
-    {"texto": "VRT NWS, \"20 ans de rénovation de l'Atomium : entre sciences et innovations\", 16/02/2026", "url": "https://www.vrt.be/vrtnws/fr/2026/02/16/20-ans-de-renovation-de-latomium-entre-sciences-et-innovations/"},
-    {"texto": "Wikimedia Commons, \"Copyright rules by territory/Belgium\", seção sobre liberdade de panorama", "url": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Belgium"},
-    {"texto": "Wikipédia em inglês, \"Atomium\" (ponto de partida; o trecho sobre o ensaio de vento cita o banco de dados Structurae)", "url": "https://en.wikipedia.org/wiki/Atomium"}
+    {
+      "texto": "Inventaire du patrimoine architectural, Région de Bruxelles-Capitale (urban.brussels), \"Atomium\", 2018",
+      "url": "https://monument.heritage.brussels/fr/Bruxelles_Laeken/Square_de_l_Atomium/A001/38328"
+    },
+    {
+      "texto": "Virginie Coumans, Archives de l'Atomium, Inventaire n° 8, Archives de la Ville de Bruxelles, 2004",
+      "url": "http://archives.brucity.be/docs/0100/AVB_INV_008.pdf"
+    },
+    {
+      "texto": "Patrimoine industriel Wallonie-Bruxelles, \"La construction de l'Atomium: un fameux défi\", 2010, a partir da revista Acier Stahl Steel, julho e agosto de 1958",
+      "url": "https://patrimoineindustriel.be/fr/publications/actualite/+la-construction-de-l-atomium-un-fameux-defi"
+    },
+    {
+      "texto": "Atomium asbl, \"The construction of the Atomium\"",
+      "url": "https://atomium.be/construction_of_the_atomium"
+    },
+    {
+      "texto": "Atomium asbl, \"Renovation of the Atomium\"",
+      "url": "https://atomium.be/renovation_of_the_atomium"
+    },
+    {
+      "texto": "Atomium asbl, \"Expo 58\"",
+      "url": "https://atomium.be/expo58"
+    },
+    {
+      "texto": "Atomium asbl, \"Copyright\"",
+      "url": "https://atomium.be/copyright"
+    },
+    {
+      "texto": "RTBF, \"L'Atomium, tout une histoire !\", 08/06/2020",
+      "url": "https://www.rtbf.be/article/l-atomium-tout-une-histoire-10517624"
+    },
+    {
+      "texto": "RTBF, \"Patrimoine : avec une santé de fer, l'Atomium célèbre son 65e anniversaire\", 17/04/2023",
+      "url": "https://www.rtbf.be/article/patrimoine-avec-une-sante-de-fer-l-atomium-celebre-son-65e-anniversaire-11184378"
+    },
+    {
+      "texto": "Gazet van Laakdal, \"Atomiumbouwer Frans Cools\", 18/03/2023",
+      "url": "https://www.gazetvanlaakdal.be/archieven/73044"
+    },
+    {
+      "texto": "L'Avenir, \"20 ans après sa rénovation, l'Atomium est prêt à écrire un nouveau chapitre\", 13/02/2026",
+      "url": "https://www.lavenir.net/lifestyle/2026/02/13/20-ans-apres-sa-renovation-latomium-est-pret-a-ecrire-un-nouveau-chapitre-FAEINOC2ZFA5VF3NKAOBMV7SCY/"
+    },
+    {
+      "texto": "VRT NWS, \"20 ans de rénovation de l'Atomium : entre sciences et innovations\", 16/02/2026",
+      "url": "https://www.vrt.be/vrtnws/fr/2026/02/16/20-ans-de-renovation-de-latomium-entre-sciences-et-innovations/"
+    },
+    {
+      "texto": "Wikimedia Commons, \"Copyright rules by territory/Belgium\", seção sobre liberdade de panorama",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/Belgium"
+    },
+    {
+      "texto": "Wikipédia em inglês, \"Atomium\" (ponto de partida; o trecho sobre o ensaio de vento cita o banco de dados Structurae)",
+      "url": "https://en.wikipedia.org/wiki/Atomium"
+    }
   ],
   "imagens": [
     {
@@ -156,5 +307,5 @@
       "recriacao": false
     }
   ],
-  "proximo": null
+  "proximo": "astrodome"
 }

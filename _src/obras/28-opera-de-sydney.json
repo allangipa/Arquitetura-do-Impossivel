@@ -1,0 +1,344 @@
+{
+  "num": "28",
+  "slug": "opera-de-sydney",
+  "obra": "Ópera de Sydney",
+  "titulo_video": null,
+  "lugar": "Bennelong Point, Sydney, Nova Gales do Sul, Austrália",
+  "regiao": "mundo",
+  "periodo": "1959–1973",
+  "estreia": "2027-04-15",
+  "impossivel": "Transformar em concreto um croqui de conchas desenhadas à mão livre, que não correspondiam a nenhuma forma geométrica conhecida e que, por anos, ninguém conseguiu descrever em números, calcular ou fabricar.",
+  "resumo": "Como as conchas da Ópera de Sydney passaram anos sem geometria até virarem fatias de uma mesma esfera, e por que a obra orçada em 7 milhões custou 102.",
+  "abertura": [
+    "Em janeiro de 1957, um arquiteto dinamarquês de 38 anos, Jørn Utzon, venceu o concurso para a casa de ópera de Sydney, na Austrália, com desenhos que eram pouco mais que um croqui: conchas brancas, curvas e livres, abertas sobre o porto em Bennelong Point. O júri ficou com o desenho. Ninguém sabia ainda como construí-lo.",
+    "A obra começou em 1959 com a cobertura sem solução. Os engenheiros da Ove Arup & Partners passaram anos tentando transformar aquelas curvas em parábolas e elipses que pudessem ser calculadas e fabricadas. A resposta, em 1961, foi tirar todas as conchas da superfície de uma mesma esfera. O resto da história, com a saída do arquiteto, um orçamento multiplicado por 14 e uma loteria que pagou a conta, levou até 1973."
+  ],
+  "numeros": [
+    {
+      "valor": "AU$ 7 mi → 102 mi",
+      "rotulo": "do orçamento de 1957 ao custo final, pago quase todo por loteria",
+      "conf": "2+"
+    },
+    {
+      "valor": "14 anos",
+      "rotulo": "de obra, de 02/03/1959 à inauguração em 20/10/1973; a previsão era de 4",
+      "conf": "2+"
+    },
+    {
+      "valor": "2.194",
+      "rotulo": "peças pré-moldadas de concreto nas nervuras das conchas",
+      "conf": "2+"
+    },
+    {
+      "valor": "1.056.006",
+      "rotulo": "azulejos suecos, em dois acabamentos, cobrindo as conchas",
+      "conf": "2+"
+    },
+    {
+      "valor": "12",
+      "rotulo": "esquemas de cobertura estudados antes da solução esférica",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Dar a Sydney uma grande casa de ópera e concertos. O governo de Nova Gales do Sul, sob o premier Joseph Cahill, abriu um concurso internacional e escolheu Bennelong Point, a ponta de terra no porto onde ficava um depósito de bondes.",
+      "conf": "2+"
+    },
+    {
+      "item": "O concurso",
+      "valor": "Vencido por Jørn Utzon, anunciado em 29/01/1957. O júri incluía o arquiteto finlandês-americano Eero Saarinen. O número de projetos recebidos aparece como 220, 223 ou 233, de 28 ou 32 países.",
+      "conf": "DIV",
+      "nota": "o vencedor e a data são confirmados; a contagem de inscritos varia até entre as páginas do próprio Opera House"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Jørn Utzon, até sua renúncia em 28/02/1966. Depois, Peter Hall, com Lionel Todd e David Littlemore, sob o arquiteto do governo E. H. Farmer, desenhou os interiores e mudou o programa das salas.",
+      "conf": "2+",
+      "nota": "a nomeação de Hall aparece em 28 de março ou em 19 de abril de 1966"
+    },
+    {
+      "item": "Engenharia",
+      "valor": "Ove Arup & Partners, de Londres, do começo ao fim. Jack Zunz assumiu o problema da cobertura em 1961; o jovem engenheiro Peter Rice cuidou em Sydney da locação das peças das conchas.",
+      "conf": "2+",
+      "nota": "a Arup diz ter sido nomeada em 1957; a New Civil Engineer, em novembro de 1958"
+    },
+    {
+      "item": "A solução",
+      "valor": "Depois de 12 esquemas, com parábolas e elipsoides, todas as conchas foram tiradas da superfície de uma mesma esfera, em 1961. A curvatura igual permitiu fabricar as nervuras em série no canteiro. O raio aparece como 75,2 metros na maioria das descrições; a Arup fala em 75 metros de diâmetro.",
+      "conf": "2+",
+      "nota": "o Opera House atribui a ideia a Utzon; o relato de Jack Zunz descreve uma chegada conjunta"
+    },
+    {
+      "item": "Quem construiu",
+      "valor": "Civil & Civic, o pódio (1959–1963); M. R. Hornibrook, as conchas, a partir de 1963, montadas com um arco de aço móvel calculado à mão pelo engenheiro Joe Bertony; depois, os interiores.",
+      "conf": "2+"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Início em 02/03/1959; pódio pronto em fevereiro de 1963; conchas de 1963 a meados dos anos 1960; inauguração em 20/10/1973 pela rainha Elizabeth II. Previsão inicial: 4 anos e entrega em 1963.",
+      "conf": "2+"
+    },
+    {
+      "item": "Operários",
+      "valor": "Cerca de 10 mil ao longo da obra, segundo o Sydney Opera House. Pico, jornada e salário não aparecem nas fontes consultadas. Em 1972, os operários ocuparam o canteiro por cerca de cinco semanas e trabalharam sob controle próprio.",
+      "conf": "1"
+    },
+    {
+      "item": "Mortes e acidentes",
+      "valor": "Nenhuma fonte institucional consultada publica um número de mortos ou feridos na obra. As versões que circulam, de nenhuma morte ou de uma, vêm de sites sem fonte primária.",
+      "conf": "sem"
+    },
+    {
+      "item": "Custo",
+      "valor": "Orçamento de £3,5 milhões em 1957, o mesmo que AU$ 7 milhões depois da troca de moeda de 1966. Custo final de AU$ 102 milhões, 14,6 vezes mais, ou 1.357% acima do previsto, em valores nominais.",
+      "conf": "2+",
+      "nota": "o total é soma nominal de 14 anos de gastos; sem a série anual, não há conversão confiável para valores de hoje"
+    },
+    {
+      "item": "Quem pagou",
+      "valor": "A Opera House Lottery, do governo de Nova Gales do Sul: 496 sorteios e cerca de 86,7 milhões de bilhetes, que renderam AU$ 102 milhões até 1986, segundo o Tesouro do estado.",
+      "conf": "2+",
+      "nota": "o primeiro sorteio aparece em 1957 ou em 1958"
+    },
+    {
+      "item": "Conchas e azulejos",
+      "valor": "2.194 peças pré-moldadas de nervura, de até 15 ou 15,5 toneladas cada. 1.056.006 azulejos de 120 mm feitos pela sueca Höganäs, brancos brilhantes e creme foscos, assentados em 4.228 painéis em forma de divisa.",
+      "conf": "2+",
+      "nota": "o número de painéis vem só do Opera House"
+    },
+    {
+      "item": "A saída de Utzon",
+      "valor": "Depois da eleição de 1965, o ministro de Obras Públicas Davis Hughes reteve pagamentos de honorários. Utzon renunciou em 28/02/1966, deixou a Austrália em abril e nunca voltou para ver a obra pronta.",
+      "conf": "2+"
+    },
+    {
+      "item": "Patrimônio",
+      "valor": "Inscrita na Lista do Patrimônio Mundial da UNESCO em 28/06/2007, por decisão unânime, na terceira tentativa.",
+      "conf": "2+"
+    },
+    {
+      "item": "Reformas",
+      "valor": "A Sala de Concertos ficou cerca de dois anos fechada e reabriu em julho de 2022 com nova acústica, última obra de um programa de renovação de AU$ 275 milhões ou AU$ 300 milhões, conforme a fonte.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Em 04/08/2026, o governo do estado anunciou AU$ 120 milhões para manutenção e modernização, incluindo o reforço da estrutura sob o Northern Boardwalk, a plataforma sobre a água, depois de mais de 50 anos de ambiente marinho.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Um croqui sem geometria",
+      "paragrafos": [
+        "Em 1956, o governo de Nova Gales do Sul abriu um concurso internacional para uma casa de ópera em Bennelong Point, a ponta de terra no porto de Sydney, ao lado da Harbour Bridge. Chegaram mais de duzentos projetos. O vencedor, anunciado em 29 de janeiro de 1957, foi o de número 218, do dinamarquês Jørn Utzon: um pódio de pedra e, sobre ele, conchas brancas abertas para o mar.",
+        "Era um desenho, não um projeto. As curvas tinham sido traçadas à mão livre e não correspondiam a nenhuma forma que se pudesse escrever em equação. Sem equação, não havia como calcular o esforço em cada ponto nem como fabricar as peças. A lenda diz que Eero Saarinen, membro do júri, tirou o projeto de Utzon da pilha dos rejeitados; outro jurado, Henry Ashworth, negou a história, e não há registro preciso de como a escolha foi feita."
+      ]
+    },
+    {
+      "titulo": "Começar sem telhado",
+      "paragrafos": [
+        "O premier Joseph Cahill tinha pressa. A obra começou em 2 de março de 1959, com a construtora Civil & Civic fazendo o pódio, enquanto a cobertura ainda não tinha solução. Cahill morreu sete meses depois. O orçamento do concurso era de £3,5 milhões, e a entrega estava prevista para 1963.",
+        "Em Londres, os engenheiros da Ove Arup & Partners tentaram dar forma às conchas. Primeiro, seções de parábolas; depois, de elipsoides. A própria Arup conta 12 esquemas antes de chegar à solução. A ideia inicial de uma casca fina de concreto deu lugar a nervuras, e cada nova geometria esbarrava no mesmo problema: as conchas tinham curvaturas diferentes em cada ponto, e cada peça teria de ser única. O pódio ficou pronto em fevereiro de 1963, com quase um ano de atraso, ainda sem saber exatamente o que sustentaria."
+      ]
+    },
+    {
+      "titulo": "Fatias de uma esfera",
+      "paragrafos": [
+        "A saída, em 1961, foi abandonar as formas livres e tirar todas as conchas da superfície de uma mesma esfera. Numa esfera, a curvatura é igual em toda parte. Assim, as nervuras podiam ser divididas em segmentos que se repetiam, moldados em série no próprio canteiro, e a cobertura inteira virava um problema de fabricação, não de escultura. A solução foi formalizada no chamado Yellow Book, entregue em janeiro de 1962, com plantas, cortes e os detalhes das nervuras e dos azulejos.",
+        "Quem teve a ideia é questão de versão. O Sydney Opera House conta que Utzon a teve sozinho, numa noite, no escritório de Hellebæk, na Dinamarca, ao ver que os modelos das conchas se encaixavam uns nos outros, e diz que a história de que ele descascou uma laranja é mito. O relato do engenheiro Jack Zunz, que assumiu o problema na Arup em agosto de 1961, descreve uma chegada conjunta: os engenheiros explicaram que só formas esféricas davam a repetição de que a obra precisava, e a escolha veio cerca de um mês depois.",
+        "Calcular as conchas exigiu um dos primeiros usos de computador em análise estrutural. Segundo a revista Civil Engineering, da sociedade americana de engenheiros civis, foram cerca de 2.000 horas de computador até março de 1967."
+      ]
+    },
+    {
+      "titulo": "Montar no ar",
+      "paragrafos": [
+        "A construtora M. R. Hornibrook assumiu as conchas em 1963. Ao todo, 2.194 peças pré-moldadas de concreto, de até 15 toneladas cada, foram fabricadas no local, içadas por guindastes e unidas umas às outras com resina epóxi, presas por cabos de aço protendido. Para posicioná-las, o engenheiro Joe Bertony, nascido na Córsega, desenhou um arco de montagem de aço que se deslocava sobre o pódio. Ele fez os cálculos à mão; conferidos depois no único computador australiano capaz de processá-los, em Woomera, não tinham erro.",
+        "Em Sydney, o engenheiro residente da Arup era Peter Rice, que tinha trabalhado na geometria das conchas em Londres e escreveu um programa para locar cada peça no espaço. Depois vinham os azulejos. A empresa sueca Höganäs passou três anos desenvolvendo o que ficou conhecido como Sydney Tile: 120 milímetros, argila com um pouco de pedra moída, em branco brilhante e creme fosco. São 1.056.006 azulejos, assentados em 4.228 painéis em forma de divisa, fabricados sob a escadaria monumental."
+      ]
+    },
+    {
+      "titulo": "O arquiteto que foi embora",
+      "paragrafos": [
+        "Em 1965, o governo mudou. O novo premier, Robert Askin, tinha criticado o projeto, e o ministro de Obras Públicas, Davis Hughes, passou a controlar pagamentos e decisões. Com honorários retidos, Utzon renunciou em 28 de fevereiro de 1966. Deixou a Austrália em abril e nunca voltou para ver o edifício pronto.",
+        "O arquiteto Peter Hall, formado em Sydney, assumiu os interiores com Lionel Todd e David Littlemore. Em dezembro de 1966, decidiu que a sala maior, que Utzon desenhava para ópera e concerto, seria só de concertos, e a ópera foi para uma sala menor; a maquinaria de palco já instalada foi desmontada. Numa entrevista de 1973, Hall disse que o auditório em que Utzon trabalhava tinha assentos e corredores fora das normas de evacuação. A obra seguiu até 1973, com uma pausa diferente em 1972, quando os operários expulsaram a gerência e trabalharam por cerca de cinco semanas sob controle próprio."
+      ]
+    },
+    {
+      "titulo": "A conta da loteria",
+      "paragrafos": [
+        "O orçamento de 1957, £3,5 milhões, virou AU$ 7 milhões quando a Austrália trocou a libra pelo dólar, em 1966. O custo final foi de AU$ 102 milhões, 14,6 vezes mais, ou 1.357% acima do previsto, somando valores de catorze anos sem correção. Em vez de quatro anos, foram catorze, e a entrega atrasou dez.",
+        "Quem pagou foi o jogo. Segundo o Tesouro de Nova Gales do Sul, a Opera House Lottery fez 496 sorteios e vendeu cerca de 86,7 milhões de bilhetes, a £5 cada, com prêmio máximo de £100.000, e arrecadou AU$ 102 milhões até 1986. A rainha Elizabeth II inaugurou o edifício em 20 de outubro de 1973. Utzon não foi."
+      ]
+    },
+    {
+      "titulo": "Cinquenta anos de mar",
+      "paragrafos": [
+        "A reconciliação veio tarde. Em 1999, Utzon foi chamado para definir os princípios de projeto do edifício; em 2003 recebeu o Prêmio Pritzker; em 2004, uma sala refeita segundo seu desenho ganhou o nome dele. Em 28 de junho de 2007, a Ópera entrou na Lista do Patrimônio Mundial da UNESCO, por unanimidade, na terceira tentativa. Utzon morreu em novembro de 2008. A Sala de Concertos ficou cerca de dois anos fechada e reabriu em julho de 2022 com nova acústica.",
+        "Em 4 de agosto de 2026, o governo do estado anunciou AU$ 120 milhões para manutenção e modernização. Além de trocar maquinaria de palco de até 50 anos, o pacote inclui reforçar a estrutura sob o Northern Boardwalk, a plataforma à beira d'água, depois de mais de meio século de ambiente marinho. A obra que só ficou de pé porque suas peças se repetiam agora precisa proteger a base sobre a qual está apoiada."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Utzon descascou uma laranja e descobriu que as conchas podiam sair de uma esfera.",
+      "registro": "O próprio Sydney Opera House diz que a história da laranja é mito. A versão oficial é a de que Utzon viu, numa noite de 1961, que os modelos das conchas se encaixavam uns nos outros. O relato do engenheiro Jack Zunz, da Arup, descreve a chegada à esfera como trabalho conjunto entre arquiteto e engenheiros."
+    },
+    {
+      "circula": "As conchas de concreto não paravam em pé.",
+      "registro": "O que faltava era geometria. As curvas do croqui de 1957 não correspondiam a nenhuma forma calculável, e por isso não havia como dimensioná-las nem fabricá-las. Foram 12 esquemas, com parábolas e elipsoides, antes da solução esférica."
+    },
+    {
+      "circula": "Eero Saarinen tirou o projeto de Utzon da pilha dos rejeitados.",
+      "registro": "É a anedota mais repetida do concurso, mas não há registro preciso de como o júri decidiu. O jurado Henry Ashworth negou a história e disse que Leslie Martin, outro membro do júri, já tinha se impressionado com o projeto antes de Saarinen chegar."
+    },
+    {
+      "circula": "Ninguém morreu na construção da Ópera de Sydney.",
+      "registro": "Nenhuma fonte institucional consultada publica um número de mortos na obra. A frase aparece em sites sem fonte, assim como a versão oposta, de uma morte. O que existe é ausência de registro."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Sydney Opera House, \"The spherical solution\"",
+      "url": "https://www.sydneyoperahouse.com/our-story/the-spherical-solution"
+    },
+    {
+      "texto": "Sydney Opera House, \"Interesting facts about Sydney Opera House\"",
+      "url": "https://www.sydneyoperahouse.com/our-story/sydney-opera-house-facts.html"
+    },
+    {
+      "texto": "Sydney Opera House, \"Jørn Utzon AC\"",
+      "url": "https://www.sydneyoperahouse.com/our-story/jorn-utzon"
+    },
+    {
+      "texto": "NSW Treasury, \"The House the Lotteries Built\"",
+      "url": "https://www.nsw.gov.au/departments-and-agencies/nsw-treasury/about-us/nsw-treasury-bicentenary/walking-a-tightrope/moments/house-lotteries-built"
+    },
+    {
+      "texto": "Arup, \"Sydney Opera House\"",
+      "url": "https://www.arup.com/projects/sydney-opera-house/"
+    },
+    {
+      "texto": "Laila Ellmoos, \"Sydney Opera House\", Dictionary of Sydney, 2008",
+      "url": "https://dictionaryofsydney.org/entry/sydney_opera_house"
+    },
+    {
+      "texto": "Civil Engineering (ASCE), \"Australia's Sydney Opera House hits all the right notes\", setembro de 2022",
+      "url": "https://www.asce.org/publications-and-news/civil-engineering-source/civil-engineering-magazine/issues/magazine-issue/article/2022/09/australias-sydney-opera-house-hits-all-the-right-notes"
+    },
+    {
+      "texto": "New Civil Engineer, \"No.30 Sydney Opera House\", 25/10/2012",
+      "url": "https://www.newcivilengineer.com/latest/no-30-sydney-opera-house-25-10-2012/"
+    },
+    {
+      "texto": "create (Engineers Australia), \"The engineering that turned the Sydney Opera House from an idea into an icon\"",
+      "url": "https://www.createdigital.org.au/engineering-turned-sydney-opera-house-from-idea-into-icon/"
+    },
+    {
+      "texto": "Andrew Botros, \"Jack Zunz's Opera House\"",
+      "url": "https://www.linkedin.com/pulse/jack-zunzs-opera-house-andrew-botros"
+    },
+    {
+      "texto": "ArchitectureAU, \"Fifty years of Sydney Opera House in 50 facts\", 2023",
+      "url": "https://architectureau.com/articles/fifty-years-of-sydney-opera-house-in-50-facts/"
+    },
+    {
+      "texto": "ABC News, \"The man who fixed the 'plain illegal' Sydney Opera House\", 01/02/2016",
+      "url": "https://www.abc.net.au/news/2016-02-01/peter-hall-architect-who-fixed-opera-house-after-utzon-departed/7127160"
+    },
+    {
+      "texto": "ABC News, \"Opera House makes World Heritage list\", 28/06/2007",
+      "url": "https://www.abc.net.au/news/2007-06-28/opera-house-makes-world-heritage-list/83814"
+    },
+    {
+      "texto": "ABC News, reabertura da Sala de Concertos da Ópera de Sydney, 14/07/2022",
+      "url": "https://www.abc.net.au/news/2022-07-14/sydney-opera-house-concert-hall-reopens-after-major-renovation/101237496"
+    },
+    {
+      "texto": "Commons Library, \"The 1972 Sydney Opera House Work-In\"",
+      "url": "https://commonslibrary.org/the-1972-sydney-opera-house/"
+    },
+    {
+      "texto": "Governo de Nova Gales do Sul, \"Securing the future of live performance at the Sydney Opera House\", 04/08/2026",
+      "url": "https://www.nsw.gov.au/departments-and-agencies/dciths/ministerial-media-releases/investment-sydney-opera-house"
+    },
+    {
+      "texto": "The Urban Developer, \"Sydney Opera House Lines Up $120m Program of Renewal, Upgrades\", 2026",
+      "url": "https://www.theurbandeveloper.com/articles/sydney-opera-house-120m-repairs-nsw"
+    },
+    {
+      "texto": "Sydney Opera House, \"Sydney Opera House CEO Louise Herron to step down after 14 years\", 01/07/2026",
+      "url": "https://www.sydneyoperahouse.com/media/newsroom/sydney-opera-house-ceo-louise-herron-step-down-after-14-years-2"
+    },
+    {
+      "texto": "Wikipédia, \"Sydney Opera House\" (ponto de partida)",
+      "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "28-capa.jpg",
+      "alt": "A Ópera de Sydney vista do alto, de dia: conchas brancas sobre um pódio cor de areia na beira do porto, água azul em volta, um barco vermelho deixando rastro de espuma e a cidade ao fundo",
+      "legenda": "A Ópera em 2015, vista da Harbour Bridge, em Bennelong Point.",
+      "autor": "Bernard Gagnon",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_01.jpg",
+      "recriacao": false,
+      "foco": "50% 55%"
+    },
+    {
+      "arquivo": "28-conchas-1965.jpg",
+      "alt": "Fotografia aérea colorida do canteiro: conchas em montagem com as nervuras à mostra, guindastes vermelhos e centenas de peças de concreto estocadas no pódio",
+      "legenda": "As conchas em montagem em 1965, vistas do alto, com as peças pré-moldadas das nervuras estocadas no pódio.",
+      "autor": "Len Stone photograph collection, City of Sydney Archives",
+      "licenca": "CC BY 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:SYDNEY_OPERA_HOUSE_under_construction_1965.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "28-ponte-1965.jpg",
+      "alt": "As conchas nervuradas ainda sem revestimento, com três gruas vermelhas, vistas do nível da água, e o arco de aço da Harbour Bridge atrás",
+      "legenda": "Por volta de 1965: as conchas sobem nervura por nervura, com a Harbour Bridge ao fundo.",
+      "autor": "Len Stone photograph collection, City of Sydney Archives",
+      "licenca": "CC BY 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:SYDNEY_OPERA_HOUSE_under_construction_circa_1965.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "28-1968.jpg",
+      "alt": "As conchas já fechadas, de concreto cinza-claro, com o lado de baixo nervurado exposto e dois pórticos metálicos sobre o pódio, sob céu nublado",
+      "legenda": "Em 1968, as conchas estão fechadas e os interiores, sob o novo arquiteto Peter Hall, ainda por fazer.",
+      "autor": "Phillip Capper",
+      "licenca": "CC BY 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_construction_1968.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "28-inauguracao.jpg",
+      "alt": "Fotografia em preto e branco: uma balsa a vapor lotada e dezenas de barcos no porto, diante das conchas da Ópera, com bandeirolas em primeiro plano",
+      "legenda": "A balsa Baragoola no porto durante a inauguração, em 20 de outubro de 1973.",
+      "autor": "Graeme Andrews, City of Sydney Archives",
+      "licenca": "CC BY 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Sydney_ferry_BARAGOOLA_at_the_opening_of_the_Sydney_Opera_House_20_October_1973.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "28-azulejos.jpg",
+      "alt": "A ponta de uma concha contra o céu azul: as nervuras de concreto do lado de baixo, um painel de vidro esverdeado e a superfície coberta de azulejos em desenho de divisa",
+      "legenda": "Nervuras, vidro e azulejos: a ponta de uma das conchas em 2019.",
+      "autor": "Dietmar Rabich",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Sydney_(AU),_Opera_House_--_2019_--_3054.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "plataforma-troll-a"
+}

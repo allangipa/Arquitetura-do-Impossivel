@@ -1,0 +1,334 @@
+{
+  "num": "33",
+  "slug": "111-west-57th-street",
+  "obra": "111 West 57th Street",
+  "titulo_video": null,
+  "lugar": "West 57th Street, Midtown, Manhattan, Nova York, Estados Unidos",
+  "regiao": "mundo",
+  "periodo": "2014–2021",
+  "estreia": "2027-05-20",
+  "impossivel": "Erguer 435 metros de apartamentos sobre uma planta de uns 18 metros de largura, num terreno espremido entre vizinhos e colado a um prédio tombado de 1925, sem que a torre balançasse a ponto de quem mora lá em cima sentir.",
+  "resumo": "Como Nova York ergueu o arranha-céu mais esbelto do mundo, com 435 m sobre 18 m de largura, e a crise financeira que quase parou a obra.",
+  "abertura": [
+    "Na West 57th Street, em Manhattan, Nova York, nos Estados Unidos, o trecho junto ao Central Park ganhou nos anos 2010 o apelido de Billionaires' Row: uma fila de torres residenciais muito altas e muito finas, vendidas pela vista do parque. A 111 West 57th Street, também chamada Steinway Tower, é a mais extrema delas. Tem 435,3 metros de altura e cerca de 18 metros de largura.",
+    "Uma torre assim não cai; ela balança, e o problema é fazer com que ninguém sinta. A solução do escritório SHoP Architects e da engenharia da WSP foi pôr duas paredes de concreto de altura inteira nas laterais, travá-las entre si em andares técnicos e pendurar no topo um pêndulo de centenas de toneladas. No pé da torre ficou o Steinway Hall, a casa dos pianos Steinway desde 1925, que emprestou o terreno e o direito de subir."
+  ],
+  "numeros": [
+    {
+      "valor": "435,3 m",
+      "rotulo": "de altura arquitetônica, em 84 andares",
+      "conf": "2+"
+    },
+    {
+      "valor": "1:23 · 1:24",
+      "rotulo": "a relação entre largura e altura, conforme a fonte",
+      "conf": "DIV"
+    },
+    {
+      "valor": "~18 m",
+      "rotulo": "de largura (59 pés) na direção mais estreita",
+      "conf": "2+"
+    },
+    {
+      "valor": "800 t",
+      "rotulo": "o peso do amortecedor de massa no topo, em toneladas americanas (cerca de 725 t métricas)",
+      "conf": "1"
+    },
+    {
+      "valor": "US$ 725 mi",
+      "rotulo": "de financiamento da obra, entre hipoteca e empréstimo mezanino",
+      "conf": "2+"
+    },
+    {
+      "valor": "20 andares",
+      "rotulo": "onde a obra parou em julho de 2017, em meio à crise com credores e sócios",
+      "conf": "1"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Vender apartamentos de luxo com vista do Central Park num terreno estreito de Midtown. A única forma de ter vista ali é subir, e para subir os incorporadores compraram o Steinway Hall e os direitos de construir dos vizinhos.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "A JDS Development Group, de Michael Stern, e a Property Markets Group, de Kevin Maloney, que em março de 2013 compraram o Steinway Hall da fabricante de pianos por US$ 46 milhões. A Spruce Capital Partners entrou depois como sócia.",
+      "conf": "2+"
+    },
+    {
+      "item": "Projeto",
+      "valor": "SHoP Architects, de Nova York. Torre de concreto armado com coroamento em aço, fachadas norte e sul de vidro e fachadas leste e oeste revestidas de cerca de 43 mil peças de terracota, em pilastras onduladas que formam um padrão de moiré.",
+      "conf": "2+"
+    },
+    {
+      "item": "Estrutura",
+      "valor": "WSP. Duas paredes de cisalhamento de concreto correm a altura inteira nas fachadas leste e oeste e são ligadas entre si e ao núcleo por paredes de travamento em pavimentos técnicos. No topo, acima do último andar ocupado, um amortecedor de massa sintonizado reduz o balanço.",
+      "conf": "2+",
+      "nota": "o número de pavimentos de travamento aparece numa fonte só"
+    },
+    {
+      "item": "As paredes laterais",
+      "valor": "Até 30 polegadas, cerca de 76 cm, segundo uma fonte; outra fala em 30 a 36 polegadas nos andares de baixo, até uns 91 cm, afinando para 16 polegadas, cerca de 41 cm, no alto.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Concreto",
+      "valor": "Até 14.000 psi, cerca de 96,5 MPa, com mais de 5,5 milhões de pés de vergalhão, segundo os incorporadores.",
+      "conf": "1"
+    },
+    {
+      "item": "O prédio de 1925",
+      "valor": "O Steinway Hall, de 16 andares, projetado por Warren & Wetmore e construído em 1924–1925 como sede e salão de vendas da Steinway & Sons. Fachada tombada pela cidade em 13/11/2001; a rotunda e o saguão, em 10/09/2013. A torre ocupa um lote vazio ao lado e parte do lote do Steinway Hall.",
+      "conf": "2+"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Escavação a partir de 2014; obra parada com 20 andares em julho de 2017; pináculo montado e torre coroada em 2019; conclusão dada como 2020, 2021 ou 2022, conforme a fonte.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Operários",
+      "valor": "O total de trabalhadores não foi registrado nas fontes consultadas. A promotoria de Manhattan informou em 2018 que a subempreiteira de concreto e alvenaria Parkside Construction tinha mais de 500 empregados distribuídos por oito obras, esta entre elas.",
+      "conf": "sem"
+    },
+    {
+      "item": "Mortes e acidentes",
+      "valor": "Nenhuma morte registrada nas fontes consultadas. O Departamento de Edificações de Nova York anotou quatro ferimentos leves no endereço em abril e maio de 2015. Em janeiro de 2020, um bloco de terracota caiu e furou o teto de um táxi; em 29/10/2020, com vento forte, o guindaste girou, um cabo bateu na fachada e vidro e alumínio caíram na rua. Ninguém se feriu nos dois casos, e a prefeitura parou a obra.",
+      "conf": "2+",
+      "nota": "a ausência de mortes vale para as fontes consultadas; os ferimentos de 2015 podem ser da reforma do Steinway Hall"
+    },
+    {
+      "item": "Custo",
+      "valor": "Financiamento de US$ 725 milhões em 2015: US$ 400 milhões de hipoteca da AIG e US$ 325 milhões de empréstimo mezanino da Apollo. O custo total aparece como US$ 1 bilhão numa reportagem de 2017 e como US$ 2 bilhões em outras fontes.",
+      "conf": "DIV",
+      "nota": "pelo índice de preços ao consumidor dos EUA (2015 ≈ 237,0; 2025 = 321,9), os US$ 725 milhões equivalem a cerca de US$ 985 milhões de 2025"
+    },
+    {
+      "item": "A crise",
+      "valor": "Em 2017, um estouro de cerca de US$ 57 milhões deixou o empréstimo mezanino em inadimplência. A Apollo cedeu uma parcela de US$ 25 milhões à Spruce, que a executou em julho e eliminou o investimento da sócia AmBase, entre US$ 56 e 70 milhões conforme a fonte.",
+      "conf": "2+",
+      "nota": "o valor do investimento da AmBase diverge entre as fontes"
+    },
+    {
+      "item": "Apartamentos",
+      "valor": "59 ou 60 unidades, conforme a fonte, parte delas dentro do Steinway Hall. Depois de anos de vendas lentas, em abril de 2026 restava uma só por vender, segundo o The Real Deal.",
+      "conf": "1"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Terceiro prédio mais alto de Nova York. Em 09/02/2026 a casa de leilões Bonhams abriu sua sede americana no Steinway Hall, reabrindo a rotunda ao público. Em 28/05/2026 a mais alta corte do estado de Nova York decidiu, por 4 a 3, que a ação da AmBase contra a Apollo deve seguir.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "A rua dos bilionários",
+      "paragrafos": [
+        "A West 57th Street corta Manhattan, em Nova York, nos Estados Unidos, a um quarteirão do Central Park. Nos anos 2010, esse trecho virou o endereço de uma nova espécie de arranha-céu: torres residenciais estreitas, que subiam o bastante para olhar o parque por cima dos prédios do quarteirão de baixo. A imprensa chamou a rua de Billionaires' Row. A One57, a Central Park Tower e, a poucas quadras, a 432 Park Avenue são vizinhas desta.",
+        "Em Manhattan, subir é uma questão de terreno e de papel. O terreno é pequeno, e a altura que se pode construir depende da área do lote e dos direitos de construir que se compram dos vizinhos. Em março de 2013, a JDS Development Group, de Michael Stern, e a Property Markets Group, de Kevin Maloney, com o investidor Arthur P. Becker, compraram por US$ 46 milhões o Steinway Hall, na mesma rua. Segundo a Bloomberg, os investidores planejavam uma torre de uns 700 pés, cerca de 213 metros, e contavam com os direitos do Steinway para ir mais alto."
+      ]
+    },
+    {
+      "titulo": "Um lote do tamanho de uma quadra",
+      "paragrafos": [
+        "O que sobrou para a torre foi uma faixa: um lote vazio voltado para a 58th Street e parte do lote do próprio Steinway Hall. A planta da torre mede cerca de 59 pés, uns 18 metros, na direção mais estreita, e entre 75 e 78 pés na outra, conforme a fonte. É mais ou menos o comprimento de uma quadra de vôlei. Sobre isso, o escritório SHoP Architects desenhou 84 andares e 435,3 metros de altura, segundo o Council on Tall Buildings and Urban Habitat.",
+        "A conta da esbeltez é simples e é o que torna a obra famosa: a torre é umas 24 vezes mais alta do que larga. O Architectural Record dá a relação de 1 para 24 e a chama de arranha-céu mais fino do mundo; o Skyscraper Museum, de Nova York, dá 1 para 23. Para comparar, a 432 Park Avenue, a recordista anterior na mesma vizinhança, fica em 1 para 15, segundo o Architectural Record.",
+        "Antes de desenhar a torre, era preciso passar pela Comissão de Preservação de Marcos de Nova York. A fachada do Steinway Hall estava tombada desde 2001, e em setembro de 2013 a comissão tombou também a rotunda e o saguão do térreo, justamente a parte que a nova obra encostava. O projeto foi a audiência em outubro de 2013 e só foi aprovado depois de revisto."
+      ]
+    },
+    {
+      "titulo": "Duas paredes e um pêndulo",
+      "paragrafos": [
+        "Um prédio alto não precisa de muita coisa para ficar de pé contra o próprio peso. O inimigo é o vento, que empurra de lado, e numa torre tão fina o efeito aparece menos como risco de queda e mais como balanço: o prédio oscila, e lá no alto as pessoas sentem. A engenharia, da WSP, resolveu isso de três maneiras somadas.",
+        "A primeira são duas paredes de cisalhamento de concreto armado que correm a altura inteira nas fachadas leste e oeste, as faces estreitas da torre. Elas funcionam como a espinha do prédio e ditaram a arquitetura: leste e oeste ficaram mais fechadas, revestidas de terracota, enquanto norte e sul, de frente para o parque e para a cidade, ficaram de vidro. A espessura dessas paredes aparece como até 30 polegadas, cerca de 76 centímetros, numa fonte, e como 30 a 36 polegadas nos andares de baixo, afinando para 16 no alto, em outra.",
+        "A segunda são andares técnicos em que paredes de travamento ligam as duas paredes laterais entre si e ao núcleo, para que trabalhem juntas em vez de cada uma por conta própria. A terceira fica no topo, acima do último andar ocupado: um amortecedor de massa sintonizado, um grande peso que se move em sentido contrário ao balanço do prédio e o amortece. Os incorporadores dão 800 toneladas, em toneladas americanas, o que dá cerca de 725 toneladas métricas.",
+        "O concreto das partes mais carregadas chega a 14.000 psi, cerca de 96,5 MPa segundo os incorporadores. Na base, segundo a publicação The Builders Report, cerca de 200 tirantes ancorados na rocha de Manhattan impedem que a torre seja arrancada do chão nos ventos mais fortes."
+      ]
+    },
+    {
+      "titulo": "A obra que parou no vigésimo andar",
+      "paragrafos": [
+        "A escavação começou em 2014. Em 2015, a obra tinha um financiamento de US$ 725 milhões: US$ 400 milhões de hipoteca da seguradora AIG e US$ 325 milhões de empréstimo mezanino, mais caro e subordinado, da gestora Apollo. Entre os sócios estava a AmBase Corporation, que tinha posto no projeto entre US$ 56 e 70 milhões, conforme a fonte.",
+        "O custo subiu. Segundo a decisão de 2026 da mais alta corte de Nova York, um estouro de cerca de US$ 57 milhões desequilibrou o empréstimo, e em fevereiro de 2017 a Apollo exigiu US$ 56 milhões que ninguém pôs. Em março, a Apollo partiu o empréstimo em duas parcelas, de US$ 300 milhões e de US$ 25 milhões; em 28 de junho cedeu a menor à Spruce Capital, pelo valor de face; e em 7 de julho a Spruce executou a garantia, ficando com a participação que era da AmBase. O advogado da AmBase disse à imprensa que o orçamento tinha esquecido itens caros como os guindastes.",
+        "Naquele julho de 2017, segundo o site 6sqft, a torre estava parada com 20 andares de concreto. A Justiça liberou a execução em agosto, e a obra voltou. A AmBase passou os anos seguintes nos tribunais."
+      ]
+    },
+    {
+      "titulo": "Quem levantou a torre",
+      "paragrafos": [
+        "Não há registro público de quantas pessoas trabalharam no canteiro, nem no pico nem no total. O retrato mais preciso dos operários vem de um processo criminal. Em 16 de maio de 2018, a promotoria de Manhattan denunciou a Parkside Construction, subempreiteira de concreto e alvenaria que trabalhava nesta e em outras sete obras da ilha, por desviar mais de US$ 1,7 milhão em salários de pelo menos 520 trabalhadores entre 2014 e 2017. O ponto era registrado por máquinas de reconhecimento facial no canteiro, e as folhas impressas eram depois alteradas para menos horas.",
+        "A mesma denúncia acusa a empresa de esconder mais de US$ 40 milhões de folha de pagamento do seguro estadual de acidentes de trabalho. Os 520 trabalhadores somam as oito obras, não só esta; e, como a própria promotoria ressaltava, as acusações não são condenação.",
+        "Nenhuma morte de trabalhador foi registrada nas fontes consultadas. O relatório de acidentes do Departamento de Edificações anotou quatro ferimentos leves no endereço em abril e maio de 2015, entre eles um eletricista atingido nos olhos por um arco elétrico. Os acidentes que a cidade viu foram outros: em janeiro de 2020, um bloco de terracota caiu da torre e furou o teto de um táxi na 57th Street, com o passageiro dentro; e em 29 de outubro de 2020, com vento forte, o guindaste do topo girou, um cabo pendurado da lança bateu na fachada e vidro e alumínio caíram na rua. A 57th Street foi fechada, o metrô foi desviado e a prefeitura parou a obra. Ninguém se feriu."
+      ]
+    },
+    {
+      "titulo": "A casa dos pianos",
+      "paragrafos": [
+        "O Steinway Hall foi projetado pelo escritório Warren & Wetmore e construído em 1924 e 1925 para a Steinway & Sons, que acompanhou a mudança da vida musical de Nova York para a 57th Street depois da abertura do Carnegie Hall, em 1891, segundo a placa de tombamento. É um prédio neoclássico de 16 andares, com a frente em calcário de Indiana e uma torre com telhado piramidal. No térreo, uma rotunda com cúpula servia de salão de vendas e de concertos.",
+        "Na venda de 2013, a fabricante teve até 18 meses para sair. A rotunda e o saguão foram restaurados, e os andares de cima do prédio antigo viraram apartamentos do mesmo condomínio da torre. Em 9 de fevereiro de 2026, a casa de leilões Bonhams abriu ali sua sede americana, em 42 mil pés quadrados, e reabriu a rotunda ao público depois de uma década fechada.",
+        "No mesmo ano, a briga do dinheiro mudou de patamar. Em 28 de maio de 2026, o Court of Appeals, a mais alta corte do estado de Nova York, decidiu por 4 a 3 que um credor com critério exclusivo para ceder um empréstimo continua obrigado à boa-fé, e mandou de volta à primeira instância a acusação da AmBase de que a Apollo cedeu a parcela à Spruce para lhe tirar o investimento. A torre, que passou anos com mais da metade dos apartamentos encalhada, chegou a abril de 2026 com 58 de 59 unidades vendidas, segundo o The Real Deal."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "É o prédio mais alto de Nova York.",
+      "registro": "É o terceiro mais alto da cidade e o quarto da América do Norte, segundo o Council on Tall Buildings and Urban Habitat. O recorde dele é de esbeltez, não de altura."
+    },
+    {
+      "circula": "Tem o amortecedor mais pesado do mundo, maior que o do Taipei 101.",
+      "registro": "A comparação mistura unidades. As 800 toneladas da torre são toneladas americanas, cerca de 725 toneladas métricas; o pêndulo do Taipei 101 tem 660 toneladas métricas, e o da Shanghai Tower, na China, cerca de mil."
+    },
+    {
+      "circula": "As fachadas leste e oeste são paredes cegas, sem nenhuma janela.",
+      "registro": "As paredes de concreto que seguram a torre ficam nessas fachadas, que por isso são mais fechadas e revestidas de terracota. Mas há faixas envidraçadas entre as pilastras; o vidro contínuo fica nas faces norte e sul."
+    },
+    {
+      "circula": "Mais de 500 operários da torre tiveram salários roubados.",
+      "registro": "A promotoria de Manhattan fala em pelo menos 520 trabalhadores lesados pela subempreiteira Parkside, mas somando oito obras diferentes, das quais esta é uma."
+    },
+    {
+      "circula": "Usa o concreto mais resistente do mundo.",
+      "registro": "A frase vem do material dos incorporadores. O concreto de até 14.000 psi, cerca de 96,5 MPa, é de altíssimo desempenho, mas a afirmação de recorde mundial não tem confirmação independente."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Council on Tall Buildings and Urban Habitat, The Skyscraper Center, \"111 West 57th Street\"",
+      "url": "https://www.skyscrapercenter.com/building/111-west-57th-street/14320"
+    },
+    {
+      "texto": "The Skyscraper Museum, \"Supertall!\", \"111 West 57th Street\"",
+      "url": "https://skyscraper.org/supertall/building/111-west-57th-street/"
+    },
+    {
+      "texto": "Sara Hart, \"A Cliff Dweller's Guide to Tall Skinny Buildings\", Architectural Record, 2021",
+      "url": "https://www.architecturalrecord.com/articles/15106-a-cliff-dwellers-guide-to-tall-skinny-buildings"
+    },
+    {
+      "texto": "The Builders Report, \"111 West 57th Street\"",
+      "url": "https://thebuildersreport.com/building/111-west-57th-street"
+    },
+    {
+      "texto": "SHoP Architects, \"111 West 57th\"",
+      "url": "https://www.shoparc.com/projects/111-west-57-street-2/"
+    },
+    {
+      "texto": "\"SHoP Architects-designed NYC skyscraper tops out\", Construction Specifier, 2019",
+      "url": "https://www.constructionspecifier.com/shop-architects-designed-nyc-skyscraper-tops-out/"
+    },
+    {
+      "texto": "NYC Landmarks Preservation Commission, Steinway Hall, Designation List 331, LP-2100, 2001",
+      "url": "http://s-media.nyc.gov/agencies/lpc/lp/2100.pdf"
+    },
+    {
+      "texto": "NYC Department of Buildings, relatório de acidentes de obra, 12 meses até setembro de 2015",
+      "url": "https://www.nyc.gov/assets/buildings/pdf/cons_accident_monthly_0915.pdf"
+    },
+    {
+      "texto": "Promotoria de Manhattan, comunicado sobre a Parkside Construction, 16/05/2018",
+      "url": "https://www.nyc.gov/assets/doi/press-releases/2018/may/ParksideandAffinity_ManDARelease_51618.pdf"
+    },
+    {
+      "texto": "New York Court of Appeals, 111 W. 57th Inv. LLC v 111 W57 Mezz Inv. LLC, 2026 NY Slip Op 03376, 28/05/2026",
+      "url": "https://caselaw.findlaw.com/court/ny-court-of-appeals/70241.html"
+    },
+    {
+      "texto": "\"A supertall order: New York's high court decision in Steinway Tower lawsuit…\", amNY, 2026",
+      "url": "https://www.amny.com/law/supertall-steinway-tower-court-of-appeals-decision/"
+    },
+    {
+      "texto": "\"World's skinniest skyscraper at 111 West 57th Street stalled at 20 stories by soaring costs\", 6sqft, 2017",
+      "url": "https://www.6sqft.com/worlds-skinniest-skyscraper-at-111-west-57th-street-stalled-at-20-stories-by-soaring-costs/"
+    },
+    {
+      "texto": "\"Foreclosure moves ahead at Billionaires' Row supertall 111 West 57th Street\", 6sqft, 2017",
+      "url": "https://www.6sqft.com/foreclosure-moves-ahead-at-billionaires-row-supertall-111-west-57th-street/"
+    },
+    {
+      "texto": "\"How 111 West 57th went from Billionaires' Row dud to darling\", The Real Deal, 2026",
+      "url": "https://therealdeal.com/new-york/2026/04/24/how-111-west-57th-went-from-billionaires-row-dud-to-darling/"
+    },
+    {
+      "texto": "\"Stop Work Order Issued After Spinning Crane Sends Large Slabs Of Metal Falling Onto Midtown Street\", CBS New York, 2020",
+      "url": "https://www.cbsnews.com/newyork/news/midtown-crane-falling-debris"
+    },
+    {
+      "texto": "\"Debris falls from spinning crane atop 'skinniest' building in world\", Fox 5 NY, 2020",
+      "url": "https://www.fox5ny.com/news/debris-falls-from-spinning-construction-crane-in-midtown"
+    },
+    {
+      "texto": "Bonhams, comunicado sobre a nova sede americana no Steinway Hall",
+      "url": "https://www.bonhams.com/press_release/40727/"
+    },
+    {
+      "texto": "\"NYC Tallest Condo Corridor Gets New Entrant With Steinway\", Bloomberg, 2013",
+      "url": "https://millersamuel.com/?press=nyc-tallest-condo-corridor-gets-new-entrant-with-steinway"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "33-capa.jpg",
+      "alt": "Torre muito fina e alta, de faces envidraçadas que se estreitam em degraus até a ponta, erguendo-se acima das árvores do Central Park sob céu nublado, com o letreiro do hotel Essex House num prédio à direita",
+      "legenda": "A torre vista do Central Park em maio de 2023.",
+      "autor": "Benoît Prieur",
+      "licenca": "CC0",
+      "licenca_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:111_West_57th_Street_from_Central_Park_(May_2023).jpg",
+      "recriacao": false,
+      "foco": "45% 25%"
+    },
+    {
+      "arquivo": "33-obra-2020.jpg",
+      "alt": "Torre fina em construção com um guindaste vermelho preso à lateral e a estrutura do topo ainda aparente, ao lado de um arranha-céu de vidro azul mais largo",
+      "legenda": "Em janeiro de 2020, ainda em obra, com o guindaste preso à lateral, vista do Columbus Circle ao lado da One57.",
+      "autor": "Jim.henderson",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:111_W57_%26_One57_2020_Feb_jeh.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "33-billionaires-row.jpg",
+      "alt": "Vista aérea de Midtown com várias torres altas e finas sob céu cinzento; à esquerda a mais alta, envidraçada, e à direita uma torre ainda mais estreita com guindaste, com o Central Park nevado ao fundo",
+      "legenda": "O Billionaires' Row visto do sul em dezembro de 2020: a Central Park Tower à esquerda e, à direita, a 111 West 57th Street ainda com guindaste.",
+      "autor": "Itrytohelp32",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Billionaires%27_Row_2020.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "33-terracota.jpg",
+      "alt": "Fachada clara vista de baixo, coberta de pilastras verticais estreitas e repetidas que sobem até se recortar contra o céu azul",
+      "legenda": "As pilastras de terracota e bronze da fachada, vistas da 57th Street em 2021.",
+      "autor": "Kidfly182",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:111_West_57th_Street_(4to3).jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "33-steinway-hall.jpg",
+      "alt": "Prédio de pedra clara com vários andares e uma entrada em arco no térreo, numa rua com carros estacionados, e a torre de vidro subindo atrás dele",
+      "legenda": "O Steinway Hall, de 1925, na 57th Street em maio de 2026, com a torre atrás.",
+      "autor": "Ajay Suresh",
+      "licenca": "CC BY 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:111_West_57th_Street_-_Steinway_Building_(55283758013).jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "33-rotunda.jpg",
+      "alt": "Salão circular com colunas de mármore verde, arcos, cúpula decorada e lustre de cristal, com um piano de cauda preto no centro",
+      "legenda": "A rotunda do Steinway Hall em fevereiro de 2026, reaberta ao público.",
+      "autor": "Epicgenius",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:111_West_57th_Street_Feb_2026_01.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": null
+}

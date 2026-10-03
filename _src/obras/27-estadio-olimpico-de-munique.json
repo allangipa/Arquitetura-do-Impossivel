@@ -1,0 +1,310 @@
+{
+  "num": "27",
+  "slug": "estadio-olimpico-de-munique",
+  "obra": "Estádio Olímpico de Munique",
+  "titulo_video": null,
+  "lugar": "Parque Olímpico, Munique, Baviera, Alemanha",
+  "regiao": "mundo",
+  "periodo": "1969–1972",
+  "estreia": "2027-04-08",
+  "impossivel": "Pendurar sobre um estádio, um ginásio e uma piscina mais de 70 mil metros quadrados de acrílico numa rede de cabos que ninguém sabia calcular, com prazo fixo e sem saber se a forma era sequer construível.",
+  "resumo": "Como o teto de cabos e acrílico de Munique 1972 saiu de uma meia-calça, passou por maquetes de arame e só ficou de pé quando um computador fez a conta.",
+  "abertura": [
+    "Em outubro de 1967, o júri do concurso para o Parque Olímpico de Munique, na Baviera, Alemanha, escolheu um projeto cuja maquete tinha mastros de palito e um teto de meia de náilon esticada. O escritório de Günter Behnisch propunha cobrir o estádio, o ginásio, a piscina e os caminhos entre eles com uma única tenda transparente, inspirada no pavilhão que Frei Otto acabara de levantar na Expo de Montreal.",
+    "O problema é que ninguém sabia se aquilo podia ser construído. O relatório que o governo alemão entregou ao Parlamento em 1975 diz com todas as letras: no início, não estava claro nem se o teto era tecnicamente viável, nem havia base minimamente confiável para estimar o custo. O arquiteto falou em 15 a 18 milhões de marcos. A conta final foi de 170,6 milhões."
+  ],
+  "numeros": [
+    {
+      "valor": "170,6 mi DM",
+      "rotulo": "custo final do teto, segundo o relatório do governo ao Bundestag (1974)",
+      "conf": "2+"
+    },
+    {
+      "valor": "15–18 mi DM",
+      "rotulo": "o custo que o arquiteto Günter Behnisch estimou em fevereiro de 1968",
+      "conf": "1"
+    },
+    {
+      "valor": "74.000 · 78.700 m²",
+      "rotulo": "de área coberta, conforme a fonte e o critério de medição",
+      "conf": "DIV"
+    },
+    {
+      "valor": "75 cm",
+      "rotulo": "de lado em cada malha da rede de cabos de aço",
+      "conf": "2+"
+    },
+    {
+      "valor": "80 m",
+      "rotulo": "de altura dos maiores mastros que sustentam a rede",
+      "conf": "2+"
+    },
+    {
+      "valor": "11.000",
+      "rotulo": "placas de acrílico a trocar na reforma iniciada em 2026",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Para quê",
+      "valor": "Jogos Olímpicos de Verão de 1972, de 26 de agosto a 11 de setembro. O teto cobre o Estádio Olímpico, a Olympiahalle, a piscina olímpica e os caminhos entre eles, no antigo campo de aviação de Oberwiesenfeld.",
+      "conf": "2+"
+    },
+    {
+      "item": "Concurso",
+      "valor": "104 projetos entregues até 3 de julho de 1967. Em 13 de outubro de 1967, 17 dos 19 jurados votaram no de Behnisch & Partner, defendido pelo presidente do júri, o arquiteto Egon Eiermann.",
+      "conf": "2+",
+      "nota": "o número de projetos aparece numa fonte só"
+    },
+    {
+      "item": "Arquitetos",
+      "valor": "Behnisch & Partner, de Stuttgart: Günter Behnisch, Fritz Auer, Carlo Weber e Cord Wehrse. Frei Otto entrou como arquiteto parceiro do teto, e o instituto dele na Universidade de Stuttgart fez as maquetes.",
+      "conf": "2+"
+    },
+    {
+      "item": "Engenharia",
+      "valor": "Escritório Leonhardt + Andrä (Fritz Leonhardt e Wolfhardt Andrä), com Jörg Schlaich, então com 34 anos, e Rudolf Bergermann à frente do teto. Cálculo por computador de John Argyris e de Klaus Linkwitz com Hans-Jörg Schek, num CDC 6600 da Universidade de Stuttgart.",
+      "conf": "2+"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Obras iniciadas em 9 de junho de 1969; pedra fundamental em 14 de julho de 1969; rede içada a partir de maio ou junho de 1971; teto do estádio pronto em 21 de abril de 1972; estádio inaugurado em 26 de maio de 1972, com Alemanha Ocidental 4 × 1 União Soviética diante de cerca de 80 mil pessoas.",
+      "conf": "2+",
+      "nota": "o mês em que a rede começou a subir varia entre as fontes"
+    },
+    {
+      "item": "A estrutura",
+      "valor": "Rede de cabos de aço com malha de 75 × 75 cm, presa a cabos de borda e pendurada em mastros de aço de até 80 m; nós e peças de ligação em aço fundido; blocos de ancoragem de concreto de até 4.000 toneladas. Por cima, placas de acrílico de 3 × 3 m.",
+      "conf": "2+"
+    },
+    {
+      "item": "Área coberta",
+      "valor": "74.800 m² na conta mais citada; 74.000 m² segundo o escritório de engenharia que fez o teto; cerca de 78.000 a 78.700 m² nos documentos da reforma de 2025. Sobre o estádio, 34.550 m².",
+      "conf": "DIV"
+    },
+    {
+      "item": "Operários",
+      "valor": "Cerca de 5 mil trabalhadores e mais de um milhão de horas de trabalho, segundo o historiador do estádio Armin Radtke. O total só do teto não foi registrado nas fontes consultadas.",
+      "conf": "1"
+    },
+    {
+      "item": "Acidentes",
+      "valor": "Nenhum número oficial publicado. O engenheiro Rudolf Bergermann afirma que não houve acidente na construção original; um ex-operário, em depoimento ao Museu da Cidade de Munique, lembra de um colega que caiu e morreu num dos canteiros olímpicos, sem dizer qual.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Custo do teto",
+      "valor": "170,6 milhões de marcos na conta final provisória de 30 de setembro de 1974, contra 47,7 milhões na primeira estimativa da construtora estatal (outubro de 1967) e 15 a 18 milhões na do arquiteto (fevereiro de 1968). Em 1969, os dois únicos lances da licitação foram de 101 e 130 milhões. Foi o dobro do que custou o estádio sem o teto.",
+      "conf": "2+",
+      "nota": "o engenheiro Rudolf Bergermann e a imprensa de Munique falam em 200 milhões ou mais"
+    },
+    {
+      "item": "Quem pagou",
+      "valor": "Os Jogos custaram 1.967 milhões de marcos. Dois terços vieram de receitas olímpicas, como a loteria (252 milhões) e a moeda comemorativa de 10 marcos (679 milhões). O peso líquido nos cofres públicos foi de 635 milhões, divididos entre o governo federal, a Baviera, Munique, Schleswig-Holstein e Kiel.",
+      "conf": "1",
+      "nota": "relatório do governo federal ao Bundestag, 1975"
+    },
+    {
+      "item": "O acrílico",
+      "valor": "As placas originais ficaram leitosas com o tempo e foram trocadas no fim dos anos 1990. Segundo Bergermann, um operário caiu através de uma placa quebradiça e morreu nessa troca.",
+      "conf": "1"
+    },
+    {
+      "item": "Proteção",
+      "valor": "Patrimônio protegido da Baviera desde 1997. Em 22 de setembro de 2023, a Câmara Federal de Engenheiros declarou o teto Marco Histórico da Engenharia na Alemanha.",
+      "conf": "2+",
+      "nota": "o ano do tombamento aparece numa fonte só"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Reforma completa do teto aprovada em 2025, por 298,4 milhões de euros, de setembro de 2026 ao fim de 2029, com a troca de 11 mil placas e a proteção anticorrosão de todos os cabos. Em 26 de setembro de 2026, Munique foi escolhida a candidata alemã aos Jogos de 2036, 2040 ou 2044.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Uma meia-calça sobre palitos",
+      "paragrafos": [
+        "Munique ganhou os Jogos de 1972 e escolheu para eles um terreno estranho: Oberwiesenfeld, um antigo campo de aviação ao norte do centro, com um morro feito de entulho da guerra. O concurso de arquitetura recebeu 104 projetos até julho de 1967. O de Behnisch & Partner, um escritório de Stuttgart, não propunha prédios: propunha uma paisagem, com arquibancadas cavadas no chão e um único teto leve por cima de tudo.",
+        "A ideia do teto veio de Montreal. Cord Wehrse, do escritório, tinha visto o pavilhão alemão da Expo 67, uma rede de cabos de cerca de 8 mil metros quadrados pendurada em mastros, projetada por Frei Otto e Rolf Gutbrod. Para a maquete do concurso, segundo a história que o próprio escritório conta, Fritz Auer esticou uma meia de náilon sobre palitos e alfinetes. Era uma imagem, não uma estrutura.",
+        "Segundo o engenheiro Rudolf Bergermann, o projeto quase foi eliminado e só sobreviveu porque o prefeito Hans-Jochen Vogel e o presidente do júri, Egon Eiermann, o defenderam. Em 13 de outubro de 1967, ele venceu por 17 votos a 2."
+      ]
+    },
+    {
+      "titulo": "Ninguém sabia se era possível",
+      "paragrafos": [
+        "O relatório que o governo federal entregou ao Bundestag em 1975 não esconde o tamanho da aposta. O teto, diz o texto, era uma construção técnica completamente nova, para a qual não havia experiência a que recorrer; no começo, não estava claro nem se era construível. Em março de 1968, a dona da obra mandou desenvolver, ao lado da tenda, uma alternativa conservadora, com tetos separados sobre cada prédio.",
+        "Um grupo de especialistas internacionais examinou as duas. Sobre a tenda, concluiu que a construção parecia estática e construtivamente impecável e executável. O engenheiro Fritz Leonhardt, segundo Bergermann, foi quem disse ao cliente que o teto podia ser feito. Em 21 de junho de 1968, o conselho escolheu a tenda, sem tempo para outro parecer: o calendário dos Jogos não permitia esperar nem mais um dia."
+      ]
+    },
+    {
+      "titulo": "Maquetes que não bastavam",
+      "paragrafos": [
+        "Frei Otto ficou famoso por estudar formas leves com película de sabão, que se estica entre arames até ocupar a menor área possível. Para Munique, porém, o que as fontes técnicas registram são outros modelos. O instituto dele na Universidade de Stuttgart fez maquetes de forma em malha de poliéster na escala 1:200 e, para o cálculo, maquetes em 1:125, com a rede feita de fio de aço inoxidável de 0,2 milímetro, os cabos de borda de cobre e cada nó amarrado à mão.",
+        "Essas maquetes eram carregadas com pesos e fotografadas por várias câmeras ao mesmo tempo, para medir quanto a rede cedia. Das fotos sairiam os comprimentos de cada cabo. Não deu. Segundo um estudo de 2024 do grupo de pesquisa alemão que estuda esses modelos, não haveria tempo para construir todas as maquetes de detalhe necessárias; Bergermann lembra que as primeiras maquetes do instituto eram imprecisas demais para servir de base à obra.",
+        "A convivência também não foi fácil. Frei Otto defendia uma malha de 50 centímetros, pela qual ninguém conseguiria cair; os engenheiros impuseram 75, para reduzir o número de nós. Segundo Bergermann, depois de quase meio ano de cooperação, o cliente decidiu dispensar Frei Otto."
+      ]
+    },
+    {
+      "titulo": "O computador entra na obra",
+      "paragrafos": [
+        "A saída foi calcular. Na Universidade de Stuttgart havia um CDC 6600, um dos computadores mais rápidos da época. John Argyris, um dos criadores do método dos elementos finitos, adaptou um programa que tinha sido escrito para rotores de helicóptero e o usou na rede do ginásio. O geodesista Klaus Linkwitz, que deveria apenas medir as maquetes, criou com Hans-Jörg Schek outro método, por mínimos quadrados, pronto em maio de 1970 e usado no estádio.",
+        "Esse método é hoje conhecido como método da densidade de forças e continua sendo usado para dar forma a coberturas de cabos e de membrana no mundo inteiro. O escritório que fez o teto o chama de a primeira aplicação iterativa de computador para esse tipo de problema. Os desenhos de execução, em escala 1:20, foram feitos à mão por vinte ou trinta soldados do exército alemão, segundo Bergermann.",
+        "Entre a meia de náilon e o teto pronto há, portanto, um computador. A forma nasceu de um desenho de arquiteto e de maquetes físicas; mas o comprimento exato de cada cabo, a posição de cada nó e o corte da rede saíram de programas."
+      ]
+    },
+    {
+      "titulo": "Uma conta que se multiplicou",
+      "paragrafos": [
+        "O relatório de 1975 registra a escalada data por data. Em outubro de 1967, a construtora estatal estimou o teto em 47,7 milhões de marcos, tomando como base o pavilhão de Montreal. Em fevereiro de 1968, Behnisch falou em 15 a 18 milhões. Em julho de 1969, quando a licitação abriu, só 2 dos 15 interessados apresentaram lances: 101 e 130 milhões. O projeto já não podia mudar, porque estádio, ginásio e piscina estavam sendo construídos para receber a tenda.",
+        "A dona da obra cancelou a licitação e fechou um contrato por reembolso de custos. A conta continuou subindo: o acrílico translúcido, o aço 20% mais caro, a correção de estimativas erradas, a proteção contra corrosão. Em 30 de setembro de 1974, a conta final provisória chegou a 170,6 milhões de marcos, o dobro do estádio sem o teto. Bergermann e a imprensa de Munique falam em 200 milhões ou mais.",
+        "O próprio governo resumiu assim: o teto tem de longe a maior taxa de aumento de custo entre todas as obras olímpicas, e é, ao mesmo tempo, um feito técnico pioneiro de primeira ordem. Projeto e obra correram em paralelo, por falta de tempo, e cada exigência nova descoberta no canteiro virou custo."
+      ]
+    },
+    {
+      "titulo": "O teto que ficou",
+      "paragrafos": [
+        "O teto do estádio ficou pronto em 21 de abril de 1972, e o estádio foi inaugurado em 26 de maio, com quatro gols de Gerd Müller contra a União Soviética. Em setembro, os Jogos foram interrompidos pelo atentado à equipe de Israel na Vila Olímpica, e foi no estádio, debaixo do teto, que cerca de 80 mil pessoas se reuniram na cerimônia em memória das vítimas.",
+        "O lado leste das arquibancadas continua descoberto: o trecho de teto previsto ali nunca foi feito, embora as fundações tenham sido construídas por precaução. As placas de acrílico, previstas para durar uns 25 anos, ficaram leitosas e foram todas trocadas no fim dos anos 1990. O estádio, protegido como patrimônio e por direito autoral, perdeu os clubes de futebol em 2005, mas segue recebendo atletismo e shows."
+      ]
+    },
+    {
+      "titulo": "Desmontar placa por placa, de novo",
+      "paragrafos": [
+        "Em setembro de 2025, a prefeitura aprovou a maior obra da história do Parque Olímpico: a reforma completa do teto, orçada em 298,4 milhões de euros. As 11 mil placas de acrílico serão trocadas outra vez, com amortecedores, perfis e juntas; todos os cabos recebem nova proteção contra corrosão; e parte das fundações das ancoragens será reparada. A obra começa em setembro de 2026 e deve terminar no fim de 2029, em etapas.",
+        "Ao mesmo tempo, o parque voltou a ser candidato. Em 26 de outubro de 2025, 66,4% dos eleitores de Munique votaram a favor de uma candidatura olímpica, e em 26 de setembro de 2026 o Comitê Olímpico Alemão escolheu a cidade, por 91 votos a 50, como candidata do país aos Jogos de 2036, 2040 ou 2044. O teto que ninguém sabia se podia ser construído está sendo refeito para, talvez, cobrir uma segunda Olimpíada."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "Frei Otto achou a forma do teto mergulhando arames em água com sabão.",
+      "registro": "Frei Otto de fato estudava superfícies mínimas com película de sabão no seu instituto em Stuttgart. Mas, para Munique, os registros técnicos descrevem uma maquete de meia de náilon no concurso, maquetes de malha de poliéster em 1:200 e maquetes de fio de aço em 1:125 para medição, sem película de sabão."
+    },
+    {
+      "circula": "O teto foi feito sem computador, só com maquetes.",
+      "registro": "Não. As maquetes não davam a precisão nem o tempo necessários, e o cálculo final dos cabos foi feito num computador CDC 6600 da Universidade de Stuttgart, com programas de John Argyris e de Klaus Linkwitz e Hans-Jörg Schek. Foi uma das primeiras grandes aplicações de computador na engenharia civil."
+    },
+    {
+      "circula": "Frei Otto projetou o teto de Munique.",
+      "registro": "O teto nasceu no escritório de Günter Behnisch, inspirado no pavilhão de Frei Otto em Montreal, e foi calculado pelo escritório Leonhardt + Andrä, com Jörg Schlaich e Rudolf Bergermann. Frei Otto foi o arquiteto parceiro do teto e seu instituto fez as maquetes; segundo Bergermann, ele foi dispensado depois de meio ano."
+    },
+    {
+      "circula": "O teto custou dez vezes mais do que o previsto.",
+      "registro": "Depende de quem previu. Foram cerca de dez vezes os 15 a 18 milhões de marcos estimados pelo arquiteto, e três vezes e meia os 47,7 milhões da primeira estimativa da construtora estatal. A conta final oficial foi de 170,6 milhões."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Deutscher Bundestag, Drucksache 7/3066, \"Unterrichtung durch die Bundesregierung betr. Gesamtfinanzierung der Olympischen Sommerspiele 1972\", 1975",
+      "url": "https://dserver.bundestag.de/btd/07/030/0703066.pdf"
+    },
+    {
+      "texto": "Wenzel, Vöhringer, Schmid e Weber, \"Retro-digitising non-Euclidean physical models in construction history\", Architectus, 2024",
+      "url": "https://doi.org/10.37190/arc240404"
+    },
+    {
+      "texto": "Iker Gil e Bill Baker, \"The Super Roof Turns 50\", entrevista com Rudolf Bergermann e Knut Göppert, MAS Context, 2022",
+      "url": "https://mascontext.com/observations/the-super-roof-turns-50"
+    },
+    {
+      "texto": "schlaich bergermann partner, \"Roof for Munich Olympic Stadium 1972\"",
+      "url": "https://www.sbp.de/en/project/roof-for-munich-olympic-stadium-1972/"
+    },
+    {
+      "texto": "Bundesingenieurkammer, \"Eine Idee wird Realität: wie das Zeltdach des Olympiastadions München den Ingenieurbau Deutschlands prägte\", 2023",
+      "url": "https://bingk.de/eine-idee-wird-realitaet-wie-das-zeltdach-des-olympiastadions-muenchen-den-ingenieurbau-deutschlands-praegte/"
+    },
+    {
+      "texto": "Universidade de Stuttgart, Institut für Ingenieurgeodäsie, relatório anual 2017 (obituário de Klaus Linkwitz)",
+      "url": "https://www.iigs.uni-stuttgart.de/institut/publikationen/jahresberichte/jb_2017_iigs.pdf"
+    },
+    {
+      "texto": "H.-J. Schek, \"The force density method for form finding and computation of general networks\", Computer Methods in Applied Mechanics and Engineering, 1974",
+      "url": "https://doi.org/10.1016/0045-7825(74)90045-0"
+    },
+    {
+      "texto": "Olympiapark München, \"Zeltdach-Konstruktion\"",
+      "url": "https://olympiapark.muenchen.de/olympiapark/zeltdach.html"
+    },
+    {
+      "texto": "Prefeitura de Munique, \"Stadtrat beschließt Sanierung des Zeltdachs im Olympiapark\", 2025",
+      "url": "https://ru.muenchen.de/2025/181/Stadtrat-beschliesst-Sanierung-des-Zeltdachs-im-Olympiapark-120318"
+    },
+    {
+      "texto": "Stadtwerke München, \"Modernisierungen im Olympiapark\"",
+      "url": "https://www.swm.de/unternehmen/magazin/leben/olympiapark-modernisierung"
+    },
+    {
+      "texto": "Prefeitura de Munique, resultado oficial do plebiscito sobre a candidatura olímpica, 2025",
+      "url": "https://ru.muenchen.de/2025/207/Buergerentscheid-zur-Olympiabewerbung-Amtliches-Endergebnis-121032"
+    },
+    {
+      "texto": "Sportschau, \"München ist Olympiabewerber: Schwieriger Prozess mit ulkigem Ende\", 2026",
+      "url": "https://www.sportschau.de/olympia/ein-schwieriger-prozess-mit-ulkigem-ende,olympia-muenchen-wahlsieger-analyse-100.html"
+    },
+    {
+      "texto": "Münchner Stadtmuseum, \"Ein tragischer Unfall im Vorfeld der Spiele\", depoimento de Helmut Bauer",
+      "url": "https://sammlungonline.muenchner-stadtmuseum.de/beitrag/ein-tragischer-unfall-im-vorfeld-der-spiele-beitrag-von-helmut-bauer-343"
+    },
+    {
+      "texto": "Bayerische Landeszentrale für politische Bildungsarbeit, \"They're all gone: das Olympia-Attentat 1972\"",
+      "url": "https://www.blz.bayern.de/theyre-all-gone--das-olympiaattentat-1972.html"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "27-capa.jpg",
+      "alt": "Fotografia colorida de 1972: o teto transparente do estádio, de cabos e placas, pendurado em mastros altos e inclinados, sobre uma arquibancada de concreto; em primeiro plano, uma pista de atletismo vermelha e uma rua com ônibus",
+      "legenda": "O teto do Estádio Olímpico em 1972, visto da pista de aquecimento, com os mastros inclinados e os cabos que levam a carga até o chão.",
+      "autor": "Romák Éva / Fortepan",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Olimpiai_Stadion._Fortepan_73812.jpg",
+      "recriacao": false,
+      "foco": "50% 40%"
+    },
+    {
+      "arquivo": "27-olympiaberg.jpg",
+      "alt": "Vista do alto de um morro gramado: o estádio com o teto cinza ondulado sobre as arquibancadas do lado oeste, mastros com cabos, torres de iluminação e o lado leste das arquibancadas descoberto; um lago em primeiro plano",
+      "legenda": "O teto visto do Olympiaberg, o morro de entulho da guerra, em 2025. O lado leste das arquibancadas nunca foi coberto.",
+      "autor": "Strubbl",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Ausblick_vom_Olympiaberg_auf_das_Olympiastadion_M%C3%BCnchen_2025-04-15.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "27-seilnetz.jpg",
+      "alt": "Vista de baixo para cima de uma borda do teto: a rede de cabos de aço em quadrados, as placas transparentes por cima, os grampos nos nós e um mastro cinza contra o céu azul",
+      "legenda": "A rede vista de baixo: malhas de 75 centímetros, grampos em cada nó e as placas de acrílico de 3 por 3 metros por cima.",
+      "autor": "Martin Falbisoner",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Olympic_Roof_Munich,_July_2018_-01.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "27-ancoragem.jpg",
+      "alt": "Bloco de concreto inclinado, parcialmente desenterrado, com um tubo grosso de onde sai um cabo; ao fundo, andaimes e a borda do teto",
+      "legenda": "Um bloco de ancoragem dos cabos, desenterrado durante uma manutenção em abril de 2023.",
+      "autor": "Andrybak",
+      "licenca": "CC BY 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:20230416_Olympic_Roof_Munich_anchor_1.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "27-parque-1972.jpg",
+      "alt": "Fotografia colorida de 1972: pessoas sentadas e deitadas num gramado em declive, entre mastros com bandeiras verdes, azuis e brancas; à esquerda, a borda do teto de cabos",
+      "legenda": "Público no gramado do Parque Olímpico durante os Jogos de 1972, com a borda do teto ao fundo.",
+      "autor": "Romák Éva / Fortepan",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Olimpiai_Park._Fortepan_73833.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "opera-de-sydney"
+}

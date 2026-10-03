@@ -1,0 +1,304 @@
+{
+  "num": "31",
+  "slug": "tunel-de-base-de-sao-gotardo",
+  "obra": "Túnel de Base de São Gotardo",
+  "titulo_video": null,
+  "lugar": "Sob o maciço do São Gotardo, entre Erstfeld (cantão de Uri) e Bodio (cantão do Ticino), Alpes, Suíça",
+  "regiao": "mundo",
+  "periodo": "1999–2016",
+  "estreia": "2027-05-06",
+  "impossivel": "Atravessar os Alpes quase em linha reta por baixo, com até 2.300 metros de montanha em cima, rocha perto dos 50 °C e um trecho em que a própria rocha fechava o buraco à medida que ele era aberto.",
+  "resumo": "Como a Suíça abriu 57 km de túnel ferroviário sob os Alpes, deixando a montanha se fechar de propósito num trecho, ao custo de CHF 12,2 bi e 9 vidas.",
+  "abertura": [
+    "Desde 1882 os trens atravessam o maciço do São Gotardo, nos Alpes suíços, por um túnel de 15 quilômetros cavado no alto da montanha, ao fim de rampas e curvas que obrigam os cargueiros a levar uma locomotiva extra. A ideia de passar pela base da montanha, quase no plano, aparece em desenhos de 1947. Só saiu do papel depois de duas votações populares, em 1992 e 1998, que deram à Suíça o projeto e o dinheiro.",
+    "O resultado são dois tubos de via única com 57 quilômetros cada, de Erstfeld, no cantão de Uri, a Bodio, no Ticino: o túnel ferroviário mais longo do mundo, inaugurado em 1º de junho de 2016. Para chegar lá, os engenheiros enfrentaram rocha quente, a ameaça de água sob pressão e um trecho de pouco mais de um quilômetro em que a solução foi deixar a montanha apertar o túnel."
+  ],
+  "numeros": [
+    {
+      "valor": "57 km",
+      "rotulo": "de túnel, em dois tubos de via única: o túnel ferroviário mais longo do mundo",
+      "conf": "2+"
+    },
+    {
+      "valor": "2.300 m",
+      "rotulo": "de rocha sobre o túnel no ponto mais fundo",
+      "conf": "2+"
+    },
+    {
+      "valor": "8 cm",
+      "rotulo": "de desvio horizontal (e 1 cm vertical) no encontro principal, em 15/10/2010",
+      "conf": "2+"
+    },
+    {
+      "valor": "CHF 12,2 bi",
+      "rotulo": "de custo efetivo da obra, pago por um fundo federal",
+      "conf": "2+"
+    },
+    {
+      "valor": "9",
+      "rotulo": "operários mortos na construção, entre 2002 e 2012, segundo o dono da obra",
+      "conf": "2+"
+    },
+    {
+      "valor": "45 · 50 °C",
+      "rotulo": "de temperatura máxima na rocha, conforme a fonte",
+      "conf": "DIV"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Tirar carga das estradas dos Alpes e pô-la no trem. Sem rampas, o túnel permite trens mais longos e pesados, com menos locomotivas: até 260 cargueiros por dia, contra no máximo 180 na linha de montanha de 1882.",
+      "conf": "1",
+      "nota": "números do folheto da Confederação Suíça, de 2015"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "A Confederação Suíça, depois de duas votações populares: a aprovação da Nova Ligação Ferroviária pelos Alpes (NEAT) em 1992 e, em novembro de 1998, o fundo que garantiu o dinheiro. Os primeiros desenhos de um túnel de base entre Amsteg e Bodio são de 1947.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem construiu",
+      "valor": "A AlpTransit Gotthard AG, subsidiária da SBB criada para a obra, como construtora-mandatária da Confederação. As quatro tuneladoras foram fabricadas pela alemã Herrenknecht. A operação é da SBB, as ferrovias federais suíças.",
+      "conf": "2+"
+    },
+    {
+      "item": "Como foi aberto",
+      "valor": "Em cinco lotes, ao mesmo tempo: pelos portais de Erstfeld e Bodio, por galerias de acesso em Amsteg e Faido e por dois poços verticais de cerca de 800 metros em Sedrun. Tuneladoras fizeram a maior parte dos tubos principais; o resto foi a explosivo.",
+      "conf": "2+",
+      "nota": "a parte das tuneladoras é de 80% para a Confederação e de cerca de 75% para a fabricante"
+    },
+    {
+      "item": "Tuneladoras",
+      "valor": "Quatro Herrenknecht do tipo gripper, com cabeças de 9,43 e 9,58 metros e mais de 400 metros de comprimento. Os operários as chamavam de Sissi e Heidi (as do sul) e Gabi 1 e Gabi 2 (as do norte).",
+      "conf": "2+"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Trabalhos preparatórios em Sedrun desde 1996; obra principal desde 1999; encontro principal em 15/10/2010 e último em 23/03/2011; inauguração em 01/06/2016 e trens comerciais a partir de 11/12/2016. São 17 anos sem contar a exploração geológica.",
+      "conf": "2+"
+    },
+    {
+      "item": "Operários",
+      "valor": "Cerca de 2.400 pessoas no pico, trabalhando 24 horas por dia em três turnos, segundo a Confederação. O total de trabalhadores que passaram pela obra não foi registrado nas fontes consultadas.",
+      "conf": "1"
+    },
+    {
+      "item": "Mortes",
+      "valor": "Nove operários morreram entre 2002 e 2012: quatro alemães, três italianos, um sul-africano e um austríaco, nos canteiros de Amsteg (1), Sedrun (2), Faido (3) e Bodio (3). Os nomes estão numa placa de bronze no portal norte, em Erstfeld, descerrada na véspera da inauguração.",
+      "conf": "2+",
+      "nota": "número da própria AlpTransit; nenhuma fonte consultada o contesta"
+    },
+    {
+      "item": "Custo",
+      "valor": "CHF 12,2 bilhões efetivos. A cifra de CHF 9,7 bilhões, também oficial, está a preços de 1998, sem o aumento do imposto sobre valor agregado e sem os juros da obra.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem pagou",
+      "valor": "Um fundo federal criado em 1998, alimentado em 60% por uma taxa sobre caminhões pesados, em 30% pelo imposto sobre valor agregado e em 10% pelo imposto sobre óleo mineral.",
+      "conf": "1"
+    },
+    {
+      "item": "A rocha",
+      "valor": "De granito duro a rocha sedimentar que se esfarela. Cobertura máxima de 2.300 metros. Temperatura de 45 °C medidos na obra, segundo a imprensa suíça, ou de até 50 °C, segundo a Confederação, contra o limite de 28 °C para o trabalho.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Material retirado",
+      "valor": "28,2 milhões de toneladas de rocha, de 152 quilômetros de galerias somando tubos, acessos, poços e passagens transversais.",
+      "conf": "2+"
+    },
+    {
+      "item": "Acidente de 2023",
+      "valor": "Em 10/08/2023, a roda partida de um vagão fez 16 vagões de um trem de carga descarrilarem dentro do túnel, perto de Faido. Um dos tubos ficou fechado até 02/09/2024. O dano é estimado pela SBB em cerca de CHF 150 milhões ou em CHF 100 a 130 milhões, conforme a ocasião.",
+      "conf": "DIV",
+      "nota": "o fato e as datas são confirmados; o valor do dano diverge"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Em dez anos passaram 169 mil trens de passageiros e 276 mil de carga. Em 2025, 16.400 passageiros por dia e 24,2 milhões de toneladas de carga. Desde maio de 2026, detectores de descarrilamento vigiam as entradas.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Uma montanha que já tinha cobrado caro",
+      "paragrafos": [
+        "O primeiro túnel do São Gotardo, entre Göschenen, no cantão de Uri, e Airolo, no Ticino, foi cavado de 1872 a 1882. Custou vidas em número que nem as fontes concordam: 171 na lista de vítimas citada pelo Museu Nacional Suíço, 177 ou 199 em outros levantamentos. Dinamite, poeira, desnutrição, tifo e verminose fizeram parte da conta. O engenheiro e empreiteiro Louis Favre morreu de um ataque cardíaco dentro do túnel em 1879, antes de os dois lados se encontrarem.",
+        "Aquele túnel fica no alto. Para chegar a ele, a linha sobe em rampas e espirais, e os trens de carga precisam de uma locomotiva extra. A ideia de um túnel de base, aberto na raiz da montanha e quase plano, aparece em desenhos de 1947. Virou projeto quando os suíços aprovaram a Nova Ligação Ferroviária pelos Alpes, em 1992, e virou dinheiro em novembro de 1998, com um fundo pago sobretudo por uma taxa sobre caminhões pesados. A própria estrada passou a pagar o trem que ia tirar carga dela."
+      ]
+    },
+    {
+      "titulo": "Cinco frentes ao mesmo tempo",
+      "paragrafos": [
+        "Cavar 57 quilômetros a partir das duas pontas levaria tempo demais. A AlpTransit Gotthard dividiu a obra em cinco lotes e atacou todos de uma vez: pelos portais de Erstfeld e Bodio, por galerias de acesso em Amsteg e Faido e, no meio da montanha, por dois poços verticais de cerca de 800 metros em Sedrun, no cantão dos Grisões. O poço número 1 começou a ser aberto em agosto de 1998.",
+        "Quatro tuneladoras Herrenknecht, máquinas de mais de 400 metros de comprimento com cabeças de corte de quase 9,6 metros, fizeram a maior parte dos tubos. Em 2009, a Gabi 2 avançou 56 metros em 24 horas, recorde para uma máquina daquele tamanho em rocha dura, segundo a fabricante. Onde a rocha era mole demais para uma tuneladora que se apoia nas paredes, o túnel foi aberto a explosivo."
+      ]
+    },
+    {
+      "titulo": "A água que podia estar lá",
+      "paragrafos": [
+        "Durante décadas, geólogos discutiram a sinclinal de Piora, uma faixa de dolomita no caminho do túnel. Os pessimistas achavam que atravessá-la seria praticamente impossível; os otimistas, que ela nem chegaria ao nível da obra. Entre 1993 e 1996, a exploração custou cerca de CHF 100 milhões, segundo os próprios engenheiros da AlpTransit.",
+        "Em março de 1996, um furo de sondagem feito de uma galeria uns 350 metros acima do futuro túnel encontrou dolomita esfarelada sob alta pressão de água. A mistura invadiu a galeria e, em poucas horas, a estrada em frente. Dezenove furos depois, somando 7 mil metros, a resposta veio: no nível do túnel, a rocha era sólida e seca. As tuneladoras atravessaram a Piora sem problema, a do tubo leste em outubro de 2008 e a do oeste em janeiro de 2009."
+      ]
+    },
+    {
+      "titulo": "Deixar a montanha apertar",
+      "paragrafos": [
+        "O trecho mais temido ficava ao norte de Sedrun, no maciço intermediário de Tavetsch. Ali o túnel tinha de cruzar cerca de 1,2 quilômetro de rocha moída por falhas geológicas, os chamados kakiritos, sob 800 metros ou mais de montanha. Em ensaios de laboratório, essa rocha se mostrou altamente dúctil e passou a ocupar muito mais volume ao se fraturar. Ela não desaba como pedra: avança devagar sobre o buraco, como uma massa sob pressão. Problema parecido já tinha aparecido no túnel rodoviário do Gotardo, nos anos 1970.",
+        "Um suporte rígido seria esmagado. A solução, desenvolvida pelos engenheiros de projeto com a AlpTransit, juntou duas práticas que nunca tinham sido usadas naquelas condições: anéis de aço deslizantes, vindos da mineração, e a escavação de seção inteira com a frente fortemente escorada, à maneira italiana. O túnel foi aberto maior do que precisava, com até cerca de 13 metros de diâmetro, e recebeu dois anéis de aço concêntricos com juntas que escorregam. A montanha apertava, os anéis cediam, e o buraco se fechava de propósito, com convergência prevista de até cerca de 70 centímetros, antes de receber o revestimento final de concreto, de até 120 centímetros de espessura.",
+        "O princípio, nas palavras dos engenheiros, é que quanto mais o anel cede, menos força é preciso para segurar a montanha. Antes de aplicá-lo, a equipe testou os anéis em tamanho real numa galeria lateral de Sedrun, simulando a pressão da rocha com almofadas cheias de água, e descobriu que o comportamento previsto na teoria não se repetia na prática. Medida depois, a deformação ficou em média em 25 centímetros e chegou a 85 em pontos assimétricos, segundo um levantamento da Sociedade Geotécnica Suíça. O trecho foi vencido entre 2004 e 2007, mais de meio ano antes do previsto."
+      ]
+    },
+    {
+      "titulo": "Oito centímetros",
+      "paragrafos": [
+        "Em 15 de outubro de 2010, a tuneladora Sissi rompeu a última parede de rocha do tubo leste, entre Sedrun e Faido. Os dois lados, cavados durante anos um em direção ao outro dentro da montanha, se encontraram com desvio de 8 centímetros na horizontal e 1 centímetro na vertical. A tolerância era de 25 centímetros. O tubo oeste foi concluído em 23 de março de 2011.",
+        "Seguiram-se cinco anos de trilhos, catenária, ventilação e sistemas de segurança. Em 31 de maio de 2016, na véspera da festa, cerca de 50 pessoas se reuniram no portal norte para descerrar uma placa de bronze com os nomes dos nove operários mortos na obra, entre 2002 e 2012. No dia seguinte, o túnel foi inaugurado diante dos líderes da Alemanha, da França e da Itália. Os trens comerciais começaram a passar em 11 de dezembro."
+      ]
+    },
+    {
+      "titulo": "Um vagão, uma roda, um ano",
+      "paragrafos": [
+        "Em 10 de agosto de 2023, parte de uma roda do 11º vagão de um trem de carga que ia de Chiasso a Basileia se soltou logo depois da entrada sul. Quilômetros adiante, o eixo destruiu uma agulha na estação multifuncional de Faido, e 16 vagões descarrilaram. O túnel ficou totalmente fechado por duas semanas; depois, um tubo voltou a operar, e o outro só foi liberado em 2 de setembro de 2024. O relatório final do órgão suíço de investigação de acidentes, de junho de 2025, apontou fadiga no disco da roda depois de um superaquecimento, provavelmente causado por freio preso.",
+        "Em maio de 2026, um parecer da promotoria do Ticino, divulgado pela imprensa suíça, sustentou que a central de operação da SBB poderia ter evitado o pior; a SBB rejeitou a acusação. Na mesma época, a empresa ligou detectores de descarrilamento em cerca de dez pontos antes das entradas do túnel. Em 1º de junho de 2026, o túnel fez dez anos: o número de passageiros por dia quase dobrou desde 2015, e a carga transportada chegou a 24,2 milhões de toneladas em 2025."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "É o túnel mais longo do mundo.",
+      "registro": "É o túnel ferroviário mais longo do mundo, com 57 quilômetros. O título vale para túneis de trem."
+    },
+    {
+      "circula": "Custou o dobro do previsto.",
+      "registro": "Os CHF 9,7 bilhões oficiais estão a preços de 1998, sem o aumento de imposto e sem os juros da obra; os CHF 12,2 bilhões são o custo efetivo. As duas cifras não medem a mesma coisa."
+    },
+    {
+      "circula": "Os dois lados se encontraram com erro de milímetros.",
+      "registro": "No encontro principal, em 2010, o desvio foi de 8 centímetros na horizontal e 1 na vertical. Os milímetros (4 e 8) são do encontro de Amsteg, em 2009, segundo a fabricante das tuneladoras."
+    },
+    {
+      "circula": "Uma obra moderna como essa não matou ninguém.",
+      "registro": "Nove operários morreram, segundo a própria AlpTransit Gotthard, que lhes dedicou uma placa no portal norte em 2016."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "Confederação Suíça (Bundesamt für Verkehr / gottardo2016.ch), \"The Gotthard Base Tunnel\", folheto, 2015",
+      "url": "https://www.newsd.admin.ch/newsd/message/attachments/39644.pdf"
+    },
+    {
+      "texto": "Rupert Lieb e Heinz Ehrbar (AlpTransit Gotthard), \"Gotthard Base Tunnel: Risk Management for the World's Longest Railway Tunnel\", World Tunnel Congress, 2011",
+      "url": "https://www.heinzehrbarpartners.com/wp-content/uploads/2020/04/2011-WTC-Helsinki.pdf"
+    },
+    {
+      "texto": "Sociedade Geotécnica Suíça, \"Gotthard Base Tunnel\", ISSMGE Heritage Time Capsule, 2024",
+      "url": "https://htc.issmge.org/contributions/member-societies/swiss-geotechnical-society-geotechnik-schweiz/gotthard-base-tunnel"
+    },
+    {
+      "texto": "Herrenknecht AG, referência \"Gotthard Base Tunnel\"",
+      "url": "https://www.herrenknecht.com/en/references/referencesdetail/gotthard-base-tunnel/"
+    },
+    {
+      "texto": "Revista tunnel, \"Gotthard Base Tunnel: High-accuracy at final breakthrough\", 2010",
+      "url": "https://www.tunnel-online.info/en/artikel/tunnel_2010-08_Gotthard_Base_Tunnel_High-accuracy_at_final_breakthrough-1041005.html"
+    },
+    {
+      "texto": "Tunnels & Tunnelling, \"Sedrun – Gotthard's toughest challenge\", 2004",
+      "url": "https://www.tunnelsandtunnelling.com/analysis/sedrun-gotthard-s-toughest-challenge/"
+    },
+    {
+      "texto": "AlpTransit Gotthard AG, comunicado sobre a cerimônia em memória dos operários mortos, 31/05/2016",
+      "url": "https://www.alptransit.ch/en/media/press-releases/detail/news/memorial-ceremony-for-deceased-tunnel-workers-977/"
+    },
+    {
+      "texto": "SRF, \"Gotthard – Die Schattenseite des Jahrhundertbauwerks\", 2016",
+      "url": "https://www.srf.ch/news/schweiz/gotthard-die-schattenseite-des-jahrhundertbauwerks"
+    },
+    {
+      "texto": "Luigi Jorio, \"Engineers meet challenge of Gotthard tunnel\", swissinfo.ch, 2014",
+      "url": "https://swissinfo.ch/eng/business/alptransit_engineers-meet-challenge-of-gotthard-tunnel/40792690"
+    },
+    {
+      "texto": "swissinfo.ch, \"Broken wheel caused Gotthard Base Tunnel derailment, report confirms\", 2023",
+      "url": "https://www.swissinfo.ch/eng/politics/broken-wheel-caused-gotthard-base-tunnel-derailment-report-confirms/48845576"
+    },
+    {
+      "texto": "Keystone-SDA, \"SBB installiert Entgleisungsdetektoren vor dem Gotthard-Basistunnel\", nau.ch, 12/05/2026",
+      "url": "https://www.nau.ch/news/wirtschaft/sbb-installiert-entgleisungsdetektoren-vor-dem-gotthard-basistunnel-67127751"
+    },
+    {
+      "texto": "Luigi Jorio, \"The Gotthard Base Tunnel ten years on\", swissinfo.ch, 2026",
+      "url": "https://www.swissinfo.ch/eng/swiss-democracy/the-gotthard-base-tunnel-ten-years-on/91672319"
+    },
+    {
+      "texto": "Museu Nacional Suíço, \"Vincenzo Vela's Victims of Labour memorial\", 2023",
+      "url": "https://blog.nationalmuseum.ch/en/2023/01/vincenzo-velas-victims-of-labour-memorial/"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "31-capa.jpg",
+      "alt": "Dentro de um túnel de rocha coberta de concreto projetado, a enorme cabeça de corte circular de uma tuneladora, cor de ferrugem, cheia de aberturas; um operário de capacete e macacão está em pé ao lado dela, à altura de um quarto do disco",
+      "legenda": "A cabeça de corte da tuneladora S-210, a Sissi, ao chegar a Faido pelo tubo leste, em setembro de 2006. A mesma máquina fez o encontro principal, quatro anos depois.",
+      "autor": "Cooper.ch",
+      "licenca": "CC BY-SA 2.5",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:TBM_S-210_Alptransit_Faido_East.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "31-amsteg-2004.jpg",
+      "alt": "Interior de um túnel de rocha escura em obra, com trilhos provisórios, uma pequena locomotiva de serviço branca com faróis acesos, um vagão de concreto à esquerda e luzes ao longo da parede curva até o fundo",
+      "legenda": "O tubo leste no canteiro de Amsteg, em agosto de 2004, com a rocha ainda à vista. A tuneladora já estava quilômetros adiante.",
+      "autor": "Daniel Schwen",
+      "licenca": "CC BY-SA 2.5",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:CH_Gotthard_Basistunnel_Amsteg_1.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "31-sedrun-2010.jpg",
+      "alt": "Vista do alto de um canteiro de obras coberto de neve num vale de pinheiros, com galpões, um prédio alto cinza, pilhas de tubos e uma longa esteira amarela atravessando a cena",
+      "legenda": "O canteiro de Sedrun, em outubro de 2010, onze dias depois do encontro principal. Daqui, dois poços de cerca de 800 metros desciam até o túnel.",
+      "autor": "Markus Giger",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:20101026Y530_Sedrun_106.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "31-faido-2014.jpg",
+      "alt": "Grande caverna de concreto em arco, com duas bocas de túnel lado a lado ao fundo, cada uma fechada por um portão amarelo, trilhos no piso e materiais de obra empilhados no centro",
+      "legenda": "A estação multifuncional de Faido em obra, em novembro de 2014, com os dois tubos e os portões provisórios contra a corrente de ar. Foi nesta estação que o trem descarrilado de 2023 destruiu uma agulha.",
+      "autor": "Hannes Ortlieb",
+      "licenca": "CC BY-SA 3.0 DE",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:20141120_gotthard-basistunnel05-wiki.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "31-portal-norte.jpg",
+      "alt": "Trem branco de nariz pontudo saindo de uma de duas bocas de túnel em concreto liso, sob um talude de pedras; em primeiro plano, trilhos e o telhado de um galpão vermelho",
+      "legenda": "Um EuroCity no portal norte, em Erstfeld, em novembro de 2016, semanas antes do início dos trens comerciais.",
+      "autor": "Zacharie Grossen",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:GBT_north.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "31-inauguracao.jpg",
+      "alt": "Multidão desfocada em primeiro plano numa estação ao ar livre, um trem de dois andares parado à esquerda e, ao fundo, entre postes de catenária e montanhas verdes, a boca do túnel com um trem saindo",
+      "legenda": "Público nos dias de inauguração, em junho de 2016, junto ao portal sul, quando os primeiros trens com passageiros atravessaram o túnel.",
+      "autor": "Zacharie Grossen",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Gotthard_2016.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "ponte-de-duge"
+}

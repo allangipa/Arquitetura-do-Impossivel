@@ -53,16 +53,7 @@ BORDAO = "Toda semana, uma obra que não deveria ter ficado de pé."
 
 # Episódios anunciados que ainda não têm página: aparecem no quadro como
 # "em apuração", sem link. Quando o JSON da obra existir, tire daqui.
-EM_APURACAO = [
-    {
-        "num": "26",
-        "obra": "Astrodome",
-        "lugar": "Houston, Texas, Estados Unidos",
-        "regiao": "mundo",
-        "impossivel": "Cobrir um estádio inteiro com uma cúpula de aço e climatizá-lo, em 1965 — e descobrir que a grama não crescia lá dentro.",
-        "estreia": "2027-04-01",
-    },
-]
+EM_APURACAO = []
 
 OBRIGATORIOS = ["num", "slug", "obra", "titulo_video", "lugar", "regiao", "periodo",
                 "estreia", "impossivel", "resumo", "abertura", "numeros", "ficha",
@@ -670,7 +661,7 @@ def pagina_404():
 # --- main ---------------------------------------------------------------------
 
 PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
-  <span class="rotulo">Documento · atualizado em 02 de outubro de 2026</span>
+  <span class="rotulo">Documento · atualizado em 03 de outubro de 2026</span>
   <h1>Política de privacidade</h1>
   <p class="lead">Um site que cobra fonte dos outros deve ser claro sobre si mesmo. Aqui está o que o {{NOME}} coleta, o que não coleta, quem mais está envolvido e o que você pode exigir.</p>
 
@@ -698,7 +689,7 @@ PRIVACIDADE = """<main id="conteudo"><div class="casca privacidade">
   <p>Uma única coisa, e ela não sai do seu aparelho: quando você responde à faixa de cookies, a escolha fica registrada no armazenamento local do navegador, sob a chave <code>{{CHAVE}}</code>. Serve só para não perguntar de novo a cada página. Não é cookie, não é enviada a servidor nenhum e some quando você limpa os dados do site.</p>
 
   <h2>5. Conteúdo de terceiros</h2>
-  <p>Um único serviço externo participa da exibição destas páginas: o <strong>Google AdSense</strong>, que entrega os anúncios. Se você recusar os cookies na faixa, o anúncio não é sequer carregado, e nem esse pedido acontece.</p>
+  <p>Um único serviço externo participa da exibição destas páginas: o <strong>Google AdSense</strong>, que entrega os anúncios. Se você recusar na faixa, o script de anúncios é retirado e deixa de ser carregado nas próximas páginas.</p>
   <p>O <strong>YouTube</strong> só entra em cena se você clicar num link para o canal: nenhum vídeo é incorporado nestas páginas. Todo o resto — as imagens das fichas de obra e as fontes tipográficas — vem deste mesmo domínio.</p>
 
   <h2>6. Seus direitos sob a LGPD</h2>

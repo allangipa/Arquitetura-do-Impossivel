@@ -1,0 +1,346 @@
+{
+  "num": "26",
+  "slug": "astrodome",
+  "obra": "Astrodome",
+  "titulo_video": null,
+  "lugar": "NRG Park, Houston, Texas, Estados Unidos",
+  "regiao": "mundo",
+  "periodo": "1962–1965",
+  "estreia": "2027-04-01",
+  "impossivel": "Cobrir um estádio de beisebol inteiro com uma cúpula de aço de quase 196 metros de vão, sem uma coluna no meio, e manter climatizado, sem névoa e sem fumaça, um volume de ar onde cabiam dezenas de milhares de pessoas fumando no calor de Houston.",
+  "resumo": "Como Houston cobriu um estádio com uma cúpula de 196 m em 1965, por que a luz do teto matou a grama e o que se faz hoje com o prédio fechado.",
+  "abertura": [
+    "Em Houston, no Texas, o verão é quente, úmido e cheio de chuva de fim de tarde. No começo dos anos 1960, a cidade queria um time de beisebol da liga principal, e o político e empresário Roy Hofheinz prometeu o que ninguém tinha feito: um estádio de beisebol e futebol americano inteiramente coberto, com ar-condicionado.",
+    "O resultado, inaugurado em 9 de abril de 1965, foi uma cúpula de treliça de aço com 642 pés, cerca de 196 metros, de vão livre, sobre o campo inteiro. Os engenheiros calcularam o vento, o calor e até o risco de se formar névoa lá dentro. O que ninguém previu foi o sol: a luz que atravessava o teto cegava os jogadores, e o remédio para isso acabou inventando um nome que o mundo inteiro passou a usar."
+  ],
+  "numeros": [
+    {
+      "valor": "195,7 m",
+      "rotulo": "de vão livre da cúpula (642 pés), sem nenhuma coluna no meio",
+      "conf": "2+"
+    },
+    {
+      "valor": "4.596",
+      "rotulo": "claraboias de acrílico no teto, depois pintadas por causa do ofuscamento",
+      "conf": "2+"
+    },
+    {
+      "valor": "1962–1965",
+      "rotulo": "da cerimônia de início, em 3/1/1962, à inauguração, em 9/4/1965",
+      "conf": "2+"
+    },
+    {
+      "valor": "US$ 31,6–45 mi",
+      "rotulo": "de custo na época, conforme o que cada fonte soma",
+      "conf": "DIV"
+    },
+    {
+      "valor": "6.000 · 6.600 TR",
+      "rotulo": "toneladas de refrigeração de ar-condicionado, conforme a fonte",
+      "conf": "DIV"
+    },
+    {
+      "valor": "US$ 752,6 mi",
+      "rotulo": "para reformar o prédio fechado, contra US$ 55 milhões para demolir (estudo de 2025)",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Dar a Houston um estádio para o beisebol da liga principal e para o rodeio da cidade, protegido do calor, da umidade e da chuva. A National League concedeu a franquia em 1962, e o time jogou três temporadas num estádio provisório ao lado enquanto a cúpula subia.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "Roy M. Hofheinz (1912–1982), ex-juiz do condado de Harris e ex-prefeito de Houston, à frente da Houston Sports Association. O prédio pertence ao condado. O time foi rebatizado Astros em 1965, por causa do centro de naves tripuladas da NASA na cidade, e o estádio virou Astrodome.",
+      "conf": "2+",
+      "nota": "o nome oficial na inauguração era Harris County Domed Stadium"
+    },
+    {
+      "item": "Projeto",
+      "valor": "Arquitetos Lloyd & Morgan, associados a Wilson, Morris, Crain & Anderson. Estrutura calculada pela Walter P. Moore & Associates; a cúpula lamelar, pela Roof Structures, Inc., de St. Louis. Cálculos conferidos por consultores de Nova York e por especialistas em cúpulas. Ar-condicionado projetado pelo engenheiro Israel A. Naman.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem construiu",
+      "valor": "A empreiteira geral foi a H. A. Lott, Inc., de Houston. O aço foi fabricado e montado pela American Bridge, divisão da U.S. Steel.",
+      "conf": "2+"
+    },
+    {
+      "item": "A cúpula",
+      "valor": "Treliça lamelar de aço: peças iguais montadas em losango, em 12 setores de 30 graus, todas com 1,5 m de altura, apoiadas num anel de tração que corre por cima de 72 colunas. As colunas se movem um pouco, para o aço dilatar e contrair sem forçar o resto do prédio. Projetada para rajadas de 165 milhas por hora (cerca de 266 km/h).",
+      "conf": "2+",
+      "nota": "o peso do anel aparece como 376 ou 750 toneladas americanas, conforme a fonte"
+    },
+    {
+      "item": "Medidas",
+      "valor": "Vão livre de 642 pés (195,7 m); diâmetro externo de 710 pés (216,4 m); altura de 208 pés (63,4 m) segundo o registro histórico nacional, ou 213 pés (64,9 m) segundo a firma de engenharia; mais de 3,6 hectares cobertos; campo 25 pés (7,6 m) abaixo do nível da rua.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Títulos aprovados pelos eleitores em 31/1/1961; cerimônia de início em 3/1/1962, com dirigentes atirando de revólver no chão; obra do estádio a partir de 18/3/1963; anel de tração fechado em dezembro de 1963; cúpula livre das torres de escoramento em fevereiro de 1964; inauguração em 9/4/1965, num amistoso contra os New York Yankees.",
+      "conf": "2+",
+      "nota": "os marcos de dezembro de 1963 e fevereiro de 1964 vêm de uma fonte só"
+    },
+    {
+      "item": "Operários",
+      "valor": "O número de trabalhadores, no total ou no pico da obra, não foi registrado nas fontes consultadas.",
+      "conf": "sem"
+    },
+    {
+      "item": "Mortes na construção",
+      "valor": "Três, segundo o Houston Chronicle: Leon Homer Wilson, em outubro de 1963, e dois homens que caíram em 1964, Frank Halliburton, em abril, e o soldador Homer P. Williams, em maio. Não há número oficial nas fontes institucionais.",
+      "conf": "1"
+    },
+    {
+      "item": "Custo",
+      "valor": "US$ 31,6 milhões em títulos do condado; US$ 35,5 milhões no total segundo o registro histórico nacional, somando US$ 3,7 milhões do Estado e da cidade para ruas, pontes e esgoto; mais de US$ 40 milhões segundo a enciclopédia da Associação Histórica do Texas, dos quais US$ 20 milhões a estrutura; pouco mais de US$ 45 milhões segundo a firma de engenharia.",
+      "conf": "DIV",
+      "nota": "pelo índice de preços ao consumidor dos EUA (1965 = 31,5; 2025 = 321,9), US$ 31,6 a 45 milhões equivalem a cerca de US$ 323 a 460 milhões de 2025"
+    },
+    {
+      "item": "Quem pagou",
+      "valor": "O condado de Harris, com títulos garantidos por imposto e aprovados em votação em 1961 e 1962. A cidade de Houston e o departamento estadual de rodovias pagaram as obras do entorno.",
+      "conf": "2+",
+      "nota": "os valores de cada emissão divergem entre as fontes"
+    },
+    {
+      "item": "Ar-condicionado",
+      "valor": "Cerca de 6.000 ou 6.600 toneladas de refrigeração (unidade de potência, não de peso), movendo 2 ou 2,5 milhões de pés cúbicos de ar por minuto, com filtros eletrostáticos e carvão ativado. O volume foi dimensionado para a fumaça de cigarro e o calor do sol que entrava pelo teto.",
+      "conf": "DIV"
+    },
+    {
+      "item": "A grama",
+      "valor": "As claraboias ofuscavam os jogadores nos jogos de dia e foram pintadas em abril de 1965. Com menos luz, a grama natural morreu; o time terminou 1965 em terra pintada de verde. Em 1966 a Monsanto instalou sua grama sintética, primeiro no infield, em abril, e no campo inteiro em 19 de julho. O produto passou a se chamar AstroTurf.",
+      "conf": "2+"
+    },
+    {
+      "item": "O depois",
+      "valor": "Casa dos Astros até 1999 e do time de futebol americano Oilers até 1996. Abrigou sobreviventes do furacão Katrina em setembro de 2005: 17.500 no pico, segundo a Biblioteca Pública de Houston, ou cerca de 25 mil, segundo outras contagens. Fechado depois de 2008 por falhas de segurança contra incêndio.",
+      "conf": "2+",
+      "nota": "o número de abrigados no Katrina diverge"
+    },
+    {
+      "item": "Proteção e planos",
+      "valor": "Eleitores recusaram em 2013 títulos de US$ 217 milhões para reformá-lo (53,5% contra). Inscrito no Registro Nacional de Lugares Históricos em 2014 e declarado marco do Texas em 2017. Um plano do condado de US$ 105 milhões, aprovado entre 2016 e 2018, foi suspenso em 2019.",
+      "conf": "2+"
+    },
+    {
+      "item": "Hoje",
+      "valor": "Um estudo encomendado pelo condado e divulgado em dezembro de 2025 calculou US$ 752,6 milhões para devolver o prédio ao funcionamento básico e US$ 55 milhões para demoli-lo. Em abril de 2026, o Serviço Nacional de Parques considerou o Astrodome apto a ser National Historic Landmark, processo ainda em curso. Em agosto de 2026, a Astrodome Conservancy abriu uma chamada pública de ideias para o prédio.",
+      "conf": "2+"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Um estádio contra o clima",
+      "paragrafos": [
+        "Roy Hofheinz já tinha sido juiz do condado de Harris e prefeito de Houston quando, no fim dos anos 1950, pensou em cobrir um shopping center com uma cúpula. Segundo o biógrafo Ray Edgar, citado no registro histórico nacional, ele consultou Buckminster Fuller, o inventor da cúpula geodésica, que lhe disse que dava para cobrir qualquer espaço, desde que o dinheiro não acabasse. Em 1960, quando surgiu a chance de trazer o beisebol da liga principal para Houston, o shopping saiu de cena e a cúpula foi para o estádio.",
+        "O argumento era o clima. Houston tem calor, umidade e tempestades de verão, e a Houston Sports Association e os comissários do condado achavam que um estádio aberto não atrairia público. Mas um estádio coberto e climatizado era uma ideia tão nova que títulos de receita não atrairiam investidores. O condado de Harris recorreu a títulos garantidos por imposto, aprovados pelos eleitores em janeiro de 1961 e em dezembro de 1962. A National League concedeu o time, o Colt .45s, que estreou em 1962 num estádio provisório ao lado do terreno da futura cúpula."
+      ]
+    },
+    {
+      "titulo": "Losangos de aço",
+      "paragrafos": [
+        "Nunca se tinha coberto um vão daquele tamanho. Os projetistas compararam treliças em balanço, uma malha espacial de madeira e a cúpula geodésica de Fuller, e ficaram com uma cúpula lamelar: uma rede de peças de aço iguais, dispostas em losango, como um trançado. O sistema, nascido em madeira na Alemanha em 1918, já tinha funcionado em vãos de até 285 pés, cerca de 87 metros. Em Houston seriam 642 pés, 195,7 metros.",
+        "A cúpula foi dividida em 12 setores de 30 graus, com todas as peças da mesma altura, 1,5 metro. Ela descansa num anel de tração de aço que corre em volta do estádio por cima de 72 colunas, e essas colunas foram feitas para se mexer: o aço cresce no calor e encolhe no frio, e a cúpula foi projetada para se deslocar até 14 centímetros para cada lado sem forçar a estrutura de baixo. Uma maquete foi testada em túnel de vento na fábrica de aviões McDonnell, em St. Louis, sob dezenas de direções de vento. Segundo o registro histórico nacional, tudo foi calculado sem modelos de computador."
+      ]
+    },
+    {
+      "titulo": "Montada no ar",
+      "paragrafos": [
+        "A cerimônia de início, em 3 de janeiro de 1962, teve dirigentes do condado e do time atirando com revólveres Colt .45 no chão, em vez de cavar com pá. A obra do estádio em si começou em 18 de março de 1963, a cargo da empreiteira H. A. Lott, de Houston, com o aço da American Bridge. A cúpula foi montada sobre 37 torres provisórias de escoramento, do centro para fora; as peças mais longas tinham 122 pés, cerca de 37 metros, para vencer a distância entre uma torre e outra.",
+        "Segundo o historiador Kenneth Womack, num livro da Sociedade de Pesquisa do Beisebol Americano, o furacão Cindy passou pela região em setembro de 1963 sem danificar a estrutura; o anel de tração foi fechado em dezembro; dez soldas defeituosas foram descobertas por radiografia e refeitas; e, em fevereiro de 1964, a cúpula foi solta das torres e passou a se sustentar sozinha. Em abril começaram a entrar as 4.596 claraboias de acrílico.",
+        "Quantos homens trabalharam ali, as fontes consultadas não registram. O Houston Chronicle registrou três mortes: Leon Homer Wilson, em outubro de 1963, e, em 1964, Frank Halliburton, que caiu em abril, e o soldador Homer P. Williams, que caiu em maio."
+      ]
+    },
+    {
+      "titulo": "O medo da chuva de dentro",
+      "paragrafos": [
+        "Fechar 41 milhões de pés cúbicos de ar, mais de 1 milhão de metros cúbicos, debaixo de um teto trazia um problema que nenhum estádio tinha tido. O engenheiro Israel A. Naman, responsável pelo ar-condicionado, escreveu em 1966 na revista da sociedade americana de engenheiros de climatização que havia relatos de chuva dentro de grandes hangares de dirigível, sem chover lá fora. Especulou-se que o estádio pudesse ter neblina, nuvens, turbulência ou até chuva. Era um medo real, mas nunca houve registro de chuva lá dentro.",
+        "O que preocupava mais era a fumaça de cigarro. Naman montou uma caixa de vidro com engenheiros dentro, diante de um filme colorido de um jogo de beisebol, e foi enchendo a caixa de fumaça até eles não enxergarem mais o jogo. Daquela medida saiu a vazão de ar: cerca de 2 a 2,5 milhões de pés cúbicos por minuto, conforme a fonte, passando por filtros eletrostáticos e carvão ativado. A mesma vazão resolvia o resto. Segundo a Biblioteca Pública de Houston, quando o sistema não ficava ligado o tempo todo, a condensação deixava o interior enevoado; ligado, inverno e verão, não havia névoa nem nuvem."
+      ]
+    },
+    {
+      "titulo": "O sol no teto",
+      "paragrafos": [
+        "O Astrodome foi inaugurado em 9 de abril de 1965, num amistoso entre os Astros e os New York Yankees. As claraboias tinham sido pensadas para deixar entrar luz suficiente para a grama natural, uma variedade desenvolvida especialmente para o estádio. Mas, nos jogos de dia, o brilho do acrílico atrás da bola cegava os jogadores, que perdiam as bolas altas no teto.",
+        "A partir de 21 de abril de 1965, as claraboias foram pintadas. Segundo a Biblioteca Pública de Houston, a pintura cortou entre 25% e 40% da luz natural. O ofuscamento acabou, mas a grama começou a morrer em semanas; foi pintada de verde e, no fim da temporada, o time jogava sobre terra pintada. A saída veio da Monsanto, que desde 1964 tinha uma grama sintética, a ChemGrass, instalada numa escola de Providence, em Rhode Island. Em abril de 1966 ela cobriu o infield do Astrodome e, em 19 de julho, o campo inteiro. O produto passou a se chamar AstroTurf, e o nome virou sinônimo de grama artificial."
+      ]
+    },
+    {
+      "titulo": "Do abrigo ao prédio fechado",
+      "paragrafos": [
+        "Durante três décadas o Astrodome recebeu de tudo: Muhammad Ali em 1966, o \"Jogo do Século\" do basquete universitário em 1968, a \"Batalha dos Sexos\" entre Billie Jean King e Bobby Riggs em 1973, a Convenção Republicana de 1992. Os Oilers foram embora depois de 1996 e os Astros jogaram ali pela última vez em 9 de outubro de 1999. Em setembro de 2005, o estádio abrigou sobreviventes do furacão Katrina trazidos de ônibus de Nova Orleans: 17.500 no pico, segundo a Biblioteca Pública de Houston, ou cerca de 25 mil, segundo outras contagens.",
+        "Em 2008, sem certificado de ocupação e com falhas nos sistemas contra incêndio, o prédio deixou de receber eventos. Em 2013, os eleitores recusaram, por 53,5% a 46,5%, títulos de US$ 217 milhões para transformá-lo em centro de eventos. No ano seguinte ele entrou no Registro Nacional de Lugares Históricos e, em 2017, virou marco histórico do Texas. Um plano do condado de US$ 105 milhões, que elevaria o piso e criaria estacionamento embaixo, foi suspenso em 2019 pela juíza do condado, Lina Hidalgo."
+      ]
+    },
+    {
+      "titulo": "A conta de 60 anos depois",
+      "paragrafos": [
+        "Em dezembro de 2025, o condado divulgou um estudo da Kirksey Architecture, encomendado pela corporação que administra o complexo esportivo: US$ 752,6 milhões para devolver o Astrodome ao funcionamento básico, com encanamento, climatização e condições seguras de ocupação, sem restauração completa e sem capacidade para grandes eventos esportivos; ou US$ 55 milhões para demoli-lo. O condado disse que não há como reformar sem investimento privado significativo.",
+        "Em abril de 2026, perto do 61º aniversário, o Serviço Nacional de Parques considerou que o prédio cumpre os critérios para ser National Historic Landmark, a proteção histórica mais alta dos Estados Unidos; o processo ainda depende de nomeação formal e do Secretário do Interior. Em agosto, a Astrodome Conservancy abriu uma chamada pública de ideias a investidores e operadores. A cúpula que resistiu ao túnel de vento e ao furacão continua de pé; o primeiro item da conta para reabri-la é, de novo, o ar."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "A cúpula era tão grande que chovia dentro do estádio.",
+      "registro": "Nunca houve registro de chuva lá dentro. O medo existiu: o engenheiro do ar-condicionado, Israel A. Naman, escreveu em 1966 que se especulou sobre neblina, nuvens e até chuva, por causa de relatos vindos de hangares de dirigível. O que se registrou foi condensação e névoa quando o ar-condicionado era desligado. Ligado o tempo todo, o problema não aparecia."
+    },
+    {
+      "circula": "Um sistema de exaustão calculado matematicamente impediu as nuvens.",
+      "registro": "O que foi calculado foi a circulação de ar do sistema de climatização, dimensionada num experimento com fumaça de cigarro: engenheiros numa caixa de vidro, diante de um filme de beisebol, até a fumaça esconder o jogo. A mesma vazão, com filtros e carvão ativado, resolvia o calor, a fumaça e a névoa."
+    },
+    {
+      "circula": "A grama sintética foi inventada para o Astrodome.",
+      "registro": "A Monsanto já tinha instalado a sua ChemGrass em 1964, numa escola de Providence, em Rhode Island. O Astrodome foi o primeiro grande estádio a usá-la, em 1966, e o produto ganhou o nome dele: AstroTurf."
+    },
+    {
+      "circula": "Foi o primeiro estádio coberto do mundo.",
+      "registro": "Arenas cobertas já existiam. O registro histórico nacional o chama de primeiro estádio fechado e climatizado dos Estados Unidos, e a Associação Histórica do Texas, de primeiro estádio esportivo multiuso totalmente climatizado e coberto do mundo. Para beisebol e futebol americano, foi o primeiro."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "National Park Service, National Register of Historic Places Registration Form, \"The Astrodome\", Texas Historical Commission, 2013",
+      "url": "https://www.thc.texas.gov/public/upload/preserve/national_register/final/Astrodome%20NR.pdf"
+    },
+    {
+      "texto": "Wayne Chandler, \"Astrodome\", Handbook of Texas Online, Texas State Historical Association",
+      "url": "https://www.tshaonline.org/handbook/entries/astrodome"
+    },
+    {
+      "texto": "Kenneth Womack, \"Houston Astrodome: Engineering the Eighth Wonder of the World\", Society for American Baseball Research, 2017",
+      "url": "https://sabr.org/journal/article/engineering-the-eighth-wonder-of-the-world/"
+    },
+    {
+      "texto": "Robert Trumpbour, \"Astrodome (Houston, TX)\", SABR BioProject",
+      "url": "https://sabr.org/bioproj/park/astrodome-houston-tx/"
+    },
+    {
+      "texto": "Mark Armour, \"The Rise and Fall of Artificial Turf\", Society for American Baseball Research",
+      "url": "https://sabr.org/journal/article/the-rise-and-fall-of-artificial-turf/"
+    },
+    {
+      "texto": "Narendra K. Gosain, \"Houston Astrodome, The Eighth Wonder of the World\", Structure Magazine, 2023",
+      "url": "https://www.structuremag.org/article/houston-astrodome-the-eighth-wonder-of-the-world/"
+    },
+    {
+      "texto": "Houston Public Library, Astrodome Memories, \"Construction challenges\"",
+      "url": "https://astrodomememories.org/exhibits/show/astrodome-origins/construction-challenges"
+    },
+    {
+      "texto": "Houston Public Library, Astrodome Memories, \"Showtime! April 9, 1965\"",
+      "url": "https://astrodomememories.org/exhibits/show/astrodome-origins/showtime--april-1965"
+    },
+    {
+      "texto": "Houston Public Library, Astrodome Memories, \"Housing Katrina's evacuees\"",
+      "url": "https://astrodomememories.org/exhibits/show/the-astrodome-at-50--spectacle/housing-katrina-evacuees"
+    },
+    {
+      "texto": "I. A. Naman, \"Domed Stadium Air-Conditioning Design\", ASHRAE Journal, 1966, citado por Dan Singer, \"The Astrodome's Heavy Weather Problem\", Swamplot, 12/02/2019",
+      "url": "http://swamplot.com/the-astrodomes-heavy-weather-problem/2019-02-12/"
+    },
+    {
+      "texto": "Historic American Engineering Record, \"Houston Astrodome\", HAER TX-108, Library of Congress",
+      "url": "https://www.loc.gov/pictures/item/tx1045/"
+    },
+    {
+      "texto": "Houston Chronicle, \"This week 55 years ago construction started on the Astrodome\", 2018",
+      "url": "https://www.chron.com/sports/astros/article/This-week-55-years-ago-construction-started-on-12747523.php"
+    },
+    {
+      "texto": "ABC13 Houston, \"New study shows demolishing the Astrodome would cost $55 million, while renovating it would cost more than $750 million\", 23/12/2025",
+      "url": "https://abc13.com/post/new-study-shows-demolishing-astrodome-would-cost-55-million-renovating-more-750/18307657/"
+    },
+    {
+      "texto": "The Real Deal, \"Houston Astrodome math gets starker: $753M to revive, $55M to raze\", 23/12/2025",
+      "url": "https://therealdeal.com/texas/houston/2025/12/23/astrodome-math-gets-starker-to-revive-for-753m/"
+    },
+    {
+      "texto": "Click2Houston, \"61 years later, Houston's Astrodome may get top historic honor in the U.S.\", 08/04/2026",
+      "url": "https://www.click2houston.com/news/local/2026/04/08/houston-astrodome-moves-closer-to-national-historic-landmark-status-ahead-of-61st-anniversary/"
+    },
+    {
+      "texto": "Bisnow, \"Astrodome Conservancy Solicits Redevelopment Ideas\", 18/08/2026",
+      "url": "https://www.bisnow.com/news/houston/construction-development/astrodome-conservancy-solicits-redevelopment-ideas"
+    },
+    {
+      "texto": "CultureMap Houston, \"Houston group seeks fresh ideas for the Astrodome — including a data center\", 19/08/2026",
+      "url": "https://houston.culturemap.com/news/city-life/astrodome-conservancy-rfi-preservation-proposals/"
+    },
+    {
+      "texto": "ABC13 Houston, \"Voters strike down proposal to save Astrodome\", 2013",
+      "url": "https://abc13.com/archive/9313897/"
+    },
+    {
+      "texto": "National Trust for Historic Preservation, \"The Astrodome: Updates\"",
+      "url": "https://savingplaces.org/places/the-astrodome/updates"
+    },
+    {
+      "texto": "U.S. Bureau of Labor Statistics, índice de preços ao consumidor (CPI-U), médias anuais de 1965 e 2025",
+      "url": "https://www.bls.gov/cpi/"
+    },
+    {
+      "texto": "Wikipédia, \"Astrodome\" (ponto de partida)",
+      "url": "https://en.wikipedia.org/wiki/Astrodome"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "26-capa.jpg",
+      "alt": "Vista aérea de um estádio redondo de cúpula baixa e clara no meio de um estacionamento vazio enorme, com bairros e rodovias de Houston ao fundo sob céu azul",
+      "legenda": "O Astrodome visto do alto por volta de 1999, cercado pelo estacionamento do complexo esportivo, no sudoeste de Houston.",
+      "autor": "Carol M. Highsmith (Library of Congress)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:The_Astrodome,_aerial_view.jpg",
+      "recriacao": false,
+      "foco": "60% 58%"
+    },
+    {
+      "arquivo": "26-anos70.jpg",
+      "alt": "Fotografia colorida desbotada: a cúpula branca do estádio sobre a parede circular escura, com um pavilhão de teto baixo e estacionamento em primeiro plano",
+      "legenda": "O estádio nos anos 1970, antes das ampliações de 1988 e 1989.",
+      "autor": "Drug Enforcement Administration (National Archives)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Astrodome_in_Houston,_Texas_-_NARA_-_100310901.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "26-claraboias.jpg",
+      "alt": "Fotografia em preto e branco do interior: a cúpula inteira vista de dentro, uma malha de vigas de aço em losango irradiando de uma lanterna central, sobre arquibancadas vazias e um campo de futebol americano",
+      "legenda": "A treliça lamelar vista de dentro em 2004, com as claraboias pintadas desde 1965 para acabar com o ofuscamento.",
+      "autor": "Jet Lowe (Historic American Engineering Record)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:VIEW_SOUTH_TOWARD_MOVEABLE_FIELD_LEVEL_SEATS._NOTE_RETRACTABLE_PENTAGONAL_LIGHT_RING_GONDOLA_SUSPENDED_FROM_ROOF_CUPOLA._SKY_LIGHTS_PAINTED_OVER_TO_REDUCE_GLARE_FOR_BASEBALL_OUTFIELDERS_HAER_TX-108-12.tif",
+      "recriacao": false
+    },
+    {
+      "arquivo": "26-katrina.jpg",
+      "alt": "Pessoas apoiadas numa grade diante da entrada do estádio; uma mulher segura um cartaz verde escrito à mão procurando um parente",
+      "legenda": "Sobreviventes do furacão Katrina procuram parentes na entrada do Astrodome em 1º de setembro de 2005.",
+      "autor": "Andrea Booher (FEMA)",
+      "licenca": "Domínio público",
+      "licenca_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:FEMA_-_14449_-_New_Orleans_residents_looking_for_friends_and_family_at_Texas_Astrodome.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "26-2014.jpg",
+      "alt": "O estádio fechado visto do estacionamento, com a cúpula listrada, a parede de concreto manchada e árvores na frente",
+      "legenda": "O Astrodome fechado, em janeiro de 2014, o mês em que entrou no Registro Nacional de Lugares Históricos.",
+      "autor": "EricEnfermero",
+      "licenca": "CC BY-SA 3.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Reliant_Astrodome_in_January_2014.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "estadio-olimpico-de-munique"
+}

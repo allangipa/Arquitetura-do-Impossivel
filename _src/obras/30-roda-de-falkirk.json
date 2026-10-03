@@ -1,0 +1,309 @@
+{
+  "num": "30",
+  "slug": "roda-de-falkirk",
+  "obra": "Roda de Falkirk",
+  "titulo_video": null,
+  "lugar": "Tamfourhill, Falkirk, Escócia, Reino Unido",
+  "regiao": "mundo",
+  "periodo": "2000–2002",
+  "estreia": "2027-04-29",
+  "impossivel": "Ligar dois canais separados por 35 metros de desnível, onde antes havia onze eclusas, com uma máquina de mais de mil toneladas que gira inteira levando barcos e água sem que a água se mova dentro delas.",
+  "resumo": "Como a Escócia trocou onze eclusas por um elevador de barcos giratório em 2002, por que ele gasta tão pouco e o que a sabotagem de abril fez com ele.",
+  "abertura": [
+    "Em Falkirk, na Escócia, no Reino Unido, dois canais abertos entre os séculos XVIII e XIX se encontram com 35 metros de diferença de altura. Até 1933 uma escada de onze eclusas vencia esse desnível; depois ela foi desmontada, e nos anos 1960 os dois canais fecharam. Quando a British Waterways decidiu reabri-los de costa a costa, no projeto chamado Millennium Link, faltava justamente o nó do meio.",
+    "A resposta foi a Falkirk Wheel: dois braços de aço em forma de hélice, presos a um eixo, que giram meia volta em cerca de cinco minutos levando duas gôndolas cheias de água, uma subindo e outra descendo. O truque é antigo. Pelo princípio de Arquimedes, um barco que entra na gôndola desloca exatamente o próprio peso em água, então as duas pontas pesam sempre o mesmo, e a máquina inteira fica em equilíbrio."
+  ],
+  "numeros": [
+    {
+      "valor": "24 m",
+      "rotulo": "que a roda ergue os barcos; duas eclusas fazem o resto dos 35 m entre os canais",
+      "conf": "2+"
+    },
+    {
+      "valor": "1,5 kWh",
+      "rotulo": "de energia por meia volta",
+      "conf": "2+"
+    },
+    {
+      "valor": "250 t",
+      "rotulo": "de água em cada uma das duas gôndolas",
+      "conf": "2+"
+    },
+    {
+      "valor": "35 m",
+      "rotulo": "de diâmetro da roda",
+      "conf": "2+"
+    },
+    {
+      "valor": "1.500 a 1.800 t",
+      "rotulo": "de peso total, conforme a fonte",
+      "conf": "DIV"
+    },
+    {
+      "valor": "24/05/2002",
+      "rotulo": "inauguração pela rainha Elizabeth II, um mês depois do previsto",
+      "conf": "2+"
+    }
+  ],
+  "ficha": [
+    {
+      "item": "Por quê",
+      "valor": "Reconectar o Forth & Clyde Canal (1790) e o Union Canal (1822), separados desde que as onze eclusas de Falkirk foram desmontadas em 1933. O Forth & Clyde fechou em 1963 e o Union em 1965.",
+      "conf": "2+"
+    },
+    {
+      "item": "Quem quis",
+      "valor": "A British Waterways, dentro do Millennium Link, a restauração dos dois canais de ponta a ponta, 110 km entre Glasgow e Edimburgo, com obras a partir de 1999.",
+      "conf": "2+"
+    },
+    {
+      "item": "Arquitetura",
+      "valor": "Tony Kettle, do escritório RMJM.",
+      "conf": "2+"
+    },
+    {
+      "item": "Projeto e fabricação",
+      "valor": "Butterley Engineering, de Ripley, no Derbyshire, Inglaterra, que projetou, fabricou e montou a roda; Arup como consultora estrutural; Tony Gee & Partners e Bennetts na estrutura e na mecânica.",
+      "conf": "2+"
+    },
+    {
+      "item": "Empreiteira principal",
+      "valor": "Joint venture Morrison–Bachy Soletanche.",
+      "conf": "2+"
+    },
+    {
+      "item": "Operários",
+      "valor": "Cerca de mil pessoas segundo uma fonte; mais de quinhentas segundo outra. Nenhum registro de época dá o número.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Prazo",
+      "valor": "Obras civis desde 2000; peças fabricadas e montadas em teste na fábrica no primeiro semestre de 2001, levadas a Falkirk em 35 carretas e içadas em agosto de 2001; inauguração em 24/05/2002.",
+      "conf": "2+"
+    },
+    {
+      "item": "Custo da roda",
+      "valor": "£17 milhões, £17,5 milhões ou £20 milhões, conforme a fonte.",
+      "conf": "DIV",
+      "nota": "a diferença pode estar no que cada conta inclui (bacia e acessos)"
+    },
+    {
+      "item": "Custo do Millennium Link",
+      "valor": "£78 milhões no orçamento divulgado em 2001; a dona dos canais fala hoje em £83,5 milhões, e outra fonte em £84,5 milhões. A loteria nacional, pela Millennium Commission, pôs £32 milhões.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Mortes e acidentes",
+      "valor": "Nenhuma morte registrada nas fontes consultadas. Em abril de 2002, uma sabotagem soltou mais de 80 milhões de litros de água sobre o poço da roda e danificou a hidráulica e a eletrônica.",
+      "conf": "sem",
+      "nota": "o dano foi estimado em £200 mil em maio de 2002; outra fonte dá £350 mil"
+    },
+    {
+      "item": "Equilíbrio",
+      "valor": "As duas gôndolas pesam sempre o mesmo, com ou sem barco, pelo princípio de Arquimedes.",
+      "conf": "2+"
+    },
+    {
+      "item": "Energia",
+      "valor": "1,5 kWh por meia volta. A dona compara a ferver oito chaleiras; um engenheiro do Institution of Civil Engineers escreveu três ou quatro.",
+      "conf": "2+",
+      "nota": "a comparação com chaleiras diverge; o kWh não"
+    },
+    {
+      "item": "Motores",
+      "valor": "Dez motores hidráulicos segundo a maioria das fontes; doze segundo uma reportagem de 2001.",
+      "conf": "DIV"
+    },
+    {
+      "item": "Peças",
+      "valor": "Cerca de 15.000 parafusos e 45.000 furos: as juntas são parafusadas, não soldadas, para aguentar a fadiga de um braço que passa de tração a compressão a cada volta.",
+      "conf": "2+"
+    },
+    {
+      "item": "Público",
+      "valor": "Cerca de 400 mil a 500 mil visitantes por ano, conforme a fonte.",
+      "conf": "DIV"
+    }
+  ],
+  "historia": [
+    {
+      "titulo": "Onze degraus desmontados",
+      "paragrafos": [
+        "O Forth & Clyde Canal abriu em 1790 e atravessava a Escócia de Grangemouth, no estuário do Forth, até o rio Clyde. Em 1822 chegou a Falkirk o Union Canal, que vinha de Edimburgo seguindo uma curva de nível, sem eclusas. No encontro dos dois, uma escada de onze eclusas, espalhadas por quase uma milha, vencia os 35 metros de diferença.",
+        "A ferrovia tirou o movimento dos canais. As eclusas de Falkirk foram desmontadas em 1933. O Forth & Clyde fechou à navegação em 1º de janeiro de 1963, e o Union em 1965. Trechos foram aterrados, cortados por estradas e conjuntos habitacionais. Quando o Millennium Link começou, em 1999, a ideia era refazer mais de 120 estruturas, entre eclusas, pontes e trechos enterrados, e reabrir 110 km de canal entre Glasgow e Edimburgo. Em 2001 os canais já voltavam a ter barcos. Faltava Falkirk."
+      ]
+    },
+    {
+      "titulo": "A licitação que ninguém queria ganhar",
+      "paragrafos": [
+        "O edital, de projeto e construção, sugeria uma roda-gigante de estilo vitoriano, com quatro gôndolas penduradas, e todos os concorrentes orçaram isso. Segundo a revista Construction News, em maio de 2001, nem o cliente gostava. O engenheiro-chefe da British Waterways na Escócia, George Ballinger, admitiu à revista que esperava projetos mais ousados, mas que não deu aos concorrentes tempo nem incentivo para isso.",
+        "A equipe escolhida, liderada pela Butterley Engineering com a joint venture Morrison–Bachy Soletanche, foi chamada para uma reunião e orientada a deixar os desenhos para trás. Seguiram-se sessões de brainstorming de cerca de um mês, com umas duas dezenas de pessoas, em que apareceram rodas horizontais, guindastes, um funicular e até um balão cheio de água que tombava. O que saiu foi a forma de hoje, conduzida pelo arquiteto Tony Kettle, do RMJM. Em 2001 ele descrevia a roda como um navio viking com hélice ou a caixa torácica de um peixe; outras descrições falam em machado celta e em costelas de baleia."
+      ]
+    },
+    {
+      "titulo": "Arquimedes faz o trabalho",
+      "paragrafos": [
+        "Cada braço tem um furo circular em cada ponta, e nos furos encaixam as duas gôndolas, calhas de aço com cerca de 250 toneladas de água e espaço para quatro barcos cada. Quando a roda gira, um sistema de engrenagens faz as gôndolas girarem no sentido contrário e na mesma velocidade, de modo que a água e os barcos ficam sempre na horizontal.",
+        "O equilíbrio vem de uma regra de mais de dois mil anos. Um barco que entra na gôndola desloca o próprio peso em água, que sai pela comporta. Por isso as duas pontas pesam igual, com barco ou sem. A máquina não precisa levantar peso, só vencer o atrito e a inércia: meia volta leva cerca de cinco minutos e consome 1,5 kWh. Para isso, as gôndolas precisam estar com o nível d'água exato. Segundo a New Civil Engineer, em 2001, a tolerância era de 37,5 milímetros; fora disso, o computador não deixa a roda girar.",
+        "A roda ergue os barcos 24 metros. O resto do desnível fica com duas eclusas novas no Union Canal. No caminho até a roda, os barcos atravessam ainda um aqueduto de 100 metros e um túnel, o Rough Castle, que passa sob uma estrada, sob a ferrovia Edimburgo–Glasgow e sob a Muralha de Antonino, a fronteira romana do século II."
+      ]
+    },
+    {
+      "titulo": "Parafusos, não solda",
+      "paragrafos": [
+        "A cada meia volta, partes dos braços passam de tração total a compressão total. Essa inversão completa e repetida de esforço é o que mais cansa o aço, e a Butterley respondeu parafusando as juntas em vez de soldá-las, porque a ligação parafusada resiste melhor à fadiga. A conta da New Civil Engineer: 15 mil parafusos e 45 mil furos, o equivalente a 7,5 toneladas de aço perfurado.",
+        "Os parafusos tinham outra vantagem: a roda podia ser montada inteira na fábrica da Butterley, em Ripley, no Derbyshire, Inglaterra, conferida e desmontada. As peças foram levadas a Falkirk em 35 carretas, entre junho e julho de 2001, remontadas no chão em cinco grandes conjuntos e içadas em agosto por um guindaste de mil toneladas, com precisão de dez milímetros. Por fazer dois içamentos de gôndola no mesmo dia, a empresa economizou dez horas de guindaste e £10 mil, contou o gerente de contratos Paul Hudson à revista."
+      ]
+    },
+    {
+      "titulo": "A noite da inundação",
+      "paragrafos": [
+        "A obra não registra mortos nas fontes consultadas. O desastre veio com a roda pronta. No fim de abril de 2002, segundo a New Civil Engineer, alguém arrombou comportas trancadas com cadeado e soltou mais de 80 milhões de litros de água do canal sobre o poço seco da roda. A inundação durou quatro horas sem ser notada e cobriu uma das gôndolas com três metros de água. O fluido hidráulico foi contaminado, bombas se perderam e a eletrônica teve de secar.",
+        "A polícia tratou o caso como crime premeditado, com pelo menos duas pessoas e conhecimento do local. A estimativa do dano em maio de 2002 era de £200 mil; outra fonte fala em £350 mil. A abertura atrasou cerca de um mês, e a rainha Elizabeth II inaugurou a roda em 24 de maio de 2002, no ano do seu Jubileu de Ouro."
+      ]
+    },
+    {
+      "titulo": "Vinte e cinco anos depois, as eclusas de novo",
+      "paragrafos": [
+        "A roda passou pela maior reforma da sua história entre novembro de 2023 e março de 2024: £2,7 milhões em hidráulica, painéis de controle, sensores, cabos e vedações novos, com 17 semanas de parada, segundo o jornal The Scotsman. O sistema passou a desligar entre um movimento e outro.",
+        "Em 2026, a Scottish Canals, dona dos canais, comemorou os 25 anos do Millennium Link, e a roda virou palco de um espetáculo de luz e água em setembro. Mas a notícia maior está logo abaixo dela. As comportas de carvalho instaladas na reabertura duram em média 25 anos, e todas as da escada de eclusas do Forth & Clyde em Falkirk são daquela época. Desde fevereiro de 2025, um trecho de quatro quilômetros está drenado para trocá-las. Em julho de 2026 a obra foi estendida até o início da temporada de 2027, com investimento acima de £8 milhões, o maior nos canais escoceses desde o próprio Millennium Link. A máquina feita para substituir eclusas segue girando; a maior obra dos canais, um quarto de século depois, é consertar eclusas."
+      ]
+    }
+  ],
+  "mitos": [
+    {
+      "circula": "A roda gira com a energia de dez chaleiras.",
+      "registro": "Nenhuma fonte encontrada diz dez. A Scottish Canals compara a oito chaleiras; um engenheiro do Institution of Civil Engineers escreveu três ou quatro. O número firme é 1,5 kWh por meia volta."
+    },
+    {
+      "circula": "A roda ergue os barcos 35 metros.",
+      "registro": "Os 35 metros são o desnível total entre os canais. A roda faz 24 metros; um aqueduto, duas eclusas e um túnel completam o caminho até o Union Canal."
+    },
+    {
+      "circula": "Cada gôndola pesa 500 toneladas.",
+      "registro": "O que as fontes confirmam é a água, cerca de 250 toneladas por gôndola, e o peso da gôndola vazia diverge entre elas. O fato que importa é outro: as duas pesam sempre o mesmo, com ou sem barco, por causa do princípio de Arquimedes."
+    },
+    {
+      "circula": "A forma foi a encomenda original.",
+      "registro": "O edital sugeria uma roda-gigante de estilo vitoriano. A forma atual nasceu depois da escolha da equipe, num mês de brainstorming, segundo reportagens de 2001 da Construction News e da New Civil Engineer."
+    }
+  ],
+  "fontes": [
+    {
+      "texto": "David Hayward, \"The wheel thing\", New Civil Engineer, 13/09/2001",
+      "url": "https://www.newcivilengineer.com/archive/the-wheel-thing-13-09-2001/"
+    },
+    {
+      "texto": "\"Police close to catching Falkirk Wheel vandals\", New Civil Engineer, 02/05/2002",
+      "url": "https://www.newcivilengineer.com/archive/police-close-to-catching-falkirk-wheel-vandals-02-05-2002/"
+    },
+    {
+      "texto": "David Hayward, \"The wheel of fortune\", Construction News, 17/05/2001",
+      "url": "https://www.constructionnews.co.uk/sections/news/the-wheel-of-fortune-17-05-2001/"
+    },
+    {
+      "texto": "Engineering Timelines, \"Falkirk Wheel\" (com base na ficha técnica da Bachy Soletanche)",
+      "url": "https://web.archive.org/web/20210805091103/https://www.engineering-timelines.com/scripts/engineeringItem.asp?id=936"
+    },
+    {
+      "texto": "John Laverick, \"The Falkirk Wheel: building a waterway wonder\", The History Press, 2018",
+      "url": "https://thehistorypress.co.uk/article/the-falkirk-wheel-building-a-waterway-wonder/"
+    },
+    {
+      "texto": "John Kosowatz, \"Symbol of the Millennium: The Falkirk Wheel\", ASME, 2011",
+      "url": "https://www.asme.org/topics-resources/content/symbol-of-the-millennium-the-falkirk-wheel"
+    },
+    {
+      "texto": "William B. Ashworth Jr., \"The Falkirk Wheel\", Linda Hall Library",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/the-falkirk-wheel/"
+    },
+    {
+      "texto": "Scottish Canals, \"The Falkirk Wheel\"",
+      "url": "https://www.scottishcanals.co.uk/visit/canals/visit-the-forth-clyde-canal/attractions/the-falkirk-wheel"
+    },
+    {
+      "texto": "Scottish Canals, \"Scottish Canals Mark 25 Years of the Millennium Link Transformation\", 12/05/2026",
+      "url": "https://www.scottishcanals.co.uk/news/scottish-canals-mark-25-years-of-the-millennium-link-transformation"
+    },
+    {
+      "texto": "Scottish Canals, \"Scottish Canals extends major engineering programme on the Forth & Clyde Canal in Falkirk\", 29/07/2026",
+      "url": "https://www.scottishcanals.co.uk/news/scottish-canals-extends-major-engineering-programme-on-the-forth-clyde-canal-in-falkirk"
+    },
+    {
+      "texto": "The Scotsman, \"Falkirk Wheel: behind-the-scenes tours to follow unique canal boat lift's biggest overhaul\", 28/02/2024",
+      "url": "https://www.scotsman.com/news/transport/falkirk-wheel-behind-the-scenes-tours-to-follow-unique-22-year-old-canal-boat-lifts-biggest-overhaul-4535184"
+    },
+    {
+      "texto": "Falkirk Local History Society, \"Falkirk Wheel\"",
+      "url": "https://falkirklocalhistory.club/around-the-area/transport/falkirk-wheel/"
+    },
+    {
+      "texto": "Forth & Clyde Canal Society, \"Canal history\"",
+      "url": "https://www.forthandclyde.org.uk/history-canal.asp"
+    }
+  ],
+  "imagens": [
+    {
+      "arquivo": "30-capa.jpg",
+      "alt": "Grande estrutura de aço cinza-clara com dois braços curvos girando ao lado de um aqueduto de concreto sustentado por pilares em forma de anel; uma gôndola com barco está a meio caminho, e há um prédio de telhado inclinado à direita e pessoas olhando de um gramado",
+      "legenda": "A roda a meio giro, em 2015: à esquerda, o aqueduto que vem do Union Canal; no centro, uma das gôndolas a caminho do alto.",
+      "autor": "Colin",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Falkirk_Wheel_rotation_in_balance_2015-08-18.jpg",
+      "recriacao": false,
+      "foco": "55% 50%"
+    },
+    {
+      "arquivo": "30-canteiro-2001.jpg",
+      "alt": "Canteiro de obras visto do alto: um longo leito de terra escavada entre muros de concreto, dois guindastes treliçados e operários de colete amarelo, com campos e montanhas ao fundo",
+      "legenda": "Maio de 2001: o novo trecho do Union Canal em obra, no caminho que levaria os barcos até a roda.",
+      "autor": "Sarah Charlesworth",
+      "licenca": "CC BY-SA 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:The_Falkirk_Wheel_under_Construction_-_geograph.org.uk_-_917520.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "30-pilar-2001.jpg",
+      "alt": "Bacia de água barrenta com uma escavadeira sobre balsa; ao fundo, um pilar de concreto envolto em andaimes, um guindaste e a casca curva e envidraçada de um prédio em construção",
+      "legenda": "A bacia inferior em obra, com um dos pilares da roda em andaimes e a estrutura do centro de visitantes ao fundo, em 2001.",
+      "autor": "Sarah Charlesworth",
+      "licenca": "CC BY-SA 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:The_Falkirk_Wheel_Site_under_Construction_-_geograph.org.uk_-_920039.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "30-aqueduto-2002.jpg",
+      "alt": "Panorama de um aqueduto de concreto sobre pilares com aberturas circulares, terminando numa grande roda de aço à beira de uma bacia de água, com gramado e céu azul",
+      "legenda": "Agosto de 2002, três meses depois da inauguração: o aqueduto chega pelo alto e termina na roda, sobre a bacia do Forth & Clyde.",
+      "autor": "KlausFoehl",
+      "licenca": "CC BY-SA 4.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Falkirk_Wheel_panoramic01_2002-08-31.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "30-engrenagens.jpg",
+      "alt": "Detalhe de perto de grandes engrenagens de aço com dentes ao redor de um anel, junto à ponta de uma gôndola e a uma parede de painéis",
+      "legenda": "As engrenagens que fazem a gôndola girar ao contrário da roda, para que a água e os barcos fiquem sempre na horizontal (2003).",
+      "autor": "Sarah Charlesworth",
+      "licenca": "CC BY-SA 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Detail_of_the_rotation_mechanism_of_the_Falkirk_Wheel_-_geograph.org.uk_-_977795.jpg",
+      "recriacao": false
+    },
+    {
+      "arquivo": "30-vista-aerea.jpg",
+      "alt": "Vista aérea: um canal sai de um túnel entre árvores, segue por um aqueduto sobre pilares até a roda, que desce para uma bacia circular com barcos; ao lado, o centro de visitantes e um estacionamento",
+      "legenda": "O conjunto visto do ar em 2006: do túnel, no alto, ao aqueduto, à roda e à bacia do Forth & Clyde.",
+      "autor": "Ranald McIntyre",
+      "licenca": "CC BY-SA 2.0",
+      "licenca_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "origem_url": "https://commons.wikimedia.org/wiki/File:Falkirk_Wheel_from_the_air_-_geograph.org.uk_-_282517.jpg",
+      "recriacao": false
+    }
+  ],
+  "proximo": "tunel-de-base-de-sao-gotardo"
+}
