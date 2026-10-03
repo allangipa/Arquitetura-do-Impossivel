@@ -185,6 +185,13 @@
       "registro": "Nove operários morreram, segundo a própria AlpTransit Gotthard, que lhes dedicou uma placa no portal norte em 2016."
     }
   ],
+  "perguntas": [
+    {"p": "Qual o comprimento do Túnel de Base de São Gotardo?", "r": "São 57 km, em dois tubos de via única, de Erstfeld, no cantão de Uri, a Bodio, no Ticino. É o túnel ferroviário mais longo do mundo, com até 2.300 metros de rocha por cima no ponto mais fundo."},
+    {"p": "Quando foi inaugurado o Túnel de Base de São Gotardo?", "r": "Em 1º de junho de 2016, e os trens comerciais começaram a passar em 11 de dezembro de 2016. A obra principal começou em 1999, e o encontro principal dos dois lados foi em 15 de outubro de 2010."},
+    {"p": "Quanto custou o Túnel de Base de São Gotardo?", "r": "O custo efetivo foi de CHF 12,2 bilhões, pagos por um fundo federal alimentado sobretudo por uma taxa sobre caminhões pesados. A cifra de CHF 9,7 bilhões, também oficial, está a preços de 1998, sem o aumento de imposto e sem os juros da obra."},
+    {"p": "Quantas pessoas morreram na construção do Túnel de Base de São Gotardo?", "r": "Nove operários morreram entre 2002 e 2012, segundo a AlpTransit Gotthard, nos canteiros de Amsteg, Sedrun, Faido e Bodio. Os nomes estão numa placa de bronze no portal norte, em Erstfeld, descerrada na véspera da inauguração."},
+    {"p": "Como foi construído o Túnel de Base de São Gotardo?", "r": "Em cinco frentes ao mesmo tempo: pelos dois portais, por galerias de acesso em Amsteg e Faido e por dois poços de cerca de 800 metros em Sedrun. Quatro tuneladoras Herrenknecht fizeram a maior parte dos tubos e o resto foi a explosivo; num trecho de rocha que se fechava, anéis de aço deslizantes deixaram a montanha apertar o túnel de propósito."}
+  ],
   "fontes": [
     {
       "texto": "Confederação Suíça (Bundesamt für Verkehr / gottardo2016.ch), \"The Gotthard Base Tunnel\", folheto, 2015",

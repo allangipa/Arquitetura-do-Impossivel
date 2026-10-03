@@ -212,6 +212,13 @@
       "registro": "São cerca de 13,3 km no total, dos quais perto de 8,8 km sobre a água."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi construída a Ponte Rio-Niterói?", "r": "A rainha Elizabeth II descerrou a placa do início das obras em 9 de novembro de 1968, e o presidente Médici inaugurou a ponte em 4 de março de 1974. Ela tinha sido prometida para março de 1971, cerca de três anos antes."},
+    {"p": "Quantas pessoas morreram na construção da Ponte Rio-Niterói?", "r": "A conta nunca fechou. O número oficial, 33, é atribuído ao governo sem documento publicado; O Globo contou 18 nos jornais até novembro de 1972, o Arquivo Nacional fala em “no mínimo 40” e estimativas sem documento chegam a 400."},
+    {"p": "Há operários enterrados nos pilares da Ponte Rio-Niterói?", "r": "É relato, repetido por um professor aposentado da UFRJ e pelo repórter Romildo Guerrante. Não há nome, caso ou documento que o sustente."},
+    {"p": "Qual o comprimento da Ponte Rio-Niterói?", "r": "As fontes divergem: 13,29 km segundo a concessionária ou 13,2 km segundo o Ibracon, dos quais entre 8,6 e 8,9 km sobre a água. O vão central de aço tem 300 m e chega a 72 m de altura."},
+    {"p": "Quanto custou a Ponte Rio-Niterói?", "r": "A lei autorizou NCr$ 255.368.800, a preços de julho de 1968. O custo final diverge entre as fontes: cerca de Cr$ 800 milhões, US$ 400 milhões ou US$ 674 milhões, todas as contas várias vezes acima do contratado."}
+  ],
   "fontes": [
     {
       "texto": "Lei nº 5.512, de 17/10/1968, autoriza a construção da Ponte Rio-Niterói",

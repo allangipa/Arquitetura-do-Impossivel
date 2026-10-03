@@ -198,6 +198,13 @@
       "registro": "A formulação mais segura é a primeira grande estrutura da Grã-Bretanha construída em aço, e não em ferro. O órgão de patrimônio da Escócia fala em primeira grande estrutura de aço do mundo; outras fontes oficiais limitam ao Reino Unido, e nos Estados Unidos a Ponte Eads, de 1874, já tinha o aço como metal principal."
     }
   ],
+  "perguntas": [
+    {"p": "Quem construiu a Ponte de Forth?", "r": "O projeto é de Sir John Fowler e Sir Benjamin Baker. A construção ficou com a Tancred, Arrol & Co., de William Arrol, de Glasgow, contratada em 21/12/1882; a dona da obra era a Forth Bridge Railway Company."},
+    {"p": "Quando foi construída a Ponte de Forth?", "r": "Entre 1882 e 1890. O contrato foi assinado em dezembro de 1882, as fundações começaram em fevereiro de 1883, a superestrutura em 1886, e a ponte foi inaugurada em 04/03/1890 pelo Príncipe de Gales."},
+    {"p": "Por que a Ponte de Forth tem esse formato?", "r": "Porque nasceu da queda da ponte do Tay, em 28/12/1879. Fowler e Baker desenharam um cantiléver de aço com três torres abertas na base, para que o vento tenha menos alavanca, calculado para 56 libras por pé quadrado de vento, mais de cinco vezes o valor usado no Tay."},
+    {"p": "Quantas pessoas morreram na construção da Ponte de Forth?", "r": "As fontes divergem. O número oficial de 1890 é de 57 acidentes fatais; a pesquisa de historiadores locais confirmou depois 73 nomes, que estão no memorial de 2012. Circularam também 78 e 98."},
+    {"p": "Qual o tamanho da Ponte de Forth?", "r": "Os dois vãos principais têm cerca de 520 m, e as torres sobem 110 m acima da maré alta. O comprimento total diverge entre as fontes: 2.529 m pela medição de 1890 ou 2.467 m pela Network Rail."}
+  ],
   "fontes": [
     {
       "texto": "Wilhelm Westhofen, \"The Forth Bridge\", reimpresso de Engineering, 28/02/1890",

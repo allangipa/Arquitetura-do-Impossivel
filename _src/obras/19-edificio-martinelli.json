@@ -203,6 +203,13 @@
       "registro": "Não. Foi um dos primeiros grandes prédios de concreto armado do país, e em 1929 a revista O Cruzeiro o chamou de maior obra de cimento armado do mundo, título que o Edifício A Noite também reivindicava."
     }
   ],
+  "perguntas": [
+    {"p": "Quem construiu o Edifício Martinelli?", "r": "Giuseppe Martinelli, imigrante de Lucca, na Itália, que enriqueceu com uma casa de navegação em Santos. O projeto é do arquiteto húngaro William Fillinger; o cálculo estrutural, do sobrinho dele, o engenheiro Ítalo Martinelli; a fachada, dos irmãos Lacombe."},
+    {"p": "Quando foi construído o Edifício Martinelli?", "r": "A obra começou em 1924. O prédio abriu ainda inacabado em 1929, e a conclusão aparece como 1934 na maioria das fontes."},
+    {"p": "Qual a altura do Edifício Martinelli?", "r": "As fontes divergem. O número publicado em 1929 pela revista O Cruzeiro, e repetido pela maioria, é 105,65 m; o condomínio do prédio fala em 130 m. São 30 andares, contando os cinco da casa do dono no topo."},
+    {"p": "Por que Martinelli foi morar no topo do prédio?", "r": "A explicação mais repetida é que ele quis provar que o prédio não cairia, mas nenhuma fonte traz uma declaração dele dizendo isso. O condomínio dá outra versão: a casa de cinco andares foi o jeito de passar do limite de 25 andares fixado depois do embargo e chegar aos 30."},
+    {"p": "O Prédio Martinelli pegou fogo?", "r": "Sim. Em 24/11/1929, um curto-circuito junto aos motores dos elevadores incendiou o 26º andar, ainda cheio de madeira de obra. As mangueiras dos bombeiros não alcançavam o alto, o fogo foi combatido com baldes passados de mão em mão e não houve mortos."}
+  ],
   "fontes": [
     {
       "texto": "Andrea C. T. Wanderley, \"O Edifício Martinelli, antigo referencial e símbolo de São Paulo\", Brasiliana Fotográfica, Biblioteca Nacional, 2022",

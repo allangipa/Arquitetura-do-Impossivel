@@ -214,6 +214,13 @@
       "registro": "Roosevelt dedicou a \"Boulder Dam\" e não pronunciou o nome de Hoover. E a barragem fica no Black Canyon; Boulder era o nome do projeto original."
     }
   ],
+  "perguntas": [
+    {"p": "Quantas pessoas morreram na construção da Represa Hoover?", "r": "Depende de quem conta. O número que o governo chama de oficial, o da placa memorial, é 96, só acidentes no canteiro; as tabelas anuais do próprio governo, com todas as causas, somam 213 até o fim de 1935 e 215 com 1936. O 112 que também circula não tem origem explicada."},
+    {"p": "Há corpos enterrados no concreto da Represa Hoover?", "r": "Não, segundo o Bureau of Reclamation. A barragem subiu em blocos, em camadas de 1,5 metro, cada balde elevava o nível só alguns centímetros, e cinco ou seis homens pisavam e vibravam o concreto em cada bloco."},
+    {"p": "Quanto tempo levou a construção da Represa Hoover?", "r": "A obra começou em abril de 1931 e foi aceita em 1º de março de 1936, uns dois anos antes do prazo. O primeiro concreto foi lançado em 6 de junho de 1933, e o último, em 29 de maio de 1935."},
+    {"p": "Como foi construída a Represa Hoover?", "r": "Primeiro o rio Colorado foi desviado por quatro túneis de 15 m de diâmetro abertos na rocha, deixando o leito seco. Depois a barragem subiu em cerca de 215 colunas separadas, resfriadas por 937 km de tubos com água gelada para o concreto não rachar."},
+    {"p": "O concreto da Represa Hoover ainda está secando?", "r": "Não. Os 125 anos que circulam são a conta do que aconteceria sem os tubos de água gelada, e o resfriamento artificial terminou em 1935. O que continua é o ganho lento de resistência do concreto."}
+  ],
   "fontes": [
     {
       "texto": "Bureau of Reclamation, \"Fatalities at Hoover Dam\" (atualizado em 2015)",

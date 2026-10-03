@@ -197,6 +197,13 @@
       "registro": "Só em parte. O segundo andar, a Pinacoteca, apoia-se nas vigas intermediárias; o primeiro fica pendurado nelas por tirantes, segundo o plano de conservação da estrutura."
     }
   ],
+  "perguntas": [
+    {"p": "Quem projetou o MASP?", "r": "A arquiteta Lina Bo Bardi desenhou o prédio: um volume suspenso a 8 m do chão, que transforma o térreo numa praça, e outro semienterrado. O cálculo estrutural é do engenheiro José Carlos de Figueiredo Ferraz, professor da Politécnica e da FAU da USP."},
+    {"p": "Quando foi construído o MASP?", "r": "A obra começou em 1958 ou em 1960, conforme a fonte, e teve dificuldades técnicas e financeiras e várias paralisações. O museu foi inaugurado em 7 de novembro de 1968 pela rainha Elizabeth II, acompanhada do príncipe Philip."},
+    {"p": "Como foi construído o vão livre do MASP?", "r": "O museu fica sobre quatro pilares e dois pares de vigas-caixa de concreto protendido, um na cobertura e outro entre os andares. Figueiredo Ferraz usou concreto de alta resistência desenvolvido durante a obra e um sistema de protensão de sua invenção, o Sistema Ferraz; o primeiro andar fica pendurado nas vigas por tirantes."},
+    {"p": "Qual o tamanho do vão livre do MASP?", "r": "As medições divergem: 74 m segundo o plano de conservação do museu e a maior parte da imprensa, 70 m segundo um artigo técnico da revista AU, de 2014. O volume suspenso fica 8 m acima da praça."},
+    {"p": "Por que o MASP é vermelho?", "r": "Até 1990 a estrutura era de concreto aparente. Naquele ano, pilares e vigas externos foram pintados com tinta impermeabilizante vermelha para conter infiltrações que desciam até a Pinacoteca, solução aprovada com Lina Bo Bardi, segundo o plano de conservação do museu."}
+  ],
   "fontes": [
     {
       "texto": "Silvio Oksman (coord.) e equipe Getty-MASP, \"Plano de Conservação da Estrutura do MASP\", Fundação Getty, programa Keeping It Modern, 2018",

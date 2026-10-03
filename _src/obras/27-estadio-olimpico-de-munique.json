@@ -196,6 +196,13 @@
       "registro": "Depende de quem previu. Foram cerca de dez vezes os 15 a 18 milhões de marcos estimados pelo arquiteto, e três vezes e meia os 47,7 milhões da primeira estimativa da dona da obra. A conta final oficial foi de 170,6 milhões."
     }
   ],
+  "perguntas": [
+    {"p": "Quem projetou o Estádio Olímpico de Munique?", "r": "O projeto é do escritório Behnisch & Partner, de Stuttgart, de Günter Behnisch, com Frei Otto como arquiteto parceiro do teto. O teto foi calculado pelo escritório Leonhardt + Andrä, com Jörg Schlaich e Rudolf Bergermann à frente."},
+    {"p": "Como foi construído o teto do Estádio Olímpico de Munique?", "r": "É uma rede de cabos de aço com malha de 75 × 75 cm, pendurada em mastros de até 80 m e coberta por placas de acrílico de 3 × 3 m. As maquetes não davam a precisão necessária, e o comprimento de cada cabo foi calculado num computador CDC 6600 da Universidade de Stuttgart."},
+    {"p": "Quando foi construído o Estádio Olímpico de Munique?", "r": "As obras começaram em 9 de junho de 1969, a rede começou a ser içada em 1971 e o teto do estádio ficou pronto em 21 de abril de 1972. O estádio foi inaugurado em 26 de maio de 1972, com Alemanha Ocidental 4 × 1 União Soviética, para os Jogos de 1972."},
+    {"p": "Quanto custou o teto do Estádio Olímpico de Munique?", "r": "A conta final provisória, de 1974, foi de 170,6 milhões de marcos, contra 15 a 18 milhões estimados pelo arquiteto e 47,7 milhões na primeira estimativa da dona da obra. Bergermann e a imprensa de Munique falam em 200 milhões ou mais."},
+    {"p": "O Estádio Olímpico de Munique ainda existe?", "r": "Sim. Perdeu os clubes de futebol em 2005 e passou a receber atletismo e shows. Em 2025 foi aprovada a reforma completa do teto, por 298,4 milhões de euros, com a troca de 11 mil placas de acrílico até o fim de 2029."}
+  ],
   "fontes": [
     {
       "texto": "Deutscher Bundestag, Drucksache 7/3066, \"Unterrichtung durch die Bundesregierung betr. Gesamtfinanzierung der Olympischen Sommerspiele 1972\", 1975",

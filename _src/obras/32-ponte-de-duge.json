@@ -200,6 +200,13 @@
       "registro": "Os 560 metros atribuídos à ponte do rio Sidu, na China, são da imprensa chinesa. Medida até a água, a Sidu tem 496 metros, segundo o catálogo HighestBridges; outras fontes dão 500 ou 550 metros, sem dizer de onde medem."
     }
   ],
+  "perguntas": [
+    {"p": "Qual a altura da Ponte de Duge?", "r": "O tabuleiro fica a 565 metros acima da água, ou 565,4 metros nas fontes oficiais mais recentes; as fontes não medem do mesmo ponto de referência. O topo das torres chega a cerca de 740 metros acima do rio."},
+    {"p": "A Ponte de Duge ainda é a ponte mais alta do mundo?", "r": "Não. Foi a mais alta de 29 de dezembro de 2016 a 28 de setembro de 2025, quando perdeu o título para a Huajiang Grand Canyon Bridge, também em Guizhou, com 625 metros. Desde então é a segunda ponte mais alta do mundo."},
+    {"p": "Onde fica a Ponte de Duge?", "r": "Na divisa entre as províncias de Guizhou e Yunnan, no sudoeste da China, entre Duge, em Liupanshui, e Puli, em Xuanwei. Ela leva a rodovia G56 sobre um desfiladeiro e, em chinês, se chama Primeira Ponte do Rio Beipan."},
+    {"p": "Como foi construída a Ponte de Duge?", "r": "É uma ponte estaiada: o vão central de 720 metros cresceu em balanço a partir das duas torres, segmento por segmento, até os dois braços se encontrarem em 10 de setembro de 2016. As 264 estacas de fundação foram cavadas à mão, porque a perfuratriz não trabalhava no calcário cheio de cavernas."},
+    {"p": "Quanto custou a Ponte de Duge?", "r": "As fontes divergem: cerca de 1,03 bilhão de yuans, segundo a imprensa chinesa, ou 778,86 milhões de yuans, em outro registro. Nenhuma fonte explica a diferença, que pode ser a do projeto inteiro contra a da ponte isolada."}
+  ],
   "fontes": [
     {
       "texto": "Departamento de Transportes da Província de Guizhou, \"杭瑞高速贵州段北盘江大桥建成通车\", 30/12/2016",

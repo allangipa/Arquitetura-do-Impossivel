@@ -195,6 +195,13 @@
       "registro": "A frase vem do material dos incorporadores. O concreto de até 14.000 psi, cerca de 96,5 MPa, é de altíssimo desempenho, mas a afirmação de recorde mundial não tem confirmação independente."
     }
   ],
+  "perguntas": [
+    {"p": "Qual a altura do 111 West 57th Street?", "r": "São 435,3 metros de altura arquitetônica, em 84 andares, segundo o Council on Tall Buildings and Urban Habitat. Em 2026 era o terceiro prédio mais alto de Nova York; o recorde dele é de esbeltez, não de altura."},
+    {"p": "Por que o 111 West 57th Street é o arranha-céu mais fino do mundo?", "r": "Porque a torre tem cerca de 18 metros de largura na direção mais estreita e 435,3 metros de altura, umas 24 vezes mais alta do que larga. As fontes dão a relação entre largura e altura como 1 para 23 ou 1 para 24."},
+    {"p": "Como o 111 West 57th Street não balança com o vento?", "r": "Duas paredes de concreto correm a altura inteira nas fachadas leste e oeste, travadas entre si e ao núcleo em andares técnicos. No topo, um amortecedor de massa sintonizado, de 800 tons americanas, cerca de 725 toneladas métricas, se move contra o balanço e o amortece."},
+    {"p": "Quanto custou o 111 West 57th Street?", "r": "A obra teve financiamento de US$ 725 milhões em 2015, entre hipoteca da AIG e empréstimo mezanino da Apollo. O custo total diverge entre as fontes: US$ 1 bilhão numa reportagem de 2017 e US$ 2 bilhões em outras."},
+    {"p": "Quais foram os problemas na construção do 111 West 57th Street?", "r": "Em julho de 2017 a obra parou com 20 andares, depois de um estouro de cerca de US$ 57 milhões levar o empréstimo mezanino à inadimplência e à execução que eliminou a sócia AmBase. Em 2020, um bloco de terracota e destroços da fachada caíram na rua, sem feridos, e a prefeitura parou a obra."}
+  ],
   "fontes": [
     {
       "texto": "Council on Tall Buildings and Urban Habitat, The Skyscraper Center, \"111 West 57th Street\"",

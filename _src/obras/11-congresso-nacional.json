@@ -209,6 +209,13 @@
       "registro": "É uma das medidas. Uma pesquisa sobre as pranchas originais dá 95 m de fachada, e o banco de dados internacional de arranha-céus registra 92 m."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi construído o Congresso Nacional?", "r": "Entre 1957 e 1960. A data de início diverge conforme a fonte: novembro de 1957 ou 16/03/1958. O prédio foi inaugurado com Brasília em 21/04/1960, ainda inacabado, e a obra e os pagamentos à construtora só terminaram em 1964."},
+    {"p": "Quem projetou o Congresso Nacional?", "r": "O arquiteto Oscar Niemeyer, que fechou a composição de plataforma, duas cúpulas e duas torres entre março e julho de 1957. O cálculo estrutural é do engenheiro e poeta pernambucano Joaquim Cardozo, feito no Rio de Janeiro."},
+    {"p": "Como foi construído o Congresso Nacional?", "r": "As cúpulas e a plataforma de 200 m são de concreto armado; a cúpula côncava da Câmara, com 62 m de diâmetro, foi feita com três cascas em vez de uma. As torres de 28 andares parecem concreto, mas por dentro são um esqueleto de aço fabricado nos Estados Unidos, rebitado em Brasília e revestido de concreto."},
+    {"p": "Qual a altura das torres do Congresso Nacional?", "r": "As fontes divergem: 92, 95 ou 100 m. Uma pesquisa sobre as pranchas originais dá 95 m de fachada, e o banco de dados internacional de arranha-céus registra 92 m. Consenso mesmo só há nos 28 andares de cada torre."},
+    {"p": "Quantas pessoas morreram na construção do Congresso Nacional?", "r": "Não há número, nem oficial, nem contestado. Operários lembram quedas das torres, que chamavam de “o 28”, mas ninguém registrou mortos nem quantos homens trabalharam na obra. O massacre dos candangos de 1959 não foi no Congresso, e sim no acampamento da construtora do Palácio do Planalto."}
+  ],
   "fontes": [
     {
       "texto": "Elcio Gomes da Silva e José Manoel Morales Sánchez, \"Documentação estrutural do Palácio do Congresso Nacional em Brasília\", Paranoá, n. 15, 2015",

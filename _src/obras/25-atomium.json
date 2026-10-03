@@ -208,6 +208,13 @@
       "registro": "A conta fecha: a aresta de 47 metros do edifício dividida pela aresta da célula do ferro, pouco menos de três décimos de nanômetro, dá cerca de 164 bilhões."
     }
   ],
+  "perguntas": [
+    {"p": "O que representa o Atomium?", "r": "Um cristal: a célula elementar do ferro, com nove átomos, oito nos vértices de um cubo e um no centro, ampliada cerca de 165 bilhões de vezes. O nome fala da era atômica, mas a forma não é de molécula nem de átomo."},
+    {"p": "Quem projetou o Atomium?", "r": "A ideia é do engenheiro André Waterkeyn, da Fabrimétal. Os arquitetos André e Jean Polak transformaram o conceito em edifício, os engenheiros Artémy S. Joukoff e André Beckers calcularam a estabilidade, e a montagem coube aos Ateliers de Construction de Jambes-Namur."},
+    {"p": "Quando foi construído o Atomium?", "r": "Para a Expo 58, em Bruxelas. As fundações começaram em março de 1956 e as esferas foram montadas de outubro de 1957 a março de 1958. As fontes divergem sobre a conclusão: 25/03/1958 ou a madrugada de 17/04/1958, dia da abertura da Expo."},
+    {"p": "Qual a altura do Atomium?", "r": "102 m, do chão ao alto da esfera de cima. São nove esferas de 18 metros de diâmetro, nos vértices e no centro de um cubo de 47 metros de aresta posto de pé sobre um vértice."},
+    {"p": "O Atomium era para ser desmontado?", "r": "Sim. Segundo os Arquivos da Cidade de Bruxelas, ele não estava destinado a sobreviver à Expo 58 e ficou por causa do sucesso. Na renovação de 2004 a 2006, o revestimento de alumínio deu lugar ao aço inoxidável."}
+  ],
   "fontes": [
     {
       "texto": "Inventaire du patrimoine architectural, Région de Bruxelles-Capitale (urban.brussels), \"Atomium\", 2018",

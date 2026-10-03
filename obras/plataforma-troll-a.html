@@ -298,7 +298,25 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 .leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
 .leia a:hover strong{color:var(--obra)}
 .leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
-@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}
+.perguntas{border-top:1px solid var(--viga);margin:1.2rem 0 0}
+.perguntas h3{font-size:1.25rem;line-height:1.15;margin:1.4rem 0 .5rem;color:var(--giz)}
+.perguntas p{margin:0 0 1.2rem;padding-bottom:1.2rem;border-bottom:1px dashed var(--viga)}
+.temas-link{margin:1rem 0 0;font-size:.95rem;color:var(--giz-2)}
+.temas-link .rotulo{margin-right:.4rem}
+.temas-link a{color:var(--obra)}
+.temas-lista{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:.8rem}
+.temas-lista a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1.1rem 1.2rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.temas-lista a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.temas-lista strong{font:700 1.4rem/1.1 var(--f-titulo);text-transform:uppercase}
+.temas-lista a:hover strong{color:var(--obra)}
+.tema-abre{padding:clamp(2.5rem,7vw,5rem) 0 clamp(2rem,5vw,3.5rem)}
+.tema-abre h1{font-size:clamp(2.4rem,6.4vw,4.6rem);margin:.6rem 0 1.4rem}
+.tema-abre .intro{max-width:var(--texto)}
+.tema-abre .intro p{color:var(--giz-2);font-size:1.05rem;margin:0 0 1.1em}
+.migalhas{font:500 .74rem/1.4 var(--f-mono);letter-spacing:.08em;color:var(--concreto);margin-bottom:1.4rem}
+.migalhas a{color:var(--concreto)}
+.migalhas span{color:var(--giz-2)}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
@@ -378,6 +396,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <h2 id="mitos"><span class="n">MITOS</span>O que circula e o que o registro diz</h2>
     <ul class="mitos"><li><div><span class="rotulo">O que circula</span><p>A Troll A é o objeto mais pesado já movido pelo ser humano.</p></div><div><span class="rotulo"><b>O que o registro diz</b></span><p>O recorde do Guinness de objeto mais pesado já movido pertence a outra plataforma norueguesa de concreto, a Gullfaks C, rebocada em 1989 com 1,5 milhão de toneladas de deslocamento. O recorde da Troll A é de altura: é a estrutura mais alta já movida.</p></div></li><li><div><span class="rotulo">O que circula</span><p>Ela pesa 1,2 milhão de toneladas.</p></div><div><span class="rotulo"><b>O que o registro diz</b></span><p>Esse é o peso com a água de lastro, em operação. A estrutura em si pesa entre 565 mil e 684 mil toneladas, conforme a fonte e o que se mede: peso seco, peso no reboque ou peso sem lastro.</p></div></li><li><div><span class="rotulo">O que circula</span><p>O concreto foi sintonizado para evitar ressonância acústica no fundo do mar.</p></div><div><span class="rotulo"><b>O que o registro diz</b></span><p>Nenhuma fonte técnica fala em ressonância acústica. O problema real foi o ringing, a vibração súbita de colunas atingidas por ondas íngremes, que levou os engenheiros a verificar a estrutura em ensaios de modelo.</p></div></li><li><div><span class="rotulo">O que circula</span><p>A Troll A é uma plataforma flutuante.</p></div><div><span class="rotulo"><b>O que o registro diz</b></span><p>Ela flutuou só durante a construção e o reboque. Desde 17/05/1995 está assentada no fundo do mar, a 303 metros, presa ao solo por saias de concreto de 36 metros.</p></div></li></ul>
 
+    <h2 id="perguntas"><span class="n">PERGUNTAS</span>Perguntas frequentes</h2><div class="perguntas"><h3>Qual a altura da plataforma Troll A?</h3><p>São 472 metros da base, no leito do mar, ao topo, dos quais 369 m de concreto. Ela está assentada sobre 303 metros de água, por isso a maior parte da estrutura fica abaixo da superfície.</p><h3>Quanto pesa a plataforma Troll A?</h3><p>As fontes divergem conforme o que se mede: 683.600 toneladas sem lastro, segundo a Aker Solutions, 656 mil toneladas no reboque ou 565 mil toneladas de peso seco. Com a água de lastro, em operação, passa de 1,2 milhão de toneladas.</p><h3>Como a plataforma Troll A foi construída e levada para o mar?</h3><p>A base começou numa doca seca em Stavanger e foi terminada flutuando num fiorde junto a Vats, onde recebeu o convés. De 10 a 17 de maio de 1995, dez rebocadores a levaram de pé até o campo de Troll, onde foi lastrada e assentada no fundo, com saias de concreto de 36 m cravadas no solo.</p><h3>Onde fica a plataforma Troll A?</h3><p>No campo de gás de Troll, no setor norueguês do mar do Norte, a noroeste de Bergen, na Noruega. Ela não é flutuante: está apoiada no fundo, a 303 metros de profundidade, e fica de pé pelo próprio peso, sem estacas nem âncoras.</p><h3>Quanto custou a plataforma Troll A?</h3><p>O contrato da base de concreto, em 1991, foi de 4,15 bilhões de coroas norueguesas, cerca de US$ 650 milhões ao câmbio da época. O convés e os equipamentos somaram mais 3,5 bilhões de coroas.</p></div>
+
     <section class="video">
       <div>
         <span class="rotulo">Episódio 29 · <span class="selo-estreia" data-estreia="2027-04-22" data-no-ar="no ar">estreia 22 de abril de 2027</span></span>
@@ -415,7 +435,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
       </dl>
     </div>
     <span class="rotulo">Nesta página</span>
-    <ol><li><a href="#ficha">Ficha da obra</a></li><li><a href="#s1">Um campo de gás em 303 metros de água</a></li><li><a href="#s2">Dezoito minutos no Gandsfjorden</a></li><li><a href="#s3">Uma torre que cresce flutuando</a></li><li><a href="#s4">O convés e a espera</a></li><li><a href="#s5">Sete dias de reboque</a></li><li><a href="#s6">Trinta anos depois</a></li><li><a href="#mitos">Mitos e registro</a></li><li><a href="#fontes">Fontes</a></li></ol>
+    <ol><li><a href="#ficha">Ficha da obra</a></li><li><a href="#s1">Um campo de gás em 303 metros de água</a></li><li><a href="#s2">Dezoito minutos no Gandsfjorden</a></li><li><a href="#s3">Uma torre que cresce flutuando</a></li><li><a href="#s4">O convés e a espera</a></li><li><a href="#s5">Sete dias de reboque</a></li><li><a href="#s6">Trinta anos depois</a></li><li><a href="#mitos">Mitos e registro</a></li><li><a href="#perguntas">Perguntas frequentes</a></li><li><a href="#fontes">Fontes</a></li></ol>
   </aside>
 </div>
 <nav class="seguinte" aria-label="Outras obras"><a href="opera-de-sydney.html"><span class="rotulo">← Obra 28</span><strong>Ópera de Sydney</strong></a><a href="roda-de-falkirk.html"><span class="rotulo">Obra 30 →</span><strong>Roda de Falkirk</strong></a></nav>

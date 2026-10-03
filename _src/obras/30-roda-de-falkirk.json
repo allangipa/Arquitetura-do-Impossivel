@@ -195,6 +195,13 @@
       "registro": "O edital sugeria uma roda-gigante de estilo vitoriano. A forma atual nasceu depois da escolha da equipe, num mês de brainstorming, segundo reportagens de 2001 da Construction News e da New Civil Engineer."
     }
   ],
+  "perguntas": [
+    {"p": "Como funciona a Roda de Falkirk?", "r": "Dois braços de aço presos a um eixo giram meia volta em cerca de cinco minutos levando duas gôndolas cheias de água, uma subindo e outra descendo, sempre na horizontal. Pelo princípio de Arquimedes, o barco desloca o próprio peso em água, então as duas pontas pesam sempre o mesmo e a meia volta consome só 1,5 kWh."},
+    {"p": "Quanto a Roda de Falkirk levanta os barcos?", "r": "A roda ergue os barcos 24 metros. O desnível total entre o Forth & Clyde Canal e o Union Canal é de 35 metros, e o resto fica com duas eclusas, depois de um aqueduto e de um túnel."},
+    {"p": "Quando foi construída a Roda de Falkirk?", "r": "As obras civis começaram em 2000; as peças foram fabricadas e montadas em teste na Inglaterra em 2001 e içadas em Falkirk em agosto daquele ano. A rainha Elizabeth II inaugurou a roda em 24 de maio de 2002, cerca de um mês depois do previsto, por causa de uma sabotagem em abril."},
+    {"p": "Quanto custou a Roda de Falkirk?", "r": "As fontes divergem: £17 milhões, £17,5 milhões ou £20 milhões, possivelmente pelo que cada conta inclui. O Millennium Link inteiro, a restauração dos dois canais, aparece como £78 milhões no orçamento de 2001 e hoje como £83,5 milhões ou £84,5 milhões."},
+    {"p": "Por que a Roda de Falkirk foi construída?", "r": "Para reconectar o Forth & Clyde Canal e o Union Canal, separados desde que as onze eclusas de Falkirk foram desmontadas em 1933. Ela foi o nó do meio do Millennium Link, que reabriu 110 km de canal entre Glasgow e Edimburgo."}
+  ],
   "fontes": [
     {
       "texto": "David Hayward, \"The wheel thing\", New Civil Engineer, 13/09/2001",

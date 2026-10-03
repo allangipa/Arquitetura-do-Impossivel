@@ -202,6 +202,13 @@
       "registro": "Nenhuma fonte institucional consultada publica um número de mortos na obra. A frase aparece em sites sem fonte, assim como a versão oposta, de uma morte. O que existe é ausência de registro."
     }
   ],
+  "perguntas": [
+    {"p": "Como foi construída a Ópera de Sydney?", "r": "As conchas do croqui de Utzon não tinham geometria calculável; depois de 12 esquemas, em 1961 todas passaram a ser tiradas da superfície de uma mesma esfera. Assim, 2.194 peças pré-moldadas de concreto foram fabricadas em série no canteiro, içadas e unidas com resina epóxi e cabos de aço protendido."},
+    {"p": "Quando foi construída a Ópera de Sydney?", "r": "A obra começou em 2 de março de 1959 e a Ópera foi inaugurada pela rainha Elizabeth II em 20 de outubro de 1973. Foram 14 anos de obra, contra a previsão de 4 anos e entrega em 1963."},
+    {"p": "Quem foi o arquiteto da Ópera de Sydney?", "r": "O dinamarquês Jørn Utzon, que venceu o concurso em 1957. Ele renunciou em 28 de fevereiro de 1966 e nunca voltou para ver a obra pronta; os interiores foram desenhados por Peter Hall, com Lionel Todd e David Littlemore. A engenharia foi da Ove Arup & Partners do começo ao fim."},
+    {"p": "Quanto custou a Ópera de Sydney?", "r": "O custo final foi de AU$ 102 milhões, 14,6 vezes o orçamento de 1957, de £3,5 milhões, o mesmo que AU$ 7 milhões. Quem pagou foi a Opera House Lottery, do governo de Nova Gales do Sul, que arrecadou AU$ 102 milhões até 1986."},
+    {"p": "Quantas pessoas morreram na construção da Ópera de Sydney?", "r": "Não há registro. Nenhuma fonte institucional consultada publica um número de mortos ou feridos na obra, e as versões que circulam, de nenhuma morte ou de uma, vêm de sites sem fonte primária. Cerca de 10 mil operários passaram pela obra, segundo o Sydney Opera House."}
+  ],
   "fontes": [
     {
       "texto": "Sydney Opera House, \"The spherical solution\"",

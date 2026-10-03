@@ -3,7 +3,11 @@
   "slug": "ponte-do-brooklyn",
   "obra": "Ponte do Brooklyn",
   "titulo_seo": "Como foi construída a Ponte do Brooklyn (1870–1883)",
-  "relacionados": ["golden-gate", "ponte-eads", "ponte-hercilio-luz"],
+  "relacionados": [
+    "golden-gate",
+    "ponte-eads",
+    "ponte-hercilio-luz"
+  ],
   "titulo_video": "Ponte do Brooklyn: 221 toneladas de arame falso, e ela ainda está de pé",
   "lugar": "East River, entre Manhattan e o Brooklyn, Nova York, Estados Unidos",
   "regiao": "mundo",
@@ -219,6 +223,28 @@
     {
       "circula": "O número oficial de mortos na obra é 27.",
       "registro": "O único número dito em cerimônia oficial foi 20, no discurso de W. C. Kingsley em 1883. O 27 vem de outra contagem, atribuída ao engenheiro assistente C. C. Martin no mesmo dia da inauguração, e ele próprio admitiu que ninguém fez lista."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "Quando foi construída a Ponte do Brooklyn?",
+      "r": "A obra começou no início de janeiro de 1870, e as fontes dão 2 ou 3 de janeiro, e a ponte foi inaugurada em 24 de maio de 1883. A estimativa original era de 5 anos; levou mais que o dobro."
+    },
+    {
+      "p": "Quem projetou a Ponte do Brooklyn?",
+      "r": "O projeto é de John A. Roebling, que morreu de tétano em 1869, antes do início da obra. O filho, Washington Roebling, foi o engenheiro-chefe até o fim e, doente desde 1872, dirigiu a obra de casa, com a mulher, Emily Warren Roebling, levando as ordens à equipe."
+    },
+    {
+      "p": "Quantas pessoas morreram na construção da Ponte do Brooklyn?",
+      "r": "As fontes divergem: o discurso oficial da inauguração falou em 20 mortos; outra contagem, atribuída ao engenheiro assistente C. C. Martin, chega a 27, e ele próprio admitiu que ninguém fez lista. Não existe um total confiável."
+    },
+    {
+      "p": "Quanto custou a Ponte do Brooklyn?",
+      "r": "Cerca de US$ 15 milhões da época, contando os terrenos. Pelo discurso oficial de 1883, a construção propriamente dita, sem terrenos nem juros, ficou em US$ 9 milhões; a estimativa do projetista era de US$ 7 milhões."
+    },
+    {
+      "p": "Qual o comprimento da Ponte do Brooklyn?",
+      "r": "O vão central entre as torres tem 486,3 m. O comprimento total é de 1.834 m ou 1.825 m, conforme onde se mede a rampa, e o tabuleiro fica a 41 m da água no meio do vão."
     }
   ],
   "fontes": [

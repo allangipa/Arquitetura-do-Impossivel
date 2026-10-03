@@ -208,6 +208,13 @@
       "registro": "Leon Moisseiff era um dos engenheiros de pontes pênseis mais respeitados dos Estados Unidos e foi consultor da Golden Gate. A tendência a pontes cada vez mais leves e flexíveis era da profissão inteira, que tinha esquecido as pontes derrubadas pelo vento no século XIX."
     }
   ],
+  "perguntas": [
+    {"p": "Por que a Ponte de Tacoma Narrows caiu?", "r": "Por flutter torsional: ao torcer, o tabuleiro mudava o ângulo com que o vento o atingia, e o vento passava a empurrar a torção no mesmo sentido, até o aço romper. A junta federal de investigação apontou em 1941 a flexibilidade excessiva da ponte, cuja viga tinha só 2,4 m de altura."},
+    {"p": "A Ponte de Tacoma Narrows caiu por ressonância?", "r": "Não, pela explicação aceita hoje. Vento turbulento não tem ritmo fixo, e os vórtices que se desprendiam da viga tinham frequência cerca de cinco vezes maior que a da torção que derrubou a ponte, como mostraram Billah e Scanlan em 1991."},
+    {"p": "Quando caiu a Ponte de Tacoma Narrows?", "r": "Em 07/11/1940, quatro meses depois da inauguração, num vento de cerca de 68 km/h, forte, mas comum no estreito. Por volta das 11h, um trecho de 183 m do vão central se soltou e caiu no estreito."},
+    {"p": "Alguém morreu na queda da Ponte de Tacoma Narrows?", "r": "Nenhuma pessoa. Morreu Tubby, o cão do jornalista Leonard Coatsworth, que ficou no carro abandonado na ponte. Na obra, o estado registra uma morte: o carpinteiro Fred Wilde, em 27/06/1940."},
+    {"p": "Como está a Ponte de Tacoma Narrows hoje?", "r": "Uma ponte nova, com treliça funda e vazada e testada em túnel de vento, foi aberta em 14/10/1950 sobre os mesmos pilares, e outra, paralela, em 2007. Os destroços de 1940 continuam no fundo do estreito, protegidos como lugar histórico desde 1992."}
+  ],
   "fontes": [
     {
       "texto": "Washington State Department of Transportation, \"Tacoma Narrows Bridge history: The machine\"",

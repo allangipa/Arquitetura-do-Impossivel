@@ -212,6 +212,13 @@
       "registro": "É o mais antigo farol de mar, erguido sobre rocha batida pelas ondas, ainda em funcionamento. Há faróis em terra firme muito mais velhos."
     }
   ],
+  "perguntas": [
+    {"p": "Quem construiu o Farol de Bell Rock?", "r": "Robert Stevenson dirigiu a obra no recife, mas em 1806 o conselho dos Faróis do Norte nomeou John Rennie engenheiro-chefe, com Stevenson como assistente. O crédito pelo projeto é disputado até hoje: o órgão de patrimônio escocês registra Stevenson como projetista e Rennie como engenheiro consultor."},
+    {"p": "Como foi construído o Farol de Bell Rock?", "r": "Pedra por pedra: os blocos eram cortados em Arbroath e se encaixam em cauda de andorinha, como no farol de Eddystone, de John Smeaton. A base foi assentada num poço escavado no próprio recife, e no começo só se trabalhava no verão, umas duas horas a cada maré baixa."},
+    {"p": "Quanto tempo levou a construção do Farol de Bell Rock?", "r": "Cerca de quatro anos. O trabalho no recife começou em 18/08/1807 e a torre foi acesa em 01/02/1811; as pedras só foram assentadas nos verões de 1808, 1809 e 1810."},
+    {"p": "Qual a altura do Farol de Bell Rock?", "r": "As fontes divergem: cerca de 35 ou 36 m. A torre tem 13 m de diâmetro na base, 4,5 m no topo e 96 degraus."},
+    {"p": "Quantas pessoas morreram na construção do Farol de Bell Rock?", "r": "As fontes divergem. O diário de Stevenson registra três mortes, a do marinheiro James Scott, a do servente William Walker e a do ferreiro Charles Henderson; outras fontes contam pelo menos duas."}
+  ],
   "fontes": [
     {
       "texto": "Robert Stevenson, An Account of the Bell Rock Light-House, Edimburgo, 1824 (Project Gutenberg)",

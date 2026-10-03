@@ -209,6 +209,13 @@
       "registro": "Cavaram em 1880 e em 1974. Na primeira vez pararam por medo de invasão militar; na segunda, pelo custo."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi construído o Eurotúnel?", "r": "Entre 1987 e 1994. A escavação começou em dezembro de 1987 do lado inglês e em 28/02/1988 do lado francês; o túnel de serviço se encontrou em 01/12/1990, e a inauguração foi em 06/05/1994."},
+    {"p": "Qual o comprimento e a profundidade do Eurotúnel?", "r": "Cada um dos três túneis tem 50 km, cerca de 38 deles sob o mar. Eles passam a cerca de 40 m abaixo do fundo do mar, acompanhando uma camada de giz-margoso entre o giz duro de cima e a argila de baixo."},
+    {"p": "Como foi construído o Eurotúnel?", "r": "Onze tuneladoras, seis saindo da Inglaterra e cinco da França, cavaram dois túneis ferroviários e um túnel de serviço entre eles, seguindo uma camada de giz-margoso mole e impermeável. Quando os dois lados do túnel de serviço se encontraram, o desvio foi de cerca de 36 cm de lado e 58 mm de altura."},
+    {"p": "Quantas pessoas morreram na construção do Eurotúnel?", "r": "As versões divergem: a conta mais citada é de 10 mortos, 8 deles britânicos, mas a placa em memória dos trabalhadores em Dover traz 11 nomes. Em 1990, o gerente de segurança da construtora disse que havia pelo menos cinco mortes do lado francês, três não divulgadas."},
+    {"p": "Quanto custou o Eurotúnel?", "r": "Orçado em £ 2,6 bilhões em 1985, terminou em £ 4,65 bilhões nos mesmos preços de 1985, um estouro de cerca de 80%. Em libras de 1994, cerca de £ 9,5 bilhões, pagos só com dinheiro privado, porque o tratado proibia fundos de governo."}
+  ],
   "fontes": [
     {
       "texto": "Pierre-Jean Pompée, \"Channel Tunnel — 3 tunnels\", Amicale des Bâtisseurs du Tunnel sous la Manche, 1995",

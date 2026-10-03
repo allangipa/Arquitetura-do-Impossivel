@@ -197,6 +197,13 @@
       "registro": "O elefante atravessou em 14/06/1874 como demonstração para o público, apoiada numa crença popular. O teste de carga foi o de 02/07/1874, com 14 locomotivas durante cinco horas."
     }
   ],
+  "perguntas": [
+    {"p": "Quem construiu a Ponte Eads?", "r": "O projeto é de James Buchanan Eads, engenheiro-chefe da companhia da ponte, que não tinha formação em engenharia e fez fortuna resgatando cargas de vapores afundados no Mississippi. A superestrutura foi montada pela Keystone Bridge Company, de Andrew Carnegie."},
+    {"p": "Quando foi construída a Ponte Eads?", "r": "Entre 1867 e 1874: a primeira ensecadeira é de 21/08/1867 e a inauguração, de 04/07/1874, dois dias depois do teste de carga com 14 locomotivas."},
+    {"p": "Como foi construída a Ponte Eads?", "r": "Os pilares desceram até a rocha em caixões pneumáticos, câmaras cheias de ar comprimido onde homens cavavam a areia do leito. Os três arcos de aço foram montados em balanço a partir dos pilares, presos por cabos a torres provisórias, sem nenhum escoramento no rio."},
+    {"p": "Quantas pessoas morreram na construção da Ponte Eads?", "r": "As fontes divergem: de 13 a 16 mortos, quase todos pela doença dos caixões, causada pelo trabalho em ar comprimido. A conta mais citada é 14 mortos e 119 doentes."},
+    {"p": "A Ponte Eads foi a primeira ponte de aço do mundo?", "r": "Não exatamente. Foi a primeira grande estrutura com o aço como metal principal, mas leva mais ferro forjado que aço: 3.156 contra 2.390 toneladas. A primeira ponte inteiramente de aço é de 1879."}
+  ],
   "fontes": [
     {
       "texto": "National Park Service, National Register of Historic Places Inventory, Nomination Form: Eads Bridge, 1975",

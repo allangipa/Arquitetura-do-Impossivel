@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "pontes",
+    "nome": "Grandes pontes",
+    "titulo": "Grandes pontes: como foram construídas, do Brooklyn a Duge",
+    "resumo": "Como foram erguidas oito pontes que pareciam impossíveis: Brooklyn, Golden Gate, Hercílio Luz, Rio-Niterói, Forth, Eads, Duge e a queda de Tacoma.",
+    "intro": [
+      "Toda ponte grande resolve o mesmo problema de um jeito diferente: atravessar um vão onde não dá para apoiar nada no meio. As pênseis penduram o tabuleiro em cabos. A do Brooklyn (1870–1883) assentou as torres com homens cavando dentro de caixões de ar comprimido; a Golden Gate (1933–1937) fiou no próprio local os cabos do maior vão pênsil do mundo, 1.280 m; a Hercílio Luz, em Florianópolis, pendurou o vão sobre o mar em correntes de barras de aço.",
+      "Tacoma Narrows mostra o outro lado: abriu em julho de 1940 com uma viga de apenas 2,4 m de altura e caiu quatro meses depois, num vento de 68 km/h. A Ponte de Forth (1882–1890) nasceu logo depois de outra ponte escocesa cair numa tempestade, e respondeu com cantiléveres de aço. A Eads, sobre o Mississippi, apostou em arcos de um metal que nunca tinha sido o principal de uma grande estrutura.",
+      "No Brasil, a Rio-Niterói atravessou a Baía de Guanabara com mais de 13 km de ponte e um vão central de aço de 300 m. Na China, Duge pôs o tabuleiro a 565 m sobre um rio e foi a ponte mais alta do mundo de 2016 a 2025. Cada página traz a ficha da obra, com o grau de confiança de cada número."
+    ],
+    "obras": ["ponte-rio-niteroi", "ponte-do-brooklyn", "ponte-hercilio-luz", "golden-gate", "ponte-eads", "ponte-de-forth", "ponte-de-tacoma-narrows", "ponte-de-duge"]
+  },
+  {
+    "slug": "arranha-ceus",
+    "nome": "Arranha-céus",
+    "titulo": "Arranha-céus: como foram construídos, do Ingalls ao Burj",
+    "resumo": "Como subiram o Edifício Ingalls, o Martinelli, o Empire State, o Burj Khalifa e o 111 West 57th: concreto, aço, vento, prazo e quem trabalhou neles.",
+    "intro": [
+      "Subir um prédio é vencer o peso, o vento e o prazo. Em Cincinnati, o Edifício Ingalls (1902–1904) chegou a 64 m sem nenhuma viga de aço, só com concreto e barras torcidas por dentro, quando engenheiros respeitados juravam que ele nunca chegaria ao telhado. Em São Paulo, o Martinelli subiu a 30 andares numa cidade onde quase nenhum prédio passava de cinco, e a obra chegou a ser embargada em 1928.",
+      "O Empire State montou 86 andares de aço e pedra em 410 dias, a 4,5 andares por semana, começando poucos meses depois da quebra da Bolsa de 1929. Em Dubai, o Burj Khalifa chegou a 828 m com uma forma em Y pensada contra o vento. E em Nova York o 111 West 57th Street ergueu 435 m sobre uns 18 m de largura, o arranha-céu mais esbelto do mundo.",
+      "Cada página mostra como a torre ficou de pé, quanto custou e quantos trabalharam nela, e diz onde as fontes divergem ou onde ninguém registrou."
+    ],
+    "obras": ["empire-state", "burj-khalifa", "edificio-martinelli", "edificio-ingalls", "111-west-57th-street"]
+  },
+  {
+    "slug": "tuneis-e-ferrovias",
+    "nome": "Túneis e ferrovias",
+    "titulo": "Túneis e ferrovias: como foram construídos",
+    "resumo": "Túnel do Tâmisa, Eurotúnel, São Gotardo, Santos-Jundiaí e Madeira-Mamoré: como se abriu caminho sob rios, mares e montanhas, e quanto isso custou.",
+    "intro": [
+      "Abrir caminho por baixo de um rio, de um mar ou de uma montanha, ou fazer o trem atravessar o que parecia intransponível. Em Londres, Marc Brunel cavou o Túnel do Tâmisa (1825–1843) com uma gaiola de 36 células, uma para cada mineiro, sob um rio cheio de navios, e levou 18 anos. O Eurotúnel (1987–1994) usou 11 tuneladoras, seis da Inglaterra e cinco da França, e os dois lados do túnel de serviço se encontraram com 36 cm de desvio lateral.",
+      "Na Suíça, o Túnel de Base de São Gotardo atravessou os Alpes por 57 km, com até 2.300 m de rocha em cima: é o túnel ferroviário mais longo do mundo. No Brasil, a Santos-Jundiaí fez o trem subir a Serra do Mar com quatro planos inclinados, cabo de aço e vapor, e a Madeira-Mamoré assentou trilhos por mais de 360 km de floresta, pântano e corredeira na Amazônia, onde quase todo operário caía de malária.",
+      "Em várias delas, a conta dos mortos é a parte mais difícil: na Madeira-Mamoré ela vai de menos de 2 mil a 6 mil ou mais, conforme a fonte. Cada página mostra as versões e não escolhe."
+    ],
+    "obras": ["estrada-de-ferro-madeira-mamore", "santos-jundiai", "eurotunel", "tunel-do-tamisa", "tunel-de-base-de-sao-gotardo"]
+  },
+  {
+    "slug": "estadios",
+    "nome": "Estádios",
+    "titulo": "Grandes estádios: Maracanã, Astrodome e Munique",
+    "resumo": "Como foram construídos o Maracanã de 1950, o Astrodome e sua cúpula sem colunas e o teto de cabos e acrílico do Estádio Olímpico de Munique.",
+    "intro": [
+      "Um estádio tem de abrigar dezenas de milhares de pessoas e, quase sempre, ficar pronto numa data marcada. O Maracanã foi erguido em menos de dois anos para a Copa do Mundo de 1950: um anel de concreto para mais de 150 mil pessoas, coberto por uma marquise em balanço sem um único pilar por baixo, demolida em 2011.",
+      "Em Houston, o Astrodome (1962–1965) cobriu um estádio de beisebol inteiro com uma cúpula de aço de 195,7 m de vão, sem coluna no meio, e a luz das claraboias acabou matando a grama. Em Munique, o Estádio Olímpico (1969–1972) pendurou mais de 70 mil metros quadrados de acrílico numa rede de cabos que ninguém sabia calcular, e o teto só ficou de pé com a ajuda de um computador.",
+      "Cada página traz a ficha da obra, o custo e o que aconteceu com o estádio depois."
+    ],
+    "obras": ["maracana", "astrodome", "estadio-olimpico-de-munique"]
+  },
+  {
+    "slug": "agua-e-eclusas",
+    "nome": "Barragens, canais e eclusas",
+    "titulo": "Barragens, canais e eclusas: como foram construídos",
+    "resumo": "Represa Hoover, Itaipu, Canal do Panamá e Roda de Falkirk: como se desviou um rio, se cortou uma cordilheira e se fez um barco subir sem eclusa.",
+    "intro": [
+      "Mover um rio, ou fazer um navio subir uma montanha. A Represa Hoover (1931–1936) desviou o rio Colorado por quatro túneis abertos dentro da montanha e precisou de 937 km de tubos de água gelada para esfriar o próprio concreto. Itaipu (1975–1984) tirou o rio Paraná do leito para erguer, no seco, uma barragem de 196 m que pertence em partes iguais a Brasil e Paraguai; o lago cobriu Sete Quedas em 14 dias.",
+      "O Canal do Panamá (1904–1914) cortou uma cordilheira que desmoronava de volta para dentro do corte, num istmo onde a febre amarela e a malária já tinham derrotado os franceses, e sobe os navios 26 m até um lago feito de chuva. Na Escócia, a Roda de Falkirk trocou onze eclusas por um elevador de barcos giratório, que ergue os barcos 24 m gastando 1,5 kWh por meia volta.",
+      "Na Hoover, em Itaipu e no Panamá, a conta dos mortos depende de quem conta. Cada página mostra as versões, e não escolhe."
+    ],
+    "obras": ["usina-de-itaipu", "represa-hoover", "canal-do-panama", "roda-de-falkirk"]
+  },
+  {
+    "slug": "brasil",
+    "nome": "Grandes obras do Brasil",
+    "titulo": "Grandes obras do Brasil: como foram construídas",
+    "resumo": "Dez obras brasileiras e como foram erguidas: Cristo Redentor, Ponte Rio-Niterói, Itaipu, Madeira-Mamoré, Maracanã, MASP, Congresso Nacional e outras.",
+    "intro": [
+      "Do alto do Corcovado à floresta de Rondônia, as obras brasileiras deste site têm em comum um problema que parecia sem solução. O Cristo Redentor (1922–1931) é uma figura de 38 m de concreto armado, com pele de pedra-sabão, no cume de uma agulha de granito. O Maracanã ficou pronto em menos de dois anos para a Copa de 1950, e o Congresso Nacional foi inaugurado com Brasília, em 21 de abril de 1960, ainda inacabado.",
+      "Em São Paulo, a Santos-Jundiaí venceu a Serra do Mar em 1867, o Martinelli subiu a 30 andares quando quase nenhum prédio da cidade passava de cinco e o MASP suspendeu um museu inteiro 8 m acima da Avenida Paulista. Em Florianópolis, a Ponte Hercílio Luz ficou 28 anos fechada antes de reabrir em 2019. Na Amazônia, a Madeira-Mamoré assentou trilhos por mais de 360 km de floresta, pântano e corredeira.",
+      "Sobre a água, a Ponte Rio-Niterói atravessou a Baía de Guanabara com mais de 13 km de ponte, e Itaipu desviou o rio Paraná para erguer uma barragem de 196 m na fronteira com o Paraguai. Cada página traz a ficha completa, com o grau de confiança de cada número."
+    ],
+    "obras": ["cristo-redentor", "ponte-rio-niteroi", "usina-de-itaipu", "estrada-de-ferro-madeira-mamore", "ponte-hercilio-luz", "congresso-nacional", "santos-jundiai", "masp", "maracana", "edificio-martinelli"]
+  }
+]

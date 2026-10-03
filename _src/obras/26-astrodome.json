@@ -204,6 +204,13 @@
       "registro": "Arenas cobertas já existiam. O registro histórico nacional o chama de primeiro estádio fechado e climatizado dos Estados Unidos, e a Associação Histórica do Texas, de primeiro estádio esportivo multiuso totalmente climatizado e coberto do mundo. Para beisebol e futebol americano, foi o primeiro."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi construído o Astrodome?", "r": "A cerimônia de início foi em 3 de janeiro de 1962, mas a obra do estádio em si começou em 18 de março de 1963. A cúpula passou a se sustentar sozinha em fevereiro de 1964, e o Astrodome foi inaugurado em 9 de abril de 1965, num amistoso contra os New York Yankees."},
+    {"p": "Quanto custou o Astrodome?", "r": "As fontes divergem conforme o que cada uma soma: US$ 31,6 milhões em títulos do condado, US$ 35,5 milhões no total segundo o registro histórico nacional, mais de US$ 40 milhões segundo a Associação Histórica do Texas, ou pouco mais de US$ 45 milhões segundo a firma de engenharia."},
+    {"p": "Quantas pessoas morreram na construção do Astrodome?", "r": "Três, segundo o Houston Chronicle: Leon Homer Wilson, em outubro de 1963, e dois homens que caíram em 1964, Frank Halliburton e o soldador Homer P. Williams. Não há número oficial nas fontes institucionais, e o total de operários da obra não foi registrado."},
+    {"p": "Por que o Astrodome trocou a grama natural pela sintética?", "r": "As claraboias do teto ofuscavam os jogadores e foram pintadas em abril de 1965; com menos luz, a grama natural morreu. Em 1966 a Monsanto instalou sua grama sintética, que passou a se chamar AstroTurf. Ela não foi inventada para o estádio: já tinha sido instalada numa escola de Providence em 1964."},
+    {"p": "O Astrodome ainda existe?", "r": "Sim, a cúpula continua de pé, mas o prédio está fechado desde 2008 por falhas de segurança contra incêndio. Um estudo de dezembro de 2025 calculou US$ 752,6 milhões para devolvê-lo ao funcionamento básico e US$ 55 milhões para demoli-lo."}
+  ],
   "fontes": [
     {
       "texto": "National Park Service, National Register of Historic Places Registration Form, \"The Astrodome\", Texas Historical Commission, 2013",

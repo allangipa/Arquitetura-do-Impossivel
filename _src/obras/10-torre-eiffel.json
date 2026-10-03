@@ -201,6 +201,13 @@
       "registro": "É de ferro pudlado, um ferro forjado, fabricado pelas forjas Dupont et Fould, em Pompey, na Lorena."
     }
   ],
+  "perguntas": [
+    {"p": "Quem projetou a Torre Eiffel?", "r": "O primeiro desenho, de 6 de junho de 1884, é de dois engenheiros da empresa de Gustave Eiffel, Maurice Koechlin e Émile Nouguier; o arquiteto Stephen Sauvestre deu a forma final, com os grandes arcos da base. Eiffel registrou a patente nos três nomes, comprou os direitos dos dois engenheiros, financiou e construiu a torre."},
+    {"p": "Quando foi construída a Torre Eiffel?", "r": "Entre 1887 e 1889, para a Exposição Universal de Paris. As fundações começaram no fim de janeiro de 1887, a montagem do ferro em 1º de julho de 1887 e o topo foi alcançado em 31/03/1889: 2 anos, 2 meses e 5 dias. A torre abriu ao público em 15/05/1889."},
+    {"p": "Como foi construída a Torre Eiffel?", "r": "As 18.038 peças de ferro pudlado foram desenhadas, furadas e pré-montadas em trechos de cerca de 5 metros na fábrica de Levallois-Perret e unidas no canteiro com rebites postos a quente. O primeiro andar foi apoiado em andaimes de madeira, e a inclinação dos pés foi acertada com caixas de areia e macacos hidráulicos."},
+    {"p": "Quantas pessoas morreram na construção da Torre Eiffel?", "r": "As versões divergem. A empresa que explora a torre fala em nenhum morto em serviço; documentos guardados no Musée d'Orsay registram a morte de Angelo Scagliotti num acidente no canteiro, em 24/05/1889, durante a instalação dos elevadores. A história de mais de 300 operários mortos é falsa."},
+    {"p": "Quanto custou a Torre Eiffel?", "r": "7.799.401,31 francos de 1889, contra 6,5 milhões estimados na época da convenção. O Estado entrou com 1,5 milhão; o resto veio de Eiffel e de uma sociedade com três bancos."}
+  ],
   "fontes": [
     {
       "texto": "Convenção de 8 de janeiro de 1887 entre o Estado, a Cidade de Paris e Gustave Eiffel para a construção e exploração da torre de 300 metros (texto integral)",

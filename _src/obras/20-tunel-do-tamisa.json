@@ -193,6 +193,13 @@
       "registro": "Foi projetado para carroças de carga, mas as rampas em espiral de acesso nunca foram construídas por falta de dinheiro. De 1843 a 1869, foi uma passagem de pedestres, com escadas nos poços e pedágio de 1 pêni."
     }
   ],
+  "perguntas": [
+    {"p": "Como foi construído o Túnel do Tâmisa?", "r": "Com o escudo patenteado por Marc Isambard Brunel em 1818: uma gaiola de ferro de 36 células, cada uma com um mineiro, que avançava rente à frente da escavação enquanto os pedreiros revestiam de tijolo o trecho recém-aberto logo atrás."},
+    {"p": "Quem construiu o Túnel do Tâmisa?", "r": "O engenheiro-chefe foi Marc Isambard Brunel, francês radicado na Inglaterra. O filho dele, Isambard Kingdom Brunel, foi o engenheiro residente a partir de 1826–1827. A obra era da Thames Tunnel Company, de investidores privados, entre eles o Duque de Wellington."},
+    {"p": "Quanto tempo levou a construção do Túnel do Tâmisa?", "r": "18 anos: o poço de Rotherhithe começou em março de 1825 e o túnel foi inaugurado em 25/03/1843. No meio, o rio inundou a obra várias vezes, e o túnel ficou emparedado de agosto de 1828 até a retomada com dinheiro do Tesouro, a partir de dezembro de 1834."},
+    {"p": "Quantas pessoas morreram na construção do Túnel do Tâmisa?", "r": "O total nunca foi somado. Seis homens morreram na inundação de 12/01/1828, e há registro de mais um mineiro morto na inundação de novembro de 1837 e de um engenheiro morto de febre."},
+    {"p": "Qual o comprimento do Túnel do Tâmisa?", "r": "As fontes divergem: 1.200 pés (366 m) ou 1.300 pés (396 m). São duas galerias paralelas de tijolo, ligadas por arcos, que desde 1869 recebem trens."}
+  ],
   "fontes": [
     {
       "texto": "TfL Corporate Archives, Research Guide No 25: The Thames Tunnel, 2024",

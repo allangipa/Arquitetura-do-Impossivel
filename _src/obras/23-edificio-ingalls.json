@@ -3,7 +3,11 @@
   "slug": "edificio-ingalls",
   "obra": "Edifício Ingalls",
   "titulo_seo": "Edifício Ingalls, o primeiro arranha-céu de concreto armado",
-  "relacionados": ["empire-state", "edificio-martinelli", "cristo-redentor"],
+  "relacionados": [
+    "empire-state",
+    "edificio-martinelli",
+    "cristo-redentor"
+  ],
   "titulo_video": null,
   "lugar": "Esquina das ruas Fourth e Vine, centro de Cincinnati, Ohio, Estados Unidos",
   "regiao": "mundo",
@@ -189,6 +193,28 @@
     {
       "circula": "Ernest Ransome projetou o prédio.",
       "registro": "Ransome inventou e patenteou, em 1884, a barra de aço torcida usada no prédio. O projeto é dos arquitetos Elzner & Anderson, e o cálculo estrutural é atribuído ao engenheiro Henry N. Hooper."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "Por que o Edifício Ingalls é importante?",
+      "r": "É reconhecido como o primeiro arranha-céu de concreto armado do mundo: um prédio de escritórios de 64 m em Cincinnati, nos Estados Unidos, erguido sem nenhuma viga de aço quando, segundo as fontes, nenhum prédio de concreto passava de seis andares."
+    },
+    {
+      "p": "Como foi construído o Edifício Ingalls?",
+      "r": "Como um monólito: colunas, vigas e lajes de concreto concretadas juntas, armadas com barras de aço quadradas torcidas a frio, a técnica patenteada por Ernest L. Ransome em 1884. Não há vigas em I, rebites nem parafusos, e três jogos de fôrmas de madeira foram reaproveitados de baixo para cima."
+    },
+    {
+      "p": "Quem construiu o Edifício Ingalls?",
+      "r": "O investidor foi Melville Ingalls, presidente da ferrovia Big Four, e o projeto é dos arquitetos Elzner & Anderson, com cálculo estrutural atribuído ao engenheiro Henry Hooper. Quem executou a obra diverge: uma revista de 1903 cita a construtora W. H. Ellis & Co., que venceu pelo menor preço; outras fontes, a Ferro-Concrete Construction Company, de Hooper."
+    },
+    {
+      "p": "Quando foi construído o Edifício Ingalls?",
+      "r": "A obra começou no outono de 1902. As fontes divergem sobre o fim: a conclusão aparece como 1903 nas fontes atuais, mas em meados de 1904 o arquiteto escrevia que o prédio acabava de ser concluído."
+    },
+    {
+      "p": "Quantos andares tem o Edifício Ingalls?",
+      "r": "Quinze andares e um ático completo, “praticamente dezesseis”, nas palavras do arquiteto; por isso as fontes falam ora em 15, ora em 16. A altura é de 64 m acima da calçada."
     }
   ],
   "fontes": [

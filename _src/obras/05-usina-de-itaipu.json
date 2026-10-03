@@ -217,6 +217,13 @@
       "registro": "A vazão de 13.300 m³/s repetida pelas fontes brasileiras não tem referência primária, e pela média citada outras quedas, como Boyoma, no Congo, a superam. O que se sustenta: uma das maiores do mundo em volume de água."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi construída a Usina de Itaipu?", "r": "As obras começaram em 1975, o rio foi desviado em 20 de outubro de 1978 e as comportas foram fechadas em 13 de outubro de 1982. A primeira unidade gerou em 5 de maio de 1984, e a inauguração foi em 25 de outubro de 1984; as duas últimas unidades entraram em 2006 e 2007."},
+    {"p": "Como foi construída a Usina de Itaipu?", "r": "Primeiro tiraram o rio Paraná do leito: um canal de desvio de cerca de 2 km foi aberto na margem, e em 20 de outubro de 1978 58 toneladas de explosivos derrubaram as ensecadeiras. Com o leito seco, a barragem foi erguida, com mais de 12 milhões de m³ de concreto."},
+    {"p": "Quantas pessoas morreram na construção de Itaipu?", "r": "Não existe número oficial para a obra inteira. A própria Itaipu estima 106 mortes entre 1978 e 1984; outras contagens, parciais, vão de 40 a 138, e relatos sem documento falam em até 800 ou cerca de mil."},
+    {"p": "Itaipu é a maior usina do mundo?", "r": "Não. Em potência, Três Gargantas, na China, tem 22.500 MW contra 14.000 de Itaipu, e detém o recorde de produção anual desde 2020. Itaipu teve esse recorde em 2016."},
+    {"p": "Quanto custou a Usina de Itaipu?", "r": "As fontes divergem: cerca de 12 bilhões de dólares da época, segundo a Memória da Eletricidade, ou cerca de 14 bilhões, segundo a Itaipu. Os 63 bilhões que circulam são o total pago da dívida em cinquenta anos, com 27,9 bilhões de juros e encargos."}
+  ],
   "fontes": [
     {
       "texto": "Tratado de Itaipu, promulgado pelo Decreto nº 72.707, de 28/08/1973",

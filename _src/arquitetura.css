@@ -358,3 +358,25 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 .leia a:hover strong{color:var(--obra)}
 .leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
 @media (max-width:720px){.leia ul{grid-template-columns:1fr}}
+
+/* ---- perguntas frequentes -------------------------------------------- */
+.perguntas{border-top:1px solid var(--viga);margin:1.2rem 0 0}
+.perguntas h3{font-size:1.25rem;line-height:1.15;margin:1.4rem 0 .5rem;color:var(--giz)}
+.perguntas p{margin:0 0 1.2rem;padding-bottom:1.2rem;border-bottom:1px dashed var(--viga)}
+
+/* ---- temas: link na obra, lista na home e página de tema ------------- */
+.temas-link{margin:1rem 0 0;font-size:.95rem;color:var(--giz-2)}
+.temas-link .rotulo{margin-right:.4rem}
+.temas-link a{color:var(--obra)}
+.temas-lista{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:.8rem}
+.temas-lista a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1.1rem 1.2rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.temas-lista a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.temas-lista strong{font:700 1.4rem/1.1 var(--f-titulo);text-transform:uppercase}
+.temas-lista a:hover strong{color:var(--obra)}
+.tema-abre{padding:clamp(2.5rem,7vw,5rem) 0 clamp(2rem,5vw,3.5rem)}
+.tema-abre h1{font-size:clamp(2.4rem,6.4vw,4.6rem);margin:.6rem 0 1.4rem}
+.tema-abre .intro{max-width:var(--texto)}
+.tema-abre .intro p{color:var(--giz-2);font-size:1.05rem;margin:0 0 1.1em}
+.migalhas{font:500 .74rem/1.4 var(--f-mono);letter-spacing:.08em;color:var(--concreto);margin-bottom:1.4rem}
+.migalhas a{color:var(--concreto)}
+.migalhas span{color:var(--giz-2)}

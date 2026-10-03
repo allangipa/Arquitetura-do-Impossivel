@@ -201,6 +201,13 @@
       "registro": "Segundo o distrito, o nome do estreito foi dado por John C. Frémont em 1846, antes da corrida do ouro e quase um século antes da ponte."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi construída a Ponte Golden Gate?", "r": "Entre 1933 e 1937. A obra começou em 05/01/1933, o vão central foi unido em novembro de 1936 e a ponte abriu a pedestres em 27/05/1937 e a veículos em 28/05/1937."},
+    {"p": "Quem projetou a Ponte Golden Gate?", "r": "Joseph Strauss foi o engenheiro-chefe, mas o cálculo da ponte que existe é de Charles Ellis, com a teoria da deflexão de Leon Moisseiff; o arquiteto Irving Morrow desenhou os detalhes em art déco e escolheu a cor. O papel principal de Ellis só foi reconhecido pelo distrito em 2007."},
+    {"p": "Qual o tamanho da Ponte Golden Gate?", "r": "O vão central tem 1.280 m, o maior vão pênsil do mundo de 1937 a 1964. O comprimento total é de cerca de 2.737 m, as torres sobem 227 m acima da água e a pista fica a 67 m da água."},
+    {"p": "Quantas pessoas morreram na construção da Ponte Golden Gate?", "r": "Onze operários. Kermit Moore morreu em 21/10/1936, atingido na queda de um guindaste; os outros dez morreram em fevereiro de 1937, quando um andaime móvel se soltou e rompeu a rede de segurança. A mesma rede salvou outros 19 homens que caíram."},
+    {"p": "Quanto custou a Ponte Golden Gate?", "r": "US$ 35 milhões em títulos aprovados pelos eleitores em 1930, dos quais cerca de US$ 27,1 milhões foram para a construção propriamente dita. A dívida foi quitada em 1971 só com pedágio: 35 milhões de principal e quase 39 milhões de juros."}
+  ],
   "fontes": [
     {
       "texto": "Golden Gate Bridge, Highway and Transportation District, \"Construction\"",

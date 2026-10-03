@@ -188,6 +188,13 @@
       "registro": "Ela flutuou só durante a construção e o reboque. Desde 17/05/1995 está assentada no fundo do mar, a 303 metros, presa ao solo por saias de concreto de 36 metros."
     }
   ],
+  "perguntas": [
+    {"p": "Qual a altura da plataforma Troll A?", "r": "São 472 metros da base, no leito do mar, ao topo, dos quais 369 m de concreto. Ela está assentada sobre 303 metros de água, por isso a maior parte da estrutura fica abaixo da superfície."},
+    {"p": "Quanto pesa a plataforma Troll A?", "r": "As fontes divergem conforme o que se mede: 683.600 toneladas sem lastro, segundo a Aker Solutions, 656 mil toneladas no reboque ou 565 mil toneladas de peso seco. Com a água de lastro, em operação, passa de 1,2 milhão de toneladas."},
+    {"p": "Como a plataforma Troll A foi construída e levada para o mar?", "r": "A base começou numa doca seca em Stavanger e foi terminada flutuando num fiorde junto a Vats, onde recebeu o convés. De 10 a 17 de maio de 1995, dez rebocadores a levaram de pé até o campo de Troll, onde foi lastrada e assentada no fundo, com saias de concreto de 36 m cravadas no solo."},
+    {"p": "Onde fica a plataforma Troll A?", "r": "No campo de gás de Troll, no setor norueguês do mar do Norte, a noroeste de Bergen, na Noruega. Ela não é flutuante: está apoiada no fundo, a 303 metros de profundidade, e fica de pé pelo próprio peso, sem estacas nem âncoras."},
+    {"p": "Quanto custou a plataforma Troll A?", "r": "O contrato da base de concreto, em 1991, foi de 4,15 bilhões de coroas norueguesas, cerca de US$ 650 milhões ao câmbio da época. O convés e os equipamentos somaram mais 3,5 bilhões de coroas."}
+  ],
   "fontes": [
     {
       "texto": "Ole Jone Eide, Norsk Oljemuseum, \"Troll A – giant move from fjord to field\", 2022",

@@ -201,6 +201,13 @@
       "registro": "Os laudos divergiram. A Coppetec, da UFRJ, recomendou demolir por custo-benefício; a especialista espanhola contratada pelo governo do Estado concluiu que a estrutura podia ser reparada, com vida útil de 10 a 20 anos."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi construído o Maracanã?", "r": "Entre 1948 e 1950, para a Copa do Mundo. A obra começou em agosto de 1948 e o estádio foi inaugurado em 16/06/1950, oito dias antes da abertura da Copa, ainda com a marquise apoiada em andaimes; a conclusão total é dada como de 1965."},
+    {"p": "Qual era a capacidade do Maracanã em 1950?", "r": "O projeto previa 155.250 lugares, entre assentos, lugares em pé, cadeiras cativas, tribuna e camarotes. Na final da Copa de 1950, o público oficial foi de 173.850 pagantes, e as estimativas com quem entrou sem ingresso vão de 199.854 a 210 mil."},
+    {"p": "Quem projetou o Maracanã?", "r": "Um grupo de arquitetos brasileiros que inclui Rafael Galvão, Pedro Paulo Bernardes Bastos, Orlando Azevedo, Antônio Dias Carneiro e Miguel Feldman; algumas fontes acrescentam Waldir Ramos e Oscar Valdetaro. Segundo a família do engenheiro Antônio Alves de Noronha, foi dele o cálculo da marquise."},
+    {"p": "Quantos operários trabalharam na construção do Maracanã?", "r": "As fontes divergem. Segundo o Arquivo Nacional, foram 3.500 por dia, até 5 mil no auge e cerca de 11 mil no total; outras fontes falam em 2.800, ou em 1.500 mais 2.000 nos últimos meses. Nenhuma fonte consultada registra mortos ou feridos na obra."},
+    {"p": "Por que a marquise do Maracanã foi demolida?", "r": "Na reforma para a Copa de 2014, com fissuras, armaduras corroídas e concreto estufado, a marquise de 1950 foi demolida em 2011. Os laudos divergiram: a Coppetec, da UFRJ, recomendou demolir por custo-benefício, e uma especialista contratada pelo governo concluiu que ela podia ser reparada."}
+  ],
   "fontes": [
     {
       "texto": "Arquivo Nacional, exposição virtual \"Histórias do Maracanã antigo\"",

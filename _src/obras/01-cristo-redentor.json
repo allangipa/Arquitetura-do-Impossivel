@@ -220,6 +220,13 @@
       "registro": "Não há registro de morte, mas a afirmação vem só da Igreja e do mestre de obras. Pode ser verdade; não é prova."
     }
   ],
+  "perguntas": [
+    {"p": "Como foi construído o Cristo Redentor?", "r": "Em concreto armado, com uma fábrica de concreto montada no próprio cume e o material subindo pela Estrada de Ferro do Corcovado. Por dentro há uma treliça de concreto e 12 plataformas; por fora, uma pele de triângulos de pedra-sabão colados em tiras de pano."},
+    {"p": "Quando foi construído o Cristo Redentor?", "r": "A pedra fundamental foi lançada em 1922, e o canteiro no topo do Corcovado funcionou de 1926 a 1931. A estátua foi inaugurada em 12 de outubro de 1931."},
+    {"p": "Quem construiu o Cristo Redentor?", "r": "O projeto é do engenheiro Heitor da Silva Costa, com desenhos em colaboração com o pintor Carlos Oswald, e a escultura é de Paul Landowski, que modelou a cabeça e as mãos em Paris. Heitor Levy foi o mestre de obras; quantos operários trabalharam ninguém registrou."},
+    {"p": "Qual a altura do Cristo Redentor?", "r": "São 38 m: 30 m de estátua sobre 8 m de pedestal. De uma ponta à outra dos braços, 28 m; só a cabeça tem 3,75 m e pesa 30 t."},
+    {"p": "Quanto pesa o Cristo Redentor?", "r": "As fontes divergem: 1.145 t segundo a cronologia de Landowski e a National Geographic, ou 635 t segundo a New7Wonders e a imprensa. Ninguém explica a diferença."}
+  ],
   "fontes": [
     {
       "texto": "Emerson Giumbelli, \"A Modernidade do Cristo Redentor\", Dados, v. 51, n. 1, 2008",

@@ -3,7 +3,11 @@
   "slug": "canal-do-panama",
   "obra": "Canal do Panamá",
   "titulo_seo": "Como foi construído o Canal do Panamá (1904–1914)",
-  "relacionados": ["estrada-de-ferro-madeira-mamore", "usina-de-itaipu", "roda-de-falkirk"],
+  "relacionados": [
+    "estrada-de-ferro-madeira-mamore",
+    "usina-de-itaipu",
+    "roda-de-falkirk"
+  ],
   "titulo_video": null,
   "lugar": "Istmo do Panamá, entre Colón e a Cidade do Panamá, Panamá",
   "regiao": "mundo",
@@ -213,6 +217,28 @@
     {
       "circula": "Gorgas acabou com a malária no Panamá.",
       "registro": "Ele acabou com a febre amarela, até 1906. A malária caiu muito, de 7,45 para 0,30 mortes por mil empregados entre 1906 e 1913, mas em 1906 ainda atingia a grande maioria da força de trabalho."
+    }
+  ],
+  "perguntas": [
+    {
+      "p": "Quando foi construído o Canal do Panamá?",
+      "r": "Os franceses tentaram de 1881 a 1889 e pararam com o canal inacabado. Os Estados Unidos assumiram em 1904 e inauguraram o canal em 15 de agosto de 1914, com o vapor Ancon."
+    },
+    {
+      "p": "Quem construiu o Canal do Panamá?",
+      "r": "A obra começou com a companhia francesa de Ferdinand de Lesseps e foi terminada pelos Estados Unidos, sob os engenheiros-chefes John F. Wallace, John F. Stevens e, de 1907 a 1914, o coronel George W. Goethals. Quem cavou foram, na maior parte, trabalhadores das Antilhas: 31.071 afro-antilhanos contratados, cerca de 20 mil só de Barbados."
+    },
+    {
+      "p": "Quantas pessoas morreram na construção do Canal do Panamá?",
+      "r": "Os registros hospitalares da obra americana contam 5.609 mortos de 1904 a 1914, a maioria trabalhadores negros vindos das Antilhas, e muitos historiadores acham o número real várias vezes maior. Na tentativa francesa, as estimativas ficam entre 20 mil e 22 mil."
+    },
+    {
+      "p": "Como funciona o Canal do Panamá?",
+      "r": "Ele não é ao nível do mar. Uma barragem no rio Chagres, em Gatún, formou um lago 26 metros acima do mar, e três conjuntos de eclusas, Gatún, Pedro Miguel e Miraflores, sobem os navios até ele e os descem do outro lado."
+    },
+    {
+      "p": "Quanto custou o Canal do Panamá?",
+      "r": "Cerca de US$ 375 milhões para os Estados Unidos, segundo a Autoridade do Canal, incluídos os US$ 10 milhões pagos ao Panamá e os US$ 40 milhões à companhia francesa; outras contas chegam perto de US$ 500 milhões. Os franceses já tinham gastado US$ 287 milhões."
     }
   ],
   "fontes": [

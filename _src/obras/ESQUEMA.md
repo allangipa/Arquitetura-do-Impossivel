@@ -68,3 +68,25 @@ Grau de confiança (`conf`), o mesmo da apuração:
 
 Imagens: o build gera sozinho a cópia `.webp` de cada JPEG (e da versão
 `-800`) e serve as duas num `<picture>`; não é preciso fazer nada à mão.
+
+## Perguntas frequentes e páginas de tema (03/10/2026)
+
+- `"perguntas": [{"p": "Pergunta como se busca?", "r": "Resposta de 1 a 3 frases."}]`
+  (opcional, 3 a 5 itens, logo antes de `fontes`) — vira a seção "Perguntas
+  frequentes" (âncora `#perguntas`), depois dos mitos e antes das fontes, e
+  entra no índice "Nesta página". As perguntas saem das buscas reais (autocomplete
+  do Google em pt-BR: "como foi construído…", "quantas pessoas morreram…",
+  "quem venceu…", "por que … perdeu…"). **A resposta só repete o que a página já
+  diz**: nenhum fato novo; divergência continua divergência ("as fontes
+  divergem: X ou Y"); onde a página diz que não há registro, a resposta diz
+  isso. O build para se faltar "?", se houver menos de 3 ou mais de 5 itens, ou
+  se aparecer termo de bastidor (a mesma trava do resto da página). Sem
+  JSON-LD de FAQ, de propósito.
+- `_src/temas.json` — as páginas-índice `temas/<slug>.html`: `slug`, `nome`
+  (o h1), `titulo` (o `<title>`; a marca entra no fim se couber em 60),
+  `resumo` (a description, 120–155), `intro` (2 ou 3 parágrafos, só com o
+  que as páginas do grupo dizem) e `obras` (a lista de slugs, 2 ou mais). O
+  build gera a página com cartões, CollectionPage + BreadcrumbList, imagem de
+  compartilhamento própria (`og-tema-<slug>.jpg`), põe no sitemap, lista na
+  home (seção `#temas`) e linka o tema no bloco "Leia também" de cada obra do
+  grupo. Para se um slug não existir, repetir, ou se o texto tiver bastidor.

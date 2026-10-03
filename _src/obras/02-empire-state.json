@@ -221,6 +221,13 @@
       "registro": "O número é certo, mas mede de 17/3/1930 a 1/5/1931. Os contratos dos arquitetos são de setembro de 1929 e a demolição do hotel começou em 1/10/1929: do projeto à inauguração, foram cerca de 20 meses."
     }
   ],
+  "perguntas": [
+    {"p": "Quanto tempo levou a construção do Empire State Building?", "r": "Foram 410 dias, do início oficial da obra, em 17 de março de 1930, à inauguração, em 1º de maio de 1931, numa média de 4,5 andares por semana. Contando dos contratos dos arquitetos, em setembro de 1929, foram cerca de 20 meses."},
+    {"p": "Quantas pessoas morreram na construção do Empire State?", "r": "As fontes divergem. A construtora registrou 5 mortes até outubro de 1930: 1 na demolição, 1 na escavação e 3 na torre; o New York Daily News falou em 14, e os “até 42” da revista New Masses são tratados pelos historiadores como boato."},
+    {"p": "Quanto custou o Empire State Building?", "r": "O custo final foi de US$ 40.948.900, com a demolição do hotel Waldorf-Astoria incluída, abaixo de um orçamento que as fontes dão como US$ 50 ou US$ 60 milhões. Corrigido pelo índice de preços ao consumidor dos EUA, são cerca de US$ 867 milhões de 2025."},
+    {"p": "Quantos operários trabalharam no Empire State?", "r": "As fontes divergem. O diário da construtora registrou 3.439 homens num único dia, 14 de agosto de 1930; outras contas vão de cerca de 3.000 a 5.000 no pico, e Glenn Kurtz fala em cerca de 10.000 ao longo de toda a obra."},
+    {"p": "Qual a altura do Empire State Building?", "r": "São 381 m até o 102º andar e 443 m até a ponta da antena. Os 102 andares são 86 andares, mais o mastro contado como 14, mais 2 subsolos."}
+  ],
   "fontes": [
     {
       "texto": "Anthony W. Robins, Landmarks Preservation Commission, laudo de tombamento LP-2000, Nova York, 1981",

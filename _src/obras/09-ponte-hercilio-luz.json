@@ -207,6 +207,13 @@
       "registro": "Ela foi projetada para levar também uma linha de trem elétrico e a adutora de água da cidade. Nenhuma linha de trem chegou a ser instalada nela."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi construída a Ponte Hercílio Luz?", "r": "A obra começou em novembro de 1922 e a ponte foi inaugurada em 13 de maio de 1926, sob chuva. As fundações ficaram prontas em 1924, e as torres subiram entre dezembro de 1924 e fevereiro de 1925."},
+    {"p": "Qual o tamanho da Ponte Hercílio Luz?", "r": "O vão central pênsil tem 339,5 m sobre o mar. O comprimento total é de 821 m pelo governo do estado ou 819,5 m pelo estudo da UFMG, e as torres têm 74,21 ou 75 m acima do mar, conforme a fonte."},
+    {"p": "Quem construiu a Ponte Hercílio Luz?", "r": "O projeto é da firma Robinson & Steinman, de Nova York. A Byington & Sundstrom, de São Paulo, fez as fundações, e o aço, todo vindo dos Estados Unidos, foi fabricado e montado pela American Bridge Company."},
+    {"p": "Por que a Ponte Hercílio Luz ficou fechada?", "r": "Ela foi fechada em 22 de janeiro de 1982, depois de um laudo do IPT e de aparecer uma rachadura no olho de uma barra, o mesmo tipo de falha que derrubou a Silver Bridge em 1967. Fechada de vez em 1991, só reabriu em 30 de dezembro de 2019, depois de ganhar 360 barras novas."},
+    {"p": "A Ponte Hercílio Luz foi a maior ponte pênsil do mundo?", "r": "Não. Em 1926 havia pontes pênseis de cabo com vão maior; ela teve o maior vão pênsil de correntes de barras de olhal do mundo na época. Hoje é a maior ponte pênsil do Brasil."}
+  ],
   "fontes": [
     {
       "texto": "Hermes Carvalho, Ricardo Hallal Fakury e Paula Moura Leite Vilela (UFMG), \"The Challenges of Rehabilitating the Hercilio Luz Suspension Bridge\", Latin American Journal of Solids and Structures, 2017",

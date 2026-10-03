@@ -213,6 +213,13 @@
       "registro": "O capital garantido era de 2 milhões de libras. O contrato foi de £ 1.745.000, e o custo total, com os juros pagos durante a obra, ficou perto de £ 2,7 milhões."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi construída a Estrada de Ferro Santos-Jundiaí?", "r": "Entre 1860 e 1867. A primeira pá foi em maio de 1860, e a linha de 139 km, de Santos a Jundiaí passando por São Paulo, abriu ao tráfego em 16/02/1867, dez meses antes do prazo do contrato."},
+    {"p": "Quem construiu a Estrada de Ferro Santos-Jundiaí?", "r": "A companhia inglesa São Paulo Railway, formada em Londres em 1859 a partir da concessão dada ao Barão de Mauá, ao Marquês de Monte Alegre e a Pimenta Bueno. O engenheiro escocês James Brunlees decidiu pelos planos inclinados, Daniel Makinson Fox chefiou a obra e a empreiteira foi a Robert Sharpe & Sons."},
+    {"p": "Como o trem subia a Serra do Mar na Santos-Jundiaí?", "r": "Por cabo de aço. A encosta foi cortada em quatro planos inclinados de cerca de 10%, somando uns 8 km, com uma casa de máquinas a vapor fixas no alto de cada um; um trem subia preso a uma ponta do cabo enquanto outro descia na outra."},
+    {"p": "Quantas pessoas morreram na construção da Estrada de Ferro Santos-Jundiaí?", "r": "Ninguém publicou um total. Os mapas de acidentes do engenheiro fiscal do governo, de 1861 a 1863, registram mortes por afogamento, explosão de pólvora e esmagamento, com o nome das vítimas, entre elas trabalhadores escravizados."},
+    {"p": "Quanto custou a Estrada de Ferro Santos-Jundiaí?", "r": "O contrato da obra foi de £ 1.745.000, e as empreiteiras receberam £ 1.817.917 com os extras. Com os juros pagos durante a obra, o custo total fica perto de £ 2,7 milhões pela conta do engenheiro residente; um estudo da revista Arquitextos fala em £ 2,75 milhões."}
+  ],
   "fontes": [
     {
       "texto": "Daniel Makinson Fox, \"Description of the Line and Works of the São Paulo Railway in the Empire of Brazil\", Minutes of Proceedings of the Institution of Civil Engineers, vol. 30, 1870",

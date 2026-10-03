@@ -298,7 +298,25 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 .leia strong{font:700 1.25rem/1.1 var(--f-titulo);text-transform:uppercase}
 .leia a:hover strong{color:var(--obra)}
 .leia .onde{font:500 .75rem/1.4 var(--f-mono);color:var(--concreto)}
-@media (max-width:720px){.leia ul{grid-template-columns:1fr}}</style>
+@media (max-width:720px){.leia ul{grid-template-columns:1fr}}
+.perguntas{border-top:1px solid var(--viga);margin:1.2rem 0 0}
+.perguntas h3{font-size:1.25rem;line-height:1.15;margin:1.4rem 0 .5rem;color:var(--giz)}
+.perguntas p{margin:0 0 1.2rem;padding-bottom:1.2rem;border-bottom:1px dashed var(--viga)}
+.temas-link{margin:1rem 0 0;font-size:.95rem;color:var(--giz-2)}
+.temas-link .rotulo{margin-right:.4rem}
+.temas-link a{color:var(--obra)}
+.temas-lista{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:.8rem}
+.temas-lista a{display:flex;flex-direction:column;gap:.45rem;height:100%;padding:1.1rem 1.2rem;border:1px solid var(--viga);background:var(--ciano-2);text-decoration:none;color:var(--giz);transition:border-color .25s,background .25s}
+.temas-lista a:hover{border-color:var(--obra);background:var(--ciano-3);color:var(--giz)}
+.temas-lista strong{font:700 1.4rem/1.1 var(--f-titulo);text-transform:uppercase}
+.temas-lista a:hover strong{color:var(--obra)}
+.tema-abre{padding:clamp(2.5rem,7vw,5rem) 0 clamp(2rem,5vw,3.5rem)}
+.tema-abre h1{font-size:clamp(2.4rem,6.4vw,4.6rem);margin:.6rem 0 1.4rem}
+.tema-abre .intro{max-width:var(--texto)}
+.tema-abre .intro p{color:var(--giz-2);font-size:1.05rem;margin:0 0 1.1em}
+.migalhas{font:500 .74rem/1.4 var(--f-mono);letter-spacing:.08em;color:var(--concreto);margin-bottom:1.4rem}
+.migalhas a{color:var(--concreto)}
+.migalhas span{color:var(--giz-2)}</style>
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Arquitetura do Impossível">
 <meta property="og:locale" content="pt_BR">
@@ -381,6 +399,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <h2 id="mitos"><span class="n">MITOS</span>O que circula e o que o registro diz</h2>
     <ul class="mitos"><li><div><span class="rotulo">O que circula</span><p>Gustave Eiffel projetou a torre.</p></div><div><span class="rotulo"><b>O que o registro diz</b></span><p>A ideia e o primeiro desenho, de 6 de junho de 1884, são dos engenheiros Émile Nouguier e Maurice Koechlin; a forma arquitetônica é de Stephen Sauvestre. Eiffel registrou a patente nos três nomes, comprou os direitos dos dois engenheiros no fim de 1884, financiou, construiu e explorou a torre.</p></div></li><li><div><span class="rotulo">O que circula</span><p>O contrato mandava desmontar a torre depois de 20 anos.</p></div><div><span class="rotulo"><b>O que o registro diz</b></span><p>A convenção de 8 de janeiro de 1887 não fala em desmontar. Diz que a Cidade de Paris vira dona da torre depois da Exposição e que, terminados os 20 anos de exploração por Eiffel, contados de 1º de janeiro de 1890, a exploração volta à Cidade. A demolição era um risco real, não uma cláusula.</p></div></li><li><div><span class="rotulo">O que circula</span><p>Ninguém morreu na construção. Ou, no extremo oposto, morreram mais de 300 operários.</p></div><div><span class="rotulo"><b>O que o registro diz</b></span><p>Os 300 mortos são falsos, como mostrou a checagem da AFP em 2022. A versão da empresa que explora a torre é de nenhum morto em serviço. Os documentos guardados no Musée d&#x27;Orsay registram a morte de Angelo Scagliotti num acidente no canteiro, em 24 de maio de 1889, quando os elevadores eram instalados.</p></div></li><li><div><span class="rotulo">O que circula</span><p>Émile Zola assinou o protesto dos artistas contra a torre.</p></div><div><span class="rotulo"><b>O que o registro diz</b></span><p>O nome de Zola não está entre as assinaturas publicadas pelo Le Temps em 14 de fevereiro de 1887. Estão Charles Garnier, Gounod, Maupassant, Leconte de Lisle, Sully Prudhomme, Victorien Sardou, Meissonier e outros.</p></div></li><li><div><span class="rotulo">O que circula</span><p>A torre é de ferro fundido.</p></div><div><span class="rotulo"><b>O que o registro diz</b></span><p>É de ferro pudlado, um ferro forjado, fabricado pelas forjas Dupont et Fould, em Pompey, na Lorena.</p></div></li></ul>
 
+    <h2 id="perguntas"><span class="n">PERGUNTAS</span>Perguntas frequentes</h2><div class="perguntas"><h3>Quem projetou a Torre Eiffel?</h3><p>O primeiro desenho, de 6 de junho de 1884, é de dois engenheiros da empresa de Gustave Eiffel, Maurice Koechlin e Émile Nouguier; o arquiteto Stephen Sauvestre deu a forma final, com os grandes arcos da base. Eiffel registrou a patente nos três nomes, comprou os direitos dos dois engenheiros, financiou e construiu a torre.</p><h3>Quando foi construída a Torre Eiffel?</h3><p>Entre 1887 e 1889, para a Exposição Universal de Paris. As fundações começaram no fim de janeiro de 1887, a montagem do ferro em 1º de julho de 1887 e o topo foi alcançado em 31/03/1889: 2 anos, 2 meses e 5 dias. A torre abriu ao público em 15/05/1889.</p><h3>Como foi construída a Torre Eiffel?</h3><p>As 18.038 peças de ferro pudlado foram desenhadas, furadas e pré-montadas em trechos de cerca de 5 metros na fábrica de Levallois-Perret e unidas no canteiro com rebites postos a quente. O primeiro andar foi apoiado em andaimes de madeira, e a inclinação dos pés foi acertada com caixas de areia e macacos hidráulicos.</p><h3>Quantas pessoas morreram na construção da Torre Eiffel?</h3><p>As versões divergem. A empresa que explora a torre fala em nenhum morto em serviço; documentos guardados no Musée d&#x27;Orsay registram a morte de Angelo Scagliotti num acidente no canteiro, em 24/05/1889, durante a instalação dos elevadores. A história de mais de 300 operários mortos é falsa.</p><h3>Quanto custou a Torre Eiffel?</h3><p>7.799.401,31 francos de 1889, contra 6,5 milhões estimados na época da convenção. O Estado entrou com 1,5 milhão; o resto veio de Eiffel e de uma sociedade com três bancos.</p></div>
+
     <section class="video">
       <div>
         <span class="rotulo">Episódio 10 · <span class="selo-estreia" data-estreia="2026-12-10" data-no-ar="no ar">estreia 10 de dezembro de 2026</span></span>
@@ -418,7 +438,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
       </dl>
     </div>
     <span class="rotulo">Nesta página</span>
-    <ol><li><a href="#ficha">Ficha da obra</a></li><li><a href="#s1">Um pilar de ponte esticado até 300 metros</a></li><li><a href="#s2">A forma que o vento desenhou</a></li><li><a href="#s3">Dezoito mil peças, cada uma com seu desenho</a></li><li><a href="#s4">Cinco cêntimos por hora</a></li><li><a href="#s5">O protesto, o custo e a festa</a></li><li><a href="#s6">Salva pela antena</a></li><li><a href="#s7">Ferro que precisa de tinta</a></li><li><a href="#mitos">Mitos e registro</a></li><li><a href="#fontes">Fontes</a></li></ol>
+    <ol><li><a href="#ficha">Ficha da obra</a></li><li><a href="#s1">Um pilar de ponte esticado até 300 metros</a></li><li><a href="#s2">A forma que o vento desenhou</a></li><li><a href="#s3">Dezoito mil peças, cada uma com seu desenho</a></li><li><a href="#s4">Cinco cêntimos por hora</a></li><li><a href="#s5">O protesto, o custo e a festa</a></li><li><a href="#s6">Salva pela antena</a></li><li><a href="#s7">Ferro que precisa de tinta</a></li><li><a href="#mitos">Mitos e registro</a></li><li><a href="#perguntas">Perguntas frequentes</a></li><li><a href="#fontes">Fontes</a></li></ol>
   </aside>
 </div>
 <nav class="seguinte" aria-label="Outras obras"><a href="ponte-hercilio-luz.html"><span class="rotulo">← Obra 09</span><strong>Ponte Hercílio Luz</strong></a><a href="congresso-nacional.html"><span class="rotulo">Obra 11 →</span><strong>Congresso Nacional</strong></a></nav>

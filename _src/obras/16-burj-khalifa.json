@@ -205,6 +205,13 @@
       "registro": "Abu Dabi socorreu o governo de Dubai e a estatal Dubai World em 2009, com US$ 10 bilhões, para pagar dívidas da Nakheel, empresa do grupo Dubai World. A torre é da Emaar. A ligação entre o nome e o socorro foi a leitura da imprensa na inauguração."
     }
   ],
+  "perguntas": [
+    {"p": "Quando foi construído o Burj Khalifa?", "r": "Entre 2004 e 2010. A escavação começou em janeiro de 2004, a torre chegou ao topo em janeiro de 2009 e foi inaugurada em 04/01/2010; durante toda a obra se chamou Burj Dubai."},
+    {"p": "Qual a altura do Burj Khalifa e quantos andares ele tem?", "r": "828 m de altura arquitetônica, a maior do mundo desde 2010, e 829,8 m até a ponta. O número de andares diverge: 163 pelo Council on Tall Buildings and Urban Habitat, 162 pela SOM e pela Turner."},
+    {"p": "Como foi construído o Burj Khalifa?", "r": "Sobre um radier de concreto de 3,7 m apoiado em estacas que trabalham por atrito numa rocha fraca, com planta em Y e recuos em espiral para confundir o vento. O concreto das paredes foi feito à noite, com gelo na mistura no verão, e bombeado a 601 ou 606 m, conforme a fonte."},
+    {"p": "Quanto custou o Burj Khalifa?", "r": "US$ 1,5 bilhão pela torre, segundo a Associated Press na inauguração. Em 2007, com a obra em curso, a Architectural Record falava em US$ 1,4 bilhão."},
+    {"p": "Quantas pessoas morreram na construção do Burj Khalifa?", "r": "Não há registro público de um total, nem da Emaar nem do consórcio. A imprensa do Golfo noticiou duas mortes durante a obra: um operário que caiu da fôrma em 15/06/2007 e o operário Qiwen Li, esmagado por um painel da fachada em 20/05/2008."}
+  ],
   "fontes": [
     {
       "texto": "William F. Baker, D. Stanton Korista e Lawrence C. Novak (SOM), \"Engineering the World's Tallest — Burj Dubai\", CTBUH 8th World Congress, Dubai, 2008",
