@@ -265,6 +265,7 @@ def topo(base, atual=""):
     <nav class="nav" aria-label="Principal">
       <a href="{base}index.html#obras"{cur('obras')}>Obras</a>
       <a href="{base}index.html#metodo"{cur('metodo')}>Método</a>
+      <a href="{base}sobre.html"{cur('sobre')}>Sobre</a>
       <a class="yt" href="{CANAL}" rel="noopener">YouTube</a>
     </nav>
   </div>
@@ -291,6 +292,7 @@ def rodape(base):
     <div>
       <h4>Este site</h4>
       <ul>
+        <li><a href="{base}sobre.html">Sobre</a> · <a href="{base}contato.html">Contato</a></li>
         <li>Exibe anúncios do Google AdSense. <a href="{base}privacidade.html">Política de privacidade</a>.</li>
         <li>Fotos de terceiros sob domínio público ou Creative Commons, com crédito em cada página.</li>
       </ul>
@@ -700,6 +702,69 @@ def pagina_privacidade():
                    {"@context": "https://schema.org", "@type": "WebPage", "name": "Política de privacidade"})
             + topo(base) + corpo + rodape(base) + consentimento(base) + SCRIPT)
 
+
+def pagina_sobre():
+    base = ""
+    canal = f'<a href="{CANAL}" rel="noopener">@ArquiteturadoImpossível</a>' if CANAL else "no YouTube"
+    corpo = f"""<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">Sobre</span>
+  <h1>Sobre o {NOME}</h1>
+
+  <h2>1. O que é</h2>
+  <p>O <strong>Arquitetura do Impossível</strong> é um projeto editorial independente, feito no Brasil, sobre grandes construções: como uma obra que parecia impossível ficou de pé. Cada página deste site acompanha um episódio do canal no YouTube, {canal}, e vai além dele: traz a ficha técnica completa, as fontes, as imagens com crédito e as divergências que não cabem num vídeo.</p>
+  <p>A pergunta é sempre a mesma: <em>o que tornava esta obra impossível, e quem resolveu</em> — com que conta, com que material, com que improviso. O protagonista é o problema de engenharia; as pessoas entram como quem o enfrentou. Um episódio do Brasil, um do resto do mundo, alternados.</p>
+
+  <h2>2. Como uma página é feita</h2>
+  <ul>
+    <li><strong>A ficha de toda obra cobre o que costuma faltar:</strong> quantos operários, quanto tempo, quanto custou, quem se feriu e quem morreu — cada linha com fonte.</li>
+    <li><strong>Cada número leva um selo de confiança:</strong> confirmado em duas ou mais fontes, fonte única (o texto diz qual), divergência (mostramos as versões e não escolhemos) ou sem registro (dizemos que ninguém registrou, em vez de inventar).</li>
+    <li><strong>O mito desmontado é parte da história:</strong> o operário enterrado no concreto, a obra "feita em X dias", a conta de mortos que ninguém conferiu.</li>
+    <li><strong>Valor de hoje só com método declarado.</strong> Converter dinheiro antigo sem dizer como é inventar número.</li>
+    <li><strong>Texto integralmente autoral.</strong> As fontes ficam listadas no fim de cada página.</li>
+  </ul>
+
+  <h2>3. Imagens</h2>
+  <p>Só entram fotografias, plantas e documentos reais, de acervos em domínio público ou sob licença Creative Commons que permite uso comercial, com autor e licença creditados em cada página. Imagem gerada por IA não entra neste site.</p>
+
+  <h2>4. Correções</h2>
+  <p>Errou-se uma data, um nome, um número? Escreva pela página de <a href="contato.html">contato</a>, de preferência com a fonte. O erro confirmado é corrigido aqui, e a correção vale também para o que vier depois no canal.</p>
+
+  <h2>5. Quem faz</h2>
+  <p>O {NOME} é escrito, apurado e mantido de forma independente, sem vínculo com universidade, empresa ou órgão público. É do mesmo criador de outros dois projetos com o mesmo cuidado com a fonte: <a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a>, sobre arqueologia e mistério, e <a href="https://xadrezbelico.com.br" rel="noopener">Xadrez Bélico</a>, sobre batalhas explicadas como partida.</p>
+  <p>O site se mantém com anúncios do Google AdSense, descritos na <a href="privacidade.html">política de privacidade</a>. Nenhum anúncio interfere no que é escrito.</p>
+</div></main>
+"""
+    return (cabeca(f"Sobre — {NOME}", f"O que é o {NOME}, como cada página é apurada, de onde vêm as imagens e quem faz o projeto.",
+                   DOMINIO + "/sobre.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   {"@context": "https://schema.org", "@type": "AboutPage", "name": f"Sobre — {NOME}"})
+            + topo(base, "sobre") + corpo + rodape(base) + consentimento(base) + SCRIPT)
+
+
+def pagina_contato():
+    base = ""
+    corpo = f"""<main id="conteudo"><div class="casca privacidade">
+  <span class="rotulo">Contato</span>
+  <h1>Fale com o {NOME}</h1>
+  <p class="lead">Correção, crédito de imagem, pedido sobre seus dados ou qualquer outro assunto: o caminho é um só.</p>
+  <div class="resumo"><strong>E-mail:</strong> <a href="mailto:allangipa@gmail.com">allangipa@gmail.com</a></div>
+
+  <h2>Para que escrever</h2>
+  <ul>
+    <li><strong>Correções.</strong> Uma data, um nome ou um número errado. Mande a fonte junto: é o que permite corrigir rápido.</li>
+    <li><strong>Imagens e créditos.</strong> Se você é autor de uma imagem usada aqui e o crédito está incompleto, ou quer que ela saia, escreva.</li>
+    <li><strong>Seus dados.</strong> Pedidos sob a LGPD, conforme a <a href="privacidade.html">política de privacidade</a>.</li>
+    <li><strong>Pautas, imprensa e parcerias.</strong> Sugestões de tema também são bem-vindas.</li>
+  </ul>
+
+  <h2>Como respondemos</h2>
+  <p>Não há formulário nem cadastro: a conversa é por e-mail, e o seu endereço não é usado para mais nada além de responder. Correção confirmada entra na página.</p>
+</div></main>
+"""
+    return (cabeca(f"Contato — {NOME}", f"Como falar com o {NOME}: correções, créditos de imagem, pedidos sobre dados e pautas.",
+                   DOMINIO + "/contato.html", f"{DOMINIO}/assets/img/og-home.jpg", base,
+                   {"@context": "https://schema.org", "@type": "ContactPage", "name": f"Contato — {NOME}"})
+            + topo(base, "contato") + corpo + rodape(base) + consentimento(base) + SCRIPT)
+
 def main():
     obras = carregar()
     (RAIZ / "obras").mkdir(exist_ok=True)
@@ -721,6 +786,8 @@ def main():
             print("removido (obra sem JSON):", velho.name)
     (RAIZ / "404.html").write_text(pagina_404(), encoding="utf-8")
     (RAIZ / "privacidade.html").write_text(pagina_privacidade(), encoding="utf-8")
+    (RAIZ / "sobre.html").write_text(pagina_sobre(), encoding="utf-8")
+    (RAIZ / "contato.html").write_text(pagina_contato(), encoding="utf-8")
     ads = RAIZ / "ads.txt"
     if ADSENSE_LIGADO:
         ads.write_text("# Declaração de vendedor autorizado (IAB ads.txt)\n"
@@ -730,7 +797,7 @@ def main():
         ads.unlink()
 
     hoje = dt.date.today().isoformat()
-    urls = [DOMINIO + "/", DOMINIO + "/privacidade.html"] + [f"{DOMINIO}/obras/{o['slug']}.html" for o in obras]
+    urls = [DOMINIO + "/", DOMINIO + "/sobre.html", DOMINIO + "/contato.html", DOMINIO + "/privacidade.html"] + [f"{DOMINIO}/obras/{o['slug']}.html" for o in obras]
     (RAIZ / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc><lastmod>{hoje}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
