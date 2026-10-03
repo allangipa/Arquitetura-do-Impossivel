@@ -55,12 +55,12 @@ BORDAO = "Toda semana, uma obra que não deveria ter ficado de pé."
 # "em apuração", sem link. Quando o JSON da obra existir, tire daqui.
 EM_APURACAO = [
     {
-        "num": "07",
-        "obra": "Estrada de Ferro Madeira-Mamoré",
-        "lugar": "Porto Velho, Rondônia, Brasil",
-        "regiao": "brasil",
-        "impossivel": "A “ferrovia do diabo” aberta na floresta, a conta de mortos que virou lenda, e a obra que ficou pronta quando a borracha já não valia.",
-        "estreia": "2026-11-19",
+        "num": "08",
+        "obra": "Canal do Panamá",
+        "lugar": "Istmo do Panamá, Panamá",
+        "regiao": "mundo",
+        "impossivel": "Ligar dois oceanos atravessando o istmo do Panamá: a obra que a França abandonou e os Estados Unidos terminaram.",
+        "estreia": "2026-11-26",
     },
 ]
 
@@ -594,7 +594,7 @@ def pagina_obra(o, obras, og):
     <section class="video">
       <div>
         <span class="rotulo">Episódio {e(o['num'])} · <span class="selo-estreia" data-estreia="{o['estreia']}" data-no-ar="no ar">estreia {e(data_br(o['estreia'], True))}</span></span>
-        <h3>{e(o['titulo_video'])}</h3>
+        <h3>{e(o['titulo_video']) if o['titulo_video'] else 'Episódio em produção'}</h3>
         <p>{e(BORDAO)}</p>
       </div>
       <a class="botao cheio" href="{CANAL}" target="_blank" rel="noopener">Ver no YouTube</a>

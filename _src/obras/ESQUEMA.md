@@ -14,7 +14,7 @@ de número.
   "num": "01",
   "slug": "cristo-redentor",
   "obra": "Cristo Redentor",
-  "titulo_video": "texto exato do TITULO.txt do episódio",
+  "titulo_video": "texto exato do título do YouTube, ou null se o vídeo ainda não tem título",
   "lugar": "Corcovado, Rio de Janeiro, Brasil",
   "regiao": "brasil",                // "brasil" ou "mundo"
   "periodo": "1922–1931",            // do primeiro marco de obra à inauguração
