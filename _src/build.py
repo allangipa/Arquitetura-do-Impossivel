@@ -211,6 +211,17 @@ def consentimento(base):
       if(v==='aceitar')carrega();else{{var x=document.getElementById('ads-google');if(x)x.remove();}}
     }});
   }}
+  // Europa, Reino Unido, Suíça: quem pergunta é a mensagem do Google (a
+  // plataforma certificada que o AdSense exige lá). Se ela diz que o GDPR se
+  // aplica, esta faixa sai da frente. Sem a mensagem publicada, não dispara.
+  if(escolha===null&&caixa){{
+    var n=0,t=setInterval(function(){{
+      if(typeof window.__tcfapi==='function'){{
+        clearInterval(t);
+        window.__tcfapi('addEventListener',2,function(tc,ok){{if(ok&&tc&&tc.gdprApplies)caixa.hidden=true;}});
+      }}else if(++n>40)clearInterval(t);
+    }},250);
+  }}
 }})();
 </script>
 """
