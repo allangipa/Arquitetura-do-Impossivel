@@ -72,8 +72,8 @@ afrouxe a trava para passar.**
    extenso; algarismo fica algarismo. Citações, pelo idioma original da fonte.
 3. Espanhol: números como no português (`1.145`, `3,75`); "bilhão" é
    **"mil millones"**, nunca "billón".
-4. `python _src/build.py`. Sitemap, hreflang e seletor de idioma se ajustam
-   sozinhos.
+4. `python _src/build.py` e `python _src/seo_audit.py`. Sitemap, hreflang e
+   seletor de idioma se ajustam sozinhos.
 
 ## Conferir localmente
 
@@ -85,6 +85,7 @@ Mudou o `.htaccess`: `python _src/testa_htaccess.py .htaccess arquiteturadoimpos
 
 ```bash
 python _src/build.py
+python _src/seo_audit.py
 git add -A
 git commit -m "o que mudou"
 git push
@@ -97,6 +98,7 @@ git push
 - **Confira no ar, não no terminal**: o push dar certo não prova o deploy.
   ```bash
   curl -s https://arquiteturadoimpossivel.com/obras/<slug>.html | grep "<trecho novo>"
+  python _src/seo_audit.py --no-ar
   ```
 - Se o Git da Hostinger falhar, há a publicação por pacote (README, seção
   "Publicação por pacote"): o pacote vai **sempre completo**, porque o deploy
@@ -119,6 +121,6 @@ git push
   `CONSENTIMENTO_BLOQUEIA` no topo do build. Anúncios automáticos; o script
   é injetado pela faixa de consentimento, nunca escrito no HTML.
 - Estreia: "Estreia DD mmm AAAA" vira "No ar" sozinho no dia, sem regerar.
-- O README cita um `seo_audit.py` para rodar antes do push, mas o script não
-  existe no repositório. Se o usuário pedir auditoria de SEO, avise e confira
-  à mão (título ≤ 60, description 120–155, canonical, hreflang, sitemap).
+- Auditoria de SEO do resultado: `python _src/seo_audit.py` (depois do build,
+  antes do push; código 1 se houver erro). `--no-ar` também confere cada URL
+  do sitemap no site publicado — use depois do push.

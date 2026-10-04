@@ -107,10 +107,20 @@ puxa o commit e põe no ar em cerca de 15 segundos.
 
 ```bash
 python _src/build.py
+python _src/seo_audit.py
 git add -A
 git commit -m "o que mudou"
 git push
 ```
+
+Antes do commit, `python _src/seo_audit.py` lê os `.html` gerados e confere
+o que só existe no resultado: `lang`, título e description (tamanho e
+repetição por idioma), canonical, noindex do 404, og:* e a imagem do og,
+JSON-LD, um `<h1>` por página, `alt` e `width`/`height` das imagens, links e
+recursos locais quebrados, hreflang recíproco com x-default, sitemap (cada
+página indexável, nada além, alternates iguais ao hreflang) e robots. Sai com
+código 1 se houver erro. Depois do push, `python _src/seo_audit.py --no-ar`
+pede cada URL do sitemap ao site no ar e acusa o que não der 200.
 
 **Rode o build antes do commit.** O servidor não gera nada: ele publica os
 `.html` que estão no repositório. Mudou um JSON e não rodou o build, o site
@@ -228,7 +238,7 @@ só pega `TODO` em caixa alta (em espanhol "todo" é palavra comum) e
    repetir dentro do idioma; aparecer bastidor ("TODO", "to check"…); faltar
    texto da interface no dicionário.
 4. A página entra sozinha no sitemap, no hreflang das duas versões e no
-   seletor. Rode o `seo_audit.py` antes do push.
+   seletor. Rode o `python _src/seo_audit.py` antes do push.
 
 Detalhes das travas, da conferência de números e do dicionário da interface
 em `_src/obras/ESQUEMA.md`, seção "Traduções".
