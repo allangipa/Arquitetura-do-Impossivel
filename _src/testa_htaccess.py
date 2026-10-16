@@ -25,6 +25,8 @@ def roda(arq, host, https, uri):
             prev_or = "OR" in f
             if acum is False and not prev_or: break
         if (acum is None or acum) and re.search(pad, uri.lstrip("/")):
+            if alvo == "-":  # RewriteRule ... - [L]: não reescreve, serve o arquivo
+                return None
             dest = alvo.replace("%{REQUEST_URI}", uri)
             return dest
     return None
@@ -36,6 +38,8 @@ casos = [
     (f"{dom}.com", True, "/obras/cristo-redentor.html"), (f"{dom}.com.br", True, "/_src/build.py"),
     (f"{dom}.com.br", True, "/n%C3%A3o-existe.html"), ("algo.hostingersite.com", True, "/"),
     (f"{dom}.com.br.", True, "/x"),
+    (f"{dom}.com.br", True, "/ads.txt"), (f"www.{dom}.com", True, "/ads.txt"),
+    (f"{dom}.com", True, "/ads.txt"), (f"{dom}.com.br", True, "/ads.txt.bak"),
 ]
 for h, s, u in casos:
     # o redirecionamento inclui a query string do pedido original (Apache faz isso

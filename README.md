@@ -137,7 +137,10 @@ site. O `.htaccess` é o que impede o resto de ser servido:
 
 - `404.html` como página de erro;
 - 404 para `_src/`, `.claude/`, `.git/`, `README.md` e `.gitignore`;
-- o 301 de domínio (seção "Domínio").
+- o 301 de domínio (seção "Domínio"), **menos o `ads.txt`**, que sai direto
+  em todo host (16/10/2026): o AdSense lê o `ads.txt` de cada domínio
+  cadastrado (.com e .com.br), e a especificação só aceita redirecionamento
+  dentro do mesmo domínio raiz.
 
 Arquivo novo na raiz que não seja página (nota, script, planilha) **fica
 público** até entrar nessa lista. Na dúvida, ponha dentro de `_src/`.
@@ -166,7 +169,7 @@ e com a query string**:
 | `http(s)://www.arquiteturadoimpossivel.com/<caminho>` | `https://arquiteturadoimpossivel.com/<caminho>` |
 | `http://arquiteturadoimpossivel.com/<caminho>` | `https://arquiteturadoimpossivel.com/<caminho>` |
 
-Só esses hosts: o domínio temporário da Hostinger e qualquer outro ficam como
+Só esses hosts, e nunca o `/ads.txt`: o domínio temporário da Hostinger e qualquer outro ficam como
 estão. A regra de 404 para `_src/`, `.git/` etc. continua valendo (no .com.br
 o pedido primeiro vira 301 para o .com, e lá dá 404).
 

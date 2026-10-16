@@ -10,6 +10,9 @@ DirectoryIndex index.html
 # listados: o domínio temporário da Hostinger e o resto ficam como estão.
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  # ads.txt sai direto em todo host (o robô do AdSense lê o de cada domínio
+  # cadastrado; redirecionado para outro domínio ele pode dar "não encontrado")
+  RewriteRule ^ads\.txt$ - [L]
   RewriteCond %{HTTP_HOST} ^(www\.)?arquiteturadoimpossivel\.com\.br\.?(:\d+)?$ [NC,OR]
   RewriteCond %{HTTP_HOST} ^www\.arquiteturadoimpossivel\.com\.?(:\d+)?$ [NC]
   RewriteRule ^ https://arquiteturadoimpossivel.com%{REQUEST_URI} [R=301,L,NE]
