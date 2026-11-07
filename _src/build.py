@@ -254,7 +254,7 @@ def licenca_rotulo(lic):
 # Campos que não se traduzem: se a tradução os trouxer, têm de ser idênticos;
 # se omitir, vêm do original.
 CAMPOS_FIXOS = {"num", "slug", "regiao", "estreia", "proximo", "relacionados", "conf",
-                "arquivo", "licenca", "licenca_url", "origem_url", "recriacao", "foco", "url"}
+                "arquivo", "licenca", "licenca_url", "origem_url", "recriacao", "foco", "url", "video"}
 # Campos que a tradução pode ter mesmo que o original não tenha.
 EXTRAS_TRAD = {"titulo_seo", "_excecoes_numeros", "_nota"}
 # Texto citado (título de obra, de artigo) pode ficar igual ao original.
@@ -610,6 +610,8 @@ def carregar():
         if o["regiao"] not in ("brasil", "mundo"):
             falha(f"{f.name}: regiao deve ser brasil ou mundo")
         dt.date.fromisoformat(o["estreia"])
+        if o.get("video") and not re.fullmatch(r"[A-Za-z0-9_-]{11}", o["video"]):
+            falha(f"{f.name}: video deve ser o ID de 11 caracteres do YouTube, não {o['video']!r}")
         if not o["imagens"]:
             falha(f"{f.name}: precisa de pelo menos uma imagem (a capa)")
         for im in o["imagens"]:
@@ -1431,7 +1433,7 @@ def pagina_obra(o, obras, og):
         <h3>{e(o['titulo_video']) if o['titulo_video'] else e(tr('{nome} no YouTube', nome=NOME))}</h3>
         <p>{e(tr(BORDAO))}</p>
       </div>
-      <a class="botao cheio" href="{CANAL}" target="_blank" rel="noopener">{e(tr('Ver no YouTube'))}</a>
+      <a class="botao cheio" href="{e(f'https://www.youtube.com/watch?v={o["video"]}' if o.get('video') else CANAL)}" target="_blank" rel="noopener">{e(tr('Ver no YouTube'))}</a>
     </section>
 
     {seguinte}

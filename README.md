@@ -60,6 +60,12 @@ escolhemos) · **sem registro** (ninguém registrou; dizemos isso).
 Os quadros mostram "Estreia DD mmm AAAA" e viram "No ar" sozinhos no dia,
 por um script na página — não é preciso regerar o site para isso.
 
+No dia da estreia, o campo `video` da obra (o ID de 11 caracteres do YouTube,
+o que vem depois de `watch?v=`) faz o botão "Ver no YouTube" apontar para o
+episódio em vez do canal. É campo fixo: as traduções herdam do original. A
+tarefa agendada `estreia-arquitetura` (quinta à noite) preenche o ID, regera,
+audita e publica sozinha.
+
 ## Identidade
 
 Da `Identidade Visual\` do canal: cianotipia `#0F2A44` com grade de
