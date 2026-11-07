@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -377,7 +379,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   <h1>Sobre o Arquitetura do Impossível</h1>
 
   <h2>1. O que é</h2>
-  <p>O <strong>Arquitetura do Impossível</strong> é um projeto editorial independente, feito no Brasil, sobre grandes construções: como uma obra que parecia impossível ficou de pé. Cada página deste site acompanha um episódio do canal no YouTube, <a href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>, e é publicada antes da estreia, quando o episódio ainda está para sair. Vai além do vídeo: traz a ficha técnica completa, as fontes, as imagens com crédito e as divergências que não cabem num vídeo.</p>
+  <p>O <strong>Arquitetura do Impossível</strong> é um projeto editorial independente, feito no Brasil, sobre grandes construções: como uma obra que parecia impossível ficou de pé. Cada página deste site acompanha um episódio do canal no YouTube, <a href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>, mas se lê sem ter visto o vídeo e vai além dele: traz a ficha técnica completa, as fontes, as imagens com crédito e as divergências que não cabem num vídeo.</p>
   <p>A pergunta é sempre a mesma: <em>o que tornava esta obra impossível, e quem resolveu</em> — com que conta, com que material, com que improviso. O protagonista é o problema de engenharia; as pessoas entram como quem o enfrentou. Obras do Brasil e do resto do mundo, uma por semana.</p>
 
   <h2>2. Como uma página é feita</h2>
@@ -389,13 +391,16 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <li><strong>Texto integralmente autoral.</strong> As fontes ficam listadas no fim de cada página.</li>
   </ul>
 
-  <h2>3. Imagens</h2>
+  <h2>3. O site em números</h2>
+  <p>Contados nas fichas a cada vez que o site é gerado: <strong>33 obras</strong>, <strong>590 fontes citadas</strong>, <strong>181 imagens</strong> com autor e licença e <strong>505 linhas de ficha técnica</strong>. Dos números e linhas que levam selo, <strong>450</strong> estão confirmados em duas ou mais fontes, <strong>71</strong> vêm de fonte única, <strong>151</strong> mostram fontes que divergem e <strong>29</strong> dizem com todas as letras que ninguém registrou.</p>
+
+  <h2>4. Imagens</h2>
   <p>Só entram fotografias, plantas e documentos reais, de acervos em domínio público ou sob licença Creative Commons que permite uso comercial, com autor e licença creditados em cada página. Imagem gerada por IA não entra neste site.</p>
 
-  <h2>4. Correções</h2>
-  <p>Errou-se uma data, um nome, um número? Escreva pela página de <a href="contato.html">contato</a>, de preferência com a fonte. O erro confirmado é corrigido aqui, e a correção vale também para o que vier depois no canal.</p>
+  <h2>5. Revisão e correções</h2>
+  <p>Cada página de obra mostra, na ficha rápida, a data da última revisão. Errou-se uma data, um nome, um número? Escreva pela página de <a href="contato.html">contato</a>, de preferência com a fonte. O erro confirmado é corrigido aqui, e a correção vale também para o que vier depois no canal.</p>
 
-  <h2>5. Quem faz</h2>
+  <h2>6. Quem faz</h2>
   <p>O Arquitetura do Impossível é escrito, apurado e mantido de forma independente, sem vínculo com universidade, empresa ou órgão público. É do mesmo criador de outros dois projetos com o mesmo cuidado com a fonte: <a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a>, sobre arqueologia e mistério, e <a href="https://xadrezbelico.com" rel="noopener">Xadrez Bélico</a>, sobre batalhas explicadas como partida.</p>
   <p>O site se mantém com anúncios do Google AdSense, descritos na <a href="privacidade.html">política de privacidade</a>. Nenhum anúncio interfere no que é escrito.</p>
 </div></main>
@@ -482,7 +487,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

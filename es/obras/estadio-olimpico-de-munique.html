@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -416,8 +418,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 
     <section class="video">
       <div>
-        <span class="rotulo">Episodio 27 · <span class="selo-estreia" data-estreia="2027-04-08" data-no-ar="ya disponible">estreno 8 de abril de 2027</span></span>
-        <h3>Episodio en producción</h3>
+        <span class="rotulo">Episodio 27<span class="selo-estreia" data-estreia="2027-04-08" data-no-ar=" · ya disponible" hidden> · ya disponible</span></span>
+        <h3>Arquitetura do Impossível en YouTube</h3>
         <p>Cada semana, una obra que no debería haber quedado en pie.</p>
       </div>
       <a class="botao cheio" href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">Ver en YouTube</a>
@@ -426,7 +428,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <a class="proximo-ep" href="../../es/obras/opera-de-sydney.html">
       <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/28-capa-800.webp 800w, ../../assets/img/28-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../../assets/img/28-capa.jpg" srcset="../../assets/img/28-capa-800.jpg 800w, ../../assets/img/28-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1067" alt="La Ópera de Sídney vista desde lo alto, de día: conchas blancas sobre un podio color arena a orillas del puerto, agua azul alrededor, un barco rojo dejando una estela de espuma y la ciudad al fondo" loading="lazy" decoding="async" style="object-position:50% 55%"></picture></div>
       <div class="txt">
-        <span class="rotulo">Próximo episodio · Obra <b>28</b> · <span class="selo-estreia" data-estreia="2027-04-15" data-no-ar="ya disponible">estreno 15 abr 2027</span></span>
+        <span class="rotulo">Próximo episodio · Obra <b>28</b><span class="selo-estreia" data-estreia="2027-04-15" data-no-ar=" · ya disponible" hidden> · ya disponible</span></span>
         <h3>Ópera de Sídney</h3>
         <span class="onde">Bennelong Point, Sídney, Nueva Gales del Sur, Australia · 1959–1973</span>
         <p>Convertir en concreto un croquis de conchas dibujadas a mano alzada, que no correspondían a ninguna forma geométrica conocida y que, durante años, nadie logró describir en números, calcular ni fabricar.</p>
@@ -447,7 +449,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
       <dl>
         <div><dt>Dónde</dt><dd>Parque Olímpico, Múnich, Baviera, Alemania</dd></div>
         <div><dt>Obra</dt><dd>1969–1972</dd></div>
-        <div><dt>Episodio</dt><dd>27 · 08 abr 2027</dd></div>
+        <div><dt>Episodio</dt><dd>27</dd></div>
+        <div><dt>Revisión</dt><dd>03 oct 2026</dd></div>
       </dl>
     </div>
     <span class="rotulo">En esta página</span>
@@ -540,7 +543,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

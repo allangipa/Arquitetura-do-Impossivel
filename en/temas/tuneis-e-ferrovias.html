@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -389,7 +391,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/07-capa-800.webp 800w, ../../assets/img/07-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/07-capa.jpg" srcset="../../assets/img/07-capa-800.jpg 800w, ../../assets/img/07-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1123" alt="Straight track across a flooded swamp, with palm trunks under the line, men and horses in the background and low forest on both sides" loading="lazy" decoding="async" style="object-position:40% 55%"></picture>
     <span class="num">07</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-19" data-no-ar="Out now">Premieres Nov 19, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-19" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/estrada-de-ferro-madeira-mamore.html">Madeira-Mamoré Railroad</a></h3>
@@ -401,7 +403,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/13-capa-800.webp 800w, ../../assets/img/13-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/13-capa.jpg" srcset="../../assets/img/13-capa-800.jpg 800w, ../../assets/img/13-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="951" alt="Old sepia photograph: a double-track railway curves along a steep slope, with a stone wall on the left, a tunnel in the background, telegraph poles and the mist-covered valley on the right" loading="lazy" decoding="async" style="object-position:42% 60%"></picture>
     <span class="num">13</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-31" data-no-ar="Out now">Premieres Dec 31, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-31" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/santos-jundiai.html">Santos–Jundiaí Railway</a></h3>
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/14-capa-800.webp 800w, ../../assets/img/14-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/14-capa.jpg" srcset="../../assets/img/14-capa-800.jpg 800w, ../../assets/img/14-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="White cylindrical tunnel boring machine displayed in a roundabout garden, with the red wheel-shaped cutting head on the left and the French inscription Hommage aux bâtisseurs du tunnel on its body" loading="lazy" decoding="async" style="object-position:30% 50%"></picture>
     <span class="num">14</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-07" data-no-ar="Out now">Premieres Jan 07, 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-07" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/eurotunel.html">Channel Tunnel</a></h3>
@@ -425,7 +427,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/20-capa-800.webp 800w, ../../assets/img/20-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/20-capa.jpg" srcset="../../assets/img/20-capa-800.jpg 800w, ../../assets/img/20-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1077" alt="Old black-and-white engraving: an arched brick gallery receding into the distance, with side archways lit by lamps, pedestrians in top hats and two men pulling a cart on the stone floor" loading="lazy" decoding="async"></picture>
     <span class="num">20</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-18" data-no-ar="Out now">Premieres Feb 18, 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-18" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/tunel-do-tamisa.html">Thames Tunnel</a></h3>
@@ -437,7 +439,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/31-capa-800.webp 800w, ../../assets/img/31-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/31-capa.jpg" srcset="../../assets/img/31-capa-800.jpg 800w, ../../assets/img/31-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Inside a rock tunnel coated in shotcrete, the huge rust-colored circular cutterhead of a tunnel boring machine, full of openings; a worker in a helmet and coveralls stands beside it, reaching about a quarter of the way up the disc" loading="lazy" decoding="async"></picture>
     <span class="num">31</span>
-    <span class="selo selo-estreia" data-estreia="2027-05-06" data-no-ar="Out now">Premieres May 06, 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-05-06" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/tunel-de-base-de-sao-gotardo.html">Gotthard Base Tunnel</a></h3>
@@ -447,6 +449,19 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   </div>
 </li>
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">Side by side</span><h2>The structures in numbers</h2></div></header>
+    <p>The first three figures from each fact sheet, with the confidence seal from our research. The full account, with sources, is on each structure&#x27;s page.</p>
+    <table class="ficha">
+<tr><th scope="row"><a href="../../en/obras/estrada-de-ferro-madeira-mamore.html">Madeira-Mamoré Railroad</a><span class="nota">1907–1912</span></th><td class="v"><ul class="tema-nums"><li><b>364–366 km</b> from Porto Velho to Guajará-Mirim; 366 with the 1923 realignment <span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li><li><b>21,817</b> workers hired and brought in from outside, 1907–1912 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>2</b> failed attempts before, in 1872–1873 and 1878–1879 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/santos-jundiai.html">Santos–Jundiaí Railway</a><span class="nota">1860–1867</span></th><td class="v"><ul class="tema-nums"><li><b>762 to 808 m</b> of height gained over the range, depending on the source and the point of measurement <span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li><li><b>4 inclines</b> of about 10% grade, totaling some 8 km, with a steam engine house at the top of each one <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>1860–1867</b> from the first spadeful, in May 1860, to the opening, on 16 February 1867 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/eurotunel.html">Channel Tunnel</a><span class="nota">1987–1994</span></th><td class="v"><ul class="tema-nums"><li><b>50 km</b> length of each of the three tunnels, about 38 of them under the sea <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>11</b> tunnel boring machines: six set out from England and five from France <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>36 cm</b> of sideways offset, and 58 mm in height, when the two halves of the service tunnel met <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/tunel-do-tamisa.html">Thames Tunnel</a><span class="nota">1825–1843</span></th><td class="v"><ul class="tema-nums"><li><b>36</b> cells in the iron shield, one for each miner <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>1825–1843</b> 18 years from the start of the shaft to the opening, on 25 March 1843 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>366 · 396 m</b> long: 1,200 or 1,300 feet, depending on the source <span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/tunel-de-base-de-sao-gotardo.html">Gotthard Base Tunnel</a><span class="nota">1999–2016</span></th><td class="v"><ul class="tema-nums"><li><b>57 km</b> of tunnel, in two single-track tubes: the longest railway tunnel in the world <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>2,300 m</b> of rock above the tunnel at its deepest point <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>8 cm</b> of horizontal deviation (and 1 cm vertical) at the main breakthrough, on October 15, 2010 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+    </table>
   </div>
 </section>
 <section class="secao temas">
@@ -541,7 +556,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

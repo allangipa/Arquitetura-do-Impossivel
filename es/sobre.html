@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -377,7 +379,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   <h1>Acerca de Arquitetura do Impossível</h1>
 
   <h2>1. Qué es</h2>
-  <p><strong>Arquitetura do Impossível</strong> (Arquitectura de lo Imposible) es un proyecto editorial independiente, hecho en Brasil, sobre grandes construcciones: cómo una obra que parecía imposible quedó en pie. Cada página de este sitio acompaña un episodio del canal de YouTube, <a href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>, en portugués, y se publica antes del estreno, cuando el episodio todavía está por salir. Va más allá del video: trae la ficha técnica completa, las fuentes, las imágenes con crédito y las divergencias que no caben en un video.</p>
+  <p><strong>Arquitetura do Impossível</strong> (Arquitectura de lo Imposible) es un proyecto editorial independiente, hecho en Brasil, sobre grandes construcciones: cómo una obra que parecía imposible quedó en pie. Cada página de este sitio acompaña un episodio del canal de YouTube, <a href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>, en portugués, pero se lee sin haber visto el video y va más allá de él: trae la ficha técnica completa, las fuentes, las imágenes con crédito y las divergencias que no caben en un video.</p>
   <p>La pregunta es siempre la misma: <em>qué hacía imposible esta obra, y quién lo resolvió</em> —con qué cálculo, con qué material, con qué improvisación—. El protagonista es el problema de ingeniería; las personas entran como quienes lo enfrentaron. Obras de Brasil y del resto del mundo, una por semana.</p>
 
   <h2>2. Cómo se hace una página</h2>
@@ -389,13 +391,16 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <li><strong>Textos íntegramente propios.</strong> Las fuentes quedan listadas al final de cada página.</li>
   </ul>
 
-  <h2>3. Imágenes</h2>
+  <h2>3. El sitio en números</h2>
+  <p>Contados en las fichas cada vez que se genera el sitio: <strong>33 obras</strong>, <strong>590 fuentes citadas</strong>, <strong>181 imágenes</strong> con autor y licencia, y <strong>505 líneas de ficha</strong>. De las cifras y líneas que llevan sello, <strong>450</strong> están confirmadas en dos o más fuentes, <strong>71</strong> se apoyan en una sola, <strong>151</strong> muestran fuentes que discrepan y <strong>29</strong> dicen claramente que nadie lo registró.</p>
+
+  <h2>4. Imágenes</h2>
   <p>Solo se usan fotografías, planos y documentos reales, de acervos en dominio público o bajo una licencia Creative Commons que permite el uso comercial, con autor y licencia acreditados en cada página. En este sitio no se usan imágenes generadas por IA.</p>
 
-  <h2>4. Correcciones</h2>
-  <p>¿Hay una fecha, un nombre o una cifra equivocados? Escribe a través de la página de <a href="contato.html">contacto</a>, de preferencia con la fuente. El error confirmado se corrige aquí, y la corrección vale también para lo que venga después en el canal.</p>
+  <h2>5. Revisión y correcciones</h2>
+  <p>Cada página de obra muestra, en la ficha rápida, la fecha de la última revisión. ¿Hay una fecha, un nombre o una cifra equivocados? Escribe a través de la página de <a href="contato.html">contacto</a>, de preferencia con la fuente. El error confirmado se corrige aquí, y la corrección vale también para lo que venga después en el canal.</p>
 
-  <h2>5. Quién lo hace</h2>
+  <h2>6. Quién lo hace</h2>
   <p>Arquitetura do Impossível se escribe, se investiga y se mantiene de forma independiente, sin vínculo con ninguna universidad, empresa u organismo público. Es del mismo creador de otros dos proyectos con el mismo cuidado por las fuentes: <a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a>, sobre arqueología y misterio, y <a href="https://xadrezbelico.com" rel="noopener">Xadrez Bélico</a>, sobre batallas explicadas como una partida de ajedrez (ambos en portugués).</p>
   <p>El sitio se sostiene con anuncios de Google AdSense, descritos en la <a href="privacidade.html">política de privacidad</a>. Ningún anuncio interfiere en lo que se escribe.</p>
 </div></main>
@@ -482,7 +487,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

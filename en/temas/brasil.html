@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -389,7 +391,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/01-cristo-redentor-capa-800.webp 800w, ../../assets/img/01-cristo-redentor-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/01-cristo-redentor-capa.jpg" srcset="../../assets/img/01-cristo-redentor-capa-800.jpg 800w, ../../assets/img/01-cristo-redentor-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1070" alt="Aerial view of Christ the Redeemer on top of Corcovado, with the city and the mountains of Rio&#x27;s South Zone in the background" loading="lazy" decoding="async" style="object-position:68% 45%"></picture>
     <span class="num">01</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-08" data-no-ar="Out now">Premieres Oct 08, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-08" data-no-ar="Out now">Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/cristo-redentor.html">Christ the Redeemer</a></h3>
@@ -401,7 +403,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/03-ponte-rio-niteroi-capa-800.webp 800w, ../../assets/img/03-ponte-rio-niteroi-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/03-ponte-rio-niteroi-capa.jpg" srcset="../../assets/img/03-ponte-rio-niteroi-capa-800.jpg 800w, ../../assets/img/03-ponte-rio-niteroi-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Aerial view of the Rio–Niterói Bridge crossing Guanabara Bay, with Mocanguê Island and ships in the foreground" loading="lazy" decoding="async" style="object-position:30% 60%"></picture>
     <span class="num">03</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-22" data-no-ar="Out now">Premieres Oct 22, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-22" data-no-ar="Out now">Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/ponte-rio-niteroi.html">Rio–Niterói Bridge</a></h3>
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/05-itaipu-aerea-800.webp 800w, ../../assets/img/05-itaipu-aerea.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/05-itaipu-aerea.jpg" srcset="../../assets/img/05-itaipu-aerea-800.jpg 800w, ../../assets/img/05-itaipu-aerea.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Aerial view of the Itaipu Dam: the spillway on the left, the curving dam and the reservoir behind, with the Paraná River in the foreground" loading="lazy" decoding="async" style="object-position:45% 55%"></picture>
     <span class="num">05</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-05" data-no-ar="Out now">Premieres Nov 05, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-05" data-no-ar="Out now">Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/usina-de-itaipu.html">Itaipu Dam</a></h3>
@@ -425,7 +427,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/07-capa-800.webp 800w, ../../assets/img/07-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/07-capa.jpg" srcset="../../assets/img/07-capa-800.jpg 800w, ../../assets/img/07-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1123" alt="Straight track across a flooded swamp, with palm trunks under the line, men and horses in the background and low forest on both sides" loading="lazy" decoding="async" style="object-position:40% 55%"></picture>
     <span class="num">07</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-19" data-no-ar="Out now">Premieres Nov 19, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-19" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/estrada-de-ferro-madeira-mamore.html">Madeira-Mamoré Railroad</a></h3>
@@ -437,7 +439,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/09-capa-800.webp 800w, ../../assets/img/09-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/09-capa.jpg" srcset="../../assets/img/09-capa-800.jpg 800w, ../../assets/img/09-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Gray steel suspension bridge over calm water, with a tall lattice tower on the right, the chain curving down to the truss of the main span and a rocky beach in the foreground" loading="lazy" decoding="async" style="object-position:68% 45%"></picture>
     <span class="num">09</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-03" data-no-ar="Out now">Premieres Dec 03, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-03" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/ponte-hercilio-luz.html">Hercílio Luz Bridge</a></h3>
@@ -449,7 +451,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/11-camara-em-obra-1959-800.webp 800w, ../../assets/img/11-camara-em-obra-1959.webp 1431w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/11-camara-em-obra-1959.jpg" srcset="../../assets/img/11-camara-em-obra-1959-800.jpg 800w, ../../assets/img/11-camara-em-obra-1959.jpg 1431w" sizes="(max-width:720px) 100vw, 400px" width="1431" height="1428" alt="Old black-and-white photograph: the concave dome of the Chamber covered in tubular scaffolding, on the platform slab supported by pilotis with a glass facade; behind it, the skeleton of one of the towers under construction" loading="lazy" decoding="async" style="object-position:55% 50%"></picture>
     <span class="num">11</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-17" data-no-ar="Out now">Premieres Dec 17, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-17" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/congresso-nacional.html">National Congress of Brazil</a></h3>
@@ -461,7 +463,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/13-capa-800.webp 800w, ../../assets/img/13-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/13-capa.jpg" srcset="../../assets/img/13-capa-800.jpg 800w, ../../assets/img/13-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="951" alt="Old sepia photograph: a double-track railway curves along a steep slope, with a stone wall on the left, a tunnel in the background, telegraph poles and the mist-covered valley on the right" loading="lazy" decoding="async" style="object-position:42% 60%"></picture>
     <span class="num">13</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-31" data-no-ar="Out now">Premieres Dec 31, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-31" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/santos-jundiai.html">Santos–Jundiaí Railway</a></h3>
@@ -473,7 +475,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/15-capa-800.webp 800w, ../../assets/img/15-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/15-capa.jpg" srcset="../../assets/img/15-capa-800.jpg 800w, ../../assets/img/15-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Box of dark glass and concrete suspended over the sidewalk, held between two large red portal frames, with pedestrians walking underneath and tall buildings in the background" loading="lazy" decoding="async" style="object-position:55% 50%"></picture>
     <span class="num">15</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-14" data-no-ar="Out now">Premieres Jan 14, 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-14" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/masp.html">São Paulo Museum of Art (MASP)</a></h3>
@@ -485,7 +487,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/17-capa-800.webp 800w, ../../assets/img/17-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/17-capa.jpg" srcset="../../assets/img/17-capa-800.jpg 800w, ../../assets/img/17-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1098" alt="Color aerial view of an oval concrete stadium with the green field at the center, packed stands and a continuous canopy divided into pale segments all the way around; in the background, a round-domed arena and city buildings" loading="lazy" decoding="async" style="object-position:50% 50%"></picture>
     <span class="num">17</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-28" data-no-ar="Out now">Premieres Jan 28, 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-28" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/maracana.html">Maracanã Stadium</a></h3>
@@ -497,7 +499,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/19-capa-800.webp 800w, ../../assets/img/19-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/19-capa.jpg" srcset="../../assets/img/19-capa-800.jpg 800w, ../../assets/img/19-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="2230" alt="Tall, wide building with a pinkish facade, four stepped blocks and a pale crown with pinnacles, seen from below on a pedestrian street with palm trees and a street clock" loading="lazy" decoding="async" style="object-position:45% 30%"></picture>
     <span class="num">19</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-11" data-no-ar="Out now">Premieres Feb 11, 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-11" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/edificio-martinelli.html">Martinelli Building</a></h3>
@@ -507,6 +509,24 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   </div>
 </li>
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">Side by side</span><h2>The structures in numbers</h2></div></header>
+    <p>The first three figures from each fact sheet, with the confidence seal from our research. The full account, with sources, is on each structure&#x27;s page.</p>
+    <table class="ficha">
+<tr><th scope="row"><a href="../../en/obras/cristo-redentor.html">Christ the Redeemer</a><span class="nota">1922–1931</span></th><td class="v"><ul class="tema-nums"><li><b>38 m</b> height: 30 m of statue on 8 m of pedestal <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>28 m</b> from the tip of one arm to the other <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>3.75 m</b> height of the head, which weighs 30 t <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/ponte-rio-niteroi.html">Rio–Niterói Bridge</a><span class="nota">1969–1974</span></th><td class="v"><ul class="tema-nums"><li><b>300 m</b> main span, a continuous steel girder <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>72 m</b> height at the highest point, the ceiling set by aircraft <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>50–60 m</b> depth of the rock below sea level <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/usina-de-itaipu.html">Itaipu Dam</a><span class="nota">1975–1984</span></th><td class="v"><ul class="tema-nums"><li><b>7,919 m</b> total length of the dam, adding up all its sections <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>196 m</b> maximum height of the dam <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>14,000 MW</b> installed capacity, in 20 units of 700 MW <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/estrada-de-ferro-madeira-mamore.html">Madeira-Mamoré Railroad</a><span class="nota">1907–1912</span></th><td class="v"><ul class="tema-nums"><li><b>364–366 km</b> from Porto Velho to Guajará-Mirim; 366 with the 1923 realignment <span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li><li><b>21,817</b> workers hired and brought in from outside, 1907–1912 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>2</b> failed attempts before, in 1872–1873 and 1878–1879 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/ponte-hercilio-luz.html">Hercílio Luz Bridge</a><span class="nota">1922–1926</span></th><td class="v"><ul class="tema-nums"><li><b>339.5 m</b> main suspension span over the sea <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>1922–1926</b> from the start of work in November 1922 to the opening on May 13, 1926 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>819.5 · 821 m</b> total length, depending on the measurement <span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/congresso-nacional.html">National Congress of Brazil</a><span class="nota">1957–1960</span></th><td class="v"><ul class="tema-nums"><li><b>62 m</b> diameter of the Chamber&#x27;s dome, the one that seems to rest on the slab <span class="conf conf-1" title="A single source; the text says which.">1 source</span></li><li><b>28</b> stories in each of the two towers <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>200 m</b> length of the platform that supports the domes <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/santos-jundiai.html">Santos–Jundiaí Railway</a><span class="nota">1860–1867</span></th><td class="v"><ul class="tema-nums"><li><b>762 to 808 m</b> of height gained over the range, depending on the source and the point of measurement <span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li><li><b>4 inclines</b> of about 10% grade, totaling some 8 km, with a steam engine house at the top of each one <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>1860–1867</b> from the first spadeful, in May 1860, to the opening, on 16 February 1867 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/masp.html">São Paulo Museum of Art (MASP)</a><span class="nota">1960–1968</span></th><td class="v"><ul class="tema-nums"><li><b>70 · 74 m</b> of free span between the pillars, depending on the measurement <span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li><li><b>8 m</b> of clearance between the plaza and the suspended block <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>4</b> pillars carrying two pairs of prestressed beams <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/maracana.html">Maracanã Stadium</a><span class="nota">1948–1950</span></th><td class="v"><ul class="tema-nums"><li><b>155,250</b> places planned in the design, counting seats, standing room and permanent reserved seats <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>1948–1950</b> from the start of construction in August 1948 to the opening on 16 June 1950 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>173,850</b> paying spectators at the 1950 World Cup final, the official attendance; estimates exceed 199,000 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/edificio-martinelli.html">Martinelli Building</a><span class="nota">1924–1934</span></th><td class="v"><ul class="tema-nums"><li><b>30</b> stories, counting the five of the owner&#x27;s house at the top <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>105.65 m</b> tall, the figure published in 1929; some give 130 m <span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li><li><b>1928</b> the year of the stop-work order, when the building had reached 24 stories <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+    </table>
   </div>
 </section>
 <section class="secao temas">
@@ -601,7 +621,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

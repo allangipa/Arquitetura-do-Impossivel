@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -389,7 +391,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/01-cristo-redentor-capa-800.webp 800w, ../assets/img/01-cristo-redentor-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/01-cristo-redentor-capa.jpg" srcset="../assets/img/01-cristo-redentor-capa-800.jpg 800w, ../assets/img/01-cristo-redentor-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1070" alt="Vista aérea do Cristo Redentor no topo do Corcovado, com a cidade e as montanhas da zona sul do Rio ao fundo" loading="lazy" decoding="async" style="object-position:68% 45%"></picture>
     <span class="num">01</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-08" data-no-ar="No ar">Estreia 08 out 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-08" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/cristo-redentor.html">Cristo Redentor</a></h3>
@@ -401,7 +403,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/03-ponte-rio-niteroi-capa-800.webp 800w, ../assets/img/03-ponte-rio-niteroi-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/03-ponte-rio-niteroi-capa.jpg" srcset="../assets/img/03-ponte-rio-niteroi-capa-800.jpg 800w, ../assets/img/03-ponte-rio-niteroi-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Vista aérea da Ponte Rio–Niterói atravessando a baía de Guanabara, com a Ilha de Mocanguê e navios em primeiro plano" loading="lazy" decoding="async" style="object-position:30% 60%"></picture>
     <span class="num">03</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-22" data-no-ar="No ar">Estreia 22 out 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-22" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/ponte-rio-niteroi.html">Ponte Rio–Niterói</a></h3>
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/05-itaipu-aerea-800.webp 800w, ../assets/img/05-itaipu-aerea.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/05-itaipu-aerea.jpg" srcset="../assets/img/05-itaipu-aerea-800.jpg 800w, ../assets/img/05-itaipu-aerea.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Vista aérea da Usina de Itaipu: o vertedouro à esquerda, a barragem em curva e o reservatório ao fundo, com o rio Paraná em primeiro plano" loading="lazy" decoding="async" style="object-position:45% 55%"></picture>
     <span class="num">05</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-05" data-no-ar="No ar">Estreia 05 nov 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-05" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/usina-de-itaipu.html">Usina de Itaipu</a></h3>
@@ -425,7 +427,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/07-capa-800.webp 800w, ../assets/img/07-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/07-capa.jpg" srcset="../assets/img/07-capa-800.jpg 800w, ../assets/img/07-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1123" alt="Trilhos em linha reta sobre um pântano alagado, com troncos de palmeira sob a via, homens e cavalos ao fundo e mata baixa dos dois lados" loading="lazy" decoding="async" style="object-position:40% 55%"></picture>
     <span class="num">07</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-19" data-no-ar="No ar">Estreia 19 nov 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-19" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/estrada-de-ferro-madeira-mamore.html">Estrada de Ferro Madeira-Mamoré</a></h3>
@@ -437,7 +439,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/09-capa-800.webp 800w, ../assets/img/09-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/09-capa.jpg" srcset="../assets/img/09-capa-800.jpg 800w, ../assets/img/09-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Ponte pênsil de aço cinza sobre água calma, com uma torre treliçada alta à direita, a corrente descendo em curva até a treliça do vão central e uma praia com pedras em primeiro plano" loading="lazy" decoding="async" style="object-position:68% 45%"></picture>
     <span class="num">09</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-03" data-no-ar="No ar">Estreia 03 dez 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-03" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/ponte-hercilio-luz.html">Ponte Hercílio Luz</a></h3>
@@ -449,7 +451,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/11-camara-em-obra-1959-800.webp 800w, ../assets/img/11-camara-em-obra-1959.webp 1431w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/11-camara-em-obra-1959.jpg" srcset="../assets/img/11-camara-em-obra-1959-800.jpg 800w, ../assets/img/11-camara-em-obra-1959.jpg 1431w" sizes="(max-width:720px) 100vw, 400px" width="1431" height="1428" alt="Fotografia antiga em preto e branco: a cúpula côncava da Câmara coberta de andaimes de tubos, sobre a laje da plataforma sustentada por pilotis e fachada de vidro; atrás, o esqueleto de uma das torres em construção" loading="lazy" decoding="async" style="object-position:55% 50%"></picture>
     <span class="num">11</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-17" data-no-ar="No ar">Estreia 17 dez 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-17" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/congresso-nacional.html">Congresso Nacional</a></h3>
@@ -461,7 +463,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/13-capa-800.webp 800w, ../assets/img/13-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/13-capa.jpg" srcset="../assets/img/13-capa-800.jpg 800w, ../assets/img/13-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="951" alt="Fotografia antiga em sépia: uma ferrovia de via dupla corre em curva numa encosta íngreme, com muro de pedra à esquerda, um túnel ao fundo, postes de telégrafo e o vale coberto de névoa à direita" loading="lazy" decoding="async" style="object-position:42% 60%"></picture>
     <span class="num">13</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-31" data-no-ar="No ar">Estreia 31 dez 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-31" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/santos-jundiai.html">Estrada de Ferro Santos–Jundiaí</a></h3>
@@ -473,7 +475,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/15-capa-800.webp 800w, ../assets/img/15-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/15-capa.jpg" srcset="../assets/img/15-capa-800.jpg 800w, ../assets/img/15-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Caixa de vidro escuro e concreto suspensa sobre a calçada, presa entre dois grandes pórticos vermelhos, com pedestres passando por baixo e prédios altos ao fundo" loading="lazy" decoding="async" style="object-position:55% 50%"></picture>
     <span class="num">15</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-14" data-no-ar="No ar">Estreia 14 jan 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-14" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/masp.html">MASP</a></h3>
@@ -485,7 +487,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/17-capa-800.webp 800w, ../assets/img/17-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/17-capa.jpg" srcset="../assets/img/17-capa-800.jpg 800w, ../assets/img/17-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1098" alt="Vista aérea colorida de um estádio oval de concreto com o campo verde no centro, arquibancadas cheias e uma marquise contínua dividida em gomos claros em toda a volta; ao fundo, um ginásio de cúpula redonda e prédios da cidade" loading="lazy" decoding="async" style="object-position:50% 50%"></picture>
     <span class="num">17</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-28" data-no-ar="No ar">Estreia 28 jan 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-28" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/maracana.html">Estádio do Maracanã</a></h3>
@@ -497,7 +499,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/19-capa-800.webp 800w, ../assets/img/19-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/19-capa.jpg" srcset="../assets/img/19-capa-800.jpg 800w, ../assets/img/19-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="2230" alt="Prédio alto e largo de fachada rosada, com quatro blocos escalonados e coroamento claro com pináculos, visto de baixo de uma rua de pedestres com palmeiras e um relógio de rua" loading="lazy" decoding="async" style="object-position:45% 30%"></picture>
     <span class="num">19</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-11" data-no-ar="No ar">Estreia 11 fev 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-11" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/edificio-martinelli.html">Edifício Martinelli</a></h3>
@@ -507,6 +509,24 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   </div>
 </li>
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">Lado a lado</span><h2>As obras em números</h2></div></header>
+    <p>Os três primeiros números de cada ficha, com o selo de confiança da apuração. A conta completa, com as fontes, está na página de cada obra.</p>
+    <table class="ficha">
+<tr><th scope="row"><a href="../obras/cristo-redentor.html">Cristo Redentor</a><span class="nota">1922–1931</span></th><td class="v"><ul class="tema-nums"><li><b>38 m</b> altura: 30 m de estátua sobre 8 m de pedestal <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>28 m</b> de uma ponta à outra dos braços <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>3,75 m</b> altura da cabeça, que pesa 30 t <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/ponte-rio-niteroi.html">Ponte Rio–Niterói</a><span class="nota">1969–1974</span></th><td class="v"><ul class="tema-nums"><li><b>300 m</b> vão central, em viga contínua de aço <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>72 m</b> altura no ponto mais alto, o teto imposto pelos aviões <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>50–60 m</b> profundidade da rocha abaixo do nível do mar <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/usina-de-itaipu.html">Usina de Itaipu</a><span class="nota">1975–1984</span></th><td class="v"><ul class="tema-nums"><li><b>7.919 m</b> extensão total da barragem, somados todos os trechos <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>196 m</b> altura máxima da barragem <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>14.000 MW</b> potência, em 20 unidades de 700 MW <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/estrada-de-ferro-madeira-mamore.html">Estrada de Ferro Madeira-Mamoré</a><span class="nota">1907–1912</span></th><td class="v"><ul class="tema-nums"><li><b>364–366 km</b> de Porto Velho a Guajará-Mirim; 366 com a variante de 1923 <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li><li><b>21.817</b> trabalhadores contratados e trazidos de fora, 1907–1912 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>2</b> tentativas fracassadas antes, em 1872–1873 e 1878–1879 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/ponte-hercilio-luz.html">Ponte Hercílio Luz</a><span class="nota">1922–1926</span></th><td class="v"><ul class="tema-nums"><li><b>339,5 m</b> de vão central pênsil sobre o mar <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>1922–1926</b> da obra iniciada em novembro de 1922 à inauguração em 13/05/1926 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>819,5 · 821 m</b> de comprimento total, conforme a medição <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/congresso-nacional.html">Congresso Nacional</a><span class="nota">1957–1960</span></th><td class="v"><ul class="tema-nums"><li><b>62 m</b> de diâmetro da cúpula da Câmara, a que parece pousada sobre a laje <span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span></li><li><b>28</b> andares em cada uma das duas torres <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>200 m</b> de comprimento da plataforma que sustenta as cúpulas <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/santos-jundiai.html">Estrada de Ferro Santos–Jundiaí</a><span class="nota">1860–1867</span></th><td class="v"><ul class="tema-nums"><li><b>762 a 808 m</b> de desnível vencido na serra, conforme a fonte e o ponto de medida <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li><li><b>4 planos</b> inclinados de cerca de 10%, somando uns 8 km, com uma casa de máquinas a vapor no alto de cada um <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>1860–1867</b> da primeira pá, em maio de 1860, à abertura, em 16/02/1867 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/masp.html">MASP</a><span class="nota">1960–1968</span></th><td class="v"><ul class="tema-nums"><li><b>70 · 74 m</b> de vão livre entre os pilares, conforme a medição <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li><li><b>8 m</b> de altura entre a praça e o volume suspenso <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>4</b> pilares sustentando dois pares de vigas protendidas <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/maracana.html">Estádio do Maracanã</a><span class="nota">1948–1950</span></th><td class="v"><ul class="tema-nums"><li><b>155.250</b> lugares previstos no projeto, entre assentos, lugares em pé e cadeiras cativas <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>1948–1950</b> da obra iniciada em agosto de 1948 à inauguração em 16/06/1950 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>173.850</b> pagantes na final da Copa de 1950, o público oficial; as estimativas passam de 199 mil <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/edificio-martinelli.html">Edifício Martinelli</a><span class="nota">1924–1934</span></th><td class="v"><ul class="tema-nums"><li><b>30</b> andares, contando os cinco da casa do dono no topo <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>105,65 m</b> de altura, o número publicado em 1929; há quem dê 130 m <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li><li><b>1928</b> o ano do embargo, quando a obra chegava a 24 andares <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+    </table>
   </div>
 </section>
 <section class="secao temas">
@@ -601,7 +621,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -377,7 +379,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   <h1>About Arquitetura do Impossível</h1>
 
   <h2>1. What it is</h2>
-  <p><strong>Arquitetura do Impossível</strong> (Impossible Architecture) is an independent editorial project, made in Brazil, about great structures: how a work that seemed impossible came to stand. Each page of this site accompanies an episode of the YouTube channel, <a href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>, in Portuguese, and is published before the premiere, while the episode is still to come. It goes beyond the video: it has the full fact sheet, the sources, the credited images and the disagreements that do not fit in a video.</p>
+  <p><strong>Arquitetura do Impossível</strong> (Impossible Architecture) is an independent editorial project, made in Brazil, about great structures: how a work that seemed impossible came to stand. Each page of this site accompanies an episode of the YouTube channel, <a href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>, in Portuguese, but it reads on its own, without the video, and goes beyond it: it has the full fact sheet, the sources, the credited images and the disagreements that do not fit in a video.</p>
   <p>The question is always the same: <em>what made this structure impossible, and who solved it</em> — with what math, what material, what improvisation. The protagonist is the engineering problem; people come in as those who faced it. Structures from Brazil and the rest of the world, one a week.</p>
 
   <h2>2. How a page is made</h2>
@@ -389,13 +391,16 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <li><strong>Entirely original writing.</strong> The sources are listed at the end of each page.</li>
   </ul>
 
-  <h2>3. Images</h2>
+  <h2>3. The site in numbers</h2>
+  <p>Counted from the fact sheets every time the site is built: <strong>33 structures</strong>, <strong>590 cited sources</strong>, <strong>181 images</strong> with author and license, and <strong>505 fact-sheet lines</strong>. Of the figures and lines that carry a seal, <strong>450</strong> are confirmed in two or more sources, <strong>71</strong> rest on a single source, <strong>151</strong> show sources that disagree and <strong>29</strong> say plainly that nobody recorded it.</p>
+
+  <h2>4. Images</h2>
   <p>Only real photographs, plans and documents are used, from collections in the public domain or under a Creative Commons license that allows commercial use, with author and license credited on every page. AI-generated images are not used on this site.</p>
 
-  <h2>4. Corrections</h2>
-  <p>Got a date, a name or a number wrong? Write through the <a href="contato.html">contact</a> page, preferably with the source. A confirmed error is corrected here, and the correction also applies to whatever comes next on the channel.</p>
+  <h2>5. Review and corrections</h2>
+  <p>Every structure page shows, in the quick facts, the date it was last reviewed. Got a date, a name or a number wrong? Write through the <a href="contato.html">contact</a> page, preferably with the source. A confirmed error is corrected here, and the correction also applies to whatever comes next on the channel.</p>
 
-  <h2>5. Who makes it</h2>
+  <h2>6. Who makes it</h2>
   <p>Arquitetura do Impossível is written, researched and maintained independently, with no ties to any university, company or government body. It comes from the same creator as two other projects with the same care for sources: <a href="https://vestigiooculto.com.br" rel="noopener">Vestígio Oculto</a>, on archaeology and mystery, and <a href="https://xadrezbelico.com" rel="noopener">Xadrez Bélico</a>, on battles explained as a chess game (both in Portuguese).</p>
   <p>The site is supported by Google AdSense ads, described in the <a href="privacidade.html">privacy policy</a>. No ad interferes with what is written.</p>
 </div></main>
@@ -482,7 +487,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -419,8 +421,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 
     <section class="video">
       <div>
-        <span class="rotulo">Episódio 07 · <span class="selo-estreia" data-estreia="2026-11-19" data-no-ar="no ar">estreia 19 de novembro de 2026</span></span>
-        <h3>Episódio em produção</h3>
+        <span class="rotulo">Episódio 07<span class="selo-estreia" data-estreia="2026-11-19" data-no-ar=" · no ar" hidden> · no ar</span></span>
+        <h3>Arquitetura do Impossível no YouTube</h3>
         <p>Toda semana, uma obra que não deveria ter ficado de pé.</p>
       </div>
       <a class="botao cheio" href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">Ver no YouTube</a>
@@ -429,7 +431,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <a class="proximo-ep" href="../obras/canal-do-panama.html">
       <div class="foto"><picture><source type="image/webp" srcset="../assets/img/08-capa-800.webp 800w, ../assets/img/08-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/08-capa.jpg" srcset="../assets/img/08-capa-800.jpg 800w, ../assets/img/08-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1072" alt="Vale profundo e seco aberto entre duas encostas de rocha, com várias linhas de trilho no fundo, uma escavadeira a vapor à direita e guindastes à esquerda" loading="lazy" decoding="async"></picture></div>
       <div class="txt">
-        <span class="rotulo">Próximo episódio · Obra <b>08</b> · <span class="selo-estreia" data-estreia="2026-11-26" data-no-ar="no ar">estreia 26 nov 2026</span></span>
+        <span class="rotulo">Próximo episódio · Obra <b>08</b><span class="selo-estreia" data-estreia="2026-11-26" data-no-ar=" · no ar" hidden> · no ar</span></span>
         <h3>Canal do Panamá</h3>
         <span class="onde">Istmo do Panamá, entre Colón e a Cidade do Panamá, Panamá · 1904–1914</span>
         <p>Cortar uma cordilheira que desmoronava de volta para dentro do corte, num istmo onde a febre amarela e a malária já tinham derrotado os franceses, e subir navios 26 metros até um lago feito de chuva.</p>
@@ -450,7 +452,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
       <dl>
         <div><dt>Onde</dt><dd>De Porto Velho a Guajará-Mirim, Rondônia, Brasil</dd></div>
         <div><dt>Obra</dt><dd>1907–1912</dd></div>
-        <div><dt>Episódio</dt><dd>07 · 19 nov 2026</dd></div>
+        <div><dt>Episódio</dt><dd>07</dd></div>
+        <div><dt>Revisão</dt><dd>03 out 2026</dd></div>
       </dl>
     </div>
     <span class="rotulo">Nesta página</span>
@@ -543,7 +546,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

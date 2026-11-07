@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -389,7 +391,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/03-ponte-rio-niteroi-capa-800.webp 800w, ../assets/img/03-ponte-rio-niteroi-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/03-ponte-rio-niteroi-capa.jpg" srcset="../assets/img/03-ponte-rio-niteroi-capa-800.jpg 800w, ../assets/img/03-ponte-rio-niteroi-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Vista aérea da Ponte Rio–Niterói atravessando a baía de Guanabara, com a Ilha de Mocanguê e navios em primeiro plano" loading="lazy" decoding="async" style="object-position:30% 60%"></picture>
     <span class="num">03</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-22" data-no-ar="No ar">Estreia 22 out 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-22" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/ponte-rio-niteroi.html">Ponte Rio–Niterói</a></h3>
@@ -401,7 +403,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/04-capa-800.webp 800w, ../assets/img/04-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/04-capa.jpg" srcset="../assets/img/04-capa-800.jpg 800w, ../assets/img/04-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1264" alt="Vista aérea do East River com a Ponte do Brooklyn em diagonal no primeiro plano e a Ponte de Manhattan logo atrás" loading="lazy" decoding="async" style="object-position:55% 70%"></picture>
     <span class="num">04</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-29" data-no-ar="No ar">Estreia 29 out 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-29" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/ponte-do-brooklyn.html">Ponte do Brooklyn</a></h3>
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/09-capa-800.webp 800w, ../assets/img/09-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/09-capa.jpg" srcset="../assets/img/09-capa-800.jpg 800w, ../assets/img/09-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Ponte pênsil de aço cinza sobre água calma, com uma torre treliçada alta à direita, a corrente descendo em curva até a treliça do vão central e uma praia com pedras em primeiro plano" loading="lazy" decoding="async" style="object-position:68% 45%"></picture>
     <span class="num">09</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-03" data-no-ar="No ar">Estreia 03 dez 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-03" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/ponte-hercilio-luz.html">Ponte Hercílio Luz</a></h3>
@@ -425,7 +427,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/12-capa-800.webp 800w, ../assets/img/12-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/12-capa.jpg" srcset="../assets/img/12-capa-800.jpg 800w, ../assets/img/12-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1000" alt="Ponte pênsil laranja sob céu azul, com uma torre alta sobre uma base de concreto no mar, os cabos descendo em curva até a segunda torre ao fundo, morros verdes e marrons atrás e um forte de tijolos em primeiro plano" loading="lazy" decoding="async" style="object-position:52% 45%"></picture>
     <span class="num">12</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-24" data-no-ar="No ar">Estreia 24 dez 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-24" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/golden-gate.html">Ponte Golden Gate</a></h3>
@@ -437,7 +439,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/21-capa-800.webp 800w, ../assets/img/21-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/21-capa.jpg" srcset="../assets/img/21-capa-800.jpg 800w, ../assets/img/21-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="853" alt="Ponte de três arcos de aço escuro sobre um rio largo, com pilares de pedra, um trem azul passando no tabuleiro inferior, céu limpo e margem coberta de neve em primeiro plano" loading="lazy" decoding="async" style="object-position:45% 45%"></picture>
     <span class="num">21</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-25" data-no-ar="No ar">Estreia 25 fev 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-25" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/ponte-eads.html">Ponte Eads</a></h3>
@@ -449,7 +451,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/22-capa-800.webp 800w, ../assets/img/22-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/22-capa.jpg" srcset="../assets/img/22-capa-800.jpg 800w, ../assets/img/22-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1103" alt="Ponte de aço vermelha com três grandes estruturas em losango sobre água calma que as reflete, um pilar de pedra à direita e um trem atravessando o viaduto sob céu azul" loading="lazy" decoding="async" style="object-position:50% 55%"></picture>
     <span class="num">22</span>
-    <span class="selo selo-estreia" data-estreia="2027-03-04" data-no-ar="No ar">Estreia 04 mar 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-03-04" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/ponte-de-forth.html">Ponte de Forth</a></h3>
@@ -461,7 +463,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/24-capa-800.webp 800w, ../assets/img/24-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/24-capa.jpg" srcset="../assets/img/24-capa-800.jpg 800w, ../assets/img/24-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1181" alt="Fotograma antigo em preto e branco: a pista da ponte inclinada e torcida, com um carro parado e inclinado no meio, postes de luz tortos e os pendurais verticais dos dois lados" loading="lazy" decoding="async" style="object-position:55% 60%"></picture>
     <span class="num">24</span>
-    <span class="selo selo-estreia" data-estreia="2027-03-18" data-no-ar="No ar">Estreia 18 mar 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-03-18" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/ponte-de-tacoma-narrows.html">Ponte de Tacoma Narrows</a></h3>
@@ -473,7 +475,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/32-capa-800.webp 800w, ../assets/img/32-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/32-capa.jpg" srcset="../assets/img/32-capa-800.jpg 800w, ../assets/img/32-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Vista aérea de uma ponte estaiada com viga em treliça vermelha entre duas torres brancas, passando muito acima de um desfiladeiro verde, com um rio estreito no fundo" loading="lazy" decoding="async"></picture>
     <span class="num">32</span>
-    <span class="selo selo-estreia" data-estreia="2027-05-13" data-no-ar="No ar">Estreia 13 mai 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-05-13" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/ponte-de-duge.html">Ponte de Duge</a></h3>
@@ -483,6 +485,22 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   </div>
 </li>
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">Lado a lado</span><h2>As obras em números</h2></div></header>
+    <p>Os três primeiros números de cada ficha, com o selo de confiança da apuração. A conta completa, com as fontes, está na página de cada obra.</p>
+    <table class="ficha">
+<tr><th scope="row"><a href="../obras/ponte-rio-niteroi.html">Ponte Rio–Niterói</a><span class="nota">1969–1974</span></th><td class="v"><ul class="tema-nums"><li><b>300 m</b> vão central, em viga contínua de aço <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>72 m</b> altura no ponto mais alto, o teto imposto pelos aviões <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>50–60 m</b> profundidade da rocha abaixo do nível do mar <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/ponte-do-brooklyn.html">Ponte do Brooklyn</a><span class="nota">1870–1883</span></th><td class="v"><ul class="tema-nums"><li><b>486 m</b> vão central entre as torres (1.595 pés e 6 polegadas) <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>23,9 m</b> profundidade do caixão de Manhattan abaixo da maré alta <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>110</b> casos de mal dos caixões em 5 meses de 1872, com 3 mortes <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/ponte-hercilio-luz.html">Ponte Hercílio Luz</a><span class="nota">1922–1926</span></th><td class="v"><ul class="tema-nums"><li><b>339,5 m</b> de vão central pênsil sobre o mar <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>1922–1926</b> da obra iniciada em novembro de 1922 à inauguração em 13/05/1926 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>819,5 · 821 m</b> de comprimento total, conforme a medição <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/golden-gate.html">Ponte Golden Gate</a><span class="nota">1933–1937</span></th><td class="v"><ul class="tema-nums"><li><b>1.280 m</b> de vão central, o maior vão pênsil do mundo de 1937 a 1964 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>1933–1937</b> da obra iniciada em 05/01/1933 à abertura em 27 e 28/05/1937 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>27.572</b> fios de aço em cada um dos dois cabos principais, fiados no local <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/ponte-eads.html">Ponte Eads</a><span class="nota">1867–1874</span></th><td class="v"><ul class="tema-nums"><li><b>502 + 520 + 502 pés</b> os três arcos, cerca de 153, 158 e 153 metros <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>1867–1874</b> da primeira ensecadeira, em 21/08/1867, à inauguração em 04/07/1874 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>123 a 136 pés</b> a fundação mais funda, no lado de Illinois, conforme o nível de referência de cada fonte <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/ponte-de-forth.html">Ponte de Forth</a><span class="nota">1882–1890</span></th><td class="v"><ul class="tema-nums"><li><b>2 × 520 m</b> de vão principal em cantiléver, o maior do mundo em 1890 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>110 m</b> de altura das torres acima da maré alta <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>6,5 milhões</b> de rebites, pela conta de 1890, que o próprio engenheiro da obra achava baixa <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/ponte-de-tacoma-narrows.html">Ponte de Tacoma Narrows</a><span class="nota">1938–1940</span></th><td class="v"><ul class="tema-nums"><li><b>853 m</b> de vão central, o terceiro maior vão pênsil do mundo em 1940 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>2,4 m</b> de altura da viga que enrijecia o tabuleiro; o projeto anterior previa uma treliça de 7,6 m <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>19 meses</b> de obra, de 23/11/1938 a 30/06/1940 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/ponte-de-duge.html">Ponte de Duge</a><span class="nota">2013–2016</span></th><td class="v"><ul class="tema-nums"><li><b>565 m</b> do tabuleiro à água, o equivalente oficial a 200 andares <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>720 m</b> de vão central, sem nenhum apoio sobre o desfiladeiro <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>269 m</b> de altura da torre do lado de Guizhou <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+    </table>
   </div>
 </section>
 <section class="secao temas">
@@ -577,7 +595,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

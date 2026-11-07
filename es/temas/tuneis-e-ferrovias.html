@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -389,7 +391,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/07-capa-800.webp 800w, ../../assets/img/07-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/07-capa.jpg" srcset="../../assets/img/07-capa-800.jpg 800w, ../../assets/img/07-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1123" alt="Rieles en línea recta sobre un pantano inundado, con troncos de palmera bajo la vía, hombres y caballos al fondo y monte bajo a ambos lados" loading="lazy" decoding="async" style="object-position:40% 55%"></picture>
     <span class="num">07</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-19" data-no-ar="Ya disponible">Estreno 19 nov 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-19" data-no-ar="Ya disponible" hidden>Ya disponible</span>
   </div>
   <div class="corpo">
     <h3><a href="../../es/obras/estrada-de-ferro-madeira-mamore.html">Ferrocarril Madeira-Mamoré</a></h3>
@@ -401,7 +403,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/13-capa-800.webp 800w, ../../assets/img/13-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/13-capa.jpg" srcset="../../assets/img/13-capa-800.jpg 800w, ../../assets/img/13-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="951" alt="Fotografía antigua en sepia: un ferrocarril de vía doble corre en curva por una ladera empinada, con un muro de piedra a la izquierda, un túnel al fondo, postes de telégrafo y el valle cubierto de niebla a la derecha" loading="lazy" decoding="async" style="object-position:42% 60%"></picture>
     <span class="num">13</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-31" data-no-ar="Ya disponible">Estreno 31 dic 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-31" data-no-ar="Ya disponible" hidden>Ya disponible</span>
   </div>
   <div class="corpo">
     <h3><a href="../../es/obras/santos-jundiai.html">Ferrocarril Santos–Jundiaí</a></h3>
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/14-capa-800.webp 800w, ../../assets/img/14-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/14-capa.jpg" srcset="../../assets/img/14-capa-800.jpg 800w, ../../assets/img/14-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Tuneladora blanca y cilíndrica expuesta en el jardín de una rotonda, con la cabeza de corte roja en forma de rueda a la izquierda y la inscripción en francés Hommage aux bâtisseurs du tunnel en el cuerpo" loading="lazy" decoding="async" style="object-position:30% 50%"></picture>
     <span class="num">14</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-07" data-no-ar="Ya disponible">Estreno 07 ene 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-07" data-no-ar="Ya disponible" hidden>Ya disponible</span>
   </div>
   <div class="corpo">
     <h3><a href="../../es/obras/eurotunel.html">Eurotúnel</a></h3>
@@ -425,7 +427,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/20-capa-800.webp 800w, ../../assets/img/20-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/20-capa.jpg" srcset="../../assets/img/20-capa-800.jpg 800w, ../../assets/img/20-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1077" alt="Grabado antiguo en blanco y negro: galería de ladrillo en arco que se pierde al fondo, con arcadas laterales iluminadas por faroles, peatones con sombrero de copa y dos hombres tirando de una carretilla sobre el piso de piedra" loading="lazy" decoding="async"></picture>
     <span class="num">20</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-18" data-no-ar="Ya disponible">Estreno 18 feb 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-18" data-no-ar="Ya disponible" hidden>Ya disponible</span>
   </div>
   <div class="corpo">
     <h3><a href="../../es/obras/tunel-do-tamisa.html">Túnel del Támesis</a></h3>
@@ -437,7 +439,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/31-capa-800.webp 800w, ../../assets/img/31-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/31-capa.jpg" srcset="../../assets/img/31-capa-800.jpg 800w, ../../assets/img/31-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Dentro de un túnel de roca cubierta de concreto lanzado, la enorme cabeza de corte circular de una tuneladora, color óxido, llena de aberturas; un obrero con casco y overol está de pie a su lado, a la altura de un cuarto del disco" loading="lazy" decoding="async"></picture>
     <span class="num">31</span>
-    <span class="selo selo-estreia" data-estreia="2027-05-06" data-no-ar="Ya disponible">Estreno 06 may 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-05-06" data-no-ar="Ya disponible" hidden>Ya disponible</span>
   </div>
   <div class="corpo">
     <h3><a href="../../es/obras/tunel-de-base-de-sao-gotardo.html">Túnel de base de San Gotardo</a></h3>
@@ -447,6 +449,19 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   </div>
 </li>
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">Lado a lado</span><h2>Las obras en números</h2></div></header>
+    <p>Las tres primeras cifras de cada ficha, con el sello de confianza de la investigación. La cuenta completa, con las fuentes, está en la página de cada obra.</p>
+    <table class="ficha">
+<tr><th scope="row"><a href="../../es/obras/estrada-de-ferro-madeira-mamore.html">Ferrocarril Madeira-Mamoré</a><span class="nota">1907–1912</span></th><td class="v"><ul class="tema-nums"><li><b>364–366 km</b> de Porto Velho a Guajará-Mirim; 366 con la variante de 1923 <span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span></li><li><b>21.817</b> trabajadores contratados y traídos de fuera, 1907–1912 <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>2</b> intentos fracasados antes, en 1872–1873 y 1878–1879 <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../es/obras/santos-jundiai.html">Ferrocarril Santos–Jundiaí</a><span class="nota">1860–1867</span></th><td class="v"><ul class="tema-nums"><li><b>762 a 808 m</b> de desnivel vencido en la sierra, según la fuente y el punto de medición <span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span></li><li><b>4 planos</b> inclinados de cerca del 10%, que suman unos 8 km, con una casa de máquinas de vapor en lo alto de cada uno <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>1860–1867</b> de la primera palada, en mayo de 1860, a la apertura, el 16/02/1867 <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../es/obras/eurotunel.html">Eurotúnel</a><span class="nota">1987–1994</span></th><td class="v"><ul class="tema-nums"><li><b>50 km</b> de longitud de cada uno de los tres túneles, unos 38 de ellos bajo el mar <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>11</b> tuneladoras: seis partieron de Inglaterra y cinco de Francia <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>36 cm</b> de desvío lateral, y 58 mm en altura, cuando los dos lados del túnel de servicio se encontraron <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../es/obras/tunel-do-tamisa.html">Túnel del Támesis</a><span class="nota">1825–1843</span></th><td class="v"><ul class="tema-nums"><li><b>36</b> celdas en el escudo de hierro, una para cada minero <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>1825–1843</b> 18 años desde el inicio del pozo hasta la inauguración, el 25/03/1843 <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>366 · 396 m</b> de longitud: 1.200 o 1.300 pies, según la fuente <span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../es/obras/tunel-de-base-de-sao-gotardo.html">Túnel de base de San Gotardo</a><span class="nota">1999–2016</span></th><td class="v"><ul class="tema-nums"><li><b>57 km</b> de túnel, en dos tubos de vía única: el túnel ferroviario más largo del mundo <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>2.300 m</b> de roca sobre el túnel en el punto más profundo <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>8 cm</b> de desviación horizontal (y 1 cm vertical) en el encuentro principal, el 15/10/2010 <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li></ul></td></tr>
+    </table>
   </div>
 </section>
 <section class="secao temas">
@@ -541,7 +556,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

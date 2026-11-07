@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -419,8 +421,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 
     <section class="video">
       <div>
-        <span class="rotulo">Episode 28 · <span class="selo-estreia" data-estreia="2027-04-15" data-no-ar="out now">premieres April 15, 2027</span></span>
-        <h3>Episode in production</h3>
+        <span class="rotulo">Episode 28<span class="selo-estreia" data-estreia="2027-04-15" data-no-ar=" · out now" hidden> · out now</span></span>
+        <h3>Arquitetura do Impossível on YouTube</h3>
         <p>Every week, a structure that should never have stayed standing.</p>
       </div>
       <a class="botao cheio" href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">Watch on YouTube</a>
@@ -429,7 +431,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <a class="proximo-ep" href="../../en/obras/plataforma-troll-a.html">
       <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/29-capa-800.webp 800w, ../../assets/img/29-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../../assets/img/29-capa.jpg" srcset="../../assets/img/29-capa-800.jpg 800w, ../../assets/img/29-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="971" alt="A gas platform on a calm sea at dusk, with four light-colored concrete columns rising from the water and a deck crowded with modules, a crane and a tower, to the right of a wide sky" loading="lazy" decoding="async" style="object-position:70% 60%"></picture></div>
       <div class="txt">
-        <span class="rotulo">Next episode · Structure <b>29</b> · <span class="selo-estreia" data-estreia="2027-04-22" data-no-ar="out now">premieres Apr 22, 2027</span></span>
+        <span class="rotulo">Next episode · Structure <b>29</b><span class="selo-estreia" data-estreia="2027-04-22" data-no-ar=" · out now" hidden> · out now</span></span>
         <h3>Troll A platform</h3>
         <span class="onde">Troll gas field, North Sea, northwest of Bergen, Vestland, Norway · 1991–1996</span>
         <p>To begin, months after another base by the same builder sank because of a calculation error, a 472-meter concrete tower, raise it in a fjord, float it upright out to the open sea and set it down in 303 meters of water.</p>
@@ -450,7 +452,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
       <dl>
         <div><dt>Where</dt><dd>Bennelong Point, Sydney, New South Wales, Australia</dd></div>
         <div><dt>Structure</dt><dd>1959–1973</dd></div>
-        <div><dt>Episode</dt><dd>28 · Apr 15, 2027</dd></div>
+        <div><dt>Episode</dt><dd>28</dd></div>
+        <div><dt>Last reviewed</dt><dd>Oct 03, 2026</dd></div>
       </dl>
     </div>
     <span class="rotulo">On this page</span>
@@ -543,7 +546,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -419,8 +421,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 
     <section class="video">
       <div>
-        <span class="rotulo">Episodio 22 · <span class="selo-estreia" data-estreia="2027-03-04" data-no-ar="ya disponible">estreno 4 de marzo de 2027</span></span>
-        <h3>Episodio en producción</h3>
+        <span class="rotulo">Episodio 22<span class="selo-estreia" data-estreia="2027-03-04" data-no-ar=" · ya disponible" hidden> · ya disponible</span></span>
+        <h3>Arquitetura do Impossível en YouTube</h3>
         <p>Cada semana, una obra que no debería haber quedado en pie.</p>
       </div>
       <a class="botao cheio" href="https://www.youtube.com/@ArquiteturadoImposs%C3%ADvel" target="_blank" rel="noopener">Ver en YouTube</a>
@@ -429,7 +431,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <a class="proximo-ep" href="../../es/obras/edificio-ingalls.html">
       <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/23-capa-800.webp 800w, ../../assets/img/23-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../../assets/img/23-capa.jpg" srcset="../../assets/img/23-capa-800.jpg 800w, ../../assets/img/23-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="2133" alt="Edificio estrecho y alto de fachada clara, visto desde abajo a partir de la esquina, con base de piedra, filas regulares de ventanas y una cornisa saliente en lo alto, contra un cielo azul" loading="lazy" decoding="async" style="object-position:50% 35%"></picture></div>
       <div class="txt">
-        <span class="rotulo">Próximo episodio · Obra <b>23</b> · <span class="selo-estreia" data-estreia="2027-03-11" data-no-ar="ya disponible">estreno 11 mar 2027</span></span>
+        <span class="rotulo">Próximo episodio · Obra <b>23</b><span class="selo-estreia" data-estreia="2027-03-11" data-no-ar=" · ya disponible" hidden> · ya disponible</span></span>
         <h3>Edificio Ingalls</h3>
         <span class="onde">Esquina de las calles Fourth y Vine, centro de Cincinnati, Ohio, Estados Unidos · 1902–1904</span>
         <p>Levantar 64 metros de oficinas sin ninguna viga de acero, solo con concreto y barras torcidas en su interior, cuando, según las fuentes, ningún edificio de concreto pasaba de seis pisos e ingenieros respetados juraban que nunca llegaría al techo.</p>
@@ -450,7 +452,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
       <dl>
         <div><dt>Dónde</dt><dd>Estuario del río Forth, entre South Queensferry (Edimburgo) y North Queensferry (Fife), Escocia, Reino Unido</dd></div>
         <div><dt>Obra</dt><dd>1882–1890</dd></div>
-        <div><dt>Episodio</dt><dd>22 · 04 mar 2027</dd></div>
+        <div><dt>Episodio</dt><dd>22</dd></div>
+        <div><dt>Revisión</dt><dd>03 oct 2026</dd></div>
       </dl>
     </div>
     <span class="rotulo">En esta página</span>
@@ -543,7 +546,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

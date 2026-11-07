@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -389,7 +391,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/17-capa-800.webp 800w, ../../assets/img/17-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/17-capa.jpg" srcset="../../assets/img/17-capa-800.jpg 800w, ../../assets/img/17-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1098" alt="Vista aérea en color de un estadio ovalado de concreto con el campo verde en el centro, graderías llenas y una marquesina continua dividida en gajos claros en todo el contorno; al fondo, un gimnasio de cúpula redonda y edificios de la ciudad" loading="lazy" decoding="async" style="object-position:50% 50%"></picture>
     <span class="num">17</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-28" data-no-ar="Ya disponible">Estreno 28 ene 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-28" data-no-ar="Ya disponible" hidden>Ya disponible</span>
   </div>
   <div class="corpo">
     <h3><a href="../../es/obras/maracana.html">Estadio Maracaná</a></h3>
@@ -401,7 +403,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/26-capa-800.webp 800w, ../../assets/img/26-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/26-capa.jpg" srcset="../../assets/img/26-capa-800.jpg 800w, ../../assets/img/26-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1228" alt="Vista aérea de un estadio redondo de cúpula baja y clara en medio de un enorme estacionamiento vacío, con barrios y autopistas de Houston al fondo bajo un cielo azul" loading="lazy" decoding="async" style="object-position:60% 58%"></picture>
     <span class="num">26</span>
-    <span class="selo selo-estreia" data-estreia="2027-04-01" data-no-ar="Ya disponible">Estreno 01 abr 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-04-01" data-no-ar="Ya disponible" hidden>Ya disponible</span>
   </div>
   <div class="corpo">
     <h3><a href="../../es/obras/astrodome.html">Astrodome</a></h3>
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/27-capa-800.webp 800w, ../../assets/img/27-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/27-capa.jpg" srcset="../../assets/img/27-capa-800.jpg 800w, ../../assets/img/27-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1009" alt="Fotografía en color de 1972: el techo transparente del estadio, de cables y placas, colgado de mástiles altos e inclinados, sobre una tribuna de concreto; en primer plano, una pista de atletismo roja y una calle con autobuses" loading="lazy" decoding="async" style="object-position:50% 40%"></picture>
     <span class="num">27</span>
-    <span class="selo selo-estreia" data-estreia="2027-04-08" data-no-ar="Ya disponible">Estreno 08 abr 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-04-08" data-no-ar="Ya disponible" hidden>Ya disponible</span>
   </div>
   <div class="corpo">
     <h3><a href="../../es/obras/estadio-olimpico-de-munique.html">Estadio Olímpico de Múnich</a></h3>
@@ -423,6 +425,17 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   </div>
 </li>
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">Lado a lado</span><h2>Las obras en números</h2></div></header>
+    <p>Las tres primeras cifras de cada ficha, con el sello de confianza de la investigación. La cuenta completa, con las fuentes, está en la página de cada obra.</p>
+    <table class="ficha">
+<tr><th scope="row"><a href="../../es/obras/maracana.html">Estadio Maracaná</a><span class="nota">1948–1950</span></th><td class="v"><ul class="tema-nums"><li><b>155.250</b> lugares previstos en el proyecto, entre asientos, lugares de pie y asientos vitalicios <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>1948–1950</b> de la obra iniciada en agosto de 1948 a la inauguración el 16/06/1950 <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>173.850</b> espectadores con entrada pagada en la final del Mundial de 1950, el público oficial; las estimaciones superan los 199 mil <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../es/obras/astrodome.html">Astrodome</a><span class="nota">1962–1965</span></th><td class="v"><ul class="tema-nums"><li><b>195,7 m</b> de luz libre de la cúpula (642 pies), sin ninguna columna en el medio <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>4.596</b> claraboyas de acrílico en el techo, pintadas después por el encandilamiento <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>1962–1965</b> de la ceremonia de inicio, el 3/1/1962, a la inauguración, el 9/4/1965 <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../es/obras/estadio-olimpico-de-munique.html">Estadio Olímpico de Múnich</a><span class="nota">1969–1972</span></th><td class="v"><ul class="tema-nums"><li><b>170,6 M DM</b> costo final del techo, según el informe del gobierno al Bundestag (1974) <span class="conf conf-2" title="Confirmado en dos o más fuentes independientes.">2+ fuentes</span></li><li><b>15–18 M DM</b> el costo que el arquitecto Günter Behnisch estimó en febrero de 1968 <span class="conf conf-1" title="Una sola fuente; el texto dice cuál.">1 fuente</span></li><li><b>74.000 · 78.700 m²</b> de superficie cubierta, según la fuente y el criterio de medición <span class="conf conf-div" title="Las fuentes no coinciden; mostramos las versiones y no elegimos.">diverge</span></li></ul></td></tr>
+    </table>
   </div>
 </section>
 <section class="secao temas">
@@ -517,7 +530,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

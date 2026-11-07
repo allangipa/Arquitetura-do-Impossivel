@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -389,7 +391,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/02-empire-state-capa-800.webp 800w, ../assets/img/02-empire-state-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/02-empire-state-capa.jpg" srcset="../assets/img/02-empire-state-capa-800.jpg 800w, ../assets/img/02-empire-state-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="2409" alt="O Empire State Building visto do alto, com a antena no topo, entre os prédios de Manhattan numa manhã de névoa" loading="lazy" decoding="async" style="object-position:50% 25%"></picture>
     <span class="num">02</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-15" data-no-ar="No ar">Estreia 15 out 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-15" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/empire-state.html">Empire State Building</a></h3>
@@ -401,7 +403,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/16-capa-800.webp 800w, ../assets/img/16-capa.webp 1280w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/16-capa.jpg" srcset="../assets/img/16-capa-800.jpg 800w, ../assets/img/16-capa.jpg 1280w" sizes="(max-width:720px) 100vw, 400px" width="1280" height="857" alt="Vista aérea de uma torre altíssima em construção, ainda sem fachada no topo, projetando uma sombra comprida sobre um bairro de prédios novos, canteiros e o deserto ao fundo" loading="lazy" decoding="async" style="object-position:34% 50%"></picture>
     <span class="num">16</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-21" data-no-ar="No ar">Estreia 21 jan 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-21" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/burj-khalifa.html">Burj Khalifa</a></h3>
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/19-capa-800.webp 800w, ../assets/img/19-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/19-capa.jpg" srcset="../assets/img/19-capa-800.jpg 800w, ../assets/img/19-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="2230" alt="Prédio alto e largo de fachada rosada, com quatro blocos escalonados e coroamento claro com pináculos, visto de baixo de uma rua de pedestres com palmeiras e um relógio de rua" loading="lazy" decoding="async" style="object-position:45% 30%"></picture>
     <span class="num">19</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-11" data-no-ar="No ar">Estreia 11 fev 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-11" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/edificio-martinelli.html">Edifício Martinelli</a></h3>
@@ -425,7 +427,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/23-capa-800.webp 800w, ../assets/img/23-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/23-capa.jpg" srcset="../assets/img/23-capa-800.jpg 800w, ../assets/img/23-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="2133" alt="Prédio estreito e alto de fachada clara, visto de baixo a partir da esquina, com base de pedra, fileiras regulares de janelas e uma cornija saliente no topo, contra céu azul" loading="lazy" decoding="async" style="object-position:50% 35%"></picture>
     <span class="num">23</span>
-    <span class="selo selo-estreia" data-estreia="2027-03-11" data-no-ar="No ar">Estreia 11 mar 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-03-11" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/edificio-ingalls.html">Edifício Ingalls</a></h3>
@@ -437,7 +439,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/33-capa-800.webp 800w, ../assets/img/33-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/33-capa.jpg" srcset="../assets/img/33-capa-800.jpg 800w, ../assets/img/33-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="2428" alt="Torre muito fina e alta, de faces envidraçadas que se estreitam em degraus até a ponta, erguendo-se acima das árvores do Central Park sob céu nublado, com o letreiro do hotel Essex House num prédio à direita" loading="lazy" decoding="async" style="object-position:45% 25%"></picture>
     <span class="num">33</span>
-    <span class="selo selo-estreia" data-estreia="2027-05-20" data-no-ar="No ar">Estreia 20 mai 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-05-20" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/111-west-57th-street.html">111 West 57th Street</a></h3>
@@ -447,6 +449,19 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   </div>
 </li>
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">Lado a lado</span><h2>As obras em números</h2></div></header>
+    <p>Os três primeiros números de cada ficha, com o selo de confiança da apuração. A conta completa, com as fontes, está na página de cada obra.</p>
+    <table class="ficha">
+<tr><th scope="row"><a href="../obras/empire-state.html">Empire State Building</a><span class="nota">1930–1931</span></th><td class="v"><ul class="tema-nums"><li><b>410 dias</b> do início da obra (17/3/1930) à inauguração (1/5/1931) <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>4,5</b> andares por semana, em média <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>3.439</b> homens num único dia, 14/8/1930, segundo o diário da construtora; outras fontes dão de 3.000 a 5.000 <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/burj-khalifa.html">Burj Khalifa</a><span class="nota">2004–2010</span></th><td class="v"><ul class="tema-nums"><li><b>828 m</b> de altura arquitetônica, a maior do mundo desde 2010 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>2004–2010</b> da escavação, em janeiro de 2004, à inauguração, em 04/01/2010 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>601 · 606 m</b> a altura a que o concreto foi bombeado, recorde mundial, conforme a fonte <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/edificio-martinelli.html">Edifício Martinelli</a><span class="nota">1924–1934</span></th><td class="v"><ul class="tema-nums"><li><b>30</b> andares, contando os cinco da casa do dono no topo <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>105,65 m</b> de altura, o número publicado em 1929; há quem dê 130 m <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li><li><b>1928</b> o ano do embargo, quando a obra chegava a 24 andares <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/edificio-ingalls.html">Edifício Ingalls</a><span class="nota">1902–1904</span></th><td class="v"><ul class="tema-nums"><li><b>64 m</b> de altura acima da calçada, 210 pés nas medidas da época <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>15 + ático</b> andares, “praticamente dezesseis”, nas palavras do arquiteto <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li><li><b>20 cm</b> de espessura das paredes de concreto, da base ao topo <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/111-west-57th-street.html">111 West 57th Street</a><span class="nota">2014–2021</span></th><td class="v"><ul class="tema-nums"><li><b>435,3 m</b> de altura arquitetônica, em 84 andares <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>1:23 · 1:24</b> a relação entre largura e altura, conforme a fonte <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li><li><b>~18 m</b> de largura (59 pés) na direção mais estreita <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+    </table>
   </div>
 </section>
 <section class="secao temas">
@@ -541,7 +556,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

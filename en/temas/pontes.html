@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -389,7 +391,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/03-ponte-rio-niteroi-capa-800.webp 800w, ../../assets/img/03-ponte-rio-niteroi-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/03-ponte-rio-niteroi-capa.jpg" srcset="../../assets/img/03-ponte-rio-niteroi-capa-800.jpg 800w, ../../assets/img/03-ponte-rio-niteroi-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Aerial view of the Rio–Niterói Bridge crossing Guanabara Bay, with Mocanguê Island and ships in the foreground" loading="lazy" decoding="async" style="object-position:30% 60%"></picture>
     <span class="num">03</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-22" data-no-ar="Out now">Premieres Oct 22, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-22" data-no-ar="Out now">Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/ponte-rio-niteroi.html">Rio–Niterói Bridge</a></h3>
@@ -401,7 +403,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/04-capa-800.webp 800w, ../../assets/img/04-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/04-capa.jpg" srcset="../../assets/img/04-capa-800.jpg 800w, ../../assets/img/04-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1264" alt="Aerial view of the East River with the Brooklyn Bridge running diagonally in the foreground and the Manhattan Bridge just behind it" loading="lazy" decoding="async" style="object-position:55% 70%"></picture>
     <span class="num">04</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-29" data-no-ar="Out now">Premieres Oct 29, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-29" data-no-ar="Out now">Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/ponte-do-brooklyn.html">Brooklyn Bridge</a></h3>
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/09-capa-800.webp 800w, ../../assets/img/09-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/09-capa.jpg" srcset="../../assets/img/09-capa-800.jpg 800w, ../../assets/img/09-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Gray steel suspension bridge over calm water, with a tall lattice tower on the right, the chain curving down to the truss of the main span and a rocky beach in the foreground" loading="lazy" decoding="async" style="object-position:68% 45%"></picture>
     <span class="num">09</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-03" data-no-ar="Out now">Premieres Dec 03, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-03" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/ponte-hercilio-luz.html">Hercílio Luz Bridge</a></h3>
@@ -425,7 +427,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/12-capa-800.webp 800w, ../../assets/img/12-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/12-capa.jpg" srcset="../../assets/img/12-capa-800.jpg 800w, ../../assets/img/12-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1000" alt="Orange suspension bridge under a blue sky, with a tall tower on a concrete base in the sea, the cables curving down to the second tower in the background, green and brown hills behind and a brick fort in the foreground" loading="lazy" decoding="async" style="object-position:52% 45%"></picture>
     <span class="num">12</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-24" data-no-ar="Out now">Premieres Dec 24, 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-24" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/golden-gate.html">Golden Gate Bridge</a></h3>
@@ -437,7 +439,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/21-capa-800.webp 800w, ../../assets/img/21-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/21-capa.jpg" srcset="../../assets/img/21-capa-800.jpg 800w, ../../assets/img/21-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="853" alt="Bridge of three dark steel arches over a wide river, with stone piers, a blue train crossing on the lower deck, a clear sky and a snow-covered bank in the foreground" loading="lazy" decoding="async" style="object-position:45% 45%"></picture>
     <span class="num">21</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-25" data-no-ar="Out now">Premieres Feb 25, 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-25" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/ponte-eads.html">Eads Bridge</a></h3>
@@ -449,7 +451,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/22-capa-800.webp 800w, ../../assets/img/22-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/22-capa.jpg" srcset="../../assets/img/22-capa-800.jpg 800w, ../../assets/img/22-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1103" alt="Red steel bridge with three large diamond-shaped structures over calm water that reflects them, a stone pier on the right and a train crossing the viaduct under a blue sky" loading="lazy" decoding="async" style="object-position:50% 55%"></picture>
     <span class="num">22</span>
-    <span class="selo selo-estreia" data-estreia="2027-03-04" data-no-ar="Out now">Premieres Mar 04, 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-03-04" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/ponte-de-forth.html">Forth Bridge</a></h3>
@@ -461,7 +463,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/24-capa-800.webp 800w, ../../assets/img/24-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/24-capa.jpg" srcset="../../assets/img/24-capa-800.jpg 800w, ../../assets/img/24-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1181" alt="Old black-and-white film frame: the bridge roadway tilted and twisted, with a car stopped and tilted in the middle, bent lampposts and the vertical suspenders on both sides" loading="lazy" decoding="async" style="object-position:55% 60%"></picture>
     <span class="num">24</span>
-    <span class="selo selo-estreia" data-estreia="2027-03-18" data-no-ar="Out now">Premieres Mar 18, 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-03-18" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/ponte-de-tacoma-narrows.html">Tacoma Narrows Bridge</a></h3>
@@ -473,7 +475,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/32-capa-800.webp 800w, ../../assets/img/32-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../../assets/img/32-capa.jpg" srcset="../../assets/img/32-capa-800.jpg 800w, ../../assets/img/32-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Aerial view of a cable-stayed bridge with a red truss girder between two white towers, passing far above a green gorge, with a narrow river at the bottom" loading="lazy" decoding="async"></picture>
     <span class="num">32</span>
-    <span class="selo selo-estreia" data-estreia="2027-05-13" data-no-ar="Out now">Premieres May 13, 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-05-13" data-no-ar="Out now" hidden>Out now</span>
   </div>
   <div class="corpo">
     <h3><a href="../../en/obras/ponte-de-duge.html">Duge Bridge</a></h3>
@@ -483,6 +485,22 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   </div>
 </li>
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">Side by side</span><h2>The structures in numbers</h2></div></header>
+    <p>The first three figures from each fact sheet, with the confidence seal from our research. The full account, with sources, is on each structure&#x27;s page.</p>
+    <table class="ficha">
+<tr><th scope="row"><a href="../../en/obras/ponte-rio-niteroi.html">Rio–Niterói Bridge</a><span class="nota">1969–1974</span></th><td class="v"><ul class="tema-nums"><li><b>300 m</b> main span, a continuous steel girder <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>72 m</b> height at the highest point, the ceiling set by aircraft <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>50–60 m</b> depth of the rock below sea level <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/ponte-do-brooklyn.html">Brooklyn Bridge</a><span class="nota">1870–1883</span></th><td class="v"><ul class="tema-nums"><li><b>486 m</b> main span between the towers (1,595 feet 6 inches) <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>23.9 m</b> depth of the Manhattan caisson below high tide <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>110</b> cases of caisson disease in 5 months of 1872, with 3 deaths <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/ponte-hercilio-luz.html">Hercílio Luz Bridge</a><span class="nota">1922–1926</span></th><td class="v"><ul class="tema-nums"><li><b>339.5 m</b> main suspension span over the sea <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>1922–1926</b> from the start of work in November 1922 to the opening on May 13, 1926 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>819.5 · 821 m</b> total length, depending on the measurement <span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/golden-gate.html">Golden Gate Bridge</a><span class="nota">1933–1937</span></th><td class="v"><ul class="tema-nums"><li><b>1,280 m</b> main span, the longest suspension span in the world from 1937 to 1964 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>1933–1937</b> from the start of work on 5 January 1933 to the opening on 27 and 28 May 1937 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>27,572</b> steel wires in each of the two main cables, spun on site <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/ponte-eads.html">Eads Bridge</a><span class="nota">1867–1874</span></th><td class="v"><ul class="tema-nums"><li><b>502 + 520 + 502 ft</b> the three arches, about 153, 158 and 153 meters <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>1867–1874</b> from the first cofferdam, on 21 August 1867, to the opening on 4 July 1874 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>123 to 136 ft</b> the deepest foundation, on the Illinois side, depending on each source&#x27;s reference level <span class="conf conf-div" title="The sources disagree; we show the versions and do not pick one.">disputed</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/ponte-de-forth.html">Forth Bridge</a><span class="nota">1882–1890</span></th><td class="v"><ul class="tema-nums"><li><b>2 × 520 m</b> of main cantilever span, the longest in the world in 1890 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>110 m</b> height of the towers above high water <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>6.5 million</b> rivets, by the 1890 count, which the site engineer himself thought too low <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/ponte-de-tacoma-narrows.html">Tacoma Narrows Bridge</a><span class="nota">1938–1940</span></th><td class="v"><ul class="tema-nums"><li><b>853 m</b> of main span, the third-longest suspension span in the world in 1940 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>2.4 m</b> depth of the girder that stiffened the deck; the earlier design called for a 7.6 m truss <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>19 months</b> of construction, from November 23, 1938, to June 30, 1940 <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../../en/obras/ponte-de-duge.html">Duge Bridge</a><span class="nota">2013–2016</span></th><td class="v"><ul class="tema-nums"><li><b>565 m</b> from the deck to the water, officially the equivalent of 200 stories <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>720 m</b> main span, with no support at all over the gorge <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li><li><b>269 m</b> height of the tower on the Guizhou side <span class="conf conf-2" title="Confirmed in two or more independent sources.">2+ sources</span></li></ul></td></tr>
+    </table>
   </div>
 </section>
 <section class="secao temas">
@@ -577,7 +595,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

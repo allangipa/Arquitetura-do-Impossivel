@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -389,7 +391,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/17-capa-800.webp 800w, ../assets/img/17-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/17-capa.jpg" srcset="../assets/img/17-capa-800.jpg 800w, ../assets/img/17-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1098" alt="Vista aérea colorida de um estádio oval de concreto com o campo verde no centro, arquibancadas cheias e uma marquise contínua dividida em gomos claros em toda a volta; ao fundo, um ginásio de cúpula redonda e prédios da cidade" loading="lazy" decoding="async" style="object-position:50% 50%"></picture>
     <span class="num">17</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-28" data-no-ar="No ar">Estreia 28 jan 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-28" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/maracana.html">Estádio do Maracanã</a></h3>
@@ -401,7 +403,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/26-capa-800.webp 800w, ../assets/img/26-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/26-capa.jpg" srcset="../assets/img/26-capa-800.jpg 800w, ../assets/img/26-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1228" alt="Vista aérea de um estádio redondo de cúpula baixa e clara no meio de um estacionamento vazio enorme, com bairros e rodovias de Houston ao fundo sob céu azul" loading="lazy" decoding="async" style="object-position:60% 58%"></picture>
     <span class="num">26</span>
-    <span class="selo selo-estreia" data-estreia="2027-04-01" data-no-ar="No ar">Estreia 01 abr 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-04-01" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/astrodome.html">Astrodome</a></h3>
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/27-capa-800.webp 800w, ../assets/img/27-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/27-capa.jpg" srcset="../assets/img/27-capa-800.jpg 800w, ../assets/img/27-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1009" alt="Fotografia colorida de 1972: o teto transparente do estádio, de cabos e placas, pendurado em mastros altos e inclinados, sobre uma arquibancada de concreto; em primeiro plano, uma pista de atletismo vermelha e uma rua com ônibus" loading="lazy" decoding="async" style="object-position:50% 40%"></picture>
     <span class="num">27</span>
-    <span class="selo selo-estreia" data-estreia="2027-04-08" data-no-ar="No ar">Estreia 08 abr 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-04-08" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/estadio-olimpico-de-munique.html">Estádio Olímpico de Munique</a></h3>
@@ -423,6 +425,17 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   </div>
 </li>
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">Lado a lado</span><h2>As obras em números</h2></div></header>
+    <p>Os três primeiros números de cada ficha, com o selo de confiança da apuração. A conta completa, com as fontes, está na página de cada obra.</p>
+    <table class="ficha">
+<tr><th scope="row"><a href="../obras/maracana.html">Estádio do Maracanã</a><span class="nota">1948–1950</span></th><td class="v"><ul class="tema-nums"><li><b>155.250</b> lugares previstos no projeto, entre assentos, lugares em pé e cadeiras cativas <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>1948–1950</b> da obra iniciada em agosto de 1948 à inauguração em 16/06/1950 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>173.850</b> pagantes na final da Copa de 1950, o público oficial; as estimativas passam de 199 mil <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/astrodome.html">Astrodome</a><span class="nota">1962–1965</span></th><td class="v"><ul class="tema-nums"><li><b>195,7 m</b> de vão livre da cúpula (642 pés), sem nenhuma coluna no meio <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>4.596</b> claraboias de acrílico no teto, depois pintadas por causa do ofuscamento <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>1962–1965</b> da cerimônia de início, em 3/1/1962, à inauguração, em 9/4/1965 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/estadio-olimpico-de-munique.html">Estádio Olímpico de Munique</a><span class="nota">1969–1972</span></th><td class="v"><ul class="tema-nums"><li><b>170,6 mi DM</b> custo final do teto, segundo o relatório do governo ao Bundestag (1974) <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>15–18 mi DM</b> o custo que o arquiteto Günter Behnisch estimou em fevereiro de 1968 <span class="conf conf-1" title="Uma fonte só; o texto diz qual.">1 fonte</span></li><li><b>74.000 · 78.700 m²</b> de área coberta, conforme a fonte e o critério de medição <span class="conf conf-div" title="As fontes discordam; mostramos as versões e não escolhemos.">diverge</span></li></ul></td></tr>
+    </table>
   </div>
 </section>
 <section class="secao temas">
@@ -517,7 +530,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

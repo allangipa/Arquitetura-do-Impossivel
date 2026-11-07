@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -389,7 +391,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/05-itaipu-aerea-800.webp 800w, ../assets/img/05-itaipu-aerea.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/05-itaipu-aerea.jpg" srcset="../assets/img/05-itaipu-aerea-800.jpg 800w, ../assets/img/05-itaipu-aerea.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Vista aérea da Usina de Itaipu: o vertedouro à esquerda, a barragem em curva e o reservatório ao fundo, com o rio Paraná em primeiro plano" loading="lazy" decoding="async" style="object-position:45% 55%"></picture>
     <span class="num">05</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-05" data-no-ar="No ar">Estreia 05 nov 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-05" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/usina-de-itaipu.html">Usina de Itaipu</a></h3>
@@ -401,7 +403,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/06-capa-800.webp 800w, ../assets/img/06-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/06-capa.jpg" srcset="../assets/img/06-capa-800.jpg 800w, ../assets/img/06-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1345" alt="Represa Hoover vista de cima, com o paredão curvo de concreto entre as rochas do Black Canyon, a usina ao pé e o lago Mead ao fundo" loading="lazy" decoding="async" style="object-position:42% 40%"></picture>
     <span class="num">06</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-12" data-no-ar="No ar">Estreia 12 nov 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-12" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/represa-hoover.html">Represa Hoover</a></h3>
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/08-capa-800.webp 800w, ../assets/img/08-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/08-capa.jpg" srcset="../assets/img/08-capa-800.jpg 800w, ../assets/img/08-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1072" alt="Vale profundo e seco aberto entre duas encostas de rocha, com várias linhas de trilho no fundo, uma escavadeira a vapor à direita e guindastes à esquerda" loading="lazy" decoding="async"></picture>
     <span class="num">08</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-26" data-no-ar="No ar">Estreia 26 nov 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-26" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/canal-do-panama.html">Canal do Panamá</a></h3>
@@ -425,7 +427,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="../assets/img/30-capa-800.webp 800w, ../assets/img/30-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="../assets/img/30-capa.jpg" srcset="../assets/img/30-capa-800.jpg 800w, ../assets/img/30-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="900" alt="Grande estrutura de aço cinza-clara com dois braços curvos girando ao lado de um aqueduto de concreto sustentado por pilares em forma de anel; uma gôndola com barco está a meio caminho, e há um prédio de telhado inclinado à direita e pessoas olhando de um gramado" loading="lazy" decoding="async" style="object-position:55% 50%"></picture>
     <span class="num">30</span>
-    <span class="selo selo-estreia" data-estreia="2027-04-29" data-no-ar="No ar">Estreia 29 abr 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-04-29" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="../obras/roda-de-falkirk.html">Roda de Falkirk</a></h3>
@@ -435,6 +437,18 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   </div>
 </li>
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">Lado a lado</span><h2>As obras em números</h2></div></header>
+    <p>Os três primeiros números de cada ficha, com o selo de confiança da apuração. A conta completa, com as fontes, está na página de cada obra.</p>
+    <table class="ficha">
+<tr><th scope="row"><a href="../obras/usina-de-itaipu.html">Usina de Itaipu</a><span class="nota">1975–1984</span></th><td class="v"><ul class="tema-nums"><li><b>7.919 m</b> extensão total da barragem, somados todos os trechos <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>196 m</b> altura máxima da barragem <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>14.000 MW</b> potência, em 20 unidades de 700 MW <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/represa-hoover.html">Represa Hoover</a><span class="nota">1931–1936</span></th><td class="v"><ul class="tema-nums"><li><b>221 m</b> de altura, da rocha da fundação à crista (726,4 pés) <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>2,48 milhões de m³</b> de concreto só na barragem <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>4 túneis</b> de 15 m de diâmetro para tirar o rio do cânion <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/canal-do-panama.html">Canal do Panamá</a><span class="nota">1904–1914</span></th><td class="v"><ul class="tema-nums"><li><b>1904–1914</b> a obra americana, da posse à inauguração em 15/08/1914; antes, os franceses em 1881–1889 <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>238.845.587 jd³</b> de terra e rocha escavadas pelos americanos, cerca de 183 milhões de m³ <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>305 × 33,5 m</b> cada uma das 12 câmaras das eclusas originais (1.000 × 110 pés) <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+<tr><th scope="row"><a href="../obras/roda-de-falkirk.html">Roda de Falkirk</a><span class="nota">2000–2002</span></th><td class="v"><ul class="tema-nums"><li><b>24 m</b> que a roda ergue os barcos; duas eclusas fazem o resto dos 35 m entre os canais <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>1,5 kWh</b> de energia por meia volta <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li><li><b>250 t</b> de água em cada uma das duas gôndolas <span class="conf conf-2" title="Confirmado em duas ou mais fontes independentes.">2+ fontes</span></li></ul></td></tr>
+    </table>
   </div>
 </section>
 <section class="secao temas">
@@ -529,7 +543,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

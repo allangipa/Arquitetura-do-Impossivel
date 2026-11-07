@@ -824,7 +824,7 @@ SCRIPT = """<script>
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){
@@ -1099,13 +1099,24 @@ def regiao_rotulo(o):
     return tr("Brasil") if o["regiao"] == "brasil" else tr("Mundo")
 
 
+def selo_no_ar(o, rotulo, classe, antes=""):
+    """Selo "No ar" do episódio. Estreia futura não aparece na página (07/11/2026):
+    a obra já está inteira aqui, e uma data até maio de 2027 em cada quadro fazia
+    o site parecer pré-lançamento (o AdSense recusou por "conteúdo de baixo
+    valor"). O selo sai escondido e o script da página o mostra no dia da estreia,
+    sem regerar o site."""
+    no_ar = dt.date.fromisoformat(o["estreia"]) <= dt.date.today()
+    return (f'<span class="{classe}" data-estreia="{o["estreia"]}" data-no-ar="{e(antes + tr(rotulo))}"'
+            f'{"" if no_ar else " hidden"}>{e(antes + tr(rotulo))}</span>')
+
+
 def card(o, base, texto=None):
     capa = o["imagens"][0]
     ch = f"obras/{o['slug']}.html"
     return f"""<li class="obra-card revela" data-regiao="{o['regiao']}">
   <div class="foto">{img_tag(capa['arquivo'], capa['alt'], base, '(max-width:720px) 100vw, 400px', foco=capa.get('foco'))}
     <span class="num">{e(o['num'])}</span>
-    <span class="selo selo-estreia" data-estreia="{o['estreia']}" data-no-ar="{e(tr('No ar'))}">{e(tr('Estreia'))} {e(data_br(o['estreia']))}</span>
+    {selo_no_ar(o, 'No ar', 'selo selo-estreia')}
   </div>
   <div class="corpo">
     <h3><a href="{link(base, ch)}"{hreflang_de(ch)}>{e(o['obra'])}</a></h3>
@@ -1244,6 +1255,18 @@ def pagina_tema(t, obras, og):
             for i, o in enumerate(membros, start=1)]},
     }, migalhas((NOME, inicio), (tr("Temas"), inicio + "#temas"), (t["nome"], url))]
     intro = "".join(f"<p>{para(p)}</p>" for p in t["intro"])
+    # "Lado a lado": os três primeiros números de cada ficha, com o selo. Dá à
+    # página de tema conteúdo próprio além dos cartões (07/11/2026) sem escrever
+    # nenhum fato novo: tudo sai do JSON da obra, já apurado e traduzido.
+    linhas = []
+    for o in membros:
+        ch_o = f"obras/{o['slug']}.html"
+        nums = "".join(f"<li><b>{e(n['valor'])}</b> {e(n['rotulo'])} {conf_selo(n['conf'])}</li>"
+                       for n in o["numeros"][:3])
+        linhas.append(f'<tr><th scope="row"><a href="{link(base, ch_o)}"{hreflang_de(ch_o)}>{e(o["obra"])}</a>'
+                      f'<span class="nota">{e(o["periodo"])}</span></th>'
+                      f'<td class="v"><ul class="tema-nums">{nums}</ul></td></tr>')
+    lado = "\n".join(linhas)
     return (cabeca(titulo_tema(t), t["resumo"], url, f"{DOMINIO}/assets/img/{og}", base, jsonld)
             + topo(base, "temas") + f"""<main id="conteudo">
 <section class="tema-abre">
@@ -1261,6 +1284,15 @@ def pagina_tema(t, obras, og):
     <ul class="obras">
 {cards}
     </ul>
+  </div>
+</section>
+<section class="secao" id="lado-a-lado">
+  <div class="casca">
+    <header><div><span class="rotulo">{e(tr('Lado a lado'))}</span><h2>{e(tr('As obras em números'))}</h2></div></header>
+    <p>{e(tr('Os três primeiros números de cada ficha, com o selo de confiança da apuração. A conta completa, com as fontes, está na página de cada obra.'))}</p>
+    <table class="ficha">
+{lado}
+    </table>
   </div>
 </section>
 {secao_temas(base, t['slug'], 'Outros temas', 'Mais')}
@@ -1331,7 +1363,7 @@ def pagina_obra(o, obras, og):
         seguinte = f"""<a class="proximo-ep" href="{link(base, ob(prox))}"{hreflang_de(ob(prox))}>
       <div class="foto">{img_tag(pc['arquivo'], pc['alt'], base, '(max-width:640px) 100vw, 260px', foco=pc.get('foco'))}</div>
       <div class="txt">
-        <span class="rotulo">{e(tr('Próximo episódio'))} · {e(tr('Obra'))} <b>{e(prox['num'])}</b> · <span class="selo-estreia" data-estreia="{prox['estreia']}" data-no-ar="{e(tr('no ar'))}">{e(tr('estreia'))} {e(data_br(prox['estreia']))}</span></span>
+        <span class="rotulo">{e(tr('Próximo episódio'))} · {e(tr('Obra'))} <b>{e(prox['num'])}</b>{selo_no_ar(prox, 'no ar', 'selo-estreia', ' · ')}</span>
         <h3>{e(prox['obra'])}</h3>
         <span class="onde">{e(prox['lugar'])} · {e(prox['periodo'])}</span>
         <p>{para(prox['impossivel'])}</p>
@@ -1395,8 +1427,8 @@ def pagina_obra(o, obras, og):
 
     <section class="video">
       <div>
-        <span class="rotulo">{e(tr('Episódio'))} {e(o['num'])} · <span class="selo-estreia" data-estreia="{o['estreia']}" data-no-ar="{e(tr('no ar'))}">{e(tr('estreia'))} {e(data_br(o['estreia'], True))}</span></span>
-        <h3>{e(o['titulo_video']) if o['titulo_video'] else e(tr('Episódio em produção'))}</h3>
+        <span class="rotulo">{e(tr('Episódio'))} {e(o['num'])}{selo_no_ar(o, 'no ar', 'selo-estreia', ' · ')}</span>
+        <h3>{e(o['titulo_video']) if o['titulo_video'] else e(tr('{nome} no YouTube', nome=NOME))}</h3>
         <p>{e(tr(BORDAO))}</p>
       </div>
       <a class="botao cheio" href="{CANAL}" target="_blank" rel="noopener">{e(tr('Ver no YouTube'))}</a>
@@ -1417,7 +1449,8 @@ def pagina_obra(o, obras, og):
       <dl>
         <div><dt>{e(tr('Onde'))}</dt><dd>{e(o['lugar'])}</dd></div>
         <div><dt>{e(tr('Obra'))}</dt><dd>{e(o['periodo'])}</dd></div>
-        <div><dt>{e(tr('Episódio'))}</dt><dd>{e(o['num'])} · {e(data_br(o['estreia']))}</dd></div>
+        <div><dt>{e(tr('Episódio'))}</dt><dd>{e(o['num'])}</dd></div>
+        <div><dt>{e(tr('Revisão'))}</dt><dd>{e(data_br(data_git(arq)))}</dd></div>
       </dl>
     </div>
     <span class="rotulo">{e(tr('Nesta página'))}</span>
@@ -1544,7 +1577,7 @@ ABOUT_EN = """<main id="conteudo"><div class="casca privacidade">
   <h1>About {{NOME}}</h1>
 
   <h2>1. What it is</h2>
-  <p><strong>Arquitetura do Impossível</strong> (Impossible Architecture) is an independent editorial project, made in Brazil, about great structures: how a work that seemed impossible came to stand. Each page of this site accompanies an episode of the YouTube channel, {{CANAL}}, in Portuguese, and is published before the premiere, while the episode is still to come. It goes beyond the video: it has the full fact sheet, the sources, the credited images and the disagreements that do not fit in a video.</p>
+  <p><strong>Arquitetura do Impossível</strong> (Impossible Architecture) is an independent editorial project, made in Brazil, about great structures: how a work that seemed impossible came to stand. Each page of this site accompanies an episode of the YouTube channel, {{CANAL}}, in Portuguese, but it reads on its own, without the video, and goes beyond it: it has the full fact sheet, the sources, the credited images and the disagreements that do not fit in a video.</p>
   <p>The question is always the same: <em>what made this structure impossible, and who solved it</em> — with what math, what material, what improvisation. The protagonist is the engineering problem; people come in as those who faced it. Structures from Brazil and the rest of the world, one a week.</p>
 
   <h2>2. How a page is made</h2>
@@ -1556,13 +1589,15 @@ ABOUT_EN = """<main id="conteudo"><div class="casca privacidade">
     <li><strong>Entirely original writing.</strong> The sources are listed at the end of each page.</li>
   </ul>
 
-  <h2>3. Images</h2>
+{{NUMEROS}}
+
+  <h2>4. Images</h2>
   <p>Only real photographs, plans and documents are used, from collections in the public domain or under a Creative Commons license that allows commercial use, with author and license credited on every page. AI-generated images are not used on this site.</p>
 
-  <h2>4. Corrections</h2>
-  <p>Got a date, a name or a number wrong? Write through the <a href="contato.html">contact</a> page, preferably with the source. A confirmed error is corrected here, and the correction also applies to whatever comes next on the channel.</p>
+  <h2>5. Review and corrections</h2>
+  <p>Every structure page shows, in the quick facts, the date it was last reviewed. Got a date, a name or a number wrong? Write through the <a href="contato.html">contact</a> page, preferably with the source. A confirmed error is corrected here, and the correction also applies to whatever comes next on the channel.</p>
 
-  <h2>5. Who makes it</h2>
+  <h2>6. Who makes it</h2>
   <p>{{NOME}} is written, researched and maintained independently, with no ties to any university, company or government body. It comes from the same creator as two other projects with the same care for sources: <a href="{{VO}}" rel="noopener">Vestígio Oculto</a>, on archaeology and mystery, and <a href="{{XB}}" rel="noopener">Xadrez Bélico</a>, on battles explained as a chess game (both in Portuguese).</p>
   <p>The site is supported by Google AdSense ads, described in the <a href="privacidade.html">privacy policy</a>. No ad interferes with what is written.</p>
 </div></main>
@@ -1640,7 +1675,7 @@ ACERCA_ES = """<main id="conteudo"><div class="casca privacidade">
   <h1>Acerca de {{NOME}}</h1>
 
   <h2>1. Qué es</h2>
-  <p><strong>Arquitetura do Impossível</strong> (Arquitectura de lo Imposible) es un proyecto editorial independiente, hecho en Brasil, sobre grandes construcciones: cómo una obra que parecía imposible quedó en pie. Cada página de este sitio acompaña un episodio del canal de YouTube, {{CANAL}}, en portugués, y se publica antes del estreno, cuando el episodio todavía está por salir. Va más allá del video: trae la ficha técnica completa, las fuentes, las imágenes con crédito y las divergencias que no caben en un video.</p>
+  <p><strong>Arquitetura do Impossível</strong> (Arquitectura de lo Imposible) es un proyecto editorial independiente, hecho en Brasil, sobre grandes construcciones: cómo una obra que parecía imposible quedó en pie. Cada página de este sitio acompaña un episodio del canal de YouTube, {{CANAL}}, en portugués, pero se lee sin haber visto el video y va más allá de él: trae la ficha técnica completa, las fuentes, las imágenes con crédito y las divergencias que no caben en un video.</p>
   <p>La pregunta es siempre la misma: <em>qué hacía imposible esta obra, y quién lo resolvió</em> —con qué cálculo, con qué material, con qué improvisación—. El protagonista es el problema de ingeniería; las personas entran como quienes lo enfrentaron. Obras de Brasil y del resto del mundo, una por semana.</p>
 
   <h2>2. Cómo se hace una página</h2>
@@ -1652,13 +1687,15 @@ ACERCA_ES = """<main id="conteudo"><div class="casca privacidade">
     <li><strong>Textos íntegramente propios.</strong> Las fuentes quedan listadas al final de cada página.</li>
   </ul>
 
-  <h2>3. Imágenes</h2>
+{{NUMEROS}}
+
+  <h2>4. Imágenes</h2>
   <p>Solo se usan fotografías, planos y documentos reales, de acervos en dominio público o bajo una licencia Creative Commons que permite el uso comercial, con autor y licencia acreditados en cada página. En este sitio no se usan imágenes generadas por IA.</p>
 
-  <h2>4. Correcciones</h2>
-  <p>¿Hay una fecha, un nombre o una cifra equivocados? Escribe a través de la página de <a href="contato.html">contacto</a>, de preferencia con la fuente. El error confirmado se corrige aquí, y la corrección vale también para lo que venga después en el canal.</p>
+  <h2>5. Revisión y correcciones</h2>
+  <p>Cada página de obra muestra, en la ficha rápida, la fecha de la última revisión. ¿Hay una fecha, un nombre o una cifra equivocados? Escribe a través de la página de <a href="contato.html">contacto</a>, de preferencia con la fuente. El error confirmado se corrige aquí, y la corrección vale también para lo que venga después en el canal.</p>
 
-  <h2>5. Quién lo hace</h2>
+  <h2>6. Quién lo hace</h2>
   <p>{{NOME}} se escribe, se investiga y se mantiene de forma independiente, sin vínculo con ninguna universidad, empresa u organismo público. Es del mismo creador de otros dos proyectos con el mismo cuidado por las fuentes: <a href="{{VO}}" rel="noopener">Vestígio Oculto</a>, sobre arqueología y misterio, y <a href="{{XB}}" rel="noopener">Xadrez Bélico</a>, sobre batallas explicadas como una partida de ajedrez (ambos en portugués).</p>
   <p>El sitio se sostiene con anuncios de Google AdSense, descritos en la <a href="privacidade.html">política de privacidad</a>. Ningún anuncio interfiere en lo que se escribe.</p>
 </div></main>
@@ -1710,12 +1747,31 @@ def pagina_privacidade():
             + topo(base) + corpo + rodape(base) + consentimento(base) + SCRIPT)
 
 
+def sobre_numeros():
+    """Seção "O site em números" do Sobre (07/11/2026), contada das fichas a
+    cada build: nada escrito à mão, então nunca envelhece."""
+    obras = [json.loads(f.read_text(encoding="utf-8")) for f in sorted((SRC / "obras").glob("[0-9][0-9]-*.json"))]
+    n = len(obras)
+    fontes = sum(len(o["fontes"]) for o in obras)
+    imagens = sum(len(o["imagens"]) for o in obras)
+    ficha = sum(len(o["ficha"]) for o in obras)
+    c = {k: sum(1 for o in obras for x in o["numeros"] + o["ficha"] if x.get("conf") == k) for k in CONF}
+    if L == "en":
+        return f"""  <h2>3. The site in numbers</h2>
+  <p>Counted from the fact sheets every time the site is built: <strong>{n} structures</strong>, <strong>{fontes} cited sources</strong>, <strong>{imagens} images</strong> with author and license, and <strong>{ficha} fact-sheet lines</strong>. Of the figures and lines that carry a seal, <strong>{c['2+']}</strong> are confirmed in two or more sources, <strong>{c['1']}</strong> rest on a single source, <strong>{c['DIV']}</strong> show sources that disagree and <strong>{c['sem']}</strong> say plainly that nobody recorded it.</p>"""
+    if L == "es":
+        return f"""  <h2>3. El sitio en números</h2>
+  <p>Contados en las fichas cada vez que se genera el sitio: <strong>{n} obras</strong>, <strong>{fontes} fuentes citadas</strong>, <strong>{imagens} imágenes</strong> con autor y licencia, y <strong>{ficha} líneas de ficha</strong>. De las cifras y líneas que llevan sello, <strong>{c['2+']}</strong> están confirmadas en dos o más fuentes, <strong>{c['1']}</strong> se apoyan en una sola, <strong>{c['DIV']}</strong> muestran fuentes que discrepan y <strong>{c['sem']}</strong> dicen claramente que nadie lo registró.</p>"""
+    return f"""  <h2>3. O site em números</h2>
+  <p>Contados nas fichas a cada vez que o site é gerado: <strong>{n} obras</strong>, <strong>{fontes} fontes citadas</strong>, <strong>{imagens} imagens</strong> com autor e licença e <strong>{ficha} linhas de ficha técnica</strong>. Dos números e linhas que levam selo, <strong>{c['2+']}</strong> estão confirmados em duas ou mais fontes, <strong>{c['1']}</strong> vêm de fonte única, <strong>{c['DIV']}</strong> mostram fontes que divergem e <strong>{c['sem']}</strong> dizem com todas as letras que ninguém registrou.</p>"""
+
+
 def pagina_sobre():
     base = "" if L == BASE_IDIOMA else "../"
     canal = f'<a href="{CANAL}" target="_blank" rel="noopener">@ArquiteturadoImpossível</a>' if CANAL else {"en": "on YouTube", "es": "en YouTube"}.get(L, "no YouTube")
     if L in ("en", "es"):
         corpo = {"en": ABOUT_EN, "es": ACERCA_ES}[L].replace("{{CANAL}}", canal).replace("{{NOME}}", NOME) \
-            .replace("{{VO}}", SITE_IRMAO_VO).replace("{{XB}}", SITE_IRMAO_XB)
+            .replace("{{VO}}", SITE_IRMAO_VO).replace("{{XB}}", SITE_IRMAO_XB).replace("{{NUMEROS}}", sobre_numeros())
     else:
         corpo = SOBRE_PT(canal)
     u = url_de(L, "sobre.html")
@@ -1728,12 +1784,13 @@ def pagina_sobre():
 
 
 def SOBRE_PT(canal):
+    NUMEROS = sobre_numeros()
     return f"""<main id="conteudo"><div class="casca privacidade">
   <span class="rotulo">Sobre</span>
   <h1>Sobre o {NOME}</h1>
 
   <h2>1. O que é</h2>
-  <p>O <strong>Arquitetura do Impossível</strong> é um projeto editorial independente, feito no Brasil, sobre grandes construções: como uma obra que parecia impossível ficou de pé. Cada página deste site acompanha um episódio do canal no YouTube, {canal}, e é publicada antes da estreia, quando o episódio ainda está para sair. Vai além do vídeo: traz a ficha técnica completa, as fontes, as imagens com crédito e as divergências que não cabem num vídeo.</p>
+  <p>O <strong>Arquitetura do Impossível</strong> é um projeto editorial independente, feito no Brasil, sobre grandes construções: como uma obra que parecia impossível ficou de pé. Cada página deste site acompanha um episódio do canal no YouTube, {canal}, mas se lê sem ter visto o vídeo e vai além dele: traz a ficha técnica completa, as fontes, as imagens com crédito e as divergências que não cabem num vídeo.</p>
   <p>A pergunta é sempre a mesma: <em>o que tornava esta obra impossível, e quem resolveu</em> — com que conta, com que material, com que improviso. O protagonista é o problema de engenharia; as pessoas entram como quem o enfrentou. Obras do Brasil e do resto do mundo, uma por semana.</p>
 
   <h2>2. Como uma página é feita</h2>
@@ -1745,13 +1802,15 @@ def SOBRE_PT(canal):
     <li><strong>Texto integralmente autoral.</strong> As fontes ficam listadas no fim de cada página.</li>
   </ul>
 
-  <h2>3. Imagens</h2>
+{NUMEROS}
+
+  <h2>4. Imagens</h2>
   <p>Só entram fotografias, plantas e documentos reais, de acervos em domínio público ou sob licença Creative Commons que permite uso comercial, com autor e licença creditados em cada página. Imagem gerada por IA não entra neste site.</p>
 
-  <h2>4. Correções</h2>
-  <p>Errou-se uma data, um nome, um número? Escreva pela página de <a href="contato.html">contato</a>, de preferência com a fonte. O erro confirmado é corrigido aqui, e a correção vale também para o que vier depois no canal.</p>
+  <h2>5. Revisão e correções</h2>
+  <p>Cada página de obra mostra, na ficha rápida, a data da última revisão. Errou-se uma data, um nome, um número? Escreva pela página de <a href="contato.html">contato</a>, de preferência com a fonte. O erro confirmado é corrigido aqui, e a correção vale também para o que vier depois no canal.</p>
 
-  <h2>5. Quem faz</h2>
+  <h2>6. Quem faz</h2>
   <p>O {NOME} é escrito, apurado e mantido de forma independente, sem vínculo com universidade, empresa ou órgão público. É do mesmo criador de outros dois projetos com o mesmo cuidado com a fonte: <a href="{SITE_IRMAO_VO}" rel="noopener">Vestígio Oculto</a>, sobre arqueologia e mistério, e <a href="{SITE_IRMAO_XB}" rel="noopener">Xadrez Bélico</a>, sobre batalhas explicadas como partida.</p>
   <p>O site se mantém com anúncios do Google AdSense, descritos na <a href="privacidade.html">política de privacidade</a>. Nenhum anúncio interfere no que é escrito.</p>
 </div></main>

@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -419,7 +421,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 
     <section class="video">
       <div>
-        <span class="rotulo">Episódio 04 · <span class="selo-estreia" data-estreia="2026-10-29" data-no-ar="no ar">estreia 29 de outubro de 2026</span></span>
+        <span class="rotulo">Episódio 04<span class="selo-estreia" data-estreia="2026-10-29" data-no-ar=" · no ar"> · no ar</span></span>
         <h3>Ponte do Brooklyn: 221 toneladas de arame falso, e ela ainda está de pé</h3>
         <p>Toda semana, uma obra que não deveria ter ficado de pé.</p>
       </div>
@@ -429,7 +431,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <a class="proximo-ep" href="../obras/usina-de-itaipu.html">
       <div class="foto"><picture><source type="image/webp" srcset="../assets/img/05-itaipu-aerea-800.webp 800w, ../assets/img/05-itaipu-aerea.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../assets/img/05-itaipu-aerea.jpg" srcset="../assets/img/05-itaipu-aerea-800.jpg 800w, ../assets/img/05-itaipu-aerea.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1067" alt="Vista aérea da Usina de Itaipu: o vertedouro à esquerda, a barragem em curva e o reservatório ao fundo, com o rio Paraná em primeiro plano" loading="lazy" decoding="async" style="object-position:45% 55%"></picture></div>
       <div class="txt">
-        <span class="rotulo">Próximo episódio · Obra <b>05</b> · <span class="selo-estreia" data-estreia="2026-11-05" data-no-ar="no ar">estreia 05 nov 2026</span></span>
+        <span class="rotulo">Próximo episódio · Obra <b>05</b><span class="selo-estreia" data-estreia="2026-11-05" data-no-ar=" · no ar"> · no ar</span></span>
         <h3>Usina de Itaipu</h3>
         <span class="onde">Rio Paraná, entre Foz do Iguaçu, Brasil, e Hernandarias, Paraguai · 1975–1984</span>
         <p>Tirar o rio Paraná do próprio leito para erguer, no seco, uma barragem de 196 m de altura que pertence em partes iguais a dois países.</p>
@@ -450,7 +452,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
       <dl>
         <div><dt>Onde</dt><dd>East River, entre Manhattan e o Brooklyn, Nova York, Estados Unidos</dd></div>
         <div><dt>Obra</dt><dd>1870–1883</dd></div>
-        <div><dt>Episódio</dt><dd>04 · 29 out 2026</dd></div>
+        <div><dt>Episódio</dt><dd>04</dd></div>
+        <div><dt>Revisão</dt><dd>03 out 2026</dd></div>
       </dl>
     </div>
     <span class="rotulo">Nesta página</span>
@@ -543,7 +546,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

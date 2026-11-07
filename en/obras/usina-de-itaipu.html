@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -413,7 +415,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 
     <section class="video">
       <div>
-        <span class="rotulo">Episode 05 · <span class="selo-estreia" data-estreia="2026-11-05" data-no-ar="out now">premieres November 5, 2026</span></span>
+        <span class="rotulo">Episode 05<span class="selo-estreia" data-estreia="2026-11-05" data-no-ar=" · out now"> · out now</span></span>
         <h3>Itaipu: they moved the river, and in 14 days a waterfall vanished</h3>
         <p>Every week, a structure that should never have stayed standing.</p>
       </div>
@@ -423,7 +425,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
     <a class="proximo-ep" href="../../en/obras/represa-hoover.html">
       <div class="foto"><picture><source type="image/webp" srcset="../../assets/img/06-capa-800.webp 800w, ../../assets/img/06-capa.webp 1600w" sizes="(max-width:640px) 100vw, 260px"><img src="../../assets/img/06-capa.jpg" srcset="../../assets/img/06-capa-800.jpg 800w, ../../assets/img/06-capa.jpg 1600w" sizes="(max-width:640px) 100vw, 260px" width="1600" height="1345" alt="Hoover Dam seen from above, with the curved concrete wall between the rocks of Black Canyon, the power plant at its foot and Lake Mead in the background" loading="lazy" decoding="async" style="object-position:42% 40%"></picture></div>
       <div class="txt">
-        <span class="rotulo">Next episode · Structure <b>06</b> · <span class="selo-estreia" data-estreia="2026-11-12" data-no-ar="out now">premieres Nov 12, 2026</span></span>
+        <span class="rotulo">Next episode · Structure <b>06</b><span class="selo-estreia" data-estreia="2026-11-12" data-no-ar=" · out now" hidden> · out now</span></span>
         <h3>Hoover Dam</h3>
         <span class="onde">Black Canyon, Colorado River, on the Nevada–Arizona line, United States · 1931–1936</span>
         <p>Raising the world&#x27;s tallest dam at the bottom of a desert canyon, with the Colorado River diverted through the mountain and a mass of concrete that, poured all at once, would have taken 125 years to cool.</p>
@@ -444,7 +446,8 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
       <dl>
         <div><dt>Where</dt><dd>Paraná River, between Foz do Iguaçu, Brazil, and Hernandarias, Paraguay</dd></div>
         <div><dt>Structure</dt><dd>1975–1984</dd></div>
-        <div><dt>Episode</dt><dd>05 · Nov 05, 2026</dd></div>
+        <div><dt>Episode</dt><dd>05</dd></div>
+        <div><dt>Last reviewed</dt><dd>Oct 03, 2026</dd></div>
       </dl>
     </div>
     <span class="rotulo">On this page</span>
@@ -537,7 +540,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){

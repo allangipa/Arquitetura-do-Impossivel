@@ -149,6 +149,7 @@ h3{font-size:1.5rem;letter-spacing:.03em}
 .obra-card.apuracao .foto::after{display:none}
 .obra-card.apuracao .foto .num{position:static;font-size:5rem;opacity:.5}
 .selo{display:inline-block;font:500 .68rem/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;padding:.5em .7em;background:var(--ciano-fundo);color:var(--giz);border:1px solid var(--viga)}
+.selo-estreia[hidden]{display:none}
 .selo.no-ar{background:var(--obra);color:var(--ciano);border-color:var(--obra)}
 .metodo .casca{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(2rem,6vw,5rem);align-items:start}
 .metodo p{color:var(--giz-2);max-width:52ch}
@@ -208,6 +209,7 @@ picture{display:contents}
 .ficha td{color:var(--giz-2)}
 .ficha td.c{width:1%;padding-right:0;text-align:right}
 .ficha .nota{display:block;color:var(--concreto);font-size:.86rem;margin-top:.3rem}
+.tema-nums{list-style:none;margin:0;padding:0}.tema-nums li{margin:0 0 .5rem}.tema-nums li:last-child{margin:0}
 @media (max-width:640px){
   .ficha,.ficha tbody,.ficha tr,.ficha th,.ficha td{display:block;width:auto}
   .ficha tr{border-top:1px dashed var(--viga);padding:.85rem 0;display:grid;grid-template-columns:1fr auto;gap:.3rem .8rem}
@@ -406,7 +408,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/01-cristo-redentor-capa-800.webp 800w, assets/img/01-cristo-redentor-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/01-cristo-redentor-capa.jpg" srcset="assets/img/01-cristo-redentor-capa-800.jpg 800w, assets/img/01-cristo-redentor-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1070" alt="Vista aérea do Cristo Redentor no topo do Corcovado, com a cidade e as montanhas da zona sul do Rio ao fundo" loading="lazy" decoding="async" style="object-position:68% 45%"></picture>
     <span class="num">01</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-08" data-no-ar="No ar">Estreia 08 out 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-08" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/cristo-redentor.html">Cristo Redentor</a></h3>
@@ -418,7 +420,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/02-empire-state-capa-800.webp 800w, assets/img/02-empire-state-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/02-empire-state-capa.jpg" srcset="assets/img/02-empire-state-capa-800.jpg 800w, assets/img/02-empire-state-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="2409" alt="O Empire State Building visto do alto, com a antena no topo, entre os prédios de Manhattan numa manhã de névoa" loading="lazy" decoding="async" style="object-position:50% 25%"></picture>
     <span class="num">02</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-15" data-no-ar="No ar">Estreia 15 out 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-15" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/empire-state.html">Empire State Building</a></h3>
@@ -430,7 +432,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/03-ponte-rio-niteroi-capa-800.webp 800w, assets/img/03-ponte-rio-niteroi-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/03-ponte-rio-niteroi-capa.jpg" srcset="assets/img/03-ponte-rio-niteroi-capa-800.jpg 800w, assets/img/03-ponte-rio-niteroi-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Vista aérea da Ponte Rio–Niterói atravessando a baía de Guanabara, com a Ilha de Mocanguê e navios em primeiro plano" loading="lazy" decoding="async" style="object-position:30% 60%"></picture>
     <span class="num">03</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-22" data-no-ar="No ar">Estreia 22 out 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-22" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/ponte-rio-niteroi.html">Ponte Rio–Niterói</a></h3>
@@ -442,7 +444,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/04-capa-800.webp 800w, assets/img/04-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/04-capa.jpg" srcset="assets/img/04-capa-800.jpg 800w, assets/img/04-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1264" alt="Vista aérea do East River com a Ponte do Brooklyn em diagonal no primeiro plano e a Ponte de Manhattan logo atrás" loading="lazy" decoding="async" style="object-position:55% 70%"></picture>
     <span class="num">04</span>
-    <span class="selo selo-estreia" data-estreia="2026-10-29" data-no-ar="No ar">Estreia 29 out 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-10-29" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/ponte-do-brooklyn.html">Ponte do Brooklyn</a></h3>
@@ -454,7 +456,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/05-itaipu-aerea-800.webp 800w, assets/img/05-itaipu-aerea.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/05-itaipu-aerea.jpg" srcset="assets/img/05-itaipu-aerea-800.jpg 800w, assets/img/05-itaipu-aerea.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Vista aérea da Usina de Itaipu: o vertedouro à esquerda, a barragem em curva e o reservatório ao fundo, com o rio Paraná em primeiro plano" loading="lazy" decoding="async" style="object-position:45% 55%"></picture>
     <span class="num">05</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-05" data-no-ar="No ar">Estreia 05 nov 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-05" data-no-ar="No ar">No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/usina-de-itaipu.html">Usina de Itaipu</a></h3>
@@ -466,7 +468,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/06-capa-800.webp 800w, assets/img/06-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/06-capa.jpg" srcset="assets/img/06-capa-800.jpg 800w, assets/img/06-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1345" alt="Represa Hoover vista de cima, com o paredão curvo de concreto entre as rochas do Black Canyon, a usina ao pé e o lago Mead ao fundo" loading="lazy" decoding="async" style="object-position:42% 40%"></picture>
     <span class="num">06</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-12" data-no-ar="No ar">Estreia 12 nov 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-12" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/represa-hoover.html">Represa Hoover</a></h3>
@@ -478,7 +480,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/07-capa-800.webp 800w, assets/img/07-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/07-capa.jpg" srcset="assets/img/07-capa-800.jpg 800w, assets/img/07-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1123" alt="Trilhos em linha reta sobre um pântano alagado, com troncos de palmeira sob a via, homens e cavalos ao fundo e mata baixa dos dois lados" loading="lazy" decoding="async" style="object-position:40% 55%"></picture>
     <span class="num">07</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-19" data-no-ar="No ar">Estreia 19 nov 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-19" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/estrada-de-ferro-madeira-mamore.html">Estrada de Ferro Madeira-Mamoré</a></h3>
@@ -490,7 +492,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/08-capa-800.webp 800w, assets/img/08-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/08-capa.jpg" srcset="assets/img/08-capa-800.jpg 800w, assets/img/08-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1072" alt="Vale profundo e seco aberto entre duas encostas de rocha, com várias linhas de trilho no fundo, uma escavadeira a vapor à direita e guindastes à esquerda" loading="lazy" decoding="async"></picture>
     <span class="num">08</span>
-    <span class="selo selo-estreia" data-estreia="2026-11-26" data-no-ar="No ar">Estreia 26 nov 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-11-26" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/canal-do-panama.html">Canal do Panamá</a></h3>
@@ -502,7 +504,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/09-capa-800.webp 800w, assets/img/09-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/09-capa.jpg" srcset="assets/img/09-capa-800.jpg 800w, assets/img/09-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Ponte pênsil de aço cinza sobre água calma, com uma torre treliçada alta à direita, a corrente descendo em curva até a treliça do vão central e uma praia com pedras em primeiro plano" loading="lazy" decoding="async" style="object-position:68% 45%"></picture>
     <span class="num">09</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-03" data-no-ar="No ar">Estreia 03 dez 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-03" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/ponte-hercilio-luz.html">Ponte Hercílio Luz</a></h3>
@@ -514,7 +516,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/10-capa-800.webp 800w, assets/img/10-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/10-capa.jpg" srcset="assets/img/10-capa-800.jpg 800w, assets/img/10-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1074" alt="Fotografia antiga em preto e branco: os quatro pés inclinados da torre, já unidos pela estrutura do primeiro andar, apoiados numa floresta de andaimes de madeira, atrás do muro de cais do Sena e de árvores sem folhas" loading="lazy" decoding="async"></picture>
     <span class="num">10</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-10" data-no-ar="No ar">Estreia 10 dez 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-10" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/torre-eiffel.html">Torre Eiffel</a></h3>
@@ -526,7 +528,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/11-camara-em-obra-1959-800.webp 800w, assets/img/11-camara-em-obra-1959.webp 1431w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/11-camara-em-obra-1959.jpg" srcset="assets/img/11-camara-em-obra-1959-800.jpg 800w, assets/img/11-camara-em-obra-1959.jpg 1431w" sizes="(max-width:720px) 100vw, 400px" width="1431" height="1428" alt="Fotografia antiga em preto e branco: a cúpula côncava da Câmara coberta de andaimes de tubos, sobre a laje da plataforma sustentada por pilotis e fachada de vidro; atrás, o esqueleto de uma das torres em construção" loading="lazy" decoding="async" style="object-position:55% 50%"></picture>
     <span class="num">11</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-17" data-no-ar="No ar">Estreia 17 dez 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-17" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/congresso-nacional.html">Congresso Nacional</a></h3>
@@ -538,7 +540,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/12-capa-800.webp 800w, assets/img/12-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/12-capa.jpg" srcset="assets/img/12-capa-800.jpg 800w, assets/img/12-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1000" alt="Ponte pênsil laranja sob céu azul, com uma torre alta sobre uma base de concreto no mar, os cabos descendo em curva até a segunda torre ao fundo, morros verdes e marrons atrás e um forte de tijolos em primeiro plano" loading="lazy" decoding="async" style="object-position:52% 45%"></picture>
     <span class="num">12</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-24" data-no-ar="No ar">Estreia 24 dez 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-24" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/golden-gate.html">Ponte Golden Gate</a></h3>
@@ -550,7 +552,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/13-capa-800.webp 800w, assets/img/13-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/13-capa.jpg" srcset="assets/img/13-capa-800.jpg 800w, assets/img/13-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="951" alt="Fotografia antiga em sépia: uma ferrovia de via dupla corre em curva numa encosta íngreme, com muro de pedra à esquerda, um túnel ao fundo, postes de telégrafo e o vale coberto de névoa à direita" loading="lazy" decoding="async" style="object-position:42% 60%"></picture>
     <span class="num">13</span>
-    <span class="selo selo-estreia" data-estreia="2026-12-31" data-no-ar="No ar">Estreia 31 dez 2026</span>
+    <span class="selo selo-estreia" data-estreia="2026-12-31" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/santos-jundiai.html">Estrada de Ferro Santos–Jundiaí</a></h3>
@@ -562,7 +564,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/14-capa-800.webp 800w, assets/img/14-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/14-capa.jpg" srcset="assets/img/14-capa-800.jpg 800w, assets/img/14-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Tuneladora branca e cilíndrica exposta num jardim de rotatória, com a cabeça de corte vermelha em forma de roda à esquerda e a inscrição em francês Hommage aux bâtisseurs du tunnel no corpo" loading="lazy" decoding="async" style="object-position:30% 50%"></picture>
     <span class="num">14</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-07" data-no-ar="No ar">Estreia 07 jan 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-07" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/eurotunel.html">Eurotúnel</a></h3>
@@ -574,7 +576,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/15-capa-800.webp 800w, assets/img/15-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/15-capa.jpg" srcset="assets/img/15-capa-800.jpg 800w, assets/img/15-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="Caixa de vidro escuro e concreto suspensa sobre a calçada, presa entre dois grandes pórticos vermelhos, com pedestres passando por baixo e prédios altos ao fundo" loading="lazy" decoding="async" style="object-position:55% 50%"></picture>
     <span class="num">15</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-14" data-no-ar="No ar">Estreia 14 jan 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-14" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/masp.html">MASP</a></h3>
@@ -586,7 +588,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/16-capa-800.webp 800w, assets/img/16-capa.webp 1280w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/16-capa.jpg" srcset="assets/img/16-capa-800.jpg 800w, assets/img/16-capa.jpg 1280w" sizes="(max-width:720px) 100vw, 400px" width="1280" height="857" alt="Vista aérea de uma torre altíssima em construção, ainda sem fachada no topo, projetando uma sombra comprida sobre um bairro de prédios novos, canteiros e o deserto ao fundo" loading="lazy" decoding="async" style="object-position:34% 50%"></picture>
     <span class="num">16</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-21" data-no-ar="No ar">Estreia 21 jan 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-21" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/burj-khalifa.html">Burj Khalifa</a></h3>
@@ -598,7 +600,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/17-capa-800.webp 800w, assets/img/17-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/17-capa.jpg" srcset="assets/img/17-capa-800.jpg 800w, assets/img/17-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1098" alt="Vista aérea colorida de um estádio oval de concreto com o campo verde no centro, arquibancadas cheias e uma marquise contínua dividida em gomos claros em toda a volta; ao fundo, um ginásio de cúpula redonda e prédios da cidade" loading="lazy" decoding="async" style="object-position:50% 50%"></picture>
     <span class="num">17</span>
-    <span class="selo selo-estreia" data-estreia="2027-01-28" data-no-ar="No ar">Estreia 28 jan 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-01-28" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/maracana.html">Estádio do Maracanã</a></h3>
@@ -610,7 +612,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/18-capa-800.webp 800w, assets/img/18-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/18-capa.jpg" srcset="assets/img/18-capa-800.jpg 800w, assets/img/18-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Farol branco de pedra com lanterna escura no topo e base larga e escura, sobre um recife baixo quase rente à água calma, sob céu cinza-azulado" loading="lazy" decoding="async" style="object-position:31% 50%"></picture>
     <span class="num">18</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-04" data-no-ar="No ar">Estreia 04 fev 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-04" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/farol-de-bell-rock.html">Farol de Bell Rock</a></h3>
@@ -622,7 +624,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="brasil">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/19-capa-800.webp 800w, assets/img/19-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/19-capa.jpg" srcset="assets/img/19-capa-800.jpg 800w, assets/img/19-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="2230" alt="Prédio alto e largo de fachada rosada, com quatro blocos escalonados e coroamento claro com pináculos, visto de baixo de uma rua de pedestres com palmeiras e um relógio de rua" loading="lazy" decoding="async" style="object-position:45% 30%"></picture>
     <span class="num">19</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-11" data-no-ar="No ar">Estreia 11 fev 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-11" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/edificio-martinelli.html">Edifício Martinelli</a></h3>
@@ -634,7 +636,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/20-capa-800.webp 800w, assets/img/20-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/20-capa.jpg" srcset="assets/img/20-capa-800.jpg 800w, assets/img/20-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1077" alt="Gravura antiga em preto e branco: galeria de tijolo em arco que se perde ao fundo, com arcadas laterais iluminadas por lampiões, pedestres de cartola e dois homens puxando uma carreta no piso de pedra" loading="lazy" decoding="async"></picture>
     <span class="num">20</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-18" data-no-ar="No ar">Estreia 18 fev 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-18" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/tunel-do-tamisa.html">Túnel do Tâmisa</a></h3>
@@ -646,7 +648,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/21-capa-800.webp 800w, assets/img/21-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/21-capa.jpg" srcset="assets/img/21-capa-800.jpg 800w, assets/img/21-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="853" alt="Ponte de três arcos de aço escuro sobre um rio largo, com pilares de pedra, um trem azul passando no tabuleiro inferior, céu limpo e margem coberta de neve em primeiro plano" loading="lazy" decoding="async" style="object-position:45% 45%"></picture>
     <span class="num">21</span>
-    <span class="selo selo-estreia" data-estreia="2027-02-25" data-no-ar="No ar">Estreia 25 fev 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-02-25" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/ponte-eads.html">Ponte Eads</a></h3>
@@ -658,7 +660,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/22-capa-800.webp 800w, assets/img/22-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/22-capa.jpg" srcset="assets/img/22-capa-800.jpg 800w, assets/img/22-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1103" alt="Ponte de aço vermelha com três grandes estruturas em losango sobre água calma que as reflete, um pilar de pedra à direita e um trem atravessando o viaduto sob céu azul" loading="lazy" decoding="async" style="object-position:50% 55%"></picture>
     <span class="num">22</span>
-    <span class="selo selo-estreia" data-estreia="2027-03-04" data-no-ar="No ar">Estreia 04 mar 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-03-04" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/ponte-de-forth.html">Ponte de Forth</a></h3>
@@ -670,7 +672,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/23-capa-800.webp 800w, assets/img/23-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/23-capa.jpg" srcset="assets/img/23-capa-800.jpg 800w, assets/img/23-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="2133" alt="Prédio estreito e alto de fachada clara, visto de baixo a partir da esquina, com base de pedra, fileiras regulares de janelas e uma cornija saliente no topo, contra céu azul" loading="lazy" decoding="async" style="object-position:50% 35%"></picture>
     <span class="num">23</span>
-    <span class="selo selo-estreia" data-estreia="2027-03-11" data-no-ar="No ar">Estreia 11 mar 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-03-11" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/edificio-ingalls.html">Edifício Ingalls</a></h3>
@@ -682,7 +684,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/24-capa-800.webp 800w, assets/img/24-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/24-capa.jpg" srcset="assets/img/24-capa-800.jpg 800w, assets/img/24-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1181" alt="Fotograma antigo em preto e branco: a pista da ponte inclinada e torcida, com um carro parado e inclinado no meio, postes de luz tortos e os pendurais verticais dos dois lados" loading="lazy" decoding="async" style="object-position:55% 60%"></picture>
     <span class="num">24</span>
-    <span class="selo selo-estreia" data-estreia="2027-03-18" data-no-ar="No ar">Estreia 18 mar 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-03-18" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/ponte-de-tacoma-narrows.html">Ponte de Tacoma Narrows</a></h3>
@@ -694,7 +696,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/25-cristal-de-ferro-800.webp 800w, assets/img/25-cristal-de-ferro.webp 999w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/25-cristal-de-ferro.jpg" srcset="assets/img/25-cristal-de-ferro-800.jpg 800w, assets/img/25-cristal-de-ferro.jpg 999w" sizes="(max-width:720px) 100vw, 400px" width="999" height="931" alt="Diagrama em cinza sobre fundo branco: oito esferas nos vértices de um cubo e uma nona no centro, ligadas por barras, as quatro diagonais cruzando no meio" loading="lazy" decoding="async"></picture>
     <span class="num">25</span>
-    <span class="selo selo-estreia" data-estreia="2027-03-25" data-no-ar="No ar">Estreia 25 mar 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-03-25" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/atomium.html">Atomium</a></h3>
@@ -706,7 +708,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/26-capa-800.webp 800w, assets/img/26-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/26-capa.jpg" srcset="assets/img/26-capa-800.jpg 800w, assets/img/26-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1228" alt="Vista aérea de um estádio redondo de cúpula baixa e clara no meio de um estacionamento vazio enorme, com bairros e rodovias de Houston ao fundo sob céu azul" loading="lazy" decoding="async" style="object-position:60% 58%"></picture>
     <span class="num">26</span>
-    <span class="selo selo-estreia" data-estreia="2027-04-01" data-no-ar="No ar">Estreia 01 abr 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-04-01" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/astrodome.html">Astrodome</a></h3>
@@ -718,7 +720,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/27-capa-800.webp 800w, assets/img/27-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/27-capa.jpg" srcset="assets/img/27-capa-800.jpg 800w, assets/img/27-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1009" alt="Fotografia colorida de 1972: o teto transparente do estádio, de cabos e placas, pendurado em mastros altos e inclinados, sobre uma arquibancada de concreto; em primeiro plano, uma pista de atletismo vermelha e uma rua com ônibus" loading="lazy" decoding="async" style="object-position:50% 40%"></picture>
     <span class="num">27</span>
-    <span class="selo selo-estreia" data-estreia="2027-04-08" data-no-ar="No ar">Estreia 08 abr 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-04-08" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/estadio-olimpico-de-munique.html">Estádio Olímpico de Munique</a></h3>
@@ -730,7 +732,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/28-capa-800.webp 800w, assets/img/28-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/28-capa.jpg" srcset="assets/img/28-capa-800.jpg 800w, assets/img/28-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1067" alt="A Ópera de Sydney vista do alto, de dia: conchas brancas sobre um pódio cor de areia na beira do porto, água azul em volta, um barco vermelho deixando rastro de espuma e a cidade ao fundo" loading="lazy" decoding="async" style="object-position:50% 55%"></picture>
     <span class="num">28</span>
-    <span class="selo selo-estreia" data-estreia="2027-04-15" data-no-ar="No ar">Estreia 15 abr 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-04-15" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/opera-de-sydney.html">Ópera de Sydney</a></h3>
@@ -742,7 +744,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/29-capa-800.webp 800w, assets/img/29-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/29-capa.jpg" srcset="assets/img/29-capa-800.jpg 800w, assets/img/29-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="971" alt="Plataforma de gás no mar calmo ao entardecer, com quatro colunas de concreto claras saindo da água e um convés cheio de módulos, guindaste e torre, à direita de um céu amplo" loading="lazy" decoding="async" style="object-position:70% 60%"></picture>
     <span class="num">29</span>
-    <span class="selo selo-estreia" data-estreia="2027-04-22" data-no-ar="No ar">Estreia 22 abr 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-04-22" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/plataforma-troll-a.html">Plataforma Troll A</a></h3>
@@ -754,7 +756,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/30-capa-800.webp 800w, assets/img/30-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/30-capa.jpg" srcset="assets/img/30-capa-800.jpg 800w, assets/img/30-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="900" alt="Grande estrutura de aço cinza-clara com dois braços curvos girando ao lado de um aqueduto de concreto sustentado por pilares em forma de anel; uma gôndola com barco está a meio caminho, e há um prédio de telhado inclinado à direita e pessoas olhando de um gramado" loading="lazy" decoding="async" style="object-position:55% 50%"></picture>
     <span class="num">30</span>
-    <span class="selo selo-estreia" data-estreia="2027-04-29" data-no-ar="No ar">Estreia 29 abr 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-04-29" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/roda-de-falkirk.html">Roda de Falkirk</a></h3>
@@ -766,7 +768,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/31-capa-800.webp 800w, assets/img/31-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/31-capa.jpg" srcset="assets/img/31-capa-800.jpg 800w, assets/img/31-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Dentro de um túnel de rocha coberta de concreto projetado, a enorme cabeça de corte circular de uma tuneladora, cor de ferrugem, cheia de aberturas; um operário de capacete e macacão está em pé ao lado dela, à altura de um quarto do disco" loading="lazy" decoding="async"></picture>
     <span class="num">31</span>
-    <span class="selo selo-estreia" data-estreia="2027-05-06" data-no-ar="No ar">Estreia 06 mai 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-05-06" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/tunel-de-base-de-sao-gotardo.html">Túnel de Base de São Gotardo</a></h3>
@@ -778,7 +780,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/32-capa-800.webp 800w, assets/img/32-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/32-capa.jpg" srcset="assets/img/32-capa-800.jpg 800w, assets/img/32-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="1200" alt="Vista aérea de uma ponte estaiada com viga em treliça vermelha entre duas torres brancas, passando muito acima de um desfiladeiro verde, com um rio estreito no fundo" loading="lazy" decoding="async"></picture>
     <span class="num">32</span>
-    <span class="selo selo-estreia" data-estreia="2027-05-13" data-no-ar="No ar">Estreia 13 mai 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-05-13" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/ponte-de-duge.html">Ponte de Duge</a></h3>
@@ -790,7 +792,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
 <li class="obra-card revela" data-regiao="mundo">
   <div class="foto"><picture><source type="image/webp" srcset="assets/img/33-capa-800.webp 800w, assets/img/33-capa.webp 1600w" sizes="(max-width:720px) 100vw, 400px"><img src="assets/img/33-capa.jpg" srcset="assets/img/33-capa-800.jpg 800w, assets/img/33-capa.jpg 1600w" sizes="(max-width:720px) 100vw, 400px" width="1600" height="2428" alt="Torre muito fina e alta, de faces envidraçadas que se estreitam em degraus até a ponta, erguendo-se acima das árvores do Central Park sob céu nublado, com o letreiro do hotel Essex House num prédio à direita" loading="lazy" decoding="async" style="object-position:45% 25%"></picture>
     <span class="num">33</span>
-    <span class="selo selo-estreia" data-estreia="2027-05-20" data-no-ar="No ar">Estreia 20 mai 2027</span>
+    <span class="selo selo-estreia" data-estreia="2027-05-20" data-no-ar="No ar" hidden>No ar</span>
   </div>
   <div class="corpo">
     <h3><a href="obras/111-west-57th-street.html">111 West 57th Street</a></h3>
@@ -907,7 +909,7 @@ a.proximo-ep:hover{border-color:var(--obra);background:var(--ciano-3);color:var(
   var hoje=new Date();hoje.setHours(0,0,0,0);
   document.querySelectorAll('[data-estreia]').forEach(function(el){
     var p=el.getAttribute('data-estreia').split('-'),d=new Date(+p[0],p[1]-1,+p[2]);
-    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');}
+    if(d<=hoje){el.textContent=el.getAttribute('data-no-ar')||'No ar';el.classList.add('no-ar');el.hidden=false;}
   });
   var fs=document.querySelectorAll('.filtros button'),cs=document.querySelectorAll('.obra-card');
   fs.forEach(function(b){b.addEventListener('click',function(){
